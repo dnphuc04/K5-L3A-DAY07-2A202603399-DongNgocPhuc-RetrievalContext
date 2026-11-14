@@ -1,0 +1,128 @@
+[
+  {
+    "id": "d7-test-a01",
+    "split": "test",
+    "answerable": true,
+    "type": "direct",
+    "question": "Theo báo cáo, khi gửi dữ liệu JSON trong thân yêu cầu API, header khai báo kiểu nội dung có tên và giá trị gì?",
+    "expected_answer": "Content-Type: application/json.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 18,
+        "evidence": "Trong giao tiếp API, dữ liệu JSON thường được đặt trong phần thân yêu cầu hoặc phản hồi, với kiểu nội dung được khai báo bằng header Content-Type: application/json."
+      }
+    ],
+    "grading_notes": "Cần đúng tên header và giá trị; Authorization/Bearer là sai."
+  },
+  {
+    "id": "d7-test-a02",
+    "split": "test",
+    "answerable": true,
+    "type": "condition",
+    "question": "Theo báo cáo, đăng nhập thành công có đồng nghĩa với quyền sử dụng mọi chức năng không? Giải thích vai trò của authentication và authorization.",
+    "expected_answer": "Không. Authentication kiểm tra danh tính; authorization xác định quyền truy cập tài nguyên hoặc thực hiện thao tác cụ thể.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 25,
+        "evidence": "Xác thực (authentication) là quá trình kiểm tra danh tính của chủ thể gửi yêu cầu, chẳng hạn đối chiếu tên đăng nhập và mật khẩu. Phân quyền (authorization) xác định chủ thể đã được phép truy cập tài nguyên hoặc thực hiện thao tác cụ thể hay chưa. Hai bước có vai trò khác nhau: đăng nhập thành công không đồng nghĩa với quyền sử dụng mọi chức năng của hệ thống."
+      }
+    ],
+    "grading_notes": "Cần nêu không và phân biệt đủ hai vai trò; không chuyển thành câu về phạm vi ADMIN."
+  },
+  {
+    "id": "d7-test-a03",
+    "split": "test",
+    "answerable": true,
+    "type": "direct",
+    "question": "Trong phần thiết kế dữ liệu của báo cáo, Entity dùng kiểu nào cho khóa chính, điểm và tín chỉ; enum được lưu theo dạng nào?",
+    "expected_answer": "Khóa chính dùng Long; điểm và tín chỉ dùng BigDecimal; enum lưu dạng chuỗi.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 49,
+        "evidence": "Entity sử dụng Long cho khóa chính, BigDecimal cho điểm và tín chỉ; enum được lưu dưới dạng chuỗi."
+      }
+    ],
+    "grading_notes": "Cần đủ cả ba nhóm, không yêu cầu mô tả quy tắc làm tròn CPA."
+  },
+  {
+    "id": "d7-test-a04",
+    "split": "test",
+    "answerable": true,
+    "type": "direct",
+    "question": "Theo bảng endpoint trong báo cáo, muốn đổi tên một phương án thời khóa biểu thì gọi phương thức HTTP và đường dẫn nào?",
+    "expected_answer": "PUT /api/me/timetables/{id}/name.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 52,
+        "evidence": "PUT /api/me/timetables/{id}/name Đổi tên phương án."
+      }
+    ],
+    "grading_notes": "Cần PUT và đường dẫn có /name; chấp nhận tên biến ID tương đương."
+  },
+  {
+    "id": "d7-test-a05",
+    "split": "test",
+    "answerable": true,
+    "type": "condition",
+    "question": "Theo báo cáo, chỉ viết prompt thật chi tiết có đủ để mô hình tự đọc tệp khi môi trường chưa cấp công cụ và quyền tương ứng không?",
+    "expected_answer": "Không. Prompt chi tiết không tự cấp khả năng đọc tệp; môi trường phải cung cấp công cụ và quyền tương ứng.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 33,
+        "evidence": "Một prompt chi tiết không tự giúp mô hình đọc tệp nếu môi trường chưa cung cấp công cụ và quyền tương ứng."
+      }
+    ],
+    "grading_notes": "Cần nêu không và đủ điều kiện công cụ + quyền; khác câu hỏi Day 6 về vai trò harness."
+  },
+  {
+    "id": "d7-test-u01",
+    "split": "test",
+    "answerable": false,
+    "question": "Theo corpus báo cáo thực tập đã index, dung lượng tối đa tính bằng MB của một tệp Excel bảng điểm được phép tải lên là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Các trang 49 và 53 mô tả xem trước/xác nhận Excel nhưng không công bố giới hạn tải lên tính bằng MB. Rà soát toàn bộ 33 trang, không suy từ cấu hình mặc định Spring Boot.",
+    "absence_check": {
+      "terms": [
+        "excel",
+        "dung lượng",
+        "upload",
+        "multipart",
+        "mb",
+        "kích thước"
+      ],
+      "related_pages": [
+        49,
+        53
+      ],
+      "missing_fact": "Giới hạn dung lượng tệp Excel tính bằng MB"
+    }
+  },
+  {
+    "id": "d7-test-u02",
+    "split": "test",
+    "answerable": false,
+    "question": "Theo corpus báo cáo thực tập đã index, kiểm thử tải đã đo được HUMG Study Guide phục vụ tối đa bao nhiêu người dùng đồng thời?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 67 nói về kiểm thử chức năng, trang 79 thừa nhận cần học thêm tối ưu hiệu năng và vận hành; không có phép đo số người dùng đồng thời trong corpus 33 trang. Không suy số liệu từ kiểm thử chức năng hoặc thống kê tài khoản.",
+    "absence_check": {
+      "terms": [
+        "đồng thời",
+        "kiểm thử tải",
+        "hiệu năng",
+        "load",
+        "jmeter",
+        "người dùng"
+      ],
+      "related_pages": [
+        67,
+        79
+      ],
+      "missing_fact": "Số người dùng đồng thời tối đa đo bằng kiểm thử tải"
+    }
+  }
+]

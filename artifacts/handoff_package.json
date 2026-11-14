@@ -1,0 +1,11 @@
+{
+  "path": "data/local/day6_handoff.zip",
+  "sha256": "3215f46debb4b1e01c3421a7c36c82401bb466e1aade31ba54bb11f2c66f063d",
+  "bytes": 6026295,
+  "files": 41,
+  "rows": 65,
+  "credentials_included": false,
+  "sharing_permission": "full evidence submission authorized in submission_permission.json",
+  "uploaded": false,
+  "submission_path": "data/submission/day6_handoff.zip"
+}

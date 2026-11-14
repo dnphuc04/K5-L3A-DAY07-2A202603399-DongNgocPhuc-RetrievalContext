@@ -1,0 +1,93 @@
+{
+  "split": "dev",
+  "queries_per_method": 17,
+  "methods": {
+    "dense": {
+      "attempted": 17,
+      "statuses": {
+        "answered": 15,
+        "abstain": 2
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "search_count_distribution": {
+        "1": 15,
+        "2": 2
+      },
+      "model_calls": 36,
+      "median_ms": 3069.8066000004474,
+      "usage": {
+        "prompt_tokens": 38304,
+        "completion_tokens": 2552,
+        "total_tokens": 40856
+      },
+      "embedding_usage": {
+        "api_requests": 2,
+        "prompt_tokens": 30,
+        "cache_hits": 17
+      },
+      "answers_with_citation": 15
+    },
+    "bm25": {
+      "attempted": 17,
+      "statuses": {
+        "answered": 15,
+        "abstain": 2
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "search_count_distribution": {
+        "1": 16,
+        "2": 1
+      },
+      "model_calls": 35,
+      "median_ms": 2762.7871000004234,
+      "usage": {
+        "prompt_tokens": 37679,
+        "completion_tokens": 2470,
+        "total_tokens": 40149
+      },
+      "embedding_usage": {
+        "api_requests": 0,
+        "prompt_tokens": 0,
+        "cache_hits": 0
+      },
+      "answers_with_citation": 15
+    },
+    "hybrid_rrf": {
+      "attempted": 17,
+      "statuses": {
+        "answered": 15,
+        "abstain": 2
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "search_count_distribution": {
+        "1": 16,
+        "2": 1
+      },
+      "model_calls": 35,
+      "median_ms": 2926.8942000016978,
+      "usage": {
+        "prompt_tokens": 37098,
+        "completion_tokens": 2517,
+        "total_tokens": 39615
+      },
+      "embedding_usage": {
+        "api_requests": 1,
+        "prompt_tokens": 29,
+        "cache_hits": 17
+      },
+      "answers_with_citation": 15
+    }
+  },
+  "cost_usd": null,
+  "cost_note": "Actual token usage reported; monetary cost not yet verified against billing.",
+  "quality_note": "Operational summary only; semantic answer/citation/abstention labels require separate review."
+}

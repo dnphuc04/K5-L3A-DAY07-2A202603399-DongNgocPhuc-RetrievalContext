@@ -1,0 +1,276 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo Chương 1, JITS Innovation Labs tập trung phát triển giải pháp cho lĩnh vực nào?",
+    "answerable": true,
+    "expected_answer": "Công nghệ tài chính và ngân hàng.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 12,
+        "evidence": "Công ty TNHH JITS Innovation Labs là doanh nghiệp hoạt động trong lĩnh vực phát triển phần mềm, tập trung vào các giải pháp công nghệ tài chính và ngân hàng."
+      }
+    ],
+    "filter": {
+      "chapter": "chapter_1"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Ứng dụng demo trong báo cáo được đặt tên là gì?",
+    "answerable": true,
+    "expected_answer": "HUMG Study Guide.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 14,
+        "evidence": "Ứng dụng được đặt tên là “HUMG Study Guide”."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Spring Boot hỗ trợ đơn giản hóa việc khởi tạo và chạy ứng dụng bằng những cơ chế nào?",
+    "answerable": true,
+    "expected_answer": "Tự động cấu hình, các starter và máy chủ web nhúng.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 20,
+        "evidence": "Spring Boot cung cấp cơ chế tự động cấu hình, các nhóm thư viện phụ thuộc được đóng gói dưới dạng starter và khả năng chạy ứng dụng với máy chủ web nhúng."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Migration có phiên bản của Flyway được đặt tên và thực thi như thế nào?",
+    "answerable": true,
+    "expected_answer": "Tên V<phiên_bản>__<mô_tả>.sql; mỗi phiên bản duy nhất và chạy theo thứ tự phiên bản.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 21,
+        "evidence": "Flyway hỗ trợ migration có phiên bản với tên tệp theo dạng V<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực hiện theo thứ tự phiên bản."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "JPA, Hibernate và Spring Data JPA khác nhau về vai trò như thế nào?",
+    "answerable": true,
+    "expected_answer": "JPA là đặc tả; Hibernate triển khai ORM; Spring Data JPA hỗ trợ Repository trên nền JPA.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 22,
+        "evidence": "JPA, hiện thuộc Jakarta Persistence, là đặc tả quy định cách ánh xạ và quản lý dữ liệu bền vững cho đối tượng Java. Hibernate là một công cụ ORM triển khai đặc tả này. Spring Data JPA xây dựng lớp hỗ trợ Repository trên nền JPA nhằm giảm mã truy cập dữ liệu. Vì vậy, ba thành phần có vai trò khác nhau: JPA đưa ra quy ước, Hibernate thực hiện ánh xạ và Spring Data JPA hỗ trợ tổ chức thao tác dữ liệu."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Khi sửa Entity, tại sao phải đối chiếu migration nếu dự án dùng ddl-auto=validate?",
+    "answerable": true,
+    "expected_answer": "Hibernate kiểm tra Entity với schema; Flyway quản lý thay đổi schema, nên cần migration tương ứng để tránh lệch cấu trúc.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 23,
+        "evidence": "Hibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với schema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản lý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với migration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "BCrypt có cho phép giải mã để khôi phục mật khẩu gốc không?",
+    "answerable": true,
+    "expected_answer": "Không; mật khẩu được băm một chiều, không phải mã hóa có thể giải mã.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 26,
+        "evidence": "Mật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần. PasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với giá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí làm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể giải mã để lấy lại mật khẩu gốc."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Client gửi JWT trong header nào và theo định dạng gì?",
+    "answerable": true,
+    "expected_answer": "Authorization: Bearer <token>.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 27,
+        "evidence": "Client gửi token trong header Authorization theo dạng Bearer <token>."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Theo phần cơ sở lý thuyết ở Chương 2, CPA được làm tròn và lưu chi tiết ra sao để hạn chế sai số tính tiếp?",
+    "answerable": true,
+    "expected_answer": "Dùng BigDecimal và HALF_UP; hiển thị 2 chữ số, giữ chi tiết 4 chữ số; dùng tổng điểm trọng số trực tiếp, không nhân ngược CPA đã làm tròn.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 28,
+        "evidence": "Các phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân và quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân và giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho tính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ."
+      }
+    ],
+    "filter": {
+      "chapter": "chapter_2"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Nếu điểm trung bình cần đạt R lớn hơn 4 thì việc chỉ học các tín chỉ còn lại có đủ đạt CPA mục tiêu không?",
+    "answerable": true,
+    "expected_answer": "Không; cần cân nhắc học cải thiện các học phần đã tích lũy.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 29,
+        "evidence": "Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu; sinh viên cần cân nhắc học cải thiện các học phần đã tích lũy."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Những dữ liệu nào không được đưa vào yêu cầu gửi AI trong quy trình của đề tài?",
+    "answerable": true,
+    "expected_answer": "Mật khẩu, khóa ký JWT, token truy cập và bảng điểm cá nhân; minh họa lỗi bằng dữ liệu giả đã loại thông tin nhạy cảm.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 32,
+        "evidence": "Trong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập hoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu giả và loại bỏ thông tin nhạy cảm."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Vì sao việc nhập bảng điểm Excel được tách thành xem trước và xác nhận?",
+    "answerable": true,
+    "expected_answer": "Để kiểm tra dữ liệu, phát hiện thông tin chưa phù hợp, chọn dòng cần nhập và tránh lưu ngay toàn bộ dữ liệu vừa đọc.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 53,
+        "evidence": "Dữ liệu từ bảng điểm được chuyển thành các dòng kết quả để người dùng kiểm tra trước khi lưu. Việc tách xem trước và xác nhận giúp người dùng phát hiện thông tin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu vừa đọc."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Khi một mã học phần có nhiều lần học bằng điểm, hệ thống chọn kết quả tính CPA như thế nào?",
+    "answerable": true,
+    "expected_answer": "Chọn điểm đạt cao nhất; nếu bằng điểm thì chọn theo năm học và học kỳ mới hơn.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 56,
+        "evidence": "Mỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp bằng điểm được phân xử theo năm học và học kỳ mới hơn."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Giao diện HUMG Study Guide có những tệp trang nào và auth.html chứa các trạng thái nào?",
+    "answerable": true,
+    "expected_answer": "index.html, cpa.html, timetable.html, auth.html và admin.html; auth.html chứa đăng nhập và đăng ký.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 57,
+        "evidence": "Giao diện hiện có năm tệp trang: index.html hiển thị thông tin cá nhân, cpa.html tập trung kết quả học tập và CPA, timetable.html phục vụ lập lịch, auth.html chứa hai trạng thái đăng nhập và đăng ký, admin.html phục vụ quản trị."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Các màn hình frontend được chuyển sang Figma dưới dạng gì và được dùng để làm gì?",
+    "answerable": true,
+    "expected_answer": "Các lớp có thể chỉnh sửa; dùng xem xét bố cục, trình bày thành phần và làm cơ sở điều chỉnh giao diện.",
+    "gold": [
+      {
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "page": 64,
+        "evidence": "Em sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma dưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời khóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục, trình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "d7-dev-u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "Trong corpus báo cáo thực tập đã index, BCrypt của HUMG Study Guide được cấu hình cost factor cụ thể bằng bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 26 giải thích BCrypt có tham số chi phí nhưng không nêu giá trị cấu hình cụ thể của ứng dụng. Rà soát toàn bộ 33 trang được index, không chỉ top-k; không được suy từ giá trị mặc định thư viện.",
+    "absence_check": {
+      "terms": [
+        "bcrypt",
+        "cost",
+        "strength",
+        "chi phí",
+        "passwordencoder"
+      ],
+      "related_pages": [
+        26
+      ],
+      "missing_fact": "Giá trị cost factor cụ thể được cấu hình cho ứng dụng"
+    }
+  },
+  {
+    "id": "d7-dev-u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "Theo corpus báo cáo thực tập đã index, JWT của HUMG Study Guide hết hạn sau chính xác bao nhiêu phút kể từ khi phát hành?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 27 yêu cầu kiểm tra thời hạn và issuer theo cấu hình nhưng không công bố thời lượng JWT. Rà soát toàn bộ corpus 33 trang để tìm cấu hình thời hạn; không lấy con số mặc định hoặc phỏng đoán.",
+    "absence_check": {
+      "terms": [
+        "jwt",
+        "token",
+        "hết hạn",
+        "thời hạn",
+        "expiration",
+        "ttl",
+        "phút"
+      ],
+      "related_pages": [
+        26,
+        27
+      ],
+      "missing_fact": "Thời lượng token JWT tính bằng phút"
+    }
+  }
+]

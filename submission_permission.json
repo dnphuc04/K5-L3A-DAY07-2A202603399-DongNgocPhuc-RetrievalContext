@@ -1,0 +1,14 @@
+{
+  "profile": "full_lab_evidence",
+  "authorized_on": "2026-11-14",
+  "user_instruction": "cứ nộp đầy đủ các file để làm bằng chứng cũng được, tôi cho phép",
+  "scope": [
+    "personal lab report and supporting documentation",
+    "benchmark inputs, gold answers and evidence excerpts",
+    "retrieval/agent traces, context, answers, citations and reviews",
+    "configuration, metrics, audit records and frozen receipts",
+    "source PDF, chunks, vectors and query cache in the reviewed Day 6 handoff ZIP"
+  ],
+  "always_excluded": ["API keys", "live credential/DSN files", "private keys", ".git", "local scratch/venv files"],
+  "note": "Records the user's authorization to include evidence. Does not claim an upload, push, instructor invitation or final portal submission has occurred."
+}

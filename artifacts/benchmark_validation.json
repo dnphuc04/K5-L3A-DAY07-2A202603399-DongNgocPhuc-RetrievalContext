@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2,
+      "total": 17
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2,
+      "total": 7
+    }
+  },
+  "files_sha256": {
+    "benchmarks/dev.gold.json": "9dabc9f2ac01f81ed157036564eb4740db7db6f3d6bc328a180063f76b711f52",
+    "benchmarks/dev.inputs.json": "eff0138d1df06d563ec2f06ac67e298d7fd7c7ba624fff36630dad697ffc978c",
+    "benchmarks/test.gold.json": "022f410ddde913ec9a455bb3b769d510fc1f77c51199d2b982a7c1a21da9a1bf",
+    "benchmarks/test.inputs.json": "8371d605f64621e9c82bab0d342a958c9d52eda3b900d509e85314ab94f5b494",
+    "benchmarks/dev_absence.json": "5fbede1c4e5e260a65d5f5f88e8d35bfba56cf16c1b3ac9d0a672af224979ef4",
+    "benchmarks/README.md": "f06cd1814e588c095030a25cef497ea61602e7d6eeca0c84246e5e116dd628d3"
+  },
+  "source_sha256": {
+    "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+    "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+    "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+  },
+  "checks": [
+    {
+      "id": "q01",
+      "evidence": [
+        {
+          "page": 12,
+          "chunk_ids": [
+            "4faef28580406cd9877a50f3a9cc0650a61ce5aef9dafe7856d1a061d2423893"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "evidence": [
+        {
+          "page": 14,
+          "chunk_ids": [
+            "a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "evidence": [
+        {
+          "page": 20,
+          "chunk_ids": [
+            "8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "evidence": [
+        {
+          "page": 21,
+          "chunk_ids": [
+            "eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "evidence": [
+        {
+          "page": 22,
+          "chunk_ids": [
+            "c09c9228cfdb9bf309b930f05f95c145ca7f39c73a24d6ea841492cddfde3fdb"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "evidence": [
+        {
+          "page": 23,
+          "chunk_ids": [
+            "ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "evidence": [
+        {
+          "page": 26,
+          "chunk_ids": [
+            "6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "evidence": [
+        {
+          "page": 27,
+          "chunk_ids": [
+            "22e2ac86162f49a575d1138750dc05bcbd4e64ca2fdbca7199accdf541d81adf"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "evidence": [
+        {
+          "page": 28,
+          "chunk_ids": [
+            "3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "evidence": [
+        {
+          "page": 29,
+          "chunk_ids": [
+            "28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "evidence": [
+        {
+          "page": 32,
+          "chunk_ids": [
+            "1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "evidence": [
+        {
+          "page": 53,
+          "chunk_ids": [
+            "252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "evidence": [
+        {
+          "page": 56,
+          "chunk_ids": [
+            "3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "evidence": [
+        {
+          "page": 57,
+          "chunk_ids": [
+            "d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "evidence": [
+        {
+          "page": 64,
+          "chunk_ids": [
+            "ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-dev-u01",
+      "scope": "all 33 indexed pages",
+      "pages_scanned": 33,
+      "term_hits": {
+        "bcrypt": [
+          26,
+          78
+        ],
+        "cost": [],
+        "strength": [],
+        "chi phí": [
+          26
+        ],
+        "passwordencoder": [
+          26
+        ]
+      },
+      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "missing_fact": "Giá trị cost factor cụ thể được cấu hình cho ứng dụng"
+    },
+    {
+      "id": "d7-dev-u02",
+      "scope": "all 33 indexed pages",
+      "pages_scanned": 33,
+      "term_hits": {
+        "jwt": [
+          26,
+          27,
+          32,
+          78
+        ],
+        "token": [
+          26,
+          27,
+          32,
+          48,
+          67
+        ],
+        "hết hạn": [],
+        "thời hạn": [
+          27
+        ],
+        "expiration": [],
+        "ttl": [],
+        "phút": []
+      },
+      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "missing_fact": "Thời lượng token JWT tính bằng phút"
+    },
+    {
+      "id": "d7-test-a01",
+      "evidence": [
+        {
+          "page": 18,
+          "chunk_ids": [
+            "d951e08ce9a131a8c38e1089c4047cd15123af17b11ec4a0c831bdbbd10e8356"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-test-a02",
+      "evidence": [
+        {
+          "page": 25,
+          "chunk_ids": [
+            "de87a01640b6466190139cba2548c271622703892541de88002f7995fd394a56"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-test-a03",
+      "evidence": [
+        {
+          "page": 49,
+          "chunk_ids": [
+            "79fe2252d9926de9dd5e4157181cd89cb95353244646e087c298e28447c003ad"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-test-a04",
+      "evidence": [
+        {
+          "page": 52,
+          "chunk_ids": [
+            "627d6e967b4ca95990799554276fe3552f377630959c93863d817e9daeb8166c"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-test-a05",
+      "evidence": [
+        {
+          "page": 33,
+          "chunk_ids": [
+            "956a9c685264118cdc42fb92a2a324b6a10de788e61651012be039b40ec36b42"
+          ],
+          "pdf_match": true
+        }
+      ]
+    },
+    {
+      "id": "d7-test-u01",
+      "scope": "all 33 indexed pages",
+      "pages_scanned": 33,
+      "term_hits": {
+        "excel": [
+          15,
+          48,
+          49,
+          53,
+          67,
+          79
+        ],
+        "dung lượng": [],
+        "upload": [],
+        "multipart": [],
+        "mb": [],
+        "kích thước": [
+          25
+        ]
+      },
+      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "missing_fact": "Giới hạn dung lượng tệp Excel tính bằng MB"
+    },
+    {
+      "id": "d7-test-u02",
+      "scope": "all 33 indexed pages",
+      "pages_scanned": 33,
+      "term_hits": {
+        "đồng thời": [
+          11,
+          33,
+          49
+        ],
+        "kiểm thử tải": [],
+        "hiệu năng": [
+          79
+        ],
+        "load": [],
+        "jmeter": [],
+        "người dùng": [
+          17,
+          18,
+          19,
+          26,
+          30,
+          33,
+          48,
+          49,
+          53,
+          79
+        ]
+      },
+      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "missing_fact": "Số người dùng đồng thời tối đa đo bằng kiểm thử tải"
+    }
+  ]
+}

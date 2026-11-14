@@ -1,0 +1,16 @@
+[
+  {
+    "id": "d7-dev-u01", "split": "dev", "answerable": false,
+    "question": "Trong corpus báo cáo thực tập đã index, BCrypt của HUMG Study Guide được cấu hình cost factor cụ thể bằng bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 26 giải thích BCrypt có tham số chi phí nhưng không nêu giá trị cấu hình cụ thể của ứng dụng. Rà soát toàn bộ 33 trang được index, không chỉ top-k; không được suy từ giá trị mặc định thư viện.",
+    "absence_check": {"terms": ["bcrypt", "cost", "strength", "chi phí", "passwordencoder"], "related_pages": [26], "missing_fact": "Giá trị cost factor cụ thể được cấu hình cho ứng dụng"}
+  },
+  {
+    "id": "d7-dev-u02", "split": "dev", "answerable": false,
+    "question": "Theo corpus báo cáo thực tập đã index, JWT của HUMG Study Guide hết hạn sau chính xác bao nhiêu phút kể từ khi phát hành?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 27 yêu cầu kiểm tra thời hạn và issuer theo cấu hình nhưng không công bố thời lượng JWT. Rà soát toàn bộ corpus 33 trang để tìm cấu hình thời hạn; không lấy con số mặc định hoặc phỏng đoán.",
+    "absence_check": {"terms": ["jwt", "token", "hết hạn", "thời hạn", "expiration", "ttl", "phút"], "related_pages": [26, 27], "missing_fact": "Thời lượng token JWT tính bằng phút"}
+  }
+]

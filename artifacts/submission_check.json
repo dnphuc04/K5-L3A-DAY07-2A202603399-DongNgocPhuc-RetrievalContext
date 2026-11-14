@@ -1,0 +1,37 @@
+{
+  "local_checks_passed": true,
+  "errors": [],
+  "checks": [
+    "Frozen predictor, selected config, benchmark and dev evidence unchanged"
+  ],
+  "benchmark_counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "reviewed_results": 99,
+  "markdown_links_checked": true,
+  "secret_scan": "Common OpenAI/GitHub key patterns in tracked and unignored text; no credential values printed. Not a complete privacy/security audit.",
+  "handoff_verification": {
+    "status": "restored",
+    "rows": 65,
+    "dimensions": 1536,
+    "overwrite_guard": "passed",
+    "frozen_runtime_snapshot": "matched",
+    "self_query_score": 1.0,
+    "bm25_smoke_page": 18,
+    "external_api_calls": 0,
+    "isolated_database_removed": true
+  },
+  "full_evidence_authorized": true,
+  "external_items_pending": [
+    "Commit/push permitted submission files",
+    "Verify grader access and submit link"
+  ],
+  "status": "Complete authorized evidence prepared locally; upload/access/submission not yet verified"
+}

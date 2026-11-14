@@ -1,0 +1,30 @@
+[
+  {
+    "id": "d7-test-a01",
+    "question": "Theo báo cáo, khi gửi dữ liệu JSON trong thân yêu cầu API, header khai báo kiểu nội dung có tên và giá trị gì?"
+  },
+  {
+    "id": "d7-test-a02",
+    "question": "Theo báo cáo, đăng nhập thành công có đồng nghĩa với quyền sử dụng mọi chức năng không? Giải thích vai trò của authentication và authorization."
+  },
+  {
+    "id": "d7-test-a03",
+    "question": "Trong phần thiết kế dữ liệu của báo cáo, Entity dùng kiểu nào cho khóa chính, điểm và tín chỉ; enum được lưu theo dạng nào?"
+  },
+  {
+    "id": "d7-test-a04",
+    "question": "Theo bảng endpoint trong báo cáo, muốn đổi tên một phương án thời khóa biểu thì gọi phương thức HTTP và đường dẫn nào?"
+  },
+  {
+    "id": "d7-test-a05",
+    "question": "Theo báo cáo, chỉ viết prompt thật chi tiết có đủ để mô hình tự đọc tệp khi môi trường chưa cấp công cụ và quyền tương ứng không?"
+  },
+  {
+    "id": "d7-test-u01",
+    "question": "Theo corpus báo cáo thực tập đã index, dung lượng tối đa tính bằng MB của một tệp Excel bảng điểm được phép tải lên là bao nhiêu?"
+  },
+  {
+    "id": "d7-test-u02",
+    "question": "Theo corpus báo cáo thực tập đã index, kiểm thử tải đã đo được HUMG Study Guide phục vụ tối đa bao nhiêu người dùng đồng thời?"
+  }
+]

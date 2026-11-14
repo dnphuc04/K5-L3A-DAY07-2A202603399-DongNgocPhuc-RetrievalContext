@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "files_checked": 44,
+  "note": "Git clean filters preserve exact bytes of every frozen/receipted file; index not changed."
+}

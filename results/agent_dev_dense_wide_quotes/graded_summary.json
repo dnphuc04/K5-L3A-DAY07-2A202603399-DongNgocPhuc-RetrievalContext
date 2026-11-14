@@ -1,0 +1,55 @@
+{
+  "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge",
+  "independent_human_review": false,
+  "methods": {
+    "dense": {
+      "attempted": 17,
+      "errors": 0,
+      "grounded_answer": {
+        "distribution": {
+          "2": 12,
+          "0": 2,
+          "1": 1
+        },
+        "sum": 25,
+        "max": 30,
+        "mean_out_of_2": 1.6666666666666667
+      },
+      "context_grades": {
+        "2": 15
+      },
+      "context_evidence_rate": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "citation_validity": {
+        "n": 14,
+        "N": 14,
+        "rate": 1.0
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2,
+        "rate": 1.0
+      },
+      "false_abstention": {
+        "n": 2,
+        "N": 15,
+        "rate": 0.13333333333333333
+      },
+      "answer_citation_coverage": {
+        "n": 13,
+        "N": 13,
+        "rate": 1.0
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 3663.612100001046,
+      "model_calls": 36
+    }
+  }
+}

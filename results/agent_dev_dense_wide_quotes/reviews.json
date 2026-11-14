@@ -1,0 +1,232 @@
+{
+  "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge",
+  "traces_sha256": "0e4c5808609ea8e961546e512de5dd8949d945991ee694dbb5ac0379407557bf",
+  "reviews": [
+    {
+      "method": "dense",
+      "query_id": "q01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Trang 12 hỗ trợ tài chính/ngân hàng.",
+        "Trang 13 hỗ trợ danh sách giải pháp."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu đúng tài chính/ngân hàng; danh sách giải pháp thêm vào cũng có trong đoạn trang 12."
+    },
+    {
+      "method": "dense",
+      "query_id": "q02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Tên HUMG Study Guide được ghi trực tiếp ở trang 14."
+      ],
+      "abstention_correct": null,
+      "reason": "Tên HUMG Study Guide được ghi trực tiếp ở trang 14."
+    },
+    {
+      "method": "dense",
+      "query_id": "q03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ auto-configuration, starter, embedded server; nếu có DI thì cũng được đoạn trang 20 hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ auto-configuration, starter, embedded server; nếu có DI thì cũng được đoạn trang 20 hỗ trợ."
+    },
+    {
+      "method": "dense",
+      "query_id": "q04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ mẫu V<phiên_bản>__<mô_tả>.sql, phiên bản duy nhất và thứ tự thực thi ở trang 21."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ mẫu V<phiên_bản>__<mô_tả>.sql, phiên bản duy nhất và thứ tự thực thi ở trang 21."
+    },
+    {
+      "method": "dense",
+      "query_id": "q05",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": null,
+      "reason": "Từ chối nhầm câu có đáp án: quote của claim Spring Data JPA ghép nội dung Repository của trang 22 sang chunk trang 23. Guard phát hiện quote không nằm trong chunk được chỉ định; context thực tế có đủ evidence.",
+      "raw_output_notes": "Từ chối nhầm câu có đáp án: quote của claim Spring Data JPA ghép nội dung Repository của trang 22 sang chunk trang 23. Guard phát hiện quote không nằm trong chunk được chỉ định; context thực tế có đủ evidence."
+    },
+    {
+      "method": "dense",
+      "query_id": "q06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ quan hệ validate/schema/migration và tránh lệch cấu trúc ở trang 23; không tự đổi schema là diễn giải phù hợp ngữ cảnh validate."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ quan hệ validate/schema/migration và tránh lệch cấu trúc ở trang 23; không tự đổi schema là diễn giải phù hợp ngữ cảnh validate."
+    },
+    {
+      "method": "dense",
+      "query_id": "q07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Nêu băm một chiều, không giải mã lấy mật khẩu gốc, đúng trang 26."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu băm một chiều, không giải mã lấy mật khẩu gốc, đúng trang 26."
+    },
+    {
+      "method": "dense",
+      "query_id": "q08",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": null,
+      "reason": "Từ chối nhầm câu có đáp án: model gán quote header trang 27 cho chunk JWT trang 26; guard chặn nguồn sai nhưng không sửa hoặc tìm lại. Context có evidence đúng nên chấm answer 0, context 2.",
+      "raw_output_notes": "Từ chối nhầm câu có đáp án: model gán quote header trang 27 cho chunk JWT trang 26; guard chặn nguồn sai nhưng không sửa hoặc tìm lại. Context có evidence đúng nên chấm answer 0, context 2."
+    },
+    {
+      "method": "dense",
+      "query_id": "q09",
+      "answer_grade": 1,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ BigDecimal/HALF_UP/2 chữ số/4 chữ số, nhưng answer không nêu dùng tổng điểm trọng số trực tiếp và tránh nhân ngược CPA đã làm tròn để tính tiếp. Quote có chi tiết này không thay thế việc trả lời. Chấm đúng một phần, citation của phần đã nói vẫn hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ BigDecimal/HALF_UP/2 chữ số/4 chữ số, nhưng answer không nêu dùng tổng điểm trọng số trực tiếp và tránh nhân ngược CPA đã làm tròn để tính tiếp. Quote có chi tiết này không thay thế việc trả lời. Chấm đúng một phần, citation của phần đã nói vẫn hỗ trợ."
+    },
+    {
+      "method": "dense",
+      "query_id": "q10",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ R>4 không khả thi chỉ với tín chỉ còn lại và cân nhắc cải thiện, đúng trang 29."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ R>4 không khả thi chỉ với tín chỉ còn lại và cân nhắc cải thiện, đúng trang 29."
+    },
+    {
+      "method": "dense",
+      "query_id": "q11",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Liệt kê đủ bốn loại dữ liệu bị cấm ở trang 32. Hướng dẫn dùng dữ liệu giả là ngữ cảnh bổ sung của gold, không phải loại dữ liệu được hỏi; không trừ điểm vì không nhắc lại."
+      ],
+      "abstention_correct": null,
+      "reason": "Liệt kê đủ bốn loại dữ liệu bị cấm ở trang 32. Hướng dẫn dùng dữ liệu giả là ngữ cảnh bổ sung của gold, không phải loại dữ liệu được hỏi; không trừ điểm vì không nhắc lại."
+    },
+    {
+      "method": "dense",
+      "query_id": "q12",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đoạn trang 53 hỗ trợ đủ phát hiện lỗi/lựa chọn dòng/tránh lưu ngay; câu này không bổ sung claim preview DB."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ kiểm tra/lựa chọn dòng/tránh lưu ngay ở trang 53; khẳng định preview chưa ghi DB có nguồn trang 49."
+    },
+    {
+      "method": "dense",
+      "query_id": "q13",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ điểm đạt cao nhất và phân xử năm học/học kỳ mới hơn, đúng đoạn quy tắc trang 56."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ điểm đạt cao nhất và phân xử năm học/học kỳ mới hơn, đúng đoạn quy tắc trang 56."
+    },
+    {
+      "method": "dense",
+      "query_id": "q14",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ năm tệp và hai trạng thái đăng nhập/đăng ký, đúng trang 57."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ năm tệp và hai trạng thái đăng nhập/đăng ký, đúng trang 57."
+    },
+    {
+      "method": "dense",
+      "query_id": "q15",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ editable layers và mục đích xem bố cục/thành phần/cơ sở chỉnh sửa, đúng trang 64."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ editable layers và mục đích xem bố cục/thành phần/cơ sở chỉnh sửa, đúng trang 64."
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-dev-u01",
+      "answer_grade": null,
+      "context_grade": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Đã tìm và từ chối, không thêm con số hoặc suy đoán; phù hợp rà soát absence corpus đã chốt."
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-dev-u02",
+      "answer_grade": null,
+      "context_grade": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Đã tìm và từ chối, không thêm con số hoặc suy đoán; phù hợp rà soát absence corpus đã chốt."
+    }
+  ]
+}

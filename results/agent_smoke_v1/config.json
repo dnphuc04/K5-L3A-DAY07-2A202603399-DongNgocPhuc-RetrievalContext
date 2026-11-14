@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-14T07:48:26.730765+00:00",
+  "split": "dev",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "methods": [
+    "bm25"
+  ],
+  "query_ids": [
+    "q01"
+  ],
+  "top_k": 3,
+  "max_searches": 2,
+  "context_budget_chars": 4000,
+  "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+  "first_search_query": "original question enforced",
+  "later_queries": "model chosen, logged separately",
+  "source_sha256": {
+    "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+    "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+    "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+  },
+  "code_sha256": {
+    "src/agent.py": "56ba12a6ae39f3aaca3735a26397e2632ae7d70a565f9211c722b584a8b350bd",
+    "src/model.py": "554750ca869ceaacd32653affd74e1b6a4c65d6e2ebdabe800d10daa548664c7",
+    "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+    "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+    "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+    "scripts/run_agent_dev.py": "fb0784d25bca2b33d8a8d81fe059c0e7dfac5297890fd3868eeae91f52abaf2e"
+  }
+}

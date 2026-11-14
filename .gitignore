@@ -9,3 +9,27 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+data/local/
+tmp/
+
+# Full lab evidence is authorized by submission_permission.json.
+# Local caches/scratch directories remain excluded above.
+
+# Credentials and loose exports remain excluded; only the reviewed ZIP below is allowed.
+.aws/
+.ssh/
+.docker/
+.git-credentials
+*.pdf
+*.zip
+*.tar
+*.gz
+*.sqlite
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Explicitly reviewed, credential-free data handoff for the complete submission.
+!/data/submission/day6_handoff.zip

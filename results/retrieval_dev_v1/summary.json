@@ -1,0 +1,137 @@
+{
+  "split": "dev",
+  "corpus": {
+    "strategy": "C",
+    "chunks": 65,
+    "sha256": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+  },
+  "config": {
+    "top_k": 3,
+    "context_budget_chars": 4000,
+    "context_policy": "whole chunks in rank order, dedup, skip blocks exceeding budget",
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC/casefold/Unicode word tokens; Vietnamese syllables; no stopword removal; unique query terms"
+    },
+    "hybrid": {
+      "candidate_k_per_method": 20,
+      "rrf_k": 60,
+      "weights": [
+        1,
+        1
+      ]
+    },
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "timing_note": "Single sequential run; dense before hybrid, shared query cache. Dense may incur fresh API cost; hybrid may reuse it. Latencies are not a fair cold-cache method comparison.",
+  "bm25_index_build_ms": 4.439500000444241,
+  "methods": {
+    "dense": {
+      "attempted": 17,
+      "errors": 2,
+      "success_coverage": {
+        "n": 15,
+        "N": 17,
+        "rate": 0.8823529411764706
+      },
+      "hit1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_hit": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "median_ms": 50.23829999845475,
+      "embedding_usage": {
+        "api_requests": 0,
+        "prompt_tokens": 0,
+        "cache_hits": 15
+      }
+    },
+    "bm25": {
+      "attempted": 17,
+      "errors": 0,
+      "success_coverage": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "median_ms": 0.5983000010019168,
+      "embedding_usage": {
+        "api_requests": 0,
+        "prompt_tokens": 0,
+        "cache_hits": 0
+      }
+    },
+    "hybrid_rrf": {
+      "attempted": 17,
+      "errors": 2,
+      "success_coverage": {
+        "n": 15,
+        "N": 17,
+        "rate": 0.8823529411764706
+      },
+      "hit1": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "median_ms": 36.7947999984608,
+      "embedding_usage": {
+        "api_requests": 0,
+        "prompt_tokens": 0,
+        "cache_hits": 15
+      }
+    }
+  },
+  "new_embedding_usage_total": {
+    "api_requests": 0,
+    "prompt_tokens": 0,
+    "cache_hits": 30
+  },
+  "cost_usd": null,
+  "cost_note": "No fabricated pricing. Query embedding usage shared across methods; consult provider billing. BM25 has no model API calls.",
+  "code_sha256": {
+    "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+    "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+    "scripts/benchmark_retrieval_dev.py": "f827028028d86c929d67d7415bd97711c41f19e2ac2c909350a71bb637ae83a0"
+  },
+  "embedding_adapter_sha256": "6a4db5ca0245149060e8de860d9d573fe9a1dd18e742475b1555ca429fad766e",
+  "benchmark_freeze_sha256": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+  "evaluation_note": "Strict normalized full-span matching; no semantic/manual ranking review yet. No agent answers, citations or abstention metrics measured."
+}

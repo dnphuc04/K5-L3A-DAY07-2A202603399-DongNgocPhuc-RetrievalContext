@@ -1,0 +1,12 @@
+{
+  "stage": "Specified after full initial dev review, before improvement runs; no test evaluated",
+  "baseline": {"run": "results/agent_dev_v1", "method": "dense", "top_k": 3, "budget_chars": 4000, "max_searches": 2, "require_quotes": false},
+  "experiments": [
+    {"id": "dense_wide", "method": "dense", "top_k": 6, "budget_chars": 7000, "max_searches": 2, "require_quotes": false, "max_completion_tokens": 1200,
+     "hypothesis": "Dense q13 complete tie-break paragraph is rank 6; larger candidate/context depth may recover the missing condition. More context may increase latency/cost or distract citation selection."},
+    {"id": "dense_wide_quotes", "method": "dense", "top_k": 6, "budget_chars": 7000, "max_searches": 2, "require_quotes": true, "max_completion_tokens": 2000,
+     "hypothesis": "Relative to dense_wide, require an actual quote for each cited claim and check quote membership. This may fix q08 wrong-source citation, but quote matching alone does not prove semantic support and can increase refusals/token usage."}
+  ],
+  "comparison": "Same frozen 17 dev queries/corpus/model, first query original, evaluate all runs including failures; no cherry-picking; same original-query Hit@1/3 cutoff even when top_k=6. Quote experiment also increases output allowance to 2000 for quotes; this is a combined configuration, not an isolated prompt-only ablation. Caps are documented from recorded run configs before pipeline freeze.",
+  "selection": "Use unchanged benchmark README lexicographic policy. Consider original BM25 and Hybrid alongside baseline and both new experiments. Do not require improvements to win. No test runs."
+}

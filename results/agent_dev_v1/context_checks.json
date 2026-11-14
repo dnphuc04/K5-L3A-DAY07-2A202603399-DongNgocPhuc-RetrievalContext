@@ -1,0 +1,56 @@
+{
+  "bm25": {
+    "first_original_query_hit1": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "first_original_query_hit3": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "final_context_evidence_rate_strict": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+  },
+  "dense": {
+    "first_original_query_hit1": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666
+    },
+    "first_original_query_hit3": {
+      "n": 14,
+      "N": 15,
+      "rate": 0.9333333333333333
+    },
+    "final_context_evidence_rate_strict": {
+      "n": 14,
+      "N": 15,
+      "rate": 0.9333333333333333
+    },
+    "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+  },
+  "hybrid_rrf": {
+    "first_original_query_hit1": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8666666666666667
+    },
+    "first_original_query_hit3": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "final_context_evidence_rate_strict": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+  }
+}

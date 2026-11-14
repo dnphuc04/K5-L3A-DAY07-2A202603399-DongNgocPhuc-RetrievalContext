@@ -1,0 +1,752 @@
+{
+  "split": "dev",
+  "policy_source": "benchmarks/README.md",
+  "candidates": [
+    {
+      "id": "baseline_dense",
+      "run": "results\\agent_dev_v1",
+      "method": "dense",
+      "config": {
+        "started_at": "2026-11-14T07:50:37.369363+00:00",
+        "split": "dev",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "methods": [
+          "dense",
+          "bm25",
+          "hybrid_rrf"
+        ],
+        "query_ids": [
+          "q01",
+          "q02",
+          "q03",
+          "q04",
+          "q05",
+          "q06",
+          "q07",
+          "q08",
+          "q09",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "d7-dev-u01",
+          "d7-dev-u02"
+        ],
+        "top_k": 3,
+        "max_searches": 2,
+        "context_budget_chars": 4000,
+        "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+        "first_search_query": "original question enforced",
+        "later_queries": "model chosen, logged separately",
+        "source_sha256": {
+          "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+          "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+          "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+        },
+        "code_sha256": {
+          "src/agent.py": "d79eead758bfed78a6818b1827ac14007c3ea93e3fb8cf96f49744181f2d8244",
+          "src/model.py": "a849f7bc405e544ea6daaf387e69628084f1be5608df7c64d7b78a8281a87625",
+          "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+          "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+          "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+          "scripts/run_agent_dev.py": "fb0784d25bca2b33d8a8d81fe059c0e7dfac5297890fd3868eeae91f52abaf2e"
+        }
+      },
+      "graded": {
+        "attempted": 17,
+        "errors": 0,
+        "grounded_answer": {
+          "distribution": {
+            "2": 13,
+            "0": 1,
+            "1": 1
+          },
+          "sum": 27,
+          "max": 30,
+          "mean_out_of_2": 1.8
+        },
+        "context_grades": {
+          "2": 14,
+          "1": 1
+        },
+        "context_evidence_rate": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "citation_validity": {
+          "n": 15,
+          "N": 16,
+          "rate": 0.9375
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15,
+          "rate": 0.0
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "median_ms": 3069.8066000004474,
+        "model_calls": 36
+      },
+      "retrieval": {
+        "first_original_query_hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "first_original_query_hit3": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "final_context_evidence_rate_strict": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+      },
+      "operational": {
+        "attempted": 17,
+        "statuses": {
+          "answered": 15,
+          "abstain": 2
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "search_count_distribution": {
+          "1": 15,
+          "2": 2
+        },
+        "model_calls": 36,
+        "median_ms": 3069.8066000004474,
+        "usage": {
+          "prompt_tokens": 38304,
+          "completion_tokens": 2552,
+          "total_tokens": 40856
+        },
+        "embedding_usage": {
+          "api_requests": 2,
+          "prompt_tokens": 30,
+          "cache_hits": 17
+        },
+        "answers_with_citation": 15
+      }
+    },
+    {
+      "id": "bm25",
+      "run": "results\\agent_dev_v1",
+      "method": "bm25",
+      "config": {
+        "started_at": "2026-11-14T07:50:37.369363+00:00",
+        "split": "dev",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "methods": [
+          "dense",
+          "bm25",
+          "hybrid_rrf"
+        ],
+        "query_ids": [
+          "q01",
+          "q02",
+          "q03",
+          "q04",
+          "q05",
+          "q06",
+          "q07",
+          "q08",
+          "q09",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "d7-dev-u01",
+          "d7-dev-u02"
+        ],
+        "top_k": 3,
+        "max_searches": 2,
+        "context_budget_chars": 4000,
+        "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+        "first_search_query": "original question enforced",
+        "later_queries": "model chosen, logged separately",
+        "source_sha256": {
+          "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+          "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+          "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+        },
+        "code_sha256": {
+          "src/agent.py": "d79eead758bfed78a6818b1827ac14007c3ea93e3fb8cf96f49744181f2d8244",
+          "src/model.py": "a849f7bc405e544ea6daaf387e69628084f1be5608df7c64d7b78a8281a87625",
+          "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+          "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+          "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+          "scripts/run_agent_dev.py": "fb0784d25bca2b33d8a8d81fe059c0e7dfac5297890fd3868eeae91f52abaf2e"
+        }
+      },
+      "graded": {
+        "attempted": 17,
+        "errors": 0,
+        "grounded_answer": {
+          "distribution": {
+            "2": 15
+          },
+          "sum": 30,
+          "max": 30,
+          "mean_out_of_2": 2
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence_rate": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "citation_validity": {
+          "n": 16,
+          "N": 16,
+          "rate": 1.0
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15,
+          "rate": 0.0
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "median_ms": 2762.7871000004234,
+        "model_calls": 35
+      },
+      "retrieval": {
+        "first_original_query_hit1": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "first_original_query_hit3": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "final_context_evidence_rate_strict": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+      },
+      "operational": {
+        "attempted": 17,
+        "statuses": {
+          "answered": 15,
+          "abstain": 2
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "search_count_distribution": {
+          "1": 16,
+          "2": 1
+        },
+        "model_calls": 35,
+        "median_ms": 2762.7871000004234,
+        "usage": {
+          "prompt_tokens": 37679,
+          "completion_tokens": 2470,
+          "total_tokens": 40149
+        },
+        "embedding_usage": {
+          "api_requests": 0,
+          "prompt_tokens": 0,
+          "cache_hits": 0
+        },
+        "answers_with_citation": 15
+      }
+    },
+    {
+      "id": "hybrid_rrf",
+      "run": "results\\agent_dev_v1",
+      "method": "hybrid_rrf",
+      "config": {
+        "started_at": "2026-11-14T07:50:37.369363+00:00",
+        "split": "dev",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "methods": [
+          "dense",
+          "bm25",
+          "hybrid_rrf"
+        ],
+        "query_ids": [
+          "q01",
+          "q02",
+          "q03",
+          "q04",
+          "q05",
+          "q06",
+          "q07",
+          "q08",
+          "q09",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "d7-dev-u01",
+          "d7-dev-u02"
+        ],
+        "top_k": 3,
+        "max_searches": 2,
+        "context_budget_chars": 4000,
+        "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+        "first_search_query": "original question enforced",
+        "later_queries": "model chosen, logged separately",
+        "source_sha256": {
+          "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+          "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+          "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+        },
+        "code_sha256": {
+          "src/agent.py": "d79eead758bfed78a6818b1827ac14007c3ea93e3fb8cf96f49744181f2d8244",
+          "src/model.py": "a849f7bc405e544ea6daaf387e69628084f1be5608df7c64d7b78a8281a87625",
+          "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+          "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+          "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+          "scripts/run_agent_dev.py": "fb0784d25bca2b33d8a8d81fe059c0e7dfac5297890fd3868eeae91f52abaf2e"
+        }
+      },
+      "graded": {
+        "attempted": 17,
+        "errors": 0,
+        "grounded_answer": {
+          "distribution": {
+            "2": 15
+          },
+          "sum": 30,
+          "max": 30,
+          "mean_out_of_2": 2
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence_rate": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "citation_validity": {
+          "n": 16,
+          "N": 16,
+          "rate": 1.0
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15,
+          "rate": 0.0
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "median_ms": 2926.8942000016978,
+        "model_calls": 35
+      },
+      "retrieval": {
+        "first_original_query_hit1": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.8666666666666667
+        },
+        "first_original_query_hit3": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "final_context_evidence_rate_strict": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+      },
+      "operational": {
+        "attempted": 17,
+        "statuses": {
+          "answered": 15,
+          "abstain": 2
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "search_count_distribution": {
+          "1": 16,
+          "2": 1
+        },
+        "model_calls": 35,
+        "median_ms": 2926.8942000016978,
+        "usage": {
+          "prompt_tokens": 37098,
+          "completion_tokens": 2517,
+          "total_tokens": 39615
+        },
+        "embedding_usage": {
+          "api_requests": 1,
+          "prompt_tokens": 29,
+          "cache_hits": 17
+        },
+        "answers_with_citation": 15
+      }
+    },
+    {
+      "id": "dense_wide",
+      "run": "results\\agent_dev_dense_wide",
+      "method": "dense",
+      "config": {
+        "started_at": "2026-11-14T07:59:06.754170+00:00",
+        "split": "dev",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "methods": [
+          "dense"
+        ],
+        "query_ids": [
+          "q01",
+          "q02",
+          "q03",
+          "q04",
+          "q05",
+          "q06",
+          "q07",
+          "q08",
+          "q09",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "d7-dev-u01",
+          "d7-dev-u02"
+        ],
+        "top_k": 6,
+        "require_quotes": false,
+        "max_completion_tokens": 1200,
+        "max_searches": 2,
+        "context_budget_chars": 7000,
+        "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+        "first_search_query": "original question enforced",
+        "later_queries": "model chosen, logged separately",
+        "source_sha256": {
+          "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+          "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+          "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+        },
+        "code_sha256": {
+          "src/agent.py": "e0c036e9e4e25c681ca826c717b5aaa4b49ceec17d675d39ba028e3c0afe2f13",
+          "src/model.py": "83068e00a6e9a0229773c732ed44734d6f41b0cce207bd42b39b81b1ae0d5489",
+          "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+          "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+          "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+          "scripts/run_agent_dev.py": "2cbdf595a59821907ca6a5d63dd88754fc5c844b816f3001cb2803e8e375fcc4"
+        }
+      },
+      "graded": {
+        "attempted": 17,
+        "errors": 0,
+        "grounded_answer": {
+          "distribution": {
+            "2": 13,
+            "0": 2
+          },
+          "sum": 26,
+          "max": 30,
+          "mean_out_of_2": 1.7333333333333334
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence_rate": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "citation_validity": {
+          "n": 16,
+          "N": 18,
+          "rate": 0.8888888888888888
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15,
+          "rate": 0.0
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "median_ms": 2845.7570999999007,
+        "model_calls": 36
+      },
+      "retrieval": {
+        "first_original_query_hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "first_original_query_hit3": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "final_context_evidence_rate_strict": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+      },
+      "operational": {
+        "attempted": 17,
+        "statuses": {
+          "answered": 15,
+          "abstain": 2
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "search_count_distribution": {
+          "1": 15,
+          "2": 2
+        },
+        "model_calls": 36,
+        "median_ms": 2845.7570999999007,
+        "usage": {
+          "prompt_tokens": 57253,
+          "completion_tokens": 2520,
+          "total_tokens": 59773
+        },
+        "embedding_usage": {
+          "api_requests": 2,
+          "prompt_tokens": 37,
+          "cache_hits": 17
+        },
+        "answers_with_citation": 15
+      }
+    },
+    {
+      "id": "dense_wide_quotes",
+      "run": "results\\agent_dev_dense_wide_quotes",
+      "method": "dense",
+      "config": {
+        "started_at": "2026-11-14T08:00:32.032193+00:00",
+        "split": "dev",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "methods": [
+          "dense"
+        ],
+        "query_ids": [
+          "q01",
+          "q02",
+          "q03",
+          "q04",
+          "q05",
+          "q06",
+          "q07",
+          "q08",
+          "q09",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "d7-dev-u01",
+          "d7-dev-u02"
+        ],
+        "top_k": 6,
+        "require_quotes": true,
+        "max_completion_tokens": 2000,
+        "max_searches": 2,
+        "context_budget_chars": 7000,
+        "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+        "first_search_query": "original question enforced",
+        "later_queries": "model chosen, logged separately",
+        "source_sha256": {
+          "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+          "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+          "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+        },
+        "code_sha256": {
+          "src/agent.py": "e0c036e9e4e25c681ca826c717b5aaa4b49ceec17d675d39ba028e3c0afe2f13",
+          "src/model.py": "83068e00a6e9a0229773c732ed44734d6f41b0cce207bd42b39b81b1ae0d5489",
+          "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+          "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+          "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+          "scripts/run_agent_dev.py": "2cbdf595a59821907ca6a5d63dd88754fc5c844b816f3001cb2803e8e375fcc4"
+        }
+      },
+      "graded": {
+        "attempted": 17,
+        "errors": 0,
+        "grounded_answer": {
+          "distribution": {
+            "2": 12,
+            "0": 2,
+            "1": 1
+          },
+          "sum": 25,
+          "max": 30,
+          "mean_out_of_2": 1.6666666666666667
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence_rate": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "citation_validity": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 2,
+          "N": 15,
+          "rate": 0.13333333333333333
+        },
+        "answer_citation_coverage": {
+          "n": 13,
+          "N": 13,
+          "rate": 1.0
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17,
+          "rate": 1.0
+        },
+        "median_ms": 3663.612100001046,
+        "model_calls": 36
+      },
+      "retrieval": {
+        "first_original_query_hit1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.6666666666666666
+        },
+        "first_original_query_hit3": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.9333333333333333
+        },
+        "final_context_evidence_rate_strict": {
+          "n": 15,
+          "N": 15,
+          "rate": 1.0
+        },
+        "note": "Strict span check only; answer/citation support and abstention require semantic review. Errors remain in denominator."
+      },
+      "operational": {
+        "attempted": 17,
+        "statuses": {
+          "answered": 13,
+          "abstain": 4
+        },
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "search_count_distribution": {
+          "1": 15,
+          "2": 2
+        },
+        "model_calls": 36,
+        "median_ms": 3663.612100001046,
+        "usage": {
+          "prompt_tokens": 62676,
+          "completion_tokens": 4815,
+          "total_tokens": 67491
+        },
+        "embedding_usage": {
+          "api_requests": 1,
+          "prompt_tokens": 13,
+          "cache_hits": 18
+        },
+        "answers_with_citation": 13
+      }
+    }
+  ],
+  "ranked_ids": [
+    "bm25",
+    "hybrid_rrf",
+    "baseline_dense",
+    "dense_wide",
+    "dense_wide_quotes"
+  ],
+  "selected": "bm25",
+  "review_limit": "Every query/citation reviewed with AI assistance; not an independent human review. No test evaluated.",
+  "cost_limit": "Monetary cost unverified; token usage recorded. Single-run latency tie-break is noisy, not a statistical superiority claim."
+}

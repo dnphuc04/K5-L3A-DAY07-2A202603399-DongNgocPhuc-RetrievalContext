@@ -1,0 +1,953 @@
+[
+  {
+    "method": "dense",
+    "query_id": "q01",
+    "question": "Theo Chương 1, JITS Innovation Labs tập trung phát triển giải pháp cho lĩnh vực nào?",
+    "status": "answered",
+    "answer": "JITS Innovation Labs tập trung phát triển giải pháp trong lĩnh vực công nghệ tài chính và ngân hàng. [4faef28580406cd9877a50f3a9cc0650a61ce5aef9dafe7856d1a061d2423893]\nCác lĩnh vực hoạt động chính của JITS Innovation Labs bao gồm nền tảng ngân hàng số, hệ thống điểm bán hàng (POS), công nghệ streaming và giải pháp tích hợp hệ thống. [5e833e3d83563bd19974b52902031d7ea6c1ce454fe7813896a2bd2a5c136089]",
+    "citations": [
+      "4faef28580406cd9877a50f3a9cc0650a61ce5aef9dafe7856d1a061d2423893",
+      "5e833e3d83563bd19974b52902031d7ea6c1ce454fe7813896a2bd2a5c136089"
+    ],
+    "cited_chunks": [
+      {
+        "id": "4faef28580406cd9877a50f3a9cc0650a61ce5aef9dafe7856d1a061d2423893",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "CHƯƠNG 1\nGIỚI THIỆU VỀ CÔNG TY VÀ VỊ TRÍ THỰC TẬP\n1.1 Giới thiệu chung về công ty\n1.1.1 Tổng quan về công ty TNHH JITS Innovation Labs\nCông ty TNHH JITS Innovation Labs là doanh nghiệp hoạt động trong lĩnh\nvực phát triển phần mềm, tập trung vào các giải pháp công nghệ tài chính và ngân\nhàng. Các lĩnh vực được công ty giới thiệu bao gồm nền tảng ngân hàng số, hệ thống\nđiểm bán hàng (POS), công nghệ streaming và giải pháp tích hợp hệ thống.\nĐội ngũ của JITS Innovation Labs có kinh nghiệm triển khai và tùy chỉnh hệ\nthống ngân hàng lõi (Core Banking), hỗ trợ ngân hàng và tổ chức tài chính vi mô cải\ntiến sản phẩm, dịch vụ và thực hiện chuyển đổi số. Công ty chú trọng kết hợp công\nnghệ với việc phân tích nghiệp vụ nhằm xây dựng các giải pháp phù hợp với yêu cầu\ncủa khách hàng.\nMột số thông tin chung về doanh nghiệp:\n• Tên doanh nghiệp: Công ty TNHH JITS Innovation Labs.\n• Mã số thuế: 0107486223.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 12,
+        "metadata": {
+          "chapter": "chapter_1",
+          "chunking": "paragraph:1000",
+          "end_char": 902,
+          "start_char": 0
+        },
+        "score": 0.6604326184519248,
+        "rank": 1,
+        "strategy": "dense"
+      },
+      {
+        "id": "5e833e3d83563bd19974b52902031d7ea6c1ce454fe7813896a2bd2a5c136089",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Hình 1.1.1-1. Logo công ty\n1.1.2 Các lĩnh vực hoạt động chính\nCác lĩnh vực hoạt động chính của JITS Innovation Labs bao gồm:\n• Phát triển nền tảng ngân hàng số: xây dựng các giải pháp phần mềm\nhỗ trợ hoạt động và dịch vụ ngân hàng trên môi trường số.\n• Triển khai và tuỳ chỉnh core Banking: điều chỉnh hệ thống ngân hàng\nlõi theo yêu cầu nghiệp vụ của khách hàng.\n• Phát triển hệ thống điểm bán hàng (POS): cung cấp giải pháp phục vụ\nhoạt động giao dịch tại điểm bán.\n• Cung cấp giải pháp streaming và tích hợp hệ thống: hỗ trợ kết nối,\ntrao đổi và xử lý dữ liệu giữa các thành phần phần mềm.\n1.1.3 Một số sản phẩm và giải pháp tiêu biểu\nJITS Innovation Labs công bố các nhóm sản phẩm và giải pháp gồm:\n• Digital Banking: giải pháp ngân hàng số.\n• Digital Wallet: giải pháp ví điện tử.\n• Loyalty System: hệ thống quản lý chương trình khách hàng thân thiết.\n• Point of Sale: hệ thống điểm bán hàng.\n• Smart Lending: giải pháp hỗ trợ hoạt động cho vay.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 13,
+        "metadata": {
+          "chapter": "chapter_1",
+          "chunking": "paragraph:1000",
+          "end_char": 950,
+          "start_char": 0
+        },
+        "score": 0.6569342091803053,
+        "rank": 2,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q01",
+      "split": "dev",
+      "question": "Theo Chương 1, JITS Innovation Labs tập trung phát triển giải pháp cho lĩnh vực nào?",
+      "answerable": true,
+      "expected_answer": "Công nghệ tài chính và ngân hàng.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 12,
+          "evidence": "Công ty TNHH JITS Innovation Labs là doanh nghiệp hoạt động trong lĩnh vực phát triển phần mềm, tập trung vào các giải pháp công nghệ tài chính và ngân hàng."
+        }
+      ],
+      "filter": {
+        "chapter": "chapter_1"
+      }
+    },
+    "context": "[4faef28580406cd9877a50f3a9cc0650a61ce5aef9dafe7856d1a061d2423893 | starter/data/bao_cao_thuc_tap.pdf | page 12]\nCHƯƠNG 1\nGIỚI THIỆU VỀ CÔNG TY VÀ VỊ TRÍ THỰC TẬP\n1.1 Giới thiệu chung về công ty\n1.1.1 Tổng quan về công ty TNHH JITS Innovation Labs\nCông ty TNHH JITS Innovation Labs là doanh nghiệp hoạt động trong lĩnh\nvực phát triển phần mềm, tập trung vào các giải pháp công nghệ tài chính và ngân\nhàng. Các lĩnh vực được công ty giới thiệu bao gồm nền tảng ngân hàng số, hệ thống\nđiểm bán hàng (POS), công nghệ streaming và giải pháp tích hợp hệ thống.\nĐội ngũ của JITS Innovation Labs có kinh nghiệm triển khai và tùy chỉnh hệ\nthống ngân hàng lõi (Core Banking), hỗ trợ ngân hàng và tổ chức tài chính vi mô cải\ntiến sản phẩm, dịch vụ và thực hiện chuyển đổi số. Công ty chú trọng kết hợp công\nnghệ với việc phân tích nghiệp vụ nhằm xây dựng các giải pháp phù hợp với yêu cầu\ncủa khách hàng.\nMột số thông tin chung về doanh nghiệp:\n• Tên doanh nghiệp: Công ty TNHH JITS Innovation Labs.\n• Mã số thuế: 0107486223.\n\n[5e833e3d83563bd19974b52902031d7ea6c1ce454fe7813896a2bd2a5c136089 | starter/data/bao_cao_thuc_tap.pdf | page 13]\nHình 1.1.1-1. Logo công ty\n1.1.2 Các lĩnh vực hoạt động chính\nCác lĩnh vực hoạt động chính của JITS Innovation Labs bao gồm:\n• Phát triển nền tảng ngân hàng số: xây dựng các giải pháp phần mềm\nhỗ trợ hoạt động và dịch vụ ngân hàng trên môi trường số.\n• Triển khai và tuỳ chỉnh core Banking: điều chỉnh hệ thống ngân hàng\nlõi theo yêu cầu nghiệp vụ của khách hàng.\n• Phát triển hệ thống điểm bán hàng (POS): cung cấp giải pháp phục vụ\nhoạt động giao dịch tại điểm bán.\n• Cung cấp giải pháp streaming và tích hợp hệ thống: hỗ trợ kết nối,\ntrao đổi và xử lý dữ liệu giữa các thành phần phần mềm.\n1.1.3 Một số sản phẩm và giải pháp tiêu biểu\nJITS Innovation Labs công bố các nhóm sản phẩm và giải pháp gồm:\n• Digital Banking: giải pháp ngân hàng số.\n• Digital Wallet: giải pháp ví điện tử.\n• Loyalty System: hệ thống quản lý chương trình khách hàng thân thiết.\n• Point of Sale: hệ thống điểm bán hàng.\n• Smart Lending: giải pháp hỗ trợ hoạt động cho vay.\n\n[0e5e957b503dc99a556663b8a8c5e08210f8986bc2b23bffc0ef961385cf7ee7 | starter/data/bao_cao_thuc_tap.pdf | page 12]\n• Địa chỉ thuế: Tầng 2, tòa nhà CT1, Khu nhà ở xã hội cho cán bộ chiến\nsĩ Bộ Công An, phường Đông Ngạc, thành phố Hà Nội.\n• Website: jitsinnovationlabs.com\n\n[064dbcb4f2ffb64d8dd0d77b7c19e8be120797a6a9e650bcf4318830e19c9d74 | starter/data/bao_cao_thuc_tap.pdf | page 14]\nCác nhóm giải pháp này thể hiện định hướng phát triển phần mềm phục vụ\nlĩnh vực tài chính, thanh toán và quản lý nghiệp vụ của công ty.\n1.2 Giới thiệu về vị trí thực tập\nVị trí: Thực tập sinh Java\nCông việc tại công ty:\n• Tìm hiểu Java Spring Boot và cách tổ chức mã nguồn theo các thành\nphần Controller, Service, Repository, Entity và DTO.\n• Tìm hiểu REST API, các phương thức HTTP và cách trao đổi dữ liệu\ngiữa frontend và backend.\n• Xây dựng giao diện bằng HTML, CSS, JavaScript và Bootstrap; sử dụng\nFetch API để gọi các API của backend.\n• Tìm hiểu Spring Web, Spring Data JPA, Hibernate, Bean Validation và\nSpring Security để xây dựng API, truy cập dữ liệu, kiểm tra đầu vào và\nphân quyền.\n• Tìm hiểu MySQL, quản lý thay đổi cơ sở dữ liệu bằng Flyway và sử\ndụng Docker để chạy cơ sở dữ liệu trong môi trường phát triển.\n• Sử dụng Git và GitHub để quản lý mã nguồn; sử dụng Postman để kiểm\ntra API và viết kiểm thử tự động cho backend.\n• Tìm hiểu và áp dụng AI Agent vào workflow.\n\n[de74b77f23aadcdcef8a2e3d5b0d177e8bffafe2d4587b15cbcb938bd1519728 | starter/data/bao_cao_thuc_tap.pdf | page 15]\n1.4 Lịch làm việc\nTuần Công việc Người hướng dẫn Mức độ hoàn thành Ghi chú\n1\nLàm quen môi trường làm việc và quy\ntrình phát triển phần mềm tại công ty.\nCài đặt IntelliJ IDEA, Java, Git,\nMySQL, Docker và các công cụ cần\nthiết.\nĐặng Duy Bảo\nKhánh 100%\n2\nÔn tập và học chuyên sâu Java Core:\nOOP, Collection, Exception, I/O,\nStream API. Thực hành các bài tập cơ\nbản.\nĐặng Duy Bảo\nKhánh 100%\n3\nNghiên cứu cấu trúc dự án Spring\nBoot, Spring MVC, RESTful API và\nSpring Data JPA.\nĐặng Duy Bảo\nKhánh 100%\n4\nThiết kế cơ sở dữ liệu và xây dựng các\nchức năng CRUD cơ bản cho hệ\nthống.\nĐặng Duy Bảo\nKhánh 100%\n5\nTìm hiểu và xây dựng chức năng đọc,\nxử lý dữ liệu từ file Excel. Tập trung\nvào tính năng cốt lõi là tính điểm CPA\nmục tiêu.\nĐặng Duy Bảo\nKhánh 100%\n6 Xây dựng các chức năng nghiệp vụ chính và xử lý dữ liệu trên hệ thống. Đặng Duy Bảo Khánh 100%\n7\nXây dựng giao diện bằng HTML,\nCSS, JavaScript và Bootstrap; kết nối\ngiao diện với backend.\nĐặng Duy Bảo\nKhánh 100%\n\n[3a8d7ef129203548ff37a57d6afe3c74b8c0eca9dfbc31aac9c5f3b52accd080 | starter/data/bao_cao_thuc_tap.pdf | page 15]\n• Xây dựng chức năng lưu lịch sử các lần học, lựa chọn kết quả phù hợp\nđể tính CPA, theo dõi học lại và học cải thiện; hỗ trợ đánh giá khả năng\nđạt CPA mục tiêu.\n• Rèn luyện kỹ năng phân tích yêu cầu, thiết kế cơ sở dữ liệu, xây dựng\nREST API, tích hợp frontend với backend và kiểm thử phần mềm.\n• Sử dụng AI Agent để hỗ trợ phát triển phần mềm; rèn luyện cách mô tả\nyêu cầu, cung cấp ngữ cảnh, kiểm tra kết quả.\n• Thực hiện các nhiệm vụ được giao theo hướng dẫn của người hướng dẫn\nthực tập, đáp ứng yêu cầu về tiến độ và chất lượng của doanh nghiệp.",
+    "review": {
+      "method": "dense",
+      "query_id": "q01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Trang 12 hỗ trợ tài chính/ngân hàng.",
+        "Trang 13 hỗ trợ danh sách giải pháp."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu đúng tài chính/ngân hàng; danh sách giải pháp thêm vào cũng có trong đoạn trang 12.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q02",
+    "question": "Ứng dụng demo trong báo cáo được đặt tên là gì?",
+    "status": "answered",
+    "answer": "Ứng dụng demo trong báo cáo được đặt tên là \"HUMG Study Guide\". [a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7]",
+    "citations": [
+      "a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7"
+    ],
+    "cited_chunks": [
+      {
+        "id": "a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 14,
+        "metadata": {
+          "chapter": "chapter_1",
+          "chunking": "paragraph:1000",
+          "end_char": 1472,
+          "start_char": 985
+        },
+        "score": 0.4401305994382938,
+        "rank": 2,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q02",
+      "split": "dev",
+      "question": "Ứng dụng demo trong báo cáo được đặt tên là gì?",
+      "answerable": true,
+      "expected_answer": "HUMG Study Guide.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 14,
+          "evidence": "Ứng dụng được đặt tên là “HUMG Study Guide”."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[63bc933f4342147002deb8f193a8e5c36c0dc9e650eb8661b59dcf3e38d38613 | starter/data/bao_cao_thuc_tap.pdf | page 48]\nBên cạnh kết quả học tập, sinh viên cần sắp xếp các học phần vào thời khóa biểu\nvà phát hiện xung đột theo giai đoạn A/B, thứ và tiết học. Ứng dụng cho phép người\ndùng quản lý dữ liệu cá nhân, nhập bảng điểm từ Excel, xem thông tin CPA và lưu\ncác phương án thời khóa biểu. Các kết quả tính toán phục vụ tham khảo và lập kế\nhoạch; việc công nhận kết quả đào tạo thuộc thẩm quyền của nhà trường.\nEm phân tích yêu cầu theo đối tượng sử dụng và nhóm chức năng, sau đó xác\nđịnh đầu vào, quy tắc xử lý và đầu ra để làm cơ sở tổ chức dữ liệu và API. Phần dưới\nmô tả phạm vi chức năng của bản demo được phát triển trong kỳ thực tập; việc triển\nkhai chi tiết được trình bày ở các tuần tương ứng.\n\n[a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7 | starter/data/bao_cao_thuc_tap.pdf | page 14]\n• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.\n\n[c685f926ded0a73ff6dc9b0a53c1c4773b50e7be24c96e890ba5efac89ef6dcf | starter/data/bao_cao_thuc_tap.pdf | page 64]\nSau đó, em kiểm\ntra nội dung được tạo trong Figma, đối chiếu với giao diện trên trình duyệt và kiểm\ntra khả năng chỉnh sửa các lớp.\nEm chịu trách nhiệm lựa chọn nội dung đưa vào thiết kế và xác minh kết quả\ntrước khi sử dụng trong báo cáo.\n\n[004e47bead3690768f94b5a95694507b508f3e7b3e3d3cff8607cc4a47b7ca08 | starter/data/bao_cao_thuc_tap.pdf | page 30]\ntương tác. @SpringBootTest hỗ trợ khởi tạo ngữ cảnh ứng dụng; mức độ tích hợp\nthực tế còn phụ thuộc các thành phần và tài nguyên được dùng trong từng test. [4]\n\nHình 2.1.8.2-1. JUnit mockito\n2.1.8.3 Kiểm thử API và kiểm thử thủ công\nPostman là công cụ hỗ trợ xây dựng, gửi và kiểm tra yêu cầu API. Người dùng\nlựa chọn phương thức HTTP, nhập URL, thiết lập tham số, header và body, sau đó\ngửi yêu cầu đến backend đang chạy. Nhờ đó, có thể kiểm tra API trước khi hoàn thiện\ngiao diện và đối chiếu phản hồi của cùng một chức năng độc lập với frontend. [15]\n\nHình 2.1.8.3-1. Postman\n2.1.9 AI Agent trong phát triển phần mềm\n\n[04aa0c2a5a53ab59852889ba56dc5f8411064fc68863262e014308e05c45a841 | starter/data/bao_cao_thuc_tap.pdf | page 11]\nEm hy vọng bản báo cáo sẽ thể hiện một cách chân thực, rõ ràng nhất những\nnỗ lực của bản thân trong quá trình học tập và thực hành, cũng như những kết quả\nem đã đạt được tại đơn vị thực tập.\n\n[241b76d34ec663b5452a5ada61f1834af5ca450ba78b878cb57b75a1dc657b6c | starter/data/bao_cao_thuc_tap.pdf | page 33]\nVí dụ, khi được giao kiểm tra phép tính CPA, mô hình có thể đề nghị đọc một\nservice. Harness chuyển yêu cầu đến công cụ đọc mã, nhận nội dung và cung cấp lại\ncho mô hình. Dựa trên kết quả, mô hình phân tích và đề nghị bước tiếp theo. Quá\ntrình tiếp tục cho đến khi hoàn tất hoặc cần người dùng bổ sung thông tin. [18]\nCác thuật ngữ dưới đây được sử dụng để phân biệt những loại đầu vào và khả\nnăng hỗ trợ agent:\n• Prompt: yêu cầu và thông tin đầu vào giao cho agent. Lập trình viên mô\ntả mục tiêu, hiện trạng, phạm vi thay đổi và kết quả mong đợi.\n• Rule là chỉ dẫn về cách làm việc và giới hạn nghiệp vụ.\n• Skill: bộ hướng dẫn chuyên biệt có thể tái sử dụng cho một nhóm nhiệm\nvụ, có thể kèm tài nguyên hoặc công cụ hỗ trợ.\n• MCP (Model Context Protocol) là chuẩn mở kết nối ứng dụng AI với các\nhệ thống bên ngoài, cho phép tiếp cận công cụ và nguồn dữ liệu thông\nqua giao diện thống nhất. MCP là giao thức kết nối; công cụ được cung\ncấp qua giao thức mới thực hiện thao tác cụ thể. [19]",
+    "review": {
+      "method": "dense",
+      "query_id": "q02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Tên HUMG Study Guide được ghi trực tiếp ở trang 14."
+      ],
+      "abstention_correct": null,
+      "reason": "Tên HUMG Study Guide được ghi trực tiếp ở trang 14.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q03",
+    "question": "Spring Boot hỗ trợ đơn giản hóa việc khởi tạo và chạy ứng dụng bằng những cơ chế nào?",
+    "status": "answered",
+    "answer": "Spring Boot hỗ trợ đơn giản hóa việc khởi tạo và chạy ứng dụng bằng các cơ chế tự động cấu hình, quản lý thư viện bằng starter, máy chủ web nhúng và Dependency Injection. [8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed]",
+    "citations": [
+      "8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed"
+    ],
+    "cited_chunks": [
+      {
+        "id": "8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Spring Boot là công cụ phát triển ứng dụng dựa trên Spring Framework, giúp\nđơn giản hóa việc cấu hình và khởi tạo dự án. Spring Boot cung cấp cơ chế tự động\ncấu hình, các nhóm thư viện phụ thuộc được đóng gói dưới dạng starter và khả năng\nchạy ứng dụng với máy chủ web nhúng. [4]\n\nHình 2.1.2.1-2. Spring Boot\n2.1.2.2 Các đặc điểm chính\n• Tự động cấu hình: thiết lập các thành phần dựa trên thư viện và cấu hình\ncủa dự án, giúp giảm thao tác cấu hình thủ công. [4]\n• Quản lý thư viện bằng starter: tập hợp các thư viện cần thiết cho từng\nnhóm chức năng như xây dựng API, truy cập cơ sở dữ liệu, kiểm tra dữ\nliệu và bảo mật. [4]\n• Máy chủ web nhúng: cho phép khởi chạy ứng dụng web trực tiếp mà\nkhông cần triển khai riêng lên máy chủ ứng dụng bên ngoài. [4]\n• Dependency Injection: Spring quản lý và cung cấp các đối tượng phụ\nthuộc, giúp các thành phần phối hợp với nhau và thuận tiện hơn khi kiểm\nthử. [5]",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 20,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 905,
+          "start_char": 0
+        },
+        "score": 0.7026325032158411,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q03",
+      "split": "dev",
+      "question": "Spring Boot hỗ trợ đơn giản hóa việc khởi tạo và chạy ứng dụng bằng những cơ chế nào?",
+      "answerable": true,
+      "expected_answer": "Tự động cấu hình, các starter và máy chủ web nhúng.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 20,
+          "evidence": "Spring Boot cung cấp cơ chế tự động cấu hình, các nhóm thư viện phụ thuộc được đóng gói dưới dạng starter và khả năng chạy ứng dụng với máy chủ web nhúng."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed | starter/data/bao_cao_thuc_tap.pdf | page 20]\nSpring Boot là công cụ phát triển ứng dụng dựa trên Spring Framework, giúp\nđơn giản hóa việc cấu hình và khởi tạo dự án. Spring Boot cung cấp cơ chế tự động\ncấu hình, các nhóm thư viện phụ thuộc được đóng gói dưới dạng starter và khả năng\nchạy ứng dụng với máy chủ web nhúng. [4]\n\nHình 2.1.2.1-2. Spring Boot\n2.1.2.2 Các đặc điểm chính\n• Tự động cấu hình: thiết lập các thành phần dựa trên thư viện và cấu hình\ncủa dự án, giúp giảm thao tác cấu hình thủ công. [4]\n• Quản lý thư viện bằng starter: tập hợp các thư viện cần thiết cho từng\nnhóm chức năng như xây dựng API, truy cập cơ sở dữ liệu, kiểm tra dữ\nliệu và bảo mật. [4]\n• Máy chủ web nhúng: cho phép khởi chạy ứng dụng web trực tiếp mà\nkhông cần triển khai riêng lên máy chủ ứng dụng bên ngoài. [4]\n• Dependency Injection: Spring quản lý và cung cấp các đối tượng phụ\nthuộc, giúp các thành phần phối hợp với nhau và thuận tiện hơn khi kiểm\nthử. [5]\n\n[7b3f31a9e54ac320c631f36d073cc970d6b16c86e1b6e58ae278124a54c003cd | starter/data/bao_cao_thuc_tap.pdf | page 19]\nMã trạng thái Ý nghĩa\n200 OK Yêu cầu được xử lý thành công.\n201 Created Yêu cầu thành công và tạo tài nguyên mới.\n204 No Content Yêu cầu thành công, không có nội dung phản\nhồi.\n400 Bad Request Yêu cầu không hợp lệ.\n401 Unauthorized Thiếu thông tin xác thực hợp lệ.\n403 Forbidden Máy chủ từ chối thực hiện yêu cầu.\n404 Not Found Không tìm thấy tài nguyên được yêu cầu.\n500 Internal Server\nError\nMáy chủ gặp lỗi khiến yêu cầu không thể hoàn\nthành.\nBảng 2.1-2. Các mã trạng thái HTTP phổ biến\nFrontend kết hợp mã trạng thái với nội dung phản hồi để cập nhật giao diện hoặc\nthông báo lỗi cho người dùng.\n2.1.2 Java và Spring Boot\n2.1.2.1 Khái niệm\nJava là ngôn ngữ lập trình hướng đối tượng, được sử dụng để xây dựng nhiều\nloại ứng dụng, trong đó có ứng dụng web và hệ thống phía máy chủ. Mã nguồn Java\nthường được biên dịch thành bytecode và thực thi trên máy ảo Java (JVM). Cơ chế\nnày giúp chương trình có thể hoạt động trên các nền tảng có môi trường Java tương\nthích. [3]\n\n[d8e0e0553a845c99a094348ccd0df6beeb2dbe1bb687250bf73cc48e880ca9b1 | starter/data/bao_cao_thuc_tap.pdf | page 78]\n5 Có sơ đồ phân trang và tối\nthiểu 3 trang giao diện\nCó sơ đồ phân trang, các user\nflow; frontend gồm thông tin\ncá nhân, CPA, thời khóa biểu,\nxác thực và quản trị.\nĐạt\n6 Khai báo sử dụng AI và\nminh chứng\nĐã mô tả công cụ, nhóm công\nviệc có AI hỗ trợ, phần sinh\nviên thực hiện và vị trí minh\nchứng.\nĐạt\n\n3.1.3 Đánh giá mức độ áp dụng những kiến thức đã được học\nTrong giai đoạn thực tập tại doanh nghiệp, em đã củng cố kiến thức Java Core\nvà vận dụng vào xây dựng ứng dụng HUMG Study Guide. Em hiểu rõ hơn cách tổ\nchức ứng dụng Spring Boot theo các thành phần Controller, Service, Repository và\nDTO; cách xây dựng REST API, kiểm tra dữ liệu đầu vào và xử lý lỗi.\nThông qua các chức năng quản lý kết quả học tập, tính CPA và lập thời khóa\nbiểu, em đã vận dụng kiến thức về cơ sở dữ liệu quan hệ, khóa ngoại, JPA/Hibernate\nvà quản lý thay đổi cấu trúc dữ liệu bằng Flyway.\n\n[f69d0ce36ad2bcff2b693df20bd8b4a9860523ef7391064dd5fd47a98c56f416 | starter/data/bao_cao_thuc_tap.pdf | page 29]\n2.1.8.1 Khái niệm và mục đích\nKiểm thử phần mềm là hoạt động thực hiện và đánh giá các trường hợp kiểm\ntra để so sánh hành vi thực tế với kết quả mong đợi. Kiểm thử hỗ trợ phát hiện lỗi và\ncung cấp bằng chứng về chất lượng trong phạm vi được kiểm tra; kết quả đạt không\nchứng minh phần mềm hoàn toàn không còn lỗi. [14]\n2.1.8.2 Kiểm thử đơn vị và kiểm thử tích hợp\nKiểm thử đơn vị kiểm tra một phần chức năng nhỏ, thường là phương thức hoặc\nlớp, trong điều kiện được kiểm soát. Kiểm thử tích hợp đánh giá sự phối hợp giữa các\nthành phần, chẳng hạn Service, Repository và cơ sở dữ liệu. Hai mức kiểm thử bổ\nsung cho nhau: một phép tính đúng khi chạy độc lập vẫn có thể gặp lỗi khi nhận hoặc\nlưu dữ liệu qua các thành phần khác. [14]\nSpring Boot cung cấp các công cụ hỗ trợ kiểm thử thông qua spring-boot-starter-\ntest, kết hợp JUnit Jupiter với các thư viện kiểm tra và mô phỏng. Mockito có thể\nthay thế dependency bằng đối tượng mô phỏng để kiểm soát phản hồi và kiểm tra\n\n[004e47bead3690768f94b5a95694507b508f3e7b3e3d3cff8607cc4a47b7ca08 | starter/data/bao_cao_thuc_tap.pdf | page 30]\ntương tác. @SpringBootTest hỗ trợ khởi tạo ngữ cảnh ứng dụng; mức độ tích hợp\nthực tế còn phụ thuộc các thành phần và tài nguyên được dùng trong từng test. [4]\n\nHình 2.1.8.2-1. JUnit mockito\n2.1.8.3 Kiểm thử API và kiểm thử thủ công\nPostman là công cụ hỗ trợ xây dựng, gửi và kiểm tra yêu cầu API. Người dùng\nlựa chọn phương thức HTTP, nhập URL, thiết lập tham số, header và body, sau đó\ngửi yêu cầu đến backend đang chạy. Nhờ đó, có thể kiểm tra API trước khi hoàn thiện\ngiao diện và đối chiếu phản hồi của cùng một chức năng độc lập với frontend. [15]\n\nHình 2.1.8.3-1. Postman\n2.1.9 AI Agent trong phát triển phần mềm\n\n[a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7 | starter/data/bao_cao_thuc_tap.pdf | page 14]\n• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.",
+    "review": {
+      "method": "dense",
+      "query_id": "q03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ auto-configuration, starter, embedded server; nếu có DI thì cũng được đoạn trang 20 hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ auto-configuration, starter, embedded server; nếu có DI thì cũng được đoạn trang 20 hỗ trợ.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q04",
+    "question": "Migration có phiên bản của Flyway được đặt tên và thực thi như thế nào?",
+    "status": "answered",
+    "answer": "Flyway hỗ trợ migration có phiên bản với tên tệp theo dạng V<phiên_bản>__<mô_tả>.sql. [eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc]\nMỗi phiên bản migration phải duy nhất và các migration được thực hiện theo thứ tự phiên bản. [eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc]",
+    "citations": [
+      "eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc"
+    ],
+    "cited_chunks": [
+      {
+        "id": "eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Hình 2.1.3.1-1. MySQL\n2.1.3.2 Quản lý phiên bản cơ sở dữ liệu\nTrong quá trình phát triển, cấu trúc cơ sở dữ liệu có thể thay đổi khi bổ sung\nhoặc điều chỉnh chức năng. Migration là tập lệnh mô tả các thay đổi này, chẳng hạn\ntạo bảng, thêm cột, đổi tên hoặc bổ sung ràng buộc. Quản lý migration theo phiên bản\ngiúp ghi nhận lịch sử và tái lập các thay đổi theo thứ tự, giảm sự khác biệt giữa các\nmôi trường. [7]\nFlyway hỗ trợ migration có phiên bản với tên tệp theo dạng\nV<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực\nhiện theo thứ tự phiên bản.\n\nHình 2.1.3.2-1. Flyway\n2.1.4 Spring Data JPA và Hibernate",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 21,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 636,
+          "start_char": 0
+        },
+        "score": 0.639828959871204,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q04",
+      "split": "dev",
+      "question": "Migration có phiên bản của Flyway được đặt tên và thực thi như thế nào?",
+      "answerable": true,
+      "expected_answer": "Tên V<phiên_bản>__<mô_tả>.sql; mỗi phiên bản duy nhất và chạy theo thứ tự phiên bản.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 21,
+          "evidence": "Flyway hỗ trợ migration có phiên bản với tên tệp theo dạng V<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực hiện theo thứ tự phiên bản."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc | starter/data/bao_cao_thuc_tap.pdf | page 21]\nHình 2.1.3.1-1. MySQL\n2.1.3.2 Quản lý phiên bản cơ sở dữ liệu\nTrong quá trình phát triển, cấu trúc cơ sở dữ liệu có thể thay đổi khi bổ sung\nhoặc điều chỉnh chức năng. Migration là tập lệnh mô tả các thay đổi này, chẳng hạn\ntạo bảng, thêm cột, đổi tên hoặc bổ sung ràng buộc. Quản lý migration theo phiên bản\ngiúp ghi nhận lịch sử và tái lập các thay đổi theo thứ tự, giảm sự khác biệt giữa các\nmôi trường. [7]\nFlyway hỗ trợ migration có phiên bản với tên tệp theo dạng\nV<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực\nhiện theo thứ tự phiên bản.\n\nHình 2.1.3.2-1. Flyway\n2.1.4 Spring Data JPA và Hibernate\n\n[590fb776afad3d6bb86b44d984d5fd2a5e245db81c63283cdf9904210fff9543 | starter/data/bao_cao_thuc_tap.pdf | page 52]\n2.5.3.6 Kiểm soát thay đổi cơ sở dữ liệu\nCác thay đổi cấu trúc được quản lý bằng migration Flyway.\nHibernate kiểm tra sự phù hợp giữa Entity và cơ sở dữ liệu. Khi dữ liệu kết quả\nhọc tập thay đổi, backend tính lại thông tin CPA từ lịch sử để tránh sử dụng tổng hợp\nkhông còn phù hợp.\n\n[252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4 | starter/data/bao_cao_thuc_tap.pdf | page 53]\nHình 2.5.3.6-1. Quản lý cấu trúc database bằng migration Flyway\n2.6 BÁO CÁO TUẦN 5: ĐỌC BẢNG ĐIỂM EXCEL VÀ TÍNH CPA MỤC\nTIÊU\n2.6.1 Mục tiêu công việc theo đề cương\nTrong tuần 5, xây dựng chức năng đọc, xử lý dữ liệu Excel và tập trung vào tính\nnăng tính CPA mục tiêu.\n2.6.2 Công việc thực tế đã hoàn thành\nTrong tuần 5, em đã thực hiện các công việc sau:\n• Xây dựng luồng nhập bảng điểm theo hai bước xem trước và xác nhận;\nxử lý những dòng được người dùng chọn và kết nối dữ liệu nhập với\nnghiệp vụ CPA.\n• Chức năng đánh giá CPA mục tiêu tính mức điểm trung bình cần đạt trên\nphần tín chỉ còn lại.\n2.6.3 Nội dung công việc chi tiết\n2.6.3.1 Đọc và xem trước dữ liệu Excel\nDữ liệu từ bảng điểm được chuyển thành các dòng kết quả để người dùng kiểm\ntra trước khi lưu. Việc tách xem trước và xác nhận giúp người dùng phát hiện thông\ntin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu\nvừa đọc.\n\n[ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59 | starter/data/bao_cao_thuc_tap.pdf | page 23]\nvấn theo quy tắc đặt tên hoặc sử dụng @Query. Các phương thức cần phản ánh đúng\nđiều kiện lọc và phạm vi dữ liệu của nghiệp vụ. [9]\n\nHình 2.1.4.2-1. Spring Data Repository Interface\n2.1.4.3 Ánh xạ Entity và quan hệ\nEntity là lớp Java được ánh xạ với dữ liệu lưu trữ. Các annotation thường dùng\ngồm @Entity để khai báo thực thể, @Table để chỉ định bảng, @Id để xác định khóa\nchính, @GeneratedValue để cấu hình sinh khóa và @Column để mô tả cột. Quan hệ\ngiữa các thực thể c ó thể được biểu diễn bằng @OneToOne, @ManyToOne hoặc\n@OneToMany tùy mô hình dữ liệu. [4]\nHibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với\nschema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản\nlý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với\nmigration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất.\n\n[d8e0e0553a845c99a094348ccd0df6beeb2dbe1bb687250bf73cc48e880ca9b1 | starter/data/bao_cao_thuc_tap.pdf | page 78]\n5 Có sơ đồ phân trang và tối\nthiểu 3 trang giao diện\nCó sơ đồ phân trang, các user\nflow; frontend gồm thông tin\ncá nhân, CPA, thời khóa biểu,\nxác thực và quản trị.\nĐạt\n6 Khai báo sử dụng AI và\nminh chứng\nĐã mô tả công cụ, nhóm công\nviệc có AI hỗ trợ, phần sinh\nviên thực hiện và vị trí minh\nchứng.\nĐạt\n\n3.1.3 Đánh giá mức độ áp dụng những kiến thức đã được học\nTrong giai đoạn thực tập tại doanh nghiệp, em đã củng cố kiến thức Java Core\nvà vận dụng vào xây dựng ứng dụng HUMG Study Guide. Em hiểu rõ hơn cách tổ\nchức ứng dụng Spring Boot theo các thành phần Controller, Service, Repository và\nDTO; cách xây dựng REST API, kiểm tra dữ liệu đầu vào và xử lý lỗi.\nThông qua các chức năng quản lý kết quả học tập, tính CPA và lập thời khóa\nbiểu, em đã vận dụng kiến thức về cơ sở dữ liệu quan hệ, khóa ngoại, JPA/Hibernate\nvà quản lý thay đổi cấu trúc dữ liệu bằng Flyway.\n\n[f69d0ce36ad2bcff2b693df20bd8b4a9860523ef7391064dd5fd47a98c56f416 | starter/data/bao_cao_thuc_tap.pdf | page 29]\n2.1.8.1 Khái niệm và mục đích\nKiểm thử phần mềm là hoạt động thực hiện và đánh giá các trường hợp kiểm\ntra để so sánh hành vi thực tế với kết quả mong đợi. Kiểm thử hỗ trợ phát hiện lỗi và\ncung cấp bằng chứng về chất lượng trong phạm vi được kiểm tra; kết quả đạt không\nchứng minh phần mềm hoàn toàn không còn lỗi. [14]\n2.1.8.2 Kiểm thử đơn vị và kiểm thử tích hợp\nKiểm thử đơn vị kiểm tra một phần chức năng nhỏ, thường là phương thức hoặc\nlớp, trong điều kiện được kiểm soát. Kiểm thử tích hợp đánh giá sự phối hợp giữa các\nthành phần, chẳng hạn Service, Repository và cơ sở dữ liệu. Hai mức kiểm thử bổ\nsung cho nhau: một phép tính đúng khi chạy độc lập vẫn có thể gặp lỗi khi nhận hoặc\nlưu dữ liệu qua các thành phần khác. [14]\nSpring Boot cung cấp các công cụ hỗ trợ kiểm thử thông qua spring-boot-starter-\ntest, kết hợp JUnit Jupiter với các thư viện kiểm tra và mô phỏng. Mockito có thể\nthay thế dependency bằng đối tượng mô phỏng để kiểm soát phản hồi và kiểm tra",
+    "review": {
+      "method": "dense",
+      "query_id": "q04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ mẫu V<phiên_bản>__<mô_tả>.sql, phiên bản duy nhất và thứ tự thực thi ở trang 21."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ mẫu V<phiên_bản>__<mô_tả>.sql, phiên bản duy nhất và thứ tự thực thi ở trang 21.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q05",
+    "question": "JPA, Hibernate và Spring Data JPA khác nhau về vai trò như thế nào?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong dữ liệu truy xuất để trả lời câu hỏi này.",
+    "citations": [],
+    "cited_chunks": [],
+    "gold": {
+      "id": "q05",
+      "split": "dev",
+      "question": "JPA, Hibernate và Spring Data JPA khác nhau về vai trò như thế nào?",
+      "answerable": true,
+      "expected_answer": "JPA là đặc tả; Hibernate triển khai ORM; Spring Data JPA hỗ trợ Repository trên nền JPA.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 22,
+          "evidence": "JPA, hiện thuộc Jakarta Persistence, là đặc tả quy định cách ánh xạ và quản lý dữ liệu bền vững cho đối tượng Java. Hibernate là một công cụ ORM triển khai đặc tả này. Spring Data JPA xây dựng lớp hỗ trợ Repository trên nền JPA nhằm giảm mã truy cập dữ liệu. Vì vậy, ba thành phần có vai trò khác nhau: JPA đưa ra quy ước, Hibernate thực hiện ánh xạ và Spring Data JPA hỗ trợ tổ chức thao tác dữ liệu."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[c09c9228cfdb9bf309b930f05f95c145ca7f39c73a24d6ea841492cddfde3fdb | starter/data/bao_cao_thuc_tap.pdf | page 22]\nHình 2.1.4.1-1. ORM\nJPA, hiện thuộc Jakarta Persistence, là đặc tả quy định cách ánh xạ và quản lý\ndữ liệu bền vững cho đối tượng Java. Hibernate là một công cụ ORM triển khai đặc\ntả này. Spring Data JPA xây dựng lớp hỗ trợ Repository trên nền JPA nhằm giảm mã\ntruy cập dữ liệu. Vì vậy, ba thành phần có vai trò khác nhau: JPA đưa ra quy ước,\nHibernate thực hiện ánh xạ và Spring Data JPA hỗ trợ tổ chức thao tác dữ liệu. [4]\n\nHình 2.1.4.1-2. Kiến trúc Hibernate\n2.1.4.2 Repository và truy vấn dữ liệu\nSpring Data JPA cho phép khai báo Repository dưới dạng interface. Khi kế thừa\nJpaRepository, interface có sẵn các phương thức như save, findById, findAll và\ndelete. Với các yêu cầu riêng, người phát triển có thể định nghĩa phương thức truy\n\n[ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59 | starter/data/bao_cao_thuc_tap.pdf | page 23]\nvấn theo quy tắc đặt tên hoặc sử dụng @Query. Các phương thức cần phản ánh đúng\nđiều kiện lọc và phạm vi dữ liệu của nghiệp vụ. [9]\n\nHình 2.1.4.2-1. Spring Data Repository Interface\n2.1.4.3 Ánh xạ Entity và quan hệ\nEntity là lớp Java được ánh xạ với dữ liệu lưu trữ. Các annotation thường dùng\ngồm @Entity để khai báo thực thể, @Table để chỉ định bảng, @Id để xác định khóa\nchính, @GeneratedValue để cấu hình sinh khóa và @Column để mô tả cột. Quan hệ\ngiữa các thực thể c ó thể được biểu diễn bằng @OneToOne, @ManyToOne hoặc\n@OneToMany tùy mô hình dữ liệu. [4]\nHibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với\nschema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản\nlý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với\nmigration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất.\n\n[a740714b28bc63769e50ba21e4ed75eec21f99742dece8ed289512eaa4e28308 | starter/data/bao_cao_thuc_tap.pdf | page 24]\nHình 2.1.4.3-1. Quan hệ giữa Spring Data JPA và Hibernate\n2.1.5 HTML, CSS, JavaScript và Bootstrap\n2.1.5.1 HTML và CSS\nHTML (HyperText Markup Language) là ngôn ngữ đánh dấu dùng để xác định\ncấu trúc và ý nghĩa của nội dung trang web. Các phần tử HTML biểu diễn tiêu đề,\nđoạn văn, liên kết, bảng và biểu mẫu. CSS (Cascading Style Sheets) mô tả cách trình\nbày, chẳng hạn màu sắc, phông chữ, khoảng cách và bố cục. Việc tách cấu trúc khỏi\nđịnh dạng giúp giao diện dễ điều chỉnh và duy trì hơn. [2]\n\nHình 2.1.5.1-1. HTML và CSS\n2.1.5.2 JavaScript và tương tác trên trình duyệt\nJavaScript bổ sung hành vi cho trang web thông qua xử lý sự kiện và thao tác\nvới DOM (Document Object Model). DOM biểu diễn tài liệu dưới dạng cây đối\ntượng; chương trình có thể đọc hoặc cập nhật nội dung, thuộc tính và các phần tử.\nCác sự kiện như nhấn nút hoặc gửi biểu mẫu được dùng để kích hoạt xử lý tương ứng.\n[2]\n\n[eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc | starter/data/bao_cao_thuc_tap.pdf | page 21]\nHình 2.1.3.1-1. MySQL\n2.1.3.2 Quản lý phiên bản cơ sở dữ liệu\nTrong quá trình phát triển, cấu trúc cơ sở dữ liệu có thể thay đổi khi bổ sung\nhoặc điều chỉnh chức năng. Migration là tập lệnh mô tả các thay đổi này, chẳng hạn\ntạo bảng, thêm cột, đổi tên hoặc bổ sung ràng buộc. Quản lý migration theo phiên bản\ngiúp ghi nhận lịch sử và tái lập các thay đổi theo thứ tự, giảm sự khác biệt giữa các\nmôi trường. [7]\nFlyway hỗ trợ migration có phiên bản với tên tệp theo dạng\nV<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực\nhiện theo thứ tự phiên bản.\n\nHình 2.1.3.2-1. Flyway\n2.1.4 Spring Data JPA và Hibernate\n\n[8349a66428a54f1e2a7b6a3d1fb9c0d68aa3f2688426a9467e6a90617077bfed | starter/data/bao_cao_thuc_tap.pdf | page 20]\nSpring Boot là công cụ phát triển ứng dụng dựa trên Spring Framework, giúp\nđơn giản hóa việc cấu hình và khởi tạo dự án. Spring Boot cung cấp cơ chế tự động\ncấu hình, các nhóm thư viện phụ thuộc được đóng gói dưới dạng starter và khả năng\nchạy ứng dụng với máy chủ web nhúng. [4]\n\nHình 2.1.2.1-2. Spring Boot\n2.1.2.2 Các đặc điểm chính\n• Tự động cấu hình: thiết lập các thành phần dựa trên thư viện và cấu hình\ncủa dự án, giúp giảm thao tác cấu hình thủ công. [4]\n• Quản lý thư viện bằng starter: tập hợp các thư viện cần thiết cho từng\nnhóm chức năng như xây dựng API, truy cập cơ sở dữ liệu, kiểm tra dữ\nliệu và bảo mật. [4]\n• Máy chủ web nhúng: cho phép khởi chạy ứng dụng web trực tiếp mà\nkhông cần triển khai riêng lên máy chủ ứng dụng bên ngoài. [4]\n• Dependency Injection: Spring quản lý và cung cấp các đối tượng phụ\nthuộc, giúp các thành phần phối hợp với nhau và thuận tiện hơn khi kiểm\nthử. [5]\n\n[590fb776afad3d6bb86b44d984d5fd2a5e245db81c63283cdf9904210fff9543 | starter/data/bao_cao_thuc_tap.pdf | page 52]\n2.5.3.6 Kiểm soát thay đổi cơ sở dữ liệu\nCác thay đổi cấu trúc được quản lý bằng migration Flyway.\nHibernate kiểm tra sự phù hợp giữa Entity và cơ sở dữ liệu. Khi dữ liệu kết quả\nhọc tập thay đổi, backend tính lại thông tin CPA từ lịch sử để tránh sử dụng tổng hợp\nkhông còn phù hợp.",
+    "review": {
+      "method": "dense",
+      "query_id": "q05",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": null,
+      "reason": "Từ chối nhầm câu có đáp án: quote của claim Spring Data JPA ghép nội dung Repository của trang 22 sang chunk trang 23. Guard phát hiện quote không nằm trong chunk được chỉ định; context thực tế có đủ evidence.",
+      "raw_output_notes": "Từ chối nhầm câu có đáp án: quote của claim Spring Data JPA ghép nội dung Repository của trang 22 sang chunk trang 23. Guard phát hiện quote không nằm trong chunk được chỉ định; context thực tế có đủ evidence.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q06",
+    "question": "Khi sửa Entity, tại sao phải đối chiếu migration nếu dự án dùng ddl-auto=validate?",
+    "status": "answered",
+    "answer": "Khi dự án cấu hình spring.jpa.hibernate.ddl-auto=validate và sử dụng Flyway quản lý thay đổi schema bằng migration, việc thay đổi Entity cần được đối chiếu với migration tương ứng để tránh cấu trúc lớp Java và cơ sở dữ liệu không thống nhất. [ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59]",
+    "citations": [
+      "ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59"
+    ],
+    "cited_chunks": [
+      {
+        "id": "ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "vấn theo quy tắc đặt tên hoặc sử dụng @Query. Các phương thức cần phản ánh đúng\nđiều kiện lọc và phạm vi dữ liệu của nghiệp vụ. [9]\n\nHình 2.1.4.2-1. Spring Data Repository Interface\n2.1.4.3 Ánh xạ Entity và quan hệ\nEntity là lớp Java được ánh xạ với dữ liệu lưu trữ. Các annotation thường dùng\ngồm @Entity để khai báo thực thể, @Table để chỉ định bảng, @Id để xác định khóa\nchính, @GeneratedValue để cấu hình sinh khóa và @Column để mô tả cột. Quan hệ\ngiữa các thực thể c ó thể được biểu diễn bằng @OneToOne, @ManyToOne hoặc\n@OneToMany tùy mô hình dữ liệu. [4]\nHibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với\nschema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản\nlý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với\nmigration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 23,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 880,
+          "start_char": 0
+        },
+        "score": 0.5629929403815305,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q06",
+      "split": "dev",
+      "question": "Khi sửa Entity, tại sao phải đối chiếu migration nếu dự án dùng ddl-auto=validate?",
+      "answerable": true,
+      "expected_answer": "Hibernate kiểm tra Entity với schema; Flyway quản lý thay đổi schema, nên cần migration tương ứng để tránh lệch cấu trúc.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 23,
+          "evidence": "Hibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với schema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản lý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với migration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[ceac347b8515418780c58a9addd5b5dcda7aca69cdc8448f6e33916a475b5d59 | starter/data/bao_cao_thuc_tap.pdf | page 23]\nvấn theo quy tắc đặt tên hoặc sử dụng @Query. Các phương thức cần phản ánh đúng\nđiều kiện lọc và phạm vi dữ liệu của nghiệp vụ. [9]\n\nHình 2.1.4.2-1. Spring Data Repository Interface\n2.1.4.3 Ánh xạ Entity và quan hệ\nEntity là lớp Java được ánh xạ với dữ liệu lưu trữ. Các annotation thường dùng\ngồm @Entity để khai báo thực thể, @Table để chỉ định bảng, @Id để xác định khóa\nchính, @GeneratedValue để cấu hình sinh khóa và @Column để mô tả cột. Quan hệ\ngiữa các thực thể c ó thể được biểu diễn bằng @OneToOne, @ManyToOne hoặc\n@OneToMany tùy mô hình dữ liệu. [4]\nHibernate được sử dụng để ánh xạ và kiểm tra sự phù hợp giữa Entity với\nschema hiện có. Dự án cấu hình spring.jpa.hibernate.ddl-auto=validate; Flyway quản\nlý thay đổi schema bằng migration. Vì vậy, thay đổi Entity cần được đối chiếu với\nmigration tương ứng, tránh để cấu trúc lớp Java và cơ sở dữ liệu không thống nhất.\n\n[590fb776afad3d6bb86b44d984d5fd2a5e245db81c63283cdf9904210fff9543 | starter/data/bao_cao_thuc_tap.pdf | page 52]\n2.5.3.6 Kiểm soát thay đổi cơ sở dữ liệu\nCác thay đổi cấu trúc được quản lý bằng migration Flyway.\nHibernate kiểm tra sự phù hợp giữa Entity và cơ sở dữ liệu. Khi dữ liệu kết quả\nhọc tập thay đổi, backend tính lại thông tin CPA từ lịch sử để tránh sử dụng tổng hợp\nkhông còn phù hợp.\n\n[eeb26831286b70f28c5afc801f0e701e18f6a1b809e2d66a88be55ad4b54d2bc | starter/data/bao_cao_thuc_tap.pdf | page 21]\nHình 2.1.3.1-1. MySQL\n2.1.3.2 Quản lý phiên bản cơ sở dữ liệu\nTrong quá trình phát triển, cấu trúc cơ sở dữ liệu có thể thay đổi khi bổ sung\nhoặc điều chỉnh chức năng. Migration là tập lệnh mô tả các thay đổi này, chẳng hạn\ntạo bảng, thêm cột, đổi tên hoặc bổ sung ràng buộc. Quản lý migration theo phiên bản\ngiúp ghi nhận lịch sử và tái lập các thay đổi theo thứ tự, giảm sự khác biệt giữa các\nmôi trường. [7]\nFlyway hỗ trợ migration có phiên bản với tên tệp theo dạng\nV<phiên_bản>__<mô_tả>.sql. Mỗi phiên bản phải duy nhất; các migration được thực\nhiện theo thứ tự phiên bản.\n\nHình 2.1.3.2-1. Flyway\n2.1.4 Spring Data JPA và Hibernate\n\n[79fe2252d9926de9dd5e4157181cd89cb95353244646e087c298e28447c003ad | starter/data/bao_cao_thuc_tap.pdf | page 49]\n2.5.3.4 Thiết kế và ánh xạ dữ liệu\nCác bảng users, student_info và course_results lưu tài khoản, hồ sơ và lịch sử\nkết quả từng lần học. Một học phần có thể xuất hiện nhiều lần trong lịch sử để phục\nvụ học lại hoặc học cải thiện.\nCác khóa ngoại thể hiện quan hệ giữa dữ liệu và chủ sở hữu. Entity sử dụng\nLong cho khóa chính, BigDecimal cho điểm và tín chỉ; enum được lưu dưới dạng\nchuỗi.\n\n[8c72e9f3f8d0f5f18de8de109f6db8c5910448ab7db1a97f5cc7a2c9d47451ce | starter/data/bao_cao_thuc_tap.pdf | page 21]\n2.1.4.1 Khái niệm và mối quan hệ\nÁnh xạ quan hệ đối tượng (Object–Relational Mapping – ORM) là kỹ thuật liên\nkết đối tượng trong chương trình với dữ liệu trong cơ sở dữ liệu quan hệ. Thông qua\nlớp ánh xạ, ứng dụng có thể thao tác với đối tượng, trong khi công cụ ORM hỗ trợ\nchuyển các thao tác này thành truy vấn cơ sở dữ liệu. Cách tiếp cận này giúp giảm\nmã xử lý dữ liệu lặp lại; người lập trình vẫn cần hiểu cấu trúc bảng và truy vấn được\nthực hiện. [8]\n\n[1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb | starter/data/bao_cao_thuc_tap.pdf | page 32]\n2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.",
+    "review": {
+      "method": "dense",
+      "query_id": "q06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ quan hệ validate/schema/migration và tránh lệch cấu trúc ở trang 23; không tự đổi schema là diễn giải phù hợp ngữ cảnh validate."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ quan hệ validate/schema/migration và tránh lệch cấu trúc ở trang 23; không tự đổi schema là diễn giải phù hợp ngữ cảnh validate.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q07",
+    "question": "BCrypt có cho phép giải mã để khôi phục mật khẩu gốc không?",
+    "status": "answered",
+    "answer": "BCrypt là một thuật toán băm mật khẩu có tham số chi phí; việc băm không phải là mã hóa có thể giải mã để lấy lại mật khẩu gốc. [6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714]",
+    "citations": [
+      "6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714"
+    ],
+    "cited_chunks": [
+      {
+        "id": "6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Hình 2.1.6.1-1. Authentication và Authorization\nTrong giao tiếp qua API, client gửi thông tin xác thực theo cơ chế được hệ thống\nquy định; server kiểm tra danh tính và quyền trước khi xử lý yêu cầu. [1]\n2.1.6.2 Spring Security và bảo vệ mật khẩu\nSpring Security cung cấp cơ chế xác thực, phân quyền và hỗ trợ bảo vệ ứng\ndụng Spring trước một số dạng tấn công phổ biến. Đối với ứng dụng servlet, các yêu\ncầu đi qua chuỗi bộ lọc bảo mật trước khi được xử lý tại Controller; chính sách truy\ncập có thể được khai báo theo đường dẫn và quyền của người dùng. [11]\n\nHình 2.1.6.2-1. Spring Security\nMật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần.\nPasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với\ngiá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí\nlàm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể\ngiải mã để lấy lại mật khẩu gốc. [11]",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 26,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 956,
+          "start_char": 0
+        },
+        "score": 0.5030131334442616,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q07",
+      "split": "dev",
+      "question": "BCrypt có cho phép giải mã để khôi phục mật khẩu gốc không?",
+      "answerable": true,
+      "expected_answer": "Không; mật khẩu được băm một chiều, không phải mã hóa có thể giải mã.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 26,
+          "evidence": "Mật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần. PasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với giá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí làm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể giải mã để lấy lại mật khẩu gốc."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714 | starter/data/bao_cao_thuc_tap.pdf | page 26]\nHình 2.1.6.1-1. Authentication và Authorization\nTrong giao tiếp qua API, client gửi thông tin xác thực theo cơ chế được hệ thống\nquy định; server kiểm tra danh tính và quyền trước khi xử lý yêu cầu. [1]\n2.1.6.2 Spring Security và bảo vệ mật khẩu\nSpring Security cung cấp cơ chế xác thực, phân quyền và hỗ trợ bảo vệ ứng\ndụng Spring trước một số dạng tấn công phổ biến. Đối với ứng dụng servlet, các yêu\ncầu đi qua chuỗi bộ lọc bảo mật trước khi được xử lý tại Controller; chính sách truy\ncập có thể được khai báo theo đường dẫn và quyền của người dùng. [11]\n\nHình 2.1.6.2-1. Spring Security\nMật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần.\nPasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với\ngiá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí\nlàm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể\ngiải mã để lấy lại mật khẩu gốc. [11]\n\n[1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb | starter/data/bao_cao_thuc_tap.pdf | page 32]\n2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.\n\n[22e2ac86162f49a575d1138750dc05bcbd4e64ca2fdbca7199accdf541d81adf | starter/data/bao_cao_thuc_tap.pdf | page 27]\nhiện sửa đổi, không mặc nhiên mã hóa nội dung token. Vì vậy, không đưa mật khẩu\nhoặc thông tin nhạy cảm không cần thiết vào token. [11]\n\nHình 2.1.6.3-1. JWT\nClient gửi token trong header Authorization theo dạng Bearer <token>. Spring\nSecurity Resource Server hỗ trợ giải mã, xác minh JWT và chuyển thông tin hợp lệ\nthành đối tượng xác thực để phục vụ quyết định truy cập. Thời hạn và issuer là những\nđiều kiện cần được kiểm tra theo cấu hình của ứng dụng. [11]\n2.1.7 Cơ sở tính toán CPA\n2.1.7.1 Khái niệm và cơ sở tham khảo\nCPA được sử dụng trong đề tài để biểu thị điểm trung bình tích lũy theo tín chỉ.\nCơ sở nghiệp vụ được tham khảo từ Quy chế đào tạo đại học theo hệ thống tín chỉ\nban hành kèm Quyết định số 2346/QĐ -MĐC ngày 10/10/2025. Nội dung liên quan\ngồm đánh giá học phần, học lại và đánh giá kết quả học tập. Quy chế có phạm vi áp\ndụng theo khóa tại Điều 28. [12]\n\n[de87a01640b6466190139cba2548c271622703892541de88002f7995fd394a56 | starter/data/bao_cao_thuc_tap.pdf | page 25]\n2.1.6.1 Khái niệm\nXác thực (authentication) là quá trình kiểm tra danh tính của chủ thể gửi yêu\ncầu, chẳng hạn đối chiếu tên đăng nhập và mật khẩu. Phân quyền (authorization) xác\nđịnh chủ thể đã được phép truy cập tài nguyên hoặc thực hiện thao tác cụ thể hay\nchưa. Hai bước có vai trò khác nhau: đăng nhập thành công không đồng nghĩa với\nquyền sử dụng mọi chức năng của hệ thống. [11]\n\n[6f4c34a3fdbd6367b35a1a6f5f00fbfc8c2729bc853cd76b86deb35596c75741 | starter/data/bao_cao_thuc_tap.pdf | page 78]\nEm cũng được thực hành xây dựng\ngiao diện bằng HTML, CSS, JavaScript, Bootstrap và kết nối giao diện với backend\nthông qua Fetch API.\nBên cạnh đó, em hiểu rõ hơn vai trò của xác thực, phân quyền, băm mật khẩu\nbằng BCrypt và sử dụng JWT để bảo vệ API. Việc thực hiện các tình huống kiểm thử\ngiúp em nhận thức được rằng kết quả xử lý cần được đối chiếu với yêu cầu nghiệp\nvụ, đặc biệt đối với các trường hợp học lại, học cải thiện và xung đột lịch học.\n3.1.4 Đánh giá khả năng đáp ứng công việc của bản thân về kiến thức và kỹ\nnăng\nVề kỹ năng chuyên môn, em đã rèn luyện khả năng chia yêu cầu thành các công\nviệc nhỏ, xây dựng API, truy vấn dữ liệu, tích hợp giao diện và kiểm tra kết quả bằng\nPostman cùng các kiểm thử tự động. Em biết sử dụng Git để theo dõi thay đổi mã\nnguồn, đọc thông báo lỗi và sử dụng dữ liệu mẫu để tái hiện vấn đề trước khi tìm cách\nkhắc phục.\n\n[4cdf6c2880c5d93d02231203e4dde8870ef2a59a705fdd468d096240013801a0 | starter/data/bao_cao_thuc_tap.pdf | page 26]\n2.1.6.3 JWT và cơ chế Bearer token\nJWT (JSON Web Token) biểu diễn các thông tin xác nhận về chủ thể dưới dạng\ntoken. Trong cơ chế JWT có chữ ký được dùng để xác thực, server kiểm tra chữ ký\nvà các điều kiện hợp lệ trước khi chấp nhận token. Chữ ký bảo đảm khả năng phát",
+    "review": {
+      "method": "dense",
+      "query_id": "q07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Nêu băm một chiều, không giải mã lấy mật khẩu gốc, đúng trang 26."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu băm một chiều, không giải mã lấy mật khẩu gốc, đúng trang 26.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q08",
+    "question": "Client gửi JWT trong header nào và theo định dạng gì?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong dữ liệu truy xuất để trả lời câu hỏi này.",
+    "citations": [],
+    "cited_chunks": [],
+    "gold": {
+      "id": "q08",
+      "split": "dev",
+      "question": "Client gửi JWT trong header nào và theo định dạng gì?",
+      "answerable": true,
+      "expected_answer": "Authorization: Bearer <token>.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 27,
+          "evidence": "Client gửi token trong header Authorization theo dạng Bearer <token>."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[4cdf6c2880c5d93d02231203e4dde8870ef2a59a705fdd468d096240013801a0 | starter/data/bao_cao_thuc_tap.pdf | page 26]\n2.1.6.3 JWT và cơ chế Bearer token\nJWT (JSON Web Token) biểu diễn các thông tin xác nhận về chủ thể dưới dạng\ntoken. Trong cơ chế JWT có chữ ký được dùng để xác thực, server kiểm tra chữ ký\nvà các điều kiện hợp lệ trước khi chấp nhận token. Chữ ký bảo đảm khả năng phát\n\n[22e2ac86162f49a575d1138750dc05bcbd4e64ca2fdbca7199accdf541d81adf | starter/data/bao_cao_thuc_tap.pdf | page 27]\nhiện sửa đổi, không mặc nhiên mã hóa nội dung token. Vì vậy, không đưa mật khẩu\nhoặc thông tin nhạy cảm không cần thiết vào token. [11]\n\nHình 2.1.6.3-1. JWT\nClient gửi token trong header Authorization theo dạng Bearer <token>. Spring\nSecurity Resource Server hỗ trợ giải mã, xác minh JWT và chuyển thông tin hợp lệ\nthành đối tượng xác thực để phục vụ quyết định truy cập. Thời hạn và issuer là những\nđiều kiện cần được kiểm tra theo cấu hình của ứng dụng. [11]\n2.1.7 Cơ sở tính toán CPA\n2.1.7.1 Khái niệm và cơ sở tham khảo\nCPA được sử dụng trong đề tài để biểu thị điểm trung bình tích lũy theo tín chỉ.\nCơ sở nghiệp vụ được tham khảo từ Quy chế đào tạo đại học theo hệ thống tín chỉ\nban hành kèm Quyết định số 2346/QĐ -MĐC ngày 10/10/2025. Nội dung liên quan\ngồm đánh giá học phần, học lại và đánh giá kết quả học tập. Quy chế có phạm vi áp\ndụng theo khóa tại Điều 28. [12]\n\n[d951e08ce9a131a8c38e1089c4047cd15123af17b11ec4a0c831bdbbd10e8356 | starter/data/bao_cao_thuc_tap.pdf | page 18]\n2.1.1.3 Trao đổi dữ liệu và xử lý phản hồi\nJSON (JavaScript Object Notation) là định dạng trao đổi dữ liệu dạng văn bản,\nđộc lập với ngôn ngữ lập trình. JSON hỗ trợ các kiểu giá trị gồm chuỗi, số, boolean,\nnull, đối tượng và mảng. Trong giao tiếp API, dữ liệu JSON thường được đặt trong\nphần thân yêu cầu hoặc phản hồi, với kiểu nội dung được khai báo bằng header\nContent-Type: application/json. [2]\nKhi nhận phản hồi, client kiểm tra mã trạng thái HTTP và đọc nội dung do\nserver trả về. Với yêu cầu thành công, dữ liệu được sử dụng để hiển thị hoặc tiếp tục\nxử lý. Với yêu cầu thất bại, client đọc thông tin lỗi để thông báo cho người dùng hoặc\nthực hiện biện pháp xử lý phù hợp. [2]\n\n[6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714 | starter/data/bao_cao_thuc_tap.pdf | page 26]\nHình 2.1.6.1-1. Authentication và Authorization\nTrong giao tiếp qua API, client gửi thông tin xác thực theo cơ chế được hệ thống\nquy định; server kiểm tra danh tính và quyền trước khi xử lý yêu cầu. [1]\n2.1.6.2 Spring Security và bảo vệ mật khẩu\nSpring Security cung cấp cơ chế xác thực, phân quyền và hỗ trợ bảo vệ ứng\ndụng Spring trước một số dạng tấn công phổ biến. Đối với ứng dụng servlet, các yêu\ncầu đi qua chuỗi bộ lọc bảo mật trước khi được xử lý tại Controller; chính sách truy\ncập có thể được khai báo theo đường dẫn và quyền của người dùng. [11]\n\nHình 2.1.6.2-1. Spring Security\nMật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần.\nPasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với\ngiá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí\nlàm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể\ngiải mã để lấy lại mật khẩu gốc. [11]\n\n[7b3f31a9e54ac320c631f36d073cc970d6b16c86e1b6e58ae278124a54c003cd | starter/data/bao_cao_thuc_tap.pdf | page 19]\nMã trạng thái Ý nghĩa\n200 OK Yêu cầu được xử lý thành công.\n201 Created Yêu cầu thành công và tạo tài nguyên mới.\n204 No Content Yêu cầu thành công, không có nội dung phản\nhồi.\n400 Bad Request Yêu cầu không hợp lệ.\n401 Unauthorized Thiếu thông tin xác thực hợp lệ.\n403 Forbidden Máy chủ từ chối thực hiện yêu cầu.\n404 Not Found Không tìm thấy tài nguyên được yêu cầu.\n500 Internal Server\nError\nMáy chủ gặp lỗi khiến yêu cầu không thể hoàn\nthành.\nBảng 2.1-2. Các mã trạng thái HTTP phổ biến\nFrontend kết hợp mã trạng thái với nội dung phản hồi để cập nhật giao diện hoặc\nthông báo lỗi cho người dùng.\n2.1.2 Java và Spring Boot\n2.1.2.1 Khái niệm\nJava là ngôn ngữ lập trình hướng đối tượng, được sử dụng để xây dựng nhiều\nloại ứng dụng, trong đó có ứng dụng web và hệ thống phía máy chủ. Mã nguồn Java\nthường được biên dịch thành bytecode và thực thi trên máy ảo Java (JVM). Cơ chế\nnày giúp chương trình có thể hoạt động trên các nền tảng có môi trường Java tương\nthích. [3]\n\n[eb0082037eed6e846687345582d1393fb54d7d27394f665f765e65f14b159fc4 | starter/data/bao_cao_thuc_tap.pdf | page 17]\nCHƯƠNG 2\nNỘI DUNG THỰC TẬP\n2.1 Cơ sở lý thuyết\n2.1.1 Kiến trúc ứng dụng web và REST API\n2.1.1.1 Kiến trúc ứng dụng web\nỨng dụng web thường được xây dựng theo mô hình client –server. Phía client\ntiếp nhận thao tác của người dùng và hiển thị thông tin trên trình duyệt; phía server\ntiếp nhận yêu cầu, xử lý nghiệp vụ và truy cập dữ liệu. Hai phía trao đổi thông tin\nthông qua các yêu cầu và phản hồi HTTP. [1]\n\nHình 2.1.1.1-1. Mô hình Client – Server\n2.1.1.2 REST API và tài nguyên\nREST (Representational State Transfer) là một phong cách kiến trúc quy định\ncác nguyên tắc giao tiếp giữa client và server. Một số ràng buộc của REST gồm phân\ntách client–server, giao tiếp không trạng thái và giao diện thống nhất. Tài nguyên\nđược nhận diện bằng URI và được trao đổi thông qua các dạng biểu diễn dữ liệu. [1]",
+    "review": {
+      "method": "dense",
+      "query_id": "q08",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": null,
+      "reason": "Từ chối nhầm câu có đáp án: model gán quote header trang 27 cho chunk JWT trang 26; guard chặn nguồn sai nhưng không sửa hoặc tìm lại. Context có evidence đúng nên chấm answer 0, context 2.",
+      "raw_output_notes": "Từ chối nhầm câu có đáp án: model gán quote header trang 27 cho chunk JWT trang 26; guard chặn nguồn sai nhưng không sửa hoặc tìm lại. Context có evidence đúng nên chấm answer 0, context 2.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q09",
+    "question": "Theo phần cơ sở lý thuyết ở Chương 2, CPA được làm tròn và lưu chi tiết ra sao để hạn chế sai số tính tiếp?",
+    "status": "answered",
+    "answer": "CPA được làm tròn và lưu chi tiết bằng cách sử dụng BigDecimal để kiểm soát số thập phân và quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân và giữ CPA chi tiết với bốn chữ số để tránh sai số khi tính tiếp. [3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f]",
+    "citations": [
+      "3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f"
+    ],
+    "cited_chunks": [
+      {
+        "id": "3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "2.1.7.5 Độ chính xác và đánh giá mục tiêu\nCác phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân\nvà quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân\nvà giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho\ntính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ. [13]\nĐể đánh giá khả năng đạt CPA mục tiêu, hệ thống tính điểm trung bình tối thiểu\ncần đạt trên số tín chỉ còn lại. Các đại lượng được sử dụng gồm:\nT: tổng số tín chỉ yêu cầu của chương trình.\nG: CPA mục tiêu.\nC: số tín chỉ đã tích lũy từ các kết quả được chọn tính CPA.\nP: tổng điểm có trọng số hiện tại, được tính bằng tổng các tích điểm hệ 4 × số\ntín chỉ của những kết quả được chọn.\nKhi T > C, số tín chỉ còn lại là T − C. Để đạt CPA mục tiêu, tổng điểm có trọng\nsố cần đạt khi hoàn thành chương trình là T × G. Vì đã tích lũy được P điểm, mức\nđiểm trung bình cần đạt trên phần tín chỉ còn lại được tính bằng:\n𝑅 = 𝑚𝑎𝑥(𝑇 × 𝐺 − 𝑃𝑇 − 𝐶 ,0)",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 28,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 1844,
+          "start_char": 852
+        },
+        "score": 0.5511199583773184,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q09",
+      "split": "dev",
+      "question": "Theo phần cơ sở lý thuyết ở Chương 2, CPA được làm tròn và lưu chi tiết ra sao để hạn chế sai số tính tiếp?",
+      "answerable": true,
+      "expected_answer": "Dùng BigDecimal và HALF_UP; hiển thị 2 chữ số, giữ chi tiết 4 chữ số; dùng tổng điểm trọng số trực tiếp, không nhân ngược CPA đã làm tròn.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 28,
+          "evidence": "Các phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân và quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân và giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho tính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ."
+        }
+      ],
+      "filter": {
+        "chapter": "chapter_2"
+      }
+    },
+    "context": "[3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f | starter/data/bao_cao_thuc_tap.pdf | page 28]\n2.1.7.5 Độ chính xác và đánh giá mục tiêu\nCác phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân\nvà quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân\nvà giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho\ntính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ. [13]\nĐể đánh giá khả năng đạt CPA mục tiêu, hệ thống tính điểm trung bình tối thiểu\ncần đạt trên số tín chỉ còn lại. Các đại lượng được sử dụng gồm:\nT: tổng số tín chỉ yêu cầu của chương trình.\nG: CPA mục tiêu.\nC: số tín chỉ đã tích lũy từ các kết quả được chọn tính CPA.\nP: tổng điểm có trọng số hiện tại, được tính bằng tổng các tích điểm hệ 4 × số\ntín chỉ của những kết quả được chọn.\nKhi T > C, số tín chỉ còn lại là T − C. Để đạt CPA mục tiêu, tổng điểm có trọng\nsố cần đạt khi hoàn thành chương trình là T × G. Vì đã tích lũy được P điểm, mức\nđiểm trung bình cần đạt trên phần tín chỉ còn lại được tính bằng:\n𝑅 = 𝑚𝑎𝑥(𝑇 × 𝐺 − 𝑃𝑇 − 𝐶 ,0)\n\n[28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45 | starter/data/bao_cao_thuc_tap.pdf | page 29]\nTrong đó, R là điểm trung bình cần đạt theo thang điểm 4. Hàm max đưa kết\nquả về 0 nếu tổng điểm hiện có đã đủ đáp ứng mục tiêu (khi mức điểm trung bình\nđược tính < 0).\nNếu R ≤ 4, mục tiêu được đánh giá là khả thi với giả định sinh viên hoàn thành\nsố tín chỉ còn lại. Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu;\nsinh viên cần cân nhắc học cải thiện các học phần đã tích lũy.\nKhi C ≥ T, hệ thống so sánh CPA chi tiết hiện tại với CPA mục tiêu để xác định\nmục tiêu đã đạt hay chưa.\nVí dụ minh họa: chương trình yêu cầu 150 tín chỉ, sinh viên đã tích lũy 100 tín\nchỉ, có tổng điểm trọng số 300 và đặt mục tiêu CPA 3,2. Số tín chỉ còn lại là 150 −\n100 = 50. Mức điểm trung bình cần đạt được tính như sau:\n𝑅 = 150 × 3,2 − 300150 − 100 = 18050 = 3,6\nNhư vậy, sinh viên cần đạt trung bình 3,6/4 trên 50 tín chỉ còn lại. Do mức yêu\ncầu không vượt 4, mục tiêu được đánh giá là khả thi theo mô hình tính toán này.\n2.1.8 Kiểm thử phần mềm\n\n[51b68722437ccb54dd31d9d41e63f723654fcc711497df9c9cf17260b8112bbd | starter/data/bao_cao_thuc_tap.pdf | page 49]\ntừng lần học, đồng thời cập nhật lại việc lựa chọn kết quả tính CPA. Đầu ra là danh\nsách lịch sử và phản hồi của thao tác.\nNhập bảng điểm Excel — Đối tượng: STUDENT. Đầu vào là tệp bảng điểm và\ncác dòng người dùng lựa chọn. Hệ thống đọc dữ liệu để xem trước, sau đó kiểm tra\nvà lưu khi người dùng xác nhận. Đầu ra gồm danh sách dòng xem trước, kết quả nhập\nvà thông tin CPA được tính lại. Bước xem trước chưa tạo kết quả học tập trong cơ sở\ndữ liệu.\nTổng hợp CPA — Đối tượng: STUDENT. Đầu vào là lịch sử kết quả học tập\nvà tổng tín chỉ yêu cầu. Hệ thống phân loại lần học, lựa chọn điểm đạt cao nhất phù\nhợp của mỗi mã môn và xác định is_counted_in_cpa. Đầu ra gồm CPA, tín chỉ hoàn\nthành và thông tin theo dõi học lại. Lịch sử các lần học được giữ lại để giải thích kết\nquả lựa chọn.\nĐánh giá CPA mục tiêu và gợi ý học phần — Đối tượng: STUDENT. Đầu vào\nlà CPA mục tiêu cùng dữ liệu học tập hiện tại.\n\n[25fcda0390d1b11d3e195c258d1733fec979284f7cb0ab522f86498cd11c5299 | starter/data/bao_cao_thuc_tap.pdf | page 56]\nHình 2.7.3.2-1. Ảnh minh hoạ giao diện việc lựa chọn điểm đạt cao nhất trong lịch\nsử học phần để tính CPA\n\n[1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb | starter/data/bao_cao_thuc_tap.pdf | page 32]\n2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.\n\n[3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4 | starter/data/bao_cao_thuc_tap.pdf | page 56]\n2.7 BÁO CÁO TUẦN 6: HOÀN THIỆN NGHIỆP VỤ CPA VÀ XỬ LÝ DỮ\nLIỆU\n2.7.1 Mục tiêu công việc theo đề cương\nTrong tuần 6, xây dựng các chức năng nghiệp vụ chính và xử lý dữ liệu trên hệ\nthống.\n2.7.2 Công việc thực tế đã hoàn thành\nTrong tuần 6, em đã hoàn thiện xử lý lịch sử lần học, lựa chọn kết quả tính CPA,\ntheo dõi học lại F và học cải thiện; bổ sung các chức năng hỗ trợ đánh giá kế hoạch\nhọc tập.\n2.7.3 Nội dung công việc chi tiết\n2.7.3.1 Phân loại lịch sử lần học\nCác kết quả được nhóm theo mã học phần và xét theo thứ tự thời gian. Hệ thống\nphân biệt lần học đầu, học lại sau F và học cải thiện sau khi đã đạt.\n\nHình 2.7.3.1-1. Ảnh minh hoạ giao diện phân loại lịch sử lần học\n2.7.3.2 Lựa chọn kết quả và tính lại CPA\nMỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp\nbằng điểm được phân xử theo năm học và học kỳ mới hơn. Cờ is_counted_in_cpa thể\nhiện kết quả được tính. Lịch sử các lần học vẫn được giữ lại; CPA được tính trực tiếp\ntừ lịch sử bằng BigDecimal.",
+    "review": {
+      "method": "dense",
+      "query_id": "q09",
+      "answer_grade": 1,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ BigDecimal/HALF_UP/2 chữ số/4 chữ số, nhưng answer không nêu dùng tổng điểm trọng số trực tiếp và tránh nhân ngược CPA đã làm tròn để tính tiếp. Quote có chi tiết này không thay thế việc trả lời. Chấm đúng một phần, citation của phần đã nói vẫn hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ BigDecimal/HALF_UP/2 chữ số/4 chữ số, nhưng answer không nêu dùng tổng điểm trọng số trực tiếp và tránh nhân ngược CPA đã làm tròn để tính tiếp. Quote có chi tiết này không thay thế việc trả lời. Chấm đúng một phần, citation của phần đã nói vẫn hỗ trợ.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q10",
+    "question": "Nếu điểm trung bình cần đạt R lớn hơn 4 thì việc chỉ học các tín chỉ còn lại có đủ đạt CPA mục tiêu không?",
+    "status": "answered",
+    "answer": "Nếu điểm trung bình cần đạt R lớn hơn 4 thì chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu CPA; sinh viên cần cân nhắc học cải thiện các học phần đã tích lũy. [28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45]",
+    "citations": [
+      "28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45"
+    ],
+    "cited_chunks": [
+      {
+        "id": "28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Trong đó, R là điểm trung bình cần đạt theo thang điểm 4. Hàm max đưa kết\nquả về 0 nếu tổng điểm hiện có đã đủ đáp ứng mục tiêu (khi mức điểm trung bình\nđược tính < 0).\nNếu R ≤ 4, mục tiêu được đánh giá là khả thi với giả định sinh viên hoàn thành\nsố tín chỉ còn lại. Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu;\nsinh viên cần cân nhắc học cải thiện các học phần đã tích lũy.\nKhi C ≥ T, hệ thống so sánh CPA chi tiết hiện tại với CPA mục tiêu để xác định\nmục tiêu đã đạt hay chưa.\nVí dụ minh họa: chương trình yêu cầu 150 tín chỉ, sinh viên đã tích lũy 100 tín\nchỉ, có tổng điểm trọng số 300 và đặt mục tiêu CPA 3,2. Số tín chỉ còn lại là 150 −\n100 = 50. Mức điểm trung bình cần đạt được tính như sau:\n𝑅 = 150 × 3,2 − 300150 − 100 = 18050 = 3,6\nNhư vậy, sinh viên cần đạt trung bình 3,6/4 trên 50 tín chỉ còn lại. Do mức yêu\ncầu không vượt 4, mục tiêu được đánh giá là khả thi theo mô hình tính toán này.\n2.1.8 Kiểm thử phần mềm",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 29,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 950,
+          "start_char": 0
+        },
+        "score": 0.7613901637595134,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q10",
+      "split": "dev",
+      "question": "Nếu điểm trung bình cần đạt R lớn hơn 4 thì việc chỉ học các tín chỉ còn lại có đủ đạt CPA mục tiêu không?",
+      "answerable": true,
+      "expected_answer": "Không; cần cân nhắc học cải thiện các học phần đã tích lũy.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 29,
+          "evidence": "Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu; sinh viên cần cân nhắc học cải thiện các học phần đã tích lũy."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45 | starter/data/bao_cao_thuc_tap.pdf | page 29]\nTrong đó, R là điểm trung bình cần đạt theo thang điểm 4. Hàm max đưa kết\nquả về 0 nếu tổng điểm hiện có đã đủ đáp ứng mục tiêu (khi mức điểm trung bình\nđược tính < 0).\nNếu R ≤ 4, mục tiêu được đánh giá là khả thi với giả định sinh viên hoàn thành\nsố tín chỉ còn lại. Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu;\nsinh viên cần cân nhắc học cải thiện các học phần đã tích lũy.\nKhi C ≥ T, hệ thống so sánh CPA chi tiết hiện tại với CPA mục tiêu để xác định\nmục tiêu đã đạt hay chưa.\nVí dụ minh họa: chương trình yêu cầu 150 tín chỉ, sinh viên đã tích lũy 100 tín\nchỉ, có tổng điểm trọng số 300 và đặt mục tiêu CPA 3,2. Số tín chỉ còn lại là 150 −\n100 = 50. Mức điểm trung bình cần đạt được tính như sau:\n𝑅 = 150 × 3,2 − 300150 − 100 = 18050 = 3,6\nNhư vậy, sinh viên cần đạt trung bình 3,6/4 trên 50 tín chỉ còn lại. Do mức yêu\ncầu không vượt 4, mục tiêu được đánh giá là khả thi theo mô hình tính toán này.\n2.1.8 Kiểm thử phần mềm\n\n[3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f | starter/data/bao_cao_thuc_tap.pdf | page 28]\n2.1.7.5 Độ chính xác và đánh giá mục tiêu\nCác phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân\nvà quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân\nvà giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho\ntính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ. [13]\nĐể đánh giá khả năng đạt CPA mục tiêu, hệ thống tính điểm trung bình tối thiểu\ncần đạt trên số tín chỉ còn lại. Các đại lượng được sử dụng gồm:\nT: tổng số tín chỉ yêu cầu của chương trình.\nG: CPA mục tiêu.\nC: số tín chỉ đã tích lũy từ các kết quả được chọn tính CPA.\nP: tổng điểm có trọng số hiện tại, được tính bằng tổng các tích điểm hệ 4 × số\ntín chỉ của những kết quả được chọn.\nKhi T > C, số tín chỉ còn lại là T − C. Để đạt CPA mục tiêu, tổng điểm có trọng\nsố cần đạt khi hoàn thành chương trình là T × G. Vì đã tích lũy được P điểm, mức\nđiểm trung bình cần đạt trên phần tín chỉ còn lại được tính bằng:\n𝑅 = 𝑚𝑎𝑥(𝑇 × 𝐺 − 𝑃𝑇 − 𝐶 ,0)\n\n[25fcda0390d1b11d3e195c258d1733fec979284f7cb0ab522f86498cd11c5299 | starter/data/bao_cao_thuc_tap.pdf | page 56]\nHình 2.7.3.2-1. Ảnh minh hoạ giao diện việc lựa chọn điểm đạt cao nhất trong lịch\nsử học phần để tính CPA\n\n[51b68722437ccb54dd31d9d41e63f723654fcc711497df9c9cf17260b8112bbd | starter/data/bao_cao_thuc_tap.pdf | page 49]\ntừng lần học, đồng thời cập nhật lại việc lựa chọn kết quả tính CPA. Đầu ra là danh\nsách lịch sử và phản hồi của thao tác.\nNhập bảng điểm Excel — Đối tượng: STUDENT. Đầu vào là tệp bảng điểm và\ncác dòng người dùng lựa chọn. Hệ thống đọc dữ liệu để xem trước, sau đó kiểm tra\nvà lưu khi người dùng xác nhận. Đầu ra gồm danh sách dòng xem trước, kết quả nhập\nvà thông tin CPA được tính lại. Bước xem trước chưa tạo kết quả học tập trong cơ sở\ndữ liệu.\nTổng hợp CPA — Đối tượng: STUDENT. Đầu vào là lịch sử kết quả học tập\nvà tổng tín chỉ yêu cầu. Hệ thống phân loại lần học, lựa chọn điểm đạt cao nhất phù\nhợp của mỗi mã môn và xác định is_counted_in_cpa. Đầu ra gồm CPA, tín chỉ hoàn\nthành và thông tin theo dõi học lại. Lịch sử các lần học được giữ lại để giải thích kết\nquả lựa chọn.\nĐánh giá CPA mục tiêu và gợi ý học phần — Đối tượng: STUDENT. Đầu vào\nlà CPA mục tiêu cùng dữ liệu học tập hiện tại.\n\n[3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4 | starter/data/bao_cao_thuc_tap.pdf | page 56]\n2.7 BÁO CÁO TUẦN 6: HOÀN THIỆN NGHIỆP VỤ CPA VÀ XỬ LÝ DỮ\nLIỆU\n2.7.1 Mục tiêu công việc theo đề cương\nTrong tuần 6, xây dựng các chức năng nghiệp vụ chính và xử lý dữ liệu trên hệ\nthống.\n2.7.2 Công việc thực tế đã hoàn thành\nTrong tuần 6, em đã hoàn thiện xử lý lịch sử lần học, lựa chọn kết quả tính CPA,\ntheo dõi học lại F và học cải thiện; bổ sung các chức năng hỗ trợ đánh giá kế hoạch\nhọc tập.\n2.7.3 Nội dung công việc chi tiết\n2.7.3.1 Phân loại lịch sử lần học\nCác kết quả được nhóm theo mã học phần và xét theo thứ tự thời gian. Hệ thống\nphân biệt lần học đầu, học lại sau F và học cải thiện sau khi đã đạt.\n\nHình 2.7.3.1-1. Ảnh minh hoạ giao diện phân loại lịch sử lần học\n2.7.3.2 Lựa chọn kết quả và tính lại CPA\nMỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp\nbằng điểm được phân xử theo năm học và học kỳ mới hơn. Cờ is_counted_in_cpa thể\nhiện kết quả được tính. Lịch sử các lần học vẫn được giữ lại; CPA được tính trực tiếp\ntừ lịch sử bằng BigDecimal.\n\n[1bf5ca3fc5d60cf52fd11fade720cda6cede06f46247a183a662df597882b774 | starter/data/bao_cao_thuc_tap.pdf | page 76]\nPhụ lục\nA, Hình\nA.1\n2 Skill — hướng\ndẫn chuyên biệt\ncho CPA\nSử dụng skill implement -cpa-use-case và\nexplain-for-defense để hỗ trợ xử lý use case\nCPA và giải thích mã. Em cung cấp bài\ntoán, đọc lại kết quả và kiểm tra tính phù\nhợp với nghiệp vụ của đề tài.\nPhụ lục\nA, Hình\nA.2\n3 MCP — Figma\nvà CodeGraph\nSử dụng MCP để kết nối Agent với Figma\nvà công cụ tra cứu mã CodeGraph. Em chọn\nmàn hình hoặc phần mã cần tìm hiểu, gửi\nyêu cầu và đối chiếu kết quả với thiết kế, mã\nnguồn hiện có.\nPhụ lục\nA, Hình\nA.3",
+    "review": {
+      "method": "dense",
+      "query_id": "q10",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ R>4 không khả thi chỉ với tín chỉ còn lại và cân nhắc cải thiện, đúng trang 29."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ R>4 không khả thi chỉ với tín chỉ còn lại và cân nhắc cải thiện, đúng trang 29.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q11",
+    "question": "Những dữ liệu nào không được đưa vào yêu cầu gửi AI trong quy trình của đề tài?",
+    "status": "answered",
+    "answer": "Trong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập hoặc bảng điểm cá nhân vào yêu cầu gửi AI. [1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb]",
+    "citations": [
+      "1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb"
+    ],
+    "cited_chunks": [
+      {
+        "id": "1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 32,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 900,
+          "start_char": 0
+        },
+        "score": 0.4982768122872592,
+        "rank": 2,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q11",
+      "split": "dev",
+      "question": "Những dữ liệu nào không được đưa vào yêu cầu gửi AI trong quy trình của đề tài?",
+      "answerable": true,
+      "expected_answer": "Mật khẩu, khóa ký JWT, token truy cập và bảng điểm cá nhân; minh họa lỗi bằng dữ liệu giả đã loại thông tin nhạy cảm.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 32,
+          "evidence": "Trong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập hoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu giả và loại bỏ thông tin nhạy cảm."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[f153f93cece65c5f29092d0499cf483415b10b82e7f79c80e4a7bcfc501e89a6 | starter/data/bao_cao_thuc_tap.pdf | page 30]\n2.1.9.1 Khái niệm và vai trò\nAI Agent, hay tác tử trí tuệ nhân tạo, là hệ thống có thể tiếp nhận mục tiêu, phân\ntích thông tin và thực hiện các hành động trong phạm vi được cung cấp. Với tác tử sử\ndụng mô hình ngôn ngữ, khả năng lập kế hoạch và gọi công cụ giúp xử lý nhiệm vụ\ngồm nhiều bước, thay vì chỉ sinh một câu trả lời. Mức tự chủ phụ thuộc thiết kế,\nquyền truy cập và sự giám sát của con người. [17]\n\n[1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb | starter/data/bao_cao_thuc_tap.pdf | page 32]\n2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.\n\n[930437634b292731845891031f08fb140f2893074bc287ed9cf2143ee5f816bb | starter/data/bao_cao_thuc_tap.pdf | page 76]\nCHƯƠNG 3\nĐÁNH GIÁ KẾT QUẢ VÀ ĐỊNH HƯỚNG PHÁT TRIỂN\n3.1 Tự đánh giá kết quả thực tập\n3.1.1 Khai báo sử dụng AI\nEm sử dụng LLM ChatGPT và AI Agent là Codex để hỗ trợ tìm hiểu công nghệ,\nphân tích nghiệp vụ, phát triển mã nguồn, kiểm thử và biên soạn tài liệu. Các yêu cầu\nđược giới hạn theo chức năng, cung cấp ngữ cảnh của dự án và được đối chiếu với\nmã nguồn hoặc kết quả thực hiện. Bảng dưới mô tả các nhóm công việc có sự hỗ trợ\ncủa AI.\nTrong quá trình làm việc, em sử dụng môi trường Agent có sẵn và cấu hình\nhướng dẫn theo dự án qua AGENTS.md, các skill và công cụ kết nối. Minh chứng\nđược xác định theo thay đổi mã, kiểm thử, ảnh thao tác và lịch sử yêu cầu thực tế.\nSTT Công việc và\ncông cụ\nPhạm vi hỗ trợ và phần sinh viên thực\nhiện\nMinh\nchứng\n1 Rule —\nAGENTS.md\nSử dụng AGENTS.md để cung cấp cho\nAgent các quy tắc làm việc, phạm vi chức\nnăng và nguyên tắc sửa mã. Em xác định\nyêu cầu, kiểm tra nội dung quy tắc và đối\nchiếu các thay đổi với phạm vi đã giao.\n\n[8b43f3d3b2e80a01ae8b90edbf3336f01ddfd9a17627443758c7333dda9ab985 | starter/data/bao_cao_thuc_tap.pdf | page 18]\nHình 2.1.1.2-1. REST API\nCác phương thức HTTP được sử dụng để thể hiện mục đích của yêu cầu.\nPhương\nthức\nÝ nghĩa\nGET Yêu cầu truy xuất biểu diễn của tài nguyên.\nPOST Gửi dữ liệu đến tài nguyên đích để máy chủ xử lý\nPUT Yêu cầu tạo mới hoặc thay thế trạng thái của tài nguyên\ntại URI xác định bằng dữ liệu được gửi lên.\nDELETE Yêu cầu máy chủ loại bỏ tài nguyên được xác định bởi\nURI.\nBảng 2.1-1. Các phương thức HTTP phổ biến\n\n[241b76d34ec663b5452a5ada61f1834af5ca450ba78b878cb57b75a1dc657b6c | starter/data/bao_cao_thuc_tap.pdf | page 33]\nVí dụ, khi được giao kiểm tra phép tính CPA, mô hình có thể đề nghị đọc một\nservice. Harness chuyển yêu cầu đến công cụ đọc mã, nhận nội dung và cung cấp lại\ncho mô hình. Dựa trên kết quả, mô hình phân tích và đề nghị bước tiếp theo. Quá\ntrình tiếp tục cho đến khi hoàn tất hoặc cần người dùng bổ sung thông tin. [18]\nCác thuật ngữ dưới đây được sử dụng để phân biệt những loại đầu vào và khả\nnăng hỗ trợ agent:\n• Prompt: yêu cầu và thông tin đầu vào giao cho agent. Lập trình viên mô\ntả mục tiêu, hiện trạng, phạm vi thay đổi và kết quả mong đợi.\n• Rule là chỉ dẫn về cách làm việc và giới hạn nghiệp vụ.\n• Skill: bộ hướng dẫn chuyên biệt có thể tái sử dụng cho một nhóm nhiệm\nvụ, có thể kèm tài nguyên hoặc công cụ hỗ trợ.\n• MCP (Model Context Protocol) là chuẩn mở kết nối ứng dụng AI với các\nhệ thống bên ngoài, cho phép tiếp cận công cụ và nguồn dữ liệu thông\nqua giao diện thống nhất. MCP là giao thức kết nối; công cụ được cung\ncấp qua giao thức mới thực hiện thao tác cụ thể. [19]\n\n[d8e0e0553a845c99a094348ccd0df6beeb2dbe1bb687250bf73cc48e880ca9b1 | starter/data/bao_cao_thuc_tap.pdf | page 78]\n5 Có sơ đồ phân trang và tối\nthiểu 3 trang giao diện\nCó sơ đồ phân trang, các user\nflow; frontend gồm thông tin\ncá nhân, CPA, thời khóa biểu,\nxác thực và quản trị.\nĐạt\n6 Khai báo sử dụng AI và\nminh chứng\nĐã mô tả công cụ, nhóm công\nviệc có AI hỗ trợ, phần sinh\nviên thực hiện và vị trí minh\nchứng.\nĐạt\n\n3.1.3 Đánh giá mức độ áp dụng những kiến thức đã được học\nTrong giai đoạn thực tập tại doanh nghiệp, em đã củng cố kiến thức Java Core\nvà vận dụng vào xây dựng ứng dụng HUMG Study Guide. Em hiểu rõ hơn cách tổ\nchức ứng dụng Spring Boot theo các thành phần Controller, Service, Repository và\nDTO; cách xây dựng REST API, kiểm tra dữ liệu đầu vào và xử lý lỗi.\nThông qua các chức năng quản lý kết quả học tập, tính CPA và lập thời khóa\nbiểu, em đã vận dụng kiến thức về cơ sở dữ liệu quan hệ, khóa ngoại, JPA/Hibernate\nvà quản lý thay đổi cấu trúc dữ liệu bằng Flyway.",
+    "review": {
+      "method": "dense",
+      "query_id": "q11",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Liệt kê đủ bốn loại dữ liệu bị cấm ở trang 32. Hướng dẫn dùng dữ liệu giả là ngữ cảnh bổ sung của gold, không phải loại dữ liệu được hỏi; không trừ điểm vì không nhắc lại."
+      ],
+      "abstention_correct": null,
+      "reason": "Liệt kê đủ bốn loại dữ liệu bị cấm ở trang 32. Hướng dẫn dùng dữ liệu giả là ngữ cảnh bổ sung của gold, không phải loại dữ liệu được hỏi; không trừ điểm vì không nhắc lại.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q12",
+    "question": "Vì sao việc nhập bảng điểm Excel được tách thành xem trước và xác nhận?",
+    "status": "answered",
+    "answer": "Việc tách xem trước và xác nhận khi nhập bảng điểm Excel giúp người dùng phát hiện thông tin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu vừa đọc. [252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4]",
+    "citations": [
+      "252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4"
+    ],
+    "cited_chunks": [
+      {
+        "id": "252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Hình 2.5.3.6-1. Quản lý cấu trúc database bằng migration Flyway\n2.6 BÁO CÁO TUẦN 5: ĐỌC BẢNG ĐIỂM EXCEL VÀ TÍNH CPA MỤC\nTIÊU\n2.6.1 Mục tiêu công việc theo đề cương\nTrong tuần 5, xây dựng chức năng đọc, xử lý dữ liệu Excel và tập trung vào tính\nnăng tính CPA mục tiêu.\n2.6.2 Công việc thực tế đã hoàn thành\nTrong tuần 5, em đã thực hiện các công việc sau:\n• Xây dựng luồng nhập bảng điểm theo hai bước xem trước và xác nhận;\nxử lý những dòng được người dùng chọn và kết nối dữ liệu nhập với\nnghiệp vụ CPA.\n• Chức năng đánh giá CPA mục tiêu tính mức điểm trung bình cần đạt trên\nphần tín chỉ còn lại.\n2.6.3 Nội dung công việc chi tiết\n2.6.3.1 Đọc và xem trước dữ liệu Excel\nDữ liệu từ bảng điểm được chuyển thành các dòng kết quả để người dùng kiểm\ntra trước khi lưu. Việc tách xem trước và xác nhận giúp người dùng phát hiện thông\ntin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu\nvừa đọc.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 53,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 920,
+          "start_char": 0
+        },
+        "score": 0.5378696457710317,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q12",
+      "split": "dev",
+      "question": "Vì sao việc nhập bảng điểm Excel được tách thành xem trước và xác nhận?",
+      "answerable": true,
+      "expected_answer": "Để kiểm tra dữ liệu, phát hiện thông tin chưa phù hợp, chọn dòng cần nhập và tránh lưu ngay toàn bộ dữ liệu vừa đọc.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 53,
+          "evidence": "Dữ liệu từ bảng điểm được chuyển thành các dòng kết quả để người dùng kiểm tra trước khi lưu. Việc tách xem trước và xác nhận giúp người dùng phát hiện thông tin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu vừa đọc."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[252fbea43b0511ad57439880e47493657bd11c0d136a50507f2f212370e4b7e4 | starter/data/bao_cao_thuc_tap.pdf | page 53]\nHình 2.5.3.6-1. Quản lý cấu trúc database bằng migration Flyway\n2.6 BÁO CÁO TUẦN 5: ĐỌC BẢNG ĐIỂM EXCEL VÀ TÍNH CPA MỤC\nTIÊU\n2.6.1 Mục tiêu công việc theo đề cương\nTrong tuần 5, xây dựng chức năng đọc, xử lý dữ liệu Excel và tập trung vào tính\nnăng tính CPA mục tiêu.\n2.6.2 Công việc thực tế đã hoàn thành\nTrong tuần 5, em đã thực hiện các công việc sau:\n• Xây dựng luồng nhập bảng điểm theo hai bước xem trước và xác nhận;\nxử lý những dòng được người dùng chọn và kết nối dữ liệu nhập với\nnghiệp vụ CPA.\n• Chức năng đánh giá CPA mục tiêu tính mức điểm trung bình cần đạt trên\nphần tín chỉ còn lại.\n2.6.3 Nội dung công việc chi tiết\n2.6.3.1 Đọc và xem trước dữ liệu Excel\nDữ liệu từ bảng điểm được chuyển thành các dòng kết quả để người dùng kiểm\ntra trước khi lưu. Việc tách xem trước và xác nhận giúp người dùng phát hiện thông\ntin chưa phù hợp, lựa chọn dòng cần nhập và hạn chế việc lưu ngay toàn bộ dữ liệu\nvừa đọc.\n\n[51b68722437ccb54dd31d9d41e63f723654fcc711497df9c9cf17260b8112bbd | starter/data/bao_cao_thuc_tap.pdf | page 49]\ntừng lần học, đồng thời cập nhật lại việc lựa chọn kết quả tính CPA. Đầu ra là danh\nsách lịch sử và phản hồi của thao tác.\nNhập bảng điểm Excel — Đối tượng: STUDENT. Đầu vào là tệp bảng điểm và\ncác dòng người dùng lựa chọn. Hệ thống đọc dữ liệu để xem trước, sau đó kiểm tra\nvà lưu khi người dùng xác nhận. Đầu ra gồm danh sách dòng xem trước, kết quả nhập\nvà thông tin CPA được tính lại. Bước xem trước chưa tạo kết quả học tập trong cơ sở\ndữ liệu.\nTổng hợp CPA — Đối tượng: STUDENT. Đầu vào là lịch sử kết quả học tập\nvà tổng tín chỉ yêu cầu. Hệ thống phân loại lần học, lựa chọn điểm đạt cao nhất phù\nhợp của mỗi mã môn và xác định is_counted_in_cpa. Đầu ra gồm CPA, tín chỉ hoàn\nthành và thông tin theo dõi học lại. Lịch sử các lần học được giữ lại để giải thích kết\nquả lựa chọn.\nĐánh giá CPA mục tiêu và gợi ý học phần — Đối tượng: STUDENT. Đầu vào\nlà CPA mục tiêu cùng dữ liệu học tập hiện tại.\n\n[63bc933f4342147002deb8f193a8e5c36c0dc9e650eb8661b59dcf3e38d38613 | starter/data/bao_cao_thuc_tap.pdf | page 48]\nBên cạnh kết quả học tập, sinh viên cần sắp xếp các học phần vào thời khóa biểu\nvà phát hiện xung đột theo giai đoạn A/B, thứ và tiết học. Ứng dụng cho phép người\ndùng quản lý dữ liệu cá nhân, nhập bảng điểm từ Excel, xem thông tin CPA và lưu\ncác phương án thời khóa biểu. Các kết quả tính toán phục vụ tham khảo và lập kế\nhoạch; việc công nhận kết quả đào tạo thuộc thẩm quyền của nhà trường.\nEm phân tích yêu cầu theo đối tượng sử dụng và nhóm chức năng, sau đó xác\nđịnh đầu vào, quy tắc xử lý và đầu ra để làm cơ sở tổ chức dữ liệu và API. Phần dưới\nmô tả phạm vi chức năng của bản demo được phát triển trong kỳ thực tập; việc triển\nkhai chi tiết được trình bày ở các tuần tương ứng.\n\n[1f2b455be3e1a8354009702fb953e3effe5c184c1044c06f510beaa4194c58bb | starter/data/bao_cao_thuc_tap.pdf | page 32]\n2.1.9.3 Kiểm tra thay đổi và xác minh kết quả\nQuy trình áp dụng trong đề tài gồm đọc hiện trạng, xác định phương án, thực\nhiện thay đổi trong phạm vi được giao, xem phần chênh lệch mã và kiểm tra kết quả.\nVới nghiệp vụ CPA, việc xác minh cần dùng dữ liệu giả có kết quả mong đợi\nđược tính độc lập, chẳng hạn một môn có nhiều lần học hoặc bị phát sinh điểm F khi\ncải thiện. Có thể dùng lại các test phù hợp để phát hiện ảnh hưởng ngoài ý muốn.\nKiểm thử đơn vị hỗ trợ kiểm tra hành vi của phần mã nhỏ trong điều kiện được kiểm\nsoát.\n2.1.9.4 Bảo vệ dữ liệu và trách nhiệm của người lập trình\nTrong quy trình của đề tài, không đưa mật khẩu, khóa ký JWT, token truy cập\nhoặc bảng điểm cá nhân vào yêu cầu gửi AI. Khi cần minh họa lỗi, sử dụng dữ liệu\ngiả và loại bỏ thông tin nhạy cảm. Các thao tác thay đổi cơ sở dữ liệu, xóa dữ liệu\nhoặc đưa mã lên kho từ xa cần được kiểm soát theo phạm vi đã cho phép.\n\n[d5c3068cc1a01bcdaebf91932a7ba44bd341c56a7ea211f76367bd39b25f160a | starter/data/bao_cao_thuc_tap.pdf | page 49]\nHệ thống tính mức điểm trung bình\ncần đạt trên tín chỉ còn lại, đánh giá khả thi theo thang điểm 4 và cung cấp các gợi ý\nhọc lại hoặc cải thiện theo nghiệp vụ đã triển khai.\nThời khóa biểu cá nhân — Đối tượng: STUDENT. Đầu vào gồm tên phương án\nvà các mục lịch học theo giai đoạn A/B, thứ, tiết. Hệ thống cho phép tạo, đọc, lưu,\nđổi tên và xóa phương án, kiểm tra quyền sở hữu và xung đột trước khi lưu. Đầu ra\nlà phương án đã lưu hoặc thông báo dữ liệu chưa hợp lệ.\nThống kê và quản lý trạng thái tài khoản — Đối tượng: ADMIN. Đầu vào gồm\ntừ khóa tìm kiếm, thông tin phân trang hoặc trạng thái cần cập nhật. Hệ thống trả số\nlượng tổng hợp tài khoản, hồ sơ, kết quả học tập và phương án thời khóa biểu; cung\ncấp danh sách tài khoản và thao tác khóa hoặc mở khóa sinh viên theo quyền được\ncấp.\n\n[6c947cd915c548e1721f0fc5ef4e341327c6448ab949ce71696a6de2d9e6b714 | starter/data/bao_cao_thuc_tap.pdf | page 26]\nHình 2.1.6.1-1. Authentication và Authorization\nTrong giao tiếp qua API, client gửi thông tin xác thực theo cơ chế được hệ thống\nquy định; server kiểm tra danh tính và quyền trước khi xử lý yêu cầu. [1]\n2.1.6.2 Spring Security và bảo vệ mật khẩu\nSpring Security cung cấp cơ chế xác thực, phân quyền và hỗ trợ bảo vệ ứng\ndụng Spring trước một số dạng tấn công phổ biến. Đối với ứng dụng servlet, các yêu\ncầu đi qua chuỗi bộ lọc bảo mật trước khi được xử lý tại Controller; chính sách truy\ncập có thể được khai báo theo đường dẫn và quyền của người dùng. [11]\n\nHình 2.1.6.2-1. Spring Security\nMật khẩu cần được lưu dưới dạng giá trị băm một chiều thay vì văn bản thuần.\nPasswordEncoder hỗ trợ chuyển đổi mật khẩu và kiểm tra mật khẩu nhập vào so với\ngiá trị đã lưu. BCrypt là một thuật toán băm mật khẩu có tham số chi phí; tăng chi phí\nlàm tăng công việc tính toán khi thử mật khẩu. Việc băm không phải là mã hóa có thể\ngiải mã để lấy lại mật khẩu gốc. [11]",
+    "review": {
+      "method": "dense",
+      "query_id": "q12",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đoạn trang 53 hỗ trợ đủ phát hiện lỗi/lựa chọn dòng/tránh lưu ngay; câu này không bổ sung claim preview DB."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ kiểm tra/lựa chọn dòng/tránh lưu ngay ở trang 53; khẳng định preview chưa ghi DB có nguồn trang 49.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q13",
+    "question": "Khi một mã học phần có nhiều lần học bằng điểm, hệ thống chọn kết quả tính CPA như thế nào?",
+    "status": "answered",
+    "answer": "Mỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp bằng điểm được phân xử theo năm học và học kỳ mới hơn. [3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4]",
+    "citations": [
+      "3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4"
+    ],
+    "cited_chunks": [
+      {
+        "id": "3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "2.7 BÁO CÁO TUẦN 6: HOÀN THIỆN NGHIỆP VỤ CPA VÀ XỬ LÝ DỮ\nLIỆU\n2.7.1 Mục tiêu công việc theo đề cương\nTrong tuần 6, xây dựng các chức năng nghiệp vụ chính và xử lý dữ liệu trên hệ\nthống.\n2.7.2 Công việc thực tế đã hoàn thành\nTrong tuần 6, em đã hoàn thiện xử lý lịch sử lần học, lựa chọn kết quả tính CPA,\ntheo dõi học lại F và học cải thiện; bổ sung các chức năng hỗ trợ đánh giá kế hoạch\nhọc tập.\n2.7.3 Nội dung công việc chi tiết\n2.7.3.1 Phân loại lịch sử lần học\nCác kết quả được nhóm theo mã học phần và xét theo thứ tự thời gian. Hệ thống\nphân biệt lần học đầu, học lại sau F và học cải thiện sau khi đã đạt.\n\nHình 2.7.3.1-1. Ảnh minh hoạ giao diện phân loại lịch sử lần học\n2.7.3.2 Lựa chọn kết quả và tính lại CPA\nMỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp\nbằng điểm được phân xử theo năm học và học kỳ mới hơn. Cờ is_counted_in_cpa thể\nhiện kết quả được tính. Lịch sử các lần học vẫn được giữ lại; CPA được tính trực tiếp\ntừ lịch sử bằng BigDecimal.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 56,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 986,
+          "start_char": 0
+        },
+        "score": 0.5338549888148562,
+        "rank": 6,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q13",
+      "split": "dev",
+      "question": "Khi một mã học phần có nhiều lần học bằng điểm, hệ thống chọn kết quả tính CPA như thế nào?",
+      "answerable": true,
+      "expected_answer": "Chọn điểm đạt cao nhất; nếu bằng điểm thì chọn theo năm học và học kỳ mới hơn.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 56,
+          "evidence": "Mỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp bằng điểm được phân xử theo năm học và học kỳ mới hơn."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[25fcda0390d1b11d3e195c258d1733fec979284f7cb0ab522f86498cd11c5299 | starter/data/bao_cao_thuc_tap.pdf | page 56]\nHình 2.7.3.2-1. Ảnh minh hoạ giao diện việc lựa chọn điểm đạt cao nhất trong lịch\nsử học phần để tính CPA\n\n[51b68722437ccb54dd31d9d41e63f723654fcc711497df9c9cf17260b8112bbd | starter/data/bao_cao_thuc_tap.pdf | page 49]\ntừng lần học, đồng thời cập nhật lại việc lựa chọn kết quả tính CPA. Đầu ra là danh\nsách lịch sử và phản hồi của thao tác.\nNhập bảng điểm Excel — Đối tượng: STUDENT. Đầu vào là tệp bảng điểm và\ncác dòng người dùng lựa chọn. Hệ thống đọc dữ liệu để xem trước, sau đó kiểm tra\nvà lưu khi người dùng xác nhận. Đầu ra gồm danh sách dòng xem trước, kết quả nhập\nvà thông tin CPA được tính lại. Bước xem trước chưa tạo kết quả học tập trong cơ sở\ndữ liệu.\nTổng hợp CPA — Đối tượng: STUDENT. Đầu vào là lịch sử kết quả học tập\nvà tổng tín chỉ yêu cầu. Hệ thống phân loại lần học, lựa chọn điểm đạt cao nhất phù\nhợp của mỗi mã môn và xác định is_counted_in_cpa. Đầu ra gồm CPA, tín chỉ hoàn\nthành và thông tin theo dõi học lại. Lịch sử các lần học được giữ lại để giải thích kết\nquả lựa chọn.\nĐánh giá CPA mục tiêu và gợi ý học phần — Đối tượng: STUDENT. Đầu vào\nlà CPA mục tiêu cùng dữ liệu học tập hiện tại.\n\n[28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45 | starter/data/bao_cao_thuc_tap.pdf | page 29]\nTrong đó, R là điểm trung bình cần đạt theo thang điểm 4. Hàm max đưa kết\nquả về 0 nếu tổng điểm hiện có đã đủ đáp ứng mục tiêu (khi mức điểm trung bình\nđược tính < 0).\nNếu R ≤ 4, mục tiêu được đánh giá là khả thi với giả định sinh viên hoàn thành\nsố tín chỉ còn lại. Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu;\nsinh viên cần cân nhắc học cải thiện các học phần đã tích lũy.\nKhi C ≥ T, hệ thống so sánh CPA chi tiết hiện tại với CPA mục tiêu để xác định\nmục tiêu đã đạt hay chưa.\nVí dụ minh họa: chương trình yêu cầu 150 tín chỉ, sinh viên đã tích lũy 100 tín\nchỉ, có tổng điểm trọng số 300 và đặt mục tiêu CPA 3,2. Số tín chỉ còn lại là 150 −\n100 = 50. Mức điểm trung bình cần đạt được tính như sau:\n𝑅 = 150 × 3,2 − 300150 − 100 = 18050 = 3,6\nNhư vậy, sinh viên cần đạt trung bình 3,6/4 trên 50 tín chỉ còn lại. Do mức yêu\ncầu không vượt 4, mục tiêu được đánh giá là khả thi theo mô hình tính toán này.\n2.1.8 Kiểm thử phần mềm\n\n[3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f | starter/data/bao_cao_thuc_tap.pdf | page 28]\n2.1.7.5 Độ chính xác và đánh giá mục tiêu\nCác phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân\nvà quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân\nvà giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho\ntính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ. [13]\nĐể đánh giá khả năng đạt CPA mục tiêu, hệ thống tính điểm trung bình tối thiểu\ncần đạt trên số tín chỉ còn lại. Các đại lượng được sử dụng gồm:\nT: tổng số tín chỉ yêu cầu của chương trình.\nG: CPA mục tiêu.\nC: số tín chỉ đã tích lũy từ các kết quả được chọn tính CPA.\nP: tổng điểm có trọng số hiện tại, được tính bằng tổng các tích điểm hệ 4 × số\ntín chỉ của những kết quả được chọn.\nKhi T > C, số tín chỉ còn lại là T − C. Để đạt CPA mục tiêu, tổng điểm có trọng\nsố cần đạt khi hoàn thành chương trình là T × G. Vì đã tích lũy được P điểm, mức\nđiểm trung bình cần đạt trên phần tín chỉ còn lại được tính bằng:\n𝑅 = 𝑚𝑎𝑥(𝑇 × 𝐺 − 𝑃𝑇 − 𝐶 ,0)\n\n[1bf5ca3fc5d60cf52fd11fade720cda6cede06f46247a183a662df597882b774 | starter/data/bao_cao_thuc_tap.pdf | page 76]\nPhụ lục\nA, Hình\nA.1\n2 Skill — hướng\ndẫn chuyên biệt\ncho CPA\nSử dụng skill implement -cpa-use-case và\nexplain-for-defense để hỗ trợ xử lý use case\nCPA và giải thích mã. Em cung cấp bài\ntoán, đọc lại kết quả và kiểm tra tính phù\nhợp với nghiệp vụ của đề tài.\nPhụ lục\nA, Hình\nA.2\n3 MCP — Figma\nvà CodeGraph\nSử dụng MCP để kết nối Agent với Figma\nvà công cụ tra cứu mã CodeGraph. Em chọn\nmàn hình hoặc phần mã cần tìm hiểu, gửi\nyêu cầu và đối chiếu kết quả với thiết kế, mã\nnguồn hiện có.\nPhụ lục\nA, Hình\nA.3\n\n[3ca4ac1e53a332375b3fd6eb3214ec293fe793f9987478cc96c122b53a6e81f4 | starter/data/bao_cao_thuc_tap.pdf | page 56]\n2.7 BÁO CÁO TUẦN 6: HOÀN THIỆN NGHIỆP VỤ CPA VÀ XỬ LÝ DỮ\nLIỆU\n2.7.1 Mục tiêu công việc theo đề cương\nTrong tuần 6, xây dựng các chức năng nghiệp vụ chính và xử lý dữ liệu trên hệ\nthống.\n2.7.2 Công việc thực tế đã hoàn thành\nTrong tuần 6, em đã hoàn thiện xử lý lịch sử lần học, lựa chọn kết quả tính CPA,\ntheo dõi học lại F và học cải thiện; bổ sung các chức năng hỗ trợ đánh giá kế hoạch\nhọc tập.\n2.7.3 Nội dung công việc chi tiết\n2.7.3.1 Phân loại lịch sử lần học\nCác kết quả được nhóm theo mã học phần và xét theo thứ tự thời gian. Hệ thống\nphân biệt lần học đầu, học lại sau F và học cải thiện sau khi đã đạt.\n\nHình 2.7.3.1-1. Ảnh minh hoạ giao diện phân loại lịch sử lần học\n2.7.3.2 Lựa chọn kết quả và tính lại CPA\nMỗi mã học phần được lựa chọn điểm đạt cao nhất để tính CPA; trường hợp\nbằng điểm được phân xử theo năm học và học kỳ mới hơn. Cờ is_counted_in_cpa thể\nhiện kết quả được tính. Lịch sử các lần học vẫn được giữ lại; CPA được tính trực tiếp\ntừ lịch sử bằng BigDecimal.",
+    "review": {
+      "method": "dense",
+      "query_id": "q13",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ điểm đạt cao nhất và phân xử năm học/học kỳ mới hơn, đúng đoạn quy tắc trang 56."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ điểm đạt cao nhất và phân xử năm học/học kỳ mới hơn, đúng đoạn quy tắc trang 56.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q14",
+    "question": "Giao diện HUMG Study Guide có những tệp trang nào và auth.html chứa các trạng thái nào?",
+    "status": "answered",
+    "answer": "Giao diện HUMG Study Guide có năm tệp trang: index.html, cpa.html, timetable.html, auth.html và admin.html. [d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa]\nauth.html chứa hai trạng thái: đăng nhập và đăng ký. [d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa]",
+    "citations": [
+      "d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa"
+    ],
+    "cited_chunks": [
+      {
+        "id": "d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "2.8.3.1 Sơ đồ phân trang và luồng sử dụng giao diện\nEm xác định các màn hình dựa trên chức năng và phạm vi sử dụng của từng vai\ntrò. Giao diện hiện có năm tệp trang: index.html hiển thị thông tin cá nhân, cpa.html\ntập trung kết quả học tập và CPA, timetable.html phục vụ lập lịch, auth.html chứa hai\ntrạng thái đăng nhập và đăng ký, admin.html phục vụ quản trị.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 57,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 1201,
+          "start_char": 840
+        },
+        "score": 0.5536109760938529,
+        "rank": 2,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q14",
+      "split": "dev",
+      "question": "Giao diện HUMG Study Guide có những tệp trang nào và auth.html chứa các trạng thái nào?",
+      "answerable": true,
+      "expected_answer": "index.html, cpa.html, timetable.html, auth.html và admin.html; auth.html chứa đăng nhập và đăng ký.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 57,
+          "evidence": "Giao diện hiện có năm tệp trang: index.html hiển thị thông tin cá nhân, cpa.html tập trung kết quả học tập và CPA, timetable.html phục vụ lập lịch, auth.html chứa hai trạng thái đăng nhập và đăng ký, admin.html phục vụ quản trị."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7 | starter/data/bao_cao_thuc_tap.pdf | page 14]\n• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.\n\n[d053ca25e1e666b49489b122b3cb0069f6566b2953454a0dbdf587eb4b7873fa | starter/data/bao_cao_thuc_tap.pdf | page 57]\n2.8.3.1 Sơ đồ phân trang và luồng sử dụng giao diện\nEm xác định các màn hình dựa trên chức năng và phạm vi sử dụng của từng vai\ntrò. Giao diện hiện có năm tệp trang: index.html hiển thị thông tin cá nhân, cpa.html\ntập trung kết quả học tập và CPA, timetable.html phục vụ lập lịch, auth.html chứa hai\ntrạng thái đăng nhập và đăng ký, admin.html phục vụ quản trị.\n\n[ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed | starter/data/bao_cao_thuc_tap.pdf | page 64]\nHình 2.8.3.4-2. Giao diện thời khoá biểu dự kiến\n2.8.3.5 Ứng dụng AI Agent kết hợp Figma MCP trong phát triển giao diện\nTrong quá trình phát triển HUMG Study Guide, em kết nối môi trường AI Agent\nvới máy chủ MCP do Figma cung cấp để hỗ trợ làm việc với giao diện. MCP cung\ncấp cơ chế kết nối, còn máy chủ Figma cung cấp các công cụ thao tác với tài liệu thiết\nkế. Em giao nhiệm vụ cho Agent bằng yêu cầu cụ thể, kèm đường dẫn tệp Figma và\nmàn hình cần xử lý. [16]\nEm sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma\ndưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời\nkhóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục,\ntrình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo.\nQuá trình thực hiện gồm kết nối tài khoản Figma, xác định tệp đích, mở màn\nhình cần chuyển và yêu cầu Agent thực hiện thao tác qua công cụ.\n\n[f35dd4a94d487ad80e9bd1afced37213eb8fd897bb495a3454ca11bfe988d149 | starter/data/bao_cao_thuc_tap.pdf | page 77]\n4 Vẽ sơ đồ —\nChatGPT/Codex\nvà draw.io\nSử dụng AI để tạo XML cho sơ đồ phân\ntrang và user flow. Em mở tệp trong\ndraw.io, kiểm tra các nhánh, nội dung và\nchỉnh sửa bố cục trước khi đưa vào báo cáo.\nPhụ lục\nA, Hình\nA.4\n\n3.1.2 So sánh nội dung thực tập và yêu cầu trong cẩm nang\nEm đối chiếu sản phẩm theo hướng Full-stack trong cẩm nang TTDN. Nội dung\nđánh giá dựa trên chức năng đã triển khai, cấu trúc giao diện và các minh chứng được\ntrình bày ở Chương 2.\nSTT Yêu cầu đối chiếu Nội dung đã thực hiện Đánh giá\n1 Mô tả bài toán chi tiết Đã mô tả nhu cầu theo dõi học\ntập, CPA mục tiêu và thời khóa\nbiểu; xác định phạm vi bản\ndemo.\nĐạt\n2 Xác định đối tượng và chức\nnăng\nĐã xác định STUDENT,\nADMIN và các nhóm chức\nnăng; mô tả đầu vào, xử lý, đầu\nra và phạm vi quyền.\nĐạt\n3 Tối thiểu 8 endpoint làm\nviệc với CSDL, có GET,\nPOST, PUT, DELETE hoặc\nkhối lượng chức năng tương\nđương\nRiêng kết quả học tập có 5\nendpoint và thời khóa biểu có\n6 endpoint, bao gồm đủ 4\nphương thức.\n\n[d8e0e0553a845c99a094348ccd0df6beeb2dbe1bb687250bf73cc48e880ca9b1 | starter/data/bao_cao_thuc_tap.pdf | page 78]\n5 Có sơ đồ phân trang và tối\nthiểu 3 trang giao diện\nCó sơ đồ phân trang, các user\nflow; frontend gồm thông tin\ncá nhân, CPA, thời khóa biểu,\nxác thực và quản trị.\nĐạt\n6 Khai báo sử dụng AI và\nminh chứng\nĐã mô tả công cụ, nhóm công\nviệc có AI hỗ trợ, phần sinh\nviên thực hiện và vị trí minh\nchứng.\nĐạt\n\n3.1.3 Đánh giá mức độ áp dụng những kiến thức đã được học\nTrong giai đoạn thực tập tại doanh nghiệp, em đã củng cố kiến thức Java Core\nvà vận dụng vào xây dựng ứng dụng HUMG Study Guide. Em hiểu rõ hơn cách tổ\nchức ứng dụng Spring Boot theo các thành phần Controller, Service, Repository và\nDTO; cách xây dựng REST API, kiểm tra dữ liệu đầu vào và xử lý lỗi.\nThông qua các chức năng quản lý kết quả học tập, tính CPA và lập thời khóa\nbiểu, em đã vận dụng kiến thức về cơ sở dữ liệu quan hệ, khóa ngoại, JPA/Hibernate\nvà quản lý thay đổi cấu trúc dữ liệu bằng Flyway.\n\n[a740714b28bc63769e50ba21e4ed75eec21f99742dece8ed289512eaa4e28308 | starter/data/bao_cao_thuc_tap.pdf | page 24]\nHình 2.1.4.3-1. Quan hệ giữa Spring Data JPA và Hibernate\n2.1.5 HTML, CSS, JavaScript và Bootstrap\n2.1.5.1 HTML và CSS\nHTML (HyperText Markup Language) là ngôn ngữ đánh dấu dùng để xác định\ncấu trúc và ý nghĩa của nội dung trang web. Các phần tử HTML biểu diễn tiêu đề,\nđoạn văn, liên kết, bảng và biểu mẫu. CSS (Cascading Style Sheets) mô tả cách trình\nbày, chẳng hạn màu sắc, phông chữ, khoảng cách và bố cục. Việc tách cấu trúc khỏi\nđịnh dạng giúp giao diện dễ điều chỉnh và duy trì hơn. [2]\n\nHình 2.1.5.1-1. HTML và CSS\n2.1.5.2 JavaScript và tương tác trên trình duyệt\nJavaScript bổ sung hành vi cho trang web thông qua xử lý sự kiện và thao tác\nvới DOM (Document Object Model). DOM biểu diễn tài liệu dưới dạng cây đối\ntượng; chương trình có thể đọc hoặc cập nhật nội dung, thuộc tính và các phần tử.\nCác sự kiện như nhấn nút hoặc gửi biểu mẫu được dùng để kích hoạt xử lý tương ứng.\n[2]",
+    "review": {
+      "method": "dense",
+      "query_id": "q14",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ năm tệp và hai trạng thái đăng nhập/đăng ký, đúng trang 57."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ năm tệp và hai trạng thái đăng nhập/đăng ký, đúng trang 57.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "q15",
+    "question": "Các màn hình frontend được chuyển sang Figma dưới dạng gì và được dùng để làm gì?",
+    "status": "answered",
+    "answer": "Các màn hình frontend được chuyển sang Figma dưới dạng các lớp có thể chỉnh sửa. [ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed]\nBản Figma được dùng để xem xét bố cục, trình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo. [ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed]",
+    "citations": [
+      "ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed"
+    ],
+    "cited_chunks": [
+      {
+        "id": "ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed",
+        "source_id": "bao-cao-thuc-tap-dnp",
+        "text": "Hình 2.8.3.4-2. Giao diện thời khoá biểu dự kiến\n2.8.3.5 Ứng dụng AI Agent kết hợp Figma MCP trong phát triển giao diện\nTrong quá trình phát triển HUMG Study Guide, em kết nối môi trường AI Agent\nvới máy chủ MCP do Figma cung cấp để hỗ trợ làm việc với giao diện. MCP cung\ncấp cơ chế kết nối, còn máy chủ Figma cung cấp các công cụ thao tác với tài liệu thiết\nkế. Em giao nhiệm vụ cho Agent bằng yêu cầu cụ thể, kèm đường dẫn tệp Figma và\nmàn hình cần xử lý. [16]\nEm sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma\ndưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời\nkhóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục,\ntrình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo.\nQuá trình thực hiện gồm kết nối tài khoản Figma, xác định tệp đích, mở màn\nhình cần chuyển và yêu cầu Agent thực hiện thao tác qua công cụ.",
+        "source": "starter/data/bao_cao_thuc_tap.pdf",
+        "page": 64,
+        "metadata": {
+          "chapter": "chapter_2",
+          "chunking": "paragraph:1000",
+          "end_char": 923,
+          "start_char": 0
+        },
+        "score": 0.652715120495192,
+        "rank": 1,
+        "strategy": "dense"
+      }
+    ],
+    "gold": {
+      "id": "q15",
+      "split": "dev",
+      "question": "Các màn hình frontend được chuyển sang Figma dưới dạng gì và được dùng để làm gì?",
+      "answerable": true,
+      "expected_answer": "Các lớp có thể chỉnh sửa; dùng xem xét bố cục, trình bày thành phần và làm cơ sở điều chỉnh giao diện.",
+      "gold": [
+        {
+          "source_id": "bao-cao-thuc-tap-dnp",
+          "page": 64,
+          "evidence": "Em sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma dưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời khóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục, trình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo."
+        }
+      ],
+      "filter": null
+    },
+    "context": "[ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed | starter/data/bao_cao_thuc_tap.pdf | page 64]\nHình 2.8.3.4-2. Giao diện thời khoá biểu dự kiến\n2.8.3.5 Ứng dụng AI Agent kết hợp Figma MCP trong phát triển giao diện\nTrong quá trình phát triển HUMG Study Guide, em kết nối môi trường AI Agent\nvới máy chủ MCP do Figma cung cấp để hỗ trợ làm việc với giao diện. MCP cung\ncấp cơ chế kết nối, còn máy chủ Figma cung cấp các công cụ thao tác với tài liệu thiết\nkế. Em giao nhiệm vụ cho Agent bằng yêu cầu cụ thể, kèm đường dẫn tệp Figma và\nmàn hình cần xử lý. [16]\nEm sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma\ndưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời\nkhóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục,\ntrình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo.\nQuá trình thực hiện gồm kết nối tài khoản Figma, xác định tệp đích, mở màn\nhình cần chuyển và yêu cầu Agent thực hiện thao tác qua công cụ.\n\n[c685f926ded0a73ff6dc9b0a53c1c4773b50e7be24c96e890ba5efac89ef6dcf | starter/data/bao_cao_thuc_tap.pdf | page 64]\nSau đó, em kiểm\ntra nội dung được tạo trong Figma, đối chiếu với giao diện trên trình duyệt và kiểm\ntra khả năng chỉnh sửa các lớp.\nEm chịu trách nhiệm lựa chọn nội dung đưa vào thiết kế và xác minh kết quả\ntrước khi sử dụng trong báo cáo.\n\n[27102aef834c774bb69271aaac97cddc47268e2e206a4def9c054487c24fcc0b | starter/data/bao_cao_thuc_tap.pdf | page 79]\n3.2 Định hướng phát triển của đề tài\nTrong giai đoạn tiếp theo, em ưu tiên hoàn thiện chất lượng các chức năng hiện\ncó: mở rộng các trường hợp kiểm thử CPA, kiểm tra nhập Excel với nhiều dạng dữ\nliệu không hợp lệ và rà soát tính nhất quán của thông báo giữa backend và giao diện.\nCác test liên quan database nên có môi trường dữ liệu thử riêng để thuận tiện tái lập\nvà đối chiếu.\nĐối với nghiệp vụ đào tạo, cần tiếp tục đối chiếu các văn bản áp dụng theo khóa,\nđặc biệt nhóm K68 và K69 trở đi, để chuẩn hóa cách giải thích các chỉ số học lại, cải\nthiện và cảnh báo ngưỡng 5%. Phần tính CPA mục tiêu có thể được mở rộng để người\ndùng so sánh các phương án học tập với những giả định rõ ràng.\nVề giao diện, hướng phát triển là rà soát bố cục, khả năng sử dụng trên màn\nhình nhỏ và các trạng thái lỗi, chờ xử lý, chưa có dữ liệu. Bản thiết kế Figma có thể\nđược sử dụng để thống nhất thành phần giao diện và hỗ trợ các lần chỉnh sửa frontend\ntiếp theo.\n\n[2f2d39a598927cb9bdfe704dca5be3ed27c2e22b6874392d5a1099b210bac36a | starter/data/bao_cao_thuc_tap.pdf | page 25]\nHình 2.1.5.2-1. JavaScript\n2.1.5.3 Fetch API và cập nhật dữ liệu\nFetch API là giao diện do trình duyệt cung cấp để JavaScript gửi yêu cầu HTTP\nvà tiếp nhận phản hồi từ máy chủ. Hàm fetch() hoạt động bất đồng bộ và trả về một\nPromise chứa đối tượng Response. JavaScript sử dụng Promise hoặc cú pháp\nasync/await để đọc dữ liệu phản hồi, sau đó cập nhật nội dung trên trang thông qua\nDOM mà không cần tải lại toàn bộ trang. [2]\n2.1.5.4 Bootstrap và bố cục giao diện\nBootstrap là bộ công cụ frontend cung cấp các lớp CSS và thành phần giao diện\ndùng lại được. Hệ thống lưới, container, breakpoint và các lớp tiện ích hỗ trợ bố trí\nnội dung theo kích thước màn hình. Những thành phần như nút, bảng, biểu mẫu và\nthông báo giúp các trang có cách trình bày thống nhất. [10]\n\nHình 2.1.5.4-1. Bootstrap\n2.1.6 Xác thực và phân quyền\n\n[a740714b28bc63769e50ba21e4ed75eec21f99742dece8ed289512eaa4e28308 | starter/data/bao_cao_thuc_tap.pdf | page 24]\nHình 2.1.4.3-1. Quan hệ giữa Spring Data JPA và Hibernate\n2.1.5 HTML, CSS, JavaScript và Bootstrap\n2.1.5.1 HTML và CSS\nHTML (HyperText Markup Language) là ngôn ngữ đánh dấu dùng để xác định\ncấu trúc và ý nghĩa của nội dung trang web. Các phần tử HTML biểu diễn tiêu đề,\nđoạn văn, liên kết, bảng và biểu mẫu. CSS (Cascading Style Sheets) mô tả cách trình\nbày, chẳng hạn màu sắc, phông chữ, khoảng cách và bố cục. Việc tách cấu trúc khỏi\nđịnh dạng giúp giao diện dễ điều chỉnh và duy trì hơn. [2]\n\nHình 2.1.5.1-1. HTML và CSS\n2.1.5.2 JavaScript và tương tác trên trình duyệt\nJavaScript bổ sung hành vi cho trang web thông qua xử lý sự kiện và thao tác\nvới DOM (Document Object Model). DOM biểu diễn tài liệu dưới dạng cây đối\ntượng; chương trình có thể đọc hoặc cập nhật nội dung, thuộc tính và các phần tử.\nCác sự kiện như nhấn nút hoặc gửi biểu mẫu được dùng để kích hoạt xử lý tương ứng.\n[2]\n\n[1f2575127a8d7863f5d5045768d3b9e9f11e13a893fa8afa80b37f58001e419e | starter/data/bao_cao_thuc_tap.pdf | page 57]\n2.7.3.3 Theo dõi học lại và hỗ trợ kế hoạch\nNgưỡng 5% được tính từ tổng tín chỉ yêu cầu thay vì lưu thành một ngưỡng cố\nđịnh. Các kết quả F trước khi đạt và kết quả cải thiện được xử lý theo vai trò riêng.\n\nHình 2.7.3.3-1. Ảnh minh hoạ giao diện khi hệ thống theo dõi tín chỉ học lại do F và\nngưỡng 5% tính từ tổng tín chỉ yêu cầu\n2.8 BÁO CÁO TUẦN 7: XÂY DỰNG GIAO DIỆN VÀ KẾT NỐI BACKEND\n2.8.1 Mục tiêu công việc theo đề cương\nTrong tuần 7, xây dựng giao diện HTML, CSS, JavaScript, Bootstrap và kết nối\nvới backend.\n2.8.2 Công việc thực tế đã hoàn thành\nTrong tuần 7, em đã thực hiện các công việc sau:\n• Xây dựng các trang giao diện cho hồ sơ, bảng điểm, CPA và các chức\nnăng liên quan; sử dụng Fetch API để trao đổi dữ liệu với REST API.\n• Giao diện hiển thị kết quả xử lý và thông báo lỗi từ backend.\n2.8.3 Nội dung công việc chi tiết",
+    "review": {
+      "method": "dense",
+      "query_id": "q15",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đã đọc claim, quote và đoạn nguồn của lần chạy quote: nguồn hỗ trợ khẳng định được xuất. Đủ editable layers và mục đích xem bố cục/thành phần/cơ sở chỉnh sửa, đúng trang 64."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ editable layers và mục đích xem bố cục/thành phần/cơ sở chỉnh sửa, đúng trang 64.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "d7-dev-u01",
+    "question": "Trong corpus báo cáo thực tập đã index, BCrypt của HUMG Study Guide được cấu hình cost factor cụ thể bằng bao nhiêu?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong dữ liệu truy xuất để trả lời câu hỏi này.",
+    "citations": [],
+    "cited_chunks": [],
+    "gold": {
+      "id": "d7-dev-u01",
+      "split": "dev",
+      "answerable": false,
+      "question": "Trong corpus báo cáo thực tập đã index, BCrypt của HUMG Study Guide được cấu hình cost factor cụ thể bằng bao nhiêu?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Trang 26 giải thích BCrypt có tham số chi phí nhưng không nêu giá trị cấu hình cụ thể của ứng dụng. Rà soát toàn bộ 33 trang được index, không chỉ top-k; không được suy từ giá trị mặc định thư viện.",
+      "absence_check": {
+        "terms": [
+          "bcrypt",
+          "cost",
+          "strength",
+          "chi phí",
+          "passwordencoder"
+        ],
+        "related_pages": [
+          26
+        ],
+        "missing_fact": "Giá trị cost factor cụ thể được cấu hình cho ứng dụng"
+      }
+    },
+    "context": "[28b5776ce7b9f648dd2f40585d8bd4c5a45909f295c0e60196e0cd43d2d9af45 | starter/data/bao_cao_thuc_tap.pdf | page 29]\nTrong đó, R là điểm trung bình cần đạt theo thang điểm 4. Hàm max đưa kết\nquả về 0 nếu tổng điểm hiện có đã đủ đáp ứng mục tiêu (khi mức điểm trung bình\nđược tính < 0).\nNếu R ≤ 4, mục tiêu được đánh giá là khả thi với giả định sinh viên hoàn thành\nsố tín chỉ còn lại. Nếu R > 4, chỉ học các tín chỉ còn lại sẽ chưa đủ để đạt mục tiêu;\nsinh viên cần cân nhắc học cải thiện các học phần đã tích lũy.\nKhi C ≥ T, hệ thống so sánh CPA chi tiết hiện tại với CPA mục tiêu để xác định\nmục tiêu đã đạt hay chưa.\nVí dụ minh họa: chương trình yêu cầu 150 tín chỉ, sinh viên đã tích lũy 100 tín\nchỉ, có tổng điểm trọng số 300 và đặt mục tiêu CPA 3,2. Số tín chỉ còn lại là 150 −\n100 = 50. Mức điểm trung bình cần đạt được tính như sau:\n𝑅 = 150 × 3,2 − 300150 − 100 = 18050 = 3,6\nNhư vậy, sinh viên cần đạt trung bình 3,6/4 trên 50 tín chỉ còn lại. Do mức yêu\ncầu không vượt 4, mục tiêu được đánh giá là khả thi theo mô hình tính toán này.\n2.1.8 Kiểm thử phần mềm\n\n[930437634b292731845891031f08fb140f2893074bc287ed9cf2143ee5f816bb | starter/data/bao_cao_thuc_tap.pdf | page 76]\nCHƯƠNG 3\nĐÁNH GIÁ KẾT QUẢ VÀ ĐỊNH HƯỚNG PHÁT TRIỂN\n3.1 Tự đánh giá kết quả thực tập\n3.1.1 Khai báo sử dụng AI\nEm sử dụng LLM ChatGPT và AI Agent là Codex để hỗ trợ tìm hiểu công nghệ,\nphân tích nghiệp vụ, phát triển mã nguồn, kiểm thử và biên soạn tài liệu. Các yêu cầu\nđược giới hạn theo chức năng, cung cấp ngữ cảnh của dự án và được đối chiếu với\nmã nguồn hoặc kết quả thực hiện. Bảng dưới mô tả các nhóm công việc có sự hỗ trợ\ncủa AI.\nTrong quá trình làm việc, em sử dụng môi trường Agent có sẵn và cấu hình\nhướng dẫn theo dự án qua AGENTS.md, các skill và công cụ kết nối. Minh chứng\nđược xác định theo thay đổi mã, kiểm thử, ảnh thao tác và lịch sử yêu cầu thực tế.\nSTT Công việc và\ncông cụ\nPhạm vi hỗ trợ và phần sinh viên thực\nhiện\nMinh\nchứng\n1 Rule —\nAGENTS.md\nSử dụng AGENTS.md để cung cấp cho\nAgent các quy tắc làm việc, phạm vi chức\nnăng và nguyên tắc sửa mã. Em xác định\nyêu cầu, kiểm tra nội dung quy tắc và đối\nchiếu các thay đổi với phạm vi đã giao.\n\n[a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7 | starter/data/bao_cao_thuc_tap.pdf | page 14]\n• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.\n\n[1bf5ca3fc5d60cf52fd11fade720cda6cede06f46247a183a662df597882b774 | starter/data/bao_cao_thuc_tap.pdf | page 76]\nPhụ lục\nA, Hình\nA.1\n2 Skill — hướng\ndẫn chuyên biệt\ncho CPA\nSử dụng skill implement -cpa-use-case và\nexplain-for-defense để hỗ trợ xử lý use case\nCPA và giải thích mã. Em cung cấp bài\ntoán, đọc lại kết quả và kiểm tra tính phù\nhợp với nghiệp vụ của đề tài.\nPhụ lục\nA, Hình\nA.2\n3 MCP — Figma\nvà CodeGraph\nSử dụng MCP để kết nối Agent với Figma\nvà công cụ tra cứu mã CodeGraph. Em chọn\nmàn hình hoặc phần mã cần tìm hiểu, gửi\nyêu cầu và đối chiếu kết quả với thiết kế, mã\nnguồn hiện có.\nPhụ lục\nA, Hình\nA.3\n\n[79fe2252d9926de9dd5e4157181cd89cb95353244646e087c298e28447c003ad | starter/data/bao_cao_thuc_tap.pdf | page 49]\n2.5.3.4 Thiết kế và ánh xạ dữ liệu\nCác bảng users, student_info và course_results lưu tài khoản, hồ sơ và lịch sử\nkết quả từng lần học. Một học phần có thể xuất hiện nhiều lần trong lịch sử để phục\nvụ học lại hoặc học cải thiện.\nCác khóa ngoại thể hiện quan hệ giữa dữ liệu và chủ sở hữu. Entity sử dụng\nLong cho khóa chính, BigDecimal cho điểm và tín chỉ; enum được lưu dưới dạng\nchuỗi.\n\n[3271d7a7a74c806a7babc6a4b169d37075fad708045f49a202ccc85792cd1a4f | starter/data/bao_cao_thuc_tap.pdf | page 28]\n2.1.7.5 Độ chính xác và đánh giá mục tiêu\nCác phép tính điểm và tín chỉ sử dụng BigDecimal để kiểm soát số thập phân\nvà quy tắc làm tròn. Backend dùng HALF_UP, hiển thị CPA với hai chữ số thập phân\nvà giữ CPA chi tiết với bốn chữ số. Tổng điểm có trọng số được dùng trực tiếp cho\ntính toán tiếp theo, tránh lấy CPA đã làm tròn nhân ngược với tín chỉ. [13]\nĐể đánh giá khả năng đạt CPA mục tiêu, hệ thống tính điểm trung bình tối thiểu\ncần đạt trên số tín chỉ còn lại. Các đại lượng được sử dụng gồm:\nT: tổng số tín chỉ yêu cầu của chương trình.\nG: CPA mục tiêu.\nC: số tín chỉ đã tích lũy từ các kết quả được chọn tính CPA.\nP: tổng điểm có trọng số hiện tại, được tính bằng tổng các tích điểm hệ 4 × số\ntín chỉ của những kết quả được chọn.\nKhi T > C, số tín chỉ còn lại là T − C. Để đạt CPA mục tiêu, tổng điểm có trọng\nsố cần đạt khi hoàn thành chương trình là T × G. Vì đã tích lũy được P điểm, mức\nđiểm trung bình cần đạt trên phần tín chỉ còn lại được tính bằng:\n𝑅 = 𝑚𝑎𝑥(𝑇 × 𝐺 − 𝑃𝑇 − 𝐶 ,0)\n\n[22e2ac86162f49a575d1138750dc05bcbd4e64ca2fdbca7199accdf541d81adf | starter/data/bao_cao_thuc_tap.pdf | page 27]\nhiện sửa đổi, không mặc nhiên mã hóa nội dung token. Vì vậy, không đưa mật khẩu\nhoặc thông tin nhạy cảm không cần thiết vào token. [11]\n\nHình 2.1.6.3-1. JWT\nClient gửi token trong header Authorization theo dạng Bearer <token>. Spring\nSecurity Resource Server hỗ trợ giải mã, xác minh JWT và chuyển thông tin hợp lệ\nthành đối tượng xác thực để phục vụ quyết định truy cập. Thời hạn và issuer là những\nđiều kiện cần được kiểm tra theo cấu hình của ứng dụng. [11]\n2.1.7 Cơ sở tính toán CPA\n2.1.7.1 Khái niệm và cơ sở tham khảo\nCPA được sử dụng trong đề tài để biểu thị điểm trung bình tích lũy theo tín chỉ.\nCơ sở nghiệp vụ được tham khảo từ Quy chế đào tạo đại học theo hệ thống tín chỉ\nban hành kèm Quyết định số 2346/QĐ -MĐC ngày 10/10/2025. Nội dung liên quan\ngồm đánh giá học phần, học lại và đánh giá kết quả học tập. Quy chế có phạm vi áp\ndụng theo khóa tại Điều 28. [12]\n\n[25fcda0390d1b11d3e195c258d1733fec979284f7cb0ab522f86498cd11c5299 | starter/data/bao_cao_thuc_tap.pdf | page 56]\nHình 2.7.3.2-1. Ảnh minh hoạ giao diện việc lựa chọn điểm đạt cao nhất trong lịch\nsử học phần để tính CPA",
+    "review": {
+      "method": "dense",
+      "query_id": "d7-dev-u01",
+      "answer_grade": null,
+      "context_grade": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Đã tìm và từ chối, không thêm con số hoặc suy đoán; phù hợp rà soát absence corpus đã chốt.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  },
+  {
+    "method": "dense",
+    "query_id": "d7-dev-u02",
+    "question": "Theo corpus báo cáo thực tập đã index, JWT của HUMG Study Guide hết hạn sau chính xác bao nhiêu phút kể từ khi phát hành?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong dữ liệu truy xuất để trả lời câu hỏi này.",
+    "citations": [],
+    "cited_chunks": [],
+    "gold": {
+      "id": "d7-dev-u02",
+      "split": "dev",
+      "answerable": false,
+      "question": "Theo corpus báo cáo thực tập đã index, JWT của HUMG Study Guide hết hạn sau chính xác bao nhiêu phút kể từ khi phát hành?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Trang 27 yêu cầu kiểm tra thời hạn và issuer theo cấu hình nhưng không công bố thời lượng JWT. Rà soát toàn bộ corpus 33 trang để tìm cấu hình thời hạn; không lấy con số mặc định hoặc phỏng đoán.",
+      "absence_check": {
+        "terms": [
+          "jwt",
+          "token",
+          "hết hạn",
+          "thời hạn",
+          "expiration",
+          "ttl",
+          "phút"
+        ],
+        "related_pages": [
+          26,
+          27
+        ],
+        "missing_fact": "Thời lượng token JWT tính bằng phút"
+      }
+    },
+    "context": "[a25392985b2cab824838e466b7f12c22e46fbff614ccd7d102b94457b0e487f7 | starter/data/bao_cao_thuc_tap.pdf | page 14]\n• Xây dựng sản phẩm demo HUMG Study Guide, tập trung vào quản lý\nkết quả học tập, tính toán CPA và thời khóa biểu cá nhân.\n1.3 Đề tài thực tập\nTên đề tài: Xây dựng ứng dụng cẩm nang học tập cho sinh viên HUMG sử dụng\nSpring Boot và Bootstrap.\nỨng dụng được đặt tên là “HUMG Study Guide”.\nMục tiêu của đề tài:\n• Vận dụng Java Spring Boot, MySQL, HTML, CSS, JavaScript và\nBootstrap để xây dựng ứng dụng hỗ trợ sinh viên quản lý kết quả học tập,\ntính toán CPA và lập thời khóa biểu cá nhân.\n\n[1f2575127a8d7863f5d5045768d3b9e9f11e13a893fa8afa80b37f58001e419e | starter/data/bao_cao_thuc_tap.pdf | page 57]\n2.7.3.3 Theo dõi học lại và hỗ trợ kế hoạch\nNgưỡng 5% được tính từ tổng tín chỉ yêu cầu thay vì lưu thành một ngưỡng cố\nđịnh. Các kết quả F trước khi đạt và kết quả cải thiện được xử lý theo vai trò riêng.\n\nHình 2.7.3.3-1. Ảnh minh hoạ giao diện khi hệ thống theo dõi tín chỉ học lại do F và\nngưỡng 5% tính từ tổng tín chỉ yêu cầu\n2.8 BÁO CÁO TUẦN 7: XÂY DỰNG GIAO DIỆN VÀ KẾT NỐI BACKEND\n2.8.1 Mục tiêu công việc theo đề cương\nTrong tuần 7, xây dựng giao diện HTML, CSS, JavaScript, Bootstrap và kết nối\nvới backend.\n2.8.2 Công việc thực tế đã hoàn thành\nTrong tuần 7, em đã thực hiện các công việc sau:\n• Xây dựng các trang giao diện cho hồ sơ, bảng điểm, CPA và các chức\nnăng liên quan; sử dụng Fetch API để trao đổi dữ liệu với REST API.\n• Giao diện hiển thị kết quả xử lý và thông báo lỗi từ backend.\n2.8.3 Nội dung công việc chi tiết\n\n[d8e0e0553a845c99a094348ccd0df6beeb2dbe1bb687250bf73cc48e880ca9b1 | starter/data/bao_cao_thuc_tap.pdf | page 78]\n5 Có sơ đồ phân trang và tối\nthiểu 3 trang giao diện\nCó sơ đồ phân trang, các user\nflow; frontend gồm thông tin\ncá nhân, CPA, thời khóa biểu,\nxác thực và quản trị.\nĐạt\n6 Khai báo sử dụng AI và\nminh chứng\nĐã mô tả công cụ, nhóm công\nviệc có AI hỗ trợ, phần sinh\nviên thực hiện và vị trí minh\nchứng.\nĐạt\n\n3.1.3 Đánh giá mức độ áp dụng những kiến thức đã được học\nTrong giai đoạn thực tập tại doanh nghiệp, em đã củng cố kiến thức Java Core\nvà vận dụng vào xây dựng ứng dụng HUMG Study Guide. Em hiểu rõ hơn cách tổ\nchức ứng dụng Spring Boot theo các thành phần Controller, Service, Repository và\nDTO; cách xây dựng REST API, kiểm tra dữ liệu đầu vào và xử lý lỗi.\nThông qua các chức năng quản lý kết quả học tập, tính CPA và lập thời khóa\nbiểu, em đã vận dụng kiến thức về cơ sở dữ liệu quan hệ, khóa ngoại, JPA/Hibernate\nvà quản lý thay đổi cấu trúc dữ liệu bằng Flyway.\n\n[f35dd4a94d487ad80e9bd1afced37213eb8fd897bb495a3454ca11bfe988d149 | starter/data/bao_cao_thuc_tap.pdf | page 77]\n4 Vẽ sơ đồ —\nChatGPT/Codex\nvà draw.io\nSử dụng AI để tạo XML cho sơ đồ phân\ntrang và user flow. Em mở tệp trong\ndraw.io, kiểm tra các nhánh, nội dung và\nchỉnh sửa bố cục trước khi đưa vào báo cáo.\nPhụ lục\nA, Hình\nA.4\n\n3.1.2 So sánh nội dung thực tập và yêu cầu trong cẩm nang\nEm đối chiếu sản phẩm theo hướng Full-stack trong cẩm nang TTDN. Nội dung\nđánh giá dựa trên chức năng đã triển khai, cấu trúc giao diện và các minh chứng được\ntrình bày ở Chương 2.\nSTT Yêu cầu đối chiếu Nội dung đã thực hiện Đánh giá\n1 Mô tả bài toán chi tiết Đã mô tả nhu cầu theo dõi học\ntập, CPA mục tiêu và thời khóa\nbiểu; xác định phạm vi bản\ndemo.\nĐạt\n2 Xác định đối tượng và chức\nnăng\nĐã xác định STUDENT,\nADMIN và các nhóm chức\nnăng; mô tả đầu vào, xử lý, đầu\nra và phạm vi quyền.\nĐạt\n3 Tối thiểu 8 endpoint làm\nviệc với CSDL, có GET,\nPOST, PUT, DELETE hoặc\nkhối lượng chức năng tương\nđương\nRiêng kết quả học tập có 5\nendpoint và thời khóa biểu có\n6 endpoint, bao gồm đủ 4\nphương thức.\n\n[930437634b292731845891031f08fb140f2893074bc287ed9cf2143ee5f816bb | starter/data/bao_cao_thuc_tap.pdf | page 76]\nCHƯƠNG 3\nĐÁNH GIÁ KẾT QUẢ VÀ ĐỊNH HƯỚNG PHÁT TRIỂN\n3.1 Tự đánh giá kết quả thực tập\n3.1.1 Khai báo sử dụng AI\nEm sử dụng LLM ChatGPT và AI Agent là Codex để hỗ trợ tìm hiểu công nghệ,\nphân tích nghiệp vụ, phát triển mã nguồn, kiểm thử và biên soạn tài liệu. Các yêu cầu\nđược giới hạn theo chức năng, cung cấp ngữ cảnh của dự án và được đối chiếu với\nmã nguồn hoặc kết quả thực hiện. Bảng dưới mô tả các nhóm công việc có sự hỗ trợ\ncủa AI.\nTrong quá trình làm việc, em sử dụng môi trường Agent có sẵn và cấu hình\nhướng dẫn theo dự án qua AGENTS.md, các skill và công cụ kết nối. Minh chứng\nđược xác định theo thay đổi mã, kiểm thử, ảnh thao tác và lịch sử yêu cầu thực tế.\nSTT Công việc và\ncông cụ\nPhạm vi hỗ trợ và phần sinh viên thực\nhiện\nMinh\nchứng\n1 Rule —\nAGENTS.md\nSử dụng AGENTS.md để cung cấp cho\nAgent các quy tắc làm việc, phạm vi chức\nnăng và nguyên tắc sửa mã. Em xác định\nyêu cầu, kiểm tra nội dung quy tắc và đối\nchiếu các thay đổi với phạm vi đã giao.\n\n[f9dba1fca5e43318ac0494b98b1ac7a51ee988ca4968e4d9d6ef8c178b295d8c | starter/data/bao_cao_thuc_tap.pdf | page 67]\n2.10.3 Nội dung công việc chi tiết\nEm tổ chức kiểm thử các chức năng của hệ thống và trình bày một số ca kiểm\nthử tiêu biểu kèm kết quả thực hiện.\nAPI-01 - Xác thực và phân quyền\nGọi GET /api/me/timetables khi không có token (chưa xác thực tài khoản)\n\n[ff4b4ad826abc02ee693a20f6c565a19cfd9ff772a24926b7e0c672ae0c2eaed | starter/data/bao_cao_thuc_tap.pdf | page 64]\nHình 2.8.3.4-2. Giao diện thời khoá biểu dự kiến\n2.8.3.5 Ứng dụng AI Agent kết hợp Figma MCP trong phát triển giao diện\nTrong quá trình phát triển HUMG Study Guide, em kết nối môi trường AI Agent\nvới máy chủ MCP do Figma cung cấp để hỗ trợ làm việc với giao diện. MCP cung\ncấp cơ chế kết nối, còn máy chủ Figma cung cấp các công cụ thao tác với tài liệu thiết\nkế. Em giao nhiệm vụ cho Agent bằng yêu cầu cụ thể, kèm đường dẫn tệp Figma và\nmàn hình cần xử lý. [16]\nEm sử dụng kết nối này để chuyển các màn hình frontend đang chạy sang Figma\ndưới dạng các lớp có thể chỉnh sửa. Các màn hình gồm thông tin cá nhân, CPA, thời\nkhóa biểu, đăng nhập, đăng ký và quản trị. Bản Figma được dùng để xem xét bố cục,\ntrình bày các thành phần và làm cơ sở cho những điều chỉnh giao diện tiếp theo.\nQuá trình thực hiện gồm kết nối tài khoản Figma, xác định tệp đích, mở màn\nhình cần chuyển và yêu cầu Agent thực hiện thao tác qua công cụ.",
+    "review": {
+      "method": "dense",
+      "query_id": "d7-dev-u02",
+      "answer_grade": null,
+      "context_grade": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Đã tìm và từ chối, không thêm con số hoặc suy đoán; phù hợp rà soát absence corpus đã chốt.",
+      "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge"
+    }
+  }
+]

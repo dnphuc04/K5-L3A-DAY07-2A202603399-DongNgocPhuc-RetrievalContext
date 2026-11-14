@@ -1,0 +1,9 @@
+# Freeze receipts hash exact bytes, including the recorded LF/CRLF line endings.
+# Disable conversion only for immutable evidence/code, keeping starter files normal.
+results/** -text
+configs/** -text
+benchmarks/** -text
+artifacts/** -text
+src/*.py -text
+scripts/*.py -text
+docs/TEST_RESULTS.md -text

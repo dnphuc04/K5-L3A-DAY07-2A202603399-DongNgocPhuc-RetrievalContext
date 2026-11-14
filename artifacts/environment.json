@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "packages": {
+    "psycopg": "3.3.8",
+    "psycopg-binary": "3.3.8",
+    "pypdf": "6.21.4",
+    "python-dotenv": "1.2.4"
+  },
+  "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7"
+}

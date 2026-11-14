@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-11-14T07:37:31.360536+00:00",
+  "stage": "Before Day 7 Dense/BM25/Hybrid implementation or benchmark runs",
+  "files_sha256": {
+    "benchmarks/dev.gold.json": "9dabc9f2ac01f81ed157036564eb4740db7db6f3d6bc328a180063f76b711f52",
+    "benchmarks/dev.inputs.json": "eff0138d1df06d563ec2f06ac67e298d7fd7c7ba624fff36630dad697ffc978c",
+    "benchmarks/test.gold.json": "022f410ddde913ec9a455bb3b769d510fc1f77c51199d2b982a7c1a21da9a1bf",
+    "benchmarks/test.inputs.json": "8371d605f64621e9c82bab0d342a958c9d52eda3b900d509e85314ab94f5b494",
+    "benchmarks/dev_absence.json": "5fbede1c4e5e260a65d5f5f88e8d35bfba56cf16c1b3ac9d0a672af224979ef4",
+    "benchmarks/README.md": "f06cd1814e588c095030a25cef497ea61602e7d6eeca0c84246e5e116dd628d3"
+  },
+  "source_sha256": {
+    "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+    "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+    "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+  }
+}

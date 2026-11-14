@@ -1,0 +1,59 @@
+{
+  "split": "test",
+  "methods": {
+    "dense": {
+      "attempted": 7,
+      "statuses": {
+        "answered": 5,
+        "abstain": 2
+      },
+      "model_calls": 16,
+      "median_ms": 3884.6950000006473,
+      "search_count_distribution": {
+        "1": 5,
+        "2": 2
+      },
+      "usage": {
+        "prompt_tokens": 18230,
+        "completion_tokens": 779,
+        "total_tokens": 19009
+      },
+      "embedding_usage": {
+        "api_requests": 9,
+        "prompt_tokens": 423,
+        "cache_hits": 0
+      }
+    },
+    "bm25": {
+      "attempted": 7,
+      "statuses": {
+        "answered": 5,
+        "abstain": 2
+      },
+      "model_calls": 16,
+      "median_ms": 2657.8520000002754,
+      "search_count_distribution": {
+        "1": 5,
+        "2": 2
+      },
+      "usage": {
+        "prompt_tokens": 18850,
+        "completion_tokens": 823,
+        "total_tokens": 19673
+      },
+      "embedding_usage": {
+        "api_requests": 0,
+        "prompt_tokens": 0,
+        "cache_hits": 0
+      }
+    }
+  },
+  "freeze_verification_after": {
+    "pipeline_freeze_sha256": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "benchmark_freeze_sha256": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+    "status": "passed"
+  },
+  "cost_usd": null,
+  "cost_note": "Actual API token usage recorded; monetary cost unverified.",
+  "quality_note": "Operational only; semantic answer/context/citation/abstention reviews are separate."
+}

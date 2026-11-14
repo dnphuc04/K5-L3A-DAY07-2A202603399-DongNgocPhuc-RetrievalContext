@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-11-14T08:07:29.885149+00:00",
+  "split": "test",
+  "freeze_verification_before": {
+    "pipeline_freeze_sha256": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "benchmark_freeze_sha256": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+    "status": "passed"
+  },
+  "configs": {
+    "dense": {
+      "method": "dense",
+      "top_k": 3,
+      "context_budget_chars": 4000,
+      "max_searches": 2,
+      "require_quotes": false,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "role": "baseline"
+    },
+    "bm25": {
+      "id": "bm25",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "method": "bm25",
+      "top_k": 3,
+      "context_budget_chars": 4000,
+      "max_searches": 2,
+      "require_quotes": false,
+      "max_completion_tokens": 1200,
+      "temperature": 0,
+      "bm25": {
+        "k1": 1.5,
+        "b": 0.75,
+        "tokenizer": "NFC/casefold/Unicode word tokens, no stopwords, unique query terms"
+      },
+      "context_policy": "cumulative first-seen whole chunks; source headers included; dedup; skip oversized blocks",
+      "embedding_model": "text-embedding-3-small",
+      "dimensions": 1536,
+      "strategy": "C",
+      "source_sha256": {
+        "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+        "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+        "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+      },
+      "selected_on": "dev only",
+      "baseline_for_future_test": {
+        "method": "dense",
+        "top_k": 3,
+        "context_budget_chars": 4000,
+        "max_searches": 2,
+        "require_quotes": false,
+        "model": "gpt-4.1-mini-2025-04-14"
+      },
+      "role": "selected"
+    }
+  },
+  "query_ids": [
+    "d7-test-a01",
+    "d7-test-a02",
+    "d7-test-a03",
+    "d7-test-a04",
+    "d7-test-a05",
+    "d7-test-u01",
+    "d7-test-u02"
+  ],
+  "runner_sha256": "1dde8b30116f80e70c546e2517e0c955d4aede3be02bb039df0f27f10966e6ac",
+  "test_inputs_sha256": "8371d605f64621e9c82bab0d342a958c9d52eda3b900d509e85314ab94f5b494",
+  "policy": "All seven test inputs, fixed Dense/BM25 configurations, no tuning or cherry-picking; errors retained."
+}

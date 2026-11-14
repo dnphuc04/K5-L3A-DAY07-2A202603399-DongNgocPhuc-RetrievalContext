@@ -1,0 +1,4 @@
+# Exact package versions observed in artifacts/environment.json (Python 3.12.14).
+psycopg[binary]==3.3.8
+pypdf==6.21.4
+python-dotenv==1.2.4

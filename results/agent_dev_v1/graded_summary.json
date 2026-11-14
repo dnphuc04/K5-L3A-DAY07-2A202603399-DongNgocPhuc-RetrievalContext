@@ -1,0 +1,150 @@
+{
+  "reviewer": "Codex AI-assisted direct reading of every answer and cited passage; not an independent human judge",
+  "independent_human_review": false,
+  "methods": {
+    "bm25": {
+      "attempted": 17,
+      "errors": 0,
+      "grounded_answer": {
+        "distribution": {
+          "2": 15
+        },
+        "sum": 30,
+        "max": 30,
+        "mean_out_of_2": 2
+      },
+      "context_grades": {
+        "2": 15
+      },
+      "context_evidence_rate": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "citation_validity": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2,
+        "rate": 1.0
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15,
+        "rate": 0.0
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 2762.7871000004234,
+      "model_calls": 35
+    },
+    "dense": {
+      "attempted": 17,
+      "errors": 0,
+      "grounded_answer": {
+        "distribution": {
+          "2": 13,
+          "0": 1,
+          "1": 1
+        },
+        "sum": 27,
+        "max": 30,
+        "mean_out_of_2": 1.8
+      },
+      "context_grades": {
+        "2": 14,
+        "1": 1
+      },
+      "context_evidence_rate": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "citation_validity": {
+        "n": 15,
+        "N": 16,
+        "rate": 0.9375
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2,
+        "rate": 1.0
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15,
+        "rate": 0.0
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 3069.8066000004474,
+      "model_calls": 36
+    },
+    "hybrid_rrf": {
+      "attempted": 17,
+      "errors": 0,
+      "grounded_answer": {
+        "distribution": {
+          "2": 15
+        },
+        "sum": 30,
+        "max": 30,
+        "mean_out_of_2": 2
+      },
+      "context_grades": {
+        "2": 15
+      },
+      "context_evidence_rate": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "citation_validity": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2,
+        "rate": 1.0
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15,
+        "rate": 0.0
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 2926.8942000016978,
+      "model_calls": 35
+    }
+  }
+}

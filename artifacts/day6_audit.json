@@ -1,0 +1,55 @@
+{
+  "day6_root": "D:\\Work\\26AI20K\\K5-L3A-DAY06-DongNgocPhuc-2A202603399-DataIngestionEngineering",
+  "source": {
+    "pdf_exists": true,
+    "sha256_matches": true,
+    "physical_pages_recorded": 84,
+    "selected_pages": 33,
+    "permission": "User supplied own report for this lab; redistribution permission not verified."
+  },
+  "chunks": {
+    "strategy": "C",
+    "count": 65,
+    "unique_ids": true,
+    "nonempty_text": true,
+    "pages_match_manifest": true,
+    "required_fields_present": true
+  },
+  "embedding": {
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "document_prefix": "",
+    "query_prefix": "",
+    "metric": "cosine",
+    "search": "exact",
+    "table": "lab_chunks"
+  },
+  "benchmark": {
+    "dev_count": 15,
+    "test_count": 5,
+    "dev_unanswerable": 0,
+    "test_unanswerable": 0,
+    "dev_evidence_in_selected_chunks": 15,
+    "old_test_results_exist": true
+  },
+  "configuration": {
+    "database_url_present": true,
+    "openai_key_present": true
+  },
+  "database": {
+    "status": "connected_read_only",
+    "strategy": "C",
+    "rows": 65,
+    "dimensions": [
+      1536
+    ],
+    "matches_chunk_snapshot": true,
+    "finite_nonzero_vectors": true,
+    "adapter_self_query": {
+      "hits": 3,
+      "top1_matches": true,
+      "top1_score": 1.0
+    }
+  }
+}

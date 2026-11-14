@@ -1,0 +1,127 @@
+{
+  "split": "test",
+  "reviewer": "Codex AI-assisted direct reading of every test answer, context evidence and cited passage; not an independent human judge",
+  "independent_human_review": false,
+  "methods": {
+    "dense": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 5,
+        "N": 5,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 5,
+        "N": 5
+      },
+      "answer_citation_coverage": {
+        "n": 5,
+        "N": 5
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 5
+      },
+      "hit1_strict_original_query": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "hit3_strict_original_query": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_evidence_rate_strict": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_evidence_rate_reviewed": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_grade_distribution": {
+        "2": 5
+      },
+      "median_ms": 3884.6950000006473,
+      "search_count_distribution": {
+        "1": 5,
+        "2": 2
+      },
+      "note": "Quality metrics exclude provider errors as in starter; all attempted/error counts are shown. Strict metrics retain all five answerable queries."
+    },
+    "bm25": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 5,
+        "N": 5,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 5,
+        "N": 5
+      },
+      "answer_citation_coverage": {
+        "n": 5,
+        "N": 5
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 5
+      },
+      "hit1_strict_original_query": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "hit3_strict_original_query": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_evidence_rate_strict": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_evidence_rate_reviewed": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_grade_distribution": {
+        "2": 5
+      },
+      "median_ms": 2657.8520000002754,
+      "search_count_distribution": {
+        "1": 5,
+        "2": 2
+      },
+      "note": "Quality metrics exclude provider errors as in starter; all attempted/error counts are shown. Strict metrics retain all five answerable queries."
+    }
+  }
+}

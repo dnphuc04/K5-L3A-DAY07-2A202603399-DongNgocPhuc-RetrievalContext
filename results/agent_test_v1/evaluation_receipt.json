@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-14T08:10:20.938470+00:00",
+  "stage": "Full test evaluation complete; no pipeline tuning or rerun selection",
+  "freeze_verification": {
+    "pipeline_freeze_sha256": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "benchmark_freeze_sha256": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+    "status": "passed"
+  },
+  "sha256": {
+    "results\\agent_test_v1\\config.json": "35b7a6866241fa72145266abbca9d549d7fa42cd63bc4936949650727f8f51c4",
+    "results\\agent_test_v1\\traces.json": "7d9b07ea34ec99888c294ca5ffbc324927252b03023dc94a65461ff1536cce89",
+    "results\\agent_test_v1\\summary.json": "f52159699bc7946b911986b0fcd533e8dc9cf6feade76a67bdf8453264648473",
+    "results\\agent_test_v1\\reviews.json": "0a6d84d2612441c7e586c5d1131c29241cf1e5c3df853e86448dae7e3bdcac03",
+    "results\\agent_test_v1\\review_packet.json": "b9be0c1aad0905666d766db5ef2a5726567cadb6b81b6abbac43036e1dcda991",
+    "results\\agent_test_v1\\graded_summary.json": "c3a96ff9d82d82976ebcede97c4d400f9e8ee2ebe55836cd32e4103a7c09efd7",
+    "results\\agent_test_v1\\cited_source_checks.json": "e1253fae458f6c916ed3afd876f2c20b7b121d363d4ffdaf3e87e5488c2233a0",
+    "configs\\pipeline_freeze.json": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "configs\\selected_pipeline.json": "53be64ef4c66a0409b083eb7f9130631d0c37625ba9c949bf8e83cdfed16fb48",
+    "benchmarks\\freeze.json": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+    "scripts\\run_agent_test.py": "1dde8b30116f80e70c546e2517e0c955d4aede3be02bb039df0f27f10966e6ac",
+    "scripts\\grade_test.py": "5b5a2f4cc9cf24ca0502f3d314e33255565494139a30b6255d08795378ba1e0d",
+    "docs\\TEST_RESULTS.md": "1f767e363c0a49e93fd66b55b30559eff4472d3982b533843df18761ba5d49f0"
+  }
+}

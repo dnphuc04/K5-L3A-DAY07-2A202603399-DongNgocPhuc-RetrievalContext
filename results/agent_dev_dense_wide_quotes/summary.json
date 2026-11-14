@@ -1,0 +1,37 @@
+{
+  "split": "dev",
+  "queries_per_method": 17,
+  "methods": {
+    "dense": {
+      "attempted": 17,
+      "statuses": {
+        "answered": 13,
+        "abstain": 4
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "search_count_distribution": {
+        "1": 15,
+        "2": 2
+      },
+      "model_calls": 36,
+      "median_ms": 3663.612100001046,
+      "usage": {
+        "prompt_tokens": 62676,
+        "completion_tokens": 4815,
+        "total_tokens": 67491
+      },
+      "embedding_usage": {
+        "api_requests": 1,
+        "prompt_tokens": 13,
+        "cache_hits": 18
+      },
+      "answers_with_citation": 13
+    }
+  },
+  "cost_usd": null,
+  "cost_note": "Actual token usage reported; monetary cost not yet verified against billing.",
+  "quality_note": "Operational summary only; semantic answer/citation/abstention labels require separate review."
+}

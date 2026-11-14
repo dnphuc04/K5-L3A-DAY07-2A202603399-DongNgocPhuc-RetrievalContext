@@ -1,0 +1,76 @@
+[
+  {
+    "id": "q01",
+    "question": "Theo Chương 1, JITS Innovation Labs tập trung phát triển giải pháp cho lĩnh vực nào?",
+    "filter": {
+      "chapter": "chapter_1"
+    }
+  },
+  {
+    "id": "q02",
+    "question": "Ứng dụng demo trong báo cáo được đặt tên là gì?"
+  },
+  {
+    "id": "q03",
+    "question": "Spring Boot hỗ trợ đơn giản hóa việc khởi tạo và chạy ứng dụng bằng những cơ chế nào?"
+  },
+  {
+    "id": "q04",
+    "question": "Migration có phiên bản của Flyway được đặt tên và thực thi như thế nào?"
+  },
+  {
+    "id": "q05",
+    "question": "JPA, Hibernate và Spring Data JPA khác nhau về vai trò như thế nào?"
+  },
+  {
+    "id": "q06",
+    "question": "Khi sửa Entity, tại sao phải đối chiếu migration nếu dự án dùng ddl-auto=validate?"
+  },
+  {
+    "id": "q07",
+    "question": "BCrypt có cho phép giải mã để khôi phục mật khẩu gốc không?"
+  },
+  {
+    "id": "q08",
+    "question": "Client gửi JWT trong header nào và theo định dạng gì?"
+  },
+  {
+    "id": "q09",
+    "question": "Theo phần cơ sở lý thuyết ở Chương 2, CPA được làm tròn và lưu chi tiết ra sao để hạn chế sai số tính tiếp?",
+    "filter": {
+      "chapter": "chapter_2"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "Nếu điểm trung bình cần đạt R lớn hơn 4 thì việc chỉ học các tín chỉ còn lại có đủ đạt CPA mục tiêu không?"
+  },
+  {
+    "id": "q11",
+    "question": "Những dữ liệu nào không được đưa vào yêu cầu gửi AI trong quy trình của đề tài?"
+  },
+  {
+    "id": "q12",
+    "question": "Vì sao việc nhập bảng điểm Excel được tách thành xem trước và xác nhận?"
+  },
+  {
+    "id": "q13",
+    "question": "Khi một mã học phần có nhiều lần học bằng điểm, hệ thống chọn kết quả tính CPA như thế nào?"
+  },
+  {
+    "id": "q14",
+    "question": "Giao diện HUMG Study Guide có những tệp trang nào và auth.html chứa các trạng thái nào?"
+  },
+  {
+    "id": "q15",
+    "question": "Các màn hình frontend được chuyển sang Figma dưới dạng gì và được dùng để làm gì?"
+  },
+  {
+    "id": "d7-dev-u01",
+    "question": "Trong corpus báo cáo thực tập đã index, BCrypt của HUMG Study Guide được cấu hình cost factor cụ thể bằng bao nhiêu?"
+  },
+  {
+    "id": "d7-dev-u02",
+    "question": "Theo corpus báo cáo thực tập đã index, JWT của HUMG Study Guide hết hạn sau chính xác bao nhiêu phút kể từ khi phát hành?"
+  }
+]

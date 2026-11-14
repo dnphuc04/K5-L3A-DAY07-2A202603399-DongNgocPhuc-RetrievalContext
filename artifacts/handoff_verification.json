@@ -1,0 +1,11 @@
+{
+  "status": "restored",
+  "rows": 65,
+  "dimensions": 1536,
+  "overwrite_guard": "passed",
+  "frozen_runtime_snapshot": "matched",
+  "self_query_score": 1.0,
+  "bm25_smoke_page": 18,
+  "external_api_calls": 0,
+  "isolated_database_removed": true
+}

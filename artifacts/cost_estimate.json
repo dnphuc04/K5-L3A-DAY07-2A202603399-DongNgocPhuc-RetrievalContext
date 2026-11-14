@@ -1,0 +1,139 @@
+{
+  "type": "estimate_not_invoice",
+  "price_checked_on": "2026-11-14",
+  "usd_per_million_tokens": {
+    "chat_input": 0.4,
+    "chat_cached_input": 0.1,
+    "chat_output": 1.6,
+    "embedding_input": 0.02
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "https://developers.openai.com/api/docs/models/text-embedding-3-small"
+  ],
+  "assumptions": "Standard synchronous API prices, no tax/credits/discounts. Only recorded successful usage; excludes Day 6 document embedding and previous cached vectors, compute/storage/network costs. Failed calls without usage have unknown billing.",
+  "runs": {
+    "agent_dev_v1": {
+      "bm25": {
+        "calls": 35,
+        "prompt_tokens": 37679,
+        "cached_prompt_tokens": 4352,
+        "completion_tokens": 2470,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.017718
+      },
+      "dense": {
+        "calls": 36,
+        "prompt_tokens": 38304,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 2552,
+        "new_embedding_tokens": 30,
+        "estimated_usd": 0.0194054
+      },
+      "hybrid_rrf": {
+        "calls": 35,
+        "prompt_tokens": 37098,
+        "cached_prompt_tokens": 2688,
+        "completion_tokens": 2517,
+        "new_embedding_tokens": 29,
+        "estimated_usd": 0.01806058
+      }
+    },
+    "agent_dev_dense_wide": {
+      "dense": {
+        "calls": 36,
+        "prompt_tokens": 57253,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 2520,
+        "new_embedding_tokens": 37,
+        "estimated_usd": 0.02693394
+      }
+    },
+    "agent_dev_dense_wide_quotes": {
+      "dense": {
+        "calls": 36,
+        "prompt_tokens": 62676,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 4815,
+        "new_embedding_tokens": 13,
+        "estimated_usd": 0.03277466
+      }
+    },
+    "agent_test_v1": {
+      "bm25": {
+        "calls": 16,
+        "prompt_tokens": 18850,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 823,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.0088568
+      },
+      "dense": {
+        "calls": 16,
+        "prompt_tokens": 18230,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 779,
+        "new_embedding_tokens": 423,
+        "estimated_usd": 0.00854686
+      }
+    },
+    "agent_smoke_v1": {
+      "bm25": {
+        "calls": 1,
+        "prompt_tokens": 437,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 16,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.0002004
+      }
+    },
+    "agent_smoke_v2": {
+      "bm25": {
+        "calls": 2,
+        "prompt_tokens": 2053,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 265,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.0012452
+      }
+    },
+    "agent_smoke_v3": {
+      "bm25": {
+        "calls": 4,
+        "prompt_tokens": 4350,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 376,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.0023416
+      }
+    },
+    "agent_smoke_v4": {
+      "bm25": {
+        "calls": 4,
+        "prompt_tokens": 4222,
+        "cached_prompt_tokens": 0,
+        "completion_tokens": 201,
+        "new_embedding_tokens": 0,
+        "estimated_usd": 0.0020104
+      }
+    }
+  },
+  "source_sha256": {
+    "results\\agent_dev_v1\\traces.json": "7c0e6fac54ab5b25addf23af22bcbd28812c908e23c974bf00382f3bbd27b5a3",
+    "results\\agent_dev_dense_wide\\traces.json": "4a7fd9048f88b529cd4947380da85da9e0945f58b5440c0d3b815834146751ab",
+    "results\\agent_dev_dense_wide_quotes\\traces.json": "0e4c5808609ea8e961546e512de5dd8949d945991ee694dbb5ac0379407557bf",
+    "results\\agent_test_v1\\traces.json": "7d9b07ea34ec99888c294ca5ffbc324927252b03023dc94a65461ff1536cce89",
+    "results\\agent_smoke_v1\\traces.json": "3e81f62dc9ca05e4716d7c8b3cd30aa5b7a6611cd4620e7d8d3130d7fac99c62",
+    "results\\agent_smoke_v2\\traces.json": "a3420ce04d056453be863acc38f39c290e4c1b9174eb64aab478d5f015398a1c",
+    "results\\agent_smoke_v3\\traces.json": "215603e705f851b53a7a53f39eab21b548fecadf8bbd21b2944a5374b4bca46e",
+    "results\\agent_smoke_v4\\traces.json": "fa4a33615e7386d3576660a2242162db285c6e82157b1be2b8ad2193f3b05464",
+    "results\\retrieval_dev_v2\\retrieval.traces.json": "cab7807aa905f3fdc37d2115a36f728a1bf00d17d1d789361a2a48fc00cab5d7"
+  },
+  "retrieval_preparation": {
+    "run": "retrieval_dev_v2",
+    "new_embedding_tokens": 94,
+    "estimated_usd": 1.88e-06,
+    "status": "partial_run_usage_recorded"
+  },
+  "total_estimated_usd": 0.13809572
+}

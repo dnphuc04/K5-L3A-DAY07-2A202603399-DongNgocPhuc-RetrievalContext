@@ -1,0 +1,234 @@
+{
+  "reviewer": "Codex AI-assisted direct reading of every test answer, context evidence and cited passage; not an independent human judge",
+  "traces_sha256": "7d9b07ea34ec99888c294ca5ffbc324927252b03023dc94a65461ff1536cce89",
+  "reviews": [
+    {
+      "method": "dense",
+      "query_id": "d7-test-a01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 18, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ Content-Type và application/json, đúng nguyên văn trang 18; không nhầm Authorization/Bearer."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ Content-Type và application/json, đúng nguyên văn trang 18; không nhầm Authorization/Bearer.",
+      "source_pages": [
+        18
+      ]
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-a02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 25, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Nêu rõ đăng nhập không cấp mọi quyền và phân biệt đủ authentication kiểm tra danh tính, authorization kiểm tra quyền; cả ba claim được đoạn trang 25 hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu rõ đăng nhập không cấp mọi quyền và phân biệt đủ authentication kiểm tra danh tính, authorization kiểm tra quyền; cả ba claim được đoạn trang 25 hỗ trợ.",
+      "source_pages": [
+        25
+      ]
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-a03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 49, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ Long cho khóa chính, BigDecimal cho điểm/tín chỉ và enum dạng chuỗi. Đoạn thiết kế dữ liệu trang 49 hỗ trợ đủ các ý."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ Long cho khóa chính, BigDecimal cho điểm/tín chỉ và enum dạng chuỗi. Đoạn thiết kế dữ liệu trang 49 hỗ trợ đủ các ý.",
+      "source_pages": [
+        49
+      ]
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-a04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 52, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đúng cả PUT và /api/me/timetables/{id}/name. Đối chiếu cùng hàng đổi tên phương án của bảng 2.5-1 trang 52; không nhầm endpoint lưu lịch."
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng cả PUT và /api/me/timetables/{id}/name. Đối chiếu cùng hàng đổi tên phương án của bảng 2.5-1 trang 52; không nhầm endpoint lưu lịch.",
+      "source_pages": [
+        52
+      ]
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-a05",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 33, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Nêu không và đủ hai điều kiện công cụ/quyền; câu phủ định được trang 33 hỗ trợ nguyên văn. Dense lấy đúng nguồn từ rank 2, BM25 từ rank 1."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu không và đủ hai điều kiện công cụ/quyền; câu phủ định được trang 33 hỗ trợ nguyên văn. Dense lấy đúng nguồn từ rank 2, BM25 từ rank 1.",
+      "source_pages": [
+        33
+      ]
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-u01",
+      "answer_grade": null,
+      "context_grade": null,
+      "context_reason": "Không áp dụng thang context 0/1/2 cho câu thiếu evidence; đã đọc hành vi tìm tiếp và câu từ chối.",
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Từ chối giới hạn MB của Excel, không đưa con số mặc định Spring Boot; phù hợp absence review của corpus 33 trang đã chốt, không dựa chỉ trên top-k.",
+      "source_pages": []
+    },
+    {
+      "method": "dense",
+      "query_id": "d7-test-u02",
+      "answer_grade": null,
+      "context_grade": null,
+      "context_reason": "Không áp dụng thang context 0/1/2 cho câu thiếu evidence; đã đọc hành vi tìm tiếp và câu từ chối.",
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Từ chối số người dùng đồng thời tối đa, không suy từ thống kê tài khoản/kiểm thử chức năng; corpus đã rà soát không có phép đo tải này.",
+      "source_pages": []
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-a01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 18, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ Content-Type và application/json, đúng nguyên văn trang 18; không nhầm Authorization/Bearer."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ Content-Type và application/json, đúng nguyên văn trang 18; không nhầm Authorization/Bearer.",
+      "source_pages": [
+        18
+      ]
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-a02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 25, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Nêu rõ đăng nhập không cấp mọi quyền và phân biệt đủ authentication kiểm tra danh tính, authorization kiểm tra quyền; cả ba claim được đoạn trang 25 hỗ trợ."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu rõ đăng nhập không cấp mọi quyền và phân biệt đủ authentication kiểm tra danh tính, authorization kiểm tra quyền; cả ba claim được đoạn trang 25 hỗ trợ.",
+      "source_pages": [
+        25
+      ]
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-a03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 49, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đủ Long cho khóa chính, BigDecimal cho điểm/tín chỉ và enum dạng chuỗi. Đoạn thiết kế dữ liệu trang 49 hỗ trợ đủ các ý."
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ Long cho khóa chính, BigDecimal cho điểm/tín chỉ và enum dạng chuỗi. Đoạn thiết kế dữ liệu trang 49 hỗ trợ đủ các ý.",
+      "source_pages": [
+        49
+      ]
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-a04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 52, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Đúng cả PUT và /api/me/timetables/{id}/name. Đối chiếu cùng hàng đổi tên phương án của bảng 2.5-1 trang 52; không nhầm endpoint lưu lịch."
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng cả PUT và /api/me/timetables/{id}/name. Đối chiếu cùng hàng đổi tên phương án của bảng 2.5-1 trang 52; không nhầm endpoint lưu lịch.",
+      "source_pages": [
+        52
+      ]
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-a05",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "context_reason": "Context cuối chứa đoạn đúng nguồn/trang 33, đủ toàn bộ điều kiện gold và header ID/nguồn/trang để kiểm chứng.",
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Nêu không và đủ hai điều kiện công cụ/quyền; câu phủ định được trang 33 hỗ trợ nguyên văn. Dense lấy đúng nguồn từ rank 2, BM25 từ rank 1."
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu không và đủ hai điều kiện công cụ/quyền; câu phủ định được trang 33 hỗ trợ nguyên văn. Dense lấy đúng nguồn từ rank 2, BM25 từ rank 1.",
+      "source_pages": [
+        33
+      ]
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-u01",
+      "answer_grade": null,
+      "context_grade": null,
+      "context_reason": "Không áp dụng thang context 0/1/2 cho câu thiếu evidence; đã đọc hành vi tìm tiếp và câu từ chối.",
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Từ chối giới hạn MB của Excel, không đưa con số mặc định Spring Boot; phù hợp absence review của corpus 33 trang đã chốt, không dựa chỉ trên top-k.",
+      "source_pages": []
+    },
+    {
+      "method": "bm25",
+      "query_id": "d7-test-u02",
+      "answer_grade": null,
+      "context_grade": null,
+      "context_reason": "Không áp dụng thang context 0/1/2 cho câu thiếu evidence; đã đọc hành vi tìm tiếp và câu từ chối.",
+      "citation_support": [],
+      "citation_reasons": [],
+      "abstention_correct": true,
+      "reason": "Từ chối số người dùng đồng thời tối đa, không suy từ thống kê tài khoản/kiểm thử chức năng; corpus đã rà soát không có phép đo tải này.",
+      "source_pages": []
+    }
+  ]
+}
