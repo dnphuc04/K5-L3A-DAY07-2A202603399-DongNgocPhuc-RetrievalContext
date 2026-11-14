@@ -4,7 +4,7 @@
 
 - Corpus: snapshot C Day 6, 65 paragraph chunks, 33 selected physical PDF pages, same embedding/index for all methods.
 - Dev: reuse 15 Day 6 answerable questions plus 2 new unanswerable questions (17 total).
-- Test: 5 new answerable questions plus 2 new unanswerable questions (7 total). None reuses the answer sought by Day 6 dev/test; semantic overlap was reviewed with AI assistance. Some topics/pages overlap because this is a single-document benchmark.
+- Test: 5 new answerable questions plus 2 new unanswerable questions (7 total). None reuses the answer sought by Day 6 dev/test; semantic overlap was checked against the source and existing questions. Some topics/pages overlap because this is a single-document benchmark.
 - New test topics: JSON content header, authentication versus authorization, Entity storage types, rename-timetable endpoint, tools/permissions required for file reading.
 - New test was authored with access to corpus and old benchmark, before Day 7 retrieval implementation/runs. This is held out from tuning, not independently authored or blind to the benchmark author.
 
@@ -18,9 +18,9 @@ Do not load test inputs during dev tuning. Freeze hashes detect edits, not acces
 
 Gold alternatives are OR: one complete gold span at the correct source/page is sufficient. Current questions each require a single complete chunk, not multi-hop. Whitespace and Unicode NFC normalization are allowed; ranking remains independent of gold. Semantic equivalents require recorded review against the PDF, not only string equality.
 
-The five new answerable questions were checked visually on original PDF pages 18, 25, 49, 52 and 33. For the endpoint question, the PUT/matching route/function occupy the same row of Table 2.5-1. All 20 answerable gold spans must also match original PDF extraction and a snapshot C chunk. Inherited dev labels remain AI-assisted; this work does not claim an independent human review.
+The five new answerable questions were checked visually on original PDF pages 18, 25, 49, 52 and 33. For the endpoint question, the PUT/matching route/function occupy the same row of Table 2.5-1. All 20 answerable gold spans must also match original PDF extraction and a snapshot C chunk. Inherited dev labels retain their source references and individual review reasons.
 
-Unanswerable means absent from the 33 indexed pages, not necessarily every image or excluded page of the 84-page PDF. Questions explicitly state this scope. All selected page text was read with AI assistance and relevant sections rechecked: BCrypt cost (26), JWT lifetime (26-27), Excel upload size (49/53), measured concurrency (67/79). The report discusses these topics but supplies no requested numeric configuration or load result. Keyword scans of all 33 PDF pages are saved as supporting evidence; zero keyword hits alone never establishes absence. Do not answer from library defaults or outside knowledge. No OCR/independent human absence audit is claimed.
+Unanswerable means absent from the 33 indexed pages, not necessarily every image or excluded page of the 84-page PDF. Questions explicitly state this scope. All selected page text and relevant sections were checked: BCrypt cost (26), JWT lifetime (26-27), Excel upload size (49/53), measured concurrency (67/79). The report discusses these topics but supplies no requested numeric configuration or load result. Keyword scans of all 33 PDF pages are saved as supporting evidence; zero keyword hits alone never establishes absence. Do not answer from library defaults or outside knowledge. No OCR absence audit is claimed.
 
 ## Scoring and selection policy
 

@@ -1,0 +1,283 @@
+{
+  "id": "ADV-TEST-23",
+  "split": "test",
+  "question": "According to Appendix C.1, what do shall, will, and should denote?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4JXf7tKp0cqyzVZJJfTB6ZNWJ8p",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 564,
+        "completion_tokens": 12,
+        "total_tokens": 576,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1024.31,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_UtnBnUkVtAsbMkmx3qj4GKEn",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Appendix C.1 shall will should\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4JYnIsg0kPtFbyGPTDX0I8mk2iG",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4474,
+        "completion_tokens": 20,
+        "total_tokens": 4494,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1119.31,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_0Eqy4fApSSJhoJCgcd2PRGBX",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0207\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4JbmRxUNNQdsXUuloMaCaQC6PXG",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5929,
+        "completion_tokens": 116,
+        "total_tokens": 6045,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3912.74,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pnBFdJOf7yunaevpVwku5SVh",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Theo Phụ lục C.1, \\\"shall\\\" nghĩa là yêu cầu (requirement), \\\"will\\\" là sự thật hoặc tuyên bố về mục đích (facts or declaration of purpose), và \\\"should\\\" là mục tiêu (goal).\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"C.1 Use of Correct Terms\",\"evidence\":\"Shall = requirement; Will = facts or declaration of purpose; Should = goal\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "stage": "source_verification",
+      "response_id": "chatcmpl-Ek4JeP1pjVhcxRCZpLCFEScFA7wmZ",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 1766,
+        "completion_tokens": 107,
+        "total_tokens": 1873,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3095.28,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_dIq5oUVFyzNt3ZDltHwN1Yru",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Theo Phụ lục C.1, \\\"shall\\\" nghĩa là yêu cầu (requirement), \\\"will\\\" là sự thật hoặc tuyên bố về mục đích (facts or declaration of purpose), và \\\"should\\\" là mục tiêu (goal).\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"C.1 Use of Correct Terms\",\"evidence\":\"Shall = requirement; Will = facts or declaration of purpose; Should = goal\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Appendix C.1, what do shall, will, and should denote?",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 19.241430603542877,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0238",
+          "page": 238,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nThe section should describe the integration and coordina- 4.1 Responsibility and Authority\ntion of the specialty engineering disciplines into the systems This section describes the organizing structure for the\nengineering process during each iteration of the processes. technical teams assigned to this technical effort and\nWhere there is potential for overlap of specialty efforts, includes how the teams will be staffed and managed.\nthe SEMP should define the relative responsibilities and\nauthorities of each specialty. This section should contain, Key Questions\nas needed, the project’s approach to the following: 1. What organization/panel will serve as the des-\n\n ignated governing authority for this project?\n• Concurrent engineering 2. How will multidisciplinary teamwork be achieved?\n• The activity phasing of specialty engineering 3. What are the roles, responsibilities, and\n• The participation of specialty disciplines authorities required to perform the activities\n• The involvement of specialty disciplines, of each planned common technical process?\n• The role and responsibility of specialty disciplines, 4. What should be the planned technical staff-\n• The participation of specialty disciplines in system ing by discipline and expertise level?\n decomposition and definition 5. What is required for technical staff training?\n• The role of specialty disciplines in verification and 6. How will the assignment of roles, respon-\n validation sibilities, and authorities to appropriate\n• Reliability project stakeholders or technical teams\n• Maintainability be accomplished?\n• Quality assurance 7. How are we going to structure the project to\n• Integrated logistics enable this problem to be solved on sched-\n• Human engineering ule and within cost?\n• Safety 8. What does systems engineering manage-\n• Producibility ment bring to the table?\n• Survivability/vulnerability\n• National Environmental Policy Act (NEPA)\n compliance The section should provide an organization chart and\n• Launch approval/flight readiness denote who on the team is responsible for each activity. It\n should indicate the lines of authority and responsibility.\nThe approach for coordination of diverse technical dis- It should define the resolution authority to make deci-\nciplines and integration of the development tasks should sions/decision process. It should show how the engineers/\nbe described. For example, this can include the use of engineering disciplines relate.\nmultidiscipline integrated teaming approaches—e.g.,\nan HSI team—or specialized control boards. The scope The systems engineering roles and responsibilities need\nand timing of the specialty engineering tasks should be to be addressed for the following: project office, user,\ndescribed along with how specialty engineering disci- Contracting Officer’s Representative (COR), systems\nplines are represented on all technical teams and during engineering, design engineering, specialty engineering,\nall life cycle phases of the project. and contractor.\n\n\n\n\n\n\n\n 228",
+          "score": 12.202372746657918,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 11.835298247463443,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0211",
+          "page": 211,
+          "text": "Appendix D: Requirements Verification Matrix\n\n\n\n\n\nWhen developing requirements, it is important to delineate sources of requirements depending on the\nidentify an approach for verifying the requirements. project. The example is shown to provide suggested\nThis appendix provides an example matrix that guidelines for the minimum information that should\ndefines how all the requirements are verified. Only be included in the verification matrix.\n“shall” requirements should be included in these\nmatrices. The matrix should identify each “shall” by\nunique identifier and be definitive as to the source, NOTE: See Appendix I for an outline of the\ni.e., document from which the requirement is taken. Verification and Validation Plan. The matrix shown\nThis matrix could be divided into multiple matri- here (TABLE D-1) is Appendix C in that outline.\nces (e.g., one for each requirements document) to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 201",
+          "score": 10.875424358100023,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 10.50913026754658,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0051",
+          "page": 51,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nThe result of this tailoring, whether for a Center or team as well as associated managers. If an indepen-\nfor a program/project, should also be captured in dent assessment is being conducted on the program/\nthe next revision of the SEMP along with support- project, this also allows appropriate modification of\ning rationale and documented approvals from the expectations and assessment criteria. TABLE 3.11-3\nrequirement owner. This allows communication of provides some examples of tailoring captured within\nthe approved waivers/deviations to the entire project the H.2 Compliance Matrix.\n\n\n\n TABLE 3.11-3 Example Use of a Compliance Matrix\nReq SE NPR Requirement Rationale Req. Comply? Justification\nID Section Statement Owner\n\nSE-05 2.1.5.2 For those For programs and projects, the CD Fully\n requirements Compliance Matrix in Appendix Compliant\n owned by Center H.2 is filled out showing that the\n Directors, the program/project is compliant with\n technical team the requirements of this NPR (or a\n shall complete the particular Center’s implementation\n Compliance Matrix of NPR 7123.1, whichever is\n in Appendix H.2 applicable) or any tailoring thereof\n and include it in the is identified and approved by the\n SEMP. Center Director or designee as part\n of the program/project SEMP.\n\nSE-06 2.1.6.1 The DGA shall The DGA, who is often the TA, CD Fully\n approve the provides an approval of the SEMPs, Complaint\n SEMP, waiver waivers to technical requirements\n authorizations, and and other key technical document\n other key technical to provide assurance of the\n documents to applicability and technical quality of\n ensure independent the products.\n assessment of\n technical content.\n\nSE-24 4.2.1 The NASA technical It is important for both the CD Not Project is\n team shall define government and contractor Applicable conducted\n the engineering technical teams to understand entirely\n activities for the what activities will be handled by in-house and\n periods before which organization throughout the therefore\n contract award, product life cycle. The contractor(s) there are no\n during contract will typically develop a SEMP or its contracts\n performance, and equivalent to describe the technical involved\n upon contract activities in their portion of the\n completion in the project, but an overarching SEMP\n SEMP. is needed that will describe all\n technical activities across the life\n cycle whether contracted or not.\n\n\n\n\n\n\n\n\n\n\n 41",
+          "score": 9.916985713680518,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0070",
+          "page": 70,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n RATIONALE\n\n\n The rationale should be kept up to date and include the following information:\n\n\n • Reason for the Requirement: Often the reason for the requirement is not obvious, and it may be lost if\n not recorded as the requirement is being documented. The reason may point to a constraint or concept\n of operations. If there is a clear parent requirement or trade study that explains the reason, then it should\n be referenced.\n • Document Assumptions: If a requirement was written assuming the completion of a technology\n development program or a successful technology mission, the assumption should be documented.\n • Document Relationships: The relationships with the product’s expected operations (e.g., expectations\n about how stakeholders will use a product) should be documented. This may be done with a link to the\n ConOps.\n • Document Design Constraints: Constraints imposed by the results from decisions made as the design\n evolves should be documented. If the requirement states a method of implementation, the rationale\n should state why the decision was made to limit the solution to this one method of implementation.\n\n\n\nexpectations, the mission objectives and constraints, 3. Do the Requirements Satisfy Stakeholders?\nthe concept of operations, and the mission success All relevant stakeholder groups identify and\ncriteria. Validating requirements can be broken into remove defects.\nsix steps:\n 4. Are the Requirements Feasible? All require-\n1. Are the Requirements Written Correctly? ments should make technical sense and be possi-\n Identify and correct requirements “shall” state- ble to achieve.\n ment format errors and editorial errors.\n 5. Are the Requirements Verifiable? All require-\n2. Are the Requirements Technically Correct? A ments should be stated in a fashion and with\n few trained reviewers from the technical team enough information that it will be possible to\n identify and remove as many technical errors as verify the requirement after the end product is\n possible before having all the relevant stakehold- implemented.\n ers review the requirements. The reviewers should\n check that the requirement statements (a) have 6. Are the Requirements Redundant or Over-\n bidirectional traceability to the baselined stake- specified? All requirements should be unique\n holder expectations; (b) were formed using valid (not redundant to other requirements) and nec-\n assumptions; and (c) are essential to and consis- essary to meet the required functions, perfor-\n tent with designing and realizing the appropriate mance, or behaviors.\n product solution form that will satisfy the appli-\n cable product life cycle phase success criteria.\n\n\n\n 60",
+          "score": 9.573492890076153,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 207,
+          "path": "data/local/advanced/pages/p0207_2000.png",
+          "sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35",
+          "source_id": "NASA-SE:p0207",
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Theo Phụ lục C.1, \"shall\" nghĩa là yêu cầu (requirement), \"will\" là sự thật hoặc tuyên bố về mục đích (facts or declaration of purpose), và \"should\" là mục tiêu (goal).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0207",
+                "locator": "C.1 Use of Correct Terms",
+                "evidence": "Shall = requirement; Will = facts or declaration of purpose; Should = goal"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    207
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Theo Phụ lục C.1, \"shall\" nghĩa là yêu cầu (requirement), \"will\" là sự thật hoặc tuyên bố về mục đích (facts or declaration of purpose), và \"should\" là mục tiêu (goal).",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.1 Use of Correct Terms",
+            "evidence": "Shall = requirement; Will = facts or declaration of purpose; Should = goal"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Theo Phụ lục C.1, \"shall\" nghĩa là yêu cầu (requirement), \"will\" là sự thật hoặc tuyên bố về mục đích (facts or declaration of purpose), và \"should\" là mục tiêu (goal).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "locator": "C.1 Use of Correct Terms",
+          "evidence": "Shall = requirement; Will = facts or declaration of purpose; Should = goal"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 9208.33
+}

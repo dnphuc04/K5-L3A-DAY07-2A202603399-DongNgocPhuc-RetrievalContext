@@ -1,0 +1,9 @@
+{
+  "name": "extractive",
+  "model": "gpt-4.1-2025-04-14",
+  "top_k": 7,
+  "max_tools": 8,
+  "max_completion_tokens": 3500,
+  "image_size": 2000,
+  "verify": true
+}

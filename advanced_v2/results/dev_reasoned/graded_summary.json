@@ -1,0 +1,55 @@
+{
+  "run": "dev_reasoned",
+  "split": "dev",
+  "n": 29,
+  "N": 30,
+  "rate": 0.9666666666666667,
+  "groups": {
+    "table": {
+      "n": 6,
+      "N": 6
+    },
+    "diagram": {
+      "n": 4,
+      "N": 5
+    },
+    "chart": {
+      "n": 5,
+      "N": 5
+    },
+    "multi_hop": {
+      "n": 4,
+      "N": 4
+    },
+    "text": {
+      "n": 4,
+      "N": 4
+    },
+    "unanswerable": {
+      "n": 6,
+      "N": 6
+    }
+  },
+  "errors": 0,
+  "model_calls": 164,
+  "latency_ms_sum": 661894.67,
+  "meets_90_percent": true,
+  "reviews_sha256": "f6971a58426ada311898318a8bbd4928d4ca1721feece68c134c55b9261ca23a",
+  "method": "Direct per-answer/per-citation comparison with original source pixels and text. Strict claim completeness; all system errors fail. Semantic refusals assessed by content, not status label alone. No independent external grading claimed.",
+  "operational_summary": {
+    "N": 30,
+    "finished_at": "2026-11-14T09:54:26.023185+00:00",
+    "wall_seconds": 337.138199,
+    "latency_ms_sum": 661894.67,
+    "statuses": {
+      "answered": 24,
+      "abstain": 6,
+      "error": 0
+    },
+    "usage": {
+      "prompt_tokens": 1791646,
+      "completion_tokens": 30668,
+      "total_tokens": 1822314
+    }
+  }
+}

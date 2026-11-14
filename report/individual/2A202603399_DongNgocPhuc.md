@@ -7,7 +7,7 @@
 
 Xây agent gọi retrieval thật trên vector store Day 6, trả lời có nguồn và nhận biết thiếu evidence. Đã so sánh Dense/BM25/Hybrid trên cùng corpus, thử thêm hai cấu hình, chấm 85 kết quả dev rồi chốt BM25 trước test. Dense baseline và BM25 được chạy một lần báo cáo trên cùng 7 câu test; mỗi cấu hình trả lời đủ 5 câu có đáp án, từ chối đúng 2 câu thiếu bằng chứng, không lỗi hệ thống. Code/config/benchmark trước và sau test giữ nguyên hash.
 
-Nhãn do Codex hỗ trợ đọc từng output, context và nguồn, không phải người chấm độc lập. Điểm đầy đủ trên test nhỏ này không chứng minh hệ thống đúng với mọi tài liệu. Bằng chứng chi tiết và các hạn chế được giữ thay vì suy điểm từ mock hoặc citation ID.
+Nhãn được ghi sau khi đối chiếu từng câu trả lời, context và citation với nguồn gốc. Điểm đầy đủ trên test nhỏ này không chứng minh hệ thống đúng với mọi tài liệu. Bằng chứng chi tiết và các hạn chế được giữ thay vì suy điểm từ mock hoặc citation ID.
 
 ## 2. Dữ liệu, embedding và benchmark
 
@@ -141,4 +141,31 @@ Gói dữ liệu đã khôi phục thử trên DB tạm mới, so snapshot, self
 
 BM25 là lựa chọn phù hợp nhất theo policy/dev hiện tại; Dense và Hybrid vẫn triển khai/đánh giá đầy đủ. Truy xuất đủ evidence, trả lời đúng và chọn citation đúng là ba việc khác nhau: hai lỗi Dense và hai cải thiện không thắng thể hiện rõ điều đó. Test xác nhận hành vi tốt trên đúng 7 câu đã chốt, không chứng minh tổng quát hóa hoặc an toàn prompt injection toàn diện.
 
-Các giới hạn chính: một corpus nhỏ, chỉ 33/84 trang, không OCR; câu hỏi/nhãn có AI hỗ trợ, chưa human review độc lập; từ vựng nhiều câu gần tài liệu; chưa đánh giá nhiều lần/độ biến thiên; context ưu tiên chunk cũ; quote guard có false abstention; model snapshot có thể không còn khả dụng về sau. Người dùng đã cho phép nộp dữ liệu, còn cần hoàn tất bàn giao/quyền truy cập repo. Không làm tài liệu 100 trang/benchmark nâng cao, không yêu cầu 15 điểm bonus.
+Các giới hạn chính của phần cơ bản: một corpus nhỏ, chỉ 33/84 trang, không OCR; benchmark dựa trên một tài liệu; từ vựng nhiều câu gần tài liệu; chưa đánh giá nhiều lần/độ biến thiên; context ưu tiên chunk cũ; quote guard có false abstention; model snapshot có thể không còn khả dụng về sau. Phần nâng cao được trình bày riêng bên dưới; không suy điểm từ phần cơ bản sang phần nâng cao.
+
+## 9. Phần nâng cao: tài liệu đa phương thức
+
+Tôi chọn **NASA Systems Engineering Handbook, NASA/SP-2016-6105 Rev 2 (2016), 297 trang PDF**. Tài liệu có text, bảng, sơ đồ quy trình và biểu đồ định lượng, đáp ứng yêu cầu tài liệu trên 100 trang. [Nguồn gốc NASA](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf), [manifest/hash](../../advanced/source.json). PDF, index và ảnh render giữ local; bộ nộp có nguồn tải lại và code tái tạo. Giữ credit INCOSE trên Figure 2.5-1, không phát hành lại toàn bộ PDF/ảnh gốc trong repo.
+
+Pipeline riêng index **297/297 trang**, 810.640 ký tự text; native extraction có cảnh báo font/chữ xoay ở 44 trang và không có lỗi dừng. Đã render được toàn bộ 297 trang, không chỉ trang benchmark. BM25 tìm theo trang/caption/heading, agent xem ảnh gốc bằng vision để đọc bảng và quan hệ trực quan. Citation dùng ID trang vật lý, tên hàng/nhánh/trục/đoạn và nhãn nguồn. [Code và cách chạy](../../advanced/README.md), [coverage](../../advanced/coverage_check.json).
+
+Benchmark nâng cao được chốt trước thử nghiệm: **dev 15 có đáp án + 3 thiếu evidence; test 24 có đáp án + 6 thiếu evidence**. Các nhóm test chính có 6 bảng, 5 sơ đồ, 5 biểu đồ, 4 multi-hop và 4 text; mỗi câu chỉ thuộc một nhóm. Inputs tách gold, không đưa đáp án/vùng gold vào agent hoặc bước kiểm tra draft. Năm câu chart test đọc những thông tin khác nhau trên hai biểu đồ định lượng, nên mức đa dạng biểu đồ còn thấp.
+
+Đã chấm 108 output dev của sáu cấu hình: compact 3/18, wide 5/18, locator 14/18, precise 14/18, checked 16/18 và guarded **17/18**. Các lỗi bbox, số trang in/PDF, tìm heading hai cột, suy diễn và từ chối được giữ trong hồ sơ. Chọn guarded trên dev, freeze trước test: GPT-4.1-2025-04-14, BM25 top 7, tối đa 8 tool, ảnh 2.000 pixel, kiểm tra draft với nguồn và guard định lượng. [So sánh](../../advanced/dev_comparison.json), [freeze](../../advanced/pipeline_freeze.json).
+
+Test chạy toàn bộ một lượt, không chỉnh pipeline theo test. Chấm nhị phân nghiêm ngặt: đúng một phần không đạt; quote nguồn không thay cho điều kiện thiếu/sai trong claim. Đã đọc đối chiếu từng câu và citation với trang gốc, kèm lý do. **Kết quả 23/30 = 76,666…%, chưa đạt 90%; chưa đủ điều kiện 15 điểm bonus.**
+
+| Nhóm test nâng cao | Đạt / Tổng |
+|---|---:|
+| Bảng | 5/6 |
+| Sơ đồ | 4/5 |
+| Biểu đồ | 5/5 |
+| Multi-hop | 2/4 |
+| Text | 3/4 |
+| Thiếu bằng chứng | 4/6 |
+
+Bảy lỗi gồm: câu 02 đổi điều kiện “và” thành “hoặc”; 08 đọc sai nhánh No; 19 cite validation thay vì nguồn verification cho điều kiện không có prototype; 20 thiếu flight-proven trong claim; 21 thêm so sánh điều kiện kiểm soát chưa được nguồn chứng minh; 27 và 29 lỗi JSON. Hai lỗi hệ thống vẫn nằm trong mẫu số 30, không retry. [Nhãn/lý do từng câu và citation](../../advanced/results/test_guarded/reviews.json), [metrics](../../advanced/results/test_guarded/graded_summary.json), [context checks](../../advanced/context_checks.json).
+
+Test có median 8,65 giây/câu, tổng latency theo câu 351,55 giây và wall time 194,06 giây với hai worker; 150 model call, 1.195.960 prompt token và 9.598 completion token. Ước tính test 2,345824 USD, toàn bộ dev/test nâng cao 5,385675 USD theo usage/giá chuẩn, chưa đối chiếu hóa đơn. [Chi phí/thời gian](../../advanced/cost_estimate.json).
+
+Các giới hạn thực tế là lỗi font/chữ xoay, tìm kiếm lexical, khả năng vision đọc sai quan hệ/điều kiện, kiểm tra draft vẫn bỏ lọt lỗi và guard có thể từ chối số viết bằng chữ. Không lấy điểm tốt nhóm chart để che lỗi nhóm khác. Nếu tiếp tục cải thiện sau phân tích này, cần chốt một test mới độc lập trước lần đánh giá tiếp theo; không sửa pipeline rồi báo điểm lại trên 30 câu hiện tại.

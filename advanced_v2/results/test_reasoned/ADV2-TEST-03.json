@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-03",
+  "split": "test",
+  "question": "In Table 6.1-1, which two Instrument Subteam subsystem entries appear after Mechanism Drive Electronics and before Control Subsystem?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nTLmCufmL6fTpMQ6HcoQcoKJhP",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 651,
+        "completion_tokens": 51,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 12,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1572.64,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_kLy4otnxhVJe8yLcONmJlY1C",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 6.1-1 Instrument Subteam subsystem Mechanism Drive Electronics Control Subsystem\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nVzXzIOBIIAEZMEGMXM9B7fRal",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5591,
+        "completion_tokens": 83,
+        "total_tokens": 5674,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 54,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2161.72,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_QRdl1sNjoCyRlW3ePjc0Ejpb",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0128\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nYYa8YsT6xsTOziLEdkphniSUZ",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9676,
+        "completion_tokens": 209,
+        "total_tokens": 9885,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 49,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3790.61,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_7oyAITnobR1NqaHwLLYBQWGq",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 6.1-1 (Instrument Subteam), the two subsystem entries listed after “Mechanism Drive Electronics Subsystem” and before “Control Subsystem” are: “Detector Subsystem” and “Optics Subsystem.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0128\",\"locator\":\"Table 6.1-1, Instrument Subteam list (rows: “Mechanism Drive Electronics Subsystem” → “Detector Subsystem” → “Optics Subsystem” → “Control Subsystem”)\",\"evidence\":\"Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nc424OJG8sBcaf7DbrPZyWS6rp",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4536,
+        "completion_tokens": 192,
+        "total_tokens": 4728,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 51,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3808.4,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_kaRtlDU2AFQUYFTnvclRRx2i",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 6.1-1 under “Instrument Subteam,” the two subsystem entries listed after “Mechanism Drive Electronics Subsystem” and before “Control Subsystem” are “Detector Subsystem” and “Optics Subsystem.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0128\",\"locator\":\"Table 6.1-1, Instrument Subteam section (lines following “Mechanism Drive Electronics Subsystem”)\",\"evidence\":\"Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 6.1-1, which two Instrument Subteam subsystem entries appear after Mechanism Drive Electronics and before Control Subsystem?",
+      "results": [
+        {
+          "id": "NASA-SE:p0128",
+          "page": 128,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-1 Example Engineering Team Disciplines in Pre-Phase A for Robotic Infrared Observatory\nSystems Engineering\nMission Systems Engineer\nInstrument Systems Engineer\nSpacecraft Bus, Flight Dynamics, Launch Vehicle Interface, Ground System Interface Subteam\nFlight Dynamics Analysis\nMission Operations (includes ConOps, & interfaces with ground station, mission ops center, science ops center)\nBus Mechanical Subsystem (includes mechanisms)\nBus Power Subsystem (includes electrical harness)\nBus Thermal Subsystem\nBus Propulsion Subsystem\nBus Attitude Control and Determination Subsystem\nBus Avionics Subsystem\nBus Communications Subsystem\nBus Flight Software Subsystem\nIntegration and Test (bus, observatory)\nLaunch Vehicle Integration\nRadiation Analysis\nOrbital Debris/End of Mission Planning Analysis\nSystem Reliability/Fault Tolerance Analysis (includes analysis of instrument)\nInstrument Subteam\nMechanical Subsystem\nMechanisms Subsystem\nThermal Subsystem\nCryogenics Subsystem\nAvionics Subsystem (incl. Electrical Harness)\nMechanism Drive Electronics Subsystem\nDetector Subsystem\nOptics Subsystem\nControl Subsystem\nMetrology Subsystem\nFlight Software Subsystem\nIntegration and Test\nStray Light/Radiometry Analysis\nOther Specialty Disciplines (e.g., Contamination Analysis) as needed\n\n\n\n\n\n\n\n\n\n\n 118",
+          "score": 44.96950052299791,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0125",
+          "page": 125,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n From project To project\n Project T ort Prepare to conduct technical Cost Estimates,\n Requirements and P roject planning Schedules, and Resource\n Resource Constraints Requests\n\n Agreements, Capability k To Technical\n Needs, Applicable Product- AssessmentProcess\n Line Life-Cycle Phase Product and Process\n Schedule, organize, and cost Measures\n Applicable Policies, the technicalwork\n Procedures, Standards, To applicable technical\n and Organizational Prepare SEMP and other processes\n Processes technical plans\n SEMP and Other\n From Technical Data Technical Plans\n ManagementProcess Obtain stakeholder commitments\n Prior Phase or to technical plans\n Baseline Plans To applicable technical teams\n\n Issue authorized technical Technical Work Directives\n From Technical Assessment work direc tives\n and TechnicalRisk To Technical Data\n Management Processes ManagementProcess\n\n Replanning Needs Capture work products from\n technical planning activities Technical Planning\n Work Products\n\n\n\n FIGURE 6.1-1 Technical Planning Process\n\n\nof the technical effort will be based on known tech- needs. Although the budget and schedule allo-\nnical and programmatic requirements, constraints, cated to the program/project serve as constraints,\npolicies, and processes. Throughout the project’s the technical team generates a technical cost\nlife cycle, the technical team continually incorpo- estimate and schedule based on the actual work\nrates results into the technical planning strategy required to satisfy the technical requirements.\nand documentation and any internal changes based Discrepancies between the allocated budget and\non decisions and assessments generated by the other schedule and the technical team’s actual cost esti-\nprocesses of the SE engine or from requirements and mate and schedule should be reconciled continu-\nconstraints mandated by the project. ously throughout the life cycle.\n\n• Project Technical Effort Requirements and • Agreements, Capability Needs, Applicable\n Project Resource Constraints: The program/ Product Life Cycle Phase: The program/project\n project plan provides the project’s top-level tech- plan also defines the applicable life cycle phases\n nical requirements, the available budget allocated and milestones, as well as any internal and exter-\n to the program/project from the program, and nal agreements or capability needs required for\n the desired schedule to support overall program successful execution. The life cycle phases and\n\n\n\n 115",
+          "score": 1.851012641859807,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0127",
+          "page": 127,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nThis section describes how to perform the activities in leading design teams for a particular mission or\ncontained in the Technical Planning Process shown technical application. Some of the subjective consid-\nin FIGURE 6.1-1. The initial technical planning at the erations involved include the product and its require-\nbeginning of the project establishes the technical ments, the mission class, and the project phase.\nteam members; their roles and responsibilities; and\nthe tools, processes, and resources that will be uti- Continuing with a spacecraft example, most teams\nlized in executing the technical effort. In addition, typically share a common core of required skills, such\nthe expected activities that the technical team will as subsystem engineering for mechanical, thermal,\nperform and the products it will produce are iden- power, etc. However, the particular requirements of\ntified, defined, and scheduled. Technical planning a spacecraft and mission can cause the skill mix to\ncontinues to evolve as actual data from completed vary. For example, as opposed to robotic space mis-\ntasks are received and details of near-term and future sions, human-rated systems typically add the need\nactivities are known. for human systems discipline engineering and envi-\n ronmental control and life support subsystem engi-\n6.1.1.2.1 Technical Planning Preparation neering. As opposed to near Earth space missions,\nFor technical planning to be conducted properly, the deep space missions may add the need for safety and\nprocesses and procedures that are needed to conduct planetary protection discipline engineering specific\ntechnical planning should be identified, defined, to contamination of the Earth or remote solar system\nand communicated. As participants are identified, bodies. And, as opposed to teams designing space-\ntheir roles and responsibilities and any training and/ craft instruments that operate at moderate tempera-\nor certification activities should be clearly defined tures, teams designing spacecraft instruments that\nand communicated. operate at cryogenic temperatures will need cryogen-\n ics subsystem support.\nTeam Selection\nTeams engaged in the early part of the technical Mission class and project phase may also influence the\nplanning process need to identify the required skill required team skill mix. For example, with respect to\nmix for technical teams that will develop and pro- mission class, certain discipline analyses needed for\nduce a product. Typically, a technical team consists Class A and B missions may not be required for Class\nof a mix of both subsystem and discipline engineers. D (or lower) missions. And with respect to project\nConsidering a spacecraft example, subsystem engi- phase, some design and analyses may be performed by\nneers normally have cognizance over development of a single general discipline in Pre-Phase A and Phase\na particular subsystem (e.g., mechanical, power, etc.), A, whereas the need to conduct design and analyses\nwhereas discipline engineers normally provide spe- in more detail in Phases B and C may indicate the\ncific analyses (e.g., flight dynamics, radiation, etc.). need for multiple specialized subsystem design and\nThe availability of appropriately skilled personnel discipline engineering skills.\nalso needs to be considered.\n An example skill mix for a Pre-Phase A technical\nTo an extent, determining the skill mix required team tasked to design a cryogenic interferometer\nfor developing any particular product is a subjec- space observatory is shown in TABLE 6.1-1 for pur-\ntive process. Due to this, the skill mix is normally poses of illustration. For simplicity, analysis and\ndetermined in consultation with people experienced technology development is assumed to be included\n\n\n\n 117",
+          "score": 8.76433272594459,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 7.280454230403239,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 5.785974986636217,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0124",
+          "page": 124,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n CROSSCUTTING TECHNICAL MANAGEMENT KEYS\n\n\n • Thoroughly understand and plan the scope of the technical effort by investing time upfront to develop the\n technical product breakdown structure, the technical schedule and workflow diagrams, and the technical\n resource requirements and constraints (funding, budget, facilities, and long-lead items) that will be the\n technical planning infrastructure. The systems engineer also needs to be familiar with the non-technical\n aspects of the project.\n • Define all interfaces and assign interface authorities and responsibilities to each, both intra-and inter-\n organizational. This includes understanding potential incompatibilities and defining the transition\n processes.\n • Control of the configuration is critical to understanding how changes will impact the system. For example,\n changes in design and environment could invalidate previous analysis results.\n • Conduct milestone reviews to enable a critical and valuable assessment to be performed. These reviews\n are not to be solely used to meet contractual or scheduling incentives. These reviews have specific\n entrance criteria and should be conducted when these are met.\n • Understand any biases, assumptions, and constraints that impact the analysis results.\n • Place all analysis under configuration control to be able to track the impact of changes and understand\n when the analysis needs to be reevaluated.\n\n\n\nthis early planning, technical team members will schedule. At a minimum, these updates will occur at\nunderstand the roles and responsibilities of each every Key Decision Point (KDP). However, if there\nteam member, and can establish cost and schedule is a significant change in the project, such as new\ngoals and objectives. From this effort, the Systems stakeholder expectations, resource adjustments, or\nEngineering Management Plan (SEMP) and other other constraints, all plans should be analyzed for the\ntechnical plans are developed and baselined. Once impact of these changes on the baselined project.\nthe SEMP and technical plans have been established,\nthey should be synchronized with the project master 6.1.1 Process Description\nplans and schedule. In addition, the plans for estab- FIGURE 6.1-1 provides a typical flow diagram for the\nlishing and executing all technical contracting efforts Technical Planning Process and identifies typical\nare identified. inputs, outputs, and activities to consider in address-\n ing technical planning.\nThis is a recursive and iterative process. Early in the\nlife cycle, the technical plans are established and syn- 6.1.1.1 Inputs\nchronized to run the design and realization processes. Input to the Technical Planning Process comes from\nAs the system matures and progresses through the both the project management and technical teams as\nlife cycle, these plans should be updated as neces- outputs from the other common technical processes.\nsary to reflect the current environment and resources Initial planning utilizing external inputs from the\nand to control the project’s performance, cost, and project to determine the general scope and framework\n\n\n\n 114",
+          "score": 4.403938928880903,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0217",
+          "page": 217,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n TABLE G.1-1 Products Provided by the TA as a Function of Program/Project Phase\n Gate Product\n KDP A: Transition from Requires an assessment of potential technology needs versus current and planned\n Pre-Phase A to Phase A technology readiness levels, as well as potential opportunities to use commercial,\n academic, and other government agency sources of technology. Included as part of\n the draft integrated baseline. Technology Development Plan is baselined that identifies\n technologies to be developed, heritage systems to be modified, alternative paths to be\n pursued, fallback positions and corresponding performance descopes, milestones, metrics,\n and key decision points. Initial Technology Readiness Assessment (TRA) is available.\n\n KDP B: Transition from Technology Development Plan and Technology Readiness Assessment (TRA) are updated.\n Phase A to Phase B Incorporated in the preliminary project plan.\n\n KDP C: Transition from Requires a TRAR demonstrating that all systems, subsystems, and components have\n Phase B to Phase C/D achieved a level of technological maturity with demonstrated evidence of qualification in a\n relevant environment.\n\nSource: NPR 7120 .5 .\n\n\nA number of processes can be used to develop the systems, subsystems, and components demonstrated\nappropriate level of understanding required for through test and analysis. The initial AD2 provides the\nsuccessful technology insertion. The intent of this material necessary to develop preliminary cost and to\nappendix is to describe a systematic process that schedule plans and preliminary risk assessments. In\ncan be used as an example of how to apply standard subsequent assessments, the information is used to\nsystems engineering practices to perform a compre- build the Technology Development Plan and in the\nhensive Technology Assessment (TA). The TA com- process, identify alternative paths, fallback positions,\nprises two parts, a Technology Maturity Assessment and performance descope options. The information\n(TMA) and an Advancement Degree of Difficulty is also vital to preparing milestones and metrics for\nAssessment (AD2). The process begins with the TMA subsequent Earned Value Management (EVM).\nwhich is used to determine technological maturity\nvia NASA’s Technology Readiness Level (TRL) scale. The TMA is performed against the hierarchical\nIt then proceeds to develop an understanding of what breakdown of the hardware and software products\nis required to advance the level of maturity through of the program/project PBS to achieve a systematic,\nthe AD2. It is necessary to conduct TAs at various overall understanding at the system, subsystem, and\nstages throughout a program/project to provide the component levels. (See FIGURE G.1-1.)\nKey Decision Point (KDP) products required for\ntransition between phases. (See TABLE G.1-1.)\n G.2 Inputs/Entry Criteria\nThe initial TMA provides the baseline maturity of It is extremely important that a TA process be defined\nthe system’s required technologies at program/project at the beginning of the program/project and that it\noutset and allows monitoring progress throughout be performed at the earliest possible stage (concept\ndevelopment. The final TMA is performed just prior development) and throughout the program/proj-\nto the Preliminary Design Review (PDR). It forms ect through PDR. Inputs to the process will vary in\nthe basis for the Technology Readiness Assessment level of detail according to the phase of the program/\nReport (TRAR), which documents the maturity project, and even though there is a lack of detail in\nof the technological advancement required by the Pre-Phase A, the TA will drive out the major critical\n\n\n\n 207",
+          "score": 11.076207689375059,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0128",
+          "page": 128,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-1 Example Engineering Team Disciplines in Pre-Phase A for Robotic Infrared Observatory\nSystems Engineering\nMission Systems Engineer\nInstrument Systems Engineer\nSpacecraft Bus, Flight Dynamics, Launch Vehicle Interface, Ground System Interface Subteam\nFlight Dynamics Analysis\nMission Operations (includes ConOps, & interfaces with ground station, mission ops center, science ops center)\nBus Mechanical Subsystem (includes mechanisms)\nBus Power Subsystem (includes electrical harness)\nBus Thermal Subsystem\nBus Propulsion Subsystem\nBus Attitude Control and Determination Subsystem\nBus Avionics Subsystem\nBus Communications Subsystem\nBus Flight Software Subsystem\nIntegration and Test (bus, observatory)\nLaunch Vehicle Integration\nRadiation Analysis\nOrbital Debris/End of Mission Planning Analysis\nSystem Reliability/Fault Tolerance Analysis (includes analysis of instrument)\nInstrument Subteam\nMechanical Subsystem\nMechanisms Subsystem\nThermal Subsystem\nCryogenics Subsystem\nAvionics Subsystem (incl. Electrical Harness)\nMechanism Drive Electronics Subsystem\nDetector Subsystem\nOptics Subsystem\nControl Subsystem\nMetrology Subsystem\nFlight Software Subsystem\nIntegration and Test\nStray Light/Radiometry Analysis\nOther Specialty Disciplines (e.g., Contamination Analysis) as needed\n\n\n\n\n\n\n\n\n\n\n 118",
+          "image_path": "data/local/advanced/pages/p0128_2000.png",
+          "image_sha256": "81b1eef3f7a5017c4031c234bced28aaf343b2a2d564bf0c5863b23dd1568ccb"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0128",
+          "page": 128,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-1 Example Engineering Team Disciplines in Pre-Phase A for Robotic Infrared Observatory\nSystems Engineering\nMission Systems Engineer\nInstrument Systems Engineer\nSpacecraft Bus, Flight Dynamics, Launch Vehicle Interface, Ground System Interface Subteam\nFlight Dynamics Analysis\nMission Operations (includes ConOps, & interfaces with ground station, mission ops center, science ops center)\nBus Mechanical Subsystem (includes mechanisms)\nBus Power Subsystem (includes electrical harness)\nBus Thermal Subsystem\nBus Propulsion Subsystem\nBus Attitude Control and Determination Subsystem\nBus Avionics Subsystem\nBus Communications Subsystem\nBus Flight Software Subsystem\nIntegration and Test (bus, observatory)\nLaunch Vehicle Integration\nRadiation Analysis\nOrbital Debris/End of Mission Planning Analysis\nSystem Reliability/Fault Tolerance Analysis (includes analysis of instrument)\nInstrument Subteam\nMechanical Subsystem\nMechanisms Subsystem\nThermal Subsystem\nCryogenics Subsystem\nAvionics Subsystem (incl. Electrical Harness)\nMechanism Drive Electronics Subsystem\nDetector Subsystem\nOptics Subsystem\nControl Subsystem\nMetrology Subsystem\nFlight Software Subsystem\nIntegration and Test\nStray Light/Radiometry Analysis\nOther Specialty Disciplines (e.g., Contamination Analysis) as needed\n\n\n\n\n\n\n\n\n\n\n 118",
+          "image_sha256": "81b1eef3f7a5017c4031c234bced28aaf343b2a2d564bf0c5863b23dd1568ccb"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Table 6.1-1 under “Instrument Subteam,” the two subsystem entries listed after “Mechanism Drive Electronics Subsystem” and before “Control Subsystem” are “Detector Subsystem” and “Optics Subsystem.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0128",
+                "locator": "Table 6.1-1, Instrument Subteam section (lines following “Mechanism Drive Electronics Subsystem”)",
+                "evidence": "Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    128
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Table 6.1-1 (Instrument Subteam), the two subsystem entries listed after “Mechanism Drive Electronics Subsystem” and before “Control Subsystem” are: “Detector Subsystem” and “Optics Subsystem.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0128",
+            "locator": "Table 6.1-1, Instrument Subteam list (rows: “Mechanism Drive Electronics Subsystem” → “Detector Subsystem” → “Optics Subsystem” → “Control Subsystem”)",
+            "evidence": "Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Table 6.1-1 under “Instrument Subteam,” the two subsystem entries listed after “Mechanism Drive Electronics Subsystem” and before “Control Subsystem” are “Detector Subsystem” and “Optics Subsystem.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0128",
+          "locator": "Table 6.1-1, Instrument Subteam section (lines following “Mechanism Drive Electronics Subsystem”)",
+          "evidence": "Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 11961.44
+}

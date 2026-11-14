@@ -1,0 +1,16 @@
+{
+  "checks_passed": true,
+  "errors": [],
+  "historical_test_unchanged": {
+    "n": 23,
+    "N": 30
+  },
+  "fresh_test": {
+    "n": 29,
+    "N": 30,
+    "system_errors": 0
+  },
+  "at_least_90_percent": true,
+  "chronology": "fresh benchmark -> dev experiments/reviews -> selected pipeline freeze -> full fresh test",
+  "scope": "Integrity/evidence preflight, not an award of rubric points or independent external grading."
+}

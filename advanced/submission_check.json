@@ -1,0 +1,12 @@
+{
+  "technical_evidence_checks_passed": true,
+  "errors": [],
+  "test": {
+    "n": 23,
+    "N": 30,
+    "errors": 2
+  },
+  "numeric_bonus_threshold_met": false,
+  "bonus_status": "Not eligible: below 90%; no partial bonus claimed",
+  "scope": "Evidence completeness and integrity check; does not award rubric points or certify independent external review."
+}

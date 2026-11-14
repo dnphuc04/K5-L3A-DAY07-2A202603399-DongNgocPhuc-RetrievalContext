@@ -1,0 +1,220 @@
+{
+  "id": "ADV-DEV-05",
+  "split": "dev",
+  "question": "In Figure 4.1-1, which two activities start the central stakeholder-expectations process, in order?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek43XDALsMgB68s60wK10ncTxeFhM",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 473,
+        "completion_tokens": 18,
+        "total_tokens": 491,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1125.19,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_lTSrjXm6duy6BC9HVhhaTqom",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.1-1 stakeholder-expectations process start activities\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43ZJtuVEQwb30L0jTcsq53bOzhR",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 3556,
+        "completion_tokens": 14,
+        "total_tokens": 3570,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1126.95,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9V8VrHqTXJx1HR6R4cjr72nh",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[46]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43bsIWIz50tTcuXsCPYU1uj6KyN",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6580,
+        "completion_tokens": 14,
+        "total_tokens": 6594,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1583.57,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_G1XFfNcEbTLEVRy7OsxJqn5h",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[56]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43dbQlcb7m8Msyi4SrTUTeN6EW8",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9605,
+        "completion_tokens": 83,
+        "total_tokens": 9688,
+        "prompt_tokens_details": {
+          "cached_tokens": 5632,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2265.38,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The two activities that start the central stakeholder-expectations process, in order, are: 1) Establish list of stakeholders, and 2) Elicit stakeholder expectations.\",\"citations\":[{\"page\":56,\"bbox\":[110,120,480,320],\"locator\":\"Figure 4.1-1\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.1-1, which two activities start the central stakeholder-expectations process, in order?",
+      "results": [
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "printed_page": 46,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 12.228526832357078,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0055",
+          "page": 55,
+          "printed_page": 45,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nthe next level of decomposition, the baselined derived 4.1.1 Process Description\n(and allocated) requirements become the set of high- FIGURE 4.1-1 provides a typical flow diagram for the\nlevel requirements for the decomposed elements and Stakeholder Expectations Definition Process and\nthe process begins again. These system design pro- identifies typical inputs, outputs, and activities to\ncesses are primarily applied in Pre-Phase A and con- consider in defining stakeholder expectations.\ntinue through Phase C.\n 4.1.1.1 Inputs\nThe system design processes during Pre-Phase A Typical inputs needed for the Stakeholder Expectations\nfocus on producing a feasible design that will lead Definition Process include the following:\nto Formulation approval. During Phase A, alterna-\ntive designs and additional analytical maturity are • Initial Customer Expectations: These are the\npursued to optimize the design architecture. Phase needs, goals, objectives, desires, capabilities, and\nB results in a preliminary design that satisfies the other constraints that are received from the cus-\napproval criteria. During Phase C, detailed, build-to tomer for the product within the product layer.\ndesigns are completed. For the top-tier products (final end item), these are\n the expectations of the originating customer who\nThis is a simplified description intended to demon- requested the product. For an end product within\nstrate the recursive relationship among the system the product layer, these are the expectations of the\ndesign processes. These processes should be used as recipient of the end item when transitioned.\nguidance and tailored for each study team depending\non the size of the project and the hierarchical level • Other Stakeholder Expectations: These are the\nof the study team. The next sections describe each of expectations of key stakeholders other than the\nthe four system design processes and their associated customer. For example, such stakeholders may\nproducts for a given NASA mission. be the test team that will be receiving the transi-\n tioned product (end product and enabling prod-\n ucts) or the trainers that will be instructing the\n4.1 Stakeholder Expectations operators or managers that are accountable for the\n Definition product at this layer.\n\nThe Stakeholder Expectations Definition Process is • Customer Flow-down Requirements: These are\nthe initial process within the SE engine that estab- any requirements that are being flowed down or\nlishes the foundation from which the system is allocated from a higher level (i.e., parent require-\ndesigned and the product is realized. The main pur- ments). They are helpful in establishing the expec-\npose of this process is to identify who the stakehold- tations of the customer at this layer.\ners are and how they intend to use the product. This\nis usually accomplished through use-case scenarios 4.1.1.2 Process Activities\n(sometimes referred to as Design Reference Missions 4.1.1.2.1 Identify Stakeholders\n(DRMs)) and the ConOps. A “stakeholder” is a group or individual that is\n affected by or has a stake in the product or project.\n The key players for a project/product are called the\n key stakeholders. One key stakeholder is always the\n\n\n\n 45",
+          "score": 11.918983517166126,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "printed_page": null,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 10.474998248166045,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0057",
+          "page": 57,
+          "printed_page": 47,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "score": 9.776452498465698,
+          "reference_match": true
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 46,
+          "path": "data/local/advanced/pages/p0046_1400.png",
+          "sha256": "03afe4883d6601d560f37a8659ccbc6a5ceef7ba2ab51d685f4a16cf5d7b427d",
+          "printed_page": 36,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36"
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 56,
+          "path": "data/local/advanced/pages/p0056_1400.png",
+          "sha256": "22e72b0c9ea683bd0a567f8ba555668dc5ffcaa8b79df025a20da96ba8542df4",
+          "printed_page": 46,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    46,
+    56
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Invalid/unviewed citation"
+  },
+  "elapsed_ms": 7064.15
+}

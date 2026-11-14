@@ -1,0 +1,340 @@
+{
+  "id": "ADV-DEV-18",
+  "split": "dev",
+  "question": "What universal minimum number of stakeholders must each NASA project interview?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek44TdqU94UFXvq1z5V5UDPetMk0k",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 461,
+        "completion_tokens": 13,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1236.44,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_w6lpykTc739irhjvn3r4mmJo",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"minimum number of stakeholders each NASA project must interview\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek44UHDis81qqdWasB3xHYCEWIRCF",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 3315,
+        "completion_tokens": 21,
+        "total_tokens": 3336,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1311.15,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nxqVuCMWJDCOMmVDUNJdha17",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"minimum number of stakeholders each NASA project must interview\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek44WCyWDsuDbP7LYGsWe3qRSWGLs",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5978,
+        "completion_tokens": 17,
+        "total_tokens": 5995,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1226.74,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_eCe1X2oYnzIzCzRehGLlQnwH",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"stakeholders minimum number interview\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek44XoSc1UEbnST5AZvZpRpXhNlT3",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 8400,
+        "completion_tokens": 17,
+        "total_tokens": 8417,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1738.58,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MDvNrLOE7BPBV38dQSoA2lLp",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"stakeholders interview minimum number\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek44Znq4kFXKEjRxxHOqumT85Z2XM",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10830,
+        "completion_tokens": 10,
+        "total_tokens": 10840,
+        "prompt_tokens_details": {
+          "cached_tokens": 5760,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1431.22,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"abstain\",\"claims\":[]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What universal minimum number of stakeholders must each NASA project interview?",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "printed_page": 214,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 11.82493262041362,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0059",
+          "page": 59,
+          "printed_page": 49,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49",
+          "score": 10.46242250796592,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0033",
+          "page": 33,
+          "printed_page": 23,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nexpectations for the project are gathered from them. and desirability rather than optimality. Analyses and\nIf feasible concepts can be found, one or more may be designs are accordingly limited in both depth and\nselected to go into Phase A for further development. number of options, but each option should be eval-\nTypically, the system engineers are heavily involved uated for its implications through the full life cycle,\nin the development and assessment of the concept i.e., through Operations and Disposal. It is important\noptions. In projects governed by NPR 7120.5, the in Pre-Phase A to develop and mature a clear vision\ndescope options define what the system can accom- of what problems the proposed program will address,\nplish if the resources are not available to accomplish how it will address them, and how the solution will\nthe entire mission. This could be in the form of fewer be feasible and cost-effective.\ninstruments, a less ambitious mission profile, accom-\nplishing only a few goals, or using cheaper, less capa-\nble technology. Descope options can also reflect what 3.4 Project Phase A: Concept\nthe mission can accomplish in case a hardware fail- and Technology Development\nure results in the loss of a portion of the spacecraft\narchitecture; for example, what an orbiter can accom- The purpose of Phase A is to develop a proposed\nplish after the loss of a lander. The success criteria are mission/system architecture that is credible and\nreduced to correspond with a descoped mission. responsive to program expectations, requirements,\n and constraints on the project, including resources.\nDescope options are developed when the NGOs During Phase A, activities are performed to fully\nor other stakeholder expectation documentation is develop a baseline mission concept, begin or assume\ndeveloped. The project team develops a preliminary responsibility for the development of needed tech-\nset of mission descope options as a gate product for nologies, and clarify expected reliance on human\nthe MCR, but these preliminary descope options are elements to achieve full system functionality or\nnot baselined or maintained. They are kept in the autonomous system development. This work, along\ndocumentation archive in case they are needed later with interactions with stakeholders, helps mature the\nin the life cycle. mission concept and the program requirements on\n the project. Systems engineers are heavily involved\nIt is important in Pre-Phase A to define an accurate during this phase in the development and assessment\ngroup of stakeholders and users to help ensure that of the architecture and the allocation of requirements\nmission goals and operations concepts meet the needs to the architecture elements.\nand expectations of the end users. In addition, it is\nimportant to estimate the composition of the techni- In Phase A, a team—often associated with a program\ncal team and identify any unique facility or personnel or informal project office—readdresses the mission\nrequirements. concept first developed in Pre-Phase A to ensure that\n the project justification and practicality are sufficient\nAdvanced studies may extend for several years and to warrant a place in NASA’s budget. The team’s effort\nare typically focused on establishing mission goals focuses on analyzing mission requirements and estab-\nand formulating top-level system requirements and lishing a mission architecture. Activities become for-\nConOps. Conceptual designs may be developed to mal, and the emphasis shifts toward optimizing the\ndemonstrate feasibility and support programmatic concept design. The effort addresses more depth and\nestimates. The emphasis is on establishing feasibility considers many alternatives. Goals and objectives are\n\n\n\n 23",
+          "score": 9.018366897959838,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0058",
+          "page": 58,
+          "printed_page": 48,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission Mission Operational Success Design\n Goals Objectives Objectives Criteria Drivers\n\n\n\n\n\n\n\n • Agency Strategic • Science Objectives Operational Drivers Measurements Mission Drivers\n Plans • Exploration • Integration and • What • Launch Date\n • Announcements Objectives Test measurements? • Mission Duration\n of Opportunity • Technology • Launch • How well? • Orbit\n • Road Maps Demonstration • On-Orbit • Cost Constraints\n • Directed Missions Objectives • Transfer • Etc.\n • Technology • Surface\n Development • Science Data Explorations\n Objectives Distribution • What\n • Programmatic • Maintenance explorations?\n Objectives • Logistics • What goals?\n • Etc.\n\n\n FIGURE 4.1-2 Information Flow for Stakeholder Expectations\n\n\nobjectives form the basis for developing the mission, In identifying the full set of expectations, the systems\nso they need to be clearly defined and articulated. engineer will need to interact with various commu-\n nities, such as those working in the areas of orbital\nThe project team should also identify the constraints debris, space asset protection, human systems inte-\nthat may apply. A “constraint” is a condition that is to gration, quality assurance, and reliability. Ensuring\nbe met. Sometimes a constraint is dictated by external that a complete set of expectations is captured will\nfactors such as orbital mechanics, an existing system help prevent “surprise” features from arising later in\nthat must be utilized (external interface), a regu- the life cycle. For example, space asset protection may\nlatory restriction, or the state of technology; some- require additional encryption for the forward link\ntimes constraints are the result of the overall budget commands, additional shielding or filtering for RF\nenvironment. Concepts of operation and constraints systems, use of a different frequency, or other design\nalso need to be included in defining the stakeholder changes that might be costly to add to a system that\nexpectations. These identify how the system should has already been developed.\nbe operated to achieve the mission objectives.\n 4.1.1.2.3 Identify Needs, Goals, and Objectives\n In order to define the goals and objectives, it is nec-\n NOTE: It is extremely important to involve stake- essary to elicit the needs, wants, desires, capabilities,\n holders in all phases of a project. Such involvement external interfaces, assumptions, and constraints\n should be built in as a self-correcting feedback loop from the stakeholders. Arriving at an agreed-to set of\n that will significantly enhance the chances of mis- goals and objectives can be a long and arduous task.\n sion success. Involving stakeholders in a project Proactive iteration with the stakeholders throughout\n builds confidence in the end product and serves as a the systems engineering process is the way that all par-\n validation and acceptance with the target audience. ties can come to a true understanding of what should\n be done and what it takes to do the job. It is important\n\n\n\n 48",
+          "score": 8.969282473955797,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "minimum number of stakeholders each NASA project must interview",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "printed_page": 214,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 9.272992373334096,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0047",
+          "page": 47,
+          "printed_page": 37,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n3.11.4.2 Adjusting the Scope If a program/project decides it does not need one of\nDepending on the project or program, some relief on the required reviews, a waiver or deviation is needed.\nthe scope of a requirement may be appropriate. For However, the SE NPR does not specify a minimum\nexample, although the governing project management amount of spacing for these reviews. A small project\ndirective (e.g., NPR 7120.5, 7150.2, 7120.7, 7120.8) may decide to combine the SRR and the SDR (or\nfor a program/project may require certain documents Mission Definition Review (MDR)) for example. As\nto be standalone, the SE NPR does not require any long as the intent for both reviews is accomplished,\nadditional stand-alone documents. For small proj- the SE NPR does not require a waiver or deviation.\nects, many of the plans can be described in just a few (Note that even though the SE NPR does not require\nparagraphs or pages. In these types of projects, any it, a waiver or deviation may still be required in the\nNPR requirements stating that the plans need to be governing project management NPR.) This customi-\nstand-alone document would be too burdensome. In zation and/or tailoring should be documented in the\nthese cases, the information can simply be written Compliance Matrix and/or the review plan or SEMP.\nand included as part of the project plan or SEMP.\nIf the applicable project management directive (e.g., Unless otherwise required by the governing project\nNPR 7120.5 or NPR 7120.8) requires documents to management directives, the formality of the review\nbe stand-alone, a program/project waiver/deviation is can be customized as appropriate for the type of\nneeded. However, if there is no requirement or Center program/project. For large projects, it might be\nexpectation for a stand-alone document, a project can appropriate to conduct a very formal review with a\ncustomize where that information is recorded and no formal Review Item Discrepancy (RID)/Request\nwaiver or deviation is required. Capturing where this for Action (RFA) process, a summary, and detailed\ninformation is documented within the systems engi- presentations to a wide audience including boards and\nneering or project management Compliance Matrix pre-boards over several weeks. For small projects,\nwould be useful for clarity. that same review might be done in a few hours across\n a tabletop with a few stakeholders and with issues\n3.11.4.3 Formality and Timing of Reviews and actions simply documented in a word or\nThe governing project management directive iden- PowerPoint document.\ntifies the required or recommended life cycle for\nthe specific type of program/project. The life cycle The NASA Engineering Network Systems\ndefines the number and timing of the various Engineering Community of Practice, located at\nreviews; however, there is considerable discretion https://nen.nasa.gov/web/se includes document tem-\nconcerning the formality of the review and how plates for milestone review presentations required by\nto conduct it. NPR 7123.1, Appendix G, provides the NASA SE process.\nextensive guidance for suggested review entrance\nand success criteria. It is expected that the program/ 3.11.5 Examples of Tailoring and\nproject will customize these criteria in a manner Customization\nthat makes sense for their program/project. The SE TABLE 3.11-1 shows an example of the types of mis-\nNPR does not require a waiver/deviation for this sions that can be defined based on a system that\ncustomization; however, departures from review ele- breaks projects into various types ranging from a very\nments required by other NPRs need to be addressed complex type A to a much simpler type F. When tai-\nby tailoring those documents. loring a project, the assignment of specific projects to\n\n\n\n 37",
+          "score": 8.03688379197538,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0191",
+          "page": 191,
+          "printed_page": 181,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nenabling management to gain insight into project sta- Enhanced Functional Flow Block Diagram: A block\ntus and project completion costs and schedules. Two diagram that represents control flows and data flows\nessential characteristics of successful EVM are EVM as well as system functions and flow.\nsystem data integrity and carefully targeted monthly\nEVM data analyses (i.e., risky WBS elements). Entrance Criteria: Guidance for minimum accom-\n plishments each project needs to fulfill prior to a life\nEmergent Behavior: An unanticipated behavior cycle review.\nshown by a system due to interactions between large\nnumbers of simple components of that system. Environmental Impact: The direct, indirect, or\n cumulative beneficial or adverse effect of an action\nEnd Product: The hardware/software or other prod- on the environment.\nuct that performs the operational functions. This\nproduct is to be delivered to the next product layer or Environmental Management: The activity of ensur-\nto the final customer. ing that program and project actions and decisions\n that potentially impact or damage the environment\nEnabling Products: The life cycle support products are assessed and evaluated during the formulation\nand services (e.g., production, test, deployment, and planning phase and reevaluated throughout\ntraining, maintenance, and disposal) that facili- implementation. This activity is performed according\ntate the progression and use of the operational end to all NASA policy and Federal, state, and local envi-\nproduct through its life cycle. Since the end prod- ronmental laws and regulations.\nuct and its enabling products are interdependent,\nthey are viewed as a system. Project responsibility Establish (with respect to processes): The act of\nthus extends to acquiring services from the relevant developing policy, work instructions, or procedures\nenabling products in each life cycle phase. When a to implement process activities.\nsuitable enabling product does not already exist,\nthe project that is responsible for the end product Evaluation: The continual self- and independent\nmay also be responsible for creating and using the assessment of the performance of a program or proj-\nenabling product. ect and incorporation of the evaluation findings to\n ensure adequacy of planning and execution accord-\nEngineering Unit: A high fidelity unit that demon- ing to plan.\nstrates critical aspects of the engineering processes\ninvolved in the development of the operational unit. Extensibility: The ability of a decision to be extended\nEngineering test units are intended to closely resem- to other applications.\nble the final product (hardware/software) to the max-\nimum extent possible and are built and tested so as to Failure: The inability of a system, subsystem, com-\nestablish confidence that the design will function in ponent, or part to perform its required function\nthe expected environments. In some cases, the engi- within specified limits (Source: NPR 8715.3 and\nneering unit will become the final product, assuming Avizienis 2004).\nthat proper traceability has been exercised over the\ncomponents and hardware handling. Failure Tolerance: The ability to sustain a certain\n number of failures and still retain capability (Source:\n\n\n\n 181",
+          "score": 7.964117454612504,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0260",
+          "page": 260,
+          "printed_page": 250,
+          "text": " Appendix R: HSI Plan Content Outline\n\n\n\n\n\n\n TABLE R.2-1 HSI Activity, Product, or Risk Mitigation by Program/Project Phase\nLife-Cycle Phase Description Activity, Product, or Risk Mitigation\nPhase\nPre-Phase A Concept Studies ConOps (Preliminary—to include training, maintenance, logistics, etc.)\n\nPhase A Concept & Technology HSI Plan (baseline)\n Development ConOps (initial)\n\n HSI responsible party(ies) and/or team identified before SRR\n Develop mockup(s) for HSI evaluations\n Crew Workload Evaluation Plan\n Functional allocation, crew task lists\n Validation of ConOps (planning)\n\nPhase B Preliminary Design & HSI Plan (update)\n Technology Completion ConOps (baseline)\n\n Develop engineering-level mockup(s) for HSI evaluations\n Define crew environmental and crew health support needs (e.g., aircraft\n flight decks, human space flight missions)\n Assess operator interfaces through task analyses (for, e.g., aircraft\n cockpit operations, air traffic management, spacecraft environments,\n mission control for human space flight missions)\n Human-in-the-loop usability plan\n Human-rating report for PDR\nPhase C Final Design & Fabrication HSI Plan (update)\n First Article HSI Tests\n Human-rating report for CDR\n\nPhase D System Assembly, Integ. & Human-rating report for ORR\n Test, Launch & Checkout Validation of human-centered design activities\n\n Validation of ConOps\nPhase E Operations & Sustainment Monitoring of human-centered design performance\n\nPhase F Closeout Lessons learned report\n\n\n\n HSI PLAN UPDATES\n\n\n Key points to be addressed in each update\n • Identify the current program/project phase, the publication date of the last iteration of the HSI Plan, and\n the HSI Plan version number. Update the HSI Plan revision history.\n • Describe the HSI entrance criteria for the current phase and describe any unfinished work prior to the\n current phase.\n • Describe the HSI exit criteria for the current program/project phase and the work that must be\n accomplished to successfully complete the current program/project phase.\n\n\n\n\n 250",
+          "score": 7.906188880287116,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "stakeholders minimum number interview",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "printed_page": 214,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 6.137455855397179,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0047",
+          "page": 47,
+          "printed_page": 37,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n3.11.4.2 Adjusting the Scope If a program/project decides it does not need one of\nDepending on the project or program, some relief on the required reviews, a waiver or deviation is needed.\nthe scope of a requirement may be appropriate. For However, the SE NPR does not specify a minimum\nexample, although the governing project management amount of spacing for these reviews. A small project\ndirective (e.g., NPR 7120.5, 7150.2, 7120.7, 7120.8) may decide to combine the SRR and the SDR (or\nfor a program/project may require certain documents Mission Definition Review (MDR)) for example. As\nto be standalone, the SE NPR does not require any long as the intent for both reviews is accomplished,\nadditional stand-alone documents. For small proj- the SE NPR does not require a waiver or deviation.\nects, many of the plans can be described in just a few (Note that even though the SE NPR does not require\nparagraphs or pages. In these types of projects, any it, a waiver or deviation may still be required in the\nNPR requirements stating that the plans need to be governing project management NPR.) This customi-\nstand-alone document would be too burdensome. In zation and/or tailoring should be documented in the\nthese cases, the information can simply be written Compliance Matrix and/or the review plan or SEMP.\nand included as part of the project plan or SEMP.\nIf the applicable project management directive (e.g., Unless otherwise required by the governing project\nNPR 7120.5 or NPR 7120.8) requires documents to management directives, the formality of the review\nbe stand-alone, a program/project waiver/deviation is can be customized as appropriate for the type of\nneeded. However, if there is no requirement or Center program/project. For large projects, it might be\nexpectation for a stand-alone document, a project can appropriate to conduct a very formal review with a\ncustomize where that information is recorded and no formal Review Item Discrepancy (RID)/Request\nwaiver or deviation is required. Capturing where this for Action (RFA) process, a summary, and detailed\ninformation is documented within the systems engi- presentations to a wide audience including boards and\nneering or project management Compliance Matrix pre-boards over several weeks. For small projects,\nwould be useful for clarity. that same review might be done in a few hours across\n a tabletop with a few stakeholders and with issues\n3.11.4.3 Formality and Timing of Reviews and actions simply documented in a word or\nThe governing project management directive iden- PowerPoint document.\ntifies the required or recommended life cycle for\nthe specific type of program/project. The life cycle The NASA Engineering Network Systems\ndefines the number and timing of the various Engineering Community of Practice, located at\nreviews; however, there is considerable discretion https://nen.nasa.gov/web/se includes document tem-\nconcerning the formality of the review and how plates for milestone review presentations required by\nto conduct it. NPR 7123.1, Appendix G, provides the NASA SE process.\nextensive guidance for suggested review entrance\nand success criteria. It is expected that the program/ 3.11.5 Examples of Tailoring and\nproject will customize these criteria in a manner Customization\nthat makes sense for their program/project. The SE TABLE 3.11-1 shows an example of the types of mis-\nNPR does not require a waiver/deviation for this sions that can be defined based on a system that\ncustomization; however, departures from review ele- breaks projects into various types ranging from a very\nments required by other NPRs need to be addressed complex type A to a much simpler type F. When tai-\nby tailoring those documents. loring a project, the assignment of specific projects to\n\n\n\n 37",
+          "score": 5.890339358162203,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0191",
+          "page": 191,
+          "printed_page": 181,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nenabling management to gain insight into project sta- Enhanced Functional Flow Block Diagram: A block\ntus and project completion costs and schedules. Two diagram that represents control flows and data flows\nessential characteristics of successful EVM are EVM as well as system functions and flow.\nsystem data integrity and carefully targeted monthly\nEVM data analyses (i.e., risky WBS elements). Entrance Criteria: Guidance for minimum accom-\n plishments each project needs to fulfill prior to a life\nEmergent Behavior: An unanticipated behavior cycle review.\nshown by a system due to interactions between large\nnumbers of simple components of that system. Environmental Impact: The direct, indirect, or\n cumulative beneficial or adverse effect of an action\nEnd Product: The hardware/software or other prod- on the environment.\nuct that performs the operational functions. This\nproduct is to be delivered to the next product layer or Environmental Management: The activity of ensur-\nto the final customer. ing that program and project actions and decisions\n that potentially impact or damage the environment\nEnabling Products: The life cycle support products are assessed and evaluated during the formulation\nand services (e.g., production, test, deployment, and planning phase and reevaluated throughout\ntraining, maintenance, and disposal) that facili- implementation. This activity is performed according\ntate the progression and use of the operational end to all NASA policy and Federal, state, and local envi-\nproduct through its life cycle. Since the end prod- ronmental laws and regulations.\nuct and its enabling products are interdependent,\nthey are viewed as a system. Project responsibility Establish (with respect to processes): The act of\nthus extends to acquiring services from the relevant developing policy, work instructions, or procedures\nenabling products in each life cycle phase. When a to implement process activities.\nsuitable enabling product does not already exist,\nthe project that is responsible for the end product Evaluation: The continual self- and independent\nmay also be responsible for creating and using the assessment of the performance of a program or proj-\nenabling product. ect and incorporation of the evaluation findings to\n ensure adequacy of planning and execution accord-\nEngineering Unit: A high fidelity unit that demon- ing to plan.\nstrates critical aspects of the engineering processes\ninvolved in the development of the operational unit. Extensibility: The ability of a decision to be extended\nEngineering test units are intended to closely resem- to other applications.\nble the final product (hardware/software) to the max-\nimum extent possible and are built and tested so as to Failure: The inability of a system, subsystem, com-\nestablish confidence that the design will function in ponent, or part to perform its required function\nthe expected environments. In some cases, the engi- within specified limits (Source: NPR 8715.3 and\nneering unit will become the final product, assuming Avizienis 2004).\nthat proper traceability has been exercised over the\ncomponents and hardware handling. Failure Tolerance: The ability to sustain a certain\n number of failures and still retain capability (Source:\n\n\n\n 181",
+          "score": 5.286266514812253,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0211",
+          "page": 211,
+          "printed_page": 201,
+          "text": "Appendix D: Requirements Verification Matrix\n\n\n\n\n\nWhen developing requirements, it is important to delineate sources of requirements depending on the\nidentify an approach for verifying the requirements. project. The example is shown to provide suggested\nThis appendix provides an example matrix that guidelines for the minimum information that should\ndefines how all the requirements are verified. Only be included in the verification matrix.\n“shall” requirements should be included in these\nmatrices. The matrix should identify each “shall” by\nunique identifier and be definitive as to the source, NOTE: See Appendix I for an outline of the\ni.e., document from which the requirement is taken. Verification and Validation Plan. The matrix shown\nThis matrix could be divided into multiple matri- here (TABLE D-1) is Appendix C in that outline.\nces (e.g., one for each requirements document) to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 201",
+          "score": 4.749087258691295,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "stakeholders interview minimum number",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "printed_page": 214,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 6.137455855397179,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0047",
+          "page": 47,
+          "printed_page": 37,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n3.11.4.2 Adjusting the Scope If a program/project decides it does not need one of\nDepending on the project or program, some relief on the required reviews, a waiver or deviation is needed.\nthe scope of a requirement may be appropriate. For However, the SE NPR does not specify a minimum\nexample, although the governing project management amount of spacing for these reviews. A small project\ndirective (e.g., NPR 7120.5, 7150.2, 7120.7, 7120.8) may decide to combine the SRR and the SDR (or\nfor a program/project may require certain documents Mission Definition Review (MDR)) for example. As\nto be standalone, the SE NPR does not require any long as the intent for both reviews is accomplished,\nadditional stand-alone documents. For small proj- the SE NPR does not require a waiver or deviation.\nects, many of the plans can be described in just a few (Note that even though the SE NPR does not require\nparagraphs or pages. In these types of projects, any it, a waiver or deviation may still be required in the\nNPR requirements stating that the plans need to be governing project management NPR.) This customi-\nstand-alone document would be too burdensome. In zation and/or tailoring should be documented in the\nthese cases, the information can simply be written Compliance Matrix and/or the review plan or SEMP.\nand included as part of the project plan or SEMP.\nIf the applicable project management directive (e.g., Unless otherwise required by the governing project\nNPR 7120.5 or NPR 7120.8) requires documents to management directives, the formality of the review\nbe stand-alone, a program/project waiver/deviation is can be customized as appropriate for the type of\nneeded. However, if there is no requirement or Center program/project. For large projects, it might be\nexpectation for a stand-alone document, a project can appropriate to conduct a very formal review with a\ncustomize where that information is recorded and no formal Review Item Discrepancy (RID)/Request\nwaiver or deviation is required. Capturing where this for Action (RFA) process, a summary, and detailed\ninformation is documented within the systems engi- presentations to a wide audience including boards and\nneering or project management Compliance Matrix pre-boards over several weeks. For small projects,\nwould be useful for clarity. that same review might be done in a few hours across\n a tabletop with a few stakeholders and with issues\n3.11.4.3 Formality and Timing of Reviews and actions simply documented in a word or\nThe governing project management directive iden- PowerPoint document.\ntifies the required or recommended life cycle for\nthe specific type of program/project. The life cycle The NASA Engineering Network Systems\ndefines the number and timing of the various Engineering Community of Practice, located at\nreviews; however, there is considerable discretion https://nen.nasa.gov/web/se includes document tem-\nconcerning the formality of the review and how plates for milestone review presentations required by\nto conduct it. NPR 7123.1, Appendix G, provides the NASA SE process.\nextensive guidance for suggested review entrance\nand success criteria. It is expected that the program/ 3.11.5 Examples of Tailoring and\nproject will customize these criteria in a manner Customization\nthat makes sense for their program/project. The SE TABLE 3.11-1 shows an example of the types of mis-\nNPR does not require a waiver/deviation for this sions that can be defined based on a system that\ncustomization; however, departures from review ele- breaks projects into various types ranging from a very\nments required by other NPRs need to be addressed complex type A to a much simpler type F. When tai-\nby tailoring those documents. loring a project, the assignment of specific projects to\n\n\n\n 37",
+          "score": 5.890339358162203,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0191",
+          "page": 191,
+          "printed_page": 181,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nenabling management to gain insight into project sta- Enhanced Functional Flow Block Diagram: A block\ntus and project completion costs and schedules. Two diagram that represents control flows and data flows\nessential characteristics of successful EVM are EVM as well as system functions and flow.\nsystem data integrity and carefully targeted monthly\nEVM data analyses (i.e., risky WBS elements). Entrance Criteria: Guidance for minimum accom-\n plishments each project needs to fulfill prior to a life\nEmergent Behavior: An unanticipated behavior cycle review.\nshown by a system due to interactions between large\nnumbers of simple components of that system. Environmental Impact: The direct, indirect, or\n cumulative beneficial or adverse effect of an action\nEnd Product: The hardware/software or other prod- on the environment.\nuct that performs the operational functions. This\nproduct is to be delivered to the next product layer or Environmental Management: The activity of ensur-\nto the final customer. ing that program and project actions and decisions\n that potentially impact or damage the environment\nEnabling Products: The life cycle support products are assessed and evaluated during the formulation\nand services (e.g., production, test, deployment, and planning phase and reevaluated throughout\ntraining, maintenance, and disposal) that facili- implementation. This activity is performed according\ntate the progression and use of the operational end to all NASA policy and Federal, state, and local envi-\nproduct through its life cycle. Since the end prod- ronmental laws and regulations.\nuct and its enabling products are interdependent,\nthey are viewed as a system. Project responsibility Establish (with respect to processes): The act of\nthus extends to acquiring services from the relevant developing policy, work instructions, or procedures\nenabling products in each life cycle phase. When a to implement process activities.\nsuitable enabling product does not already exist,\nthe project that is responsible for the end product Evaluation: The continual self- and independent\nmay also be responsible for creating and using the assessment of the performance of a program or proj-\nenabling product. ect and incorporation of the evaluation findings to\n ensure adequacy of planning and execution accord-\nEngineering Unit: A high fidelity unit that demon- ing to plan.\nstrates critical aspects of the engineering processes\ninvolved in the development of the operational unit. Extensibility: The ability of a decision to be extended\nEngineering test units are intended to closely resem- to other applications.\nble the final product (hardware/software) to the max-\nimum extent possible and are built and tested so as to Failure: The inability of a system, subsystem, com-\nestablish confidence that the design will function in ponent, or part to perform its required function\nthe expected environments. In some cases, the engi- within specified limits (Source: NPR 8715.3 and\nneering unit will become the final product, assuming Avizienis 2004).\nthat proper traceability has been exercised over the\ncomponents and hardware handling. Failure Tolerance: The ability to sustain a certain\n number of failures and still retain capability (Source:\n\n\n\n 181",
+          "score": 5.286266514812253,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0211",
+          "page": 211,
+          "printed_page": 201,
+          "text": "Appendix D: Requirements Verification Matrix\n\n\n\n\n\nWhen developing requirements, it is important to delineate sources of requirements depending on the\nidentify an approach for verifying the requirements. project. The example is shown to provide suggested\nThis appendix provides an example matrix that guidelines for the minimum information that should\ndefines how all the requirements are verified. Only be included in the verification matrix.\n“shall” requirements should be included in these\nmatrices. The matrix should identify each “shall” by\nunique identifier and be definitive as to the source, NOTE: See Appendix I for an outline of the\ni.e., document from which the requirement is taken. Verification and Validation Plan. The matrix shown\nThis matrix could be divided into multiple matri- here (TABLE D-1) is Appendix C in that outline.\nces (e.g., one for each requirements document) to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 201",
+          "score": 4.749087258691295,
+          "reference_match": false
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [],
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 6957.68
+}

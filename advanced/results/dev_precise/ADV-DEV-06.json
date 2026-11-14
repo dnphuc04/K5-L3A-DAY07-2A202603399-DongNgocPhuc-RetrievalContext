@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-06",
+  "split": "dev",
+  "question": "In Figure 4.2-1, what activity immediately precedes Establish technical requirements baseline on the left-hand vertical path?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4ARa0A8vA0stIo7bYbvZlEkwBJc",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 572,
+        "completion_tokens": 11,
+        "total_tokens": 583,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1512.58,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BMcQw0gBkuncCJrQE11TKgGY",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.2-1\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4AT3LblvzNmGGlSOv9YAhbBw2rP",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5295,
+        "completion_tokens": 20,
+        "total_tokens": 5315,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1290.19,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_HsVRpCJfbglhFFnfDisl71y5",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0065\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4AVr8JX1G9B7HT7ugqgFh6ZTe9I",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6708,
+        "completion_tokens": 90,
+        "total_tokens": 6798,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2518.33,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_EYYdonXLCROyOlmRKq7YIxUc",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Hoạt động ngay trước 'Establish technical requirements baseline' trên nhánh dọc bên trái là 'Validate technical requirements'.\",\"citations\":[{\"source_id\":\"NASA-SE:p0065\",\"locator\":\"Figure 4.2-1, left-hand vertical path above 'Establish technical requirements baseline'\",\"evidence\":\"Validate technical requirements\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.2-1, what activity immediately precedes Establish technical requirements baseline on the left-hand vertical path?",
+      "results": [
+        {
+          "id": "NASA-SE:p0065",
+          "page": 65,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55",
+          "score": 11.04674877491374,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 9.722759232300064,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 9.522624441513798,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 7.621519300655274,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0068",
+          "page": 68,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission\n Authority\n\n\n Mission\n Objectives\n\n\n Mission Programmatics:\n Requirements • Cost\n • Schedule\n • Constraints\n Customer • Mission Classification\n\n Implementing\n Organizations FunctionalSystem\n Requirements\n Environmental Institutional\n and Other Design Constraints\n Requirements\n and Guidelines Assumptions\n\n System\n Performance\n Requirements\n\n\n\n\n\n Subsystem A Subsystem Subsystem Subsystem X\n Functional and B C Functional and\n Performance Performance\n Requirements Requirements\n\n\n\n Allocated Derived ... Allocated Derived\n Requirements Requirements Requirements Requirements\n\n\n\n\n FIGURE 4.2-3 The Flowdown of Requirements\n\n\n\ndocument provides several specific benefits to both request or have options for storing this type of infor-\nthe stakeholders and the technical team as shown in mation. TABLE 4.2-2 provides examples of the types of\nTABLE 4.2-1. metadata that might be useful.\n\nIt is useful to capture information about each of the 4.2.1.2.4 Validate Technical Requirements\nrequirements, called metadata, for future reference An important part of requirements definition is the\nand use. Many requirements management tools will validation of the requirements against the stakeholder\n\n\n\n\n\n\n 58",
+          "score": 6.511131707345164,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0064",
+          "page": 64,
+          "text": " 4.0 System Design Processes\n\n\n\n4.2 Technical Requirements 4.2.1 Process Description\n Definition FIGURE 4.2-1 provides a typical flow diagram for the\nThe Technical Requirements Definition Process Technical Requirements Definition Process and iden-\ntransforms the stakeholder expectations into a defi- tifies typical inputs, outputs, and activities to con-\nnition of the problem and then into a complete set sider in addressing technical requirements definition.\nof validated technical requirements expressed as\n“shall” statements that can be used for defining a 4.2.1.1 Inputs\ndesign solution for the Product Breakdown Structure Typical inputs needed for the requirements process\n(PBS) and related enabling products. The process of include the following:\nrequirements definition is a recursive and iterative one\nthat develops the stakeholders’ requirements, prod- • Baselined Stakeholder Expectations: This is the\nuct requirements, and lower level product/compo- agreed-to set of stakeholder expectations (e.g.,\nnent requirements. The requirements should enable needs, goals, objectives, assumptions, constraints,\nthe description of all inputs, outputs, and required external interfaces) for the product(s) of this prod-\nrelationships between inputs and outputs, including uct layer.\nconstraints, and system interactions with operators,\nmaintainers, and other systems. The requirements • Baselined Concept of Operations: This describes\ndocuments organize and communicate requirements how the system will be operated during the life\nto the customer and other stakeholders and the tech- cycle phases to meet stakeholder expectations. It\nnical community. describes the system characteristics from an oper-\n ational perspective and helps facilitate an under-\n standing of the system goals, objectives, and\n NOTE: It is important to note that the team constraints. It includes scenarios, use cases, and/or\n must not rely solely on the requirements received to Design Reference Missions (DRMs) as appropriate\n design and build the system. Communication and for the project. It may be in the form of a docu-\n iteration with the relevant stakeholders are essential ment, graphics, videos, models, and/or simulations.\n to ensure a mutual understanding of each require-\n ment. Otherwise, the designers run the risk of • Baselined Enabling Support Strategies: These\n misunderstanding and implementing an unwanted describe the enabling products that were identi-\n solution to a different interpretation of the require- fied in the Stakeholder Expectations Definition\n ments. This iterative stakeholder communication Process as needed to develop, test, produce,\n is a critically important part of project validation. operate, or dispose of the end product. They also\n Always confirm that the right products and results include descriptions of how the end product will\n are being developed. be supported throughout the life cycle.\n\n • Measures of Effectiveness: These MOEs were\nTechnical requirements definition activities apply to identified during the Stakeholder Expectations\nthe definition of all technical requirements from the Definition Process as measures that the stake-\nprogram, project, and system levels down to the low- holders deemed necessary to meet in order for the\nest level product/component requirements document. project to be considered a success (i.e., to meet\n success criteria).\n\n\n\n 54",
+          "score": 5.9010628042395945,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0131",
+          "page": 131,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Similarly, Human-In-The-Loop (HITL) evalua- method for defining and communicating what needs\n tions identify contingency operational issues. HITL to be done, how long it will take, and how each ele-\n investigations are particularly critical early in the ment of the project WBS might affect other elements.\n design process to expose, identify, and cost-effec- A complete network schedule may be used to calcu-\n tively correct operational issues—nominal, main- late how long it will take to complete a project; which\n tenance, repair, off-nominal, training, etc.—in activities determine that duration (i.e., critical path\n the required human interactions with the planned activities); and how much spare time (i.e., float) exists\n design. HITL testing should also be approached for all the other activities of the project.\n as a debugging exercise where hardware, software,\n and human elements interact and their perfor- “Critical path” is the sequence of dependent tasks\n mance is evaluated. If operational design and/or that determines the longest duration of time needed\n performance issues are not identified early, the cost to complete the project. These tasks drive the schedule\n of late design changes will be significant. and continually change, so they should be updated.\n The critical path may encompass only one task or a\n6.1.1.2.3 Schedule, Organize, and Budget the Technical series of interrelated tasks. It is important to identify\n Effort the critical path and the resources needed to com-\nOnce the technical team has defined the technical plete the critical tasks along the path if the project is\nwork to be done, efforts can focus on producing a to be completed on time and within its resources. As\nschedule and cost estimate for the technical portion the project progresses, the critical path will change as\nof the project. The technical team should organize the critical tasks are completed or as other tasks are\nthe technical tasks according to the project WBS delayed. This evolving critical path with its identified\nin a logical sequence of events, taking into consid- tasks needs to be carefully monitored during the pro-\neration the major project milestones, phasing of gression of the project.\navailable funding, and timing of the availability of\nsupporting resources. Network scheduling systems help managers accu-\n rately assess the impact of both technical and resource\nScheduling changes on the cost and schedule of a project. Cost\nProducts described in the WBS are the result of activ- and technical problems often show up first as sched-\nities that take time to complete. These activities have ule problems. Understanding the project’s schedule\ntime precedence relationships among them that may is a prerequisite for determining an accurate project\nbe used to create a network schedule explicitly defin- budget and for tracking performance and progress.\ning the dependencies of each activity on other activ- Because network schedules show how each activity\nities, the availability of resources, and the receipt of affects other activities, they assist in assessing and\nreceivables from outside sources. Use of a scheduling predicting the consequences of schedule slips or\ntool may facilitate the development and maintenance accelerations of an activity on the entire project.\nof the schedule.\n For additional information on scheduling, refer to\nScheduling is an essential component of planning NASA/SP-2010-3403, NASA Schedule Management\nand managing the activities of a project. The process Handbook.\nof creating a network schedule provides a standard\n\n\n\n\n\n 121",
+          "score": 14.345064100666525,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 65,
+          "path": "data/local/advanced/pages/p0065_2000.png",
+          "sha256": "d48bbf3b063f2d60d3a307b5e363b51920ba953e81acec0d2e89d811cc2c3cf6",
+          "source_id": "NASA-SE:p0065",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    65
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Hoạt động ngay trước 'Establish technical requirements baseline' trên nhánh dọc bên trái là 'Validate technical requirements'.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0065",
+          "locator": "Figure 4.2-1, left-hand vertical path above 'Establish technical requirements baseline'",
+          "evidence": "Validate technical requirements"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 6093.19
+}

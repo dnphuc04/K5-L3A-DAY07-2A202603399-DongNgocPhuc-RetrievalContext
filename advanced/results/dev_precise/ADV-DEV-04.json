@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-04",
+  "split": "dev",
+  "question": "In Table 6.8-1, what must the Dissent section record when applicable?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4ALHfVdGZ1VDAw7iosvMjCfIoMa",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 566,
+        "completion_tokens": 14,
+        "total_tokens": 580,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1227.75,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Kdm2jHBHFY3hkosRDQnAUz7P",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 6.8-1 Dissent section\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4ANJpUuxEQQh55V6OT2PDgFqXKk",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5297,
+        "completion_tokens": 20,
+        "total_tokens": 5317,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1374.87,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_QXRBSv0oRJlGQGQovLEjD2Zz",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0181\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4APWjNB1coMGXO7YUg5bsLRzh6D",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6666,
+        "completion_tokens": 131,
+        "total_tokens": 6797,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2438.52,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_xDxhQSYjni1cVJKSxx3cEKmV",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phần Dissent trong Bảng 6.8-1 phải ghi lại bất kỳ ý kiến bất đồng nào với khuyến nghị và cách xử lý bất đồng đó (ví dụ: thông qua ma trận quyết định, phân tích rủi ro).\",\"citations\":[{\"source_id\":\"NASA-SE:p0181\",\"locator\":\"Table 6.8-1, row 8 Dissent\",\"evidence\":\"If applicable, document any dissent with the recommendation. Document how dissent was addressed (e.g., decision matrix, risk).\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 6.8-1, what must the Dissent section record when applicable?",
+      "results": [
+        {
+          "id": "NASA-SE:p0181",
+          "page": 181,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.8-1 Typical Information to Capture in a Decision Report\n# Section Section Description\n1 Executive Provide a short half-page executive summary of the report:\n Summary • Recommendation (short summary—1 sentence)\n\n • Problem/issue requiring a decision (short summary—1 sentence)\n2 Problem/Issue Describe the problem/issue that requires a decision. Provide background, history, the\n Description decision maker(s) (e.g., board, panel, forum, council), and decision recommendation team,\n etc.\n\n3 Decision Matrix Provide the rationale for setting up the decision matrix:\n Setup Rationale • Criteria selected\n • Options selected\n • Weights selected\n • Evaluation methods selected\n Provide a copy of the setup decision matrix.\n\n4 Decision Matrix Provide the rationale for the scoring of the decision matrix. Provide the results of populating\n Scoring Rationale the scores of the matrix using the evaluation methods selected.\n5 Final Decision Cut and paste the final spreadsheet into the document. Also include any important\n Matrix snapshots of the decision matrix.\n\n6 Risk/Benefits For the final options being considered, document the risks and benefits of each option.\n\n7 Recommendation Describe the recommendation that is being made to the decision maker(s) and the rationale\n and/or Final for why the option was selected. Can also document the final decision in this section.\n Decision\n8 Dissent If applicable, document any dissent with the recommendation. Document how dissent was\n addressed (e.g., decision matrix, risk).\n\n9 References Provide any references.\n\nA Appendices Provide the results of the literature search, including lessons learned, previous related\n decisions, and previous related dissent. Also document any detailed data analysis and risk\n analysis used for the decision. Can also document any decision metrics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 171",
+          "score": 21.671425858299195,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0175",
+          "page": 175,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From all technical\n processes Establish guidelines to determine\n Decision Need, which technical issues are subject to a\n Alternatives, Issues, or formal analysis/evaluation process\n Problems and\n Supporting Data for evaluating To all technical processes\n alternative solutions Alternative Selection\n\n From Technical Recommendations and\n Assessment Process Identify alternative solutions to Impacts\n address decision issues\n Analysis Support\n Requests Select evaluation methods and tools To Technical\n Assessment Process\n\n Evaluat e alternative solutions with Decision Support\n the established criteria and Recommendations and\n selected methods Impacts\n\n\n\n Select recommended solutions from To Technical Data\n the alternatives based on the Management Process\n evaluation criteria\n\n Work Products From\n Report analysis results with Decision Analysis\n recommendations, impacts, and\n corrective actions\n\n\n Captu re work products from\n decision analysis activities\n\n\n FIGURE 6.8-1 Decision Analysis Process\n\n\ndecision criteria, alternatives, evaluation methods, an ongoing fashion during the decision analysis pro-\nevaluation process and results, recommendation, and cess. However, for quick or emergency decisions, the\nfinal decision. report information may be captured after the deci-\n sion has been made.\nDecision analysis covers a wide range of timeframes.\nComplex, strategic decisions may require weeks or Not all decisions require the same amount of analysis\nmonths to fully assess all alternatives and potential effort. The level and rigor required in a specific situa-\noutcomes. Decisions can also be made in hours or in tion depend essentially on how clear-cut the decision\na few days, especially for smaller projects or activi- is. If there is enough uncertainty in the alternatives’\nties. Decisions are also made in emergency situations. performance that the decision might change if that\nUnder such conditions, process steps, procedures, and uncertainty were to be reduced, then consideration\nmeetings may be combined. In these cases, the focus needs to be given to reducing that uncertainty. A\nof the systems engineer is on obtaining accurate deci- robust decision is one that is based on sufficient tech-\nsions quickly. Once the decision is made, the report nical evidence and characterization of uncertainties\ncan be generated. The report is usually generated in to determine that the selected alternative best reflects\n\n\n\n 165",
+          "score": 3.669069953488835,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0180",
+          "page": 180,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nbasic definitions of what is being measured for each This report includes the following:\nalternative. The criteria should be updated, with con-\ncurrence from the decision-maker, to more correctly • mission and system context for the decision\nreflect the suitability of each alternative. • decision needed and intended outcomes\n • decision criteria\n6.8.1.2.6 Report Analysis Results • identified alternative solutions\nThese results are reported to the appropriate stake- • decision evaluation methods and tools employed\nholders with recommendations, impacts, and correc- • assumptions, uncertainties, and sensitivities in\ntive actions the evaluations and recommendations\n • results of all alternative evaluations\n6.8.1.2.7 Capture Work Products • alternative recommendations\nThese work products may include the decision anal- • final decision made with rationale\nysis guidelines, strategy, and procedures that were • lessons learned\nused; analysis/evaluation approach; criteria, meth-\nods, and tools used; analysis/evaluation assumptions Typical information captured in a decision report is\nmade in arriving at recommendations; uncertainties; shown in TABLE 6.8-1.\nsensitivities of the recommended actions or corrective\nactions; and lessons learned. 6.8.2 Decision Analysis Guidance\n Refer to Section 6.8.2 in the NASA Expanded\n6.8.1.3 Outputs Guidance for Systems Engineering at https://nen.\n6.8.1.3.1 Alternative Selection and Decision Support nasa.gov/web/se/doc-repository for additional guid-\n Recommendations and Impacts ance on decision analysis methods supporting all SE\nOnce the technical team recommends an alterna- processes and phases including:\ntive to a NASA decision-maker (e.g., a NASA board,\nforum, or panel), all decision analysis information • trade studies,\nshould be documented. The team should produce a • cost-benefit analysis,\nreport to document all major recommendations to • influence diagrams,\nserve as a backup to any presentation materials used. • decision trees,\nA report in conjunction with a decision matrix pro- • analytic hierarchy process,\nvides clearly documented rationale for the presen- • Borda counting, and\ntation materials (especially for complex decisions). • utility analysis,\nDecisions are typically captured in meeting minutes\nand should be captured in the report as well. Based Additional information on tools for decision making\non the mission and system context and the decision can be found in NASA Reference Publication 1358,\nmade, the report may be a simple white paper or a System Engineering “Toolbox” for Design-Oriented\nmore formally formatted document. The important Engineers located at https://nen.nasa.gov/web/se/\ncharacteristic of the report is the content, which fully doc-repository.\ndocuments the decision needed, assessments done,\nrecommendations, and decision finally made.\n\n\n\n\n\n\n 170",
+          "score": 10.65230831891517,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 9.222095868285894,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 7.226736525528972,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0242",
+          "page": 242,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n7.6 Other 9.0 Compliance Matrices\nThis section is reserved to describe any unique SE func- Appendix H.2 in NPR 7123.1A is the basis for the com-\ntions or activities for the project that are not covered in pliance matrix for this section of the SEMP. The proj-\nother sections. ect will complete this matrix from the point of view of\n the project and the technical scope. Each requirement\n8.0 Integration with the Project Plan will be addressed as compliant, partially compliant, or\n and Technical Resource Allocation noncompliant. Compliant requirements should indicate\nThis section describes how the technical effort will inte- which process or activity addresses the compliance. For\ngrate with project management and defines roles and example, compliance can be accomplished by using a\nresponsibilities. It addresses how technical requirements Center process or by using a project process as described\nwill be integrated with the project plan to determine in another section of the SEMP or by reference to another\nthe allocation of resources, including cost, schedule, and documented process. Noncompliant areas should state\npersonnel, and how changes to the allocations will be the rationale for noncompliance.\ncoordinated.\n Appendices\n Key Questions Appendices are included, as necessary, to provide a\n 1. How will we assess risk? What thresholds glossary, acronyms and abbreviations, and informa-\n are needed for triggering mitigation activi- tion published separately for convenience in document\n ties? How will we integrate risk management maintenance. Included are: (1) information that may\n into the technical decision process? be pertinent to multiple topic areas (e.g., description of\n 2. How will we communicate across and out- methods or procedures); (2) charts and proprietary data\n side of the project? applicable to the technical efforts required in the SEMP;\n 3. How will we record decisions? and (3) a summary of technical plans associated with\n 4. How do we incorporate lessons learned from the project. Each appendix should be referenced in one\n other projects? of the sections of the engineering plan where data would\n normally have been provided.\n\n Templates\nThis section describes the interface between all of the tech- Any templates for forms, plans, or reports the technical\nnical aspects of the project and the overall project man- team will need to fill out, like the format for the veri-\nagement process during the systems engineering planning fication and validation plan, should be included in the\nactivities and updates. All activities to coordinate tech- appendices.\nnical efforts with the overall project are included, such\nas technical interactions with the external stakeholders, References\nusers, and contractors. This section contains all documents referenced in the text\n of the SEMP.\n\n\n\n\n\n\n\n\n\n 232",
+          "score": 12.656154612367564,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0236",
+          "page": 236,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n1.0 Purpose and Scope 4. What are the overall project constraints\nThis section provides a brief description of the purpose, in terms of cost, schedule, and technical\nscope, and content of the SEMP. performance\n\n 5. How will we know when we have adequately\n• Purpose: This section should highlight the intent of defined the problem?\n the SEMP to provide the basis for implementing and 6. Who are the customers?\n communicating the technical effort. 7. Who are the users?\n\n 8. What are the customer and user priorities?\n• Scope: The scope describes the work that encompasses 9. What is the relationship to other projects?\n the SE technical effort required to generate the work\n products. The plan is used by the technical team to\n provide personnel the information necessary to suc- 3.1 System Description\n cessfully accomplish the required task. This section contains a definition of the purpose of the\n system being developed and a brief description of the\n• Content: This section should briefly describe the orga- purpose of the products of the product layer of the system\n nization of the document. structure to which this SEMP applies. Each product layer\n includes the system end products and their subsystems\n2.0 Applicable Documents and the supporting or enabling products and any other\nThis section of the SEMP lists the documents applicable work products (plans, baselines) required for the devel-\nto this specific project and its SEMP implementation. opment of the system. The description should include\nThis section should list major standards and procedures any interfacing systems and system products, including\nthat this technical effort for this specific project needs humans with which the system products will interact\nto follow. Examples of specific procedures to list could physically, cognitively, functionally, or electronically.\ninclude procedures for hazardous material handling,\ncrew training plans for control room operations, special 3.2 System Structure\ninstrumentation techniques, special interface documen- This section contains an explanation of how the tech-\ntation for vehicles, and maintenance procedures specific nical portion of the product layer (including enabling\nto the project. products, technical cost, and technical schedule) will be\n developed, how the resulting product layers will be inte-\n3.0 Technical Summary grated into the project portion of the WBS, and how the\nThis section contains an executive summary describing overall system structure will be developed. This section\nthe problem to be solved by this technical effort and the contains a description of the relationship of the specifica-\npurpose, context, and products to be developed and inte- tion tree and the drawing tree with the products of the\ngrated with other interfacing systems identified. system structure and how the relationship and interfaces\n of the system end products and their life cycle-enabling\n Key Questions products will be managed throughout the planned tech-\n 1. What is the problem we’re trying to solve? nical effort.\n\n 2. What are the influencing factors?\n 3. What are the critical questions? 3.3 Product Integration\n This section contains an explanation of how the products\n will be integrated and describes clear organizational\n\n\n\n 226",
+          "score": 11.66915772687563,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 181,
+          "path": "data/local/advanced/pages/p0181_2000.png",
+          "sha256": "0d9298e4b9492e5c630b8a7d0e1f4b3c82574ce24835f0b8db1465915a43e933",
+          "source_id": "NASA-SE:p0181",
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.8-1 Typical Information to Capture in a Decision Report\n# Section Section Description\n1 Executive Provide a short half-page executive summary of the report:\n Summary • Recommendation (short summary—1 sentence)\n\n • Problem/issue requiring a decision (short summary—1 sentence)\n2 Problem/Issue Describe the problem/issue that requires a decision. Provide background, history, the\n Description decision maker(s) (e.g., board, panel, forum, council), and decision recommendation team,\n etc.\n\n3 Decision Matrix Provide the rationale for setting up the decision matrix:\n Setup Rationale • Criteria selected\n • Options selected\n • Weights selected\n • Evaluation methods selected\n Provide a copy of the setup decision matrix.\n\n4 Decision Matrix Provide the rationale for the scoring of the decision matrix. Provide the results of populating\n Scoring Rationale the scores of the matrix using the evaluation methods selected.\n5 Final Decision Cut and paste the final spreadsheet into the document. Also include any important\n Matrix snapshots of the decision matrix.\n\n6 Risk/Benefits For the final options being considered, document the risks and benefits of each option.\n\n7 Recommendation Describe the recommendation that is being made to the decision maker(s) and the rationale\n and/or Final for why the option was selected. Can also document the final decision in this section.\n Decision\n8 Dissent If applicable, document any dissent with the recommendation. Document how dissent was\n addressed (e.g., decision matrix, risk).\n\n9 References Provide any references.\n\nA Appendices Provide the results of the literature search, including lessons learned, previous related\n decisions, and previous related dissent. Also document any detailed data analysis and risk\n analysis used for the decision. Can also document any decision metrics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 171"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    181
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Phần Dissent trong Bảng 6.8-1 phải ghi lại bất kỳ ý kiến bất đồng nào với khuyến nghị và cách xử lý bất đồng đó (ví dụ: thông qua ma trận quyết định, phân tích rủi ro).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0181",
+          "locator": "Table 6.8-1, row 8 Dissent",
+          "evidence": "If applicable, document any dissent with the recommendation. Document how dissent was addressed (e.g., decision matrix, risk)."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 5754.26
+}

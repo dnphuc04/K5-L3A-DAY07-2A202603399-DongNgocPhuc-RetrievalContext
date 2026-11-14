@@ -1,0 +1,786 @@
+{
+  "id": "ADV-TEST-28",
+  "split": "test",
+  "question": "Which single programming language does the handbook mandate for every flight-software implementation?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4KCBS1XQvhM4RklnPtwk2m2tDmS",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 562,
+        "completion_tokens": 13,
+        "total_tokens": 575,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 917.94,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_x3N0lEviGFecCt5R6WIU4j6x",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandated programming language for flight-software implementation\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KDy0Bc2XlxWqjqQTkgYyCQnUEm",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5710,
+        "completion_tokens": 17,
+        "total_tokens": 5727,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1223.34,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_C7CXdwchID474oqKzTsnSXo0",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"flight software programming language requirement\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KEeOpErzZFpWXIA5H3MdmffgTw",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9678,
+        "completion_tokens": 18,
+        "total_tokens": 9696,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1135.79,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FxB13fObwJibQgTEEtmwnaah",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandated language for flight software\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KGRQhifeH3adO6XmdFbXboFLiW",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 13888,
+        "completion_tokens": 17,
+        "total_tokens": 13905,
+        "prompt_tokens_details": {
+          "cached_tokens": 9472,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1415.65,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_VW8RA8VfaoLiMtaXlLIP0gXR",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"flight software implementation programming language\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KHnR9Mh6NbpqROmi6cfzl6HrDz",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 18097,
+        "completion_tokens": 16,
+        "total_tokens": 18113,
+        "prompt_tokens_details": {
+          "cached_tokens": 13696,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1227.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_qpEwAXnzhDdmtr2TOd3JgmtC",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"software programming language requirement\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KIgh7VUZPDH1DkIW1gjHRvKMcw",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 22305,
+        "completion_tokens": 15,
+        "total_tokens": 22320,
+        "prompt_tokens_details": {
+          "cached_tokens": 17920,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1548.73,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_IwUcrWRRoUKJk27pp35xj368",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"flight software language\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KKxPQIutsKsXUDcsQNjEia6rEg",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 26512,
+        "completion_tokens": 15,
+        "total_tokens": 26527,
+        "prompt_tokens_details": {
+          "cached_tokens": 22144,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1316.7,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_WHshEBmsuY4PfAiR4gjCbxGo",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Ada programming language\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KLW8M4alGnKC1Sv3VcyWRXgNua",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 30427,
+        "completion_tokens": 15,
+        "total_tokens": 30442,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1833.29,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_gGiaxHYyzVdqBp9barJDbedL",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"C programming language\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KNuiMNYewEhV1GRxALtrEMZseI",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 34743,
+        "completion_tokens": 10,
+        "total_tokens": 34753,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2147.86,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_iXw140rZiwfz6ZAEthacbTjN",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[] }"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Which single programming language does the handbook mandate for every flight-software implementation?",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 10.508059497809088,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 9.505283659105748,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 9.473761705043605,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 8.78980753826127,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 8.43772704204493,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 8.34124707313415,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "score": 8.12291555230204,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "flight software programming language requirement",
+      "results": [
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 7.859220804100485,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.600296540846756,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.257744988414978,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "score": 6.268056074469806,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "mandated language for flight software",
+      "results": [
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.723172668575973,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.38931645947186,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 6.305415952739846,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.665152220098343,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.661783868807257,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.5256344704348574,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "flight software implementation programming language",
+      "results": [
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.600296540846756,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 7.36985585741179,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.257744988414978,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.381169901549601,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "software programming language requirement",
+      "results": [
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.600296540846756,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.257744988414978,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 6.327476906962839,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.381169901549601,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "flight software language",
+      "results": [
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.600296540846756,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.257744988414978,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 6.203121950314066,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.381169901549601,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Ada programming language",
+      "results": [
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 6.258840508244816,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 5.526483505793125,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 4.6713780531764195,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0183",
+          "page": 183,
+          "text": "Appendix A: Acronyms\n\n\n\n\n\n\n\n AADL Architecture Analysis and Design Language EEE Electrical, Electronic, and Electromechanical\n AD2 Advancement Degree of Difficulty EFFBD Enhanced Functional Flow Block Diagram\n Assessment EIA Electronic Industries Alliance\n AIAA American Institute of Aeronautics and EMC Electromagnetic Compatibility\n Astronautics EMI Electromagnetic Interference\n AO Announcement of Opportunity EO (U.S.) Executive Order\n AS9100 Aerospace Quality Management Standard EOM End of Mission\n ASME American Society of Mechanical Engineers EVM Earned Value Management\n ASQ American Society for Quality FA Formulation Agreement\n CAIB Columbia Accident Investigation Board FAD Formulation Authorization Document\n CCB Configuration Control Board FAR Federal Acquisition Regulation\n CDR Critical Design Review FCA Functional Configuration Audit\n CE Concurrent Engineering or Chief Engineer FFBD Functional Flow Block Diagram\n CEQ Council on Environmental Quality FIPS Federal Information Processing Standard\n CERR Critical Event Readiness Review FM Fault Management\n CHSIP Commercial Human Systems Integration FMEA Failure Modes and Effects Analysis\n Processes\n CI Configuration Item FMR Financial Management Requirements\n CM Configuration Management FRR Flight Readiness Review\n CMO Configuration Management Organization FTE Full Time Equivalent\n ConOps Concept of Operations GEO Geostationary\n COSPAR Committee on Space Research GOTS Government Off-The-Shelf\n COTS Commercial Off-The-Shelf GSE Government-Supplied Equipment or Ground\n CPI Critical Program Information Support Equipment\n CR Change Request GSFC Goddard Space Flight Center\n CRM Continuous Risk Management HCD Human-Centered Design\n CSA Configuration Status Accounting HF Human Factors\n D&C Design and Construction HITL Human-In-The-Loop\n DDT&E Design, Development, Test, and Evaluation HQ Headquarters\n DM Data Management HSI Human Systems Integration\n DOD (U.S.) Department of Defense HSIP Human System Integration Plan\n DODAF DOD Architecture Framework HWIL HardWare-In-the-Loop\n DR Decommissioning Review I&T Integration and Test\n DRM Design Reference Mission ICD Interface Control Document/Drawing\n DRR Disposal Readiness Review ICP Interface Control Plan\n EDL Entry, Descent, and Landing IDD Interface Definition Document\n\n\n\n\n 173",
+          "score": 3.6656969147821763,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "C programming language",
+      "results": [
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 8.346781291747435,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 7.120062731398744,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0281",
+          "page": 281,
+          "text": " Bibliography\n\n\n\n\n\nANSI/GEIA GEIA-859, Data Management, Blanchard, Benjamin S., System Engineering\n National Defense Industrial Association Management. 4th Edition, Hoboken, NJ: John\n (NDIA), Arlington, VA 2004 Wiley & Sons, Inc., 2008\n\nANSI/IEEE STD 1042. IEEE Guide to Software Blanchard, Benjamin S., and Wolter J. Fabrycky.\n Configuration Management. Washington, DC, Systems Engineering and Analysis, 5th Edition\n 1987 Prentice Hall International Series in Industrial\n & Systems Engineering; February 6, 2010\nArchitecture Analysis & Design Language (AADL):\n https://wiki.sei.cmu.edu/aadl/index.php/Main_Page Brown, Barclay. “Model-based systems engineer-\n ing: Revolution or Evolution,” IBM Software,\n(The) Arms Export Control Act (AECA) of 1976, Thought Leadership White Paper, IBM\n see 22 U.S.C. 2778 Rational, December 2011\n\nASME Y14.24, Types and Applications of Engineering Brughelli, Kevin (Lockheed Martin), Deborah\n Drawings, New York, 1999 Carstens (Florida Institute of Technology),\n and Tim Barth (Kennedy Space Center),\nASME Y14.100, Engineering Drawing Practices, New “Simulation Model Analysis Techniques,”\n York, 2004 Lockheed Martin presentation to KSC,\n November 2003\nASQ, Statistics Division, Statistical Engineering,\n http://asq.org/statistics/quality-information/ Buede, Dennis. The Engineering Design of Systems:\n statistical-engineering Models and Methods. New York: Wiley & Sons,\n 2000.\nAvizienis, A., J.C. Laprie, B. Randell, C. Landwehr,\n “Basic concepts and taxonomy of dependable Business Process Modeling Notation (BPMN) http://\n and secure computing,” IEEE Transactions on www.bpmn.org/\n Dependable and Secure Computing 1 (1), 11–33,\n 2004 C\n CCSDS 311.0-M-1, Reference Architecture for\nB Space Data Systems, Recommended Practice\nBall, Robert E. The Fundamentals of Aircraft Combat (Magenta), Sept 2008. http://public.ccsds.org/\n Survivability Analysis and Design. 2nd Edition, publications/MagentaBooks.aspx\n AIAA Education Series, 2003\n CCSDS 901-0-G-1, Space Communications Cross\nBayer, T.J., M. Bennett, C. L. Delp, D. Dvorak, Support Architecture Description Document,\n J. S. Jenkins, and S. Mandutianu. “Update: Informational Report (Green) Sept 2013. http://\n Concept of Operations for Integrated Model- public.ccsds.org/publications/GreenBooks.aspx\n Centric Engineering at JPL,” paper #1122, IEEE\n Aerospace Conference 2011 Chapanis, A. “The Error-Provocative Situation:\n A Central Measurement Problem in Human\n\n\n\n 271",
+          "score": 6.518142149869601,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 6.258840508244816,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.64026571234746,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 5.526483505793125,
+          "reference_match": 0
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [],
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 12795.06
+}

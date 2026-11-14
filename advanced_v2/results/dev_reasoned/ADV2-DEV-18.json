@@ -1,0 +1,537 @@
+{
+  "id": "ADV2-DEV-18",
+  "split": "dev",
+  "question": "Combine Table 2.2-1 and the SIR row of Table 6.7-1: what work does Phase D perform and when must SIR occur relative to that phase?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4hr9odnvGl21Ad2KUM7ChBZOBpT",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 662,
+        "completion_tokens": 40,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1441.51,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_lWJBjPRftvMvKMEmlNwNDCDi",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.2-1 Phase D work performs Phase D performs what work Table 2.2-1 NASA handbook\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4htqOEt1biMuwwin6uwx6TUqNHr",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 6002,
+        "completion_tokens": 135,
+        "total_tokens": 6137,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 87,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2673.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_4jVmdzTbUxpa88yK8yPvSv6q",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"SIR row Table 6.7-1 SIR timing Phase D NASA systems engineering handbook 6.7-1 SIR\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hwfhYOAupHtw7Ns1HJkehDPNN3",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 11633,
+        "completion_tokens": 155,
+        "total_tokens": 11788,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 117,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3184.6,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rVnz4MU3H4ZPT6yQVPpckdIw",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"System Integration Review\\\" (SIR) Timing Table 6.7-1\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hz4xb1VdJTqSmC7JdSkWDJbTAT",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 16994,
+        "completion_tokens": 219,
+        "total_tokens": 17213,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 184,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3838.18,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rOXlwG4g4jmoIJmyz0WAeab7",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0019\",\"NASA-SE:p0172\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4i4CbC3upCJgxYXhx5IHP1H6uh4",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 25927,
+        "completion_tokens": 494,
+        "total_tokens": 26421,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 192,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7728.08,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_4HODROWGYJk8jQNIaji5Ogvl",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phase D performs work to \\\"assemble and integrate the system (hardware, software, and humans),\\\" while \\\"developing confidence that it is able to meet the system requirements\\\"; it also includes \\\"Launch and prepare for operations\\\" and performing \\\"system end product implementation, assembly, integration and test, and transition to use.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase D row, Purpose column\",\"evidence\":\"Phase D To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use.\"}]},{\"text\":\"The System Integration Review (SIR) must occur \\\"before the systems assembly, integration, and test phase (Phase D) begins\\\" (it \\\"occurs at the end of the final design phase (Phase C)\\\").\",\"citations\":[{\"source_id\":\"NASA-SE:p0172\",\"locator\":\"Table 6.7-1, System Integration Review (SIR) row, Timing column\",\"evidence\":\"SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4iBSj5B4ezm57JnqOLLPCnVOiIL",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9507,
+        "completion_tokens": 425,
+        "total_tokens": 9932,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 152,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6533.71,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_3CthjnX8NTJ8eUZEYcDRdrtp",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phase D performs work to assemble and integrate the system (hardware, software, and humans) while developing confidence it can meet system requirements; it includes launching and preparing for operations and performing system end product implementation, assembly, integration and test, and transition to use.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase D row, Purpose\",\"evidence\":\"Phase D ... To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use.\"}]},{\"text\":\"The System Integration Review (SIR) occurs at the end of Phase C and must happen before Phase D (systems assembly, integration, and test) begins.\",\"citations\":[{\"source_id\":\"NASA-SE:p0172\",\"locator\":\"Table 6.7-1, System Integration Review (SIR) row, Timing\",\"evidence\":\"SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Combine Table 2.2-1 and the SIR row of Table 6.7-1: what work does Phase D perform and when must SIR occur relative to that phase?",
+      "results": [
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 12.165871343798596,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 12.125600744119117,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0171",
+          "page": 171,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.7-1 Purpose and Results for Life-Cycle Reviews for Spaceflight Projects\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nMission Concept The MCR will affirm the mission The MCR should The MCR entrance and A successful MCR supports the\nReview (MCR) need and evaluates the proposed be completed success criteria are determination that the proposed\n objectives and the concept for prior to entering defined in Table G-3 of mission meets the customer need\n meeting those objectives. the concept NPR 7123.1. and has sufficient quality and\n development phase merit to support a field Center\n (Phase A) management decision to propose\n further study to the cognizant NASA\n program Associate Administrator as\n a candidate Phase A effort.\n\nSystem The SRR evaluates the functional The SRR is The SRR entrance and Successful completion of the\nRequirements and performance requirements conducted during success criteria for a SRR freezes program/project\nReview (SRR) defined for the system and the concept program are defined in requirements and leads to a formal\n the preliminary program or development phase Table G-1 of NPR 7123.1. decision by the cognizant program\n project plan and ensures that (Phase A) and The SRR entrance and Associate Administrator to proceed\n the requirements and selected before conducting success criteria for with proposal request preparations\n concept will satisfy the mission. the SDR or MDR. projects and single-project for project implementation\n programs are defined in\n Table G-4 of NPR 7123.1.\n\nMission Sometimes called the MDR by The MDR/SDR The MDR/SDR entrance A successful MDR/SDR supports\nDefinition robotic projects and SDR for is conducted and success criteria for the decision to further develop the\nReview (MDR)/ human flight projects, this review during the concept a program are defined in system architecture/design and any\nSystem evaluates whether the proposed development phase Table G-2 of NPR 7123.1. technology needed to accomplish\nDefinition architecture is responsive to (Phase A) prior The MDR/SDR entrance the mission. The results reinforce\nReview (SDR) the functional and performance to KDP B and the and success criteria for the mission/system’s merit and\n requirements and that the start of preliminary projects and single-project provide a basis for the system\n requirements have been allocated design. programs are defined in acquisition strategy. As a result\n to all functional elements of the Table G-5 of NPR 7123.1. of successful completion, the\n mission/system. mission/system and its operation\n are well enough understood to\n warrant design and acquisition of\n the end items.\n\nPreliminary The PDR demonstrates that PDR occurs near The entrance and success As a result of successful\nDesign Review the preliminary design meets the completion of criteria for the PDR are completion of the PDR, the\n(PDR) all system requirements with the preliminary defined in Table G-6 of design-to baseline is approved.\n acceptable risk and within the design phase NPR 7123.1. A successful review result also\n cost and schedule constraints (Phase B) as the authorizes the project to proceed\n and establishes the basis for last review in the into the Implementation Phase and\n proceeding with detailed design. Formulation Phase. toward final design.\n It shows that the correct design\n options have been selected,\n interfaces have been identified,\n and verification methods have been\n described. The PDR should address\n and resolve critical, system-wide\n issues and show that work can\n begin on detailed design.\n\n (continued)\n\n\n\n\n\n\n\n 161",
+          "score": 10.977197718914047,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0168",
+          "page": 168,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From Technical To Technical Planning ,\n Planning Process RiskManagement, and Requirements\n Management Processes\n Product and Process Assessment Results/\n Measures Findings\n Prepare strategy for conducting\n Technical Plans technical assessments ToDecision Analysis Process\n\n Analysis Support\n From project Assess technical work productivity Requests\n Risk Reporting (measure progress against plans) To project and Technical Data\n Requirements Management Process\n\n Technical Cost and Schedule Assess technical product qua lity Technical Review\n Status Reports (measure progress against requirements) Reports\n\n From Product Verification and To Technical Planning ,\n Product Validation Processes Requirements , and\n Conduct horizontal and vertical progress Interface Management Processes\n Product Measurements technical reviews Corrective Action\n Recommendations\n\n From Decision Analysis Process Capture work products from technical To Technical Data\n Decision Support assessment activities Management Process\n Recommendations and Work Products from\n Impacts TechnicalAssessment\n\n FIGURE 6.7-1 Technical Assessment Process\n\n\n\n assessed or tracked to determine technical prog- 6.7.1.2 Process Activities\n ress. These measures are also referred to as MOEs, 6.7.1.2.1 Prepare Strategy for Conducting Technical\n MOPs, KPPs, and TPMs. (See Section 6.7.2.6.2 Assessments\n in the NASA Expanded Guidance for Systems As outlined in FIGURE 6.7-1, the technical plans pro-\n Engineering at https://nen.nasa.gov/web/se/doc-re- vide the initial inputs into the Technical Assessment\n pository.) They provide indications of the program/ Process. These documents outline the technical\n project’s performance in key management, techni- reviews/assessment approach as well as identify the\n cal, cost (budget), schedule, and risk areas. technical measures that will be tracked and assessed\n to determine technical progress. An important part\n• Reporting Requirements: These are the require- of the technical planning is determining what is\n ments on the methodology in which the status of needed in time, resources, and performance to com-\n the technical measures will be reported with regard plete a system that meets desired goals and objectives.\n to management, technical cost (budget), sched- Project managers need visibility into the progress of\n ule, and risk. The requirements apply internally those plans in order to exercise proper management\n to the program/project and are used externally by control. Typical activities in determining progress\n the Centers and Mission Directorates to assess the against the identified technical measures include sta-\n performance of the program or project. The meth- tus reporting and assessing the data. Status report-\n odology and tools used for reporting the status ing will identify where the project stands with regard\n will be established on a project-by-project basis. to a particular technical measure. Assessing will\n\n\n 158",
+          "score": 10.103378702988755,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 15.070099863205405,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0170",
+          "page": 170,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nestablishing the makeup of the review team; and (4) • Technical Review Reports/Minutes: This is the\nidentifying and resolving action items resulting from collective information coming out of each review\nthe review. Section 6.7.2.3 summarizes the types of that captures the results, recommendations, and\ntechnical reviews typically conducted on a program/ actions with regard to meeting the review’s suc-\nproject and the role of these reviews in supporting cess criteria.\nmanagement decision processes. This section address\nthe types of technical reviews typically conducted • Other Work Products: These would include strat-\nfor both space flight and research and technology egies and procedures for technical assessment, key\nprograms/projects and the role of these reviews in decisions and associated rationale, assumptions,\nsupporting management decision processes. It also and lessons learned.\nidentifies some general principles for holding reviews,\nbut leaves explicit direction for executing a review to 6.7.2 Technical Assessment Guidance\nthe program/project team to define. Refer to Section 6.7.2 in the NASA Expanded\n Guidance for Systems Engineering at https://nen.\nThe process of executing technical assessment has nasa.gov/web/se/doc-repository for additional guid-\nclose relationships to other areas, such as risk man- ance on:\nagement, decision analysis, and technical planning.\nThese areas may provide input into the Technical • the basis of technical reviews,\nAssessment Process or be the benefactor of outputs • audits,\nfrom the process. • Key Decision Points,\n • required technical reviews for space flight projects,\nTABLE 6.7-1 provides a summary of the types of reviews • other reviews,\nfor a space flight project, their purpose, and timing. • status reporting and assessment (including MOEs,\n MOPs, KPPs, TPMs, EVM and other metrics,\n6.7.1.2.3 Capture Work Products\nThe work products generated during these activities Additional information is also available in NASA/\nshould be captured along with key decisions made, SP-2014-3705, NASA Space Flight Program and\nsupporting decision rationale and assumptions, Project Management Handbook.\nand lessons learned in performing the Technical\nAssessment Process.\n 6.8 Decision Analysis\n6.7.1.3 Outputs The purpose of this section is to provide an over-\nTypical outputs of the Technical Assessment Process view of the Decision Analysis Process, highlighting\nwould include the following: selected tools and methodologies. Decision Analysis\n is a framework within which analyses of diverse types\n• Assessment Results, Findings, and are applied to the formulation and characterization\n Recommendations: This is the collective data of decision alternatives that best implement the deci-\n on the established measures from which trends sion-maker’s priorities given the decision-maker’s\n can be determined and variances from expected state of knowledge.\n results can be understood. Results then feed into\n the Decision Analysis Process where corrective\n action may be necessary.\n\n\n 160",
+          "score": 10.36240618574408,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 8.60432562143843,
+          "reference_match": 1,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "SIR row Table 6.7-1 SIR timing Phase D NASA systems engineering handbook 6.7-1 SIR",
+      "results": [
+        {
+          "id": "NASA-SE:p0171",
+          "page": 171,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.7-1 Purpose and Results for Life-Cycle Reviews for Spaceflight Projects\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nMission Concept The MCR will affirm the mission The MCR should The MCR entrance and A successful MCR supports the\nReview (MCR) need and evaluates the proposed be completed success criteria are determination that the proposed\n objectives and the concept for prior to entering defined in Table G-3 of mission meets the customer need\n meeting those objectives. the concept NPR 7123.1. and has sufficient quality and\n development phase merit to support a field Center\n (Phase A) management decision to propose\n further study to the cognizant NASA\n program Associate Administrator as\n a candidate Phase A effort.\n\nSystem The SRR evaluates the functional The SRR is The SRR entrance and Successful completion of the\nRequirements and performance requirements conducted during success criteria for a SRR freezes program/project\nReview (SRR) defined for the system and the concept program are defined in requirements and leads to a formal\n the preliminary program or development phase Table G-1 of NPR 7123.1. decision by the cognizant program\n project plan and ensures that (Phase A) and The SRR entrance and Associate Administrator to proceed\n the requirements and selected before conducting success criteria for with proposal request preparations\n concept will satisfy the mission. the SDR or MDR. projects and single-project for project implementation\n programs are defined in\n Table G-4 of NPR 7123.1.\n\nMission Sometimes called the MDR by The MDR/SDR The MDR/SDR entrance A successful MDR/SDR supports\nDefinition robotic projects and SDR for is conducted and success criteria for the decision to further develop the\nReview (MDR)/ human flight projects, this review during the concept a program are defined in system architecture/design and any\nSystem evaluates whether the proposed development phase Table G-2 of NPR 7123.1. technology needed to accomplish\nDefinition architecture is responsive to (Phase A) prior The MDR/SDR entrance the mission. The results reinforce\nReview (SDR) the functional and performance to KDP B and the and success criteria for the mission/system’s merit and\n requirements and that the start of preliminary projects and single-project provide a basis for the system\n requirements have been allocated design. programs are defined in acquisition strategy. As a result\n to all functional elements of the Table G-5 of NPR 7123.1. of successful completion, the\n mission/system. mission/system and its operation\n are well enough understood to\n warrant design and acquisition of\n the end items.\n\nPreliminary The PDR demonstrates that PDR occurs near The entrance and success As a result of successful\nDesign Review the preliminary design meets the completion of criteria for the PDR are completion of the PDR, the\n(PDR) all system requirements with the preliminary defined in Table G-6 of design-to baseline is approved.\n acceptable risk and within the design phase NPR 7123.1. A successful review result also\n cost and schedule constraints (Phase B) as the authorizes the project to proceed\n and establishes the basis for last review in the into the Implementation Phase and\n proceeding with detailed design. Formulation Phase. toward final design.\n It shows that the correct design\n options have been selected,\n interfaces have been identified,\n and verification methods have been\n described. The PDR should address\n and resolve critical, system-wide\n issues and show that work can\n begin on detailed design.\n\n (continued)\n\n\n\n\n\n\n\n 161",
+          "score": 11.584130688971271,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0168",
+          "page": 168,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From Technical To Technical Planning ,\n Planning Process RiskManagement, and Requirements\n Management Processes\n Product and Process Assessment Results/\n Measures Findings\n Prepare strategy for conducting\n Technical Plans technical assessments ToDecision Analysis Process\n\n Analysis Support\n From project Assess technical work productivity Requests\n Risk Reporting (measure progress against plans) To project and Technical Data\n Requirements Management Process\n\n Technical Cost and Schedule Assess technical product qua lity Technical Review\n Status Reports (measure progress against requirements) Reports\n\n From Product Verification and To Technical Planning ,\n Product Validation Processes Requirements , and\n Conduct horizontal and vertical progress Interface Management Processes\n Product Measurements technical reviews Corrective Action\n Recommendations\n\n From Decision Analysis Process Capture work products from technical To Technical Data\n Decision Support assessment activities Management Process\n Recommendations and Work Products from\n Impacts TechnicalAssessment\n\n FIGURE 6.7-1 Technical Assessment Process\n\n\n\n assessed or tracked to determine technical prog- 6.7.1.2 Process Activities\n ress. These measures are also referred to as MOEs, 6.7.1.2.1 Prepare Strategy for Conducting Technical\n MOPs, KPPs, and TPMs. (See Section 6.7.2.6.2 Assessments\n in the NASA Expanded Guidance for Systems As outlined in FIGURE 6.7-1, the technical plans pro-\n Engineering at https://nen.nasa.gov/web/se/doc-re- vide the initial inputs into the Technical Assessment\n pository.) They provide indications of the program/ Process. These documents outline the technical\n project’s performance in key management, techni- reviews/assessment approach as well as identify the\n cal, cost (budget), schedule, and risk areas. technical measures that will be tracked and assessed\n to determine technical progress. An important part\n• Reporting Requirements: These are the require- of the technical planning is determining what is\n ments on the methodology in which the status of needed in time, resources, and performance to com-\n the technical measures will be reported with regard plete a system that meets desired goals and objectives.\n to management, technical cost (budget), sched- Project managers need visibility into the progress of\n ule, and risk. The requirements apply internally those plans in order to exercise proper management\n to the program/project and are used externally by control. Typical activities in determining progress\n the Centers and Mission Directorates to assess the against the identified technical measures include sta-\n performance of the program or project. The meth- tus reporting and assessing the data. Status report-\n odology and tools used for reporting the status ing will identify where the project stands with regard\n will be established on a project-by-project basis. to a particular technical measure. Assessing will\n\n\n 158",
+          "score": 7.218958052480467,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 15.457832372352824,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0170",
+          "page": 170,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nestablishing the makeup of the review team; and (4) • Technical Review Reports/Minutes: This is the\nidentifying and resolving action items resulting from collective information coming out of each review\nthe review. Section 6.7.2.3 summarizes the types of that captures the results, recommendations, and\ntechnical reviews typically conducted on a program/ actions with regard to meeting the review’s suc-\nproject and the role of these reviews in supporting cess criteria.\nmanagement decision processes. This section address\nthe types of technical reviews typically conducted • Other Work Products: These would include strat-\nfor both space flight and research and technology egies and procedures for technical assessment, key\nprograms/projects and the role of these reviews in decisions and associated rationale, assumptions,\nsupporting management decision processes. It also and lessons learned.\nidentifies some general principles for holding reviews,\nbut leaves explicit direction for executing a review to 6.7.2 Technical Assessment Guidance\nthe program/project team to define. Refer to Section 6.7.2 in the NASA Expanded\n Guidance for Systems Engineering at https://nen.\nThe process of executing technical assessment has nasa.gov/web/se/doc-repository for additional guid-\nclose relationships to other areas, such as risk man- ance on:\nagement, decision analysis, and technical planning.\nThese areas may provide input into the Technical • the basis of technical reviews,\nAssessment Process or be the benefactor of outputs • audits,\nfrom the process. • Key Decision Points,\n • required technical reviews for space flight projects,\nTABLE 6.7-1 provides a summary of the types of reviews • other reviews,\nfor a space flight project, their purpose, and timing. • status reporting and assessment (including MOEs,\n MOPs, KPPs, TPMs, EVM and other metrics,\n6.7.1.2.3 Capture Work Products\nThe work products generated during these activities Additional information is also available in NASA/\nshould be captured along with key decisions made, SP-2014-3705, NASA Space Flight Program and\nsupporting decision rationale and assumptions, Project Management Handbook.\nand lessons learned in performing the Technical\nAssessment Process.\n 6.8 Decision Analysis\n6.7.1.3 Outputs The purpose of this section is to provide an over-\nTypical outputs of the Technical Assessment Process view of the Decision Analysis Process, highlighting\nwould include the following: selected tools and methodologies. Decision Analysis\n is a framework within which analyses of diverse types\n• Assessment Results, Findings, and are applied to the formulation and characterization\n Recommendations: This is the collective data of decision alternatives that best implement the deci-\n on the established measures from which trends sion-maker’s priorities given the decision-maker’s\n can be determined and variances from expected state of knowledge.\n results can be understood. Results then feed into\n the Decision Analysis Process where corrective\n action may be necessary.\n\n\n 160",
+          "score": 13.550232132100575,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 11.121242648864193,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0167",
+          "page": 167,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n Description Tasks Expected Outcomes\n Data Implement safeguards to ensure protection of the technical database and of en route Current technical data\n management technical data from unauthorized access or intrusion. management system.\n system Establish proof of coherence of the overall technical dataset to facilitate effective and Technical data are\n maintenance efficient use. appropriately and regularly\n Maintain, as applicable, backups of each technical database. backed up to prevent data\n loss.\n Evaluate the technical data management system to identify collection and storage\n performance issues and problems; satisfaction of data users; risks associated with\n delayed or corrupted data, unauthorized access, or survivability of information from\n hazards such as fire, flood, earthquake, etc.\n Review systematically the technical data management system, including the database\n capacity, to determine its appropriateness for successive phases of the Defense\n Acquisition Framework.\n Recommend improvements for discovered risks and problems:\n Handle risks identified as part of technical risk management.\n Control recommended changes through established program/project change management\n activities.\n\n\ninformation to support assessing system design, prod- adequacy and availability of non-budgetary resources,\nuct realization, and technical management decisions. and adequacy of the risk management approach.\n\nNASA has multiple review cycle processes for both 6.7.1.1 Inputs\nspace flight programs and projects (see NPR 7120.5), Typical inputs needed for the Technical Assessment\nand research and technology programs and projects. Process would include the following:\n(See NPR 7120.8, NASA Research and Technology\nProgram and Project Management Requirements.) • Technical Plans: These are the planning doc-\nThese different review cycles all support the same uments that will outline the technical reviews/\nbasic goals but with differing formats and formalities assessment process as well as identify the techni-\nbased on the particular program or project needs. cal product/process measures that will be tracked\n and assessed to determine technical progress.\n6.7.1 Process Description Examples of these plans are the program (or\nFIGURE 6.7-1 provides a typical flow diagram for the project) plan, SEMP (if applicable), review plans\nTechnical Assessment Process and identifies typical (which may be part of the program or project\ninputs, outputs, and activities to consider in address- plan), ILS plan, and EVM plan (if applicable).\ning technical assessment. Technical assessment is These plans contain the information and descrip-\nfocused on providing a periodic assessment of the tions of the program/project’s alignment with\nprogram/project’s technical and programmatic sta- and contribution to Agency strategic goals, its\ntus and health at key points in the life cycle. There management approach, its technical approach, its\nare 6 criteria considered in this assessment process: integrated cost and schedule, its budget, resource\nalignment with and contribution to Agency strategic allocations, and its risk management approach.\ngoals; adequacy of management approach; adequacy\nof technical approach; adequacy of the integrated • Technical Process and Product Measures: These\ncost and schedule estimates and funding strategy; are the identified technical measures that will be\n\n\n\n 157",
+          "score": 5.520185258208668,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 23.452354420004824,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"System Integration Review\" (SIR) Timing Table 6.7-1",
+      "results": [
+        {
+          "id": "NASA-SE:p0171",
+          "page": 171,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.7-1 Purpose and Results for Life-Cycle Reviews for Spaceflight Projects\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nMission Concept The MCR will affirm the mission The MCR should The MCR entrance and A successful MCR supports the\nReview (MCR) need and evaluates the proposed be completed success criteria are determination that the proposed\n objectives and the concept for prior to entering defined in Table G-3 of mission meets the customer need\n meeting those objectives. the concept NPR 7123.1. and has sufficient quality and\n development phase merit to support a field Center\n (Phase A) management decision to propose\n further study to the cognizant NASA\n program Associate Administrator as\n a candidate Phase A effort.\n\nSystem The SRR evaluates the functional The SRR is The SRR entrance and Successful completion of the\nRequirements and performance requirements conducted during success criteria for a SRR freezes program/project\nReview (SRR) defined for the system and the concept program are defined in requirements and leads to a formal\n the preliminary program or development phase Table G-1 of NPR 7123.1. decision by the cognizant program\n project plan and ensures that (Phase A) and The SRR entrance and Associate Administrator to proceed\n the requirements and selected before conducting success criteria for with proposal request preparations\n concept will satisfy the mission. the SDR or MDR. projects and single-project for project implementation\n programs are defined in\n Table G-4 of NPR 7123.1.\n\nMission Sometimes called the MDR by The MDR/SDR The MDR/SDR entrance A successful MDR/SDR supports\nDefinition robotic projects and SDR for is conducted and success criteria for the decision to further develop the\nReview (MDR)/ human flight projects, this review during the concept a program are defined in system architecture/design and any\nSystem evaluates whether the proposed development phase Table G-2 of NPR 7123.1. technology needed to accomplish\nDefinition architecture is responsive to (Phase A) prior The MDR/SDR entrance the mission. The results reinforce\nReview (SDR) the functional and performance to KDP B and the and success criteria for the mission/system’s merit and\n requirements and that the start of preliminary projects and single-project provide a basis for the system\n requirements have been allocated design. programs are defined in acquisition strategy. As a result\n to all functional elements of the Table G-5 of NPR 7123.1. of successful completion, the\n mission/system. mission/system and its operation\n are well enough understood to\n warrant design and acquisition of\n the end items.\n\nPreliminary The PDR demonstrates that PDR occurs near The entrance and success As a result of successful\nDesign Review the preliminary design meets the completion of criteria for the PDR are completion of the PDR, the\n(PDR) all system requirements with the preliminary defined in Table G-6 of design-to baseline is approved.\n acceptable risk and within the design phase NPR 7123.1. A successful review result also\n cost and schedule constraints (Phase B) as the authorizes the project to proceed\n and establishes the basis for last review in the into the Implementation Phase and\n proceeding with detailed design. Formulation Phase. toward final design.\n It shows that the correct design\n options have been selected,\n interfaces have been identified,\n and verification methods have been\n described. The PDR should address\n and resolve critical, system-wide\n issues and show that work can\n begin on detailed design.\n\n (continued)\n\n\n\n\n\n\n\n 161",
+          "score": 12.295435073747722,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0168",
+          "page": 168,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From Technical To Technical Planning ,\n Planning Process RiskManagement, and Requirements\n Management Processes\n Product and Process Assessment Results/\n Measures Findings\n Prepare strategy for conducting\n Technical Plans technical assessments ToDecision Analysis Process\n\n Analysis Support\n From project Assess technical work productivity Requests\n Risk Reporting (measure progress against plans) To project and Technical Data\n Requirements Management Process\n\n Technical Cost and Schedule Assess technical product qua lity Technical Review\n Status Reports (measure progress against requirements) Reports\n\n From Product Verification and To Technical Planning ,\n Product Validation Processes Requirements , and\n Conduct horizontal and vertical progress Interface Management Processes\n Product Measurements technical reviews Corrective Action\n Recommendations\n\n From Decision Analysis Process Capture work products from technical To Technical Data\n Decision Support assessment activities Management Process\n Recommendations and Work Products from\n Impacts TechnicalAssessment\n\n FIGURE 6.7-1 Technical Assessment Process\n\n\n\n assessed or tracked to determine technical prog- 6.7.1.2 Process Activities\n ress. These measures are also referred to as MOEs, 6.7.1.2.1 Prepare Strategy for Conducting Technical\n MOPs, KPPs, and TPMs. (See Section 6.7.2.6.2 Assessments\n in the NASA Expanded Guidance for Systems As outlined in FIGURE 6.7-1, the technical plans pro-\n Engineering at https://nen.nasa.gov/web/se/doc-re- vide the initial inputs into the Technical Assessment\n pository.) They provide indications of the program/ Process. These documents outline the technical\n project’s performance in key management, techni- reviews/assessment approach as well as identify the\n cal, cost (budget), schedule, and risk areas. technical measures that will be tracked and assessed\n to determine technical progress. An important part\n• Reporting Requirements: These are the require- of the technical planning is determining what is\n ments on the methodology in which the status of needed in time, resources, and performance to com-\n the technical measures will be reported with regard plete a system that meets desired goals and objectives.\n to management, technical cost (budget), sched- Project managers need visibility into the progress of\n ule, and risk. The requirements apply internally those plans in order to exercise proper management\n to the program/project and are used externally by control. Typical activities in determining progress\n the Centers and Mission Directorates to assess the against the identified technical measures include sta-\n performance of the program or project. The meth- tus reporting and assessing the data. Status report-\n odology and tools used for reporting the status ing will identify where the project stands with regard\n will be established on a project-by-project basis. to a particular technical measure. Assessing will\n\n\n 158",
+          "score": 6.812797986945997,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0170",
+          "page": 170,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nestablishing the makeup of the review team; and (4) • Technical Review Reports/Minutes: This is the\nidentifying and resolving action items resulting from collective information coming out of each review\nthe review. Section 6.7.2.3 summarizes the types of that captures the results, recommendations, and\ntechnical reviews typically conducted on a program/ actions with regard to meeting the review’s suc-\nproject and the role of these reviews in supporting cess criteria.\nmanagement decision processes. This section address\nthe types of technical reviews typically conducted • Other Work Products: These would include strat-\nfor both space flight and research and technology egies and procedures for technical assessment, key\nprograms/projects and the role of these reviews in decisions and associated rationale, assumptions,\nsupporting management decision processes. It also and lessons learned.\nidentifies some general principles for holding reviews,\nbut leaves explicit direction for executing a review to 6.7.2 Technical Assessment Guidance\nthe program/project team to define. Refer to Section 6.7.2 in the NASA Expanded\n Guidance for Systems Engineering at https://nen.\nThe process of executing technical assessment has nasa.gov/web/se/doc-repository for additional guid-\nclose relationships to other areas, such as risk man- ance on:\nagement, decision analysis, and technical planning.\nThese areas may provide input into the Technical • the basis of technical reviews,\nAssessment Process or be the benefactor of outputs • audits,\nfrom the process. • Key Decision Points,\n • required technical reviews for space flight projects,\nTABLE 6.7-1 provides a summary of the types of reviews • other reviews,\nfor a space flight project, their purpose, and timing. • status reporting and assessment (including MOEs,\n MOPs, KPPs, TPMs, EVM and other metrics,\n6.7.1.2.3 Capture Work Products\nThe work products generated during these activities Additional information is also available in NASA/\nshould be captured along with key decisions made, SP-2014-3705, NASA Space Flight Program and\nsupporting decision rationale and assumptions, Project Management Handbook.\nand lessons learned in performing the Technical\nAssessment Process.\n 6.8 Decision Analysis\n6.7.1.3 Outputs The purpose of this section is to provide an over-\nTypical outputs of the Technical Assessment Process view of the Decision Analysis Process, highlighting\nwould include the following: selected tools and methodologies. Decision Analysis\n is a framework within which analyses of diverse types\n• Assessment Results, Findings, and are applied to the formulation and characterization\n Recommendations: This is the collective data of decision alternatives that best implement the deci-\n on the established measures from which trends sion-maker’s priorities given the decision-maker’s\n can be determined and variances from expected state of knowledge.\n results can be understood. Results then feed into\n the Decision Analysis Process where corrective\n action may be necessary.\n\n\n 160",
+          "score": 12.098838360076813,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 10.168953807821643,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 7.693168300906447,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0167",
+          "page": 167,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n Description Tasks Expected Outcomes\n Data Implement safeguards to ensure protection of the technical database and of en route Current technical data\n management technical data from unauthorized access or intrusion. management system.\n system Establish proof of coherence of the overall technical dataset to facilitate effective and Technical data are\n maintenance efficient use. appropriately and regularly\n Maintain, as applicable, backups of each technical database. backed up to prevent data\n loss.\n Evaluate the technical data management system to identify collection and storage\n performance issues and problems; satisfaction of data users; risks associated with\n delayed or corrupted data, unauthorized access, or survivability of information from\n hazards such as fire, flood, earthquake, etc.\n Review systematically the technical data management system, including the database\n capacity, to determine its appropriateness for successive phases of the Defense\n Acquisition Framework.\n Recommend improvements for discovered risks and problems:\n Handle risks identified as part of technical risk management.\n Control recommended changes through established program/project change management\n activities.\n\n\ninformation to support assessing system design, prod- adequacy and availability of non-budgetary resources,\nuct realization, and technical management decisions. and adequacy of the risk management approach.\n\nNASA has multiple review cycle processes for both 6.7.1.1 Inputs\nspace flight programs and projects (see NPR 7120.5), Typical inputs needed for the Technical Assessment\nand research and technology programs and projects. Process would include the following:\n(See NPR 7120.8, NASA Research and Technology\nProgram and Project Management Requirements.) • Technical Plans: These are the planning doc-\nThese different review cycles all support the same uments that will outline the technical reviews/\nbasic goals but with differing formats and formalities assessment process as well as identify the techni-\nbased on the particular program or project needs. cal product/process measures that will be tracked\n and assessed to determine technical progress.\n6.7.1 Process Description Examples of these plans are the program (or\nFIGURE 6.7-1 provides a typical flow diagram for the project) plan, SEMP (if applicable), review plans\nTechnical Assessment Process and identifies typical (which may be part of the program or project\ninputs, outputs, and activities to consider in address- plan), ILS plan, and EVM plan (if applicable).\ning technical assessment. Technical assessment is These plans contain the information and descrip-\nfocused on providing a periodic assessment of the tions of the program/project’s alignment with\nprogram/project’s technical and programmatic sta- and contribution to Agency strategic goals, its\ntus and health at key points in the life cycle. There management approach, its technical approach, its\nare 6 criteria considered in this assessment process: integrated cost and schedule, its budget, resource\nalignment with and contribution to Agency strategic allocations, and its risk management approach.\ngoals; adequacy of management approach; adequacy\nof technical approach; adequacy of the integrated • Technical Process and Product Measures: These\ncost and schedule estimates and funding strategy; are the identified technical measures that will be\n\n\n\n 157",
+          "score": 7.29268413441754,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 19.776349550375702,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_path": "data/local/advanced/pages/p0019_2000.png",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        },
+        {
+          "source_id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "image_path": "data/local/advanced/pages/p0172_2000.png",
+          "image_sha256": "bc1054457ed1e066d0e9fd3607853efca04d2434e37dd755e07c2e3842fe734f"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        },
+        {
+          "source_id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "image_sha256": "bc1054457ed1e066d0e9fd3607853efca04d2434e37dd755e07c2e3842fe734f"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Phase D performs work to assemble and integrate the system (hardware, software, and humans) while developing confidence it can meet system requirements; it includes launching and preparing for operations and performing system end product implementation, assembly, integration and test, and transition to use.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0019",
+                "locator": "Table 2.2-1, Phase D row, Purpose",
+                "evidence": "Phase D ... To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use."
+              }
+            ]
+          },
+          {
+            "text": "The System Integration Review (SIR) occurs at the end of Phase C and must happen before Phase D (systems assembly, integration, and test) begins.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0172",
+                "locator": "Table 6.7-1, System Integration Review (SIR) row, Timing",
+                "evidence": "SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    19,
+    172
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Phase D performs work to \"assemble and integrate the system (hardware, software, and humans),\" while \"developing confidence that it is able to meet the system requirements\"; it also includes \"Launch and prepare for operations\" and performing \"system end product implementation, assembly, integration and test, and transition to use.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase D row, Purpose column",
+            "evidence": "Phase D To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use."
+          }
+        ]
+      },
+      {
+        "text": "The System Integration Review (SIR) must occur \"before the systems assembly, integration, and test phase (Phase D) begins\" (it \"occurs at the end of the final design phase (Phase C)\").",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0172",
+            "locator": "Table 6.7-1, System Integration Review (SIR) row, Timing column",
+            "evidence": "SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Phase D performs work to assemble and integrate the system (hardware, software, and humans) while developing confidence it can meet system requirements; it includes launching and preparing for operations and performing system end product implementation, assembly, integration and test, and transition to use.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "locator": "Table 2.2-1, Phase D row, Purpose",
+          "evidence": "Phase D ... To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use."
+        }
+      ]
+    },
+    {
+      "text": "The System Integration Review (SIR) occurs at the end of Phase C and must happen before Phase D (systems assembly, integration, and test) begins.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0172",
+          "locator": "Table 6.7-1, System Integration Review (SIR) row, Timing",
+          "evidence": "SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 25703.42
+}

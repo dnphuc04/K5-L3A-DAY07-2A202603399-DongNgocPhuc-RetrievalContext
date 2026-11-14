@@ -1,0 +1,436 @@
+{
+  "id": "ADV-DEV-15",
+  "split": "dev",
+  "question": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek46HgblA5xzXVhnVBqGlFu2r1bhh",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 470,
+        "completion_tokens": 12,
+        "total_tokens": 482,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1124.79,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KtxGQ1rP2n8Xp6kiv2ptfM1o",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Appendix C Good Requirements WHAT or HOW\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46IXaYpbzLOdhenTrWoiByTanbe",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5028,
+        "completion_tokens": 18,
+        "total_tokens": 5046,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1221.11,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pV5tMMUa4KIr2YGldzF1Xqdo",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[197,198,199]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46OyJpeQhTp7JT200QODxGnnouy",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 19482,
+        "completion_tokens": 18,
+        "total_tokens": 19500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2690.59,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_WO6HsjZOIWVeCdtITXzc3FXz",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[197,198,199]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46TXl7fiUbCTNTrlNjg3ahqFMOp",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 33928,
+        "completion_tokens": 22,
+        "total_tokens": 33950,
+        "prompt_tokens_details": {
+          "cached_tokens": 17792,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3663.52,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_mvQHwUcfFRZgNLyI87DkxcjZ",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Appendix C Good Requirements guidance state WHAT or HOW\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46Wuf1nTN7OLiDqlEjNf2W0QfIL",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 38011,
+        "completion_tokens": 18,
+        "total_tokens": 38029,
+        "prompt_tokens_details": {
+          "cached_tokens": 33920,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3325.48,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_jZbz1hASCNFEGaPcIhj4HhT8",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[207,208,209]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46e3ATrKE8ob86hMnT8VXVr5cZt",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 52004,
+        "completion_tokens": 115,
+        "total_tokens": 52119,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6473.65,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Theo hướng dẫn trong Phụ lục C, yêu cầu nên nêu rõ WHAT (cái gì) cần thiết, không phải HOW (cách thức) để cung cấp nó; tức là nêu vấn đề cần giải quyết chứ không phải cách giải quyết.\",\"citations\":[{\"page\":207,\"bbox\":[0.05,0.3,0.95,0.9],\"locator\":\"Appendix C, C.1 Use of Correct Terms\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 24.45876977396722,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 21.15479363105523,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 16.651470372343663,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0263",
+          "page": 263,
+          "text": " Appendix S: Concept of OperationsAnnotated Outline\n\n\n\n\n\nThe number of scenarios, use cases, or DRMs discussed 7.2 Organizational Impacts\nshould cover both nominal and off-nominal conditions Describes how the envisioned system could impact existing or\nand cover all expected functions and capabilities. A good future organizational aspects. This would include the need\npractice is to label each of these scenarios to facilitate for hiring specialists or operators, specialized or widespread\nrequirements traceability; e.g., [DRM-0100], [DRM- training or retraining, and use of multiple organizations.\n0200], etc.\n 7.3 Scientific/Technical Impacts\n6.1 Nominal Conditions This subsection describes the anticipated scientific or\nThese scenarios, use cases, or DRMs cover how the envi- technical impact of a successful mission or deploy-\nsioned system will operate under normal circumstances ment, what scientific questions will be answered, what\nwhere there are no problems or anomalies taking place. knowledge gaps will be filled, and what services will be\n provided. If the purpose of this system is to improve oper-\n6.2 Off-Nominal Conditions ations or logistics instead of science, describe the antici-\nThese scenarios cover cases where some condition has pated impact of the system in those terms.\noccurred that will need the system to perform in a way\nthat is different from normal. This would cover failures,\nlow performance, unexpected environmental conditions, 8.0 Risks and Potential Issues\nor operator errors. These scenarios should reveal any This section describes any risks and potential issues asso-\nadditional capabilities or safeguards that are needed in ciated with the development, operations or disposal of\nthe system. the envisioned system. Also includes concerns/risks with\n the project schedule, staffing support, or implementation\n approach. Allocate subsections as needed for each risk\n7.0 Impact Considerations or issue consideration. Pay special attention to closeout\nThis section describes the potential impacts, both positive issues at the end of the project.\nand negative, on the environment and other areas.\n Appendix A: Acronyms\n7.1 Environmental Impacts This part lists each acronym used in the ConOps and\nDescribes how the envisioned system could impact the spells it out.\nenvironment of the local area, state, country, world-\nwide, space, and other planetary bodies as appropriate Appendix B: Glossary of Terms\nfor the systems intended purpose. This includes the pos- The part lists key terms used in the ConOps and provides\nsibility of the generation of any orbital debris, potential a description of their meaning.\ncontamination of other planetary bodies or atmosphere,\nand generation of hazardous wastes that will need dis-\nposal on earth and other factors. Impacts should cover\nthe entire life cycle of the system from development\nthrough disposal.\n\n\n\n\n\n\n\n\n 253",
+          "score": 16.179342459253327,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 15.762211339567681,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0004",
+          "page": 4,
+          "text": " Table of Contents\n\n\n\n\n\n 5.3.1 Process Description 89 Appendix A Acronyms . . . . . . . . . . . . . . 173\n 5.3.2 Product Verification Guidance 99 Appendix B Glossary . . . . . . . . . . . . . . . 176\n 5.4 Product Validation . . . . . . . . . . .99 Appendix C How to Write a Good Requirement—\n 5.4.1 Process Description 99 Checklist . . . . . . . . . . . . . . . 197\n 5.4.2 Product Validation Guidance 106 Appendix D Requirements Verification Matrix . . . 201\n 5.5 Product Transition . . . . . . . . . . 106 Appendix E Creating the Validation Plan with a\n 5.5.1 Process Description 106 Validation Requirements Matrix . . . . 203\n 5.5.2 Product Transition Guidance 112 Appendix F Functional, Timing, and State Analysis 205\n Appendix G Technology Assessment/Insertion . . 206\n6.0 Crosscutting Technical Management 113 Appendix H Integration Plan Outline . . . . . . . . 214\n Appendix I Verification and Validation Plan Outline 216\n 6.1 Technical Planning . . . . . . . . . . 113 Appendix J SEMP Content Outline . . . . . . . . 223\n 6.1.1 Process Description 114 Appendix K Technical Plans . . . . . . . . . . . . 235\n 6.1.2 Technical Planning Guidance 130 Appendix L Interface Requirements Document\n 6.2 Requirements Management . . . . . 130 Outline . . . . . . . . . . . . . . . . 236\n 6.2.1 Process Description 131 Appendix M CM Plan Outline . . . . . . . . . . . 239\n 6.2.2 Requirements Management Appendix N Guidance on Technical Peer\n Guidance 135 Reviews/Inspections . . . . . . . . . 240\n 6.3 Interface Management . . . . . . . . 135 Appendix O Reserved . . . . . . . . . . . . . . . 241\n 6.3.1 Process Description 136 Appendix P SOW Review Checklist . . . . . . . . 242\n 6.3.2 Interface Management Guidance 138 Appendix Q Reserved . . . . . . . . . . . . . . . 243\n 6.4 Technical Risk Management . . . . . 138 Appendix R HSI Plan Content Outline . . . . . . . 244\n 6.4.1 Risk Management Process Appendix S Concept of Operations\n Description 141 Annotated Outline . . . . . . . . . . 251\n 6.4.2 Risk Management Process Appendix T Systems Engineering in Phase E . . . 254\n Guidance 143\n 6.5 Configuration Management . . . . . . 143\n 6.5.1 Process Description 144 References Cited 260\n 6.5.2 CM Guidance 150 Bibliography 270\n 6.6 Technical Data Management . . . . . 151\n 6.6.1 Process Description 151\n 6.6.2 Technical Data Management\n Guidance 155\n 6.7 Technical Assessment . . . . . . . . 155\n 6.7.1 Process Description 157\n 6.7.2 Technical Assessment Guidance 160\n 6.8 Decision Analysis . . . . . . . . . . . 160\n 6.8.1 Process Description 164\n 6.8.2 Decision Analysis Guidance 170\n\n\n\n\n\n\n\n\n\n iv",
+          "score": 15.255631710191183,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0242",
+          "page": 242,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n7.6 Other 9.0 Compliance Matrices\nThis section is reserved to describe any unique SE func- Appendix H.2 in NPR 7123.1A is the basis for the com-\ntions or activities for the project that are not covered in pliance matrix for this section of the SEMP. The proj-\nother sections. ect will complete this matrix from the point of view of\n the project and the technical scope. Each requirement\n8.0 Integration with the Project Plan will be addressed as compliant, partially compliant, or\n and Technical Resource Allocation noncompliant. Compliant requirements should indicate\nThis section describes how the technical effort will inte- which process or activity addresses the compliance. For\ngrate with project management and defines roles and example, compliance can be accomplished by using a\nresponsibilities. It addresses how technical requirements Center process or by using a project process as described\nwill be integrated with the project plan to determine in another section of the SEMP or by reference to another\nthe allocation of resources, including cost, schedule, and documented process. Noncompliant areas should state\npersonnel, and how changes to the allocations will be the rationale for noncompliance.\ncoordinated.\n Appendices\n Key Questions Appendices are included, as necessary, to provide a\n 1. How will we assess risk? What thresholds glossary, acronyms and abbreviations, and informa-\n are needed for triggering mitigation activi- tion published separately for convenience in document\n ties? How will we integrate risk management maintenance. Included are: (1) information that may\n into the technical decision process? be pertinent to multiple topic areas (e.g., description of\n 2. How will we communicate across and out- methods or procedures); (2) charts and proprietary data\n side of the project? applicable to the technical efforts required in the SEMP;\n 3. How will we record decisions? and (3) a summary of technical plans associated with\n 4. How do we incorporate lessons learned from the project. Each appendix should be referenced in one\n other projects? of the sections of the engineering plan where data would\n normally have been provided.\n\n Templates\nThis section describes the interface between all of the tech- Any templates for forms, plans, or reports the technical\nnical aspects of the project and the overall project man- team will need to fill out, like the format for the veri-\nagement process during the systems engineering planning fication and validation plan, should be included in the\nactivities and updates. All activities to coordinate tech- appendices.\nnical efforts with the overall project are included, such\nas technical interactions with the external stakeholders, References\nusers, and contractors. This section contains all documents referenced in the text\n of the SEMP.\n\n\n\n\n\n\n\n\n\n 232",
+          "score": 13.543051745734477,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 197,
+          "path": "data/local/advanced/pages/p0197_1800.png",
+          "sha256": "17905e9c030c0effaa01ae9a15b14ba02dfa149649c5e2891c9b33946ef9d022",
+          "citation_page": 197,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nat the CDR plus the approved changes thereafter. Product: A part of a system consisting of end prod-\nPCAs are conducted on both hardware-and soft- ucts that perform operational functions and enabling\nware-configured products. products that perform life cycle services related to\n the end product or a result of the technical efforts in\nPost-Flight Assessment Review: Evaluates how well the form of a work product (e.g., plan, baseline, or\nmission objectives were met during a mission and test result).\nidentifies all flight and ground system anomalies\nthat occurred during the flight and determines the Product Baseline (Phase D/E): The product base-\nactions necessary to mitigate or resolve the anomalies line is the approved technical documentation that\nfor future flights of the same spacecraft design. describes the configuration of a CI during the produc-\n tion, fielding/deployment, and operational support\nPost-Launch Assessment Review: A review that phases of its life cycle. The product baseline describes\nevaluates the readiness of the spacecraft systems detailed physical or form, fit, and function character-\nto proceed with full, routine operations after post- istics of a CI; the selected functional characteristics\nlaunch deployment. The review also evaluates the sta- designated for production acceptance testing; and the\ntus of the project plans and the capability to conduct production acceptance test requirements.\nthe mission with emphasis on near-term operations\nand mission-critical events. Product Breakdown Structure: A hierarchical break-\n down of the hardware and software products of a\nPrecedence Diagram: Workflow diagram that places program/project.\nactivities in boxes connected by dependency arrows;\ntypical of a Gantt chart. Product Implementation Process: A process used to\n generate a specified product of a product layer through\nPreliminary Design Review: A review that demon- buying, making, or reusing in a form consistent with\nstrates that the preliminary design meets all system the product life cycle phase exit (success) criteria and\nrequirements with acceptable risk and within the cost that satisfies the design solution definition-specified\nand schedule constraints and establishes the basis for requirements (e.g., drawings, specifications).\nproceeding with detailed design. It will show that the\ncorrect design option has been selected, interfaces Product Integration Process: A process used to\nhave been identified, and verification methods have transform the design solution definition into the\nbeen described. desired end product of the product layer through\n assembly and integration of lower-level validated end\nProcess: A set of activities used to convert inputs products in a form that is consistent with the product\ninto desired outputs to generate expected outcomes life cycle phase exit (success) criteria and that satis-\nand satisfy a purpose. fies the design solution definition requirements (e.g.,\n drawings, specifications).\nProducibility: A system characteristic associated with\nthe ease and economy with which a completed design Product Realization: The act of making, buying, or\ncan be transformed (i.e., fabricated, manufactured, or reusing a product, or the assembly and integration\ncoded) into a hardware and/or software realization. of lower-level realized products into a new product,\n as well as the verification and validation that the\n\n\n\n 187"
+        },
+        {
+          "page": 198,
+          "path": "data/local/advanced/pages/p0198_1800.png",
+          "sha256": "97f43e9f6e44b8e4f6059587c6942375f690d140500e4091738f1d933afb9caf",
+          "citation_page": 198,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nproduct satisfies its appropriate set of requirements Prognosis: The prediction of a system’s future health\nand the transition of the product to its customer. states, degradation, and Remaining Useful Life (RUL).\n\n\nProduct Transition Process: A process used to tran- Program: A strategic investment by a mission direc-\nsition a verified and validated end product that has torate or mission support office that has a defined\nbeen generated by product implementation or prod- architecture and/or technical approach, require-\nuct integration to the customer at the next level in the ments, funding level, and a management structure\nsystem structure for integration into an end product that initiates and directs one or more projects. A pro-\nor, for the top-level end product, transitioned to the gram defines a strategic direction that the Agency has\nintended end user. identified as critical.\n\n\nProduct Validation Process: A process used to con- Program/System Definition Review: A review that\nfirm that a verified end product generated by product examines the proposed program architecture and the\nimplementation or product integration fulfills (satis- flowdown to the functional elements of the system.\nfies) its intended use when placed in its intended envi- The proposed program’s objectives and the concept\nronment and to assure that any anomalies discovered for meeting those objectives are evaluated. Key tech-\nduring validation are appropriately resolved prior to nologies and other risks are identified and assessed.\ndelivery of the product (if validation is done by the The baseline program plan, budgets, and schedules\nsupplier of the product) or prior to integration with are presented.\nother products into a higher-level assembled product\n(if validation is done by the receiver of the product). Program Requirements: The set of requirements\nThe validation is done against the set of baselined imposed on the program office, which are typically\nstakeholder expectations. found in the program plan plus derived requirements\n that the program imposes on itself.\nProduct Verification Process: A process used to\ndemonstrate that an end product generated from Program System Requirements Review: A review\nproduct implementation or product integration con- that evaluates the credibility and responsiveness of a\nforms to its design solution definition requirements proposed program requirements/architecture to the\nas a function of the product life cycle phase and the mission directorate requirements, the allocation of\nlocation of the product layer end product in the sys- program requirements to the projects, and the matu-\ntem structure. rity of the program’s mission/system definition.\n\n\nProduction Readiness Review (PRR): A review for Programmatic Requirements: Requirements set\nprojects developing or acquiring multiple or similar by the mission directorate, program, project, and\nsystems greater than three or as determined by the PI, if applicable. These include strategic scientific\nproject. The PRR determines the readiness of the and exploration requirements, system performance\nsystem developers to efficiently produce the required requirements, and schedule, cost, and similar non-\nnumber of systems. It ensures that the production technical constraints.\nplans, fabrication, assembly, integration-enabling\nproducts, operational support, and personnel are in Project: A specific investment having defined goals,\nplace and ready to begin production. objectives, requirements, life cycle cost, a beginning,\n\n\n\n 188"
+        },
+        {
+          "page": 199,
+          "path": "data/local/advanced/pages/p0199_1800.png",
+          "sha256": "4899c1fdf84b53f93ef2a7b1f6b07ab42dcbb621c7d4db1919894d2273d9e7de",
+          "citation_page": 199,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nand an end. A project yields new or revised products systems in an operational environment. The proto-\nor services that directly address NASA’s strategic type is used to “wring out” the design solution so that\nneeds. The products may be produced or the services experience gained from the prototype can be fed back\nperformed wholly in-house; by partnerships with into design changes that will improve the manufac-\nGovernment, industry, or academia; or through con- ture, integration, and maintainability of a single flight\ntracts with private industry. item or the production run of several flight items.\n\n\nProject Plan: The document that establishes the Quality Assurance: An independent assessment per-\nproject’s baseline for implementation, signed by the formed throughout a product’s life cycle in order to\nresponsible program manager, Center Director, proj- acquire confidence that the system actually produced\nect manager, and the MDAA, if required. and delivered is in accordance with its functional,\n performance, and design requirements.\nProject Requirements: The set of requirements\nimposed on the project and developer, which are typ- Realized Product: The end product that has been\nically found in the project plan plus derived require- implemented/integrated, verified, validated, and\nments that the project imposes on itself. It includes transitioned to the next product layer.\nidentification of activities and deliverables (end prod-\nucts and work products) and outputs of the develop- Recovery: An action taken to restore the functions\nment and operations. necessary to achieve existing or redefined system\n goals after a fault/failure occurs.\nPhase Product: An end product that is to be provided\nas a result of the activities of a given life cycle phase. Recursive: Value is added to the system by the\nThe form depends on the phase—a product of early repeated application of processes to design next low-\nphases might be a simulation or model; a product of er-layer system products or to realize next upper-layer\nlater phases may be the (final) end product itself. end products within the system structure. This also\n applies to repeating the application of the same pro-\nProduct Form: A representation of a product that cesses to the system structure in the next life cycle\ndepends on the development phase, current use, and phase to mature the system definition and satisfy\nmaturity. Examples include mock-up, model, engi- phase exit (success) criteria.\nneering unit, prototype unit, and flight unit.\n Relevant Stakeholder: A subset of the term “stake-\nProduct Realization: The desired output from the appli- holder” that applies to people or roles that are des-\ncation of the four product realization processes. The ignated in a plan for stakeholder involvement. Since\nform of this product is dependent on the phase of the “stakeholder” may describe a very large number of\nproduct life cycle and the phase exit (success) criteria. people, a lot of time and effort would be consumed\n by attempting to deal with all of them. For this rea-\nPrototype: The prototype unit demonstrates form, son, “relevant stakeholder” is used in most practice\nfit, and function at a scale deemed to be representa- statements to describe the people identified to con-\ntive of the final product operating in its operational tribute to a specific task.\nenvironment. A subscale test article provides fidelity\nsufficient to permit validation of analytical mod- Relevant Environment: Not all systems, subsys-\nels capable of predicting the behavior of full-scale tems, and/or components need to be operated in\n\n\n 189"
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 197,
+          "path": "data/local/advanced/pages/p0197_1800.png",
+          "sha256": "17905e9c030c0effaa01ae9a15b14ba02dfa149649c5e2891c9b33946ef9d022",
+          "citation_page": 197,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nat the CDR plus the approved changes thereafter. Product: A part of a system consisting of end prod-\nPCAs are conducted on both hardware-and soft- ucts that perform operational functions and enabling\nware-configured products. products that perform life cycle services related to\n the end product or a result of the technical efforts in\nPost-Flight Assessment Review: Evaluates how well the form of a work product (e.g., plan, baseline, or\nmission objectives were met during a mission and test result).\nidentifies all flight and ground system anomalies\nthat occurred during the flight and determines the Product Baseline (Phase D/E): The product base-\nactions necessary to mitigate or resolve the anomalies line is the approved technical documentation that\nfor future flights of the same spacecraft design. describes the configuration of a CI during the produc-\n tion, fielding/deployment, and operational support\nPost-Launch Assessment Review: A review that phases of its life cycle. The product baseline describes\nevaluates the readiness of the spacecraft systems detailed physical or form, fit, and function character-\nto proceed with full, routine operations after post- istics of a CI; the selected functional characteristics\nlaunch deployment. The review also evaluates the sta- designated for production acceptance testing; and the\ntus of the project plans and the capability to conduct production acceptance test requirements.\nthe mission with emphasis on near-term operations\nand mission-critical events. Product Breakdown Structure: A hierarchical break-\n down of the hardware and software products of a\nPrecedence Diagram: Workflow diagram that places program/project.\nactivities in boxes connected by dependency arrows;\ntypical of a Gantt chart. Product Implementation Process: A process used to\n generate a specified product of a product layer through\nPreliminary Design Review: A review that demon- buying, making, or reusing in a form consistent with\nstrates that the preliminary design meets all system the product life cycle phase exit (success) criteria and\nrequirements with acceptable risk and within the cost that satisfies the design solution definition-specified\nand schedule constraints and establishes the basis for requirements (e.g., drawings, specifications).\nproceeding with detailed design. It will show that the\ncorrect design option has been selected, interfaces Product Integration Process: A process used to\nhave been identified, and verification methods have transform the design solution definition into the\nbeen described. desired end product of the product layer through\n assembly and integration of lower-level validated end\nProcess: A set of activities used to convert inputs products in a form that is consistent with the product\ninto desired outputs to generate expected outcomes life cycle phase exit (success) criteria and that satis-\nand satisfy a purpose. fies the design solution definition requirements (e.g.,\n drawings, specifications).\nProducibility: A system characteristic associated with\nthe ease and economy with which a completed design Product Realization: The act of making, buying, or\ncan be transformed (i.e., fabricated, manufactured, or reusing a product, or the assembly and integration\ncoded) into a hardware and/or software realization. of lower-level realized products into a new product,\n as well as the verification and validation that the\n\n\n\n 187"
+        },
+        {
+          "page": 198,
+          "path": "data/local/advanced/pages/p0198_1800.png",
+          "sha256": "97f43e9f6e44b8e4f6059587c6942375f690d140500e4091738f1d933afb9caf",
+          "citation_page": 198,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nproduct satisfies its appropriate set of requirements Prognosis: The prediction of a system’s future health\nand the transition of the product to its customer. states, degradation, and Remaining Useful Life (RUL).\n\n\nProduct Transition Process: A process used to tran- Program: A strategic investment by a mission direc-\nsition a verified and validated end product that has torate or mission support office that has a defined\nbeen generated by product implementation or prod- architecture and/or technical approach, require-\nuct integration to the customer at the next level in the ments, funding level, and a management structure\nsystem structure for integration into an end product that initiates and directs one or more projects. A pro-\nor, for the top-level end product, transitioned to the gram defines a strategic direction that the Agency has\nintended end user. identified as critical.\n\n\nProduct Validation Process: A process used to con- Program/System Definition Review: A review that\nfirm that a verified end product generated by product examines the proposed program architecture and the\nimplementation or product integration fulfills (satis- flowdown to the functional elements of the system.\nfies) its intended use when placed in its intended envi- The proposed program’s objectives and the concept\nronment and to assure that any anomalies discovered for meeting those objectives are evaluated. Key tech-\nduring validation are appropriately resolved prior to nologies and other risks are identified and assessed.\ndelivery of the product (if validation is done by the The baseline program plan, budgets, and schedules\nsupplier of the product) or prior to integration with are presented.\nother products into a higher-level assembled product\n(if validation is done by the receiver of the product). Program Requirements: The set of requirements\nThe validation is done against the set of baselined imposed on the program office, which are typically\nstakeholder expectations. found in the program plan plus derived requirements\n that the program imposes on itself.\nProduct Verification Process: A process used to\ndemonstrate that an end product generated from Program System Requirements Review: A review\nproduct implementation or product integration con- that evaluates the credibility and responsiveness of a\nforms to its design solution definition requirements proposed program requirements/architecture to the\nas a function of the product life cycle phase and the mission directorate requirements, the allocation of\nlocation of the product layer end product in the sys- program requirements to the projects, and the matu-\ntem structure. rity of the program’s mission/system definition.\n\n\nProduction Readiness Review (PRR): A review for Programmatic Requirements: Requirements set\nprojects developing or acquiring multiple or similar by the mission directorate, program, project, and\nsystems greater than three or as determined by the PI, if applicable. These include strategic scientific\nproject. The PRR determines the readiness of the and exploration requirements, system performance\nsystem developers to efficiently produce the required requirements, and schedule, cost, and similar non-\nnumber of systems. It ensures that the production technical constraints.\nplans, fabrication, assembly, integration-enabling\nproducts, operational support, and personnel are in Project: A specific investment having defined goals,\nplace and ready to begin production. objectives, requirements, life cycle cost, a beginning,\n\n\n\n 188"
+        },
+        {
+          "page": 199,
+          "path": "data/local/advanced/pages/p0199_1800.png",
+          "sha256": "4899c1fdf84b53f93ef2a7b1f6b07ab42dcbb621c7d4db1919894d2273d9e7de",
+          "citation_page": 199,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nand an end. A project yields new or revised products systems in an operational environment. The proto-\nor services that directly address NASA’s strategic type is used to “wring out” the design solution so that\nneeds. The products may be produced or the services experience gained from the prototype can be fed back\nperformed wholly in-house; by partnerships with into design changes that will improve the manufac-\nGovernment, industry, or academia; or through con- ture, integration, and maintainability of a single flight\ntracts with private industry. item or the production run of several flight items.\n\n\nProject Plan: The document that establishes the Quality Assurance: An independent assessment per-\nproject’s baseline for implementation, signed by the formed throughout a product’s life cycle in order to\nresponsible program manager, Center Director, proj- acquire confidence that the system actually produced\nect manager, and the MDAA, if required. and delivered is in accordance with its functional,\n performance, and design requirements.\nProject Requirements: The set of requirements\nimposed on the project and developer, which are typ- Realized Product: The end product that has been\nically found in the project plan plus derived require- implemented/integrated, verified, validated, and\nments that the project imposes on itself. It includes transitioned to the next product layer.\nidentification of activities and deliverables (end prod-\nucts and work products) and outputs of the develop- Recovery: An action taken to restore the functions\nment and operations. necessary to achieve existing or redefined system\n goals after a fault/failure occurs.\nPhase Product: An end product that is to be provided\nas a result of the activities of a given life cycle phase. Recursive: Value is added to the system by the\nThe form depends on the phase—a product of early repeated application of processes to design next low-\nphases might be a simulation or model; a product of er-layer system products or to realize next upper-layer\nlater phases may be the (final) end product itself. end products within the system structure. This also\n applies to repeating the application of the same pro-\nProduct Form: A representation of a product that cesses to the system structure in the next life cycle\ndepends on the development phase, current use, and phase to mature the system definition and satisfy\nmaturity. Examples include mock-up, model, engi- phase exit (success) criteria.\nneering unit, prototype unit, and flight unit.\n Relevant Stakeholder: A subset of the term “stake-\nProduct Realization: The desired output from the appli- holder” that applies to people or roles that are des-\ncation of the four product realization processes. The ignated in a plan for stakeholder involvement. Since\nform of this product is dependent on the phase of the “stakeholder” may describe a very large number of\nproduct life cycle and the phase exit (success) criteria. people, a lot of time and effort would be consumed\n by attempting to deal with all of them. For this rea-\nPrototype: The prototype unit demonstrates form, son, “relevant stakeholder” is used in most practice\nfit, and function at a scale deemed to be representa- statements to describe the people identified to con-\ntive of the final product operating in its operational tribute to a specific task.\nenvironment. A subscale test article provides fidelity\nsufficient to permit validation of analytical mod- Relevant Environment: Not all systems, subsys-\nels capable of predicting the behavior of full-scale tems, and/or components need to be operated in\n\n\n 189"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Appendix C Good Requirements guidance state WHAT or HOW",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 16.434405711003848,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 14.557847873522004,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0004",
+          "page": 4,
+          "text": " Table of Contents\n\n\n\n\n\n 5.3.1 Process Description 89 Appendix A Acronyms . . . . . . . . . . . . . . 173\n 5.3.2 Product Verification Guidance 99 Appendix B Glossary . . . . . . . . . . . . . . . 176\n 5.4 Product Validation . . . . . . . . . . .99 Appendix C How to Write a Good Requirement—\n 5.4.1 Process Description 99 Checklist . . . . . . . . . . . . . . . 197\n 5.4.2 Product Validation Guidance 106 Appendix D Requirements Verification Matrix . . . 201\n 5.5 Product Transition . . . . . . . . . . 106 Appendix E Creating the Validation Plan with a\n 5.5.1 Process Description 106 Validation Requirements Matrix . . . . 203\n 5.5.2 Product Transition Guidance 112 Appendix F Functional, Timing, and State Analysis 205\n Appendix G Technology Assessment/Insertion . . 206\n6.0 Crosscutting Technical Management 113 Appendix H Integration Plan Outline . . . . . . . . 214\n Appendix I Verification and Validation Plan Outline 216\n 6.1 Technical Planning . . . . . . . . . . 113 Appendix J SEMP Content Outline . . . . . . . . 223\n 6.1.1 Process Description 114 Appendix K Technical Plans . . . . . . . . . . . . 235\n 6.1.2 Technical Planning Guidance 130 Appendix L Interface Requirements Document\n 6.2 Requirements Management . . . . . 130 Outline . . . . . . . . . . . . . . . . 236\n 6.2.1 Process Description 131 Appendix M CM Plan Outline . . . . . . . . . . . 239\n 6.2.2 Requirements Management Appendix N Guidance on Technical Peer\n Guidance 135 Reviews/Inspections . . . . . . . . . 240\n 6.3 Interface Management . . . . . . . . 135 Appendix O Reserved . . . . . . . . . . . . . . . 241\n 6.3.1 Process Description 136 Appendix P SOW Review Checklist . . . . . . . . 242\n 6.3.2 Interface Management Guidance 138 Appendix Q Reserved . . . . . . . . . . . . . . . 243\n 6.4 Technical Risk Management . . . . . 138 Appendix R HSI Plan Content Outline . . . . . . . 244\n 6.4.1 Risk Management Process Appendix S Concept of Operations\n Description 141 Annotated Outline . . . . . . . . . . 251\n 6.4.2 Risk Management Process Appendix T Systems Engineering in Phase E . . . 254\n Guidance 143\n 6.5 Configuration Management . . . . . . 143\n 6.5.1 Process Description 144 References Cited 260\n 6.5.2 CM Guidance 150 Bibliography 270\n 6.6 Technical Data Management . . . . . 151\n 6.6.1 Process Description 151\n 6.6.2 Technical Data Management\n Guidance 155\n 6.7 Technical Assessment . . . . . . . . 155\n 6.7.1 Process Description 157\n 6.7.2 Technical Assessment Guidance 160\n 6.8 Decision Analysis . . . . . . . . . . . 160\n 6.8.1 Process Description 164\n 6.8.2 Decision Analysis Guidance 170\n\n\n\n\n\n\n\n\n\n iv",
+          "score": 14.360113124501709,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0263",
+          "page": 263,
+          "text": " Appendix S: Concept of OperationsAnnotated Outline\n\n\n\n\n\nThe number of scenarios, use cases, or DRMs discussed 7.2 Organizational Impacts\nshould cover both nominal and off-nominal conditions Describes how the envisioned system could impact existing or\nand cover all expected functions and capabilities. A good future organizational aspects. This would include the need\npractice is to label each of these scenarios to facilitate for hiring specialists or operators, specialized or widespread\nrequirements traceability; e.g., [DRM-0100], [DRM- training or retraining, and use of multiple organizations.\n0200], etc.\n 7.3 Scientific/Technical Impacts\n6.1 Nominal Conditions This subsection describes the anticipated scientific or\nThese scenarios, use cases, or DRMs cover how the envi- technical impact of a successful mission or deploy-\nsioned system will operate under normal circumstances ment, what scientific questions will be answered, what\nwhere there are no problems or anomalies taking place. knowledge gaps will be filled, and what services will be\n provided. If the purpose of this system is to improve oper-\n6.2 Off-Nominal Conditions ations or logistics instead of science, describe the antici-\nThese scenarios cover cases where some condition has pated impact of the system in those terms.\noccurred that will need the system to perform in a way\nthat is different from normal. This would cover failures,\nlow performance, unexpected environmental conditions, 8.0 Risks and Potential Issues\nor operator errors. These scenarios should reveal any This section describes any risks and potential issues asso-\nadditional capabilities or safeguards that are needed in ciated with the development, operations or disposal of\nthe system. the envisioned system. Also includes concerns/risks with\n the project schedule, staffing support, or implementation\n approach. Allocate subsections as needed for each risk\n7.0 Impact Considerations or issue consideration. Pay special attention to closeout\nThis section describes the potential impacts, both positive issues at the end of the project.\nand negative, on the environment and other areas.\n Appendix A: Acronyms\n7.1 Environmental Impacts This part lists each acronym used in the ConOps and\nDescribes how the envisioned system could impact the spells it out.\nenvironment of the local area, state, country, world-\nwide, space, and other planetary bodies as appropriate Appendix B: Glossary of Terms\nfor the systems intended purpose. This includes the pos- The part lists key terms used in the ConOps and provides\nsibility of the generation of any orbital debris, potential a description of their meaning.\ncontamination of other planetary bodies or atmosphere,\nand generation of hazardous wastes that will need dis-\nposal on earth and other factors. Impacts should cover\nthe entire life cycle of the system from development\nthrough disposal.\n\n\n\n\n\n\n\n\n 253",
+          "score": 11.449593192833571,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 10.195874182505648,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0215",
+          "page": 215,
+          "text": "Appendix F: Functional, Timing, and State Analysis\n\n\n\n\n\nThis appendix was removed. For additional guidance\non functional flow block diagrams, requirements allo-\ncation sheets/models, N-squared diagrams, timing\nanalysis, and state analysis refer to Appendix F in the\nNASA Expanded Guidance for Systems Engineering\nat https://nen.nasa.gov/web/se/doc-repository.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 205",
+          "score": 9.750336152754425,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 9.497151443161375,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 207,
+          "path": "data/local/advanced/pages/p0207_1800.png",
+          "sha256": "359aac3d7afa1b91c7af801bf70f30e7ccf972dfc63c24dda258e21b2c8248ce",
+          "citation_page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197"
+        },
+        {
+          "page": 208,
+          "path": "data/local/advanced/pages/p0208_1800.png",
+          "sha256": "f9a67a2df2e93989c3b358546e946a34b1950845fb519389b05e7335ace2ea36",
+          "citation_page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198"
+        },
+        {
+          "page": 209,
+          "path": "data/local/advanced/pages/p0209_1800.png",
+          "sha256": "4b2e1e83bc641cb2b7d378d1da9d37768b904ce5593eeaacb6edea32379b9967",
+          "citation_page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    197,
+    198,
+    199,
+    207,
+    208,
+    209
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Theo hướng dẫn trong Phụ lục C, yêu cầu nên nêu rõ WHAT (cái gì) cần thiết, không phải HOW (cách thức) để cung cấp nó; tức là nêu vấn đề cần giải quyết chứ không phải cách giải quyết.",
+      "citations": [
+        {
+          "page": 207,
+          "bbox": [
+            0.05,
+            0.3,
+            0.95,
+            0.9
+          ],
+          "locator": "Appendix C, C.1 Use of Correct Terms"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 25244.51
+}

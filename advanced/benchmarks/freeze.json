@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-11-14T09:08:15.168478+00:00",
+  "source_sha256": "8eeb4887a4dc57a23049da7dd2ed556833cf98e214b240468d987873164ff688",
+  "before_experiments": true,
+  "groups": {
+    "dev": {
+      "table": 4,
+      "diagram": 4,
+      "chart": 2,
+      "multi_hop": 2,
+      "text": 3,
+      "unanswerable": 3
+    },
+    "test": {
+      "table": 6,
+      "diagram": 5,
+      "chart": 5,
+      "multi_hop": 4,
+      "text": 4,
+      "unanswerable": 6
+    }
+  },
+  "files_sha256": {
+    "benchmarks\\absence_checks.json": "98334b874d140835afeec704672a83e90784714898dad674d81af5e83bd4171c",
+    "benchmarks\\dev.gold.json": "c9912193a48bbed79f60f9e08b66aca61cacb7b1d74275d26b6aeffa9d8c3ebe",
+    "benchmarks\\dev.inputs.json": "6311d994a824c7489804a97116cf8fdc8af3407501295f555415613fd4f6e232",
+    "benchmarks\\test.gold.json": "031a13a2bd3d37d60f997ea3d7dd84141b6e5cfe8ef2cc44ad347fb43563d2ac",
+    "benchmarks\\test.inputs.json": "4ef0c81732832ecb4a6d9c1b2fb233c7ba74c93aceb5c6699c1d57b456e1a541"
+  },
+  "notes": "English source-aligned questions; Vietnamese answers. No retrieval/model experiments before this freeze. Five chart test questions cover two quantitative figures; distinct facts from dev; limited visual diversity disclosed."
+}

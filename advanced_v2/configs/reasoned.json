@@ -1,0 +1,10 @@
+{
+  "name": "reasoned",
+  "model": "gpt-5.2-2025-12-11",
+  "reasoning_effort": "medium",
+  "top_k": 7,
+  "max_tools": 8,
+  "max_completion_tokens": 12000,
+  "image_size": 2000,
+  "verify": true
+}

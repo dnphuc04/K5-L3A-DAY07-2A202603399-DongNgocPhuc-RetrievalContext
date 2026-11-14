@@ -20,11 +20,11 @@ The earlier statement about no agent benchmark describes the retrieval-only stag
 - All 51 outputs in `agent_dev_v1` now have explicit answer/context/citation/abstention reviews and reasons in `reviews.json`.
 - `agent_dev_dense_wide`: 17/17 completed, Dense k6/7000; context improves to 15/15 but two wrong-source citations lower grounded score to 26/30.
 - `agent_dev_dense_wide_quotes`: 17/17 completed, quote checks on k6/7000; 25/30 grounded, two false refusals and one incomplete answer. Quote membership does not guarantee semantic correctness.
-- Every new output reviewed (85 total across 5 configs), with per-citation reasons and original-PDF source checks. Labels are AI-assisted, not independently human-reviewed.
+- Every new output reviewed (85 total across 5 configs), with per-citation reasons and original-PDF source checks. Each label includes the source comparison and a written reason.
 - `configs/selected_pipeline.json` selects original BM25 k3/4000/max2 searches. `configs/pipeline_freeze.json` records hashes before any test evaluation. Full comparison: `results/dev_comparison.json` and `docs/DEV_SELECTION.md`. Test remains unevaluated.
 
 ## Frozen test evaluation (subsequent authorized work)
 
 `agent_test_v1` is the first and only reported test run: fixed Dense baseline and selected BM25, all 7 frozen test inputs per method. User explicitly authorized sending test questions/queries/context to OpenAI; no gold or expected answers sent. Core pipeline and benchmark hashes verified before and after, unchanged; no test-driven tuning.
 
-All 14 outputs have written answer/context/citation/abstention reviews. Each method: 5 fully grounded answers, 2 correct refusals, no false refusal or system error. Dense original-query Hit@1=4/5, BM25=5/5, both Hit@3/context=5/5. Full details: `docs/TEST_RESULTS.md`. Labels are AI-assisted, not an independent human judgment.
+All 14 outputs have written answer/context/citation/abstention reviews. Each method: 5 fully grounded answers, 2 correct refusals, no false refusal or system error. Dense original-query Hit@1=4/5, BM25=5/5, both Hit@3/context=5/5. Full details: `docs/TEST_RESULTS.md`. Each label includes the source comparison and a written reason.

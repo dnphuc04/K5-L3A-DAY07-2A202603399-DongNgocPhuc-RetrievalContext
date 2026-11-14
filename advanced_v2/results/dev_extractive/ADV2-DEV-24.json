@@ -1,0 +1,251 @@
+{
+  "id": "ADV2-DEV-24",
+  "split": "dev",
+  "question": "In the Phase B discussion, above which life-cycle-cost threshold is the commitment made with Congress and OMB, and what is that commitment called?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4girCZdW1WDfTu9x1gZXHUd1WZj",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 576,
+        "completion_tokens": 14,
+        "total_tokens": 590,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1007.35,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_raDNl4w9ny3HKuHekMjDun5P",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Phase B life-cycle-cost threshold Congress OMB commitment\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gkXrjv3mgfTCGTTIjT7sZxLYzn",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5190,
+        "completion_tokens": 20,
+        "total_tokens": 5210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1356.97,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_AW0ZnQg8BsGXCM6p56OE1UYp",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0035\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gntVXthzYdTqJ9DivsY8XdmQ2b",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6756,
+        "completion_tokens": 30,
+        "total_tokens": 6786,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3335.42,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_UkmjG3MrWH27T4Mc052Gssk1",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0035\",\"bbox\":[0,690,768,1007]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gp9jfgNnyAGlKQLzgGnXdfczYF",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6830,
+        "completion_tokens": 30,
+        "total_tokens": 6860,
+        "prompt_tokens_details": {
+          "cached_tokens": 6528,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2179.85,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_7rt99klvSTZApSTrVttVCDnF",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0035\",\"bbox\":[0,950,768,1007]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In the Phase B discussion, above which life-cycle-cost threshold is the commitment made with Congress and OMB, and what is that commitment called?",
+      "results": [
+        {
+          "id": "NASA-SE:p0035",
+          "page": 35,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n > Establish technical resource estimates\n • Identify, analyze and update risks\n • Perform required Phase A technical activities from NPR 7120.5 as applicable\n • Satisfy Phase A reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • SRR\n • MDR/SDR\n\n\n\nsolidified, and the project develops more definition Publication (FIPS PUB) 199. The effort also pro-\nin the system requirements, top-level system architec- duces various engineering and management plans to\nture, and ConOps. Conceptual designs and analyses prepare for managing the project’s downstream pro-\n(including engineering units and physical models, as cesses such as verification and operations.\nappropriate) are developed and exhibit more engi-\nneering detail than in Pre-Phase A. Technical risks\nare identified in more detail, and technology develop- 3.5 Project Phase B:\nment needs become focused. A Systems Engineering Preliminary Design and\nManagement Plan (SEMP) is baselined in Phase A to Technology Completion\ndocument how NASA systems engineering require-\nments and practices of NPR 7123.1 will be addressed The purpose of Phase B is for the project team to\nthroughout the program life cycle. complete the technology development, engineering\n prototyping, heritage hardware and software assess-\nIn Phase A, the effort focuses on allocating func- ments, and other risk-mitigation activities identified\ntions to particular items of hardware, software, and in the project Formulation Agreement (FA) and the\nto humans. System functional and performance preliminary design. The project demonstrates that\nrequirements, along with architectures and designs, its planning, technical, cost, and schedule baselines\nbecome firm as system tradeoffs and subsystem developed during Formulation are complete and con-\ntradeoffs iterate back and forth, while collaborating sistent; that the preliminary design complies with its\nwith subject matter experts in the effort to seek out requirements; that the project is sufficiently mature\nmore cost-effective designs. A method of determin- to begin Phase C; and that the cost and schedule are\ning life cycle cost (i.e., system-level cost-effectiveness adequate to enable mission success with acceptable\nmodel) is refined in order to compare cost impacts risk. It is at the conclusion of this phase that the\nfor each of the different alternatives. (Trade studies project and the Agency commit to accomplishing\nshould precede—rather than follow—system design the project’s objectives for a given cost and schedule.\ndecisions.) Major products to this point include an For projects with a Life Cycle Cost (LCC) greater\naccepted functional baseline for the system and its than $250 million, this commitment is made with\nmajor end items. The project team conducts the secu- the Congress and the U.S. Office of Management\nrity categorization of IT systems required by NPR and Budget (OMB). This external commitment is\n2810.1 and Federal Information Processing Standard the Agency Baseline Commitment (ABC). Systems\n\n\n\n 25",
+          "score": 25.779712838963512,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0203",
+          "page": 203,
+          "text": " Appendix B: Glossary\n\n\n\n\n\n\nSystem Safety Engineering: The application of engi- of deviations and waivers depending on the timing\nneering and management principles, criteria, and of the request.\ntechniques to achieve acceptable mishap risk within\nthe constraints of operational effectiveness and suit- OR\nability, time, and cost throughout all phases of the\nsystem life cycle. The process used to seek relief from NPR 7123.1\n requirements consistent with program or project\nSystem Structure: A system structure is made up objectives, allowable risk, and constraints.\nof a layered structure of product-based WBS mod-\nels. (See “Work Breakdown Structure” and Product Technical Assessment Process: A process used to\nBreakdown Structure.”) help monitor progress of the technical effort and\n provide status information for support of the system\nSystems Approach: The application of a systematic, design, product realization, and technical manage-\ndisciplined engineering approach that is quantifiable, ment processes. A key aspect of the process is con-\nrecursive, iterative, and repeatable for the develop- ducting life cycle and technical reviews throughout\nment, operation, and maintenance of systems inte- the system life cycle.\ngrated into a whole throughout the life cycle of a\nproject or program. Technical Cost Estimate: The cost estimate of the\n technical work on a project created by the techni-\nSystems Engineering (SE) Engine: The SE model cal team based on its understanding of the system\nshown in Figure 2.1-1 that provides the 17 technical requirements and operational concepts and its vision\nprocesses and their relationships with each other. The of the system architecture.\nmodel is called an “SE engine” in that the appropriate\nset of processes is applied to the products being engi- Technical Data Management Process: A process\nneered to drive the technical effort. used to plan for, acquire, access, manage, protect,\n and use data of a technical nature to support the total\nSystems Engineering Management Plan (SEMP): life cycle of a system. This process is used to cap-\nThe SEMP identifies the roles and responsibility ture trade studies, cost estimates, technical analyses,\ninterfaces of the technical effort and specifies how reports, and other important information.\nthose interfaces will be managed. The SEMP is the\nvehicle that documents and communicates the tech- Technical Data Package: An output of the Design\nnical approach, including the application of the com- Solution Definition Process, it evolves from phase to\nmon technical processes; resources to be used; and phase, starting with conceptual sketches or models\nthe key technical tasks, activities, and events along and ending with complete drawings, parts list, and\nwith their metrics and success criteria. other details needed for product implementation or\n product integration.\nTailoring: A process used to adjust or seek relief from\na prescribed requirement to accommodate the needs Technical Measures: An established set of measures\nof a specific task or activity (e.g., program or proj- based on the expectations and requirements that will\nect). The tailoring process results in the generation be tracked and assessed to determine overall system or\n\n\n\n\n\n 193",
+          "score": 13.046798944858892,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "score": 12.894684484672105,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0036",
+          "page": 36,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n SPACE FLIGHT PHASE B:\n PRELIMINARY DESIGN AND TECHNOLOGY COMPLETION\n\n\nPurpose\nTo define the project in enough detail to establish an initial baseline capable of meeting mission needs.\nDevelop system structure end product (and enabling product) requirements and generate a preliminary\ndesign for each system structure end product.\n\n\nTypical Activities and Their Products\n• Review and update documents baselined in previous phases\n• Monitor progress against plans\n• Develop the preliminary design\n > Identify one or more feasible preliminary designs including internal and external interfaces\n > Perform analyses of candidate designs and report results\n > Conduct engineering development tests as needed and report results\n > Perform human systems integration assessments\n > Select a preliminary design solution\n• Develop operations plans based on matured ConOps\n > Define system operations as well as Principal Investigator (PI)/contract proposal management,\n review, and access and contingency planning\n• Report technology development results\n• Update cost range estimate and schedule data (Note that after PDR changes are incorporated and\n costed, at KDP C this will turn into the Agency Baseline Commitment)\n• Improve fidelity of models and prototypes used in evaluations\n• Identify and update risks\n• Develop appropriate level safety data package and security plan\n• Develop preliminary plans\n > Orbital Debris Assessment\n > Decommissioning Plan\n > Disposal Plan\n• Perform required Phase B technical activities from NPR 7120.5 as applicable\n• Satisfy Phase B reviews’ entrance/success criteria from NPR 7123.1\n\n\nReviews\n• PDR\n• Safety review\n\n\n\n\n\n\n\n 26",
+          "score": 12.276411127589027,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 12.170233447642703,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0227",
+          "page": 227,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n3.0 System Description in the sections above. This may be an existing control\n3.1 System Requirements Flowdown center, training facility, or other support.\nThis section describes where the requirements for this\nsystem come from and how they are flowed down to\nsubsystems and lower-level elements. It should also 4.0 Verification and Validation\nindicate what method will be used to perform the flow- Process\ndown and bidirectional traceability of the requirements:\nspreadsheet, model, or other means. It can point to the This section describes the process that will be used to per-\nfile, document, or spreadsheet that captures the actual form verification and validation.\nrequirements flowdown.\n 4.1 Verification and Validation\n3.2 System Architecture Management Responsibilities\nThis section describes the system that is within the scope This section describes the responsibilities of key players\nof this V&V Plan. The description should be enough so in the V&V activities. It may include identification and\nthat the V&V activities will have the proper context and duty description for test directors/conductors, managers,\nbe understandable. facility owners, boards, and other key stakeholders.\n\n3.3 End Item Architectures 4.2 Verification Methods\nThis section describes each of the major end items (sub- This section defines and describes the methods that will\nsystems, elements, units, modules, etc.) that when inte- be used during the verification activities.\ngrated together, will form the overall system that is the\nscope of this V&V Plan. 4.2.1 Analysis\n Defines what this verification method means (See\n3.3.1 System End Item A Appendix B of this handbook) and how it will be\nThis section describes the first major end item/subsystem applied to this system.\nin more detail so that the V&V activities have context\nand are understandable. 4.2.2 Inspection\n Defines what this verification method means (See\n3.3.n System End Item n Appendix B of this handbook) and how it will be\nEach end item/subsystem is separately described in a sim- applied to this system.\nilar manner as above.\n 4.2.3 Demonstration\n3.4 Ground Support Equipment Defines what this verification method means (See\nThis section describes any major ground-support equip- Appendix B of this handbook) and how it will be applied\nment that will be used during the V&V activities. This to this system.\nmay include carts for supplying power or fuel, special test\nfixtures, lifting aids, simulators, or other type of support. 4.2.4 Test\n Defines what this verification method means (See\n3.5 Other Architecture Descriptions Appendix B of this handbook) and how it will be applied\nThis section describes any other items that are import- to this system. This category may need to be broken down\nant for the V&V activities but which are not included into further categories.\n\n\n\n 217",
+          "score": 11.91837681792444,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0153",
+          "page": 153,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n6.4.1.2.4 Prepare for Technical Risk Mitigation 6.4.1.3 Outputs\nThis includes selecting the risks that will be mitigated Following are key risk outputs from activities:\nand more closely monitored, identifying the risk level\nor threshold that will trigger a risk mitigation action • Technical Risk Mitigation and/or Contingency\nplan, and identifying for each risk which stakeholders Actions: Actions taken to mitigate identified risks\nwill need to be informed that a mitigation/contin- or contingency actions taken in case risks are\ngency action is determined as well as which organi- realized.\nzations will need to become involved to perform the\nmitigation/contingency action. • Technical Risk Reports: Reports of the techni-\n cal risk policies, status, remaining residual risks,\n6.4.1.2.5 Monitor the Status of Each Technical Risk actions taken, etc. Output at the agreed-to fre-\n Periodically quency and recipients.\nRisk status will need to be monitored periodically at\na frequency identified in the risk plan. Risks that are • Work Products: Includes the procedures for con-\napproaching the trigger thresholds will be monitored ducting technical risk management; rationale for\non a more frequent basis. Reports of the status are decisions made; selected decision alternatives;\nmade to the appropriate program/project manage- assumptions made in prioritizing, handling, and\nment or board for communication and for decisions reporting technical risks; and lessons learned.\nwhether to trigger a mitigation action early. Risk sta-\ntus will also be reported at most life cycle reviews. 6.4.2 Risk Management Process\n Guidance\n6.4.1.2.6 Implement Technical Risk Mitigation and For additional guidance on risk management, refer to\n Contingency Action Plans as Triggered NASA/SP-2010-576, NASA RIDM Handbook and NASA/\nWhen the applicable thresholds are triggered, the SP-2011-3422, NASA Risk Management Handbook.\ntechnical risk mitigation and contingency action\nplans are implemented. This includes monitoring the\nresults of the action plan implementation and mod- 6.5 Configuration Management\nifying them as necessary, continuing the mitigation Configuration management is a management disci-\nuntil the residual risk and/or consequence impacts pline applied over the product’s life cycle to provide\nare acceptable, and communicating the actions and visibility into and to control changes to perfor-\nresults to the identified stakeholders. Action plan mance and functional and physical characteristics.\nreports are prepared and results reported at appropri- Additionally, according to SAE Electronic Industries\nate boards and at life cycle reviews. Alliance (EIA) 649B, improper configuration man-\n agement may result in incorrect, ineffective, and/or\n6.4.1.2.7 Capture Work Products unsafe products being released. Therefore, in order to\nWork products include the strategy and procedures for protect and ensure the integrity of NASA products,\nconducting technical risk management; the rationale NASA has endorsed the implementation of the five\nfor decisions made; assumptions made in prioritizing, configuration management functions and the asso-\nhandling, and reporting technical risks and action ciated 37 underlying principles defined within SAE/\nplan effectiveness; actions taken to correct action plan EIA-649-2 Configuration Management Requirements\nimplementation anomalies; and lessons learned. for NASA Enterprises.\n\n\n\n 143",
+          "score": 11.799245973203561,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0035",
+          "page": 35,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n > Establish technical resource estimates\n • Identify, analyze and update risks\n • Perform required Phase A technical activities from NPR 7120.5 as applicable\n • Satisfy Phase A reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • SRR\n • MDR/SDR\n\n\n\nsolidified, and the project develops more definition Publication (FIPS PUB) 199. The effort also pro-\nin the system requirements, top-level system architec- duces various engineering and management plans to\nture, and ConOps. Conceptual designs and analyses prepare for managing the project’s downstream pro-\n(including engineering units and physical models, as cesses such as verification and operations.\nappropriate) are developed and exhibit more engi-\nneering detail than in Pre-Phase A. Technical risks\nare identified in more detail, and technology develop- 3.5 Project Phase B:\nment needs become focused. A Systems Engineering Preliminary Design and\nManagement Plan (SEMP) is baselined in Phase A to Technology Completion\ndocument how NASA systems engineering require-\nments and practices of NPR 7123.1 will be addressed The purpose of Phase B is for the project team to\nthroughout the program life cycle. complete the technology development, engineering\n prototyping, heritage hardware and software assess-\nIn Phase A, the effort focuses on allocating func- ments, and other risk-mitigation activities identified\ntions to particular items of hardware, software, and in the project Formulation Agreement (FA) and the\nto humans. System functional and performance preliminary design. The project demonstrates that\nrequirements, along with architectures and designs, its planning, technical, cost, and schedule baselines\nbecome firm as system tradeoffs and subsystem developed during Formulation are complete and con-\ntradeoffs iterate back and forth, while collaborating sistent; that the preliminary design complies with its\nwith subject matter experts in the effort to seek out requirements; that the project is sufficiently mature\nmore cost-effective designs. A method of determin- to begin Phase C; and that the cost and schedule are\ning life cycle cost (i.e., system-level cost-effectiveness adequate to enable mission success with acceptable\nmodel) is refined in order to compare cost impacts risk. It is at the conclusion of this phase that the\nfor each of the different alternatives. (Trade studies project and the Agency commit to accomplishing\nshould precede—rather than follow—system design the project’s objectives for a given cost and schedule.\ndecisions.) Major products to this point include an For projects with a Life Cycle Cost (LCC) greater\naccepted functional baseline for the system and its than $250 million, this commitment is made with\nmajor end items. The project team conducts the secu- the Congress and the U.S. Office of Management\nrity categorization of IT systems required by NPR and Budget (OMB). This external commitment is\n2810.1 and Federal Information Processing Standard the Agency Baseline Commitment (ABC). Systems\n\n\n\n 25",
+          "image_path": "data/local/advanced/pages/p0035_2000.png",
+          "image_sha256": "baff689cee855e25f864521cee3bb8d1a6116a972aede0641030d6d6b00a9e95"
+        }
+      ]
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    }
+  ],
+  "viewed_pages": [
+    35
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Protocol failure after one recorded repair"
+  },
+  "elapsed_ms": 7980.61
+}

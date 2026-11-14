@@ -1,0 +1,217 @@
+{
+  "id": "ADV-DEV-15",
+  "split": "dev",
+  "question": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4Ay50G7PRojr1DfHnvvt3olqKU5",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 568,
+        "completion_tokens": 12,
+        "total_tokens": 580,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 921.34,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_zkEDcC3P7oHhZYgAQbIZUObG",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Appendix C Good Requirements WHAT or HOW\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4Az35db5MrukT55ZY3JvEH7FjpI",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5188,
+        "completion_tokens": 26,
+        "total_tokens": 5214,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1114.83,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Vpa3zurOFrBaeWXuC75tMSvZ",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0207\",\"NASA-SE:p0208\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4B5Whh1w5G7JHnbyl2MMayyYdDe",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 8183,
+        "completion_tokens": 163,
+        "total_tokens": 8346,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4652.06,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_SKzdbOpK5ialDJmENfPASGJs",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Theo hướng dẫn của Phụ lục C, yêu cầu nên nêu ra CÁI GÌ cần thiết (WHAT), không phải CÁCH thực hiện (HOW).\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"C.2 Editorial Checklist, bullet 'Is the requirement free of implementation?'\",\"evidence\":\"Requirements should state WHAT is needed, NOT HOW to provide it; i.e., state the problem not the solution.\"},{\"source_id\":\"NASA-SE:p0208\",\"locator\":\"C.4 Requirements Validation Checklist, Compliance, bullet 'Are requirements free of implementation specifics?'\",\"evidence\":\"Requirements should state what is needed, not how to provide it.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 24.45876977396722,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 21.15479363105523,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 16.651470372343663,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0263",
+          "page": 263,
+          "text": " Appendix S: Concept of OperationsAnnotated Outline\n\n\n\n\n\nThe number of scenarios, use cases, or DRMs discussed 7.2 Organizational Impacts\nshould cover both nominal and off-nominal conditions Describes how the envisioned system could impact existing or\nand cover all expected functions and capabilities. A good future organizational aspects. This would include the need\npractice is to label each of these scenarios to facilitate for hiring specialists or operators, specialized or widespread\nrequirements traceability; e.g., [DRM-0100], [DRM- training or retraining, and use of multiple organizations.\n0200], etc.\n 7.3 Scientific/Technical Impacts\n6.1 Nominal Conditions This subsection describes the anticipated scientific or\nThese scenarios, use cases, or DRMs cover how the envi- technical impact of a successful mission or deploy-\nsioned system will operate under normal circumstances ment, what scientific questions will be answered, what\nwhere there are no problems or anomalies taking place. knowledge gaps will be filled, and what services will be\n provided. If the purpose of this system is to improve oper-\n6.2 Off-Nominal Conditions ations or logistics instead of science, describe the antici-\nThese scenarios cover cases where some condition has pated impact of the system in those terms.\noccurred that will need the system to perform in a way\nthat is different from normal. This would cover failures,\nlow performance, unexpected environmental conditions, 8.0 Risks and Potential Issues\nor operator errors. These scenarios should reveal any This section describes any risks and potential issues asso-\nadditional capabilities or safeguards that are needed in ciated with the development, operations or disposal of\nthe system. the envisioned system. Also includes concerns/risks with\n the project schedule, staffing support, or implementation\n approach. Allocate subsections as needed for each risk\n7.0 Impact Considerations or issue consideration. Pay special attention to closeout\nThis section describes the potential impacts, both positive issues at the end of the project.\nand negative, on the environment and other areas.\n Appendix A: Acronyms\n7.1 Environmental Impacts This part lists each acronym used in the ConOps and\nDescribes how the envisioned system could impact the spells it out.\nenvironment of the local area, state, country, world-\nwide, space, and other planetary bodies as appropriate Appendix B: Glossary of Terms\nfor the systems intended purpose. This includes the pos- The part lists key terms used in the ConOps and provides\nsibility of the generation of any orbital debris, potential a description of their meaning.\ncontamination of other planetary bodies or atmosphere,\nand generation of hazardous wastes that will need dis-\nposal on earth and other factors. Impacts should cover\nthe entire life cycle of the system from development\nthrough disposal.\n\n\n\n\n\n\n\n\n 253",
+          "score": 16.179342459253327,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 15.762211339567681,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0004",
+          "page": 4,
+          "text": " Table of Contents\n\n\n\n\n\n 5.3.1 Process Description 89 Appendix A Acronyms . . . . . . . . . . . . . . 173\n 5.3.2 Product Verification Guidance 99 Appendix B Glossary . . . . . . . . . . . . . . . 176\n 5.4 Product Validation . . . . . . . . . . .99 Appendix C How to Write a Good Requirement—\n 5.4.1 Process Description 99 Checklist . . . . . . . . . . . . . . . 197\n 5.4.2 Product Validation Guidance 106 Appendix D Requirements Verification Matrix . . . 201\n 5.5 Product Transition . . . . . . . . . . 106 Appendix E Creating the Validation Plan with a\n 5.5.1 Process Description 106 Validation Requirements Matrix . . . . 203\n 5.5.2 Product Transition Guidance 112 Appendix F Functional, Timing, and State Analysis 205\n Appendix G Technology Assessment/Insertion . . 206\n6.0 Crosscutting Technical Management 113 Appendix H Integration Plan Outline . . . . . . . . 214\n Appendix I Verification and Validation Plan Outline 216\n 6.1 Technical Planning . . . . . . . . . . 113 Appendix J SEMP Content Outline . . . . . . . . 223\n 6.1.1 Process Description 114 Appendix K Technical Plans . . . . . . . . . . . . 235\n 6.1.2 Technical Planning Guidance 130 Appendix L Interface Requirements Document\n 6.2 Requirements Management . . . . . 130 Outline . . . . . . . . . . . . . . . . 236\n 6.2.1 Process Description 131 Appendix M CM Plan Outline . . . . . . . . . . . 239\n 6.2.2 Requirements Management Appendix N Guidance on Technical Peer\n Guidance 135 Reviews/Inspections . . . . . . . . . 240\n 6.3 Interface Management . . . . . . . . 135 Appendix O Reserved . . . . . . . . . . . . . . . 241\n 6.3.1 Process Description 136 Appendix P SOW Review Checklist . . . . . . . . 242\n 6.3.2 Interface Management Guidance 138 Appendix Q Reserved . . . . . . . . . . . . . . . 243\n 6.4 Technical Risk Management . . . . . 138 Appendix R HSI Plan Content Outline . . . . . . . 244\n 6.4.1 Risk Management Process Appendix S Concept of Operations\n Description 141 Annotated Outline . . . . . . . . . . 251\n 6.4.2 Risk Management Process Appendix T Systems Engineering in Phase E . . . 254\n Guidance 143\n 6.5 Configuration Management . . . . . . 143\n 6.5.1 Process Description 144 References Cited 260\n 6.5.2 CM Guidance 150 Bibliography 270\n 6.6 Technical Data Management . . . . . 151\n 6.6.1 Process Description 151\n 6.6.2 Technical Data Management\n Guidance 155\n 6.7 Technical Assessment . . . . . . . . 155\n 6.7.1 Process Description 157\n 6.7.2 Technical Assessment Guidance 160\n 6.8 Decision Analysis . . . . . . . . . . . 160\n 6.8.1 Process Description 164\n 6.8.2 Decision Analysis Guidance 170\n\n\n\n\n\n\n\n\n\n iv",
+          "score": 15.255631710191183,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0242",
+          "page": 242,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n7.6 Other 9.0 Compliance Matrices\nThis section is reserved to describe any unique SE func- Appendix H.2 in NPR 7123.1A is the basis for the com-\ntions or activities for the project that are not covered in pliance matrix for this section of the SEMP. The proj-\nother sections. ect will complete this matrix from the point of view of\n the project and the technical scope. Each requirement\n8.0 Integration with the Project Plan will be addressed as compliant, partially compliant, or\n and Technical Resource Allocation noncompliant. Compliant requirements should indicate\nThis section describes how the technical effort will inte- which process or activity addresses the compliance. For\ngrate with project management and defines roles and example, compliance can be accomplished by using a\nresponsibilities. It addresses how technical requirements Center process or by using a project process as described\nwill be integrated with the project plan to determine in another section of the SEMP or by reference to another\nthe allocation of resources, including cost, schedule, and documented process. Noncompliant areas should state\npersonnel, and how changes to the allocations will be the rationale for noncompliance.\ncoordinated.\n Appendices\n Key Questions Appendices are included, as necessary, to provide a\n 1. How will we assess risk? What thresholds glossary, acronyms and abbreviations, and informa-\n are needed for triggering mitigation activi- tion published separately for convenience in document\n ties? How will we integrate risk management maintenance. Included are: (1) information that may\n into the technical decision process? be pertinent to multiple topic areas (e.g., description of\n 2. How will we communicate across and out- methods or procedures); (2) charts and proprietary data\n side of the project? applicable to the technical efforts required in the SEMP;\n 3. How will we record decisions? and (3) a summary of technical plans associated with\n 4. How do we incorporate lessons learned from the project. Each appendix should be referenced in one\n other projects? of the sections of the engineering plan where data would\n normally have been provided.\n\n Templates\nThis section describes the interface between all of the tech- Any templates for forms, plans, or reports the technical\nnical aspects of the project and the overall project man- team will need to fill out, like the format for the veri-\nagement process during the systems engineering planning fication and validation plan, should be included in the\nactivities and updates. All activities to coordinate tech- appendices.\nnical efforts with the overall project are included, such\nas technical interactions with the external stakeholders, References\nusers, and contractors. This section contains all documents referenced in the text\n of the SEMP.\n\n\n\n\n\n\n\n\n\n 232",
+          "score": 13.543051745734477,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 207,
+          "path": "data/local/advanced/pages/p0207_2000.png",
+          "sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35",
+          "source_id": "NASA-SE:p0207",
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197"
+        },
+        {
+          "page": 208,
+          "path": "data/local/advanced/pages/p0208_2000.png",
+          "sha256": "0368e2b873c25765b1c7cecf8f69bdb2b0ee3db3c6a8de93e16e930546ba517f",
+          "source_id": "NASA-SE:p0208",
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    207,
+    208
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Theo hướng dẫn của Phụ lục C, yêu cầu nên nêu ra CÁI GÌ cần thiết (WHAT), không phải CÁCH thực hiện (HOW).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "locator": "C.2 Editorial Checklist, bullet 'Is the requirement free of implementation?'",
+          "evidence": "Requirements should state WHAT is needed, NOT HOW to provide it; i.e., state the problem not the solution."
+        },
+        {
+          "source_id": "NASA-SE:p0208",
+          "locator": "C.4 Requirements Validation Checklist, Compliance, bullet 'Are requirements free of implementation specifics?'",
+          "evidence": "Requirements should state what is needed, not how to provide it."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 9020.55
+}

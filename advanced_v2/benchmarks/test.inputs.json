@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ADV2-TEST-01",
+    "question": "In Table 4.1-1, list all example stakeholders for Phase F."
+  },
+  {
+    "id": "ADV2-TEST-02",
+    "question": "In Table 5.3-1, what procedure copy must a Verification Report include, and what does its final entry require about test results and acceptability?"
+  },
+  {
+    "id": "ADV2-TEST-03",
+    "question": "In Table 6.1-1, which two Instrument Subteam subsystem entries appear after Mechanism Drive Electronics and before Control Subsystem?"
+  },
+  {
+    "id": "ADV2-TEST-04",
+    "question": "In Table 6.1-2, which middle-column facility shares the row with Robotics Labs in the left column?"
+  },
+  {
+    "id": "ADV2-TEST-05",
+    "question": "In Table 6.6-1, for Technical data capture, to whom are integrity-check anomalies reported and for what purpose? Also name the inventory output."
+  },
+  {
+    "id": "ADV2-TEST-06",
+    "question": "At KDP B in Table G.1-1, which two products are updated and in which plan are they incorporated?"
+  },
+  {
+    "id": "ADV2-TEST-07",
+    "question": "In Figure 5.0-1, which two processes are grouped under Design Realization and which two under Evaluation Processes?"
+  },
+  {
+    "id": "ADV2-TEST-08",
+    "question": "In Figure 5.2-1, what central activity follows Confirm that received products have been validated and precedes Assemble and integrate the received products?"
+  },
+  {
+    "id": "ADV2-TEST-09",
+    "question": "In Figure 5.5-1, to which two destinations can Delivered End Product With Applicable Documentation go, and which route is marked recursive?"
+  },
+  {
+    "id": "ADV2-TEST-10",
+    "question": "In Figure 6.3-1, which outputs go to Configuration Management and which output goes to Technical Data Management?"
+  },
+  {
+    "id": "ADV2-TEST-11",
+    "question": "In Figure 6.5-4, identify both branches immediately after CCB step 7: their step labels, responsible lanes, and activities."
+  },
+  {
+    "id": "ADV2-TEST-12",
+    "question": "In Figure 2.5-1, what three intermediate percentages are explicitly labelled along the Committed Life Cycle Costs curve before it reaches 100%?"
+  },
+  {
+    "id": "ADV2-TEST-13",
+    "question": "In Figure 2.5-1, what multiplier range is labelled in the middle of the Cost to Change Design Direction arrow, between its early and late labels?"
+  },
+  {
+    "id": "ADV2-TEST-14",
+    "question": "In Figure 2.5-1, what does the horizontal axis represent and how is the vertical axis labelled?"
+  },
+  {
+    "id": "ADV2-TEST-15",
+    "question": "In Figure 4.4-3, what do the differently shaded areas represent?"
+  },
+  {
+    "id": "ADV2-TEST-16",
+    "question": "Using Figure 4.4-3 and its explanation, contrast concept B with concept C in terms of risk of an expensive failure and the cost/effectiveness location shown for C."
+  },
+  {
+    "id": "ADV2-TEST-17",
+    "question": "Combine Table 4.2-2 and Appendix C.2: which metadata item records who writes/manages/approves requirement changes, and what grammatical voice should a personnel requirement use?"
+  },
+  {
+    "id": "ADV2-TEST-18",
+    "question": "Combine Table 2.2-1 and Figure G.4-1: give the full name of Phase A and the formulation criterion at TRL 2."
+  },
+  {
+    "id": "ADV2-TEST-19",
+    "question": "Using Section 3.4 and Table 2.1-1, in which phase is the SEMP baselined, and list all AS9100 requirements mapped to Technical Planning."
+  },
+  {
+    "id": "ADV2-TEST-20",
+    "question": "Combine Table 2.1-1 with Figure 6.8-2: what AS9100 requirement maps to Technical Risk Management, and where does the No branch of Net beneficial to reduce uncertainty? lead before deliberation?"
+  },
+  {
+    "id": "ADV2-TEST-21",
+    "question": "In the Section 4.1 discussion of Needs, Goals, and Objectives, how many needs should a need statement express, and should it identify the problem or the solution?"
+  },
+  {
+    "id": "ADV2-TEST-22",
+    "question": "According to Appendix C.3, should a requirement be stated positively or negatively, and what example of negative phrasing is given?"
+  },
+  {
+    "id": "ADV2-TEST-23",
+    "question": "In Types of Configuration Management Changes, who must coordinate and approve a change affecting an external interface?"
+  },
+  {
+    "id": "ADV2-TEST-24",
+    "question": "According to Section 2.4, which document does validation relate back to, and is validation limited to delivery of end products?"
+  },
+  {
+    "id": "ADV2-TEST-25",
+    "question": "What universal minimum number of configuration audits per year does this handbook mandate for every NASA project?"
+  },
+  {
+    "id": "ADV2-TEST-26",
+    "question": "What fixed maximum interface response latency in milliseconds is prescribed for every system in this handbook?"
+  },
+  {
+    "id": "ADV2-TEST-27",
+    "question": "Which single vendor of requirements-management software does this handbook require every NASA project to buy?"
+  },
+  {
+    "id": "ADV2-TEST-28",
+    "question": "What exact mass of returned samples in grams must every Phase F closeout analyze?"
+  },
+  {
+    "id": "ADV2-TEST-29",
+    "question": "What universal fixed number of thermal-vacuum cycles is required for verification of every product?"
+  },
+  {
+    "id": "ADV2-TEST-30",
+    "question": "What mandatory maximum number of design alternatives may every trade study evaluate?"
+  }
+]

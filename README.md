@@ -1,6 +1,8 @@
 # Day 7 — Agentic RAG · Đồng Ngọc Phúc
 
-**K5-L3A · Mã học viên 2A202603399 · Phần cơ bản.** Agent dùng model thật để gọi Dense/BM25/Hybrid trên cùng dữ liệu Day 6, trả lời có citation hoặc từ chối khi thiếu evidence. Đã chọn BM25 trên dev, sau đó đánh giá Dense/BM25 trên test; không tuning theo test.
+**K5-L3A · Mã học viên 2A202603399.** Agent phần cơ bản dùng model thật để gọi Dense/BM25/Hybrid trên cùng dữ liệu Day 6, trả lời có citation hoặc từ chối khi thiếu evidence. Đã chọn BM25 trên dev, sau đó đánh giá Dense/BM25 trên test; không tuning theo test.
+
+**Phần nâng cao:** dùng NASA Systems Engineering Handbook Rev.2 **297 trang**, index/render toàn bộ tài liệu; pipeline tìm kiếm và vision, benchmark riêng 18 dev/30 test. Kết quả **17/18 dev, 23/30 test (76,666…%)**, chưa đạt 90%, **chưa đủ điều kiện 15 điểm bonus**. Xem [code, báo cáo, bằng chứng và cách chạy nâng cao](advanced/README.md). Phần cơ bản giữ nguyên predictor và kết quả đã chạy.
 
 **Phạm vi chia sẻ:** người dùng đã cho phép nộp đầy đủ bằng chứng, được ghi tại [submission_permission.json](submission_permission.json). Bộ nộp gồm benchmark/gold, trace/nhãn, cấu hình, báo cáo và gói Day 6 đã kiểm tra không có credential. `.env`, API key, private key, `.git` và thư mục scratch vẫn bị loại. Xem [rà soát quyền riêng tư](docs/PRIVACY_REVIEW.md).
 
@@ -21,7 +23,7 @@
 | Dense baseline | test | 4/5 | 5/5 | 5/5 | 10/10 | 5/5 | 2/2 |
 | BM25 chọn | test | 5/5 | 5/5 | 5/5 | 10/10 | 5/5 | 2/2 |
 
-Nhãn có AI hỗ trợ đọc từng câu/nguồn, chưa có người chấm độc lập. Benchmark nhỏ, một tài liệu; không suy rộng điểm này sang tài liệu khác. Chi tiết n/N, phần trăm, thời gian/token/lỗi và hai thử nghiệm không cải thiện có trong báo cáo. Không làm thử thách nâng cao.
+Nhãn được đối chiếu từng câu trả lời và citation với nguồn gốc. Benchmark phần cơ bản nhỏ, một tài liệu; không suy rộng điểm này sang tài liệu khác. Chi tiết n/N, phần trăm, thời gian/token/lỗi và hai thử nghiệm không cải thiện có trong báo cáo. Kết quả phần nâng cao được báo riêng.
 
 ## Chuẩn bị
 

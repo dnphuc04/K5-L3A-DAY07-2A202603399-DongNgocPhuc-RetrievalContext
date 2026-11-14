@@ -1,0 +1,2294 @@
+{
+  "dev_extractive": [
+    {
+      "id": "ADV2-DEV-01",
+      "trace_sha256": "130e56657e5dd7db7d1ad07b5faadae009047b0c7fcfbb0b45bd33eece9f8a7f",
+      "expected_pages": [
+        17
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        203
+      ],
+      "viewed_pages": [
+        17
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-02",
+      "trace_sha256": "6a6eb991652fb4656afc47f5868d797058c83f429250b558c44ef17b5627fd80",
+      "expected_pages": [
+        19
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        41,
+        43,
+        245
+      ],
+      "viewed_pages": [
+        19,
+        43,
+        245
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-03",
+      "trace_sha256": "25706897a96d82d58340861c4a4144160bbb13385808c53bfbb25b5714e2d5db",
+      "expected_pages": [
+        69
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        223,
+        227
+      ],
+      "viewed_pages": [
+        69
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-04",
+      "trace_sha256": "7c7690fed6d70d0819aa740a5c79ba296b80981223eedc8a486b96ee5956a7e9",
+      "expected_pages": [
+        181
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        23,
+        51,
+        175,
+        180,
+        181
+      ],
+      "viewed_pages": [
+        181
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-05",
+      "trace_sha256": "59205fe43a9f670d68bacc0522f9e62ac30873907b31e3eefcf841c26ef32f94",
+      "expected_pages": [
+        19
+      ],
+      "retrieved_pages": [
+        3,
+        5,
+        6,
+        18,
+        19,
+        83,
+        245
+      ],
+      "viewed_pages": [
+        19
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-06",
+      "trace_sha256": "ecf4bdabbbc2099794c1f7ccd99294b8d3dbdb5e11f35629a81f40f13a41d8ef",
+      "expected_pages": [
+        181
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        47,
+        175,
+        180,
+        181,
+        238
+      ],
+      "viewed_pages": [
+        181
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-07",
+      "trace_sha256": "5bde4993435658132077faa6caf4c3aee5c4d20ae77de90b8176cde5b01590c4",
+      "expected_pages": [
+        16
+      ],
+      "retrieved_pages": [
+        5,
+        15,
+        16,
+        17,
+        18,
+        87,
+        123
+      ],
+      "viewed_pages": [
+        16
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-08",
+      "trace_sha256": "725bf210aa1cea72588fe9aba883f1a53799b398c03db04d83012ce8fd7e5d58",
+      "expected_pages": [
+        54
+      ],
+      "retrieved_pages": [
+        5,
+        53,
+        54,
+        76,
+        77,
+        83,
+        84
+      ],
+      "viewed_pages": [
+        54,
+        76
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-09",
+      "trace_sha256": "32930c8483ed96c58aa54fc7af8ba2c171a6e787927e3b92169db7c092673da4",
+      "expected_pages": [
+        77
+      ],
+      "retrieved_pages": [
+        5,
+        56,
+        77,
+        78,
+        79,
+        81,
+        82
+      ],
+      "viewed_pages": [
+        77,
+        78,
+        79
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-10",
+      "trace_sha256": "adef5659d8b652d5e757eac8f4e7adbeb2ed16dc22e55a4aa81881c7f3ebfca2",
+      "expected_pages": [
+        155
+      ],
+      "retrieved_pages": [
+        5,
+        87,
+        153,
+        154,
+        155,
+        158,
+        224
+      ],
+      "viewed_pages": [
+        155
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-11",
+      "trace_sha256": "8803a3d46064c270968815d3bafeda9398de1e30bf12730c7a200f5363080bc0",
+      "expected_pages": [
+        176
+      ],
+      "retrieved_pages": [
+        5,
+        16,
+        149,
+        176,
+        178,
+        210,
+        222
+      ],
+      "viewed_pages": [
+        176
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-12",
+      "trace_sha256": "7d483ae7cf89191eb3f2146fcd6929e394b5eccda124ec8498210c287b457186",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        22,
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-13",
+      "trace_sha256": "9c141056279f45d565fd62976dd4d3cae6336efbd7f5d12f2f24a26f0d4f0b3c",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-14",
+      "trace_sha256": "4bdcbbf9ea98fa7cf224c887e2bf00c35af8369e997ca548a80c1a3065fe0cfe",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-15",
+      "trace_sha256": "62909e3a76b697c9959bd8e170cee887ce2dd10884086d7a7785fc0dbceca3af",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        74,
+        80,
+        81,
+        223,
+        227,
+        230
+      ],
+      "viewed_pages": [
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-16",
+      "trace_sha256": "2fde88cfa02743beb1360e360b76d3931aafc1f427320697384a3954b7812eb6",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        59,
+        77,
+        80,
+        81,
+        152,
+        196
+      ],
+      "viewed_pages": [
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-17",
+      "trace_sha256": "c331f54ef3a9044914e90236478532d8b0c5a6f5e7371b182ded9fea091fba05",
+      "expected_pages": [
+        171,
+        172
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        167,
+        168,
+        170,
+        171,
+        172
+      ],
+      "viewed_pages": [
+        171,
+        172
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-18",
+      "trace_sha256": "279cd1910976372cbeb4f75cfa61b20136d893bfb83833b65efd81255afe3bf9",
+      "expected_pages": [
+        19,
+        172
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        23,
+        167,
+        168,
+        170,
+        171,
+        172
+      ],
+      "viewed_pages": [
+        19,
+        23,
+        171,
+        172
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-19",
+      "trace_sha256": "3c20ea5edf02203cb027002a3a2b0155cb6efb75a92838c0dccc8ccb77c3b504",
+      "expected_pages": [
+        69,
+        103
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        103,
+        227
+      ],
+      "viewed_pages": [
+        69,
+        103
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-20",
+      "trace_sha256": "6452196c6cb0bf17adcc1fd690ad346ca4baba664f2863b3746dfd5f3c824653",
+      "expected_pages": [
+        19,
+        221
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        220,
+        221,
+        223
+      ],
+      "viewed_pages": [
+        19,
+        221
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-21",
+      "trace_sha256": "d76890dc3fcff44a41d89d46e15eef9268edc8f483ae99b6940938f82cb0fc96",
+      "expected_pages": [
+        103
+      ],
+      "retrieved_pages": [
+        102,
+        103,
+        111,
+        136,
+        190,
+        210,
+        228
+      ],
+      "viewed_pages": [
+        103,
+        190
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-22",
+      "trace_sha256": "85c0725089a1cb79fae925ec2a000e442367731a40726f9f5565c0644d0a5c3a",
+      "expected_pages": [
+        111
+      ],
+      "retrieved_pages": [
+        56,
+        83,
+        103,
+        111,
+        113,
+        136,
+        138
+      ],
+      "viewed_pages": [
+        111
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-23",
+      "trace_sha256": "aa6bf916e7ec8ee218e99f44650c898f5babae4ef9be94c85c58f6edf342103e",
+      "expected_pages": [
+        207
+      ],
+      "retrieved_pages": [
+        51,
+        66,
+        67,
+        70,
+        207,
+        211,
+        238
+      ],
+      "viewed_pages": [
+        207
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-24",
+      "trace_sha256": "ec25bfaac3be18edd2da969f868ed3bba3cd41ca2da16a9b04f3e76c89d778d7",
+      "expected_pages": [
+        35
+      ],
+      "retrieved_pages": [
+        35,
+        36,
+        56,
+        81,
+        153,
+        203,
+        227
+      ],
+      "viewed_pages": [
+        35
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-25",
+      "trace_sha256": "17ad48153a8205905ce3570eaeb94dc6f33270ded76660864c1280727e37c237",
+      "expected_pages": [],
+      "retrieved_pages": [
+        5,
+        57,
+        93,
+        100,
+        130,
+        134,
+        135,
+        171,
+        172,
+        173,
+        177,
+        178,
+        193,
+        208,
+        217,
+        219,
+        220,
+        221,
+        224,
+        228,
+        229,
+        256,
+        269
+      ],
+      "viewed_pages": [
+        134,
+        135,
+        229
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-26",
+      "trace_sha256": "c4c9bd13b290aaa47f900a6a9bd84be27f19ffd0f1130b2081d8157a894f4936",
+      "expected_pages": [],
+      "retrieved_pages": [
+        22,
+        46,
+        58,
+        130,
+        133,
+        136,
+        177,
+        178,
+        193,
+        207,
+        209,
+        225,
+        226,
+        261,
+        269
+      ],
+      "viewed_pages": [
+        133,
+        177,
+        178
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-27",
+      "trace_sha256": "aaad2533740ad607c98ebc371031b94a5523394efbff94443f2618763119eca9",
+      "expected_pages": [],
+      "retrieved_pages": [
+        69,
+        155,
+        159,
+        160,
+        201,
+        278,
+        280,
+        284,
+        286,
+        291,
+        295
+      ],
+      "viewed_pages": [
+        155,
+        159,
+        160
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-28",
+      "trace_sha256": "e4cf71031a6708f4d78730b2c86d1220719d26f2d3ffcac485854859840c425e",
+      "expected_pages": [],
+      "retrieved_pages": [
+        28,
+        46,
+        125,
+        184,
+        185,
+        201,
+        224,
+        284,
+        285,
+        291,
+        294,
+        296,
+        297
+      ],
+      "viewed_pages": [
+        46,
+        125,
+        224
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-29",
+      "trace_sha256": "c9438f2eafe22866bacaad227d6dbad2cce541ca123203c7e2e584b5716f6792",
+      "expected_pages": [],
+      "retrieved_pages": [
+        20,
+        48,
+        145,
+        147,
+        155,
+        159,
+        160,
+        161,
+        183,
+        184,
+        224,
+        225,
+        276,
+        292
+      ],
+      "viewed_pages": [
+        161,
+        276,
+        292
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-30",
+      "trace_sha256": "e77b78054524ba9cd8be372cdf8809933e99651e6a41f02e8900d0efa006a5f1",
+      "expected_pages": [],
+      "retrieved_pages": [
+        5,
+        33,
+        61,
+        65,
+        66,
+        132,
+        149,
+        207,
+        213,
+        224,
+        228,
+        241,
+        247,
+        280,
+        290
+      ],
+      "viewed_pages": [
+        61,
+        241,
+        247
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    }
+  ],
+  "dev_reasoned": [
+    {
+      "id": "ADV2-DEV-01",
+      "trace_sha256": "732bd9e18734955f42f38b4cfa3bebd04476864778210f32e9120a33f8538242",
+      "expected_pages": [
+        17
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        203
+      ],
+      "viewed_pages": [
+        17
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-02",
+      "trace_sha256": "7c2c978fd2c07591372c924ba6a857aec1f41e161116b0c431f34593b606ed63",
+      "expected_pages": [
+        19
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        41,
+        43,
+        245
+      ],
+      "viewed_pages": [
+        19
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-03",
+      "trace_sha256": "817bee10dc7e3e229aecf33d680cfcbcf27acd035ac6493486e6df0790b1e2eb",
+      "expected_pages": [
+        69
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        223,
+        227
+      ],
+      "viewed_pages": [
+        69
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-04",
+      "trace_sha256": "be07f7ec625b7436fcb3895ae67695a7512e809f8b6b783c5769565a7fa88504",
+      "expected_pages": [
+        181
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        23,
+        51,
+        175,
+        180,
+        181
+      ],
+      "viewed_pages": [
+        181
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-05",
+      "trace_sha256": "cf2a79986d447d467cbc8d03266bb54a12aca57f08a3a95ffdbcb5afc89d8279",
+      "expected_pages": [
+        19
+      ],
+      "retrieved_pages": [
+        3,
+        5,
+        6,
+        18,
+        19,
+        83,
+        245
+      ],
+      "viewed_pages": [
+        19
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-06",
+      "trace_sha256": "8fc4c74190295df27183bd66a97ac0d6a3f0f15a5ca65ef0fb8bd5fbca5fea93",
+      "expected_pages": [
+        181
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        47,
+        175,
+        180,
+        181,
+        238
+      ],
+      "viewed_pages": [
+        181
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-07",
+      "trace_sha256": "734b7d5d0f03b4dc6ba7d411c0325420485b73599ffd58d8ac75c750b6246d2c",
+      "expected_pages": [
+        16
+      ],
+      "retrieved_pages": [
+        5,
+        15,
+        16,
+        17,
+        18,
+        87,
+        123
+      ],
+      "viewed_pages": [
+        16
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-08",
+      "trace_sha256": "93fb41a73ab72e06be6a1cef93934efbac13c8729b0ceaf92846d2b7613b2860",
+      "expected_pages": [
+        54
+      ],
+      "retrieved_pages": [
+        5,
+        53,
+        54,
+        76,
+        77,
+        83,
+        84
+      ],
+      "viewed_pages": [
+        54
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-09",
+      "trace_sha256": "601d559d2c6bc1a323171a53002b4f1ddc1efed1ae23524a83716e537e9de764",
+      "expected_pages": [
+        77
+      ],
+      "retrieved_pages": [
+        5,
+        56,
+        77,
+        78,
+        79,
+        81,
+        82
+      ],
+      "viewed_pages": [
+        77
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-10",
+      "trace_sha256": "aa67c1396d2f76fb111ad71ae64100b056e5608855bc2e1fb1b60d1f405ca7c5",
+      "expected_pages": [
+        155
+      ],
+      "retrieved_pages": [
+        5,
+        87,
+        153,
+        154,
+        155,
+        158,
+        224
+      ],
+      "viewed_pages": [
+        155
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-11",
+      "trace_sha256": "0cfd78e079d8fa055ec9b58e4df6c9e25f1ff0da559a5df9684c1d389a0171c6",
+      "expected_pages": [
+        176
+      ],
+      "retrieved_pages": [
+        5,
+        16,
+        149,
+        176,
+        178,
+        210,
+        222
+      ],
+      "viewed_pages": [
+        176
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-12",
+      "trace_sha256": "a507ce7ed35f977aabc71137998a7423e5435441b2f6497880bac38995104c54",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-13",
+      "trace_sha256": "fff019b5290c15701cf3498b46c4e453d1d6ff414f96faa2647a69e7cc1a3dfa",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-14",
+      "trace_sha256": "5728583a1796ecde5713b63a1f6b47a97728c4690f95ed67479d35f4365bd1da",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-15",
+      "trace_sha256": "08ce395cd3ca2062fede2580e0d6fef420388e8e114c203eaf4715d1dd11e08d",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        74,
+        80,
+        81,
+        223,
+        227,
+        230
+      ],
+      "viewed_pages": [
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-16",
+      "trace_sha256": "97c390133d18f1acec9ce1efbbb4de544f538ae9491d4ed219331cdeaa27497e",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        59,
+        77,
+        80,
+        81,
+        152,
+        196
+      ],
+      "viewed_pages": [
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-17",
+      "trace_sha256": "750244d4a41d7a84c4e9687c1faf3326d536935dd75fea61c14bd964d11becbd",
+      "expected_pages": [
+        171,
+        172
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        167,
+        168,
+        170,
+        171,
+        172
+      ],
+      "viewed_pages": [
+        171,
+        172
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-18",
+      "trace_sha256": "ba49c7003dc811f5917feef3ec526c61ed7f0f2099949908fd69c723b9007068",
+      "expected_pages": [
+        19,
+        172
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        28,
+        167,
+        168,
+        170,
+        171,
+        172
+      ],
+      "viewed_pages": [
+        19,
+        172
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-19",
+      "trace_sha256": "f49e3013b27143b43d48f6099c379ba3dd9bfb2de84c8bb798658dd31bd3d9df",
+      "expected_pages": [
+        69,
+        103
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        103,
+        227
+      ],
+      "viewed_pages": [
+        69,
+        103
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-20",
+      "trace_sha256": "b5686a7beab8e8ad3c7d5069cb5030bb74a7fadd3f6046db899cfdcfe16d1a9a",
+      "expected_pages": [
+        19,
+        221
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        220,
+        221,
+        223
+      ],
+      "viewed_pages": [
+        19,
+        221
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-21",
+      "trace_sha256": "0dcb49aee621aa22c2aa970717eb89a5e985a874044d7d335061985987ca7aa8",
+      "expected_pages": [
+        103
+      ],
+      "retrieved_pages": [
+        102,
+        103,
+        111,
+        136,
+        190,
+        210,
+        228
+      ],
+      "viewed_pages": [
+        102,
+        103,
+        190
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-22",
+      "trace_sha256": "cd398e6c1c303fe2f641d1f60d4ec86a22fdb173d705082e42af10ab9f0fcaec",
+      "expected_pages": [
+        111
+      ],
+      "retrieved_pages": [
+        56,
+        83,
+        103,
+        111,
+        113,
+        136,
+        138
+      ],
+      "viewed_pages": [
+        103,
+        111
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-23",
+      "trace_sha256": "fa6e70e64c83aa1c5bb630294c368dd1ff3f76fcc913824c1d14c5f16be67297",
+      "expected_pages": [
+        207
+      ],
+      "retrieved_pages": [
+        51,
+        66,
+        67,
+        70,
+        207,
+        211,
+        238
+      ],
+      "viewed_pages": [
+        207
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-24",
+      "trace_sha256": "7097e0183d8229ec6917eee29a39f8163bd84a8e45866a18bb3bef6d9235a7e1",
+      "expected_pages": [
+        35
+      ],
+      "retrieved_pages": [
+        35,
+        36,
+        56,
+        81,
+        153,
+        203,
+        227
+      ],
+      "viewed_pages": [
+        35
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-25",
+      "trace_sha256": "39b99191fc81e787ec22d02d20e4cbc9c42f2a1d85dcfb61bd687277d148f2ca",
+      "expected_pages": [],
+      "retrieved_pages": [
+        8,
+        11,
+        40,
+        57,
+        93,
+        100,
+        130,
+        134,
+        135,
+        137,
+        172,
+        208,
+        217,
+        221,
+        224,
+        228,
+        229,
+        291
+      ],
+      "viewed_pages": [
+        100,
+        135,
+        229
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-26",
+      "trace_sha256": "e8be89e3df345b5f0fcb609624701931aa24f813e66df03af8b629c94264cead",
+      "expected_pages": [],
+      "retrieved_pages": [
+        4,
+        19,
+        22,
+        41,
+        43,
+        58,
+        74,
+        133,
+        136,
+        174,
+        175,
+        176,
+        177,
+        178,
+        180,
+        181,
+        193,
+        200,
+        207,
+        213,
+        225,
+        226,
+        261
+      ],
+      "viewed_pages": [
+        133,
+        176,
+        178
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-27",
+      "trace_sha256": "aa7a2e32743e06d27077277179d3642f9ac3f09484d2b7881ccdffb6b2a9e802",
+      "expected_pages": [],
+      "retrieved_pages": [
+        9,
+        10,
+        105,
+        116,
+        143,
+        144,
+        148,
+        155,
+        156,
+        159,
+        160,
+        185,
+        190,
+        194,
+        201,
+        268,
+        275,
+        278,
+        280,
+        282,
+        284,
+        286,
+        289,
+        290,
+        291,
+        295
+      ],
+      "viewed_pages": [],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-28",
+      "trace_sha256": "b3e12cd33ad2113321b02231ec21873050af3e1d8b2d1b9f2b5d81736953b04b",
+      "expected_pages": [],
+      "retrieved_pages": [
+        14,
+        19,
+        28,
+        38,
+        46,
+        65,
+        66,
+        67,
+        184,
+        185,
+        201,
+        207,
+        224,
+        270,
+        273,
+        275,
+        276,
+        279,
+        281,
+        284,
+        285,
+        291,
+        294,
+        296,
+        297
+      ],
+      "viewed_pages": [
+        46,
+        207,
+        273
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-29",
+      "trace_sha256": "591fc66c4c57d26be0fce35e7633dfdb5844b67f4e72c6a0ba2060641ddc16e0",
+      "expected_pages": [],
+      "retrieved_pages": [
+        20,
+        26,
+        48,
+        95,
+        135,
+        155,
+        159,
+        160,
+        161,
+        183,
+        184,
+        191,
+        224,
+        225,
+        242,
+        276,
+        292
+      ],
+      "viewed_pages": [
+        159,
+        161,
+        276
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-30",
+      "trace_sha256": "5e3b0c1ed2b5ba75cf97b128c7dba1196ba70425e07a2022fb039c7815100e46",
+      "expected_pages": [],
+      "retrieved_pages": [
+        5,
+        33,
+        43,
+        61,
+        65,
+        66,
+        67,
+        70,
+        132,
+        134,
+        149,
+        207,
+        213,
+        224,
+        228,
+        247,
+        280,
+        290
+      ],
+      "viewed_pages": [],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    }
+  ],
+  "dev_reasoned_smoke": [
+    {
+      "id": "ADV2-DEV-08",
+      "trace_sha256": "2419cc46c445ae153fef670e325b8fd866c1f114763e2a16803fd8e2bf0d274d",
+      "expected_pages": [
+        54
+      ],
+      "retrieved_pages": [
+        5,
+        53,
+        54,
+        76,
+        77,
+        83,
+        84
+      ],
+      "viewed_pages": [
+        54
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-DEV-19",
+      "trace_sha256": "8c243fca110dc0cbb881f2f07bfe68fec429ae218dedf5f501cb6652c0b9c8af",
+      "expected_pages": [
+        69,
+        103
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        103,
+        227
+      ],
+      "viewed_pages": [
+        69,
+        103
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    }
+  ],
+  "test_reasoned": [
+    {
+      "id": "ADV2-TEST-01",
+      "trace_sha256": "fee8cb3cdd471ab6920950f1e22bf842f1c47f98c1bee71363f6ce32ca94a51c",
+      "expected_pages": [
+        57
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        55,
+        56,
+        57,
+        160
+      ],
+      "viewed_pages": [
+        57
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-02",
+      "trace_sha256": "6375a3895810fd17063e615c400ec4b1aed60bd96828c6764c6d33106ade3ba4",
+      "expected_pages": [
+        104
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        99,
+        101,
+        102,
+        104,
+        107
+      ],
+      "viewed_pages": [
+        104
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-03",
+      "trace_sha256": "2c5ee9c4321320f0eb87355a29fbad2c5222ea18408581e4ffdbb2abb3b7fe8a",
+      "expected_pages": [
+        128
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        124,
+        125,
+        127,
+        128,
+        217
+      ],
+      "viewed_pages": [
+        128
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-04",
+      "trace_sha256": "b75bc1067d4e89b6f2d7fb328073ab2185537da884a594ab5eaec5aee05c143e",
+      "expected_pages": [
+        130
+      ],
+      "retrieved_pages": [
+        6,
+        18,
+        102,
+        130,
+        172,
+        189,
+        214
+      ],
+      "viewed_pages": [
+        130
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-05",
+      "trace_sha256": "2a74b310a2b51ea256b04e547f654fac37a768048c7836e585609333bb4695e9",
+      "expected_pages": [
+        166
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        153,
+        161,
+        164,
+        165,
+        166
+      ],
+      "viewed_pages": [
+        166
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-06",
+      "trace_sha256": "0120698fc7afa6a37ff3aba1b32f0c5668e8d38358b541c093c9f280128191d1",
+      "expected_pages": [
+        217
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        28,
+        29,
+        36,
+        217,
+        218
+      ],
+      "viewed_pages": [
+        217
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-07",
+      "trace_sha256": "45af8cb0aa788b3b3927da2a771c96bd5528c6d632bc03893fd57caf39b425f0",
+      "expected_pages": [
+        88
+      ],
+      "retrieved_pages": [
+        5,
+        15,
+        16,
+        87,
+        88,
+        160,
+        175
+      ],
+      "viewed_pages": [
+        88
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-08",
+      "trace_sha256": "e481317265c7fda1a2658995ec5170b4e7db645262ee46357eb99dacec43caaf",
+      "expected_pages": [
+        96
+      ],
+      "retrieved_pages": [
+        5,
+        40,
+        72,
+        95,
+        96,
+        97,
+        136
+      ],
+      "viewed_pages": [
+        95,
+        96,
+        97
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-09",
+      "trace_sha256": "fd25b127fac45c7069ddd09abc54d201d1c96ecfef7b870ad21455cf5c244211",
+      "expected_pages": [
+        117
+      ],
+      "retrieved_pages": [
+        5,
+        93,
+        98,
+        116,
+        117,
+        119,
+        121
+      ],
+      "viewed_pages": [
+        117
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-10",
+      "trace_sha256": "0f2d4d2e33dacae4100a87e14db44bdf9237491f989162316899eb175de0ddbb",
+      "expected_pages": [
+        146
+      ],
+      "retrieved_pages": [
+        5,
+        82,
+        146,
+        153,
+        155,
+        157,
+        161
+      ],
+      "viewed_pages": [
+        146
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-11",
+      "trace_sha256": "5c86904a972e8cbf2ccf855ac3d3e73bd9ac3a7e38732f06f187ac9c2bfbbfe8",
+      "expected_pages": [
+        158
+      ],
+      "retrieved_pages": [
+        5,
+        18,
+        72,
+        143,
+        158,
+        220,
+        225
+      ],
+      "viewed_pages": [
+        158
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-12",
+      "trace_sha256": "20e67a3ac0d9a8178fda4daf888f1d3c5efc9983583a1db2669059c69013a8bc",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-13",
+      "trace_sha256": "a76ef98e01a9efda24f79331963840522db3b7ed9a2fcfbeaaf72bafd22105d8",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-14",
+      "trace_sha256": "776d9d40b8c07947709fa2b6593a087894cd037a931b011d3935bc8d985b85e1",
+      "expected_pages": [
+        23
+      ],
+      "retrieved_pages": [
+        5,
+        22,
+        23,
+        37,
+        74,
+        78,
+        114
+      ],
+      "viewed_pages": [
+        23
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-15",
+      "trace_sha256": "8d7b9e23649d97345bcb632304995930eaebb1786ab1da7e5b34bd2827f16f48",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        15,
+        58,
+        80,
+        81,
+        220,
+        240
+      ],
+      "viewed_pages": [
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-16",
+      "trace_sha256": "3adb9fc62655783df7cb75159e28afd74df0245c65e0ac61b7ed99a13f105021",
+      "expected_pages": [
+        81
+      ],
+      "retrieved_pages": [
+        5,
+        21,
+        74,
+        80,
+        81,
+        83,
+        200
+      ],
+      "viewed_pages": [
+        80,
+        81
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-17",
+      "trace_sha256": "55c52be28da6d3c7d3e3cbb8d06df6983f71d58319c5612b754a1c51dc79a015",
+      "expected_pages": [
+        69,
+        207
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        67,
+        68,
+        69,
+        200,
+        207
+      ],
+      "viewed_pages": [
+        69,
+        207
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-18",
+      "trace_sha256": "9ff6f50aba73a0812cfa7fae85409457d4e4ba1a42dd43d514f9408fba6990af",
+      "expected_pages": [
+        19,
+        221
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        18,
+        19,
+        220,
+        221,
+        223
+      ],
+      "viewed_pages": [
+        19,
+        221
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-19",
+      "trace_sha256": "9281a262df6e20fefa457fca5b598cdeda3ca859b7090395dcec56262e48b617",
+      "expected_pages": [
+        17,
+        35
+      ],
+      "retrieved_pages": [
+        3,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        25,
+        29,
+        33,
+        35,
+        123,
+        124,
+        126,
+        132,
+        133,
+        227,
+        234,
+        237,
+        262,
+        272
+      ],
+      "viewed_pages": [
+        17,
+        35
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-20",
+      "trace_sha256": "42ddb859b34611816d42d568cc6cf442d455e4effdf76e6b8a7536b6c56fed22",
+      "expected_pages": [
+        17,
+        176
+      ],
+      "retrieved_pages": [
+        5,
+        6,
+        16,
+        17,
+        18,
+        53,
+        176
+      ],
+      "viewed_pages": [
+        17,
+        176
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-21",
+      "trace_sha256": "33edc5e35be1dc032cee46f9c482166f7751e00afb3e3249eddfb31df442140f",
+      "expected_pages": [
+        59
+      ],
+      "retrieved_pages": [
+        3,
+        55,
+        59,
+        227,
+        238,
+        255,
+        273
+      ],
+      "viewed_pages": [
+        59
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-22",
+      "trace_sha256": "5c0bbd8413c8f9f915ac62731b6cd585aeb1a925c8480edb3ea5a04ce6d05168",
+      "expected_pages": [
+        207
+      ],
+      "retrieved_pages": [
+        200,
+        207,
+        208,
+        209,
+        210,
+        241,
+        263
+      ],
+      "viewed_pages": [
+        207
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-23",
+      "trace_sha256": "507a1759e838e93171c00982343d1fce6d3d64fe2eaf5d8a6441e0dddcd91dcc",
+      "expected_pages": [
+        159
+      ],
+      "retrieved_pages": [
+        144,
+        147,
+        155,
+        159,
+        246,
+        249,
+        268
+      ],
+      "viewed_pages": [
+        159
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-24",
+      "trace_sha256": "0799d5f7e54f39fb4c3cac4de27d0823adb629f4cf2ce3da2389a01ef1dabdaa",
+      "expected_pages": [
+        21
+      ],
+      "retrieved_pages": [
+        3,
+        21,
+        25,
+        83,
+        109,
+        208,
+        228
+      ],
+      "viewed_pages": [
+        21
+      ],
+      "gold_pages_retrieved": true,
+      "gold_original_pages_viewed": true,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-25",
+      "trace_sha256": "3a145108c8cecfafc40fb34f3270c96cea50d4f16e96c02e8787044178cd28a9",
+      "expected_pages": [],
+      "retrieved_pages": [
+        11,
+        21,
+        25,
+        26,
+        29,
+        47,
+        149,
+        153,
+        155,
+        156,
+        159,
+        160,
+        169,
+        183,
+        184,
+        185,
+        192,
+        224,
+        228,
+        229,
+        241,
+        255,
+        284,
+        295
+      ],
+      "viewed_pages": [
+        153,
+        155,
+        160
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-26",
+      "trace_sha256": "2d3a3a22ba4daa9a7f42e2872ef9f8f2395bd21558c35fd5b91b84a28e28a28f",
+      "expected_pages": [],
+      "retrieved_pages": [
+        5,
+        11,
+        23,
+        51,
+        60,
+        66,
+        67,
+        70,
+        131,
+        132,
+        146,
+        147,
+        148,
+        159,
+        201,
+        202,
+        207,
+        209,
+        211,
+        224,
+        228,
+        229,
+        246,
+        247,
+        248,
+        264,
+        268,
+        275,
+        291
+      ],
+      "viewed_pages": [],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-27",
+      "trace_sha256": "0403a8f5dfffd6e266d6dd308d8239be955f7c86ded1aa1ed048b39b9ff4bf65",
+      "expected_pages": [],
+      "retrieved_pages": [
+        8,
+        11,
+        24,
+        44,
+        51,
+        67,
+        90,
+        91,
+        92,
+        93,
+        135,
+        148,
+        190,
+        201,
+        207,
+        224,
+        270,
+        271,
+        275,
+        279,
+        284,
+        291
+      ],
+      "viewed_pages": [
+        8,
+        11,
+        148
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-28",
+      "trace_sha256": "d54aed89d4958594112b080a1aaade786296d26f9b6eefcddc7e78886fb8077b",
+      "expected_pages": [],
+      "retrieved_pages": [
+        7,
+        18,
+        19,
+        20,
+        28,
+        29,
+        41,
+        43,
+        61,
+        110,
+        149,
+        161,
+        207,
+        247,
+        260,
+        280
+      ],
+      "viewed_pages": [
+        19,
+        41,
+        43
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-29",
+      "trace_sha256": "e147b9e83003188ade35bfdfb20de3040fce4a275cc25838c74925a1aac0ced7",
+      "expected_pages": [],
+      "retrieved_pages": [
+        8,
+        19,
+        28,
+        40,
+        85,
+        95,
+        100,
+        128,
+        130,
+        132,
+        134,
+        172,
+        193,
+        223,
+        224,
+        228,
+        229,
+        241
+      ],
+      "viewed_pages": [
+        100,
+        134,
+        228
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    },
+    {
+      "id": "ADV2-TEST-30",
+      "trace_sha256": "bd2b6981f1d4592678fa4d22c606dfdd69e06f8bd7857f4181a586973d6e5087",
+      "expected_pages": [],
+      "retrieved_pages": [
+        19,
+        21,
+        35,
+        66,
+        77,
+        79,
+        80,
+        81,
+        178,
+        205
+      ],
+      "viewed_pages": [
+        79,
+        80,
+        178
+      ],
+      "gold_pages_retrieved": null,
+      "gold_original_pages_viewed": null,
+      "note": "Page-coverage proxy only, not semantic context/citation correctness. Read reviews for completeness and entailment; absence uses separate full-corpus review."
+    }
+  ]
+}

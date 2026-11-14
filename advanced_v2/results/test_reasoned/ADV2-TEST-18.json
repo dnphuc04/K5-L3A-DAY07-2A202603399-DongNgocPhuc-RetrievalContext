@@ -1,0 +1,337 @@
+{
+  "id": "ADV2-TEST-18",
+  "split": "test",
+  "question": "Combine Table 2.2-1 and Figure G.4-1: give the full name of Phase A and the formulation criterion at TRL 2.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4q33Seam4hEDa29srUttVaGNVQz",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 86,
+        "total_tokens": 742,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 54,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2137.37,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pBDRxMuJZvoflQygSpnhx0Q7",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.2-1 Phase A full name\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4q53zACRQvKneesr2fUqZEdZNdS",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5716,
+        "completion_tokens": 161,
+        "total_tokens": 5877,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 126,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2967.12,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_eipWReNowdUqp2WAZTFh0WmR",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0019\",\"NASA-SE:p0221\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4q9F958U1VjKeOZdoSFd7qcTuJ5",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 14368,
+        "completion_tokens": 270,
+        "total_tokens": 14638,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 112,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5497.7,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_h5KRKMOCaN4cMAUtIhnbnjIW",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phase A full name: \\\"Concept and Technology Development.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"TABLE 2.2-1, Phase row \\\"Phase A\\\" (Phase column)\",\"evidence\":\"\\\"Phase A\\\" \\\"Concept and Technology Development\\\"\"}]},{\"text\":\"Formulation criterion at TRL 2: \\\"Technology concept and/or application formulated.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0221\",\"locator\":\"FIGURE G.4-1, TRL 2 description\",\"evidence\":\"\\\"TRL 2\\\" \\\"Technology concept and/or application formulated\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qGeWgt8yZcDOsEddStzk18B9qj",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9072,
+        "completion_tokens": 236,
+        "total_tokens": 9308,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 86,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6110.09,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ntzgofc2kZwRAgxW0B8THmIt",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phase A full name: Concept and Technology Development.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1 (Project Life Cycle Phases), Phase A row\",\"evidence\":\"“Phase A … Concept and Technology Development”\"}]},{\"text\":\"TRL 2 formulation criterion: Technology concept and/or application formulated.\",\"citations\":[{\"source_id\":\"NASA-SE:p0221\",\"locator\":\"Figure G.4-1 (Technology Readiness Levels), TRL 2\",\"evidence\":\"“TRL 2 Technology concept and/or application formulated”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Combine Table 2.2-1 and Figure G.4-1: give the full name of Phase A and the formulation criterion at TRL 2.",
+      "results": [
+        {
+          "id": "NASA-SE:p0220",
+          "page": 220,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nnecessary to perform detailed architecture studies 1980s. The TRL essentially describes the state of a\nwith the Technology Assessment Process intimately given technology and provides a baseline from which\ninterwoven. (See FIGURE G.3-2.) maturity is gauged and advancement defined. (See\n FIGURE G.4-1.)\n\n Requir e-Concepts Architectural System\n ments Stud ies Design Programs are often undertaken without fully under-\n standing either the maturity of key technologies\n TRL/AD2 Assessment or what is needed to develop them to the required\n level. It is impossible to understand the magnitude and\n Tec hnology Maturation scope of a development program without having a clear\n understanding of the baseline technological maturity of\n FIGURE G.3-2 Architectural Studies and Technology all elements of the system. Establishing the TRL is a\n Development vital first step on the way to a successful program. A\n frequent misconception is that in practice, it is too\nThe purpose of the architecture studies is to refine difficult to determine TRLs and that when you do,\nend-item system design to meet the overall scientific it is not meaningful. On the contrary, identifying\nrequirements of the mission. It is imperative that TRLs can be a straightforward systems engineering\nthere be a continuous relationship between architec- process of determining what was demonstrated and\ntural studies and maturing technology advances. The under what conditions it was demonstrated.\narchitectural studies should incorporate the results of\nthe technology maturation, planning for alternative Terminology\npaths and identifying new areas required for devel- At first glance, the TRL descriptions in FIGURE G.4-1\nopment as the architecture is refined. Similarly, it appear to be straightforward. It is in the process of\nis incumbent upon the technology maturation pro- trying to assign levels that problems arise. A primary\ncess to identify requirements that are not feasible cause of difficulty is in terminology; e.g., everyone\nand development routes that are not fruitful and to knows what a breadboard is, but not everyone has\ntransmit that information to the architecture studies the same definition. Also, what is a “relevant envi-\nin a timely manner. It is also incumbent upon the ronment?” What is relevant to one application may\narchitecture studies to provide feedback to the tech- or may not be relevant to another. Many of these\nnology development process relative to changes in terms originated in various branches of engineering\nrequirements. Particular attention should be given and had, at the time, very specific meanings to that\nto “heritage” systems in that they are often used in particular field. They have since become commonly\narchitectures and environments different from those used throughout the engineering field and often\nin which they were designed to operate. acquire differences in meaning from discipline to\n discipline, some differences subtle, some not so sub-\n tle. “Breadboard,” for example, comes from electrical\nG.4 Establishing TRLs engineering where the original use referred to check-\nA Technology Readiness Level (TRL) is, at its most ing out the functional design of an electrical circuit\nbasic, a description of the performance history of a by populating a “breadboard” with components to\ngiven system, subsystem, or component relative to verify that the design operated as anticipated. Other\na set of levels first described at NASA HQ in the terms come from mechanical engineering, referring\n\n\n\n 210",
+          "score": 13.816322834569917,
+          "reference_match": 1,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 16.87446824338594,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0221",
+          "page": 221,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n\n\n\n System test, launch, TRL 9 Actual system “flight proven” thr ough successful\n and operations __ mission operations\n\n\n System/subsystem TRL 8 Actual system completed and “flight qualified” through”\n development __ test and demonstration (ground or flight)\n\n\n TRL 7 System prototype demonstration in a\n target/space environment\n Technology __\n demonstration TRL 6 System/subsystem model or prototype demonstration\n __ in a relevant environment (ground or space)\n\n\n Technology TRL 5 Component and/or breadboard validation in relevant\n development __ environment\n\n\n TRL 4 Component and/or breadboard validation in laboratory\n Research to prove __ environment\n feasibility\n TRL 3 Analytical and experimental critical function and/or\n __ characteristic proof-of-concept\n\n Basic technology\n research TRL 2 Technology concept and/or application form ulated\n __\n\n\n TRL 1 Basic principles observed and reported\n\n\n\n\n FIGURE G.4-1 Technology Readiness Levels\n\n\nprimarily to units that are subjected to different levels with clear definitions, judgment calls will be required\nof stress under testing, e.g., qualification, protoflight, when it comes time to assess just how similar a given\nand flight units. The first step in developing a uni- element is relative to what is needed (i.e., is it close\nform TRL assessment (see FIGURE G.4-2) is to define enough to a prototype to be considered a proto-\nthe terms used. It is extremely important to develop type, or is it more like an engineering breadboard?).\nand use a consistent set of definitions over the course Describing what has been done in terms of form, fit,\nof the program/project. and function provides a means of quantifying an\n element based on its design intent and subsequent\nJudgment Calls performance. The current definitions for software\nHaving established a common set of terminology, it TRLs are contained in NPR 7123.1, NASA Systems\nis necessary to proceed to the next step: quantifying Engineering Processes and Requirements.\n“judgment calls” on the basis of past experience. Even\n\n\n\n 211",
+          "score": 14.04060156036213,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 5.282852272331975,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 14.482729591595893,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 10.975298745551802,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0223",
+          "page": 223,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nFormal Process for Determining TRLs the system is at TRL 2. The problem of multiple ele-\nA method for formalizing this process is shown in ments being at low TRLs is dealt with in the AD2\n\nFIGURE G.4-3. Here, the process has been set up as a process. Note that the issue of integration affects the\ntable: the rows identify the systems, subsystems, and TRL of every system, subsystem, and component. All\ncomponents that are under assessment. The columns of the elements can be at a higher TRL, but if they\nidentify the categories that will be used to determine have never been integrated as a unit, the TRL will\nthe TRL; i.e., what units have been built, to what be lower for the unit. How much lower depends on\nscale, and in what environment have they been tested. the complexity of the integration. The assessed com-\nAnswers to these questions determine the TRL of an plexity depends upon the combined judgment of the\nitem under consideration. The TRL of the system is engineers. It is important to have a good cross-section\ndetermined by the lowest TRL present in the system; of senior people sitting in judgment.\ni.e., a system is at TRL 2 if any single element in\n\n\n\n\n Red = Below TRL 3 Demonstration Units Environment Unit Description\n\n Yellow = TRL 3, 4 & 5\n Green = TRL 6 and above\n White = Unknown\n X = Exists\n\n\n\n\n\n 1.0 System\n 1.1 Subsystem X\n 1.1.1 Mechanical Components\n 1.1.2 Mechanical Systems\n 1.1.3 Electrical Components X X X X X\n 1.1.4 Electrical Systems\n 1.1.5 Control Systems\n 1.1.6 Thermal Systems X X X\n 1.1.7 Fluid Systems X\n 1.1.8 Optical Systems\n 1.1.9 Electro-Optical Systems\n 1.1.10 Software Systems\n 1.1.11 Mechanisms X\n 1.1.12 Integration\n 1.2 Subsystem Y\n 1.2.1 Mechanical Components\n\n\n\n FIGURE G.4-3 TRL Assessment Matrix\n\n\n\n 213",
+          "score": 17.783360650845243,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_path": "data/local/advanced/pages/p0019_2000.png",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        },
+        {
+          "source_id": "NASA-SE:p0221",
+          "page": 221,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n\n\n\n System test, launch, TRL 9 Actual system “flight proven” thr ough successful\n and operations __ mission operations\n\n\n System/subsystem TRL 8 Actual system completed and “flight qualified” through”\n development __ test and demonstration (ground or flight)\n\n\n TRL 7 System prototype demonstration in a\n target/space environment\n Technology __\n demonstration TRL 6 System/subsystem model or prototype demonstration\n __ in a relevant environment (ground or space)\n\n\n Technology TRL 5 Component and/or breadboard validation in relevant\n development __ environment\n\n\n TRL 4 Component and/or breadboard validation in laboratory\n Research to prove __ environment\n feasibility\n TRL 3 Analytical and experimental critical function and/or\n __ characteristic proof-of-concept\n\n Basic technology\n research TRL 2 Technology concept and/or application form ulated\n __\n\n\n TRL 1 Basic principles observed and reported\n\n\n\n\n FIGURE G.4-1 Technology Readiness Levels\n\n\nprimarily to units that are subjected to different levels with clear definitions, judgment calls will be required\nof stress under testing, e.g., qualification, protoflight, when it comes time to assess just how similar a given\nand flight units. The first step in developing a uni- element is relative to what is needed (i.e., is it close\nform TRL assessment (see FIGURE G.4-2) is to define enough to a prototype to be considered a proto-\nthe terms used. It is extremely important to develop type, or is it more like an engineering breadboard?).\nand use a consistent set of definitions over the course Describing what has been done in terms of form, fit,\nof the program/project. and function provides a means of quantifying an\n element based on its design intent and subsequent\nJudgment Calls performance. The current definitions for software\nHaving established a common set of terminology, it TRLs are contained in NPR 7123.1, NASA Systems\nis necessary to proceed to the next step: quantifying Engineering Processes and Requirements.\n“judgment calls” on the basis of past experience. Even\n\n\n\n 211",
+          "image_path": "data/local/advanced/pages/p0221_2000.png",
+          "image_sha256": "33cc1177bd30f1e2f99e052890150b11a0fb5b7874aca2b0176efb233854aa63"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        },
+        {
+          "source_id": "NASA-SE:p0221",
+          "page": 221,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n\n\n\n System test, launch, TRL 9 Actual system “flight proven” thr ough successful\n and operations __ mission operations\n\n\n System/subsystem TRL 8 Actual system completed and “flight qualified” through”\n development __ test and demonstration (ground or flight)\n\n\n TRL 7 System prototype demonstration in a\n target/space environment\n Technology __\n demonstration TRL 6 System/subsystem model or prototype demonstration\n __ in a relevant environment (ground or space)\n\n\n Technology TRL 5 Component and/or breadboard validation in relevant\n development __ environment\n\n\n TRL 4 Component and/or breadboard validation in laboratory\n Research to prove __ environment\n feasibility\n TRL 3 Analytical and experimental critical function and/or\n __ characteristic proof-of-concept\n\n Basic technology\n research TRL 2 Technology concept and/or application form ulated\n __\n\n\n TRL 1 Basic principles observed and reported\n\n\n\n\n FIGURE G.4-1 Technology Readiness Levels\n\n\nprimarily to units that are subjected to different levels with clear definitions, judgment calls will be required\nof stress under testing, e.g., qualification, protoflight, when it comes time to assess just how similar a given\nand flight units. The first step in developing a uni- element is relative to what is needed (i.e., is it close\nform TRL assessment (see FIGURE G.4-2) is to define enough to a prototype to be considered a proto-\nthe terms used. It is extremely important to develop type, or is it more like an engineering breadboard?).\nand use a consistent set of definitions over the course Describing what has been done in terms of form, fit,\nof the program/project. and function provides a means of quantifying an\n element based on its design intent and subsequent\nJudgment Calls performance. The current definitions for software\nHaving established a common set of terminology, it TRLs are contained in NPR 7123.1, NASA Systems\nis necessary to proceed to the next step: quantifying Engineering Processes and Requirements.\n“judgment calls” on the basis of past experience. Even\n\n\n\n 211",
+          "image_sha256": "33cc1177bd30f1e2f99e052890150b11a0fb5b7874aca2b0176efb233854aa63"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Phase A full name: Concept and Technology Development.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0019",
+                "locator": "Table 2.2-1 (Project Life Cycle Phases), Phase A row",
+                "evidence": "“Phase A … Concept and Technology Development”"
+              }
+            ]
+          },
+          {
+            "text": "TRL 2 formulation criterion: Technology concept and/or application formulated.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0221",
+                "locator": "Figure G.4-1 (Technology Readiness Levels), TRL 2",
+                "evidence": "“TRL 2 Technology concept and/or application formulated”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    19,
+    221
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Phase A full name: \"Concept and Technology Development.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0019",
+            "locator": "TABLE 2.2-1, Phase row \"Phase A\" (Phase column)",
+            "evidence": "\"Phase A\" \"Concept and Technology Development\""
+          }
+        ]
+      },
+      {
+        "text": "Formulation criterion at TRL 2: \"Technology concept and/or application formulated.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0221",
+            "locator": "FIGURE G.4-1, TRL 2 description",
+            "evidence": "\"TRL 2\" \"Technology concept and/or application formulated\""
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Phase A full name: Concept and Technology Development.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "locator": "Table 2.2-1 (Project Life Cycle Phases), Phase A row",
+          "evidence": "“Phase A … Concept and Technology Development”"
+        }
+      ]
+    },
+    {
+      "text": "TRL 2 formulation criterion: Technology concept and/or application formulated.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0221",
+          "locator": "Figure G.4-1 (Technology Readiness Levels), TRL 2",
+          "evidence": "“TRL 2 Technology concept and/or application formulated”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16882.83
+}

@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-DEV-07",
+  "split": "dev",
+  "question": "In Figure 2.1-1, in which direction do requirements flow through product levels, and in which direction do realized products move?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4fzRhRgTLzHcIVC3NTE3tlKvxai",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 651,
+        "completion_tokens": 89,
+        "total_tokens": 740,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2373.05,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_v5Mhn8i84O0L1NtjZCNqXY50",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 2.1-1 requirements flow through product levels realized products move direction\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4g2E1bzRetnk7KtDWjPEwdqXdF6",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5330,
+        "completion_tokens": 145,
+        "total_tokens": 5475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 116,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3706.63,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_abJ7qyN1r9kLuGNid0Frtsgf",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0016\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4g65DTnxA1IcUeXyIBuGvtfwALf",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9611,
+        "completion_tokens": 336,
+        "total_tokens": 9947,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 125,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5813.62,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nLCqLcVrO1WjH5oQ5L3ls2Hf",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 2.1-1, requirements flow downward through product levels (\\\"Requirements Flow Down\\\"), going \\\"from Level above\\\" and \\\"To Level below.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0016\",\"locator\":\"Figure 2.1-1, top-left green arrow label and bottom-left green arrow label\",\"evidence\":\"\\\"Requirements Flow Down from Level above\\\" … \\\"Requirements Flow Down To Level below\\\"\"}]},{\"text\":\"In Figure 2.1-1, realized products move upward through product levels, going \\\"From Level below\\\" and \\\"to Level above.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0016\",\"locator\":\"Figure 2.1-1, bottom-right green arrow label and top-right green arrow label\",\"evidence\":\"\\\"Realized Products From Level below\\\" … \\\"Realized Products to Level above\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gBjaDRFGP0OzJtfUIJhx0CODJv",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4788,
+        "completion_tokens": 259,
+        "total_tokens": 5047,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 66,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4799.11,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_f4e4AMkTdWq1GEaOZOrl2cSr",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 2.1-1, requirements flow down through product levels (from the level above to the level below).\",\"citations\":[{\"source_id\":\"NASA-SE:p0016\",\"locator\":\"Figure 2.1-1 (top-left and bottom-left arrow labels)\",\"evidence\":\"“Requirements Flow Down from Level above” and “Requirements Flow Down To Level below”\"}]},{\"text\":\"In Figure 2.1-1, realized products move up through product levels (from the level below to the level above).\",\"citations\":[{\"source_id\":\"NASA-SE:p0016\",\"locator\":\"Figure 2.1-1 (bottom-right and top-right arrow labels)\",\"evidence\":\"“Realized Products From Level below” and “Realized Products to Level above”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 2.1-1, in which direction do requirements flow through product levels, and in which direction do realized products move?",
+      "results": [
+        {
+          "id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "score": 16.008266613434532,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "score": 5.762645432818178,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 12.225626872706036,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0087",
+          "page": 87,
+          "text": "5.0 Product Realization\n\n\n\n\n\n\n\n his chapter describes the activities in the prod- the appropriate crosscutting functions, such as data\nTuct realization processes listed in FIGURE 2.1-1. and configuration management, and technical assess-\nThe chapter is separated into sections corresponding ments to make, buy, or reuse subsystems. Once these\nto steps 5 through 9 listed in FIGURE 2.1-1. The pro- subsystems are realized, they should be integrated to\ncesses within each step are discussed in terms of the the appropriate level as designated by the appropri-\ninputs, the activities, and the outputs. Additional ate interface requirements. These products are then\nguidance is provided using examples that are relevant verified through the Technical Assessment Process to\nto NASA projects. ensure that they are consistent with the technical data\n package and that “the product was built right.” Once\nIn the product realization side of the SE engine, five consistency is achieved, the technical team validates\ninterdependent processes result in systems that meet the products against the stakeholder expectations\nthe design specifications and stakeholder expecta- to ensure that “the right product was built.” Upon\ntions. These products are produced, acquired, reused, successful completion of validation, the products are\nor coded; integrated into higher level assemblies; ver- transitioned to the next level of the system. FIGURE\nified against design specifications; validated against 5.0-1 illustrates these processes.\nstakeholder expectations; and transitioned to the\nnext level of the system. As has been mentioned in This is an iterative and recursive process. Early in the\nprevious sections, products can be models and simu- life cycle, paper products, models, and simulations\nlations, paper studies or proposals, or hardware and are run through the five realization processes. As the\nsoftware. The type and level of product depends on system matures and progresses through the life cycle,\nthe phase of the life cycle and the product’s specific hardware and software products are run through\nobjectives. But whatever the product, all should effec- these processes. It is important to detect as many\ntively use the processes to ensure the system meets errors and failures as possible at the lowest level of\nthe intended operational concept. integration and early in the life cycle so that changes\n can be made through the design processes with min-\nThis effort starts with the technical team taking the imum impact to the project.\noutput from the system design processes and using\n\n\n\n 77",
+          "score": 11.296374499455297,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0123",
+          "page": 123,
+          "text": "6.0 Crosscutting Technical\n Management\n\n\n\n\n\n\n\n his chapter describes the activities in the techni- the project’s objectives. Without these crosscutting\nTcal management processes listed in the systems processes, individual members and tasks cannot be\nengineering engine (FIGURE 2.1-1). The processes integrated into a functioning system that meets the\ndescribed in Chapters 4 and 5 are performed through ConOps within cost and schedule. These technical\nthe design and realization phases of a product. These processes also support the project management team\nprocesses can occur throughout the product life cycle, in executing project control.\nfrom concept through disposal. They may occur\nsimultaneously with any of the other processes. The The next sections describe each of the eight technical\nchapter is separated into sections corresponding to management processes and their associated products\nthe technical management processes 10 through 17 for a given NASA mission.\nlisted in FIGURE 2.1-1. Each technical management\nprocess is discussed in terms of the inputs, the activi-\nties, and the outputs. Additional guidance is provided 6.1 Technical Planning\nusing examples that are relevant to NASA projects. The Technical Planning Process, the first of the eight\n technical management processes contained in the sys-\nThe technical management processes are the bridges tems engineering engine, establishes a plan for apply-\nbetween project management and the technical team. ing and managing each of the common technical\nIn this portion of the engine, eight processes provide processes that will be used to drive the development\nthe crosscutting functions that allow the design solu- of system products and associated work products.\ntion to be developed, realized, and to operate. Even This process also establishes a plan for identifying\nthough every technical team member might not be and defining the technical effort required to satisfy\ndirectly involved with these eight processes, they the project objectives and life cycle phase success cri-\nare indirectly affected by these key functions. Every teria within the cost, schedule, and risk constraints\nmember of the technical team relies on technical of the project.\nplanning; management of requirements, interfaces,\ntechnical risk, configuration, and technical data; This effort starts with the technical team conduct-\ntechnical assessment; and decision analysis to meet ing extensive planning early in Pre-Phase A. With\n\n\n\n 113",
+          "score": 10.198616822035342,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 8.969202334786575,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0015",
+          "page": 15,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n PROJECT MANAGEMENT\n\nPROJECT MANAGEMENT ACTIVITIES\n\n• Setting up Project Team • Identifying Programmatic Risks\n• Programmatic Stakeholders (non-technical, non-business) • Technology Transfer and Commercialization\n• Programmatic Planning (non-technical, non-business) • Integration of technical and non-technical activities\n• Identifying Programmatic (non-technical) requirements • Overall Approver/Decider\n\n\n\n\n\n Systems Engineering\n\n System Design Processes\n • Stakeholder Expectations DefinitionCommon\n • Technical Requirement’s Definition Areas PP&C\n • Logical Decomposition\n • Design Solution Definition • Stakeholders • PP&C Integration\n Product Realization Processes • Risks • Resource Management\n • Product Implementation • Configuration • Scheduling\n • Product Integration Management • Cost Estimation & Assessment\n • Product Verification • Data\n • Product Validation Management • Acquisition & Contract\n • Product Transition • Reviews Management\n Technical Management Processes • Schedule • Risk Management\n • Technical Planning • CM/DM\n • Requirements Management\n • Interface Management\n • Technical Risk Management\n • Configuration Management\n • Technical Data Management\n • Technical Assessment\n • Decision Analyses\n\n\n\n FIGURE 2.0-1 SE in Context of Overall Project Management\n\n\n\n\ndocument, but an overview is given in the following by the NPR systems engineering “engine” shown in\nsubsections of this chapter. FIGURE 2.1-1. The processes of the SE engine are used\n to develop and realize the end products. This chap-\n ter provides the application context of the 17 com-\n2.1 The Common Technical mon technical processes required in NPR7123.1.\n Processes and the SE Engine The system design processes, the product realization\n processes, and the technical management processes\nThere are three sets of common technical processes in are discussed in more detail in Chapters 4.0, 5.0, and\nNPR 7123.1, NASA Systems Engineering Processes 6.0, respectively. Processes 1 through 9 indicated in\nand Requirements: system design, product realiza- FIGURE 2.1-1 represent the tasks in the execution of a\ntion, and technical management. The processes in project. Processes 10 through17 are crosscutting tools\neach set and their interactions and flows are illustrated for carrying out the processes.\n\n\n\n 5",
+          "score": 7.9045216506665925,
+          "reference_match": 1,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "image_path": "data/local/advanced/pages/p0016_2000.png",
+          "image_sha256": "2e3c0f3bdea61cba93863bdb56d77b9914e2e56b7883230fbaa799169fbd4512"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "image_sha256": "2e3c0f3bdea61cba93863bdb56d77b9914e2e56b7883230fbaa799169fbd4512"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 2.1-1, requirements flow down through product levels (from the level above to the level below).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0016",
+                "locator": "Figure 2.1-1 (top-left and bottom-left arrow labels)",
+                "evidence": "“Requirements Flow Down from Level above” and “Requirements Flow Down To Level below”"
+              }
+            ]
+          },
+          {
+            "text": "In Figure 2.1-1, realized products move up through product levels (from the level below to the level above).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0016",
+                "locator": "Figure 2.1-1 (bottom-right and top-right arrow labels)",
+                "evidence": "“Realized Products From Level below” and “Realized Products to Level above”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    16
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 2.1-1, requirements flow downward through product levels (\"Requirements Flow Down\"), going \"from Level above\" and \"To Level below.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0016",
+            "locator": "Figure 2.1-1, top-left green arrow label and bottom-left green arrow label",
+            "evidence": "\"Requirements Flow Down from Level above\" … \"Requirements Flow Down To Level below\""
+          }
+        ]
+      },
+      {
+        "text": "In Figure 2.1-1, realized products move upward through product levels, going \"From Level below\" and \"to Level above.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0016",
+            "locator": "Figure 2.1-1, bottom-right green arrow label and top-right green arrow label",
+            "evidence": "\"Realized Products From Level below\" … \"Realized Products to Level above\""
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 2.1-1, requirements flow down through product levels (from the level above to the level below).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0016",
+          "locator": "Figure 2.1-1 (top-left and bottom-left arrow labels)",
+          "evidence": "“Requirements Flow Down from Level above” and “Requirements Flow Down To Level below”"
+        }
+      ]
+    },
+    {
+      "text": "In Figure 2.1-1, realized products move up through product levels (from the level below to the level above).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0016",
+          "locator": "Figure 2.1-1 (bottom-right and top-right arrow labels)",
+          "evidence": "“Realized Products From Level below” and “Realized Products to Level above”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16793.39
+}

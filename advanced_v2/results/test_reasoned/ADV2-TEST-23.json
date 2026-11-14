@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-23",
+  "split": "test",
+  "question": "In Types of Configuration Management Changes, who must coordinate and approve a change affecting an external interface?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4qrihLfJrftKTBp8U907nLJtxJY",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 642,
+        "completion_tokens": 58,
+        "total_tokens": 700,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 28,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1842.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ytlU5W9C7owBy5c7kXLx08oy",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Types of Configuration Management Changes external interface coordinate approve\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qt7RYMENe8gWVEnZisobZyJSxS",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4652,
+        "completion_tokens": 83,
+        "total_tokens": 4735,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 54,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2242.83,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_NvSHZHEUuPdhLT8X6oahKO1n",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0159\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qwyu04pqwedRKN4O3K1Lqph1J3",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 8965,
+        "completion_tokens": 173,
+        "total_tokens": 9138,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 68,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3777.61,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_lOMabB4lhMCvr1L63T9VBOoi",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"A change affecting an external interface must be “coordinated and approved by all stakeholders affected.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0159\",\"locator\":\"Section box titled “TYPES OF CONFIGURATION MANAGEMENT CHANGES” → bullet “Engineering Change”\",\"evidence\":\"“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4r0hByR2Nh1hilh91teOUzhkww7",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4700,
+        "completion_tokens": 151,
+        "total_tokens": 4851,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3357.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_LpF53NXPod4gzSum8wnPV39t",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"A change affecting an external interface must be coordinated and approved by all stakeholders affected.\",\"citations\":[{\"source_id\":\"NASA-SE:p0159\",\"locator\":\"\\\"TYPES OF CONFIGURATION MANAGEMENT CHANGES\\\" box, bullet \\\"Engineering Change\\\"\",\"evidence\":\"“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Types of Configuration Management Changes, who must coordinate and approve a change affecting an external interface?",
+      "results": [
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 28.22571640905059,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 12.176391686195792,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0147",
+          "page": 147,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n6.3.1.2 Process Activities Interface requirements verification is a critical aspect\n6.3.1.2.1 Prepare or Update Interface Management of the overall system verification.\n Procedures\nThese procedures establish the interface management 6.3.1.2.4 Conduct Interface Control\nresponsibilities, what process will be used to main- Typically, an Interface Working Group (IWG) estab-\ntain and control the internal and external functional lishes communication links between those responsi-\nand physical interfaces (including human), and how ble for interfacing systems, end products, enabling\nthe change process will be conducted. Training of the products, and subsystems. The IWG has the respon-\ntechnical teams or other support may also be required sibility to ensure accomplishment of the planning,\nand planned. scheduling, and execution of all interface activities.\n An IWG is typically a technical team with appro-\n6.3.1.2.2 Conduct Interface Management during priate technical membership from the interfacing\n System Design Activities parties (e.g., the project, the contractor, etc.). The\nDuring project Formulation, the ConOps of the IWG may work independently or as a part of a larger\nproduct is analyzed to identify both external and change control board.\ninternal interfaces. This analysis will establish the\norigin, destination, stimuli, and special character- 6.3.1.2.5 Capture Work Products\nistics of the interfaces that need to be documented Work products include the strategy and procedures\nand maintained. As the system structure and archi- for conducting interface management, rationale\ntecture emerges, interfaces will be added and existing for interface decisions made, assumptions made in\ninterfaces will be changed and should be maintained. approving or denying an interface change, actions\nThus, the Interface Management Process has a close taken to correct identified interface anomalies, les-\nrelationship to other areas, such as requirements sons learned and updated support and interface\ndefinition and configuration management, during agreement documentation.\nthis period.\n 6.3.1.3 Outputs\n6.3.1.2.3 Conduct Interface Management during Typical outputs needed to capture interface manage-\n Product Integration ment would include:\nDuring product integration, interface management\nactivities would support the review of integration and • Interface control documentation. This is the\nassembly procedures to ensure interfaces are prop- documentation that identifies and captures the\nerly marked and compatible with specifications and interface information and the approved inter-\ninterface control documents. The interface manage- face change requests. Types of interface docu-\nment process has a close relationship to verification mentation include the Interface Requirements\nand validation. Interface control documentation and Document (IRD), Interface Control Document/\napproved interface requirement changes are used as Drawing (ICD), Interface Definition Document\ninputs to the Product Verification Process and the (IDD), and Interface Control Plan (ICP). These\nProduct Validation Process, particularly where ver- outputs will then be maintained and approved\nification test constraints and interface parameters using the Configuration Management Process\nare needed to set the test objectives and test plans. and become a part of the overall technical data\n package for the project.\n\n\n\n 137",
+          "score": 16.774017737774717,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0249",
+          "page": 249,
+          "text": "Appendix M: CM Plan Outline\n\n\n\n\n\nA comprehensive Configuration Management (CM) The documented CM planning should be reevalu-\nPlan that reflects efficient application of configura- ated following any significant change affecting the\ntion management principles and practices would nor- context and environment, e.g., changes in suppliers\nmally include the following topics: or supplier responsibilities, changes in diminishing\n manufacturing sources/part obsolescence, changes in\n• General product definition and scope resource availabilities, changes in customer contract,\n• Description of CM activities and procedures for and changes in the product. CM planning should\n each major CM function also be reviewed on a periodic basis to make sure\n• Organization, roles, responsibilities, and resources that an organization’s application of CM functions\n• Definitions of terms is current.\n• Programmatic and organizational interfaces\n• Deliverables, milestones, and schedules For additional information regarding a CM Plan,\n• Subcontract flow down requirements refer to SAE EIA-649, Rev. B.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 239",
+          "score": 15.382124539750512,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0144",
+          "page": 144,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nThe process for managing requirements changes needs • Establish a strict process for assessing require-\nto take into account the distribution of information ment changes as part of the Configuration\nrelated to the decisions made during the change pro- Management Process.\ncess. The Configuration Management Process needs\nto communicate the requirements change decisions to • Establish official channels for submitting change\nthe affected organizations. During a board meeting to requests. This will determine who has the author-\napprove a change, actions to update documentation ity to generate requirement changes and submit\nneed to be included as part of the change package. them formally to the CCB (e.g., a contractor-des-\nThese actions should be tracked to ensure that affected ignated representative, project technical leads,\ndocumentation is updated in a timely manner. customer/science team lead, or user).\n\n\nRequirements Creep • Measure the functionality of each requirement\n“Requirements creep” is the term used to describe change request and assess its impact on the rest of\nthe subtle way that requirements grow imperceptibly the system. Compare this impact with the conse-\nduring the course of a project. The tendency for the quences of not approving the change. What is the\nset of requirements is to relentlessly increase in size risk if the change is not approved?\nduring the course of development, resulting in a sys-\ntem that is more expensive and complex than origi- • Determine if the proposed change can be accom-\nnally intended. Often the changes are quite innocent modated within the fiscal and technical resource\nand what appear to be changes to a system are really budgets. If it cannot be accommodated within\nenhancements in disguise. the established resource margins, then the change\n most likely should be denied.\nHowever, some of the requirements creep involves\ntruly new requirements that did not exist, and could 6.2.1.2.6 Capture Work Products\nnot have been anticipated, during the Technical These products include maintaining and reporting\nRequirements Definition Process. These new require- information on the rationale for and disposition and\nments are the result of evolution, and if we are to implementation of change actions, current require-\nbuild a relevant system, we cannot ignore them. ment compliance status and expectation, and require-\n ment baselines.\nThere are several techniques for avoiding or at least\nminimizing requirements creep: 6.2.1.3 Outputs\n Typical outputs from the requirements management\n• The first line of defense is a good ConOps that has activities are:\n been thoroughly discussed and agreed-to by the\n customer and relevant stakeholders. • Requirements Documents: Requirements doc-\n uments are submitted to the Configuration\n• In the early requirements definition phase, flush Management Process when the requirements are\n out the conscious, unconscious, and undreamed-of baselined. The official controlled versions of these\n requirements that might otherwise not be stated. documents are generally maintained in electronic\n format within the requirements management tool\n\n\n\n\n\n 134",
+          "score": 15.317088233004037,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0246",
+          "page": 246,
+          "text": "Appendix L: Interface Requirements\n Document Outline\n\n\n\n1.0 Introduction 3.0 Interfaces\n\n1.1 Purpose and Scope 3.1 General\nState the purpose of this document and briefly iden- In the subsections that follow, provide the detailed descrip-\ntify the interface to be defined. (For example, “This tion, responsibilities, coordinate systems, and numerical\nIRD defines and controls the interface(s) requirements requirements as they relate to the interface plane.\nbetween ______ and ______.”)\n 3.1.1 Interface Description\n1.2 Precedence Describe the interface as defined in the system specifi-\nDefine the relationship of this document to other pro- cation. Use tables, figures, or drawings as appropriate.\ngram documents and specify which is controlling in the\nevent of a conflict. 3.1.2 Interface Responsibilities\n Define interface hardware and interface boundary\n1.3 Responsibility and Change responsibilities to depict the interface plane. Use tables,\n Authority figures, or drawings as appropriate.\nState the responsibilities of the interfacing organiza-\ntions for development of this document and its contents. 3.1.3 Coordinate Systems\nDefine document approval authority (including change Define the coordinate system used for interface require-\napproval authority). ments on each side of the interface. Use tables, figures, or\n drawings as appropriate.\n2.0 Documents 3.1.4 Engineering Units, Tolerances, and\n2.1 Applicable Documents Conversion\nList binding documents that are invoked to the extent Define the measurement units along with tolerances.\nspecified in this IRD. The latest revision or most recent If required, define the conversion between measure-\nversion should be listed. Documents and requirements ment systems.\nimposed by higher-level documents (higher order of pre-\ncedence) should not be repeated. 3.2 Interface Requirements\n In the subsections that follow, define structural limiting\n2.2 Reference Documents values at the interface, such as interface loads, forcing\nList any document that is referenced in the text in this functions, and dynamic conditions. Define the interface\nsubsection. requirements on each side of the interface plane.\n\n\n\n\n\n\n 236",
+          "score": 15.200445742490917,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0268",
+          "page": 268,
+          "text": " Appendix T: Systems Engineering in Phase E\n\n\n\n\n\nthe mission operations manager. Clear agreement be the result of system failures or changes in the sur-\nbetween these two parties is essential in ensuring that rounding environment. Where additional time may\nPhase E efforts are managed effectively. be available to assess and mitigate risk in other proj-\n ect phases, the nature of flight operations may limit\nT.3.3.1 Technical Planning the time over which risk management can be exe-\nTechnical planning in Phase E generally focuses cuted. For this reason, every project should develop a\non the management of scarce product develop- formal process for handling anomalies and managing\nment resources during mission execution. Key risk during operations. This process should be exer-\ndecision-makers, including the mission operations cised before flight, and decision-makers should be\nmanager and lower operations team leads, need to well versed in the process details.\nreview the benefits of a change against the resource\ncost to implement changes. Many resources are T.3.3.5 Configuration Management\nshared in Phase E – for example, product developers Effective and efficient Configuration Management\nmay also serve other real-time operations roles– and (CM) is essential during operations. Critical oper-\nthe additional workload placed on these resources ations materials, including procedures, plans, flight\nshould be viewed as a risk to be mitigated during datasets, and technical reference material need to\noperations. be secure, up to date, and easily accessed by those\n who make and enact mission critical decisions. CM\nT.3.3.2 Requirements Management systems—in their intended flight configuration—\nRequirements management during Phase E is simi- should be exercised as part of operational readiness\nlar in nature to pre-Phase E efforts. Although some tests to ensure that the systems, processes, and par-\nstreamlining may be implemented to reduce process ticipants are flight-ready.\noverhead in Phase E, the core need to review and val-\nidate requirements remains. As most Phase E changes Access to such operations products is generally\nare derived from a clearly demonstrated need, pro- time-critical, and CM systems supporting that access\ngram management may reduce or waive the need should be managed accordingly. Scheduled mainte-\nfor complete requirements traceability analysis and nance or other “downtime” periods should be coor-\ndocumentation. dinated with flight operations plans to minimize\n the risk of data being inaccessible during critical\nT.3.3.3 Interface Management activities.\nIt is relatively uncommon for interfaces to change in\nPhase E, but this can occur when a software tool is T.3.3.6 Technical Data Management\nmodified or a new need is uncovered. Interface defi- Tools, procedures, and other infrastructure for\nnitions should be managed in a manner similar to Technical Data Management must be baselined,\nthat used in other project phases. implemented, and verified prior to flight operations.\n Changes to these capabilities are rarely made during\nT.3.3.4 Technical Risk Management Phase E due to the high risk of data loss or reduc-\nManaging technical risks during operations can be tion in operations efficiency when changing during\nmore challenging during Phase E than during other operations.\nphases. New risks discovered during operations may\n\n\n\n\n\n 258",
+          "score": 15.03680629910507,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "image_path": "data/local/advanced/pages/p0159_2000.png",
+          "image_sha256": "e5a2109b3e080ddff4621459440202dfc131f224b23108c7c9d01c055b0de919"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "image_sha256": "e5a2109b3e080ddff4621459440202dfc131f224b23108c7c9d01c055b0de919"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "A change affecting an external interface must be coordinated and approved by all stakeholders affected.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0159",
+                "locator": "\"TYPES OF CONFIGURATION MANAGEMENT CHANGES\" box, bullet \"Engineering Change\"",
+                "evidence": "“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    159
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "A change affecting an external interface must be “coordinated and approved by all stakeholders affected.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0159",
+            "locator": "Section box titled “TYPES OF CONFIGURATION MANAGEMENT CHANGES” → bullet “Engineering Change”",
+            "evidence": "“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "A change affecting an external interface must be coordinated and approved by all stakeholders affected.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0159",
+          "locator": "\"TYPES OF CONFIGURATION MANAGEMENT CHANGES\" box, bullet \"Engineering Change\"",
+          "evidence": "“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 11264.36
+}

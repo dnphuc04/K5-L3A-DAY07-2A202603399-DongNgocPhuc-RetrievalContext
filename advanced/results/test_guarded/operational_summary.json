@@ -1,0 +1,16 @@
+{
+  "N": 30,
+  "finished_at": "2026-11-14T09:27:53.939271+00:00",
+  "statuses": {
+    "answered": 24,
+    "abstain": 4,
+    "error": 2
+  },
+  "elapsed_ms_sum": 351548.8,
+  "usage": {
+    "prompt_tokens": 1195960,
+    "completion_tokens": 9598,
+    "total_tokens": 1205558
+  },
+  "quality": "Not scored; requires per-question source/citation review, errors remain in denominator"
+}

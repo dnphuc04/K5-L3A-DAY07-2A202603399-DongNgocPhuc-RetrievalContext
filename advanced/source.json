@@ -1,0 +1,209 @@
+{
+  "title": "NASA Systems Engineering Handbook",
+  "edition": "NASA/SP-2016-6105 Rev 2",
+  "source_url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+  "landing_url": "https://www.nasa.gov/reference/systems-engineering-handbook/",
+  "sha256": "8eeb4887a4dc57a23049da7dd2ed556833cf98e214b240468d987873164ff688",
+  "pdf_pages": 297,
+  "printed_page_offset": 10,
+  "rights_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "distribution": "Original PDF and renders local only; download from NASA. Retain third-party credits, including INCOSE on Figure 2.5-1.",
+  "method": "pypdf layout text on ALL pages + searchable page-level BM25 + model-selected original page vision via Poppler",
+  "image_coverage": "Every page is addressable/renderable, including vector diagrams; no benchmark-page allowlist. Images without searchable captions may require navigation from neighboring text.",
+  "limitations": "No OCR for scanned-only pages; native diagram labels may lose relationships. Vision reads original when requested. Extraction is not ground truth.",
+  "coverage": {
+    "indexed_pages": 297,
+    "text_characters": 810640,
+    "warnings": [
+      {
+        "page": 16,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 18,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 18,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 19,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 23,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 29,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 46,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 56,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 58,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 61,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 65,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 68,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 73,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 76,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 77,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 81,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 81,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 88,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 89,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 96,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 101,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 106,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 110,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 117,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 125,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 141,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 146,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 149,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 151,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 155,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 157,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 158,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 161,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 168,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 169,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 175,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 176,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 212,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 218,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 219,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 220,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 221,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 222,
+        "category": "fontTools missing: some CFF Type1 encodings may be incomplete"
+      },
+      {
+        "page": 223,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 243,
+        "category": "Rotated text: native extraction may omit labels"
+      },
+      {
+        "page": 244,
+        "category": "Rotated text: native extraction may omit labels"
+      }
+    ],
+    "warning_impact": "Native text may lose labels/rotation; whole original page remains renderable and is required before cited answers. No OCR correction was silently assumed.",
+    "empty_text_pages": [],
+    "failures": []
+  },
+  "index_sha256": "b12077e83fe44aa8149c27b7f8cbf286fa060a17b82f86a5e14443a042424955",
+  "created_at": "2026-11-14T09:09:13.342010+00:00"
+}

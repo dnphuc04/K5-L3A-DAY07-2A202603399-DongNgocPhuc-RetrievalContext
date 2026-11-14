@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-11-14T09:44:37.767948+00:00",
+  "stage": "Before ANY v2 retrieval/model experiments",
+  "source_sha256": "8eeb4887a4dc57a23049da7dd2ed556833cf98e214b240468d987873164ff688",
+  "groups": {
+    "dev": {
+      "table": 6,
+      "diagram": 5,
+      "chart": 5,
+      "multi_hop": 4,
+      "text": 4,
+      "unanswerable": 6
+    },
+    "test": {
+      "table": 6,
+      "diagram": 5,
+      "chart": 5,
+      "multi_hop": 4,
+      "text": 4,
+      "unanswerable": 6
+    }
+  },
+  "files_sha256": {
+    "benchmarks/dev.gold.json": "985d1a6c7fc3d617358447a187a972b9772331226615b77acd5aadabdce75b94",
+    "benchmarks/dev.inputs.json": "27b6d7b68a552a22b5821c4d3807e24aa8633ba259136a79a050fdf05b2ce98d",
+    "benchmarks/independence_review.json": "211ec3bc8194c46bd82136424a4a2dc9548d59fec111dbdf16b5b530353224ba",
+    "benchmarks/test.gold.json": "7b75e8baf6284a904cc265732485ce1e38d4595c48828c371c70453b016bccec",
+    "benchmarks/test.inputs.json": "af530bb18480ab1359cc5713b3e73b4cc39cebbefe838ab3d0e84e85208198a8"
+  },
+  "legacy_snapshot_sha256": "22364ca60195657ded251c3cdb14c18733eb52465071f8a72778231e0c8138a2"
+}

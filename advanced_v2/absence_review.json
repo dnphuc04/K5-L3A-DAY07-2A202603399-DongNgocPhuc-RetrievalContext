@@ -1,0 +1,108 @@
+{
+  "method": "Full native-corpus phrase scans recorded before experiments, plus direct original-page review of relevant guidance. This is not an independent exhaustive OCR audit of every pixel.",
+  "cases": [
+    {
+      "id": "ADV2-TEST-25",
+      "pages_reviewed": [
+        160
+      ],
+      "reason": "Original configuration-audit paragraph defines functional/physical audits without a universal annual count; CM reports use an agreed frequency, which is not an audit-count mandate.",
+      "original_page_images": [
+        {
+          "page": 160,
+          "image_sha256": "00d8a9b5412cf2f6ee5d45a4c31440557d7e976e587cca2409ce9996ada75ca2"
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-26",
+      "pages_reviewed": [
+        148,
+        247
+      ],
+      "reason": "Interface requirements are managed/derived from applicable specifications; message timing is an interface-specific topic, not a fixed universal millisecond limit.",
+      "original_page_images": [
+        {
+          "page": 148,
+          "image_sha256": "a4351aecdcbcdda937c4c1d5950c0f1e8342c25e50a19421341598a636b26f9e"
+        },
+        {
+          "page": 247,
+          "image_sha256": "ecbb0593af024e281f5fdfad5ec732bc46e2bb612a4acd1c7dc6b796a37a1c9c"
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-27",
+      "pages_reviewed": [
+        8,
+        142,
+        148
+      ],
+      "reason": "Preface describes non-directive top-level guidance; requirements management uses generic database/model/tool language, not an exclusive required vendor.",
+      "original_page_images": [
+        {
+          "page": 8,
+          "image_sha256": "84785be18b03478c79f06989172bb8ac2f0e036100a4d9f9dd415373fe8f820a"
+        },
+        {
+          "page": 142,
+          "image_sha256": "453da1051e6500963a2f9dba94b95554aeeb6e1ce0fb9073d34cdacfcce1f7a3"
+        },
+        {
+          "page": 148,
+          "image_sha256": "a4351aecdcbcdda937c4c1d5950c0f1e8342c25e50a19421341598a636b26f9e"
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-28",
+      "pages_reviewed": [
+        19,
+        43
+      ],
+      "reason": "Phase F purpose covers returned data and any returned samples; neither purpose specifies a universal sample mass. Mission-specific examples do not establish a mass for every closeout.",
+      "original_page_images": [
+        {
+          "page": 19,
+          "image_sha256": "2ba5b6c9cad30e0ad88c3f0c1967e08eefe4db2838f78da840c635ff5c514bae"
+        },
+        {
+          "page": 43,
+          "image_sha256": "46013b8f72e6088fdd984897dafc83802c969e38cfb125c359f5ead815c9eb6d"
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-29",
+      "pages_reviewed": [
+        104,
+        107
+      ],
+      "reason": "Verification procedures specify environmental conditions/tolerances and anomaly-driven re-verification; this is not a universal thermal-vacuum cycle count for every product.",
+      "original_page_images": [
+        {
+          "page": 104,
+          "image_sha256": "a5c219deeed0a5f2ce3f983798fd1457bc62ad6f1e9f4b35f2d5bd741e282513"
+        },
+        {
+          "page": 107,
+          "image_sha256": "c0b9b08c305ed3fdd12203a822b1f1f3f9ef9f704370d75dd5a5c53b960d5034"
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-30",
+      "pages_reviewed": [
+        79
+      ],
+      "reason": "Design alternatives are devised, evaluated, ranked and less promising options dropped according to resources and criteria; no mandatory maximum for every trade study is established.",
+      "original_page_images": [
+        {
+          "page": 79,
+          "image_sha256": "5d2b4d30347dfb3ae6a9f6ec7f4ea831e583c1b64c64da426882b109471afd0b"
+        }
+      ]
+    }
+  ]
+}

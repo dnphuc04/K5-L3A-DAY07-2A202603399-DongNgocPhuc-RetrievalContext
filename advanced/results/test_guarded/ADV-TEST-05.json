@@ -1,0 +1,313 @@
+{
+  "id": "ADV-TEST-05",
+  "split": "test",
+  "question": "Using Table 2.2-1, contrast the main work in Phase C and Phase E.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4IFjx91u7IxNWW8Nwi3rBGeBLJY",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 567,
+        "completion_tokens": 11,
+        "total_tokens": 578,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 921.24,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BH0UmpAQiNaFczEXcIyeUQ2S",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.2-1\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IFlQtwLqi1oxWnIp8kKCe6TrAF",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5733,
+        "completion_tokens": 20,
+        "total_tokens": 5753,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 986.63,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_61QSQbHDG7UVRwmIjXgHMhXN",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0019\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IHpSiN4duPqWQrlOPtTnNSftJ7",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 7345,
+        "completion_tokens": 268,
+        "total_tokens": 7613,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2539.9,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Q1RtnBGrJmsygN17ua7eCWNw",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Công việc chính ở Giai đoạn C là hoàn thiện thiết kế chi tiết của hệ thống, chế tạo phần cứng và phát triển phần mềm. Kết quả điển hình là các thiết kế chi tiết sản phẩm cuối, chế tạo linh kiện sản phẩm cuối và phát triển phần mềm.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase C row\",\"evidence\":\"To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development\"}]},{\"text\":\"Công việc chính ở Giai đoạn E là thực hiện nhiệm vụ và đáp ứng nhu cầu đã xác định ban đầu, duy trì hỗ trợ cho nhu cầu đó. Kết quả điển hình là hệ thống mong muốn.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase E row\",\"evidence\":\"To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "stage": "source_verification",
+      "response_id": "chatcmpl-Ek4IKTLiC0iKsG7gdqYpcuXBg8kvf",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 2085,
+        "completion_tokens": 259,
+        "total_tokens": 2344,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3160.17,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BZI6WqYGnwdjafMzYARCKvwq",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Công việc chính ở Giai đoạn C là hoàn thiện thiết kế chi tiết của hệ thống, chế tạo phần cứng và phát triển phần mềm. Kết quả điển hình là các thiết kế chi tiết sản phẩm cuối, chế tạo linh kiện sản phẩm cuối và phát triển phần mềm.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase C row\",\"evidence\":\"To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development\"}]},{\"text\":\"Công việc chính ở Giai đoạn E là thực hiện nhiệm vụ và đáp ứng nhu cầu đã xác định ban đầu, duy trì hỗ trợ cho nhu cầu đó. Kết quả điển hình là hệ thống mong muốn.\",\"citations\":[{\"source_id\":\"NASA-SE:p0019\",\"locator\":\"Table 2.2-1, Phase E row\",\"evidence\":\"To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Using Table 2.2-1, contrast the main work in Phase C and Phase E.",
+      "results": [
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 9.856180988057332,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 8.717542631228007,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 8.90121339249908,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 4.3771829164952,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0083",
+          "page": 83,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\ncan cover the components of a subsystem down to products should be consistent with each other and\nthe level appropriate for verifying the design against will require iterations and design decisions to achieve\nthe requirements. Concerns raised at the peer this consistency. Once consistency is achieved, func-\nreview might have implications on the power sub- tional analyses allow the study team to validate the\nsystem design and verification and therefore should design against the stakeholder expectations. A sim-\nbe reported at the next higher level review of the plified validation asks the questions: Does the system\npower subsystem. work as expected? How does the system respond to\n failures, faults, and anomalies? Is the system afford-\nThe verification should show that the design solution able? If the answer to any of these questions is no,\ndefinition: then changes to the design or stakeholder expecta-\n tions will be required, and the process is started over\n• Is realizable within the constraints imposed on again. This process continues until the system—\n the technical effort; architecture, ConOps, and requirements—meets the\n stakeholder expectations.\n• Has specified requirements that are stated in\n acceptable statements and have bidirectional This design solution validation is in contrast to\n traceability with the technical requirements and the validation of the end product described in the\n stakeholder expectations; and end-product validation plan, which is part of the\n technical data package. That validation occurs in a\n• Has decisions and assumptions made in forming later life cycle phase and is a result of the Product\n the solution consistent with its set of technical Validation Process (see Section 5.4) applied to the\n requirements and identified system product and realization of the design solution as an end product.\n service constraints.\n 4.4.1.2.9 Identify Enabling Products\nThis design solution verification is in contrast Enabling products are the life cycle support prod-\nto the verification of the end product described ucts and services (e.g., production, test, deployment,\nin the end product verification plan which is training, maintenance, and disposal) that facili-\npart of the technical data package. That verifi- tate the progression and use of the operational end\ncation occurs in a later life cycle phase and is a product through its life cycle. Since the end prod-\nresult of the Product Verification Process (see uct and its enabling products are interdependent,\nSection 5.3) applied to the realization of the design they are viewed as a system. Project responsibility\nsolution as an end product. thus extends to responsibility for acquiring services\n from the relevant enabling products in each life cycle\n4.4.1.2.8 Validate the Design Solution phase. When a suitable enabling product does not\nThe validation of the design solution is a recursive already exist, the project that is responsible for the\nand iterative process as shown in FIGURE 4.0-1. end product can also be responsible for creating and\nEach alternative design concept is validated against using the enabling product.\nthe set of stakeholder expectations. The stakeholder\nexpectations drive the iterative design loop in which Therefore, an important activity in the Design\na straw man architecture/design, the ConOps, and Solution Definition Process is the identification of the\nthe derived requirements are developed. These three enabling products and personnel that will be required\n\n\n\n 73",
+          "score": 11.96676969996876,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0003",
+          "page": 3,
+          "text": "Table of Contents\n\n\n\n\n Preface viii 3.10 Funding: The Budget Cycle . . . . . . . 33\n Acknowledgments ix 3.11 Tailoring and Customization of\n NPR 7123 .1 Requirements . . . . . . . 34\n1.0 Introduction 1 3.11.1 Introduction 34\n 1.1 Purpose . . . . . . . . . . . . . . . . 1 3.11.2 Criteria for Tailoring 34\n 1.2 Scope and Depth . . . . . . . . . . . 1 3.11.3 Tailoring SE NPR Requirements\n Using the Compliance Matrix 35\n 3.11.4 Ways to Tailor a SE Requirement 36\n2.0 Fundamentals of Systems Engineering 3 3.11.5 Examples of Tailoring and\n 2.1 The Common Technical Processes Customization 37\n and the SE Engine . . . . . . . . . . . 5 3.11.6 Approvals for Tailoring 40\n 2.2 An Overview of the SE Engine by\n Project Phase . . . . . . . . . . . . . 8 4.0 System Design Processes 43\n 2.3 Example of Using the SE Engine . . . . 10 4.1 Stakeholder Expectations Definition . .45\n 2.4 Distinctions between Product 4.1.1 Process Description 45\n Verification and Product Validation . . . 11 4.1.2 Stakeholder Expectations Definition\n 2.5 Cost Effectiveness Considerations . . . 11 Guidance 53\n 2.6 Human Systems Integration (HSI) 4.2 Technical Requirements Definition . . .54\n in the SE Process . . . . . . . . . . .12 4.2.1 Process Description 54\n 2.7 Competency Model for 4.2.2 Technical Requirements Definition\n Systems Engineers . . . . . . . . . . . 13 Guidance 62\n 4.3 Logical Decomposition . . . . . . . . .62\n3.0 NASA Program/Project Life Cycle 17 4.3.1 Process Description 62\n 3.1 Program Formulation . . . . . . . . . . 20 4.3.2 Logical Decomposition Guidance 65\n 3.2 Program Implementation . . . . . . . . 20 4.4 Design Solution Definition . . . . . . .65\n 3.3 Project Pre-Phase A: Concept Studies . 21 4.4.1 Process Description 66\n 3.4 Project Phase A: Concept and 4.4.2 Design Solution Definition Guidance 76\n Technology Development . . . . . . . . 23\n 3.5 Project Phase B: Preliminary Design 5.0 Product Realization 77\n and Technology Completion . . . . . . 25\n 3.6 Project Phase C: Final Design and 5.1 Product Implementation . . . . . . . .78\n Fabrication . . . . . . . . . . . . . . . 27 5.1.1 Process Description 79\n 3.7 Project Phase D: System Assembly, 5.1.2 Product Implementation Guidance 83\n Integration and Test, Launch . . . . . . 29 5.2 Product Integration . . . . . . . . . . .83\n 3.8 Project Phase E: Operations 5.2.1 Process Description 85\n and Sustainment . . . . . . . . . . . . 31 5.2.2 Product Integration Guidance 88\n 3.9 Project Phase F: Closeout . . . . . . .31 5.3 Product Verification . . . . . . . . . . .88\n\n\n\n\n iii",
+          "score": 10.707535089722459,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0245",
+          "page": 245,
+          "text": "Appendix K: Technical Plans\n\n\n\n\n\nThe following table represents a typical expectation of maturity of some of the key technical plans developed\nduring the SE processes. This example is for a space flight project. Requirements for work product maturity can\nbe found in the governing PM document (i.e., NPR 7120.5) for the associated type of project.\n\n TABLE K-1 Example of Expected Maturity of Key Technical Plans\n Plan Pre- Phase A Phase Phase C Phase D Phase Phase Ref.\n Phase A B E F Page\n MCR SRR SDR/ PDR CDR SIR ORR MRR/ DR DRR\n MDR FRR\n Systems Engineering P B U U U U U U U U\n Management Plan\n\n Risk Management Plan A B U U U\n\n Integrated Logistics A P P B U\n Support Plan\n\n Technology B U U U\n Development Plan\n\n Review Plan P B U U U U U U U U\n\n Verification and A A P B U\n Validation Plan\n\n Integration Plan P B U\n\n Configuration B U U\n Management Plan\n\n Data Management Plan B U U\n\n Human Systems B U U U\n Integration Plan\n\n Software Management P B U\n Plan\n\n Reliability and P B U\n Maintainability Plan\n\n Mission Operations Plan P B U\n\n Project Protection Plan P B U U U U U U\n\n Decommissioning Plan A B U\n\n Disposal Plan A B U U\n\nA = Approach B = Baseline P = Preliminary U = Update\n\n\n\n 235",
+          "score": 10.077390481375183,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 19,
+          "path": "data/local/advanced/pages/p0019_2000.png",
+          "sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36",
+          "source_id": "NASA-SE:p0019",
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Công việc chính ở Giai đoạn C là hoàn thiện thiết kế chi tiết của hệ thống, chế tạo phần cứng và phát triển phần mềm. Kết quả điển hình là các thiết kế chi tiết sản phẩm cuối, chế tạo linh kiện sản phẩm cuối và phát triển phần mềm.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0019",
+                "locator": "Table 2.2-1, Phase C row",
+                "evidence": "To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development"
+              }
+            ]
+          },
+          {
+            "text": "Công việc chính ở Giai đoạn E là thực hiện nhiệm vụ và đáp ứng nhu cầu đã xác định ban đầu, duy trì hỗ trợ cho nhu cầu đó. Kết quả điển hình là hệ thống mong muốn.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0019",
+                "locator": "Table 2.2-1, Phase E row",
+                "evidence": "To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    19
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Công việc chính ở Giai đoạn C là hoàn thiện thiết kế chi tiết của hệ thống, chế tạo phần cứng và phát triển phần mềm. Kết quả điển hình là các thiết kế chi tiết sản phẩm cuối, chế tạo linh kiện sản phẩm cuối và phát triển phần mềm.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase C row",
+            "evidence": "To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development"
+          }
+        ]
+      },
+      {
+        "text": "Công việc chính ở Giai đoạn E là thực hiện nhiệm vụ và đáp ứng nhu cầu đã xác định ban đầu, duy trì hỗ trợ cho nhu cầu đó. Kết quả điển hình là hệ thống mong muốn.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase E row",
+            "evidence": "To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Công việc chính ở Giai đoạn C là hoàn thiện thiết kế chi tiết của hệ thống, chế tạo phần cứng và phát triển phần mềm. Kết quả điển hình là các thiết kế chi tiết sản phẩm cuối, chế tạo linh kiện sản phẩm cuối và phát triển phần mềm.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "locator": "Table 2.2-1, Phase C row",
+          "evidence": "To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development"
+        }
+      ]
+    },
+    {
+      "text": "Công việc chính ở Giai đoạn E là thực hiện nhiệm vụ và đáp ứng nhu cầu đã xác định ban đầu, duy trì hỗ trợ cho nhu cầu đó. Kết quả điển hình là hệ thống mong muốn.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "locator": "Table 2.2-1, Phase E row",
+          "evidence": "To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 7682.19
+}

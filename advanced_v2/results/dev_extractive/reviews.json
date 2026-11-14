@@ -1,0 +1,479 @@
+{
+  "method": "Direct per-answer/per-citation comparison with original source pixels and text. Strict claim completeness; all system errors fail. Semantic refusals assessed by content, not status label alone. No independent external grading claimed.",
+  "reviews": [
+    {
+      "id": "ADV2-DEV-01",
+      "trace_sha256": "130e56657e5dd7db7d1ad07b5faadae009047b0c7fcfbb0b45bd33eece9f8a7f",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All three AS9100 mappings match Technical Data Management on original PDF 17.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, row 'Technical Data Management'",
+            "evidence": "Technical Data Management | Control of Documents; Control of Records; Control of Design and Development Changes"
+          },
+          "supported": true,
+          "reason": "Original PDF 17, Table 2.1-1, row 'Technical Data Management': source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 17
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-02",
+      "trace_sha256": "6a6eb991652fb4656afc47f5868d797058c83f429250b558c44ef17b5627fd80",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "The claim preserves AND between returned data and any samples, and Phase E plan timing, exactly the original Phase F row on PDF 19.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase F row, Purpose column",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase F row, Purpose column: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 19
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase F row, Purpose column",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase F row, Purpose column: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 19
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-03",
+      "trace_sha256": "25706897a96d82d58340861c4a4144160bbb13385808c53bfbb25b5714e2d5db",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-04",
+      "trace_sha256": "7c7690fed6d70d0819aa740a5c79ba296b80981223eedc8a486b96ee5956a7e9",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-05",
+      "trace_sha256": "59205fe43a9f670d68bacc0522f9e62ac30873907b31e3eefcf841c26ef32f94",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Phase C detailed design/fabrication/coding contrasted with Phase E mission/support/operations plan; original PDF 19.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase C and Phase E rows",
+            "evidence": "Phase C: To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. Phase E: To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase C and Phase E rows: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 19
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-06",
+      "trace_sha256": "ecf4bdabbbc2099794c1f7ccd99294b8d3dbdb5e11f35629a81f40f13a41d8ef",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-07",
+      "trace_sha256": "5bde4993435658132077faa6caf4c3aee5c4d20ae77de90b8176cde5b01590c4",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original green arrows on PDF 16 show requirements down and realized products up.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0016",
+            "locator": "Figure 2.1-1, green arrows and labels",
+            "evidence": "Requirements Flow Down from Level above; Requirements Flow Down To Level below; Realized Products to Level above; Realized Products From Level below"
+          },
+          "supported": true,
+          "reason": "Original PDF 16, Figure 2.1-1, green arrows and labels: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 16
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-08",
+      "trace_sha256": "725bf210aa1cea72588fe9aba883f1a53799b398c03db04d83012ce8fd7e5d58",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-09",
+      "trace_sha256": "32930c8483ed96c58aa54fc7af8ba2c171a6e787927e3b92169db7c092673da4",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-10",
+      "trace_sha256": "adef5659d8b652d5e757eac8f4e7adbeb2ed16dc22e55a4aa81881c7f3ebfca2",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All five CM elements match Figure 6.5-2 on PDF 155.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0155",
+            "locator": "Figure 6.5-2",
+            "evidence": "FIGURE 6.5-2 Five Elements of Configuration Management: Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification."
+          },
+          "supported": true,
+          "reason": "Original PDF 155, Figure 6.5-2: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 155
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-11",
+      "trace_sha256": "8803a3d46064c270968815d3bafeda9398de1e30bf12730c7a200f5363080bc0",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-12",
+      "trace_sha256": "7d483ae7cf89191eb3f2146fcd6929e394b5eccda124ec8498210c287b457186",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-13",
+      "trace_sha256": "9c141056279f45d565fd62976dd4d3cae6336efbd7f5d12f2f24a26f0d4f0b3c",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-14",
+      "trace_sha256": "4bdcbbf9ea98fa7cf224c887e2bf00c35af8369e997ca548a80c1a3065fe0cfe",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-15",
+      "trace_sha256": "62909e3a76b697c9959bd8e170cee887ce2dd10884086d7a7785fc0dbceca3af",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-16",
+      "trace_sha256": "2fde88cfa02743beb1360e360b76d3931aafc1f427320697384a3954b7812eb6",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-17",
+      "trace_sha256": "c331f54ef3a9044914e90236478532d8b0c5a6f5e7371b182ded9fea091fba05",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Both rows checked: PDR near end Phase B/design-to on PDF 171; CDR during Phase C/build-to on PDF 172.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0171",
+            "locator": "Table 6.7-1, Preliminary Design Review (PDR) row, Timing and Results of Review columns",
+            "evidence": "PDR occurs near the completion of the preliminary design phase (Phase B) as the last review in the Formulation Phase... As a result of successful completion of the PDR, the design-to baseline is approved."
+          },
+          "supported": true,
+          "reason": "Original PDF 171, Table 6.7-1, Preliminary Design Review (PDR) row, Timing and Results of Review columns: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 171
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0172",
+            "locator": "Table 6.7-1, Critical Design Review (CDR) row, Timing and Results of Review columns",
+            "evidence": "CDR occurs during the final design phase (Phase C)... As a result of successful completion of the CDR, the build-to baseline, production, and verification plans are approved."
+          },
+          "supported": true,
+          "reason": "Original PDF 172, Table 6.7-1, Critical Design Review (CDR) row, Timing and Results of Review columns: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 172
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-18",
+      "trace_sha256": "279cd1910976372cbeb4f75cfa61b20136d893bfb83833b65efd81255afe3bf9",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Phase D work PDF 19 and SIR end C before D on PDF 172 are both supported.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase D row",
+            "evidence": "Phase D: To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase D row: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 19
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0172",
+            "locator": "Table 6.7-1, SIR row",
+            "evidence": "System Integration Review (SIR): SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins."
+          },
+          "supported": true,
+          "reason": "Original PDF 172, Table 6.7-1, SIR row: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 172
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-19",
+      "trace_sha256": "3c20ea5edf02203cb027002a3a2b0155cb6efb75a92838c0dccc8ccb77c3b504",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct Verification level on PDF 69 and Analysis when prototype unavailable on PDF 103; the prior wrong validation citation is avoided.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0069",
+            "locator": "Table 4.2-2, row 'Verification level'",
+            "evidence": "Verification level: Specifies the level in the hierarchy at which the requirements will be verified (e.g., system, subsystem, element)."
+          },
+          "supported": true,
+          "reason": "Original PDF 69, Table 4.2-2, row 'Verification level': source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 69
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0103",
+            "locator": "Methods of Verification, paragraph 'Analysis'",
+            "evidence": "Analysis is generally used when a prototype; engineering model; or fabricated, assembled, and integrated product is not available. Analysis includes the use of modeling and simulation as analytical tools."
+          },
+          "supported": true,
+          "reason": "Original PDF 103, Methods of Verification, paragraph 'Analysis': source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 103
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-20",
+      "trace_sha256": "6452196c6cb0bf17adcc1fd690ad346ca4baba664f2863b3746dfd5f3c824653",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Flight-proven criterion is preserved explicitly in claim text from PDF 221; Phase E name/work from PDF 19.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0221",
+            "locator": "FIGURE G.4-1, TRL 9 row",
+            "evidence": "TRL 9 Actual system “flight proven” through successful mission operations"
+          },
+          "supported": true,
+          "reason": "Original PDF 221, FIGURE G.4-1, TRL 9 row: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 221
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "TABLE 2.2-1, Phase E row",
+            "evidence": "Phase E To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, TABLE 2.2-1, Phase E row: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 19
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-21",
+      "trace_sha256": "d76890dc3fcff44a41d89d46e15eef9268edc8f483ae99b6940938f82cb0fc96",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Adds that Demonstration is not performed under controlled conditions. Neither original PDF 103 nor glossary PDF 190 establishes that negative assertion; Test claim is supported.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0103",
+            "locator": "METHODS OF VERIFICATION - Demonstration",
+            "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups... A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance."
+          },
+          "supported": false,
+          "reason": "Adds that Demonstration is not performed under controlled conditions. Neither original PDF 103 nor glossary PDF 190 establishes that negative assertion; Test claim is supported.",
+          "original_source_page": 103
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0190",
+            "locator": "Demonstration (Glossary)",
+            "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering."
+          },
+          "supported": false,
+          "reason": "Adds that Demonstration is not performed under controlled conditions. Neither original PDF 103 nor glossary PDF 190 establishes that negative assertion; Test claim is supported.",
+          "original_source_page": 190
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0103",
+            "locator": "METHODS OF VERIFICATION - Test",
+            "evidence": "Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique."
+          },
+          "supported": true,
+          "reason": "Original PDF 103, METHODS OF VERIFICATION - Test: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 103
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-22",
+      "trace_sha256": "85c0725089a1cb79fae925ec2a000e442367731a40726f9f5565c0644d0a5c3a",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Most resource-intensive validation method Test and specified expectations are established on original PDF 111.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0111",
+            "locator": "METHODS OF VALIDATION, Test",
+            "evidence": "Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique."
+          },
+          "supported": true,
+          "reason": "Original PDF 111, METHODS OF VALIDATION, Test: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 111
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-23",
+      "trace_sha256": "aa6bf916e7ec8ee218e99f44650c898f5babae4ef9be94c85c58f6edf342103e",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All three modalities match original C.1 on PDF 207.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.1 Use of Correct Terms",
+            "evidence": "Shall = requirement\nWill = facts or declaration of purpose\nShould = goal"
+          },
+          "supported": true,
+          "reason": "Original PDF 207, C.1 Use of Correct Terms: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 207
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-24",
+      "trace_sha256": "ec25bfaac3be18edd2da969f868ed3bba3cd41ca2da16a9b04f3e76c89d778d7",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-25",
+      "trace_sha256": "17ad48153a8205905ce3570eaeb94dc6f33270ded76660864c1280727e37c237",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: requested universal numeric value/language is not established; no unsupported guess or extra claims.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-26",
+      "trace_sha256": "c4c9bd13b290aaa47f900a6a9bd84be27f19ffd0f1130b2081d8157a894f4936",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-27",
+      "trace_sha256": "aaad2533740ad607c98ebc371031b94a5523394efbff94443f2618763119eca9",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Semantic refusal despite answered status: explicitly says the handbook provides no annual license price and supplies no invented price. PDF 160 is an actual licensing-feature topic anchor; full-corpus absence check, not that quote alone, supports the absence assessment.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0160",
+            "locator": "top left bullet list",
+            "evidence": "License agreement allows for multiple users within an agreed-to number;"
+          },
+          "supported": true,
+          "reason": "Original PDF 160, top left bullet list: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 160
+        }
+      ]
+    },
+    {
+      "id": "ADV2-DEV-28",
+      "trace_sha256": "e4cf71031a6708f4d78730b2c86d1220719d26f2d3ffcac485854859840c425e",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: requested universal numeric value/language is not established; no unsupported guess or extra claims.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-29",
+      "trace_sha256": "c9438f2eafe22866bacaad227d6dbad2cce541ca123203c7e2e584b5716f6792",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "System/protocol failure retained in denominator: Protocol failure after one recorded repair",
+      "citations": []
+    },
+    {
+      "id": "ADV2-DEV-30",
+      "trace_sha256": "e77b78054524ba9cd8be372cdf8809933e99651e6a41f02e8900d0efa006a5f1",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "Acknowledges missing universal dry mass, but adds a universal requirement for mass properties of each element from a narrower example interface-document outline on original PDF 247. This overstates the source.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0241",
+            "locator": "section 7.4 Technical Performance Measures, item 1",
+            "evidence": "The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62]."
+          },
+          "supported": true,
+          "reason": "Original PDF 241, section 7.4 Technical Performance Measures, item 1: source words/visual relationship checked directly; supports the corresponding factual part. Absence conclusions use the separate corpus review.",
+          "original_source_page": 241
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0247",
+            "locator": "section 3.2.1 Mass Properties",
+            "evidence": "Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element."
+          },
+          "supported": false,
+          "reason": "Acknowledges missing universal dry mass, but adds a universal requirement for mass properties of each element from a narrower example interface-document outline on original PDF 247. This overstates the source.",
+          "original_source_page": 247
+        }
+      ]
+    }
+  ]
+}

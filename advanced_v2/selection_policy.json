@@ -1,0 +1,8 @@
+{
+  "stage": "Declared before full dev reviews and before fresh test evaluation",
+  "candidates": ["extractive", "reasoned"],
+  "priority": ["highest binary dev pass rate", "fewest system errors", "highest citation support rate", "lowest total query latency"],
+  "development_source": "All 30 former test questions; original 23/30 result retained as historical baseline",
+  "stress_cases": ["ADV2-DEV-02", "ADV2-DEV-08", "ADV2-DEV-19", "ADV2-DEV-20", "ADV2-DEV-21", "ADV2-DEV-27", "ADV2-DEV-29"],
+  "test_policy": "Freeze selected predictor and complete dev evidence before evaluating every fresh test question once. No test subset, model override, or result-based rerun selection."
+}

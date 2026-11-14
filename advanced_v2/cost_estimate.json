@@ -1,0 +1,84 @@
+{
+  "type": "estimate_not_invoice",
+  "checked_on": "2026-11-14",
+  "rates_usd_per_million": {
+    "gpt-4.1": {
+      "input": 2,
+      "cached_input": 0.5,
+      "output": 8
+    },
+    "gpt-5.2": {
+      "input": 1.75,
+      "cached_input": 0.175,
+      "output": 14
+    }
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-4.1",
+    "https://developers.openai.com/api/docs/models/gpt-5.2"
+  ],
+  "assumptions": "Standard synchronous rates; image input and reasoning output included in reported token usage. Malformed successful responses and smoke included. No invoice/tax/compute/storage reconciliation. Historical v1 baseline reused without new calls, not charged again.",
+  "runs": {
+    "dev_extractive": {
+      "model": "gpt-4.1-2025-04-14",
+      "cases": 30,
+      "calls": 155,
+      "prompt_tokens": 1357436,
+      "cached_prompt_tokens": 436864,
+      "completion_tokens": 8175,
+      "reasoning_tokens_in_completion": 0,
+      "estimated_usd": 2.124976,
+      "median_query_ms": 8732.545,
+      "latency_ms_sum": 421848.1,
+      "wall_seconds": 213.62567,
+      "format_repairs": 18,
+      "zoom_calls": 7
+    },
+    "dev_reasoned": {
+      "model": "gpt-5.2-2025-12-11",
+      "cases": 30,
+      "calls": 164,
+      "prompt_tokens": 1791646,
+      "cached_prompt_tokens": 375424,
+      "completion_tokens": 30668,
+      "reasoning_tokens_in_completion": 17623,
+      "estimated_usd": 2.9734397,
+      "median_query_ms": 17241.085,
+      "latency_ms_sum": 661894.67,
+      "wall_seconds": 337.138199,
+      "format_repairs": 0,
+      "zoom_calls": 11
+    },
+    "dev_reasoned_smoke": {
+      "model": "gpt-5.2-2025-12-11",
+      "cases": 2,
+      "calls": 13,
+      "prompt_tokens": 125619,
+      "cached_prompt_tokens": 61056,
+      "completion_tokens": 3493,
+      "reasoning_tokens_in_completion": 2137,
+      "estimated_usd": 0.17257205,
+      "median_query_ms": 36001.595,
+      "latency_ms_sum": 72003.19,
+      "wall_seconds": 52.518869,
+      "format_repairs": 0,
+      "zoom_calls": 5
+    },
+    "test_reasoned": {
+      "model": "gpt-5.2-2025-12-11",
+      "cases": 30,
+      "calls": 162,
+      "prompt_tokens": 1685685,
+      "cached_prompt_tokens": 219136,
+      "completion_tokens": 30755,
+      "reasoning_tokens_in_completion": 18050,
+      "estimated_usd": 3.03537955,
+      "median_query_ms": 19028.83,
+      "latency_ms_sum": 709683.23,
+      "wall_seconds": 359.71942,
+      "format_repairs": 0,
+      "zoom_calls": 15
+    }
+  },
+  "total_estimated_usd": 8.3063673
+}

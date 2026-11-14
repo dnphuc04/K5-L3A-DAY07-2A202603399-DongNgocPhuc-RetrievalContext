@@ -1,0 +1,150 @@
+{
+  "split": "dev",
+  "policy": {
+    "stage": "Declared before full dev reviews and before fresh test evaluation",
+    "candidates": [
+      "extractive",
+      "reasoned"
+    ],
+    "priority": [
+      "highest binary dev pass rate",
+      "fewest system errors",
+      "highest citation support rate",
+      "lowest total query latency"
+    ],
+    "development_source": "All 30 former test questions; original 23/30 result retained as historical baseline",
+    "stress_cases": [
+      "ADV2-DEV-02",
+      "ADV2-DEV-08",
+      "ADV2-DEV-19",
+      "ADV2-DEV-20",
+      "ADV2-DEV-21",
+      "ADV2-DEV-27",
+      "ADV2-DEV-29"
+    ],
+    "test_policy": "Freeze selected predictor and complete dev evidence before evaluating every fresh test question once. No test subset, model override, or result-based rerun selection."
+  },
+  "selected": "reasoned",
+  "candidates": [
+    {
+      "run": "dev_extractive",
+      "split": "dev",
+      "n": 14,
+      "N": 30,
+      "rate": 0.4666666666666667,
+      "groups": {
+        "table": {
+          "n": 3,
+          "N": 6
+        },
+        "diagram": {
+          "n": 2,
+          "N": 5
+        },
+        "chart": {
+          "n": 0,
+          "N": 5
+        },
+        "multi_hop": {
+          "n": 4,
+          "N": 4
+        },
+        "text": {
+          "n": 2,
+          "N": 4
+        },
+        "unanswerable": {
+          "n": 3,
+          "N": 6
+        }
+      },
+      "errors": 14,
+      "model_calls": 155,
+      "latency_ms_sum": 421848.1,
+      "meets_90_percent": false,
+      "reviews_sha256": "510ae714dbb3f320dc506cb8a01b755839986a25fd3554da7dfd01e93bfbb67b",
+      "method": "Direct per-answer/per-citation comparison with original source pixels and text. Strict claim completeness; all system errors fail. Semantic refusals assessed by content, not status label alone. No independent external grading claimed.",
+      "operational_summary": {
+        "N": 30,
+        "finished_at": "2026-11-14T09:51:53.470219+00:00",
+        "wall_seconds": 213.62567,
+        "latency_ms_sum": 421848.1,
+        "statuses": {
+          "answered": 14,
+          "abstain": 2,
+          "error": 14
+        },
+        "usage": {
+          "prompt_tokens": 1357436,
+          "completion_tokens": 8175,
+          "total_tokens": 1365611
+        }
+      },
+      "citation_support_rate": 0.8636363636363636
+    },
+    {
+      "run": "dev_reasoned",
+      "split": "dev",
+      "n": 29,
+      "N": 30,
+      "rate": 0.9666666666666667,
+      "groups": {
+        "table": {
+          "n": 6,
+          "N": 6
+        },
+        "diagram": {
+          "n": 4,
+          "N": 5
+        },
+        "chart": {
+          "n": 5,
+          "N": 5
+        },
+        "multi_hop": {
+          "n": 4,
+          "N": 4
+        },
+        "text": {
+          "n": 4,
+          "N": 4
+        },
+        "unanswerable": {
+          "n": 6,
+          "N": 6
+        }
+      },
+      "errors": 0,
+      "model_calls": 164,
+      "latency_ms_sum": 661894.67,
+      "meets_90_percent": true,
+      "reviews_sha256": "f6971a58426ada311898318a8bbd4928d4ca1721feece68c134c55b9261ca23a",
+      "method": "Direct per-answer/per-citation comparison with original source pixels and text. Strict claim completeness; all system errors fail. Semantic refusals assessed by content, not status label alone. No independent external grading claimed.",
+      "operational_summary": {
+        "N": 30,
+        "finished_at": "2026-11-14T09:54:26.023185+00:00",
+        "wall_seconds": 337.138199,
+        "latency_ms_sum": 661894.67,
+        "statuses": {
+          "answered": 24,
+          "abstain": 6,
+          "error": 0
+        },
+        "usage": {
+          "prompt_tokens": 1791646,
+          "completion_tokens": 30668,
+          "total_tokens": 1822314
+        }
+      },
+      "citation_support_rate": 0.975
+    }
+  ],
+  "historical_baseline": {
+    "path": "advanced/results/test_guarded/graded_summary.json",
+    "sha256": "8def3d114b9a6177d00c6383b98e85d6fbaaf1cc2e45a961cd94e564d50838f9",
+    "n": 23,
+    "N": 30,
+    "role": "Former test on same questions, now development baseline only; old file unchanged."
+  },
+  "fresh_test_evaluated": false
+}

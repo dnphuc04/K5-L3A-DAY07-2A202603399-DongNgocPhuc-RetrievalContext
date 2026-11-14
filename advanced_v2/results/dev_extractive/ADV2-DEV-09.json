@@ -1,0 +1,267 @@
+{
+  "id": "ADV2-DEV-09",
+  "split": "dev",
+  "question": "In Figure 4.4-2, list the four named activities repeated around the successive-refinement spiral in order, starting with Identify and quantify goals.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4fJOGQQFsCQ7Z9OqaMLnPGPSKvB",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 578,
+        "completion_tokens": 15,
+        "total_tokens": 593,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1033.78,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_lX0XlzP1NHyIXLXkQi6E8SVU",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.4-2 four named activities spiral\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4fLx1MlbedZZE8vOIZ3dL2rTOJc",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6297,
+        "completion_tokens": 32,
+        "total_tokens": 6329,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1286.38,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_NTf2ke24vwsGKfbaf3SGDsX0",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0077\",\"NASA-SE:p0078\",\"NASA-SE:p0079\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4fQtUSi1qRtojRtOPQPgjrhCu76",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 11239,
+        "completion_tokens": 29,
+        "total_tokens": 11268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3994.85,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_zRjuI9zFYMhkCxw6PKeNyTVz",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0077\",\"bbox\":[470,120,740,540]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4fU1Jxvr4DJDKxw2juon7jqTlu0",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 11312,
+        "completion_tokens": 29,
+        "total_tokens": 11341,
+        "prompt_tokens_details": {
+          "cached_tokens": 11008,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3893.85,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_i7ZZ6iKNnhqukrKJ8c88kntD",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0077\",\"bbox\":[470,120,740,540]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.4-2, list the four named activities repeated around the successive-refinement spiral in order, starting with Identify and quantify goals.",
+      "results": [
+        {
+          "id": "NASA-SE:p0077",
+          "page": 77,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n4.4.1.2 Process Activities Recognize Identify and\n4.4.1.2.1 Define Alternative Design Solutions need/ quantify goals\n opportunity\nThe realization of a system over its life cycle involves Identify and\na succession of decisions among alternative courses quantify goals\nof action. If the alternatives are precisely defined and Identify and\n quantify goals conceptsCreate\nthoroughly understood to be well differentiated in conceptsCreate\n Identify and conceptsCreate\nthe cost-effectiveness space, then the systems engi- quantify goalsconceptsCreate\nneer can make choices among them with confidence. Increaseresolution\n Increaseresolution Increase\n resolution\nTo obtain assessments that are crisp enough to facili- Select\n design Do trade studies\ntate good decisions, it is often necessary to delve more Select Do trade\ndeeply into the space of possible designs than has yet design studies\nbeen done, as illustrated in FIGURE 4.4-2. It should Select Do trade studies\n design\nbe realized, however, that this illustration represents Implement decisionsSelect Do trade\nneither the project life cycle, which encompasses Perform design studies\n mission\nthe system development process from inception\nthrough disposal, nor the product development pro-\ncess by which the system design is developed and FIGURE 4.4-2 The Doctrine of Successive Refinement\nimplemented.\n Additionally, the state of any technology that is con-\nEach “create concepts” step in FIGURE 4.4-2 involves a sidered enabling should be properly monitored, and\nrecursive and iterative design loop driven by the set of care should be taken when assessing the impact of\nstakeholder expectations where a straw man architec- this technology on the concept performance. This\nture/design, the associated ConOps, and the derived interaction is facilitated through a periodic assess-\nrequirements are developed and programmatic con- ment of the design with respect to the maturity of the\nstraints such as cost and schedule are considered. technology required to implement the design. (See\nThese three products should be consistent with each Section 4.4.2.1 in the NASA Expanded Guidance\nother and will require iterations and design decisions for Systems Engineering at https://nen.nasa.gov/web/\nto achieve this consistency. This recursive and itera- se/doc-repository for a more detailed discussion of\ntive design loop is illustrated in FIGURE 4.0-1. technology assessment.) These technology elements\n usually exist at a lower level in the PBS. Although\nEach “create concepts” step in FIGURE 4.4-2 also the process of design concept development by the\ninvolves an assessment of potential capabilities offered integration of lower level elements is a part of the\nby the continually changing state of technology and systems engineering process, there is always a danger\npotential pitfalls captured through experience-based that the top-down process cannot keep up with the\nreview of prior program/project lessons learned data. bottom-up process. Therefore, system architecture\nIt is imperative that there be a continual interaction issues need to be resolved early so that the system\nbetween the technology development process, cross- can be modeled with sufficient realism to do reliable\ncutting processes such as human systems integration, trade studies.\nand the design process to ensure that the design\nreflects the realities of the available technology and As the system is realized, its particulars become\nthat overreliance on immature technology is avoided. clearer—but also harder to change. See the rising\n\n\n 67",
+          "score": 24.330956351223016,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "score": 14.366725867304915,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 12.123531141114395,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0079",
+          "page": 79,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nassociated cost, schedule, and risk—it is necessary 4.4.1.2.3 Analyze Each Alternative Design Solution\nto systematically assess the maturity of each system, The technical team analyzes how well each of the\nsubsystem, or component in terms of the architecture design alternatives meets the system objectives (tech-\nand operational environment. It is then necessary to nology gaps, effectiveness, technical achievability,\nassess what is required in the way of development to performance, cost, schedule, and risk, both quanti-\nadvance the maturity to a point where it can success- fied and otherwise). This assessment is accomplished\nfully be incorporated within cost, schedule, and per- through the use of trade studies. The purpose of the\nformance constraints. A process for accomplishing trade study process is to ensure that the system archi-\nthis assessment is described in Appendix G. Because tecture, intended operations (i.e., the ConOps) and\ntechnology development has the potential for such design decisions move toward the best solution that\nsignificant impacts on a program/project, technology can be achieved with the available resources. The\nassessment needs to play a role throughout the design basic steps in that process are:\nand development process from concept development\nthrough Preliminary Design Review (PDR). Lessons • Devise some alternative means to meet the func-\nlearned from a technology development point of tional requirements. In the early phases of the\nview should then be captured in the final phase of project life cycle, this means focusing on system\nthe program. architectures; in later phases, emphasis is given to\n system designs.\nOn the first turn of the successive refinement in\nFIGURE 4.4-2, the subject is often general approaches • Evaluate these alternatives in terms of the MOPs\nor strategies, sometimes architectural concepts. On and system life cycle cost. Mathematical models\nthe next, it is likely to be functional design, then are useful in this step not only for forcing rec-\ndetailed design, and so on. The reason for avoiding ognition of the relationships among the outcome\na premature focus on a single design is to permit dis- variables, but also for helping to determine what\ncovery of the truly best design. Part of the systems the MOPs should be quantitatively.\nengineer’s job is to ensure that the design concepts to\nbe compared take into account all interface require- • Rank the alternatives according to appropriate\nments. Characteristic questions include: “Did you selection criteria.\ninclude the cabling?” or “Did you consider how the\nmaintainers can repair the system?” When possible, • Drop less promising alternatives and proceed to\neach design concept should be described in terms the next level of resolution, if needed.\nof controllable design parameters so that each rep-\nresents as wide a class of designs as is reasonable. In The trade study process should be done openly and\ndoing so, the systems engineer should keep in mind inclusively. While quantitative techniques and rules\nthat the potentials for change may include organi- are used, subjectivity also plays a significant role.\nzational structure, personnel constraints, schedules, To make the process work effectively, participants\nprocedures, and any of the other things that make up should have open minds, and individuals with dif-\na system. When possible, constraints should also be ferent skills—systems engineers, design engineers,\ndescribed by parameters. crosscutting specialty discipline and domain engi-\n neers, program analysts, system end users, deci-\n sion scientists, maintainers, operators, and project\n\n\n\n 69",
+          "score": 9.385480200782832,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0082",
+          "page": 82,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nof the design to the requirements and ConOps; completed, then the design is fully defined into a\nit should also have sufficient depth to support cost final design solution that will satisfy the technical\nand operations modeling and to convince a review requirements and ConOps. The design solution defi-\nteam of a feasible design with performance, cost, and nition will be used to generate the end product speci-\nrisk margins. fications that will be used to produce the product and\n to conduct product verification. This process may be\nThe systems engineering engine is applied again and further refined depending on whether there are addi-\nagain as the system is developed. As the system is real- tional subsystems of the end product that need to\nized, the issues addressed evolve and the particulars be defined.\nof the activity change. Most of the major system deci-\nsions (goals, architecture, acceptable life cycle cost, The scope and content of the full design description\netc.) are made during the early phases of the project, should be appropriate for the product life cycle phase,\nso the successive refinements do not correspond pre- the phase success criteria, and the product position in\ncisely to the phases of the system life cycle. Much of the PBS (system structure). Depending on these fac-\nthe system architecture can be seen even at the out- tors, the form of the design solution definition could\nset, so the successive refinements do not correspond be simply a simulation model or a paper study report.\nexactly to development of the architectural hierarchy The technical data package evolves from phase to\neither. Rather, they correspond to the successively phase, starting with conceptual sketches or models\ngreater resolution by which the system is defined. and ending with complete drawings, parts list, and\n other details needed for product implementation or\nIt is reasonable to expect the system to be defined product integration. Typical output definitions from\nwith better resolution as time passes. This tendency the Design Solution Definition Process are shown in\nis formalized at some point (in Phase B) by defin- FIGURE 4.4-1 and are described in Section 4.4.1.3.\ning a baseline system definition. Usually, the goals,\nobjectives, and constraints are baselined as the 4.4.1.2.7 Verify the Design Solution\nrequirements portion of the baseline. The entire base- Once an acceptable design solution has been selected\nline is then placed under configuration control in an from among the various alternative designs and doc-\nattempt to ensure that any subsequent changes are umented in a technical data package, the design\nindeed justified and affordable. solution should next be verified against the system\n requirements and constraints. A method to achieve\nAt this point in the systems engineering process, there this verification is by means of a peer review to\nis a logical branch point. For those issues for which evaluate the resulting design solution definition.\nthe process of successive refinement has proceeded far Guidelines for conducting a peer review are discussed\nenough, the next step is to implement the decisions at in Section 6.7.2.4.5.\nthat level of resolution. For those issues that are still\ninsufficiently resolved, the next step is to refine the In addition, peer reviews play a significant role as a\ndevelopment further. detailed technical component of higher level tech-\n nical and programmatic reviews. For example, the\n4.4.1.2.6 Fully Describe the Design Solution peer review of a component battery design can go\nOnce the preferred design alternative has been into much more technical detail on the battery than\nselected and the proper level of refinement has been the integrated power subsystem review. Peer reviews\n\n\n\n 72",
+          "score": 20.141732157242604,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0078",
+          "page": 78,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n“Cost to Change Design Direction” in FIGURE 2.5-1. interaction between the technology development\nThe purpose of systems engineering is to make sure process and the design process ensures that the design\nthat the Design Solution Definition Process happens reflects the realities of the available technology. This\nin a way that leads to the most functional, safe, and interaction is facilitated through periodic assessment\ncost-effective final system while working within any of the design with respect to the maturity of the tech-\ngiven schedule boundaries. The basic idea is that nology required to implement the design.\nbefore those decisions that are hard to undo are\nmade, the alternatives should be carefully and itera- After identifying the technology gaps existing in\ntively assessed, particularly with respect both to the a given design concept, it is frequently necessary\nmaturity of the required technology and to stake- to undertake technology development in order to\nholder expectations for efficient, effective operations. ascertain viability. Given that resources will always\n be limited, it is necessary to pursue only the most\n4.4.1.2.2 Create Alternative Design Concepts promising technologies that are required to enable a\nOnce it is understood what the system is to accom- given concept.\nplish, it is possible to devise a variety of ways that\nthose goals can be met. Sometimes, that comes about If requirements are defined without fully under-\nas a consequence of considering alternative func- standing the resources required to accomplish needed\ntional allocations and integrating available subsystem technology developments, then the program/project\ndesign options, all of which can have technologies at is at risk. Technology assessment should be done iter-\nvarying degrees of maturity. Ideally, as wide a range of atively until requirements and available resources are\nplausible alternatives as is consistent with the design aligned within an acceptable risk posture. Technology\norganization’s charter should be defined, keeping in development plays a far greater role in the life cycle\nmind the current stage in the process of successive of a program/project than has been traditionally con-\nrefinement. When the bottom-up process is operat- sidered, and it is the role of the systems engineer to\ning, a problem for the systems engineer is that the develop an understanding of the extent of program/\ndesigners tend to become fond of the designs they project impacts—maximizing benefits and minimiz-\ncreate, so they lose their objectivity; the systems engi- ing adverse effects. Traditionally, from a program/\nneer should stay an “outsider” so that there is more project perspective, technology development has\nobjectivity. This is particularly true in the assessment been associated with the development and incorpo-\nof the technological maturity of the subsystems and ration of any “new” technology necessary to meet\ncomponents required for implementation. There is a requirements. However, a frequently overlooked area\ntendency on the part of technology developers and is that associated with the modification of “heritage”\nproject management to overestimate the maturity systems incorporated into different architectures and\nand applicability of a technology that is required to operating in different environments from the ones for\nimplement a design. This is especially true of “heri- which they were designed. If the required modifica-\ntage” equipment. The result is that critical aspects of tions and/or operating environments fall outside the\nsystems engineering are often overlooked. realm of experience, then these too should be consid-\n ered technology development.\nThe creation of alternative design solutions involves\nassessment of potential capabilities offered by the To understand whether or not technology develop-\ncontinually changing state of technology. A continual ment is required—and to subsequently quantify the\n\n\n\n 68",
+          "score": 15.766330407455078,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 13.571609612078191,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0077",
+          "page": 77,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n4.4.1.2 Process Activities Recognize Identify and\n4.4.1.2.1 Define Alternative Design Solutions need/ quantify goals\n opportunity\nThe realization of a system over its life cycle involves Identify and\na succession of decisions among alternative courses quantify goals\nof action. If the alternatives are precisely defined and Identify and\n quantify goals conceptsCreate\nthoroughly understood to be well differentiated in conceptsCreate\n Identify and conceptsCreate\nthe cost-effectiveness space, then the systems engi- quantify goalsconceptsCreate\nneer can make choices among them with confidence. Increaseresolution\n Increaseresolution Increase\n resolution\nTo obtain assessments that are crisp enough to facili- Select\n design Do trade studies\ntate good decisions, it is often necessary to delve more Select Do trade\ndeeply into the space of possible designs than has yet design studies\nbeen done, as illustrated in FIGURE 4.4-2. It should Select Do trade studies\n design\nbe realized, however, that this illustration represents Implement decisionsSelect Do trade\nneither the project life cycle, which encompasses Perform design studies\n mission\nthe system development process from inception\nthrough disposal, nor the product development pro-\ncess by which the system design is developed and FIGURE 4.4-2 The Doctrine of Successive Refinement\nimplemented.\n Additionally, the state of any technology that is con-\nEach “create concepts” step in FIGURE 4.4-2 involves a sidered enabling should be properly monitored, and\nrecursive and iterative design loop driven by the set of care should be taken when assessing the impact of\nstakeholder expectations where a straw man architec- this technology on the concept performance. This\nture/design, the associated ConOps, and the derived interaction is facilitated through a periodic assess-\nrequirements are developed and programmatic con- ment of the design with respect to the maturity of the\nstraints such as cost and schedule are considered. technology required to implement the design. (See\nThese three products should be consistent with each Section 4.4.2.1 in the NASA Expanded Guidance\nother and will require iterations and design decisions for Systems Engineering at https://nen.nasa.gov/web/\nto achieve this consistency. This recursive and itera- se/doc-repository for a more detailed discussion of\ntive design loop is illustrated in FIGURE 4.0-1. technology assessment.) These technology elements\n usually exist at a lower level in the PBS. Although\nEach “create concepts” step in FIGURE 4.4-2 also the process of design concept development by the\ninvolves an assessment of potential capabilities offered integration of lower level elements is a part of the\nby the continually changing state of technology and systems engineering process, there is always a danger\npotential pitfalls captured through experience-based that the top-down process cannot keep up with the\nreview of prior program/project lessons learned data. bottom-up process. Therefore, system architecture\nIt is imperative that there be a continual interaction issues need to be resolved early so that the system\nbetween the technology development process, cross- can be modeled with sufficient realism to do reliable\ncutting processes such as human systems integration, trade studies.\nand the design process to ensure that the design\nreflects the realities of the available technology and As the system is realized, its particulars become\nthat overreliance on immature technology is avoided. clearer—but also harder to change. See the rising\n\n\n 67",
+          "image_path": "data/local/advanced/pages/p0077_2000.png",
+          "image_sha256": "cb937ce8a09f5426675df7a55e86cbaf1a9ee26083387b12f07e9be3fb3f5719"
+        },
+        {
+          "source_id": "NASA-SE:p0078",
+          "page": 78,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n“Cost to Change Design Direction” in FIGURE 2.5-1. interaction between the technology development\nThe purpose of systems engineering is to make sure process and the design process ensures that the design\nthat the Design Solution Definition Process happens reflects the realities of the available technology. This\nin a way that leads to the most functional, safe, and interaction is facilitated through periodic assessment\ncost-effective final system while working within any of the design with respect to the maturity of the tech-\ngiven schedule boundaries. The basic idea is that nology required to implement the design.\nbefore those decisions that are hard to undo are\nmade, the alternatives should be carefully and itera- After identifying the technology gaps existing in\ntively assessed, particularly with respect both to the a given design concept, it is frequently necessary\nmaturity of the required technology and to stake- to undertake technology development in order to\nholder expectations for efficient, effective operations. ascertain viability. Given that resources will always\n be limited, it is necessary to pursue only the most\n4.4.1.2.2 Create Alternative Design Concepts promising technologies that are required to enable a\nOnce it is understood what the system is to accom- given concept.\nplish, it is possible to devise a variety of ways that\nthose goals can be met. Sometimes, that comes about If requirements are defined without fully under-\nas a consequence of considering alternative func- standing the resources required to accomplish needed\ntional allocations and integrating available subsystem technology developments, then the program/project\ndesign options, all of which can have technologies at is at risk. Technology assessment should be done iter-\nvarying degrees of maturity. Ideally, as wide a range of atively until requirements and available resources are\nplausible alternatives as is consistent with the design aligned within an acceptable risk posture. Technology\norganization’s charter should be defined, keeping in development plays a far greater role in the life cycle\nmind the current stage in the process of successive of a program/project than has been traditionally con-\nrefinement. When the bottom-up process is operat- sidered, and it is the role of the systems engineer to\ning, a problem for the systems engineer is that the develop an understanding of the extent of program/\ndesigners tend to become fond of the designs they project impacts—maximizing benefits and minimiz-\ncreate, so they lose their objectivity; the systems engi- ing adverse effects. Traditionally, from a program/\nneer should stay an “outsider” so that there is more project perspective, technology development has\nobjectivity. This is particularly true in the assessment been associated with the development and incorpo-\nof the technological maturity of the subsystems and ration of any “new” technology necessary to meet\ncomponents required for implementation. There is a requirements. However, a frequently overlooked area\ntendency on the part of technology developers and is that associated with the modification of “heritage”\nproject management to overestimate the maturity systems incorporated into different architectures and\nand applicability of a technology that is required to operating in different environments from the ones for\nimplement a design. This is especially true of “heri- which they were designed. If the required modifica-\ntage” equipment. The result is that critical aspects of tions and/or operating environments fall outside the\nsystems engineering are often overlooked. realm of experience, then these too should be consid-\n ered technology development.\nThe creation of alternative design solutions involves\nassessment of potential capabilities offered by the To understand whether or not technology develop-\ncontinually changing state of technology. A continual ment is required—and to subsequently quantify the\n\n\n\n 68",
+          "image_path": "data/local/advanced/pages/p0078_2000.png",
+          "image_sha256": "7ee593b77ba1d08af24a0a8ac38938c89f396ee8991204669bcd2118f6def729"
+        },
+        {
+          "source_id": "NASA-SE:p0079",
+          "page": 79,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nassociated cost, schedule, and risk—it is necessary 4.4.1.2.3 Analyze Each Alternative Design Solution\nto systematically assess the maturity of each system, The technical team analyzes how well each of the\nsubsystem, or component in terms of the architecture design alternatives meets the system objectives (tech-\nand operational environment. It is then necessary to nology gaps, effectiveness, technical achievability,\nassess what is required in the way of development to performance, cost, schedule, and risk, both quanti-\nadvance the maturity to a point where it can success- fied and otherwise). This assessment is accomplished\nfully be incorporated within cost, schedule, and per- through the use of trade studies. The purpose of the\nformance constraints. A process for accomplishing trade study process is to ensure that the system archi-\nthis assessment is described in Appendix G. Because tecture, intended operations (i.e., the ConOps) and\ntechnology development has the potential for such design decisions move toward the best solution that\nsignificant impacts on a program/project, technology can be achieved with the available resources. The\nassessment needs to play a role throughout the design basic steps in that process are:\nand development process from concept development\nthrough Preliminary Design Review (PDR). Lessons • Devise some alternative means to meet the func-\nlearned from a technology development point of tional requirements. In the early phases of the\nview should then be captured in the final phase of project life cycle, this means focusing on system\nthe program. architectures; in later phases, emphasis is given to\n system designs.\nOn the first turn of the successive refinement in\nFIGURE 4.4-2, the subject is often general approaches • Evaluate these alternatives in terms of the MOPs\nor strategies, sometimes architectural concepts. On and system life cycle cost. Mathematical models\nthe next, it is likely to be functional design, then are useful in this step not only for forcing rec-\ndetailed design, and so on. The reason for avoiding ognition of the relationships among the outcome\na premature focus on a single design is to permit dis- variables, but also for helping to determine what\ncovery of the truly best design. Part of the systems the MOPs should be quantitatively.\nengineer’s job is to ensure that the design concepts to\nbe compared take into account all interface require- • Rank the alternatives according to appropriate\nments. Characteristic questions include: “Did you selection criteria.\ninclude the cabling?” or “Did you consider how the\nmaintainers can repair the system?” When possible, • Drop less promising alternatives and proceed to\neach design concept should be described in terms the next level of resolution, if needed.\nof controllable design parameters so that each rep-\nresents as wide a class of designs as is reasonable. In The trade study process should be done openly and\ndoing so, the systems engineer should keep in mind inclusively. While quantitative techniques and rules\nthat the potentials for change may include organi- are used, subjectivity also plays a significant role.\nzational structure, personnel constraints, schedules, To make the process work effectively, participants\nprocedures, and any of the other things that make up should have open minds, and individuals with dif-\na system. When possible, constraints should also be ferent skills—systems engineers, design engineers,\ndescribed by parameters. crosscutting specialty discipline and domain engi-\n neers, program analysts, system end users, deci-\n sion scientists, maintainers, operators, and project\n\n\n\n 69",
+          "image_path": "data/local/advanced/pages/p0079_2000.png",
+          "image_sha256": "54367619e9e52a563a24b10c43aa8aef464695f6f0157795d3941a72c2338661"
+        }
+      ]
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    }
+  ],
+  "viewed_pages": [
+    77,
+    78,
+    79
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Protocol failure after one recorded repair"
+  },
+  "elapsed_ms": 12106.28
+}

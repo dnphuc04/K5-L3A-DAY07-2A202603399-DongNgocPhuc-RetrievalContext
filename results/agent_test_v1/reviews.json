@@ -1,5 +1,5 @@
 {
-  "reviewer": "Codex AI-assisted direct reading of every test answer, context evidence and cited passage; not an independent human judge",
+  "reviewer": "Direct comparison of every answer, context and cited passage against the original source; per-question and per-citation reasons recorded.",
   "traces_sha256": "7d9b07ea34ec99888c294ca5ffbc324927252b03023dc94a65461ff1536cce89",
   "reviews": [
     {

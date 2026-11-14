@@ -1,0 +1,46 @@
+{
+  "split": "dev",
+  "config": {
+    "name": "guarded",
+    "model": "gpt-4.1-2025-04-14",
+    "top_k": 7,
+    "max_tools": 8,
+    "image_size": 2000,
+    "verify": true,
+    "numeric_guard": true
+  },
+  "started_at": "2026-11-14T09:21:58.301783+00:00",
+  "benchmark_sha256": "5d2c84c619b53a0b9cdddbcc7f09a64ca6e4fc1b3714c04c7b715fda65c860aa",
+  "source_manifest_sha256": "ea6b3685aaeaf9a816dc165ee652edf71e1dcf0afb3c96f99476c24403366aa0",
+  "workers": 2,
+  "code_sha256": {
+    "advanced/pipeline.py": "470767afae58f75028df7ccbc76710d1be033287a8e987f8b452b0d3d7797e97",
+    "advanced/ingest.py": "4cad800ec55ec621c907ad1dce80eb443c9a5425ce97402e3791323659eb5b73",
+    "advanced/common.py": "9e63a9c08359651dd387d189581370aa84c6d17aa77082dde176f4ac21ad4adb",
+    "advanced/run.py": "d4eea71adad9044f7b4581b8c87e7e2bf700eddb621ce8cdc2b7b8f9064e59ff",
+    "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab"
+  },
+  "input_ids": [
+    "ADV-DEV-01",
+    "ADV-DEV-02",
+    "ADV-DEV-03",
+    "ADV-DEV-04",
+    "ADV-DEV-05",
+    "ADV-DEV-06",
+    "ADV-DEV-07",
+    "ADV-DEV-08",
+    "ADV-DEV-09",
+    "ADV-DEV-10",
+    "ADV-DEV-11",
+    "ADV-DEV-12",
+    "ADV-DEV-13",
+    "ADV-DEV-14",
+    "ADV-DEV-15",
+    "ADV-DEV-16",
+    "ADV-DEV-17",
+    "ADV-DEV-18"
+  ],
+  "privacy": "Public NASA questions, text, requested original page images only; no gold or credentials in payload/traces",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "retries": 0
+}

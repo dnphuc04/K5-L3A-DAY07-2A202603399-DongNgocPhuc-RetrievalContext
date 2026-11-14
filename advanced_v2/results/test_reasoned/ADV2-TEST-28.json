@@ -1,0 +1,688 @@
+{
+  "id": "ADV2-TEST-28",
+  "split": "test",
+  "question": "What exact mass of returned samples in grams must every Phase F closeout analyze?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4rufcKKkKPB5sbj1OjnaiaI6Dlx",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 639,
+        "completion_tokens": 78,
+        "total_tokens": 717,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 47,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2231.14,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_S1R3P7n5Qba3vBMl55Kar6Xf",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Phase F closeout analyze mass of returned samples grams\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rxFZwDBQEBMTg40856aEjn4GTK",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5790,
+        "completion_tokens": 102,
+        "total_tokens": 5892,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 74,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2663.36,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_xHqHTOgoDY13OKW3kdURpww6",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"returned samples\\\" grams Phase F\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4s0PA0ZhXkywB3OjQNJKxeeeS7G",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10149,
+        "completion_tokens": 97,
+        "total_tokens": 10246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 69,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2836.12,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_IO860pNIPAR76SSkvcBYOglh",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"grams sample return Phase F closeout\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4s2MgMo5peXYFwcCG5SQ0W3LZo2",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15132,
+        "completion_tokens": 112,
+        "total_tokens": 15244,
+        "prompt_tokens_details": {
+          "cached_tokens": 9856,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 71,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2577.72,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pjp5TMAwpOQBha2TVAghbCJR",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0043\",\"NASA-SE:p0041\",\"NASA-SE:p0019\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sBhE44rFcoJsbGi86pGPi57HDc",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 28232,
+        "completion_tokens": 133,
+        "total_tokens": 28365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 107,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7268.73,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MGFSgirus2cuM9nELaZyifv5",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"grams returned samples mass analyze\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sG8ZtqYrCNp4P7qQKVUEujiSFb",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 32395,
+        "completion_tokens": 178,
+        "total_tokens": 32573,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 151,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5306.61,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_kfofTwqLEwJ3X6TFT3zZgajR",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"returned samples\\\" mass g\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sLyJnsMlrwCcxVwjHGPfK4QxNL",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 36404,
+        "completion_tokens": 78,
+        "total_tokens": 36482,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 50,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3707.36,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FBWl3TARjeQ2sloCPzXV7y4R",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sPWLxlN0GX6YbHqgzkDqXYCiT2",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 13324,
+        "completion_tokens": 77,
+        "total_tokens": 13401,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 49,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3647.92,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KjcL5zU3cXzLwqgyYAXy6M5j",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What exact mass of returned samples in grams must every Phase F closeout analyze?",
+      "results": [
+        {
+          "id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "score": 21.464299313492315,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "score": 21.325354269354346,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 19.539610944150645,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0020",
+          "page": 20,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.3 Example of Using the SE Engine enable designers to accurately determine the feasibil-\nIn Pre-Phase A, the SE engine is used to develop the ity of accomplishing the project, which is the purpose\ninitial concepts; clearly define the unique roles of of Pre-Phase A.\nhumans, hardware, and software in performing the\nmissions objectives; establish the system functional During Phase A, the recursive use of the SE engine\nand performance boundaries; develop/identify a pre- is continued, this time taking the concepts and draft\nliminary/draft set of key high-level requirements, key requirements that were developed and validated\ndefine one or more initial Concept of Operations during Pre-Phase A and fleshing them out to become\n(ConOps) scenarios; realize these concepts through the set of baseline system requirements and ConOps.\niterative modeling, mock-ups, simulation, or other During this phase, key areas of high risk might be\nmeans; and verify and validate that these concepts simulated to ensure that the concepts and require-\nand products would be able to meet the key high-level ments being developed are good ones and to identify\nrequirements and ConOps. The operational concept verification and validation tools and techniques that\nmust include scenarios for all significant operational will be needed in later phases.\nsituations, including known off-nominal situations.\nTo develop a useful and complete set of scenarios, During Phase B, the SE engine is applied recursively\nimportant malfunctions and degraded-mode opera- to further mature requirements and designs for all\ntional situations must be considered. The importance products in the developing product tree and perform\nof early ConOps development cannot be underesti- verification and validation of concepts to ensure\nmated. As system requirements become more detailed that the designs are able to meet their requirements.\nand contain more complex technical information, Operational designs and mission scenarios are evalu-\nit becomes harder for the stakeholders and users to ated and feasibility of execution within design capa-\nunderstand what the requirements are conveying; bilities and cost estimates are assessed.\ni.e., it may become more difficult to visualize the end\nproduct. The ConOps can serve as a check in identi- Phase C again uses the left side of the SE engine to\nfying missing or conflicting requirements. finalize all requirement updates, finalize the ConOps\n validation, develop the final designs to the lowest\nNote that this Pre-Phase A initial concepts develop- level of the product tree, and begin fabrication.\nment work is not the formal verification and valida-\ntion program that is performed on the final product, Phase D uses the right side of the SE engine to recur-\nbut rather it is a methodical run through ensuring sively perform the final implementation, integration,\nthat the concepts that are being developed in this verification, and validation of the end product, and at\nPre-Phase A are able to meet the likely requirements the final pass, transition the end product to the user.\nand expectations of the stakeholders. Concepts are\ndeveloped to the lowest level necessary to ensure that The technical management processes of the SE engine\nthey are feasible and to a level that reduces the risk are used in Phases E and F to monitor performance;\nlow enough to satisfy the project. Academically, this control configuration; and make decisions associ-\nprocess could proceed down to the circuit board level ated with the operations, sustaining engineering,\nfor every system; however, that would involve a great and closeout of the system. Any new capabilities or\ndeal of time and money. There may be a higher level upgrades of the existing system reenter the SE engine\nor tier of product than circuit board level that would as new developments.\n\n\n\n 10",
+          "score": 14.044955052262713,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0260",
+          "page": 260,
+          "text": " Appendix R: HSI Plan Content Outline\n\n\n\n\n\n\n TABLE R.2-1 HSI Activity, Product, or Risk Mitigation by Program/Project Phase\nLife-Cycle Phase Description Activity, Product, or Risk Mitigation\nPhase\nPre-Phase A Concept Studies ConOps (Preliminary—to include training, maintenance, logistics, etc.)\n\nPhase A Concept & Technology HSI Plan (baseline)\n Development ConOps (initial)\n\n HSI responsible party(ies) and/or team identified before SRR\n Develop mockup(s) for HSI evaluations\n Crew Workload Evaluation Plan\n Functional allocation, crew task lists\n Validation of ConOps (planning)\n\nPhase B Preliminary Design & HSI Plan (update)\n Technology Completion ConOps (baseline)\n\n Develop engineering-level mockup(s) for HSI evaluations\n Define crew environmental and crew health support needs (e.g., aircraft\n flight decks, human space flight missions)\n Assess operator interfaces through task analyses (for, e.g., aircraft\n cockpit operations, air traffic management, spacecraft environments,\n mission control for human space flight missions)\n Human-in-the-loop usability plan\n Human-rating report for PDR\nPhase C Final Design & Fabrication HSI Plan (update)\n First Article HSI Tests\n Human-rating report for CDR\n\nPhase D System Assembly, Integ. & Human-rating report for ORR\n Test, Launch & Checkout Validation of human-centered design activities\n\n Validation of ConOps\nPhase E Operations & Sustainment Monitoring of human-centered design performance\n\nPhase F Closeout Lessons learned report\n\n\n\n HSI PLAN UPDATES\n\n\n Key points to be addressed in each update\n • Identify the current program/project phase, the publication date of the last iteration of the HSI Plan, and\n the HSI Plan version number. Update the HSI Plan revision history.\n • Describe the HSI entrance criteria for the current phase and describe any unfinished work prior to the\n current phase.\n • Describe the HSI exit criteria for the current program/project phase and the work that must be\n accomplished to successfully complete the current program/project phase.\n\n\n\n\n 250",
+          "score": 11.763055750086489,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0007",
+          "page": 7,
+          "text": "Table of Boxes\n\n\n\n\nThe Systems Engineer’s Dilemma . . . . . . . . . .12 Differences between Verification and\nSpace Flight Program Formulation . . . . . . . . . . 20 Validation Testing . . . . . . . . . . . . . . . . . . . 89\nSpace Flight Program Implementation . . . . . . . . 21 Differences between Verification, Qualification,\nSpace Flight Pre-Phase A: Concept Studies . . . . . 22 Acceptance and Certification . . . . . . . . . . . . . 90\nSpace Flight Phase A: Methods of Verification . . . . . . . . . . . . . . . .93\nConcept and Technology Development . . . . . . .24 Methods of Validation . . . . . . . . . . . . . . . 101\nSpace Flight Phase B: Crosscutting Technical Management Keys . . . . . 114\nPreliminary Design and Technology Completion . . .26 Types of Hardware . . . . . . . . . . . . . . . . . 124\nSpace Flight Phase C: Final Design and Fabrication . 28 Environments . . . . . . . . . . . . . . . . . . . . 127\nSpace Flight Phase D: Definitions . . . . . . . . . . . . . . . . . . . . . 130\nSystem Assembly, Integration and Test, Launch . . . 30 Types of Configuration Management Changes . . . 149\nSpace Flight Phase E: Operations and Sustainment .32 Data Collection Checklist . . . . . . . . . . . . . . 155\nPhase F: Closeout . . . . . . . . . . . . . . . . . .33 HSI Relevance . . . . . . . . . . . . . . . . . . . 246\nSystem Design Keys . . . . . . . . . . . . . . . . . 44 HSI Strategy . . . . . . . . . . . . . . . . . . . . 246\nConcept of Operations vs . Operations Concept . . .51 HSI Domains . . . . . . . . . . . . . . . . . . . . 247\nExample of Functional and Performance HSI Requirements . . . . . . . . . . . . . . . . . 247\nRequirements . . . . . . . . . . . . . . . . . . . .56 HSI Implementation . . . . . . . . . . . . . . . . 249\nRationale . . . . . . . . . . . . . . . . . . . . . . . 60 HSI Plan Updates . . . . . . . . . . . . . . . . . 250\nProduct Realization Keys . . . . . . . . . . . . . . . 78\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vii",
+          "score": 9.478875223008123,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 8.733169074137397,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"returned samples\" grams Phase F",
+      "results": [
+        {
+          "id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "score": 16.717878939031447,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 15.26636596353628,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "score": 13.440615853587605,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 6.1368307142754634,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0029",
+          "page": 29,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n TABLE 3.0-1 SE Product Maturity from NPR 7123 .1\n Formulation Implementation\n Uncoupled/\n Loosely Coupled KDP 0 KDP I Periodic KDPs\n Tightly Coupled\n Programs KDP 0 KDP I KDP II KDP III Periodic KDPs\n Pre-\n Projects and Phase A Phase A Phase B Phase C Phase D Phase E Phase F\n Single Project KDP A KDP B KDP C KDP D KDP E KDP F\n Programs\n MCR SRR MDR/SDR PDR CDR SIR ORR FRR DR DRR\n\n Stakeholder identification and **Baseline Update Update Update\n\n Concept definition **Baseline Update Update Update Update\n\n Measure of effectiveness **Approve\n definition\n\n Cost and schedule for technical Initial Update Update Update Update Update Update Update Update\n\n SEMP1 Preliminary **Baseline **Baseline Update Update Update\n\n Requirements Preliminary **Baseline Update Update Update\n\n Technical Performance **Approve\n Measures definition\n\n Architecture definition **Baseline\n\n Allocation of requirements to **Baseline\n next lower level\n\n Required leading indicator **Initial Update Update Update\n trends\n\n Design solution definition Preliminary **Preliminary **Baseline Update Update\n\n Interface definition(s) Preliminary Baseline Update Update\n\n Implementation plans (Make/ Preliminary Baseline Update\n code, buy, reuse)\n\n Integration plans Preliminary Baseline Update **Update\n\n Verification and validation Approach Preliminary Baseline Update Update\n plans\n\n Verification and validation **Initial **Preliminary **Baseline\n results\n\n Transportation criteria and Initial Final Update\n instructions\n\n Operations plans Baseline Update Update **Update\n\n Operational procedures Preliminary Baseline **Update Update\n\n Certification (flight/use) Preliminary **Final\n\n Decommissioning plans Preliminary Preliminary Preliminary **Baseline Update **Update\n\n Disposal plans Preliminary Preliminary Preliminary **Baseline Update Update **Update\n** Item is a required product for that review\n1 SEMP is baselined at SRR for projects, tightly coupled programs and single-project programs, and at MDR/SDR for uncoupled,\n and loosely coupled programs .\n\n\n\n\n\n\n\n\n\n\n\n\n 19",
+          "score": 5.840639687804288,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 5.527810802286004,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0007",
+          "page": 7,
+          "text": "Table of Boxes\n\n\n\n\nThe Systems Engineer’s Dilemma . . . . . . . . . .12 Differences between Verification and\nSpace Flight Program Formulation . . . . . . . . . . 20 Validation Testing . . . . . . . . . . . . . . . . . . . 89\nSpace Flight Program Implementation . . . . . . . . 21 Differences between Verification, Qualification,\nSpace Flight Pre-Phase A: Concept Studies . . . . . 22 Acceptance and Certification . . . . . . . . . . . . . 90\nSpace Flight Phase A: Methods of Verification . . . . . . . . . . . . . . . .93\nConcept and Technology Development . . . . . . .24 Methods of Validation . . . . . . . . . . . . . . . 101\nSpace Flight Phase B: Crosscutting Technical Management Keys . . . . . 114\nPreliminary Design and Technology Completion . . .26 Types of Hardware . . . . . . . . . . . . . . . . . 124\nSpace Flight Phase C: Final Design and Fabrication . 28 Environments . . . . . . . . . . . . . . . . . . . . 127\nSpace Flight Phase D: Definitions . . . . . . . . . . . . . . . . . . . . . 130\nSystem Assembly, Integration and Test, Launch . . . 30 Types of Configuration Management Changes . . . 149\nSpace Flight Phase E: Operations and Sustainment .32 Data Collection Checklist . . . . . . . . . . . . . . 155\nPhase F: Closeout . . . . . . . . . . . . . . . . . .33 HSI Relevance . . . . . . . . . . . . . . . . . . . 246\nSystem Design Keys . . . . . . . . . . . . . . . . . 44 HSI Strategy . . . . . . . . . . . . . . . . . . . . 246\nConcept of Operations vs . Operations Concept . . .51 HSI Domains . . . . . . . . . . . . . . . . . . . . 247\nExample of Functional and Performance HSI Requirements . . . . . . . . . . . . . . . . . 247\nRequirements . . . . . . . . . . . . . . . . . . . .56 HSI Implementation . . . . . . . . . . . . . . . . 249\nRationale . . . . . . . . . . . . . . . . . . . . . . . 60 HSI Plan Updates . . . . . . . . . . . . . . . . . 250\nProduct Realization Keys . . . . . . . . . . . . . . . 78\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vii",
+          "score": 5.339092595927628,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "grams sample return Phase F closeout",
+      "results": [
+        {
+          "id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "score": 10.430510474763878,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "score": 10.96508375169875,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 9.850570605238438,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0007",
+          "page": 7,
+          "text": "Table of Boxes\n\n\n\n\nThe Systems Engineer’s Dilemma . . . . . . . . . .12 Differences between Verification and\nSpace Flight Program Formulation . . . . . . . . . . 20 Validation Testing . . . . . . . . . . . . . . . . . . . 89\nSpace Flight Program Implementation . . . . . . . . 21 Differences between Verification, Qualification,\nSpace Flight Pre-Phase A: Concept Studies . . . . . 22 Acceptance and Certification . . . . . . . . . . . . . 90\nSpace Flight Phase A: Methods of Verification . . . . . . . . . . . . . . . .93\nConcept and Technology Development . . . . . . .24 Methods of Validation . . . . . . . . . . . . . . . 101\nSpace Flight Phase B: Crosscutting Technical Management Keys . . . . . 114\nPreliminary Design and Technology Completion . . .26 Types of Hardware . . . . . . . . . . . . . . . . . 124\nSpace Flight Phase C: Final Design and Fabrication . 28 Environments . . . . . . . . . . . . . . . . . . . . 127\nSpace Flight Phase D: Definitions . . . . . . . . . . . . . . . . . . . . . 130\nSystem Assembly, Integration and Test, Launch . . . 30 Types of Configuration Management Changes . . . 149\nSpace Flight Phase E: Operations and Sustainment .32 Data Collection Checklist . . . . . . . . . . . . . . 155\nPhase F: Closeout . . . . . . . . . . . . . . . . . .33 HSI Relevance . . . . . . . . . . . . . . . . . . . 246\nSystem Design Keys . . . . . . . . . . . . . . . . . 44 HSI Strategy . . . . . . . . . . . . . . . . . . . . 246\nConcept of Operations vs . Operations Concept . . .51 HSI Domains . . . . . . . . . . . . . . . . . . . . 247\nExample of Functional and Performance HSI Requirements . . . . . . . . . . . . . . . . . 247\nRequirements . . . . . . . . . . . . . . . . . . . .56 HSI Implementation . . . . . . . . . . . . . . . . 249\nRationale . . . . . . . . . . . . . . . . . . . . . . . 60 HSI Plan Updates . . . . . . . . . . . . . . . . . 250\nProduct Realization Keys . . . . . . . . . . . . . . . 78\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vii",
+          "score": 9.351759649645132,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 8.506784875646613,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 8.453534247012453,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0260",
+          "page": 260,
+          "text": " Appendix R: HSI Plan Content Outline\n\n\n\n\n\n\n TABLE R.2-1 HSI Activity, Product, or Risk Mitigation by Program/Project Phase\nLife-Cycle Phase Description Activity, Product, or Risk Mitigation\nPhase\nPre-Phase A Concept Studies ConOps (Preliminary—to include training, maintenance, logistics, etc.)\n\nPhase A Concept & Technology HSI Plan (baseline)\n Development ConOps (initial)\n\n HSI responsible party(ies) and/or team identified before SRR\n Develop mockup(s) for HSI evaluations\n Crew Workload Evaluation Plan\n Functional allocation, crew task lists\n Validation of ConOps (planning)\n\nPhase B Preliminary Design & HSI Plan (update)\n Technology Completion ConOps (baseline)\n\n Develop engineering-level mockup(s) for HSI evaluations\n Define crew environmental and crew health support needs (e.g., aircraft\n flight decks, human space flight missions)\n Assess operator interfaces through task analyses (for, e.g., aircraft\n cockpit operations, air traffic management, spacecraft environments,\n mission control for human space flight missions)\n Human-in-the-loop usability plan\n Human-rating report for PDR\nPhase C Final Design & Fabrication HSI Plan (update)\n First Article HSI Tests\n Human-rating report for CDR\n\nPhase D System Assembly, Integ. & Human-rating report for ORR\n Test, Launch & Checkout Validation of human-centered design activities\n\n Validation of ConOps\nPhase E Operations & Sustainment Monitoring of human-centered design performance\n\nPhase F Closeout Lessons learned report\n\n\n\n HSI PLAN UPDATES\n\n\n Key points to be addressed in each update\n • Identify the current program/project phase, the publication date of the last iteration of the HSI Plan, and\n the HSI Plan version number. Update the HSI Plan revision history.\n • Describe the HSI entrance criteria for the current phase and describe any unfinished work prior to the\n current phase.\n • Describe the HSI exit criteria for the current program/project phase and the work that must be\n accomplished to successfully complete the current program/project phase.\n\n\n\n\n 250",
+          "score": 8.253480187537605,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "image_path": "data/local/advanced/pages/p0043_2000.png",
+          "image_sha256": "e0f4a75a7cf8a6089b3d2592a43839a2b4468877d931f2b281e0c8156bfafc69"
+        },
+        {
+          "source_id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "image_path": "data/local/advanced/pages/p0041_2000.png",
+          "image_sha256": "8ee7482b71a2f64ec47c34d4fcfae35514afdcf08f3b85c4f75d1ac4b1576662"
+        },
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_path": "data/local/advanced/pages/p0019_2000.png",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "grams returned samples mass analyze",
+      "results": [
+        {
+          "id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "score": 10.706579716616748,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "score": 10.045289725945008,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 9.354056041521225,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 5.010783205259029,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 4.72112292262545,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 4.497243119632625,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0110",
+          "page": 110,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n or other items needed to perform the Product The objectives of the Product Validation Process are:\n Validation Process.\n • To confirm that the end product fulfills its intended\n5.4.1.2 Process Activities use when operated in its intended environment:\nThe Product Validation Process demonstrates that\nthe end product satisfies its stakeholder (customer » Validation is performed for each implemented\nand other interested party) expectations (MOEs) or integrated and verified end product from\nwithin the intended operational environments, with the lowest end product in a system structure\nvalidation performed by anticipated operators and/or branch up to the top level end product (the\nusers whenever possible. The method of validation is system).\na function of the life cycle phase and the position of » Evidence is generated as necessary to con-\nthe end product within the system structure. firm that products at each layer of the sys-\n tem structure meet the capability and other\nThere are five major steps in the validation process: operational expectations of the customer/\n(1) preparing to conduct validation, (2) conduct user/operator and other interested parties for\nplanned validation (perform validation), (3) analyze that product.\nvalidation results, (4) prepare a validation report, and\n(5) capture the validation work products.\n\n\n From Pro duct\n Verification Process To Product\n End Product Transition Process\n to Be Validated Prepare to conduct product\n validation Validated End Product\n\n From Configuration\n Management Process Perform the product To Technical\n Stakeholder Expectation validation AssessmentProcess\n\n Baseline Product Validation\n Results\n From Design Solution Analyze the outcomes of\n and Technical the product validation To Technical Data\n PlanningProcesses ManagementProcess\n\n Product Validation Product Validation\n Plan Prepare a product\n validation report Report\n\n From existing\n resou rces or Product Product V alidation\n TransitionProcess Captur e the work products Work Products\n Product Validation– from product validation activities\n\n Enabling Products\n\n\n\n FIGURE 5.4-1 Product Validation Process\n\n\n\n 100",
+          "score": 4.22702945610184,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"returned samples\" mass g",
+      "results": [
+        {
+          "id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "score": 10.706579716616748,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 9.354056041521225,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "score": 7.5917010943173535,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0280",
+          "page": 280,
+          "text": "Bibliography\n\n\n\n\n\nThe bibliography contains sources cited in sections of A\nthe document and additional sources for developing Adams, R. J., et al. Software Development Standard\nthe material in the document. for Space Systems, Aerospace Corporation Report\n No. TOR-2004(3909)3537, Revision B. March\n AIAA American Institute of Aeronautics and 11, 2005. Prepared for the U.S. Air Force.\n Astronautics\n ANSI American National Standards Institute AIAA G-118-2006e, AIAA Guide for Managing the\n ASME American Society of Mechanical Engineers Use of Commercial Off the Shelf (COTS) Software\n ASQ American Society for Quality Components for Mission-Critical Systems, Reston,\n CCSDS Consultative Committee for Space Data\n Systems VA, 2006\n CFR (U.S.) Code of Federal Regulations\n COSPAR The Committee on Space Research AIAA S-120-2006, Mass Properties Control for Space\n DOD (U.S.) Department of Defense Systems. Reston, VA, 2006\n EIA Electronic Industries Alliance\n GEIA Government Electronics Information AIAA S-122-2007, Electrical Power Systems for\n Technology Association Unmanned Spacecraft, Reston, VA, 2007\n IEEE Institute of Electrical and Electronics\n Engineers\n INCOSE International Council on Systems ANSI/AIAA G-043-1992, Guide for the Preparation\n Engineering of Operational Concept Documents, Washington,\n ISO International Organization for DC, 1992\n Standardization\n NIST National Institute of Standards and ANSI/EIA-632, Processes for Engineering a System ,\n Technology\n SAE Society of Automotive Engineers Arlington, VA, 1999\n\n TOR Technical Operating Report\n U.S.C. United States Code ANSI/EIA-649, National Consensus Standard for\n Configuration Management, 1998-1999\n\n ANSI/GEIA-649, National Consensus Standard for\n Configuration Management, National Defense\n Industrial Association (NDIA), Arlington, VA\n 1998\n\n ANSI/EIA-748-C Standard: Earned Value\n Management Systems, March, 2013\n\n\n\n 270",
+          "score": 5.939188215048136,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0149",
+          "page": 149,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n 1. What can go wrong? 2. How frequently does 3. What are the\n (definition of scenarios) it happen? consequences?\n (scenario frequency (scenario consequence\n quantification) quantification)\n\n Scenario Development\n Initiating Scenario Scenario Consequence\n Event Modeling Frequency Modeling\n Selection Evaluation\n\n Uncertainty Analysis\n\n\n FIGURE 6.4-1 Risk Scenario Development (Source: NASA/SP-2011-3421)\n\nRisk is characterized by three basic components: Uncertainties are included in the evaluation of likeli-\n hoods and consequences.\n1. The scenario(s) leading to degraded performance\n with respect to one or more performance mea- Scenarios begin with a set of initiating events that\n sures (e.g., scenarios leading to injury, fatality, cause the activity to depart from its intended state.\n destruction of key assets; scenarios leading to For each initiating event, other events that are rele-\n exceedance of mass limits; scenarios leading vant to the evolution of the scenario may (or may not)\n to cost overruns; scenarios leading to schedule occur and may have either a mitigating or exacerbat-\n slippage); ing effect on the scenario progression. The frequen-\n cies of scenarios with undesired consequences are\n2. The likelihood(s) (qualitative or quantitative) of determined. Finally, the multitude of such scenarios\n those scenario(s); and is put together, with an understanding of the uncer-\n tainties, to create the risk profile of the system.\n3. The consequence(s) (qualitative or quantitative\n severity of the performance degradation) that This “risk triplet” conceptualization of risk is illus-\n would result if the scenario(s) was (were) to occur. trated in FIGURES 6.4-1 and 6.4-2.\n\n\n\n\n\n\n\n\n\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n RISK =\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n\n FIGURE 6.4-2 Risk as an Aggregate Set of Risk Triplets\n\n\n 139",
+          "score": 5.208977645445138,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 5.132359190617989,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 5.010783205259029,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "image_sha256": "b143ddb0cf597de02d393a4bf62c688f5ceacc3fa96560fd817faf1f0e532b36"
+        },
+        {
+          "source_id": "NASA-SE:p0041",
+          "page": 41,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n • FRR\n • System functional and physical configuration audits\n • Safety review\n\n\n\nchanges at this point can become costly. Phase D This phase encompasses the evolution of the system\nconcludes with a system that has been shown to be only insofar as that evolution does not involve major\ncapable of accomplishing the purpose for which it changes to the system architecture. Changes of that\nwas created. scope constitute new “needs,” and the project life cycle\n starts over. For large flight projects, there may be an\n extended period of cruise, orbit insertion, on-orbit\n3.8 Project Phase E: assembly, and initial shakedown operations. Near the\n Operations and Sustainment end of the prime mission, the project may apply for\n a mission extension to continue mission activities or\nThe purpose of Phase E is to conduct the prime attempt to perform additional mission objectives.\nmission to meet the initially identified need and to\nmaintain support for that need. The products of the For additional information on systems engineering in\nphase are the results of the mission and performance Phase E, see Appendix T.\nof the system.\n\nSystems engineering personnel continue to play a 3.9 Project Phase F: Closeout\nrole during this phase since integration often overlaps The purpose of Phase F is to implement the systems\nwith operations for complex systems. Some programs decommissioning and disposal planning and analyze\nhave repeated operations/flights which require con- any returned data and samples. The products of the\nfiguration changes and new mission objectives with phase are the results of the mission. The system engi-\neach occurrence. And systems with complex sustain- neer is involved in this phase to ensure all technical\nment needs or human involvement will likely require information is properly identified and archived, to\nevaluation and adjustments that may be beyond the answer questions, and to resolve issues as they arise.\nscope of operators to perform. Specialty engineering\ndisciplines, like maintainability and logistics servic- Phase F deals with the final closeout of the sys-\ning, will be performing tasks during this phase as tem when it has completed its mission; the time at\nwell. Such tasks may require reiteration and/or recur- which this occurs depends on many factors. For a\nsion of the common systems engineering processes. flight system that returns to Earth after a short mis-\n sion duration, closeout may require little more than\nSystems engineering personnel also may be involved de-integrating the hardware and returning it to its\nin in-flight anomaly resolution. Additionally, soft- owner. On flight projects of long duration, closeout\nware development may continue well into Phase E. may proceed according to established plans or may\nFor example, software for a planetary probe may begin as a result of unplanned events, such as fail-\nbe developed and uplinked while in-flight. Another ures. Refer to NASA Policy Directive (NPD) 8010.3,\nexample would be new hardware developed for space Notification of Intent to Decommission or Terminate\nstation increments. Operating Space Systems and Terminate Missions,\n\n\n 31",
+          "image_sha256": "8ee7482b71a2f64ec47c34d4fcfae35514afdcf08f3b85c4f75d1ac4b1576662"
+        },
+        {
+          "source_id": "NASA-SE:p0043",
+          "page": 43,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n PHASE F: CLOSEOUT\n\n\n Purpose\n To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of\n the returned data and any returned samples.\n\n\n Typical Activities and Their Products\n • Dispose of the system and supporting processes\n • Document lessons learned\n • Baseline mission final report\n • Archive data\n • Capture lessons learned\n • Perform required Phase F technical activities from NPR 7120.5\n • Satisfy Phase F reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • DRR\n\n\n\nfor terminating an operating mission. Alternatively, so they are boosted to a higher orbit well beyond the\ntechnological advances may make it uneconomical crowded operational GEO orbit.\nto continue operating the system either in its current\nconfiguration or an improved one. In addition to uncertainty about when this part of\n the phase begins, the activities associated with safe\nTo limit space debris, NPR 8715.6, NASA Procedural closeout of a system may be long and complex and\nRequirements for Limiting Orbital Debris, provides may affect the system design. Consequently, different\nrequirements for removing Earth-orbiting robotic options and strategies should be considered during\nsatellites from their operational orbits at the end of the project’s earlier phases along with the costs and\ntheir useful life. For Low Earth Orbit (LEO) mis- risks associated with the different options.\nsions, the satellite is usually deorbited. For small sat-\nellites, this is accomplished by allowing the orbit to\nslowly decay until the satellite eventually burns up 3.10 Funding: The Budget Cycle\nin Earth’s atmosphere. Larger, more massive satel- For a description of the NASA Budget Cycle, refer\nlites and observatories should be designed to demise to the NASA Expanded Guidance for Systems\nor deorbit in a controlled manner so that they can Engineering document found at https://nen.nasa.gov/\nbe safely targeted for impact in a remote area of the web/se/doc-repository. See also Section 5.8 of NASA/\nocean. The Geostationary (GEO) satellites at 35,790 SP-2014-3705, NASA Space Flight Program and\nkm above the Earth cannot be practically deorbited, Project Management Handbook.\n\n\n\n\n\n 33",
+          "image_sha256": "e0f4a75a7cf8a6089b3d2592a43839a2b4468877d931f2b281e0c8156bfafc69"
+        }
+      ],
+      "result": {
+        "status": "abstain",
+        "claims": []
+      }
+    }
+  ],
+  "viewed_pages": [
+    19,
+    41,
+    43
+  ],
+  "draft_answer": {
+    "status": "abstain",
+    "claims": []
+  },
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 32715.96
+}

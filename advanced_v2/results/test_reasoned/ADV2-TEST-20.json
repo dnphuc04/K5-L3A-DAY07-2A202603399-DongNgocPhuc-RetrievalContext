@@ -1,0 +1,437 @@
+{
+  "id": "ADV2-TEST-20",
+  "split": "test",
+  "question": "Combine Table 2.1-1 with Figure 6.8-2: what AS9100 requirement maps to Technical Risk Management, and where does the No branch of Net beneficial to reduce uncertainty? lead before deliberation?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4qKdWrsCCGgUQaeq8YCjzA7pRQe",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 669,
+        "completion_tokens": 65,
+        "total_tokens": 734,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 28,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2223.7,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_NmLhdmtq1pqJc8MBnTO0YafG",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.1-1 AS9100 requirement maps to Technical Risk Management\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qMFBXTKXSNFJIePlzycty8FQ8V",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5470,
+        "completion_tokens": 234,
+        "total_tokens": 5704,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 199,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4548.54,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Wwje9IekeicuAlaUMaafUUKI",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0017\",\"NASA-SE:p0176\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qSvUvxBd3clCMPSI6TNiLtndmu",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 14071,
+        "completion_tokens": 211,
+        "total_tokens": 14282,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 165,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5167.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_cJHt6qYqcDqh19P8D6Z9eEzD",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0176\",\"bbox\":[0.56,0.32,0.97,0.74]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qY8jLtjMY4pDA8bIhHqVfqAa9Y",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15717,
+        "completion_tokens": 74,
+        "total_tokens": 15791,
+        "prompt_tokens_details": {
+          "cached_tokens": 12416,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 28,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4238.1,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MwVkMvlv7xYMEwwEsrLzi7p0",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0176\",\"bbox\":[0.43,0.14,0.98,0.58]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qcLYXxWMkkvvvPJeeAuGS1NinN",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 17936,
+        "completion_tokens": 498,
+        "total_tokens": 18434,
+        "prompt_tokens_details": {
+          "cached_tokens": 15104,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 259,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 8914.31,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_j6s6XQ90oa8MFV5ISe92hFoZ",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 2.1-1, the SE process \\\"Technical Risk Management\\\" aligns to the AS9100 requirement \\\"Risk Management.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0017\",\"locator\":\"Table 2.1-1, row \\\"Technical Risk Management\\\"\",\"evidence\":\"Technical Risk Management — Risk Management\"}]},{\"text\":\"In Figure 6.8-2, the \\\"No\\\" branch from the decision node \\\"Net beneficial to reduce uncertainty?\\\" goes to the box labeled \\\"Risk & Performance Measurement Results\\\" (and from there proceeds upward to \\\"Deliberation and Recommending a Decision Alternative\\\").\",\"citations\":[{\"source_id\":\"NASA-SE:p0176\",\"locator\":\"Figure 6.8-2, decision diamond \\\"Net beneficial to reduce uncertainty?\\\"—\\\"No\\\" branch to \\\"Risk & Performance Measurement Results\\\" box\",\"evidence\":\"Net beneficial to reduce uncertainty? ... No ... Risk & Performance Measurement Results ... Deliberation and Recommending a Decision Alternative\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qlQFxESyP5aPvunsMScxiMIIQL",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9117,
+        "completion_tokens": 381,
+        "total_tokens": 9498,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 148,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6623.03,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_1S3N9v6Jrc12gwRQfNWS4dID",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Table 2.1-1 maps the SE process “Technical Risk Management” to the AS9100 requirement “Risk Management.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0017\",\"locator\":\"Table 2.1-1, row “Technical Risk Management”\",\"evidence\":\"Technical Risk Management — Risk Management\"}]},{\"text\":\"In Figure 6.8-2, the “No” branch from “Net beneficial to reduce uncertainty?” leads to “Risk & Performance Measurement Results” (before “Deliberation and Recommending a Decision Alternative”).\",\"citations\":[{\"source_id\":\"NASA-SE:p0176\",\"locator\":\"Figure 6.8-2, decision diamond “Net beneficial to reduce uncertainty?” and its “No” arrow\",\"evidence\":\"The “No” arrow from “Net beneficial to reduce uncertainty?” goes right into the “Risk & Performance Measurement Results” box, which then connects upward to “Deliberation and Recommending a Decision Alternative.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Combine Table 2.1-1 with Figure 6.8-2: what AS9100 requirement maps to Technical Risk Management, and where does the No branch of Net beneficial to reduce uncertainty? lead before deliberation?",
+      "results": [
+        {
+          "id": "NASA-SE:p0176",
+          "page": 176,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166",
+          "score": 46.90003437534042,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "score": 18.3868217953965,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "score": 14.923287703880895,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 20.530642948455217,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 17.0568191429312,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 15.629942084653063,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0053",
+          "page": 53,
+          "text": "4.0 System Design Processes\n\n\n\n\n\n\n\n his chapter describes the activities in the system each other and will require iterations and design deci-\nTdesign processes listed in FIGURE 2.1-1. The chap- sions to achieve this consistency. Once consistency is\nter is separated into sections corresponding to pro- achieved, analyses allow the project team to validate\ncesses 1 to 4 listed in FIGURE 2.1-1. The tasks within the proposed design against the stakeholder expecta-\neach process are discussed in terms of inputs, activ- tions. A simplified validation asks the questions: Will\nities, and outputs. Additional guidance is provided the system work as expected? Is the system achiev-\nusing examples that are relevant to NASA projects. able within budget and schedule constraints? Does\n the system provide the functionality and fulfill the\nThe system design processes are interdependent, operational needs that drove the project’s funding\nhighly iterative and recursive processes resulting in approval? If the answer to any of these questions is\na validated set of requirements and a design solution no, then changes to the design or stakeholder expec-\nthat satisfies a set of stakeholder expectations. There tations will be required, and the process starts again.\nare four system design processes: developing stake- This process continues until the system—architec-\nholder expectations, technical requirements, logical ture, ConOps, and requirements—meets the stake-\ndecompositions, and design solutions. holder expectations.\n\n\nFIGURE 4.0-1 illustrates the recursive relationship The depth of the design effort should be sufficient\namong the four system design processes. These pro- to allow analytical verification of the design to the\ncesses start with a study team collecting and clarifying requirements. The design should be feasible and cred-\nthe stakeholder expectations, including the mission ible when judged by a knowledgeable independent\nobjectives, constraints, design drivers, operational review team and should have sufficient depth to sup-\nobjectives, and criteria for defining mission success. port cost modeling and operational assessment.\nThis set of stakeholder expectations and high-level\nrequirements is used to drive an iterative design loop Once the system meets the stakeholder expectations,\nwhere a straw man architecture/design, the concept the study team baselines the products and prepares\nof operations, and derived requirements are devel- for the next phase. Often, intermediate levels of\noped. These three products should be consistent with decomposition are validated as part of the process. In\n\n\n\n 43",
+          "score": 11.206081078232158,
+          "reference_match": 1,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "image_path": "data/local/advanced/pages/p0017_2000.png",
+          "image_sha256": "66432b4ec3dc509cdd814e791a185085f4c4343d862fdfe6c0319a5b2ea072f4"
+        },
+        {
+          "source_id": "NASA-SE:p0176",
+          "page": 176,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166",
+          "image_path": "data/local/advanced/pages/p0176_2000.png",
+          "image_sha256": "430479215363388e3fe85c48545bd207171a53b03337458d724b38983ead05c0"
+        }
+      ]
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0176",
+      "bbox": [
+        0.56,
+        0.32,
+        0.97,
+        0.74
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0176_5ff0f2026d0c.png",
+      "image_sha256": "4c5d665950c555dd51b5faa86a324231c3658b33667815f4cc3f77257bbf4a1c"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0176",
+      "bbox": [
+        0.43,
+        0.14,
+        0.98,
+        0.58
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0176_7ad623d390b6.png",
+      "image_sha256": "1475c9fc4122d13503cd502c485fd9854c6bec2aca90dd01adcb72f93a2c34b2"
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "image_sha256": "66432b4ec3dc509cdd814e791a185085f4c4343d862fdfe6c0319a5b2ea072f4"
+        },
+        {
+          "source_id": "NASA-SE:p0176",
+          "page": 176,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166",
+          "image_sha256": "430479215363388e3fe85c48545bd207171a53b03337458d724b38983ead05c0"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Table 2.1-1 maps the SE process “Technical Risk Management” to the AS9100 requirement “Risk Management.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0017",
+                "locator": "Table 2.1-1, row “Technical Risk Management”",
+                "evidence": "Technical Risk Management — Risk Management"
+              }
+            ]
+          },
+          {
+            "text": "In Figure 6.8-2, the “No” branch from “Net beneficial to reduce uncertainty?” leads to “Risk & Performance Measurement Results” (before “Deliberation and Recommending a Decision Alternative”).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0176",
+                "locator": "Figure 6.8-2, decision diamond “Net beneficial to reduce uncertainty?” and its “No” arrow",
+                "evidence": "The “No” arrow from “Net beneficial to reduce uncertainty?” goes right into the “Risk & Performance Measurement Results” box, which then connects upward to “Deliberation and Recommending a Decision Alternative.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    17,
+    176
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Table 2.1-1, the SE process \"Technical Risk Management\" aligns to the AS9100 requirement \"Risk Management.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, row \"Technical Risk Management\"",
+            "evidence": "Technical Risk Management — Risk Management"
+          }
+        ]
+      },
+      {
+        "text": "In Figure 6.8-2, the \"No\" branch from the decision node \"Net beneficial to reduce uncertainty?\" goes to the box labeled \"Risk & Performance Measurement Results\" (and from there proceeds upward to \"Deliberation and Recommending a Decision Alternative\").",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0176",
+            "locator": "Figure 6.8-2, decision diamond \"Net beneficial to reduce uncertainty?\"—\"No\" branch to \"Risk & Performance Measurement Results\" box",
+            "evidence": "Net beneficial to reduce uncertainty? ... No ... Risk & Performance Measurement Results ... Deliberation and Recommending a Decision Alternative"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Table 2.1-1 maps the SE process “Technical Risk Management” to the AS9100 requirement “Risk Management.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0017",
+          "locator": "Table 2.1-1, row “Technical Risk Management”",
+          "evidence": "Technical Risk Management — Risk Management"
+        }
+      ]
+    },
+    {
+      "text": "In Figure 6.8-2, the “No” branch from “Net beneficial to reduce uncertainty?” leads to “Risk & Performance Measurement Results” (before “Deliberation and Recommending a Decision Alternative”).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0176",
+          "locator": "Figure 6.8-2, decision diamond “Net beneficial to reduce uncertainty?” and its “No” arrow",
+          "evidence": "The “No” arrow from “Net beneficial to reduce uncertainty?” goes right into the “Risk & Performance Measurement Results” box, which then connects upward to “Deliberation and Recommending a Decision Alternative.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 32663.46
+}

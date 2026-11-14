@@ -1,0 +1,115 @@
+{
+  "id": "ADV-DEV-17",
+  "split": "dev",
+  "question": "What mandatory word count must every Concept of Operations document contain?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek44Qn32P5WwvL2QfUcXb1cFs0Ew2",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 461,
+        "completion_tokens": 11,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1120.62,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_tVf6R6ua5VixawGaokiriUKW",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandatory word count Concept of Operations document\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek44SMdHVs1pWLjpuWwiyV2QsUFae",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 3376,
+        "completion_tokens": 18,
+        "total_tokens": 3394,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1336.32,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"abstain\",\"claims\":[]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What mandatory word count must every Concept of Operations document contain?",
+      "results": [
+        {
+          "id": "NASA-SE:p0020",
+          "page": 20,
+          "printed_page": 10,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.3 Example of Using the SE Engine enable designers to accurately determine the feasibil-\nIn Pre-Phase A, the SE engine is used to develop the ity of accomplishing the project, which is the purpose\ninitial concepts; clearly define the unique roles of of Pre-Phase A.\nhumans, hardware, and software in performing the\nmissions objectives; establish the system functional During Phase A, the recursive use of the SE engine\nand performance boundaries; develop/identify a pre- is continued, this time taking the concepts and draft\nliminary/draft set of key high-level requirements, key requirements that were developed and validated\ndefine one or more initial Concept of Operations during Pre-Phase A and fleshing them out to become\n(ConOps) scenarios; realize these concepts through the set of baseline system requirements and ConOps.\niterative modeling, mock-ups, simulation, or other During this phase, key areas of high risk might be\nmeans; and verify and validate that these concepts simulated to ensure that the concepts and require-\nand products would be able to meet the key high-level ments being developed are good ones and to identify\nrequirements and ConOps. The operational concept verification and validation tools and techniques that\nmust include scenarios for all significant operational will be needed in later phases.\nsituations, including known off-nominal situations.\nTo develop a useful and complete set of scenarios, During Phase B, the SE engine is applied recursively\nimportant malfunctions and degraded-mode opera- to further mature requirements and designs for all\ntional situations must be considered. The importance products in the developing product tree and perform\nof early ConOps development cannot be underesti- verification and validation of concepts to ensure\nmated. As system requirements become more detailed that the designs are able to meet their requirements.\nand contain more complex technical information, Operational designs and mission scenarios are evalu-\nit becomes harder for the stakeholders and users to ated and feasibility of execution within design capa-\nunderstand what the requirements are conveying; bilities and cost estimates are assessed.\ni.e., it may become more difficult to visualize the end\nproduct. The ConOps can serve as a check in identi- Phase C again uses the left side of the SE engine to\nfying missing or conflicting requirements. finalize all requirement updates, finalize the ConOps\n validation, develop the final designs to the lowest\nNote that this Pre-Phase A initial concepts develop- level of the product tree, and begin fabrication.\nment work is not the formal verification and valida-\ntion program that is performed on the final product, Phase D uses the right side of the SE engine to recur-\nbut rather it is a methodical run through ensuring sively perform the final implementation, integration,\nthat the concepts that are being developed in this verification, and validation of the end product, and at\nPre-Phase A are able to meet the likely requirements the final pass, transition the end product to the user.\nand expectations of the stakeholders. Concepts are\ndeveloped to the lowest level necessary to ensure that The technical management processes of the SE engine\nthey are feasible and to a level that reduces the risk are used in Phases E and F to monitor performance;\nlow enough to satisfy the project. Academically, this control configuration; and make decisions associ-\nprocess could proceed down to the circuit board level ated with the operations, sustaining engineering,\nfor every system; however, that would involve a great and closeout of the system. Any new capabilities or\ndeal of time and money. There may be a higher level upgrades of the existing system reenter the SE engine\nor tier of product than circuit board level that would as new developments.\n\n\n\n 10",
+          "score": 13.317540128332052,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "printed_page": 214,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 11.819306702987097,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0109",
+          "page": 109,
+          "printed_page": 99,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n environment; configuration drawings; calibra- System validation confirms that the integrated real-\n tions; operator certifications; and other records. ized end products conform to stakeholder expec-\n tations as captured in the MOEs, MOPs, and\nCriteria for completing verification of the product ConOps. Validation also ensures that any anomalies\ninclude: (1) documented objective evidence of com- discovered are appropriately resolved prior to prod-\npliance with requirements or waiver and (2) closure uct delivery. This section discusses the process activ-\nof all discrepancy and nonconformance reports. ities, methods of validation, inputs and outputs, and\n potential deficiencies.\n5.3.2 Product Verification Guidance\nRefer to Section 5.3.2 in the NASA Expanded See Section 2.4 for a discussion about the distinctions\nGuidance for Systems Engineering at https://nen.nasa. between Product Verification and Product Validation.\ngov/web/se/doc-repository for additional guidance on:\n 5.4.1 Process Description\n• the verification approach, FIGURE 5.4-1, taken from NPR 7123.1, provides a typ-\n• verification in the life cycle, ical flow diagram for the Product Validation Process\n• verification procedures, and identifies typical inputs, outputs, and activities\n• verification reports to consider in addressing product validation.\n• end-to-end testing,\n• use of modeling and simulations, and 5.4.1.1 Inputs\n• hardware-in-the-loop testing. Key inputs to the process are:\n5.4 Product Validation • End product to be validated: This is the end prod-\n uct that is to be validated and which has success-\nThe Product Validation Process is the second of the fully passed through the verification process.\nverification and validation processes conducted on an\nimplemented or integrated end product. While veri- • Validation plan: This plan would have been devel-\nfication proves whether “the product was done right,” oped under the Technical Planning Process and\nvalidation proves whether “the right product was baselined prior to entering this process. This plan\ndone.” In other words, verification provides objective may be a separate document or a section within\nevidence that every “shall” statement in the require- the Verification and Validation Plan.\nments document or specification was met, whereas\nvalidation is performed for the benefit of the custom- • Baselined stakeholder expectations: These would\ners and users to ensure that the system functions in have been developed for the product at this level\nthe expected manner when placed in the intended during the Stakeholder Expectations Definition\nenvironment. This is achieved by examining the Process. It includes the needs, goals, and objec-\nproducts of the system at every level of the product tives as well as the baselined and updated concept\nstructure and comparing them to the stakeholder of operations and MOEs.\nexpectations for that level. A well-structured valida-\ntion process can save cost and schedule while meeting • Any enabling products: These are any special\nthe stakeholder expectations. equipment, facilities, test fixtures, applications,\n\n\n\n\n\n 99",
+          "score": 9.057432678090064,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0059",
+          "page": 59,
+          "printed_page": 49,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49",
+          "score": 8.51604733452829,
+          "reference_match": false
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [],
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 2460.65
+}

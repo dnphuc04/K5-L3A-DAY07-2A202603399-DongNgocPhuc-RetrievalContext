@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-03",
+  "split": "dev",
+  "question": "According to Table 4.2-2, list the verification methods and when that metadata should be determined.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek48H26N2DxP060syYKDJ4FG4WKyN",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 491,
+        "completion_tokens": 14,
+        "total_tokens": 505,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1293.96,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_G8l16qYj604A9X0zGpA7awC7",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 4.2-2 verification methods metadata\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48J3INXG2HxoCOfkfmSoeq2axje",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5402,
+        "completion_tokens": 20,
+        "total_tokens": 5422,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1507.45,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_8ODsyMmrXBzBPV63RdPwI6U7",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0069\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48LdGN8YIxZIQ4L1RhCMEAwpWoO",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10197,
+        "completion_tokens": 102,
+        "total_tokens": 10299,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2420.12,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_hhhBek1z78mfa01PKr1pHD3P",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Verification methods are test, inspection, analysis, demonstration and the metadata for verification method should be determined as the requirements are developed.\",\"citations\":[{\"source_id\":\"NASA-SE:p0069\",\"locator\":\"TABLE 4.2-2 Requirements Metadata\",\"evidence\":\"Verification method Captures the method of verification (test, inspection, analysis, demonstration) and should be determined as the requirements are developed.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Table 4.2-2, list the verification methods and when that metadata should be determined.",
+      "results": [
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 14.845407682717772,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 5.72795665399035,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0068",
+          "page": 68,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission\n Authority\n\n\n Mission\n Objectives\n\n\n Mission Programmatics:\n Requirements • Cost\n • Schedule\n • Constraints\n Customer • Mission Classification\n\n Implementing\n Organizations FunctionalSystem\n Requirements\n Environmental Institutional\n and Other Design Constraints\n Requirements\n and Guidelines Assumptions\n\n System\n Performance\n Requirements\n\n\n\n\n\n Subsystem A Subsystem Subsystem Subsystem X\n Functional and B C Functional and\n Performance Performance\n Requirements Requirements\n\n\n\n Allocated Derived ... Allocated Derived\n Requirements Requirements Requirements Requirements\n\n\n\n\n FIGURE 4.2-3 The Flowdown of Requirements\n\n\n\ndocument provides several specific benefits to both request or have options for storing this type of infor-\nthe stakeholders and the technical team as shown in mation. TABLE 4.2-2 provides examples of the types of\nTABLE 4.2-1. metadata that might be useful.\n\nIt is useful to capture information about each of the 4.2.1.2.4 Validate Technical Requirements\nrequirements, called metadata, for future reference An important part of requirements definition is the\nand use. Many requirements management tools will validation of the requirements against the stakeholder\n\n\n\n\n\n\n 58",
+          "score": 13.185917845032604,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 12.935670120282042,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 5.586242214701935,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 12.332202161428084,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0102",
+          "page": 102,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n verification activities. Other risk assessments of the project life cycle and matures as the design is\n contribute to trade studies that determine matured. The verification environment is considered as\n the preferred methods of verification to be part of procedure development. Operational scenarios\n used and when those methods should be are assessed to explore all possible verification activities\n performed. For example, a trade might be to be performed. The final element is preparation of the\n made between performing a model test versus verification environment; e.g., facilities, equipment,\n determining model characteristics by a less tools, measuring devices, and climatic conditions.\n costly but less revealing analysis. The project\n manager/systems engineer should determine When operator or other user interaction is involved,\n what risks are acceptable in terms of the proj- it is important to ensure that humans are properly\n ect’s cost and schedule. represented in the verification activities. This includes\n physical size, skills, knowledge, training, clothing,\n• Availability of verification facilities/sites and special gear, and tools. Note: Testing that includes\n transportation assets to move an article from one representatives of the human in the system is often\n location to another (when needed). This requires referred to as “human-in-the-loop” testing.\n coordination with the Integrated Logistics\n Support (ILS) engineer.\n NOTE: Depending on the nature of the verifica-\n• Availability of appropriately trained users for tion effort and the life cycle phase the program is in,\n interaction with systems having human interfaces. some type of review to assess readiness for verifi-\n cation (as well as validation later) is typically held. In\n• Acquisition strategy; i.e., in-house development or earlier phases of the life cycle, these Test Readiness\n system contract. A NASA field Center can often Reviews (TRRs) may be held informally; in later\n shape a contractor’s verification process through phases of the life cycle, this review may become a\n the project’s SOW. more formal event. TRRs and other technical reviews\n are an activity of the Technical Assessment Process.\n• Degree of design heritage and hardware/software reuse. On most projects, a number of TRRs with tailored\n entrance/success criteria are held to assess the\n5.3.1.2.1 Product Verification Preparation readiness and availability of test ranges, test facili-\nIn preparation for verification, the verification ties, trained testers, instrumentation, integration labs,\nplan and the specified requirements are collected, support equipment, and other enabling products.\nreviewed, and confirmed. The product to be verified Peer reviews are additional reviews that may be\nis obtained (output from the Product Implementation conducted formally or informally to ensure readiness\nProcess or the Product Integration Process) along for verification (as well as the results of the verifi-\nwith any enabling products, such as those repre- cation process). Guidelines for conducting a peer\nsenting external interfacing products and support review are discussed in Section 6.7.2.4.5.\nresources (including personnel) that are necessary for\nverification. Procedures capturing detailed step-by-\nstep activities and based on the verification type and TABLE 5.3-1 provides an example of the type of infor-\nmethods are finalized and approved. Development of mation that may be included in a verification proce-\nprocedures typically begins during the design phase dure and a verification report.\n\n\n\n 92",
+          "score": 12.20012875394962,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 69,
+          "path": "data/local/advanced/pages/p0069_1800.png",
+          "sha256": "84f133eb3655fb31e44f2c67adbbdaf0bf915d7d0ba537734ecdeecdbe3c4152",
+          "source_id": "NASA-SE:p0069",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    69
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Verification methods are test, inspection, analysis, demonstration and the metadata for verification method should be determined as the requirements are developed.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0069",
+          "locator": "TABLE 4.2-2 Requirements Metadata",
+          "evidence": "Verification method Captures the method of verification (test, inspection, analysis, demonstration) and should be determined as the requirements are developed."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 5348.97
+}

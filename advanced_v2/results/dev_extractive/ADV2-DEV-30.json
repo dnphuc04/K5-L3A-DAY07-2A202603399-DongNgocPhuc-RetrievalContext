@@ -1,0 +1,570 @@
+{
+  "id": "ADV2-DEV-30",
+  "split": "dev",
+  "question": "What fixed maximum dry mass in kilograms does the handbook prescribe for every lunar lander design?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4huVJabbCuw7Dob6gdzBHikJIcX",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 565,
+        "completion_tokens": 10,
+        "total_tokens": 575,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 933.14,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_SsZUsJve0C2fpliLLMj5pGl3",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"maximum dry mass lunar lander\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hvepEXIrcREbIwlkb36NHlnPdh",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4990,
+        "completion_tokens": 19,
+        "total_tokens": 5009,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1050.29,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_XJQq0Lw4EYSjcT0DqVZRMivX",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"lunar lander dry mass limit\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hwx9uaS9kbGQJ9ME3h529zhMIW",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9678,
+        "completion_tokens": 18,
+        "total_tokens": 9696,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1528.08,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_tbAEfPC29us0hzNOvlKFrfJ1",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"lunar lander mass requirement\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hyCVioQK8UIrGBrsldOptUGhhs",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 14507,
+        "completion_tokens": 32,
+        "total_tokens": 14539,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1735.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_AKQS4Xqlm0m3sro6i3ZtBWbf",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0061\",\"NASA-SE:p0241\",\"NASA-SE:p0247\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4i3JDkqSRDLC3IKoq6OundV4i9n",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 18860,
+        "completion_tokens": 267,
+        "total_tokens": 19127,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5286.76,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Claims:\n\n1. The NASA handbook requires that technical performance measures for projects involving hardware must include mass margins, but it does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design.  \nCitations:\n- NASA-SE:p0241, section 7.4 Technical Performance Measures: \"The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62].\"\n- NASA-SE:p0247, section 3.2.1 Mass Properties: \"Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element.\"\n\n2. The handbook outlines that mass properties must be defined as part of the interface requirements, but it does not specify a universal fixed maximum dry mass value for lunar landers.  \nCitations:\n- NASA-SE:p0247, section 3.2.1 Mass Properties: \"Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element.\"\n\nNo fixed maximum dry mass in kilograms for every lunar lander design is prescribed in the handbook.",
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4iAUnGGnw2sViJDleeWkiaDcaAG",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 19146,
+        "completion_tokens": 207,
+        "total_tokens": 19353,
+        "prompt_tokens_details": {
+          "cached_tokens": 19072,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6635.47,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_DBKdnfjab4DweRjLGos7TJ3m",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The NASA handbook does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design; instead, it requires that mass margins for projects involving hardware be defined and tracked as a technical performance measure, and that mass properties be specified in the applicable requirements for each element.\",\"citations\":[{\"source_id\":\"NASA-SE:p0241\",\"locator\":\"section 7.4 Technical Performance Measures, item 1\",\"evidence\":\"The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62].\"},{\"source_id\":\"NASA-SE:p0247\",\"locator\":\"section 3.2.1 Mass Properties\",\"evidence\":\"Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4iF0sCoT6nPgAtETRhicrHyRsxC",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4711,
+        "completion_tokens": 198,
+        "total_tokens": 4909,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4973.27,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_bQ0CV7anNWhlL48gAbiZJGAB",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The NASA handbook does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design; instead, it requires that mass margins for projects involving hardware be defined and tracked as a technical performance measure, and that mass properties be specified in the applicable requirements for each element.\",\"citations\":[{\"source_id\":\"NASA-SE:p0241\",\"locator\":\"section 7.4 Technical Performance Measures, item 1\",\"evidence\":\"The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62].\"},{\"source_id\":\"NASA-SE:p0247\",\"locator\":\"section 3.2.1 Mass Properties\",\"evidence\":\"Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What fixed maximum dry mass in kilograms does the handbook prescribe for every lunar lander design?",
+      "results": [
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 14.929408696762366,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 12.490681266440394,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 10.61120090789211,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0132",
+          "page": 132,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nBudgeting type of project, the phase in the project life cycle, and\nBudgeting and resource planning involve establish- the technical development risks and is written specif-\ning a reasonable project baseline budget and the capa- ically for each project or project element. While the\nbility to analyze changes to that baseline resulting specific content of the SEMP is tailored to the project,\nfrom technical and/or schedule changes. The proj- the recommended content is discussed in Appendix J.\nect’s WBS, baseline schedule, and budget should be It is important to remember that the main value of\nviewed as mutually dependent, reflecting the techni- the SEMP is in the work that goes into the planning.\ncal content, time, and cost of meeting the project’s\ngoals and objectives. The budgeting process needs to The technical team, working under the overall project\ntake into account whether a fixed cost cap or fixed plan, develops and updates the SEMP as necessary.\ncost profile exists. When no such cap or profile exists, The technical team works with the project manager\na baseline budget is developed from the WBS and to review the content and obtain concurrence. This\nnetwork schedule. This specifically involves combin- allows for thorough discussion and coordination of\ning the project’s workforce and other resource needs how the proposed technical activities would impact\nwith the appropriate workforce rates and other finan- the programmatic, cost, and schedule aspects of the\ncial and programmatic factors to obtain cost element project. The SEMP provides the specifics of the tech-\nestimates. These elements of cost include nical effort and describes the technical processes that\n will be used, how the processes will be applied using\n• direct labor costs, appropriate activities, how the project will be orga-\n• overhead costs, nized to accomplish the activities, and the cost and\n• other direct costs (travel, data processing, etc.), schedule associated with accomplishing the activities.\n• subcontract costs,\n• material costs, The physical length of a SEMP is not what is import-\n• equipment costs, ant. This will vary from project to project. The plan\n• general and administrative costs, needs to be adequate to address the specific techni-\n• cost of money (i.e., interest payments, if cal needs of the project. It is a living document that\n applicable), is updated as often as necessary to incorporate new\n• fee (if applicable), and information as it becomes available and as the proj-\n• contingency (Unallocated Future Expenses (UFE)). ect develops through the Implementation Phase. The\n SEMP should not duplicate other project documents;\nFor additional information on cost estimating, refer however, the SEMP should reference and summarize\nto the NASA Cost Estimating Handbook and NPR the content of other technical plans.\n7120.5, NASA Space Flight Program and Project\nManagement Requirements. The systems engineer and project manager should\n identify additional required technical plans based on\n6.1.1.2.4 Prepare the SEMP and Other Technical Plans the project scope and type. If plans are not included\nSystems Engineering Management Plan in the SEMP, they should be referenced and coordi-\nThe SEMP is the primary, top-level technical man- nated in the development of the SEMP. Other plans,\nagement document for the project and is developed such as system safety, probabilistic risk assessment,\nearly in the Formulation Phase and updated through- and an HSI Plan also need to be planned for and\nout the project life cycle. The SEMP is driven by the coordinated with the SEMP. If a technical plan is a\n\n\n\n 122",
+          "score": 9.923648680847409,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 9.837826996240183,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0149",
+          "page": 149,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n 1. What can go wrong? 2. How frequently does 3. What are the\n (definition of scenarios) it happen? consequences?\n (scenario frequency (scenario consequence\n quantification) quantification)\n\n Scenario Development\n Initiating Scenario Scenario Consequence\n Event Modeling Frequency Modeling\n Selection Evaluation\n\n Uncertainty Analysis\n\n\n FIGURE 6.4-1 Risk Scenario Development (Source: NASA/SP-2011-3421)\n\nRisk is characterized by three basic components: Uncertainties are included in the evaluation of likeli-\n hoods and consequences.\n1. The scenario(s) leading to degraded performance\n with respect to one or more performance mea- Scenarios begin with a set of initiating events that\n sures (e.g., scenarios leading to injury, fatality, cause the activity to depart from its intended state.\n destruction of key assets; scenarios leading to For each initiating event, other events that are rele-\n exceedance of mass limits; scenarios leading vant to the evolution of the scenario may (or may not)\n to cost overruns; scenarios leading to schedule occur and may have either a mitigating or exacerbat-\n slippage); ing effect on the scenario progression. The frequen-\n cies of scenarios with undesired consequences are\n2. The likelihood(s) (qualitative or quantitative) of determined. Finally, the multitude of such scenarios\n those scenario(s); and is put together, with an understanding of the uncer-\n tainties, to create the risk profile of the system.\n3. The consequence(s) (qualitative or quantitative\n severity of the performance degradation) that This “risk triplet” conceptualization of risk is illus-\n would result if the scenario(s) was (were) to occur. trated in FIGURES 6.4-1 and 6.4-2.\n\n\n\n\n\n\n\n\n\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n RISK =\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n\n FIGURE 6.4-2 Risk as an Aggregate Set of Risk Triplets\n\n\n 139",
+          "score": 9.371766484262709,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0290",
+          "page": 290,
+          "text": " Bibliography\n\n\n\n\n\nNASA Procurement Library found at http://www. NASA PD-EC-1243, Preferred Reliability Practices\n hq.nasa.gov/office/procurement/ for Fault Protection, October 1995\n\n\nConference Publications NASA-CR-192656, Contractor Report: Research\nNASA 2011 Statistical Engineering Symposium, and technology goals and objectives for Integrated\n Proceedings. http://engineering.larc.nasa.gov/2011_ Vehicle Health Management (IVHM). October\n NASA_Statistical_Engineering_Symposium.html 10, 1992\n\nAerospace Conference, 2007 IEEE Big Sky, MT 3–10 NASA Jet Propulsion Laboratory (JPL), JPL-\n March 2007. NASA/Aerospace Corp. paper: D-17868 (REV.1), JPL Guideline: Design,\n “Using Historical NASA Cost and Schedule Verification/Validation and Operations Principles\n Growth to Set Future Program and Project for Flight Systems. February 16, 2001\n Reserve Guidelines,” by Emmons, D. L., R.E.\n Bitten, and C.W. Freaner. IEEE Conference NASA Lyndon B. Johnson Space Center (JSC-\n Publication pages: 1–16, 2008. Also presented 65995), Commercial Human Systems Integration\n at the NASA Cost Symposium, Denver CO, Processes (CHSIP), May 2011\n July 17–19, 2007\n NASA/TP-2014-218556, Technical Publication:\nNASA Cost Symposium 2014, NASA “Mass Growth Human Integration Design Processes (HIDP).\n Analysis: Spacecraft & Subsystems.” LaRC, NASA ISS Program, Lyndon B. Johnson Space\n August 14th, 2014. Presenter: Vincent Larouche Center, Houston TX, September 2014. http://\n – Tecolote Research, also James K. Johnson, ston.jsc.nasa.gov/collections/TRS/_techrep/\n NASA HQ Study Point of Contact TP-2014-218556.pdf\n\nPlanetary Science Subcommittee, NASA Advisory NASA Lyndon B. Johnson Space Center (JSC-\n Council, 23 June, 2008, NASA GSFC. NASA/ 60576), National Space Transportation System\n Aerospace Corp. presentation; “An Assessment (NSTS), Space Shuttle Program, Transition\n of the Inherent Optimism in Early Conceptual Management Plan, May 9, 2007\n Designs and its Effect on Cost and Schedule\n Growth,” by Freaner, Claude, Bob Bitten, Dave NASA Langley Research Center (LARC) Guidance\n Bearden, and Debra Emmons on System and Software Metrics for Performance-\n Based Contracting. 2013 sites-e.larc.nasa.gov/\nTechnical Documents sweng/files/2013/05/Guidance_on_Metrics_for_\nNASA Office of Chief Information Officer (OCIO). PBC_R1V01.doc\n Information Technology Systems Engineering\n Handbook Version 2.0 NASA Langley Research Center (LARC),\n Instructional Handbook for Formal Inspections.\nNASA Science Mission Directorate, Risk 2013 http://sw-eng.larc.nasa.gov/files/2013/05/\n Communication Plan for Planetary and Deep Instructional-Handbook-for-Formal-Inspections.\n Space Missions, 1999 pdf\n\n\n\n\n\n 280",
+          "score": 7.99347293906514,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "lunar lander dry mass limit",
+      "results": [
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 9.577164698276574,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0213",
+          "page": 213,
+          "text": "Appendix E: Creating the Validation Plan with a\n Validation Requirements Matrix\n\n\n\n\n\n Validation products can take the form of a wide range\n NOTE: See Appendix I for an outline of the of deliverables, including:\n Verification and Validation Plan. The matrix shown\n here (TABLE E-1) is Appendix D in that outline. • Stakeholder evaluation and feedback\n • Peer reviews\nWhen developing requirements, it is important to • Physical models of all fidelities\nidentify a validation approach for how additional val- • Simulations\nidation evaluation, testing, analysis, or other demon- • Virtual modeling\nstrations will be performed to ensure customer/ • Tests\nsponsor satisfaction. • Fit-checks\n • Procedure dry-runs\nThere are a number of sources to draw from for creat- • Integration activities (to inform on-orbit mainte-\ning the validation plan: nance procedures)\n • Phase-level review solicitation and feedback\n• ConOps\n• Stakeholder/customer needs, goals, and objectives Particular attention should be paid to the planning\n documentation for life cycle phase since early validation can have a\n• Rationale statements for requirements and in ver- profound impact on the design and cost in the later\n ification requirements life cycle phases.\n• Lessons learned database\n• System architecture modeling TABLE E-1 shows an example validation matrix.\n• Test-as-you-fly design goals and constraints\n• SEMP, HSIP, V&V plans\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 203",
+          "score": 6.128618108554447,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 4.72112292262545,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 4.407786440698099,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0033",
+          "page": 33,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nexpectations for the project are gathered from them. and desirability rather than optimality. Analyses and\nIf feasible concepts can be found, one or more may be designs are accordingly limited in both depth and\nselected to go into Phase A for further development. number of options, but each option should be eval-\nTypically, the system engineers are heavily involved uated for its implications through the full life cycle,\nin the development and assessment of the concept i.e., through Operations and Disposal. It is important\noptions. In projects governed by NPR 7120.5, the in Pre-Phase A to develop and mature a clear vision\ndescope options define what the system can accom- of what problems the proposed program will address,\nplish if the resources are not available to accomplish how it will address them, and how the solution will\nthe entire mission. This could be in the form of fewer be feasible and cost-effective.\ninstruments, a less ambitious mission profile, accom-\nplishing only a few goals, or using cheaper, less capa-\nble technology. Descope options can also reflect what 3.4 Project Phase A: Concept\nthe mission can accomplish in case a hardware fail- and Technology Development\nure results in the loss of a portion of the spacecraft\narchitecture; for example, what an orbiter can accom- The purpose of Phase A is to develop a proposed\nplish after the loss of a lander. The success criteria are mission/system architecture that is credible and\nreduced to correspond with a descoped mission. responsive to program expectations, requirements,\n and constraints on the project, including resources.\nDescope options are developed when the NGOs During Phase A, activities are performed to fully\nor other stakeholder expectation documentation is develop a baseline mission concept, begin or assume\ndeveloped. The project team develops a preliminary responsibility for the development of needed tech-\nset of mission descope options as a gate product for nologies, and clarify expected reliance on human\nthe MCR, but these preliminary descope options are elements to achieve full system functionality or\nnot baselined or maintained. They are kept in the autonomous system development. This work, along\ndocumentation archive in case they are needed later with interactions with stakeholders, helps mature the\nin the life cycle. mission concept and the program requirements on\n the project. Systems engineers are heavily involved\nIt is important in Pre-Phase A to define an accurate during this phase in the development and assessment\ngroup of stakeholders and users to help ensure that of the architecture and the allocation of requirements\nmission goals and operations concepts meet the needs to the architecture elements.\nand expectations of the end users. In addition, it is\nimportant to estimate the composition of the techni- In Phase A, a team—often associated with a program\ncal team and identify any unique facility or personnel or informal project office—readdresses the mission\nrequirements. concept first developed in Pre-Phase A to ensure that\n the project justification and practicality are sufficient\nAdvanced studies may extend for several years and to warrant a place in NASA’s budget. The team’s effort\nare typically focused on establishing mission goals focuses on analyzing mission requirements and estab-\nand formulating top-level system requirements and lishing a mission architecture. Activities become for-\nConOps. Conceptual designs may be developed to mal, and the emphasis shifts toward optimizing the\ndemonstrate feasibility and support programmatic concept design. The effort addresses more depth and\nestimates. The emphasis is on establishing feasibility considers many alternatives. Goals and objectives are\n\n\n\n 23",
+          "score": 4.364416684948706,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 4.336681017046317,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0065",
+          "page": 65,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55",
+          "score": 4.265561824599158,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "lunar lander mass requirement",
+      "results": [
+        {
+          "id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "score": 9.577164698276574,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 7.715570477120421,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0241",
+          "page": 241,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nbroad range of tools used on the project. It defines the b. Other performance measure that should be con-\nrequirements for information management systems and sidered by the project include:\nfor using existing elements. It defines and plans for the\ntraining required to use the tools and technology across » Requirement trends (percent growth, TBD/TBR\nthe project. closures, number of requirement changes);\n » Interface trends (percent ICD approval, TBD/\n7.3 Specialty Engineering TBR burndown, number of interface require-\nThis section describes engineering discipline and spe- ment changes);\ncialty requirements that apply across projects and the » Verification trends (closure burndown, number\nWBS models of the system structure. Examples of these of deviations/waivers approved/open);\nrequirement areas would include planning for safety, » Software-unique trends (number of require-\nreliability, human factors, logistics, maintainability, ments per build/release versus plan);\nquality, operability, and supportability. It includes esti- » Problem report/discrepancy report trends (num-\nmates of staffing levels for these disciplines and incorpo- ber open, number closed);\nrates them with the project requirements. » Cost trends (plan, actual, UFE, EVM, NOA);\n » Schedule trends (critical path slack/float, critical\n7.4 Technical Performance Measures milestone dates); and\na. This section describes the TPMs that have been » Staffing trends (FTE, WYE).\n derived from the MOEs and MOPs for the project.\n The TPMs are used to define and track the techni- Key Questions\n cal progress of the systems engineering effort. (The 1. What metrics will be used to measure tech-\n unique identification numbers in red reference the nical progress?\n corresponding requirement in NPR 7123.1.) The 2. What metrics will be used to identify process\n performance metrics need to address the minimally improvement opportunities?\n required TPMs as defined in NPR 7123.1. These 3. How will we measure progress against the\n include: plans and schedules?\n\n 1. Mass margins for projects involving hardware 4. How often will progress be reported? By\n whom? To whom?\n [SE-62].\n\n\n 2. Power margins for projects that are powered\n [SE-63]. 7.5 Heritage\n This section describes the heritage or legacy products that\n 3. Review Trends including closure of review action will be used in the project. It should include a discussion\n documentation (Request for Action, Review Item of which products are planned to be used, the rationale\n Discrepancies, and/or Action Items as established for their use, and the analysis or testing needed to assure\n by the project) for all software and hardware they will perform as intended in the stated use.\n projects [SE-64].\n\n\n\n\n\n\n\n 231",
+          "score": 6.472249871644594,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 4.72112292262545,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 4.407786440698099,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0033",
+          "page": 33,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nexpectations for the project are gathered from them. and desirability rather than optimality. Analyses and\nIf feasible concepts can be found, one or more may be designs are accordingly limited in both depth and\nselected to go into Phase A for further development. number of options, but each option should be eval-\nTypically, the system engineers are heavily involved uated for its implications through the full life cycle,\nin the development and assessment of the concept i.e., through Operations and Disposal. It is important\noptions. In projects governed by NPR 7120.5, the in Pre-Phase A to develop and mature a clear vision\ndescope options define what the system can accom- of what problems the proposed program will address,\nplish if the resources are not available to accomplish how it will address them, and how the solution will\nthe entire mission. This could be in the form of fewer be feasible and cost-effective.\ninstruments, a less ambitious mission profile, accom-\nplishing only a few goals, or using cheaper, less capa-\nble technology. Descope options can also reflect what 3.4 Project Phase A: Concept\nthe mission can accomplish in case a hardware fail- and Technology Development\nure results in the loss of a portion of the spacecraft\narchitecture; for example, what an orbiter can accom- The purpose of Phase A is to develop a proposed\nplish after the loss of a lander. The success criteria are mission/system architecture that is credible and\nreduced to correspond with a descoped mission. responsive to program expectations, requirements,\n and constraints on the project, including resources.\nDescope options are developed when the NGOs During Phase A, activities are performed to fully\nor other stakeholder expectation documentation is develop a baseline mission concept, begin or assume\ndeveloped. The project team develops a preliminary responsibility for the development of needed tech-\nset of mission descope options as a gate product for nologies, and clarify expected reliance on human\nthe MCR, but these preliminary descope options are elements to achieve full system functionality or\nnot baselined or maintained. They are kept in the autonomous system development. This work, along\ndocumentation archive in case they are needed later with interactions with stakeholders, helps mature the\nin the life cycle. mission concept and the program requirements on\n the project. Systems engineers are heavily involved\nIt is important in Pre-Phase A to define an accurate during this phase in the development and assessment\ngroup of stakeholders and users to help ensure that of the architecture and the allocation of requirements\nmission goals and operations concepts meet the needs to the architecture elements.\nand expectations of the end users. In addition, it is\nimportant to estimate the composition of the techni- In Phase A, a team—often associated with a program\ncal team and identify any unique facility or personnel or informal project office—readdresses the mission\nrequirements. concept first developed in Pre-Phase A to ensure that\n the project justification and practicality are sufficient\nAdvanced studies may extend for several years and to warrant a place in NASA’s budget. The team’s effort\nare typically focused on establishing mission goals focuses on analyzing mission requirements and estab-\nand formulating top-level system requirements and lishing a mission architecture. Activities become for-\nConOps. Conceptual designs may be developed to mal, and the emphasis shifts toward optimizing the\ndemonstrate feasibility and support programmatic concept design. The effort addresses more depth and\nestimates. The emphasis is on establishing feasibility considers many alternatives. Goals and objectives are\n\n\n\n 23",
+          "score": 4.364416684948706,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0280",
+          "page": 280,
+          "text": "Bibliography\n\n\n\n\n\nThe bibliography contains sources cited in sections of A\nthe document and additional sources for developing Adams, R. J., et al. Software Development Standard\nthe material in the document. for Space Systems, Aerospace Corporation Report\n No. TOR-2004(3909)3537, Revision B. March\n AIAA American Institute of Aeronautics and 11, 2005. Prepared for the U.S. Air Force.\n Astronautics\n ANSI American National Standards Institute AIAA G-118-2006e, AIAA Guide for Managing the\n ASME American Society of Mechanical Engineers Use of Commercial Off the Shelf (COTS) Software\n ASQ American Society for Quality Components for Mission-Critical Systems, Reston,\n CCSDS Consultative Committee for Space Data\n Systems VA, 2006\n CFR (U.S.) Code of Federal Regulations\n COSPAR The Committee on Space Research AIAA S-120-2006, Mass Properties Control for Space\n DOD (U.S.) Department of Defense Systems. Reston, VA, 2006\n EIA Electronic Industries Alliance\n GEIA Government Electronics Information AIAA S-122-2007, Electrical Power Systems for\n Technology Association Unmanned Spacecraft, Reston, VA, 2007\n IEEE Institute of Electrical and Electronics\n Engineers\n INCOSE International Council on Systems ANSI/AIAA G-043-1992, Guide for the Preparation\n Engineering of Operational Concept Documents, Washington,\n ISO International Organization for DC, 1992\n Standardization\n NIST National Institute of Standards and ANSI/EIA-632, Processes for Engineering a System ,\n Technology\n SAE Society of Automotive Engineers Arlington, VA, 1999\n\n TOR Technical Operating Report\n U.S.C. United States Code ANSI/EIA-649, National Consensus Standard for\n Configuration Management, 1998-1999\n\n ANSI/GEIA-649, National Consensus Standard for\n Configuration Management, National Defense\n Industrial Association (NDIA), Arlington, VA\n 1998\n\n ANSI/EIA-748-C Standard: Earned Value\n Management Systems, March, 2013\n\n\n\n 270",
+          "score": 4.1842344814933945,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "image_path": "data/local/advanced/pages/p0061_2000.png",
+          "image_sha256": "9a189d92c25d4c8b68eaf7010a76f8eb18d4b577b62a8e40ee1170513116d6be"
+        },
+        {
+          "source_id": "NASA-SE:p0241",
+          "page": 241,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nbroad range of tools used on the project. It defines the b. Other performance measure that should be con-\nrequirements for information management systems and sidered by the project include:\nfor using existing elements. It defines and plans for the\ntraining required to use the tools and technology across » Requirement trends (percent growth, TBD/TBR\nthe project. closures, number of requirement changes);\n » Interface trends (percent ICD approval, TBD/\n7.3 Specialty Engineering TBR burndown, number of interface require-\nThis section describes engineering discipline and spe- ment changes);\ncialty requirements that apply across projects and the » Verification trends (closure burndown, number\nWBS models of the system structure. Examples of these of deviations/waivers approved/open);\nrequirement areas would include planning for safety, » Software-unique trends (number of require-\nreliability, human factors, logistics, maintainability, ments per build/release versus plan);\nquality, operability, and supportability. It includes esti- » Problem report/discrepancy report trends (num-\nmates of staffing levels for these disciplines and incorpo- ber open, number closed);\nrates them with the project requirements. » Cost trends (plan, actual, UFE, EVM, NOA);\n » Schedule trends (critical path slack/float, critical\n7.4 Technical Performance Measures milestone dates); and\na. This section describes the TPMs that have been » Staffing trends (FTE, WYE).\n derived from the MOEs and MOPs for the project.\n The TPMs are used to define and track the techni- Key Questions\n cal progress of the systems engineering effort. (The 1. What metrics will be used to measure tech-\n unique identification numbers in red reference the nical progress?\n corresponding requirement in NPR 7123.1.) The 2. What metrics will be used to identify process\n performance metrics need to address the minimally improvement opportunities?\n required TPMs as defined in NPR 7123.1. These 3. How will we measure progress against the\n include: plans and schedules?\n\n 1. Mass margins for projects involving hardware 4. How often will progress be reported? By\n whom? To whom?\n [SE-62].\n\n\n 2. Power margins for projects that are powered\n [SE-63]. 7.5 Heritage\n This section describes the heritage or legacy products that\n 3. Review Trends including closure of review action will be used in the project. It should include a discussion\n documentation (Request for Action, Review Item of which products are planned to be used, the rationale\n Discrepancies, and/or Action Items as established for their use, and the analysis or testing needed to assure\n by the project) for all software and hardware they will perform as intended in the stated use.\n projects [SE-64].\n\n\n\n\n\n\n\n 231",
+          "image_path": "data/local/advanced/pages/p0241_2000.png",
+          "image_sha256": "965d63ee56ffe479d1ac72e59096f2728f1645c4abf7a1f0b530df7f199424be"
+        },
+        {
+          "source_id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "image_path": "data/local/advanced/pages/p0247_2000.png",
+          "image_sha256": "58ce8d54871cf9328ce87e3a505a973f18f960a6a3244a36d490b0cea1179975"
+        }
+      ]
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0061",
+          "page": 61,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Moon\n\n\n Ascent Stage\n LSAM Performs Lunar Orbit I njection Expended\n\n 100 km\n Low Lunar Orbit\n\n\n\n\n\n\n\n\n\n\n Earth Departure\n Stage Expended\n\n\n Low Earth\n Orbit\n\n Lunar\n Surface\n Access\n Module Direct or Skip\n (LSAM) Crew Exploration Vehicle Land Entry\n\n Earth Departure Stage\n Earth\n\n\n\n FIGURE 4.1-3 Example of a Lunar Sortie DRM Early in the Life Cycle\n\n\n\n CONCEPT OF OPERATIONS VS. OPERATIONS CONCEPT\n\n\nConcept of Operations\nDeveloped early in Pre-Phase A by the technical team, describes the overall high-level concept of how the\nsystem will be used to meet stakeholder expectations, usually in a time sequenced manner. It describes\nthe system from an operational perspective and helps facilitate an understanding of the system goals. It\nstimulates the development of the requirements and architecture related to the user elements of the system.\nIt serves as the basis for subsequent definition documents and provides the foundation for the long-range\noperational planning activities.\n\n\nOperations Concept\nA description of how the flight system and the ground system are used together to ensure that the concept\nof operation is reasonable. This might include how mission data of interest, such as engineering or scientific\ndata, are captured, returned to Earth, processed, made available to users, and archived for future reference.\nIt is typically developed by the operational team. (See NPR 7120.5.)\n\n\n\n 51",
+          "image_sha256": "9a189d92c25d4c8b68eaf7010a76f8eb18d4b577b62a8e40ee1170513116d6be"
+        },
+        {
+          "source_id": "NASA-SE:p0241",
+          "page": 241,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nbroad range of tools used on the project. It defines the b. Other performance measure that should be con-\nrequirements for information management systems and sidered by the project include:\nfor using existing elements. It defines and plans for the\ntraining required to use the tools and technology across » Requirement trends (percent growth, TBD/TBR\nthe project. closures, number of requirement changes);\n » Interface trends (percent ICD approval, TBD/\n7.3 Specialty Engineering TBR burndown, number of interface require-\nThis section describes engineering discipline and spe- ment changes);\ncialty requirements that apply across projects and the » Verification trends (closure burndown, number\nWBS models of the system structure. Examples of these of deviations/waivers approved/open);\nrequirement areas would include planning for safety, » Software-unique trends (number of require-\nreliability, human factors, logistics, maintainability, ments per build/release versus plan);\nquality, operability, and supportability. It includes esti- » Problem report/discrepancy report trends (num-\nmates of staffing levels for these disciplines and incorpo- ber open, number closed);\nrates them with the project requirements. » Cost trends (plan, actual, UFE, EVM, NOA);\n » Schedule trends (critical path slack/float, critical\n7.4 Technical Performance Measures milestone dates); and\na. This section describes the TPMs that have been » Staffing trends (FTE, WYE).\n derived from the MOEs and MOPs for the project.\n The TPMs are used to define and track the techni- Key Questions\n cal progress of the systems engineering effort. (The 1. What metrics will be used to measure tech-\n unique identification numbers in red reference the nical progress?\n corresponding requirement in NPR 7123.1.) The 2. What metrics will be used to identify process\n performance metrics need to address the minimally improvement opportunities?\n required TPMs as defined in NPR 7123.1. These 3. How will we measure progress against the\n include: plans and schedules?\n\n 1. Mass margins for projects involving hardware 4. How often will progress be reported? By\n whom? To whom?\n [SE-62].\n\n\n 2. Power margins for projects that are powered\n [SE-63]. 7.5 Heritage\n This section describes the heritage or legacy products that\n 3. Review Trends including closure of review action will be used in the project. It should include a discussion\n documentation (Request for Action, Review Item of which products are planned to be used, the rationale\n Discrepancies, and/or Action Items as established for their use, and the analysis or testing needed to assure\n by the project) for all software and hardware they will perform as intended in the stated use.\n projects [SE-64].\n\n\n\n\n\n\n\n 231",
+          "image_sha256": "965d63ee56ffe479d1ac72e59096f2728f1645c4abf7a1f0b530df7f199424be"
+        },
+        {
+          "source_id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "image_sha256": "58ce8d54871cf9328ce87e3a505a973f18f960a6a3244a36d490b0cea1179975"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "The NASA handbook does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design; instead, it requires that mass margins for projects involving hardware be defined and tracked as a technical performance measure, and that mass properties be specified in the applicable requirements for each element.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0241",
+                "locator": "section 7.4 Technical Performance Measures, item 1",
+                "evidence": "The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62]."
+              },
+              {
+                "source_id": "NASA-SE:p0247",
+                "locator": "section 3.2.1 Mass Properties",
+                "evidence": "Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    61,
+    241,
+    247
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "The NASA handbook does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design; instead, it requires that mass margins for projects involving hardware be defined and tracked as a technical performance measure, and that mass properties be specified in the applicable requirements for each element.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0241",
+            "locator": "section 7.4 Technical Performance Measures, item 1",
+            "evidence": "The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62]."
+          },
+          {
+            "source_id": "NASA-SE:p0247",
+            "locator": "section 3.2.1 Mass Properties",
+            "evidence": "Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "The NASA handbook does not prescribe a fixed maximum dry mass in kilograms for every lunar lander design; instead, it requires that mass margins for projects involving hardware be defined and tracked as a technical performance measure, and that mass properties be specified in the applicable requirements for each element.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0241",
+          "locator": "section 7.4 Technical Performance Measures, item 1",
+          "evidence": "The performance metrics need to address the minimally required TPMs as defined in NPR 7123.1. These include: 1. Mass margins for projects involving hardware [SE-62]."
+        },
+        {
+          "source_id": "NASA-SE:p0247",
+          "locator": "section 3.2.1 Mass Properties",
+          "evidence": "Define the derived interface requirements based on the allocated requirements contained in the applicable specification pertaining to that side of the interface. For example, this subsection should cover the mass of the element."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 24011.88
+}

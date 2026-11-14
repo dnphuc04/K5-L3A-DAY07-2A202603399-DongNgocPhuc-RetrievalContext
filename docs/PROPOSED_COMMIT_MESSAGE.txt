@@ -1,0 +1,9 @@
+Complete advanced RAG evaluation and package final submission demos
+
+- Add 297-page NASA benchmark, vision retrieval, and preserved first-round evidence
+- Develop improvements on prior failures and freeze an independent second-round test
+- Record 29/30 fresh-test results while preserving the original 23/30 test
+- Add offline basic demo comparing A/B/C chunking and Dense/BM25/Hybrid rankings
+- Include recorded answers, citation inspection, advanced demo, and demo builders
+- Consolidate final submission guide, validation, privacy audit, and change inventory
+- Preserve frozen evidence bytes and exclude credentials, caches, and local exports

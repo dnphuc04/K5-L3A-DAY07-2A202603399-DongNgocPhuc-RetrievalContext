@@ -1,0 +1,170 @@
+{
+  "id": "ADV-DEV-02",
+  "split": "dev",
+  "question": "In Table 2.2-1, what is the typical outcome for Phase D?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek43KJmxYhRkAUu5YdTwcQNDqkJox",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 467,
+        "completion_tokens": 15,
+        "total_tokens": 482,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1746.86,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Z781ZcnnQTLxonVqRWdQ31n6",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.2-1 Phase D typical outcome\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43MMlpzrzyDAQFAuTdoMgcBGs27",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 2869,
+        "completion_tokens": 14,
+        "total_tokens": 2883,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1630.37,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MJFKPDT5SJtrF4x4ScLYu7Zl",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[19]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43OvhKM6b8BVqQi2MSb7GchkI9S",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6077,
+        "completion_tokens": 76,
+        "total_tokens": 6153,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1974.85,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The typical outcome for Phase D is an operations-ready system end product with supporting related enabling products.\",\"citations\":[{\"page\":19,\"bbox\":[420,370,740,460],\"locator\":\"Table 2.2-1 Project Life Cycle Phases Phase D Typical Outcomes\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 2.2-1, what is the typical outcome for Phase D?",
+      "results": [
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "printed_page": null,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 12.347088378868222,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "printed_page": 9,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 10.436964373052627,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "printed_page": 8,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 8.904474693593443,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0245",
+          "page": 245,
+          "printed_page": 235,
+          "text": "Appendix K: Technical Plans\n\n\n\n\n\nThe following table represents a typical expectation of maturity of some of the key technical plans developed\nduring the SE processes. This example is for a space flight project. Requirements for work product maturity can\nbe found in the governing PM document (i.e., NPR 7120.5) for the associated type of project.\n\n TABLE K-1 Example of Expected Maturity of Key Technical Plans\n Plan Pre- Phase A Phase Phase C Phase D Phase Phase Ref.\n Phase A B E F Page\n MCR SRR SDR/ PDR CDR SIR ORR MRR/ DR DRR\n MDR FRR\n Systems Engineering P B U U U U U U U U\n Management Plan\n\n Risk Management Plan A B U U U\n\n Integrated Logistics A P P B U\n Support Plan\n\n Technology B U U U\n Development Plan\n\n Review Plan P B U U U U U U U U\n\n Verification and A A P B U\n Validation Plan\n\n Integration Plan P B U\n\n Configuration B U U\n Management Plan\n\n Data Management Plan B U U\n\n Human Systems B U U U\n Integration Plan\n\n Software Management P B U\n Plan\n\n Reliability and P B U\n Maintainability Plan\n\n Mission Operations Plan P B U\n\n Project Protection Plan P B U U U U U U\n\n Decommissioning Plan A B U\n\n Disposal Plan A B U U\n\nA = Approach B = Baseline P = Preliminary U = Update\n\n\n\n 235",
+          "score": 10.48499459309827,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 19,
+          "path": "data/local/advanced/pages/p0019_1400.png",
+          "sha256": "d308dd5b560182fefd23c650302c042aacff7efef461dd91fa7fc12e77c1935a",
+          "printed_page": 9,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    19
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Invalid/unviewed citation"
+  },
+  "elapsed_ms": 6661.99
+}

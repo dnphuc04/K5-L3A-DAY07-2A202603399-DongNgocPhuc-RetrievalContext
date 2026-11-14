@@ -1,0 +1,705 @@
+{
+  "id": "ADV2-DEV-27",
+  "split": "dev",
+  "question": "What single annual license price in USD does the handbook give for NASA's configuration-management software?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4hC0k6SQJc7LU2gfDlVshGDvZXQ",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 565,
+        "completion_tokens": 10,
+        "total_tokens": 575,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 950.72,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ukn0ruXXF8Hh9rg27me5usu7",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"annual license price configuration-management software\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hDEmQfEulQd8dYVdKZx9NVW6i2",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5290,
+        "completion_tokens": 17,
+        "total_tokens": 5307,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1068.67,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_oaDXTC3jzzqP4jeynW6ScYIl",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"license price configuration-management software\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hE0idAsU5sAEnkieeEPNseb775",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9666,
+        "completion_tokens": 16,
+        "total_tokens": 9682,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1439.76,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_tT9F4jREqlwUnuERWCeE95gC",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"configuration-management software price\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hGUEJLDSe2P8JGD8q4z5WVIzzs",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 14009,
+        "completion_tokens": 32,
+        "total_tokens": 14041,
+        "prompt_tokens_details": {
+          "cached_tokens": 9472,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1342.37,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_5KVNzkursHZlKsYGuwvNI0DL",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0155\",\"NASA-SE:p0159\",\"NASA-SE:p0160\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hJbkOCgjYHh1onfpdjjY4eCttQ",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 18223,
+        "completion_tokens": 37,
+        "total_tokens": 18260,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4134.83,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_YJ1ezJK92lN1aHTzTVYUbMhI",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0160\",\"bbox\":[0.0,0.0,1.0,0.3]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hO64oCQopQDZEvJ1KeBdwFIBSd",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 19866,
+        "completion_tokens": 48,
+        "total_tokens": 19914,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5391.24,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "The handbook states: \"License agreement allows for multiple users within an agreed-to number;\" but does not provide a single annual license price in USD for NASA's configuration-management software. No specific price is given in the cited source.\nclaims=[]",
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hU7XZ00x6RAUeQhTI2aKAwaFFp",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 19933,
+        "completion_tokens": 37,
+        "total_tokens": 19970,
+        "prompt_tokens_details": {
+          "cached_tokens": 19840,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4961.53,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ScysUOo9L5RejrT9FzSEWwLR",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0160\",\"bbox\":[0.0,0.0,1.0,0.5]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hbJX5cXgEuHwYYpnOF7ruCIct6",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 21231,
+        "completion_tokens": 37,
+        "total_tokens": 21268,
+        "prompt_tokens_details": {
+          "cached_tokens": 19840,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7014.87,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_V929byqP84u5SBPah82WjkyK",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0159\",\"bbox\":[0.0,0.0,1.0,1.0]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hjdkkPXltLU2BuXWYam6XtKOj8",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 22202,
+        "completion_tokens": 94,
+        "total_tokens": 22296,
+        "prompt_tokens_details": {
+          "cached_tokens": 18048,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6526.92,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_7oxp5hBEIVVSpvya1vVS2aoN",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The NASA Systems Engineering Handbook does not provide a single annual license price in USD for NASA's configuration-management software. It only states that the license agreement allows for multiple users within an agreed-to number, but no specific price is given.\",\"citations\":[{\"source_id\":\"NASA-SE:p0160\",\"locator\":\"top left bullet list\",\"evidence\":\"License agreement allows for multiple users within an agreed-to number;\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ho4yM79GEuANcOzkKr3gBDRl2b",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4462,
+        "completion_tokens": 70,
+        "total_tokens": 4532,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3670.6,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_2n18haliEcjQoIygYH5gaK4u",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The NASA Systems Engineering Handbook does not provide a single annual license price in USD for NASA's configuration-management software.\",\"citations\":[{\"source_id\":\"NASA-SE:p0160\",\"locator\":\"top left bullet list\",\"evidence\":\"License agreement allows for multiple users within an agreed-to number;\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What single annual license price in USD does the handbook give for NASA's configuration-management software?",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 5.72713408777348,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0295",
+          "page": 295,
+          "text": " Bibliography\n\n\n\n\n\n or Technological Experiments with Possible SAE Standard AS5506B, Architecture Analysis &\n Large-Scale Adverse Environmental Effects Design Language (AADL), SAE International,\n and Launch of Nuclear Systems into Space,” as September 10, 2012\n amended May 8, 1996\n SAE International and the European Association of\nPresidential Policy Directive PPD-4 (2010), National Aerospace Industries (EAAI) AS9100C, Quality\n Space Policy Management Systems (QMS): Requirements for\n Aviation, Space, and Defense Organizations\nPresidential Policy Directive PPD-21 (2013), Critical Revision C, January 15, 2009\n Infrastructure Security and Resilience\n SAE International/Electronic Industries Alliance\nPrice, H. E. “The Allocation of Functions in (EIA) 649B-2011, Configuration Management\n Systems.” Human Factors 27: 33–45. 1985 Standard (Aerospace Sector), April 1, 2011\n\nThe Project Management Institute® (PMI). Practice Sage, Andrew, and William Rouse. The Handbook\n Standards for Work Breakdown Structures. of Systems Engineering and Management, New\n Newtown Square, PA, 2001 York: Wiley & Sons, 1999\n\nQ Shafer, J. B. “Practical Workload Assessment in the\nQuery View Transformation (QVT) http://www.omg. Development Process.” In Proceedings of the\n org/spec/QVT/1.0/ Human Factors Society 31st Annual Meeting,\n Santa Monica: Human Factors Society, 1987\nR\nRasmussen, Robert. “Session 1: Overview of Shames, P., and J. Skipper. “Toward a Framework\n State Analysis,” (internal document), State for Modeling Space Systems Architectures,”\n Analysis Lite Course, Jet Propulsion Laboratory, SpaceOps 2006 Conference, AIAA 2006-5581,\n California Institute of Technology, Pasadena, 2006\n CA, 2005\n Shaprio, J., “George H. Heilmeier,” IEEE Spectrum,\nR. Rasmussen, B. Muirhead, Abridged Edition: 31(6), 1994, pg. 56–59 http://ieeexplore.ieee.org/\n A Case for Model-Based Architecting in NASA, iel3/6/7047/00284787.pdf?arnumber=284787\n California Institute of Technology, August 2012\n Software Engineering Institute (SEI). A Framework\nRechtin, Eberhardt. Systems Architecting of for Software Product Line Practice, Version 5.0.\n Organizations: Why Eagles Can’t Swim. Boca Carnegie Mellon University, http://www.sei.cmu.\n Raton: CRC Press, 2000 edu/productlines/frame_report/arch_def.htm\n\nS Stamelatos, M., H. Dezfuli, and G. Apostolakis.\nSaaty, Thomas L. The Analytic Hierarchy Process. “A Proposed Risk-Informed Decision making\n New York: McGraw-Hill, 1980 Framework for NASA.” In Proceedings of the 8th\n International Conference on Probabilistic Safety\n\n\n\n 285",
+          "score": 17.57858235867626,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 12.165410401719944,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 10.713147561414344,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 9.41165047224106,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0278",
+          "page": 278,
+          "text": " References Cited\n\n\n\n\n\nNPR 7123.1, NASA Systems Engineering Processes Long, James E. Relationships Between Common\n and Requirements Graphical Representations in Systems Engineering.\n Vienna, VA: Vitech Corporation, 2002\nNPR 7150.2, NASA Software Engineering\n Requirements Sage, Andrew, and William Rouse. The Handbook\n of Systems Engineering and Management. New\nNPR 8000.4, Agency Risk Management Procedural York: Wiley & Sons, 1999\n Requirements\n Appendix G: Technology Assessment/\nNPR 8705.2, Human-Rating Requirements for Insertion\n Space Systems NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nNPR 8715.3, NASA General Safety Program\n Requirements NPR 7123.1, NASA Systems Engineering Processes\n and Requirements\nInternational Organization for Standardization\n (ISO). ISO/IEC/IEEE 42010:2011. Systems and Appendix H: Integration Plan Outline\n Software Engineering – Architecture Description. Federal Highway Administration and CalTrans,\n Geneva: International Organization for Systems Engineering Guidebook for ITS, Version\n Standardization, 2011. (http://www.iso-architec- 2.0. Washington, DC: U.S. Department of\n ture.org/ieee-1471/index.html) Transportation, 2007\n\nAvizienis, A., J.C. Laprie, B. Randell, C. Landwehr, Appendix J: SEMP Content Outline\n “Basic concepts and taxonomy of dependable NPR 7120.5, NASA Space Flight Program and\n and secure computing,” IEEE Transactions on Project Management Requirements\n Dependable and Secure Computing 1 (1), 11–33,\n 2004 NPR 7123.1, Systems Engineering Processes and\n Requirements\nAppendix F: Functional, Timing, and State\nAnalysis Appendix K: Technical Plans\nNASA Reference Publication 1370, Training NPR 7120.5, NASA Space Flight Program and\n Manual for Elements of Interface Definition and Project Management Requirements\n Control. 1997\n Appendix M: CM Plan Outline\nDefense Acquisition University. Systems Engineering SAE International (SAE)/Electronic Industries\n Fundamentals Guide. Fort Belvoir, VA, 2001 Alliance (EIA) 649B-2011, Configuration\n Management Standard (Aerospace Sector) April 1,\nBuede, Dennis. The Engineering Design of Systems: 2011\n Models and Methods. New York: Wiley & Sons,\n 2000\n\n\n\n\n\n 268",
+          "score": 9.043451787770824,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 9.01550105338402,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "license price configuration-management software",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 4.285142251021963,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 9.759198916231474,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0295",
+          "page": 295,
+          "text": " Bibliography\n\n\n\n\n\n or Technological Experiments with Possible SAE Standard AS5506B, Architecture Analysis &\n Large-Scale Adverse Environmental Effects Design Language (AADL), SAE International,\n and Launch of Nuclear Systems into Space,” as September 10, 2012\n amended May 8, 1996\n SAE International and the European Association of\nPresidential Policy Directive PPD-4 (2010), National Aerospace Industries (EAAI) AS9100C, Quality\n Space Policy Management Systems (QMS): Requirements for\n Aviation, Space, and Defense Organizations\nPresidential Policy Directive PPD-21 (2013), Critical Revision C, January 15, 2009\n Infrastructure Security and Resilience\n SAE International/Electronic Industries Alliance\nPrice, H. E. “The Allocation of Functions in (EIA) 649B-2011, Configuration Management\n Systems.” Human Factors 27: 33–45. 1985 Standard (Aerospace Sector), April 1, 2011\n\nThe Project Management Institute® (PMI). Practice Sage, Andrew, and William Rouse. The Handbook\n Standards for Work Breakdown Structures. of Systems Engineering and Management, New\n Newtown Square, PA, 2001 York: Wiley & Sons, 1999\n\nQ Shafer, J. B. “Practical Workload Assessment in the\nQuery View Transformation (QVT) http://www.omg. Development Process.” In Proceedings of the\n org/spec/QVT/1.0/ Human Factors Society 31st Annual Meeting,\n Santa Monica: Human Factors Society, 1987\nR\nRasmussen, Robert. “Session 1: Overview of Shames, P., and J. Skipper. “Toward a Framework\n State Analysis,” (internal document), State for Modeling Space Systems Architectures,”\n Analysis Lite Course, Jet Propulsion Laboratory, SpaceOps 2006 Conference, AIAA 2006-5581,\n California Institute of Technology, Pasadena, 2006\n CA, 2005\n Shaprio, J., “George H. Heilmeier,” IEEE Spectrum,\nR. Rasmussen, B. Muirhead, Abridged Edition: 31(6), 1994, pg. 56–59 http://ieeexplore.ieee.org/\n A Case for Model-Based Architecting in NASA, iel3/6/7047/00284787.pdf?arnumber=284787\n California Institute of Technology, August 2012\n Software Engineering Institute (SEI). A Framework\nRechtin, Eberhardt. Systems Architecting of for Software Product Line Practice, Version 5.0.\n Organizations: Why Eagles Can’t Swim. Boca Carnegie Mellon University, http://www.sei.cmu.\n Raton: CRC Press, 2000 edu/productlines/frame_report/arch_def.htm\n\nS Stamelatos, M., H. Dezfuli, and G. Apostolakis.\nSaaty, Thomas L. The Analytic Hierarchy Process. “A Proposed Risk-Informed Decision making\n New York: McGraw-Hill, 1980 Framework for NASA.” In Proceedings of the 8th\n International Conference on Probabilistic Safety\n\n\n\n 285",
+          "score": 8.56519312958056,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 5.084510385816278,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 5.012850830506437,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0286",
+          "page": 286,
+          "text": " Bibliography\n\n\n\n\n\nISO 9001:2015 Quality Management Systems ISO/TR 15846. Information Technology—Software\n (QMS). Geneva: International Organization for Life Cycle Processes Configuration Management,\n Standardization, September 2015 Geneva: International Organization for\n Standardization, 1998\nISO 9100/AS9100, Quality Systems Aerospace—\n Model for Quality Assurance in Design, ISO/IEC TR 19760:2003. Systems Engineering—A\n Development, Production, Installation, and Guide for the Application of ISO/IEC 15288.\n Servicing. Geneva: International Organization Geneva: International Organization for\n for Standardization, 1999 Standardization, 2003\n\nISO 10007: 1995(E). Quality Management— ISO/IEC/IEEE 24765:2010, Systems and\n Guidelines for Configuration Management, Software Engineering – Vocabulary. Geneva:\n Geneva: International Organization for International Organization for Standardization,\n Standardization, 1995 2010\n\nISO 10303-AP233, Application Protocol (AP) for ISO/IEC/IEEE 42010:2011. Systems and Software\n Systems Engineering Data Exchange (AP-233) Engineering—Architecture Description.\n Working Draft 2 published July 2006 Geneva: International Organization for\n Standardization, 2011 http://www.iso-architec-\nISO/TS 10303-433:2011 Industrial automation ture.org/ieee-1471/index.html\n systems and integration – Product data representa-\n tion and exchange – Part 433: Application mod- (The) Invention Secrecy Act of 1951, see 35 U.S.C.\n ule: AP233 systems engineering. ISO: Geneva, §181–§188. Secrecy of Certain Inventions and\n 2011 Filing Applications in Foreign Country; §181 –\n Secrecy of Certain Inventions and Withholding\nISO/IEC 10746-1 to 10746-4, ITU-T Specifications of Patent\n X.901 to x.904, Reference Model of Open\n distributed Processing (RM-ODP), Geneva: J\n International Organization for Standardization, Joint (cost and schedule) Confidence Level (JCL).\n 1998. http://www.rm-odp.net Frequently asked questions (FAQs) can be found\n at: http://www.nasa.gov/pdf/394931main_JCL_\nISO 13374-1, Condition monitoring and diagnostics of FAQ_10_12_09.pdf\n machines—Data processing, communication and\n presentation – Part 1: General guidelines. Geneva: Jennions, Ian K. editor. Integrated Vehicle Health\n International Organization for Standardization, Management (IVHM): Perspectives on an\n 2002 Emerging Field. SAE International, Warrendale\n PA (IVHM Book) September 27, 2011\nISO/IEC 15288:2002. Systems Engineering—System\n Life Cycle Processes. Geneva: International Jennions, Ian K. editor. Integrated Vehicle Health\n Organization for Standardization, 2002 Management (IVHM): Business Case Theory and\n\n\n\n\n\n 276",
+          "score": 4.7548827339038375,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0280",
+          "page": 280,
+          "text": "Bibliography\n\n\n\n\n\nThe bibliography contains sources cited in sections of A\nthe document and additional sources for developing Adams, R. J., et al. Software Development Standard\nthe material in the document. for Space Systems, Aerospace Corporation Report\n No. TOR-2004(3909)3537, Revision B. March\n AIAA American Institute of Aeronautics and 11, 2005. Prepared for the U.S. Air Force.\n Astronautics\n ANSI American National Standards Institute AIAA G-118-2006e, AIAA Guide for Managing the\n ASME American Society of Mechanical Engineers Use of Commercial Off the Shelf (COTS) Software\n ASQ American Society for Quality Components for Mission-Critical Systems, Reston,\n CCSDS Consultative Committee for Space Data\n Systems VA, 2006\n CFR (U.S.) Code of Federal Regulations\n COSPAR The Committee on Space Research AIAA S-120-2006, Mass Properties Control for Space\n DOD (U.S.) Department of Defense Systems. Reston, VA, 2006\n EIA Electronic Industries Alliance\n GEIA Government Electronics Information AIAA S-122-2007, Electrical Power Systems for\n Technology Association Unmanned Spacecraft, Reston, VA, 2007\n IEEE Institute of Electrical and Electronics\n Engineers\n INCOSE International Council on Systems ANSI/AIAA G-043-1992, Guide for the Preparation\n Engineering of Operational Concept Documents, Washington,\n ISO International Organization for DC, 1992\n Standardization\n NIST National Institute of Standards and ANSI/EIA-632, Processes for Engineering a System ,\n Technology\n SAE Society of Automotive Engineers Arlington, VA, 1999\n\n TOR Technical Operating Report\n U.S.C. United States Code ANSI/EIA-649, National Consensus Standard for\n Configuration Management, 1998-1999\n\n ANSI/GEIA-649, National Consensus Standard for\n Configuration Management, National Defense\n Industrial Association (NDIA), Arlington, VA\n 1998\n\n ANSI/EIA-748-C Standard: Earned Value\n Management Systems, March, 2013\n\n\n\n 270",
+          "score": 4.633292404118562,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "configuration-management software price",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 4.285142251021963,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0295",
+          "page": 295,
+          "text": " Bibliography\n\n\n\n\n\n or Technological Experiments with Possible SAE Standard AS5506B, Architecture Analysis &\n Large-Scale Adverse Environmental Effects Design Language (AADL), SAE International,\n and Launch of Nuclear Systems into Space,” as September 10, 2012\n amended May 8, 1996\n SAE International and the European Association of\nPresidential Policy Directive PPD-4 (2010), National Aerospace Industries (EAAI) AS9100C, Quality\n Space Policy Management Systems (QMS): Requirements for\n Aviation, Space, and Defense Organizations\nPresidential Policy Directive PPD-21 (2013), Critical Revision C, January 15, 2009\n Infrastructure Security and Resilience\n SAE International/Electronic Industries Alliance\nPrice, H. E. “The Allocation of Functions in (EIA) 649B-2011, Configuration Management\n Systems.” Human Factors 27: 33–45. 1985 Standard (Aerospace Sector), April 1, 2011\n\nThe Project Management Institute® (PMI). Practice Sage, Andrew, and William Rouse. The Handbook\n Standards for Work Breakdown Structures. of Systems Engineering and Management, New\n Newtown Square, PA, 2001 York: Wiley & Sons, 1999\n\nQ Shafer, J. B. “Practical Workload Assessment in the\nQuery View Transformation (QVT) http://www.omg. Development Process.” In Proceedings of the\n org/spec/QVT/1.0/ Human Factors Society 31st Annual Meeting,\n Santa Monica: Human Factors Society, 1987\nR\nRasmussen, Robert. “Session 1: Overview of Shames, P., and J. Skipper. “Toward a Framework\n State Analysis,” (internal document), State for Modeling Space Systems Architectures,”\n Analysis Lite Course, Jet Propulsion Laboratory, SpaceOps 2006 Conference, AIAA 2006-5581,\n California Institute of Technology, Pasadena, 2006\n CA, 2005\n Shaprio, J., “George H. Heilmeier,” IEEE Spectrum,\nR. Rasmussen, B. Muirhead, Abridged Edition: 31(6), 1994, pg. 56–59 http://ieeexplore.ieee.org/\n A Case for Model-Based Architecting in NASA, iel3/6/7047/00284787.pdf?arnumber=284787\n California Institute of Technology, August 2012\n Software Engineering Institute (SEI). A Framework\nRechtin, Eberhardt. Systems Architecting of for Software Product Line Practice, Version 5.0.\n Organizations: Why Eagles Can’t Swim. Boca Carnegie Mellon University, http://www.sei.cmu.\n Raton: CRC Press, 2000 edu/productlines/frame_report/arch_def.htm\n\nS Stamelatos, M., H. Dezfuli, and G. Apostolakis.\nSaaty, Thomas L. The Analytic Hierarchy Process. “A Proposed Risk-Informed Decision making\n New York: McGraw-Hill, 1980 Framework for NASA.” In Proceedings of the 8th\n International Conference on Probabilistic Safety\n\n\n\n 285",
+          "score": 8.56519312958056,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 5.084510385816278,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 5.012850830506437,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 4.799116513577015,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0286",
+          "page": 286,
+          "text": " Bibliography\n\n\n\n\n\nISO 9001:2015 Quality Management Systems ISO/TR 15846. Information Technology—Software\n (QMS). Geneva: International Organization for Life Cycle Processes Configuration Management,\n Standardization, September 2015 Geneva: International Organization for\n Standardization, 1998\nISO 9100/AS9100, Quality Systems Aerospace—\n Model for Quality Assurance in Design, ISO/IEC TR 19760:2003. Systems Engineering—A\n Development, Production, Installation, and Guide for the Application of ISO/IEC 15288.\n Servicing. Geneva: International Organization Geneva: International Organization for\n for Standardization, 1999 Standardization, 2003\n\nISO 10007: 1995(E). Quality Management— ISO/IEC/IEEE 24765:2010, Systems and\n Guidelines for Configuration Management, Software Engineering – Vocabulary. Geneva:\n Geneva: International Organization for International Organization for Standardization,\n Standardization, 1995 2010\n\nISO 10303-AP233, Application Protocol (AP) for ISO/IEC/IEEE 42010:2011. Systems and Software\n Systems Engineering Data Exchange (AP-233) Engineering—Architecture Description.\n Working Draft 2 published July 2006 Geneva: International Organization for\n Standardization, 2011 http://www.iso-architec-\nISO/TS 10303-433:2011 Industrial automation ture.org/ieee-1471/index.html\n systems and integration – Product data representa-\n tion and exchange – Part 433: Application mod- (The) Invention Secrecy Act of 1951, see 35 U.S.C.\n ule: AP233 systems engineering. ISO: Geneva, §181–§188. Secrecy of Certain Inventions and\n 2011 Filing Applications in Foreign Country; §181 –\n Secrecy of Certain Inventions and Withholding\nISO/IEC 10746-1 to 10746-4, ITU-T Specifications of Patent\n X.901 to x.904, Reference Model of Open\n distributed Processing (RM-ODP), Geneva: J\n International Organization for Standardization, Joint (cost and schedule) Confidence Level (JCL).\n 1998. http://www.rm-odp.net Frequently asked questions (FAQs) can be found\n at: http://www.nasa.gov/pdf/394931main_JCL_\nISO 13374-1, Condition monitoring and diagnostics of FAQ_10_12_09.pdf\n machines—Data processing, communication and\n presentation – Part 1: General guidelines. Geneva: Jennions, Ian K. editor. Integrated Vehicle Health\n International Organization for Standardization, Management (IVHM): Perspectives on an\n 2002 Emerging Field. SAE International, Warrendale\n PA (IVHM Book) September 27, 2011\nISO/IEC 15288:2002. Systems Engineering—System\n Life Cycle Processes. Geneva: International Jennions, Ian K. editor. Integrated Vehicle Health\n Organization for Standardization, 2002 Management (IVHM): Business Case Theory and\n\n\n\n\n\n 276",
+          "score": 4.7548827339038375,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0280",
+          "page": 280,
+          "text": "Bibliography\n\n\n\n\n\nThe bibliography contains sources cited in sections of A\nthe document and additional sources for developing Adams, R. J., et al. Software Development Standard\nthe material in the document. for Space Systems, Aerospace Corporation Report\n No. TOR-2004(3909)3537, Revision B. March\n AIAA American Institute of Aeronautics and 11, 2005. Prepared for the U.S. Air Force.\n Astronautics\n ANSI American National Standards Institute AIAA G-118-2006e, AIAA Guide for Managing the\n ASME American Society of Mechanical Engineers Use of Commercial Off the Shelf (COTS) Software\n ASQ American Society for Quality Components for Mission-Critical Systems, Reston,\n CCSDS Consultative Committee for Space Data\n Systems VA, 2006\n CFR (U.S.) Code of Federal Regulations\n COSPAR The Committee on Space Research AIAA S-120-2006, Mass Properties Control for Space\n DOD (U.S.) Department of Defense Systems. Reston, VA, 2006\n EIA Electronic Industries Alliance\n GEIA Government Electronics Information AIAA S-122-2007, Electrical Power Systems for\n Technology Association Unmanned Spacecraft, Reston, VA, 2007\n IEEE Institute of Electrical and Electronics\n Engineers\n INCOSE International Council on Systems ANSI/AIAA G-043-1992, Guide for the Preparation\n Engineering of Operational Concept Documents, Washington,\n ISO International Organization for DC, 1992\n Standardization\n NIST National Institute of Standards and ANSI/EIA-632, Processes for Engineering a System ,\n Technology\n SAE Society of Automotive Engineers Arlington, VA, 1999\n\n TOR Technical Operating Report\n U.S.C. United States Code ANSI/EIA-649, National Consensus Standard for\n Configuration Management, 1998-1999\n\n ANSI/GEIA-649, National Consensus Standard for\n Configuration Management, National Defense\n Industrial Association (NDIA), Arlington, VA\n 1998\n\n ANSI/EIA-748-C Standard: Earned Value\n Management Systems, March, 2013\n\n\n\n 270",
+          "score": 4.633292404118562,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "image_path": "data/local/advanced/pages/p0155_2000.png",
+          "image_sha256": "f2f3f3aac52944028821b18a2e0310010aecb487f8d913717cd3e9f244b3a3d8"
+        },
+        {
+          "source_id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "image_path": "data/local/advanced/pages/p0159_2000.png",
+          "image_sha256": "e5a2109b3e080ddff4621459440202dfc131f224b23108c7c9d01c055b0de919"
+        },
+        {
+          "source_id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "image_path": "data/local/advanced/pages/p0160_2000.png",
+          "image_sha256": "db9eda90efdfcc84daa10291b93ecd6ad41ed1692353bd648318811b3752c1ea"
+        }
+      ]
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0160",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.3
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0160_f9c76b02a1f1.png",
+      "image_sha256": "95c43b0168ccada9c6a90fad8ab28fe92411ad66f615fda03eded60b33c839a4"
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0160",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0160_6bdf86d90ae6.png",
+      "image_sha256": "8068545779a60c279e82e500bda71f561792933740f9bcda09789c636f511239"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0159",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0159_200637cecfca.png",
+      "image_sha256": "d6011eeb0f96d89f94bbc80bfb044b3b2265f21b17ce942fb56bb1d931c566e4"
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "image_sha256": "f2f3f3aac52944028821b18a2e0310010aecb487f8d913717cd3e9f244b3a3d8"
+        },
+        {
+          "source_id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "image_sha256": "e5a2109b3e080ddff4621459440202dfc131f224b23108c7c9d01c055b0de919"
+        },
+        {
+          "source_id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "image_sha256": "db9eda90efdfcc84daa10291b93ecd6ad41ed1692353bd648318811b3752c1ea"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "The NASA Systems Engineering Handbook does not provide a single annual license price in USD for NASA's configuration-management software.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0160",
+                "locator": "top left bullet list",
+                "evidence": "License agreement allows for multiple users within an agreed-to number;"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    155,
+    159,
+    160
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "The NASA Systems Engineering Handbook does not provide a single annual license price in USD for NASA's configuration-management software. It only states that the license agreement allows for multiple users within an agreed-to number, but no specific price is given.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0160",
+            "locator": "top left bullet list",
+            "evidence": "License agreement allows for multiple users within an agreed-to number;"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "The NASA Systems Engineering Handbook does not provide a single annual license price in USD for NASA's configuration-management software.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0160",
+          "locator": "top left bullet list",
+          "evidence": "License agreement allows for multiple users within an agreed-to number;"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 39727.12
+}

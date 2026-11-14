@@ -1,0 +1,199 @@
+{
+  "id": "ADV-DEV-04",
+  "split": "dev",
+  "question": "In Table 6.8-1, what must the Dissent section record when applicable?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek45TGyxjTJQEWL2uWnb3Eo7bAEsM",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 468,
+        "completion_tokens": 15,
+        "total_tokens": 483,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1034.54,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_LCSw64I8mPZFd5szrPYP6iEe",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 6.8-1 Dissent section record\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek45VNcr0hrDaXCXZzW8DTt5QAwe3",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4748,
+        "completion_tokens": 14,
+        "total_tokens": 4762,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1396.85,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9e5T3xFv2ZQiEBN0ppqa0rCN",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[181]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek45XO4OiCeubJU6z5NOlnNaCFCnn",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9293,
+        "completion_tokens": 101,
+        "total_tokens": 9394,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2182.13,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The Dissent section in Table 6.8-1 must record, when applicable, any dissent with the recommendation and document how the dissent was addressed (e.g., decision matrix, risk).\",\"citations\":[{\"page\":181,\"bbox\":[0.05,0.68,0.95,0.75],\"locator\":\"Table 6.8-1 Section 8 Dissent\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 6.8-1, what must the Dissent section record when applicable?",
+      "results": [
+        {
+          "id": "NASA-SE:p0181",
+          "page": 181,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.8-1 Typical Information to Capture in a Decision Report\n# Section Section Description\n1 Executive Provide a short half-page executive summary of the report:\n Summary • Recommendation (short summary—1 sentence)\n\n • Problem/issue requiring a decision (short summary—1 sentence)\n2 Problem/Issue Describe the problem/issue that requires a decision. Provide background, history, the\n Description decision maker(s) (e.g., board, panel, forum, council), and decision recommendation team,\n etc.\n\n3 Decision Matrix Provide the rationale for setting up the decision matrix:\n Setup Rationale • Criteria selected\n • Options selected\n • Weights selected\n • Evaluation methods selected\n Provide a copy of the setup decision matrix.\n\n4 Decision Matrix Provide the rationale for the scoring of the decision matrix. Provide the results of populating\n Scoring Rationale the scores of the matrix using the evaluation methods selected.\n5 Final Decision Cut and paste the final spreadsheet into the document. Also include any important\n Matrix snapshots of the decision matrix.\n\n6 Risk/Benefits For the final options being considered, document the risks and benefits of each option.\n\n7 Recommendation Describe the recommendation that is being made to the decision maker(s) and the rationale\n and/or Final for why the option was selected. Can also document the final decision in this section.\n Decision\n8 Dissent If applicable, document any dissent with the recommendation. Document how dissent was\n addressed (e.g., decision matrix, risk).\n\n9 References Provide any references.\n\nA Appendices Provide the results of the literature search, including lessons learned, previous related\n decisions, and previous related dissent. Also document any detailed data analysis and risk\n analysis used for the decision. Can also document any decision metrics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 171",
+          "score": 21.671425858299195,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0180",
+          "page": 180,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nbasic definitions of what is being measured for each This report includes the following:\nalternative. The criteria should be updated, with con-\ncurrence from the decision-maker, to more correctly • mission and system context for the decision\nreflect the suitability of each alternative. • decision needed and intended outcomes\n • decision criteria\n6.8.1.2.6 Report Analysis Results • identified alternative solutions\nThese results are reported to the appropriate stake- • decision evaluation methods and tools employed\nholders with recommendations, impacts, and correc- • assumptions, uncertainties, and sensitivities in\ntive actions the evaluations and recommendations\n • results of all alternative evaluations\n6.8.1.2.7 Capture Work Products • alternative recommendations\nThese work products may include the decision anal- • final decision made with rationale\nysis guidelines, strategy, and procedures that were • lessons learned\nused; analysis/evaluation approach; criteria, meth-\nods, and tools used; analysis/evaluation assumptions Typical information captured in a decision report is\nmade in arriving at recommendations; uncertainties; shown in TABLE 6.8-1.\nsensitivities of the recommended actions or corrective\nactions; and lessons learned. 6.8.2 Decision Analysis Guidance\n Refer to Section 6.8.2 in the NASA Expanded\n6.8.1.3 Outputs Guidance for Systems Engineering at https://nen.\n6.8.1.3.1 Alternative Selection and Decision Support nasa.gov/web/se/doc-repository for additional guid-\n Recommendations and Impacts ance on decision analysis methods supporting all SE\nOnce the technical team recommends an alterna- processes and phases including:\ntive to a NASA decision-maker (e.g., a NASA board,\nforum, or panel), all decision analysis information • trade studies,\nshould be documented. The team should produce a • cost-benefit analysis,\nreport to document all major recommendations to • influence diagrams,\nserve as a backup to any presentation materials used. • decision trees,\nA report in conjunction with a decision matrix pro- • analytic hierarchy process,\nvides clearly documented rationale for the presen- • Borda counting, and\ntation materials (especially for complex decisions). • utility analysis,\nDecisions are typically captured in meeting minutes\nand should be captured in the report as well. Based Additional information on tools for decision making\non the mission and system context and the decision can be found in NASA Reference Publication 1358,\nmade, the report may be a simple white paper or a System Engineering “Toolbox” for Design-Oriented\nmore formally formatted document. The important Engineers located at https://nen.nasa.gov/web/se/\ncharacteristic of the report is the content, which fully doc-repository.\ndocuments the decision needed, assessments done,\nrecommendations, and decision finally made.\n\n\n\n\n\n\n 170",
+          "score": 10.65230831891517,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 9.222095868285894,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0242",
+          "page": 242,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n7.6 Other 9.0 Compliance Matrices\nThis section is reserved to describe any unique SE func- Appendix H.2 in NPR 7123.1A is the basis for the com-\ntions or activities for the project that are not covered in pliance matrix for this section of the SEMP. The proj-\nother sections. ect will complete this matrix from the point of view of\n the project and the technical scope. Each requirement\n8.0 Integration with the Project Plan will be addressed as compliant, partially compliant, or\n and Technical Resource Allocation noncompliant. Compliant requirements should indicate\nThis section describes how the technical effort will inte- which process or activity addresses the compliance. For\ngrate with project management and defines roles and example, compliance can be accomplished by using a\nresponsibilities. It addresses how technical requirements Center process or by using a project process as described\nwill be integrated with the project plan to determine in another section of the SEMP or by reference to another\nthe allocation of resources, including cost, schedule, and documented process. Noncompliant areas should state\npersonnel, and how changes to the allocations will be the rationale for noncompliance.\ncoordinated.\n Appendices\n Key Questions Appendices are included, as necessary, to provide a\n 1. How will we assess risk? What thresholds glossary, acronyms and abbreviations, and informa-\n are needed for triggering mitigation activi- tion published separately for convenience in document\n ties? How will we integrate risk management maintenance. Included are: (1) information that may\n into the technical decision process? be pertinent to multiple topic areas (e.g., description of\n 2. How will we communicate across and out- methods or procedures); (2) charts and proprietary data\n side of the project? applicable to the technical efforts required in the SEMP;\n 3. How will we record decisions? and (3) a summary of technical plans associated with\n 4. How do we incorporate lessons learned from the project. Each appendix should be referenced in one\n other projects? of the sections of the engineering plan where data would\n normally have been provided.\n\n Templates\nThis section describes the interface between all of the tech- Any templates for forms, plans, or reports the technical\nnical aspects of the project and the overall project man- team will need to fill out, like the format for the veri-\nagement process during the systems engineering planning fication and validation plan, should be included in the\nactivities and updates. All activities to coordinate tech- appendices.\nnical efforts with the overall project are included, such\nas technical interactions with the external stakeholders, References\nusers, and contractors. This section contains all documents referenced in the text\n of the SEMP.\n\n\n\n\n\n\n\n\n\n 232",
+          "score": 12.656154612367564,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0236",
+          "page": 236,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n1.0 Purpose and Scope 4. What are the overall project constraints\nThis section provides a brief description of the purpose, in terms of cost, schedule, and technical\nscope, and content of the SEMP. performance\n\n 5. How will we know when we have adequately\n• Purpose: This section should highlight the intent of defined the problem?\n the SEMP to provide the basis for implementing and 6. Who are the customers?\n communicating the technical effort. 7. Who are the users?\n\n 8. What are the customer and user priorities?\n• Scope: The scope describes the work that encompasses 9. What is the relationship to other projects?\n the SE technical effort required to generate the work\n products. The plan is used by the technical team to\n provide personnel the information necessary to suc- 3.1 System Description\n cessfully accomplish the required task. This section contains a definition of the purpose of the\n system being developed and a brief description of the\n• Content: This section should briefly describe the orga- purpose of the products of the product layer of the system\n nization of the document. structure to which this SEMP applies. Each product layer\n includes the system end products and their subsystems\n2.0 Applicable Documents and the supporting or enabling products and any other\nThis section of the SEMP lists the documents applicable work products (plans, baselines) required for the devel-\nto this specific project and its SEMP implementation. opment of the system. The description should include\nThis section should list major standards and procedures any interfacing systems and system products, including\nthat this technical effort for this specific project needs humans with which the system products will interact\nto follow. Examples of specific procedures to list could physically, cognitively, functionally, or electronically.\ninclude procedures for hazardous material handling,\ncrew training plans for control room operations, special 3.2 System Structure\ninstrumentation techniques, special interface documen- This section contains an explanation of how the tech-\ntation for vehicles, and maintenance procedures specific nical portion of the product layer (including enabling\nto the project. products, technical cost, and technical schedule) will be\n developed, how the resulting product layers will be inte-\n3.0 Technical Summary grated into the project portion of the WBS, and how the\nThis section contains an executive summary describing overall system structure will be developed. This section\nthe problem to be solved by this technical effort and the contains a description of the relationship of the specifica-\npurpose, context, and products to be developed and inte- tion tree and the drawing tree with the products of the\ngrated with other interfacing systems identified. system structure and how the relationship and interfaces\n of the system end products and their life cycle-enabling\n Key Questions products will be managed throughout the planned tech-\n 1. What is the problem we’re trying to solve? nical effort.\n\n 2. What are the influencing factors?\n 3. What are the critical questions? 3.3 Product Integration\n This section contains an explanation of how the products\n will be integrated and describes clear organizational\n\n\n\n 226",
+          "score": 11.66915772687563,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0023",
+          "page": 23,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n 100% 90%\n\n 90%\n 80% 75% 500–1000× 100%\n\n ts\n 70% Operations\n Committed Life Cycle Cos20–100× through\n 60% Disposal\n 50% 45%\n\n nge Design Direction\n 40% 3–6× 50%\n 30% Cost to Cha ompleted Prod/Test\n % C\n 20% (Costs Expended)\n\n 10% Concept Design 20%\n 8% 15% Develop\n 0%\n\n MCR SRR SDR PDR CDR SIR ORR DR/DRR\n Time\n\n\n MCR Mission Concept Review CDR Critical Design Review\n SRR System Requirements Review SIR System Integration Review\n SDR System Definition Review ORR Operational Readiness Review\n PDR Preliminary Design Review DR/DRR Decommissioning/Disposal Readiness Review\n\n Adapted from INCOSE-TP-2003-002-04, 2015\n\n\n FIGURE 2.5-1 Life-Cycle Cost Impacts from Early Phase Decision-Making\n\n\nintegration. Therefore, the human element is some- 2.7 Competency Model for\nthing that integration and systems engineering pro- Systems Engineers\ncesses must address. The definition of “system” in\nNPR 7123.1 is inclusive; i.e., a system is “the combi- TABLE 2.7-1 provides a summary of the Competency\nnation of elements that function together to produce Model for Systems Engineering. For more informa-\nthe capability required to meet a need. The elements tion on the NASA SE Competency model refer to:\ninclude all hardware, software, equipment, facilities, http://appel.nasa.gov/competency-model/.\npersonnel, processes, and procedures needed for this\npurpose. For additional information and guidance There are four levels of proficiencies associated with\non his, refer to Section 2.6 of the NASA Expanded each of these competencies:\nGuidance for Systems Engineering at https://nen.\nnasa.gov/web/se/doc-repository. • Team Practitioner/Technical Engineer\n • Team Lead/Subsystem Lead\n • Project Systems Engineer\n • Chief Engineer\n\n\n 13",
+          "score": 11.03765485247852,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0022",
+          "page": 22,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n THE SYSTEMS ENGINEER’S DILEMMA\n\n\n At each cost-effective solution:\n\n\n • To reduce cost at constant risk, performance must be reduced.\n • To reduce risk at constant cost, performance must be reduced.\n • To reduce cost at constant performance, higher risks must be accepted.\n • To reduce risk at constant performance, higher costs must be accepted.\n\n\n In this context, time in the schedule is often a critical resource, so that schedule behaves like a kind of cost .\n\n\n\n\n\nFIGURE 2.5-1 shows that the life cycle costs of a The technical team may have to choose among designs\nprogram or project tend to get “locked in” early in that differ in terms of numerous attributes. A variety of\ndesign and development. The cost curves clearly show methods have been developed that can be used to help\nthat late identification of and fixes to problems cost uncover preferences between attributes and to quan-\nconsiderably more later in the life cycle. Conversely, tify subjective assessments of relative value. When\ndescopes taken later versus earlier in the project life this can be done, trades between attributes can be\ncycle result in reduced cost savings. This figure, assessed quantitatively. Often, however, the attributes\nobtained from the Defense Acquisition University, is are incompatible. In the end, decisions need to be\nan example of how these costs are determined by the made in spite of the given variety of attributes. There\nearly concepts and designs. The numbers will vary are several decision analysis techniques (Section 6.8)\nfrom project to project, but the general shape of the that can aid in complex decision analysis. The systems\ncurves and the message they send will be similar. For engineer should always keep in mind the information\nexample, the figure shows that during design, only that needs to be available to help the decision-makers\nabout 15% of the costs might be expended, but the choose the most cost-effective option.\ndesign itself will commit about 75% of the life cycle\ncosts. This is because the way the system is designed\nwill determine how expensive it will be to test, man- 2.6 Human Systems Integration\nufacture, integrate, operate, and sustain. If these fac- (HSI) in the SE Process\ntors have not been considered during design, they\npose significant cost risks later in the life cycle. Also As noted at the beginning of NPR 7123.1, the “sys-\nnote that the cost to change the design increases as tems approach is applied to all elements of a system\nyou get later in the life cycle. If the project waits until (i.e., hardware, software, human systems integra-\nverification to do any type of test or analysis, any tion. In short, the systems engineering approach\nproblems found will have a significant cost impact to must equally address and integrate these three key\nredesign and reverify. elements: hardware, software, and human systems\n\n\n\n\n\n\n 12",
+          "score": 10.974154549491136,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 181,
+          "path": "data/local/advanced/pages/p0181_1800.png",
+          "sha256": "0656f39f079d5b098d0794cbe66466aea3c1a1c8598a3d8d6bba785fd17276b9",
+          "citation_page": 181,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.8-1 Typical Information to Capture in a Decision Report\n# Section Section Description\n1 Executive Provide a short half-page executive summary of the report:\n Summary • Recommendation (short summary—1 sentence)\n\n • Problem/issue requiring a decision (short summary—1 sentence)\n2 Problem/Issue Describe the problem/issue that requires a decision. Provide background, history, the\n Description decision maker(s) (e.g., board, panel, forum, council), and decision recommendation team,\n etc.\n\n3 Decision Matrix Provide the rationale for setting up the decision matrix:\n Setup Rationale • Criteria selected\n • Options selected\n • Weights selected\n • Evaluation methods selected\n Provide a copy of the setup decision matrix.\n\n4 Decision Matrix Provide the rationale for the scoring of the decision matrix. Provide the results of populating\n Scoring Rationale the scores of the matrix using the evaluation methods selected.\n5 Final Decision Cut and paste the final spreadsheet into the document. Also include any important\n Matrix snapshots of the decision matrix.\n\n6 Risk/Benefits For the final options being considered, document the risks and benefits of each option.\n\n7 Recommendation Describe the recommendation that is being made to the decision maker(s) and the rationale\n and/or Final for why the option was selected. Can also document the final decision in this section.\n Decision\n8 Dissent If applicable, document any dissent with the recommendation. Document how dissent was\n addressed (e.g., decision matrix, risk).\n\n9 References Provide any references.\n\nA Appendices Provide the results of the literature search, including lessons learned, previous related\n decisions, and previous related dissent. Also document any detailed data analysis and risk\n analysis used for the decision. Can also document any decision metrics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 171"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    181
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "The Dissent section in Table 6.8-1 must record, when applicable, any dissent with the recommendation and document how the dissent was addressed (e.g., decision matrix, risk).",
+      "citations": [
+        {
+          "page": 181,
+          "bbox": [
+            0.05,
+            0.68,
+            0.95,
+            0.75
+          ],
+          "locator": "Table 6.8-1 Section 8 Dissent"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 5150.61
+}

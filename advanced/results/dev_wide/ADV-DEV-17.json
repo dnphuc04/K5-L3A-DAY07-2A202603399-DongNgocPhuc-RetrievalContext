@@ -1,0 +1,132 @@
+{
+  "id": "ADV-DEV-17",
+  "split": "dev",
+  "question": "What mandatory word count must every Concept of Operations document contain?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek46SVX5dElyNRuLWjtEqkBAxWH7f",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 461,
+        "completion_tokens": 11,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1030.14,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FNLaRk4Lup1FvgSUHIX0mzAd",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandatory word count Concept of Operations document\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek46UkyS1ZsVKMKgRZNdSDjFBogoQ",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5419,
+        "completion_tokens": 18,
+        "total_tokens": 5437,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1285.48,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"abstain\",\"claims\":[]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What mandatory word count must every Concept of Operations document contain?",
+      "results": [
+        {
+          "id": "NASA-SE:p0020",
+          "page": 20,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.3 Example of Using the SE Engine enable designers to accurately determine the feasibil-\nIn Pre-Phase A, the SE engine is used to develop the ity of accomplishing the project, which is the purpose\ninitial concepts; clearly define the unique roles of of Pre-Phase A.\nhumans, hardware, and software in performing the\nmissions objectives; establish the system functional During Phase A, the recursive use of the SE engine\nand performance boundaries; develop/identify a pre- is continued, this time taking the concepts and draft\nliminary/draft set of key high-level requirements, key requirements that were developed and validated\ndefine one or more initial Concept of Operations during Pre-Phase A and fleshing them out to become\n(ConOps) scenarios; realize these concepts through the set of baseline system requirements and ConOps.\niterative modeling, mock-ups, simulation, or other During this phase, key areas of high risk might be\nmeans; and verify and validate that these concepts simulated to ensure that the concepts and require-\nand products would be able to meet the key high-level ments being developed are good ones and to identify\nrequirements and ConOps. The operational concept verification and validation tools and techniques that\nmust include scenarios for all significant operational will be needed in later phases.\nsituations, including known off-nominal situations.\nTo develop a useful and complete set of scenarios, During Phase B, the SE engine is applied recursively\nimportant malfunctions and degraded-mode opera- to further mature requirements and designs for all\ntional situations must be considered. The importance products in the developing product tree and perform\nof early ConOps development cannot be underesti- verification and validation of concepts to ensure\nmated. As system requirements become more detailed that the designs are able to meet their requirements.\nand contain more complex technical information, Operational designs and mission scenarios are evalu-\nit becomes harder for the stakeholders and users to ated and feasibility of execution within design capa-\nunderstand what the requirements are conveying; bilities and cost estimates are assessed.\ni.e., it may become more difficult to visualize the end\nproduct. The ConOps can serve as a check in identi- Phase C again uses the left side of the SE engine to\nfying missing or conflicting requirements. finalize all requirement updates, finalize the ConOps\n validation, develop the final designs to the lowest\nNote that this Pre-Phase A initial concepts develop- level of the product tree, and begin fabrication.\nment work is not the formal verification and valida-\ntion program that is performed on the final product, Phase D uses the right side of the SE engine to recur-\nbut rather it is a methodical run through ensuring sively perform the final implementation, integration,\nthat the concepts that are being developed in this verification, and validation of the end product, and at\nPre-Phase A are able to meet the likely requirements the final pass, transition the end product to the user.\nand expectations of the stakeholders. Concepts are\ndeveloped to the lowest level necessary to ensure that The technical management processes of the SE engine\nthey are feasible and to a level that reduces the risk are used in Phases E and F to monitor performance;\nlow enough to satisfy the project. Academically, this control configuration; and make decisions associ-\nprocess could proceed down to the circuit board level ated with the operations, sustaining engineering,\nfor every system; however, that would involve a great and closeout of the system. Any new capabilities or\ndeal of time and money. There may be a higher level upgrades of the existing system reenter the SE engine\nor tier of product than circuit board level that would as new developments.\n\n\n\n 10",
+          "score": 13.317540128332052,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 11.819306702987097,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0109",
+          "page": 109,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n environment; configuration drawings; calibra- System validation confirms that the integrated real-\n tions; operator certifications; and other records. ized end products conform to stakeholder expec-\n tations as captured in the MOEs, MOPs, and\nCriteria for completing verification of the product ConOps. Validation also ensures that any anomalies\ninclude: (1) documented objective evidence of com- discovered are appropriately resolved prior to prod-\npliance with requirements or waiver and (2) closure uct delivery. This section discusses the process activ-\nof all discrepancy and nonconformance reports. ities, methods of validation, inputs and outputs, and\n potential deficiencies.\n5.3.2 Product Verification Guidance\nRefer to Section 5.3.2 in the NASA Expanded See Section 2.4 for a discussion about the distinctions\nGuidance for Systems Engineering at https://nen.nasa. between Product Verification and Product Validation.\ngov/web/se/doc-repository for additional guidance on:\n 5.4.1 Process Description\n• the verification approach, FIGURE 5.4-1, taken from NPR 7123.1, provides a typ-\n• verification in the life cycle, ical flow diagram for the Product Validation Process\n• verification procedures, and identifies typical inputs, outputs, and activities\n• verification reports to consider in addressing product validation.\n• end-to-end testing,\n• use of modeling and simulations, and 5.4.1.1 Inputs\n• hardware-in-the-loop testing. Key inputs to the process are:\n5.4 Product Validation • End product to be validated: This is the end prod-\n uct that is to be validated and which has success-\nThe Product Validation Process is the second of the fully passed through the verification process.\nverification and validation processes conducted on an\nimplemented or integrated end product. While veri- • Validation plan: This plan would have been devel-\nfication proves whether “the product was done right,” oped under the Technical Planning Process and\nvalidation proves whether “the right product was baselined prior to entering this process. This plan\ndone.” In other words, verification provides objective may be a separate document or a section within\nevidence that every “shall” statement in the require- the Verification and Validation Plan.\nments document or specification was met, whereas\nvalidation is performed for the benefit of the custom- • Baselined stakeholder expectations: These would\ners and users to ensure that the system functions in have been developed for the product at this level\nthe expected manner when placed in the intended during the Stakeholder Expectations Definition\nenvironment. This is achieved by examining the Process. It includes the needs, goals, and objec-\nproducts of the system at every level of the product tives as well as the baselined and updated concept\nstructure and comparing them to the stakeholder of operations and MOEs.\nexpectations for that level. A well-structured valida-\ntion process can save cost and schedule while meeting • Any enabling products: These are any special\nthe stakeholder expectations. equipment, facilities, test fixtures, applications,\n\n\n\n\n\n 99",
+          "score": 9.057432678090064,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0059",
+          "page": 59,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49",
+          "score": 8.51604733452829,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0268",
+          "page": 268,
+          "text": " Appendix T: Systems Engineering in Phase E\n\n\n\n\n\nthe mission operations manager. Clear agreement be the result of system failures or changes in the sur-\nbetween these two parties is essential in ensuring that rounding environment. Where additional time may\nPhase E efforts are managed effectively. be available to assess and mitigate risk in other proj-\n ect phases, the nature of flight operations may limit\nT.3.3.1 Technical Planning the time over which risk management can be exe-\nTechnical planning in Phase E generally focuses cuted. For this reason, every project should develop a\non the management of scarce product develop- formal process for handling anomalies and managing\nment resources during mission execution. Key risk during operations. This process should be exer-\ndecision-makers, including the mission operations cised before flight, and decision-makers should be\nmanager and lower operations team leads, need to well versed in the process details.\nreview the benefits of a change against the resource\ncost to implement changes. Many resources are T.3.3.5 Configuration Management\nshared in Phase E – for example, product developers Effective and efficient Configuration Management\nmay also serve other real-time operations roles– and (CM) is essential during operations. Critical oper-\nthe additional workload placed on these resources ations materials, including procedures, plans, flight\nshould be viewed as a risk to be mitigated during datasets, and technical reference material need to\noperations. be secure, up to date, and easily accessed by those\n who make and enact mission critical decisions. CM\nT.3.3.2 Requirements Management systems—in their intended flight configuration—\nRequirements management during Phase E is simi- should be exercised as part of operational readiness\nlar in nature to pre-Phase E efforts. Although some tests to ensure that the systems, processes, and par-\nstreamlining may be implemented to reduce process ticipants are flight-ready.\noverhead in Phase E, the core need to review and val-\nidate requirements remains. As most Phase E changes Access to such operations products is generally\nare derived from a clearly demonstrated need, pro- time-critical, and CM systems supporting that access\ngram management may reduce or waive the need should be managed accordingly. Scheduled mainte-\nfor complete requirements traceability analysis and nance or other “downtime” periods should be coor-\ndocumentation. dinated with flight operations plans to minimize\n the risk of data being inaccessible during critical\nT.3.3.3 Interface Management activities.\nIt is relatively uncommon for interfaces to change in\nPhase E, but this can occur when a software tool is T.3.3.6 Technical Data Management\nmodified or a new need is uncovered. Interface defi- Tools, procedures, and other infrastructure for\nnitions should be managed in a manner similar to Technical Data Management must be baselined,\nthat used in other project phases. implemented, and verified prior to flight operations.\n Changes to these capabilities are rarely made during\nT.3.3.4 Technical Risk Management Phase E due to the high risk of data loss or reduc-\nManaging technical risks during operations can be tion in operations efficiency when changing during\nmore challenging during Phase E than during other operations.\nphases. New risks discovered during operations may\n\n\n\n\n\n 258",
+          "score": 8.171592559354544,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0178",
+          "page": 178,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nnot meet mandatory criteria should be disregarded. to document the fact that these options were consid-\nFor complex decisions, criteria can be grouped into ered. A few decisions might only have one option. It\ncategories or objectives. is a best practice to document a decision matrix for\n a major decision even if only one alternative is deter-\n6.8.1.2.2 Identify Alternative Solutions to Address mined to be viable. (Sometimes doing nothing or not\n Decision Issues making a decision is an option.)\nWith the decision need well understood, alterna-\ntives can be identified that fit the mission and system 6.8.1.2.3 Select Evaluation Methods and Tools\ncontext. There may be several alternatives that could Based on the decision to be made, various approaches\npotentially satisfy the decision criteria. Alternatives can be taken to evaluate identified alternatives. These\ncan be found from design options, operational can range from simple discussion meetings with con-\noptions, cost options, and/or schedule options. tributing and affected stakeholders to more formal\n evaluation methods. In selecting the approach, the\nAlmost every decision will have options to choose mission and system context should be kept in mind\nfrom. These options are often fairly clear within the and the complexity of the decision analysis should\nmission and system context once the decision need is fit the complexity of the mission, system, and corre-\nunderstood. In cases where the approach has uncer- sponding decision.\ntainty, there are several methods to help generate\nvarious options. Brainstorming decision options with Evaluation methods and tools/techniques to be used\nthose knowledgeable of the context and decision can should be selected based on the purpose for analyzing\nprovide a good list of candidate alternatives. A litera- a decision and on the availability of the information\nture search of related systems and approaches to iden- used to support the method and/or tool. Typical eval-\ntify options may also provide some possible options. uation methods include: simulations; weighted trade-\nAll possible options should be considered. This can off matrices; engineering, manufacturing, cost, and\nget unwieldy if a large number of variations is possi- technical opportunity trade studies; surveys; human-\nble. A “trade tree” (discussed later) is an excellent way in-the-loop testing; extrapolations based on field expe-\nto prune the set of variations before extensive analysis rience and prototypes; user review and comment; and\nis undertaken, and to convey to other stakeholders testing. Section 6.8.2 provides several options.\nthe basis for that pruning.\n 6.8.1.2.4 Evaluate Alternative Solutions with the\nA good understanding of decision need and criteria Established Criteria and Selected Methods\nwill include the definition of primary and secondary The performance of each alternative with respect to\nfactors. Options should be focused on primary fac- each chosen performance measure is evaluated. In all\ntors in the decision as defined by the decision criteria. but the simplest cases, some consideration of uncer-\nNon-primary factors (i.e., secondary, tertiary) can be tainty is warranted. Uncertainty matters in a partic-\nincluded in evaluations but should not, in general, ular analysis only if there is a non-zero probability\ndefine separate alternatives. This will require some that uncertainty reduction could alter the ranking\nengineering judgment that is based on the mission of alternatives. If this condition is obtained, then it\nand system context as well as the identified decision is necessary to consider the value of reducing that\ncriteria. Some options may quickly drop out of con- uncertainty, and act accordingly.\nsideration as the analysis is conducted. It is important\n\n\n\n 168",
+          "score": 8.09912151780041,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0256",
+          "page": 256,
+          "text": " Appendix R: HSI Plan Content Outline\n\n\n\n\n\n\n\n HSI RELEVANCE\n\n\n Key Points\n • Describe performance characteristics of the human elements known to be key drivers to a desired total\n system performance outcome.\n • Describe the total system performance goals that require HSI support.\n • Identify HSI concerns with legacy systems; e.g., if operations and logistics, manpower, skill selection,\n required training, logistics support, operators’ time, maintenance, and/or risks to safety and success\n exceeded expectations.\n • Identify potential cost, schedule, risk, and trade-off concerns with the integration of human elements;\n e.g., quantity and skills of operators, maintainers, ground controllers, etc.\n\n\n\n\n HSI STRATEGY\n\n\n Key Points\n • Identify critical program/project-specific HSI key decision points that will be used to track HSI\n implementation and success.\n • Identify key enabling (and particularly, emerging) technologies and methodologies that may be\n overlooked in hardware/software systems trade studies but that may positively contribute to HSI\n implementation; e.g., in the areas of human performance, workload, personnel management, training,\n safety, and survivability.\n • Describe HSI products that will be integrated with program/project systems engineering products,\n analyses, risks, trade studies, and activities.\n • Describe efforts to ensure HSI will contribute in critically important Phase A and Pre-Phase A cost-\n effective design concept studies.\n • Describe the plan and schedule for updating the HSI Plan through the program/project life cycle.\n\n\n\ncontribute to system performance and help contain life 5.0 HSI Requirements, Organization,\ncycle cost. This section (or Implementation Summary, and Risk Management\nSection 6 of this outline) should include a top-level 5.1 HSI Requirements\nschedule showing key HSI milestones. This section references HSI requirements and stan-\n dards applicable to the program/project and identi-\n4.2 HSI Domains fies the authority that invokes them; e.g., the NASA\nThis section identifies the HSI domains applicable to the Procedural Requirements (NPR) document(s) that\nprogram/project including rationale for their relevance. invoke applicability.\n\n\n\n\n\n 246",
+          "score": 7.992461266497019,
+          "reference_match": false
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [],
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 2320.46
+}

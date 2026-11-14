@@ -1,0 +1,220 @@
+{
+  "id": "ADV-DEV-03",
+  "split": "dev",
+  "question": "According to Table 4.2-2, list the verification methods and when that metadata should be determined.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek43QimazcZ2vYSpepZ96ctv2fnjj",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 471,
+        "completion_tokens": 14,
+        "total_tokens": 485,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1349.95,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_K2EblGJZoca4Sr810HDEpwvJ",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 4.2-2 verification methods metadata\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43RjCOyjv6SHJSC0IDGdwc5e3W0",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 2879,
+        "completion_tokens": 14,
+        "total_tokens": 2893,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1416.58,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_N4MNbg35wLO5THUKDj6z3T8a",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[59]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43UmnBkxlC8394yXuLQZYpYCRPN",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6203,
+        "completion_tokens": 14,
+        "total_tokens": 6217,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1726.08,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rFymfIqnlcBew64Mw2JdXlrz",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[69]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek43Wy1hAq3qyVfQgKK2JB2NELIH1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9389,
+        "completion_tokens": 75,
+        "total_tokens": 9464,
+        "prompt_tokens_details": {
+          "cached_tokens": 5248,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2006.54,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Verification methods include test, inspection, analysis, and demonstration. The verification method metadata should be determined as the requirements are developed.\",\"citations\":[{\"page\":69,\"bbox\":[300,520,740,570],\"locator\":\"TABLE 4.2-2 Requirements Metadata\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Table 4.2-2, list the verification methods and when that metadata should be determined.",
+      "results": [
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "printed_page": 59,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 14.845407682717772,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0068",
+          "page": 68,
+          "printed_page": 58,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission\n Authority\n\n\n Mission\n Objectives\n\n\n Mission Programmatics:\n Requirements • Cost\n • Schedule\n • Constraints\n Customer • Mission Classification\n\n Implementing\n Organizations FunctionalSystem\n Requirements\n Environmental Institutional\n and Other Design Constraints\n Requirements\n and Guidelines Assumptions\n\n System\n Performance\n Requirements\n\n\n\n\n\n Subsystem A Subsystem Subsystem Subsystem X\n Functional and B C Functional and\n Performance Performance\n Requirements Requirements\n\n\n\n Allocated Derived ... Allocated Derived\n Requirements Requirements Requirements Requirements\n\n\n\n\n FIGURE 4.2-3 The Flowdown of Requirements\n\n\n\ndocument provides several specific benefits to both request or have options for storing this type of infor-\nthe stakeholders and the technical team as shown in mation. TABLE 4.2-2 provides examples of the types of\nTABLE 4.2-1. metadata that might be useful.\n\nIt is useful to capture information about each of the 4.2.1.2.4 Validate Technical Requirements\nrequirements, called metadata, for future reference An important part of requirements definition is the\nand use. Many requirements management tools will validation of the requirements against the stakeholder\n\n\n\n\n\n\n 58",
+          "score": 13.185917845032604,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "printed_page": null,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 12.935670120282042,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "printed_page": 162,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 12.332202161428084,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 59,
+          "path": "data/local/advanced/pages/p0059_1400.png",
+          "sha256": "15b23126891ab63a861ee43a16a5accbdb4ce344959d5373dc5e357724e46540",
+          "printed_page": 49,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49"
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 69,
+          "path": "data/local/advanced/pages/p0069_1400.png",
+          "sha256": "efa16067ee90aca8fdcfca2ab842384468a5bdeb3eac7eada1a4d4ff01782799",
+          "printed_page": 59,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    59,
+    69
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Invalid/unviewed citation"
+  },
+  "elapsed_ms": 7679.16
+}

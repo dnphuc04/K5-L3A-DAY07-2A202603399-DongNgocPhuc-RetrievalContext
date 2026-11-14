@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-13",
+  "split": "dev",
+  "question": "In Section 4.1.1.2.1, how is a stakeholder defined?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek48hnAnjKkhPQNnjhFLZBhvVaTny",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 488,
+        "completion_tokens": 17,
+        "total_tokens": 505,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1156.09,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_VTgV4t032FQiQIbcB1agwgav",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Section 4.1.1.2.1 stakeholder definition\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48iOL7e3wnbcq6qCsruj9HGMJyf",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5697,
+        "completion_tokens": 20,
+        "total_tokens": 5717,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1346.63,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nKawc87UVDyWaA2qM6dHRB2x",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0062\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48lcS5DMj2Wr6QEBjWMvM2DyOFG",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10650,
+        "completion_tokens": 285,
+        "total_tokens": 10935,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4337.6,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_QB6IPm6lhNivc1CYmNft3j2y",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"A stakeholder is defined implicitly as the source of expectations for the system/product, whose expectations are captured as needs, goals, objectives, constraints, and assumptions, and are documented in forms such as NGOs (Needs, Goals, and Objectives), mission success criteria, and design drivers. These expectations are stated from the stakeholder's point of view and represent criteria that must be met for the project to be considered successful.\",\"citations\":[{\"source_id\":\"NASA-SE:p0062\",\"locator\":\"section 4.1.1.2.5 Define Stakeholder Expectations in Acceptable Statements\",\"evidence\":\"Once the ConOps has been developed, any gaps or ambiguities have been resolved, and understanding between the technical team and stakeholders about what is expected/intended for the system/product has been achieved, the expectations can be formally documented. This often comes in the form of NGOs, mission success criteria, and design drivers. These may be captured in a document, spreadsheet, model, or other form appropriate to the product. Measures of Effectiveness (MOEs) are the measures of success that are designed to correspond to accomplishment of the system objectives as defined by the stakeholder’s expectations. They are stated from the stakeholder’s point of view and represent criteria that are to be met in order for the stakeholder to consider the project successful.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Section 4.1.1.2.1, how is a stakeholder defined?",
+      "results": [
+        {
+          "id": "NASA-SE:p0062",
+          "page": 62,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\nAppendix S contains one possible outline for developing requirements and constraints, are used within the\na ConOps. The specific sections of the ConOps will high-level requirements.\nvary depending on the scope and purpose of the project.\n Measures of Effectiveness (MOEs) are the measures\n4.1.1.2.5 Define Stakeholder Expectations in of success that are designed to correspond to accom-\n Acceptable Statements plishment of the system objectives as defined by the\nOnce the ConOps has been developed, any gaps or stakeholder’s expectations. They are stated from the\nambiguities have been resolved, and understanding stakeholder’s point of view and represent criteria that\nbetween the technical team and stakeholders about are to be met in order for the stakeholder to consider\nwhat is expected/intended for the system/product has the project successful. As such, they can be synon-\nbeen achieved, the expectations can be formally doc- ymous with mission/project success criteria. MOEs\numented. This often comes in the form of NGOs, are developed when the NGOs or other stakeholder\nmission success criteria, and design drivers. These expectation documentation is developed. Additional\nmay be captured in a document, spreadsheet, model, information on MOEs is contained in Section 6.7.2.4\nor other form appropriate to the product. of the NASA Expanded Guidance for SE document\n at https://nen.nasa.gov/web/se/doc-repository.\nThe design drivers will be strongly dependent upon\nthe ConOps, including the operational environment, 4.1.1.2.7 Validate That Defined Expectation Statements\norbit, and mission duration requirements. For science Reflect Bidirectional Traceability\nmissions, the design drivers include, at a minimum, The NGOs or other stakeholder expectation doc-\nthe mission launch date, duration, and orbit, as well umentation should also capture the source of the\nas operational considerations. If alternative orbits are expectation. Depending on the location within the\nto be considered, a separate concept is needed for product layer, the expectation may be traced to an\neach orbit. Exploration missions should consider the NGO or a requirement of a higher layer product, to\ndestination, duration, operational sequence (and sys- organizational strategic plans, or other sources. Later\ntem configuration changes), crew interactions, main- functions and requirements will be traced to these\ntenance and repair activities, required training, and NGOs. The use of a requirements management tool\nin situ exploration activities that allow the explora- or model or other application is particularly useful in\ntion to succeed. capturing and tracing expectations and requirements.\n\n\n4.1.1.2.6 Analyze Expectations Statements for Measures 4.1.1.2.8 Obtain Stakeholder Commitments to the\n of Effectiveness Validated Set of Expectations\nThe mission success criteria define what the mission Once the stakeholder and the technical team are\nneeds to accomplish to be successful. This could be in agreement with the expressed stakeholder expec-\nin the form of science missions, exploration concept tations and the concept of operations, signatures or\nfor human exploration missions, or a technological other forms of commitment are obtained. In order to\ngoal for technology demonstration missions. The obtain these commitments, a concept review is typi-\nsuccess criteria also define how well the concept cally held on a formal or informal basis depending on\nmeasurements or exploration activities should be the scope and complexity of the system (see Section\naccomplished. The success criteria capture the stake- 6.7). The stakeholder expectations (e.g., NGOs),\nholder expectations and, along with programmatic MOEs, and concept of operations are presented,\n discussed, and refined as necessary to achieve final\n\n\n 52",
+          "score": 10.779587976268422,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0152",
+          "page": 152,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Technical Risk Reporting Requirements: management of individual risk issues during imple-\n Includes requirements of how technical risks will mentation. In December of 2008, NASA revised its\n be reported, how often, and to whom. RM approach in order to more effectively foster pro-\n active risk management. The new approach, which is\nAdditional inputs that may be useful: outlined in NPR 8000.4, Agency Risk Management\n Procedural Requirements and further developed\n• Other Plans and Policies: Systems Engineering in NASA/SP-2011-3422, NASA Risk Management\n Management Plan, form of technical data prod- Handbook, evolves NASA‘s risk management to\n ucts, and policy input to metrics and thresholds. entail two complementary processes: Risk-Informed\n Decision Making (RIDM) and CRM. RIDM is\n• Technical Inputs: Stakeholder expectations, con- intended to inform direction-setting systems engi-\n cept of operations, imposed constraints, tracked neering (SE) decisions (e.g., design decisions) through\n observables, current program baseline, perfor- better use of risk and uncertainty information in\n mance requirements, and relevant experience data. selecting alternatives and establishing baseline perfor-\n mance requirements (for additional RIDM technical\n6.4.1.2 Activities information, guidance, and process description, see\n6.4.1.2.1 Prepare a Strategy to Conduct Technical Risk NASA/SP-2010-576 Version 1, NASA Risk-Informed\n Management Decision Making Handbook).\nThis strategy would include documenting how the\nprogram/project risk management plan (as devel- CRM is then used to manage risks over the course\noped during the Technical Planning Process) will be of the development and implementation phases of\nimplemented, identifying any additional technical the life cycle to assure that requirements related to\nrisk sources and categories not captured in the plan, safety, technical, cost, and schedule are met. In the\nidentifying what will trigger actions and how these past, RM was considered equivalent to the CRM\nactivities will be communicated to the internal and process; now, RM is defined as comprising both the\nexternal teams. RIDM and CRM processes, which work together to\n assure proactive risk management as NASA programs\n6.4.1.2.2 Identify Technical Risks and projects are conceived, developed, and executed.\nOn a continuing basis, the technical team will iden- FIGURE 6.4-4 illustrates the concept.\ntify technical risks including their source, analyze\nthe potential consequence and likelihood of the risks\noccurring, and prepare clear risk statements for entry\ninto the program/project risk management system.\nCoordination with the relevant stakeholders for the\nidentified risks is included. For more information on\nidentifying technical risks, see Section 6.4.2.1.\n\n\n6.4.1.2.3 Conduct Technical Risk Assessment\nUntil recently, NASA’s Risk Management (RM) FIGURE 6.4-4 Risk Management as the Interaction of\napproach was based almost exclusively on Continuous Risk-Informed Decision Making and Continuous Risk\nRisk Management (CRM), which stresses the Management (Source: NASA/SP-2011-3422)\n\n\n\n 142",
+          "score": 9.721089283081318,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0236",
+          "page": 236,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n1.0 Purpose and Scope 4. What are the overall project constraints\nThis section provides a brief description of the purpose, in terms of cost, schedule, and technical\nscope, and content of the SEMP. performance\n\n 5. How will we know when we have adequately\n• Purpose: This section should highlight the intent of defined the problem?\n the SEMP to provide the basis for implementing and 6. Who are the customers?\n communicating the technical effort. 7. Who are the users?\n\n 8. What are the customer and user priorities?\n• Scope: The scope describes the work that encompasses 9. What is the relationship to other projects?\n the SE technical effort required to generate the work\n products. The plan is used by the technical team to\n provide personnel the information necessary to suc- 3.1 System Description\n cessfully accomplish the required task. This section contains a definition of the purpose of the\n system being developed and a brief description of the\n• Content: This section should briefly describe the orga- purpose of the products of the product layer of the system\n nization of the document. structure to which this SEMP applies. Each product layer\n includes the system end products and their subsystems\n2.0 Applicable Documents and the supporting or enabling products and any other\nThis section of the SEMP lists the documents applicable work products (plans, baselines) required for the devel-\nto this specific project and its SEMP implementation. opment of the system. The description should include\nThis section should list major standards and procedures any interfacing systems and system products, including\nthat this technical effort for this specific project needs humans with which the system products will interact\nto follow. Examples of specific procedures to list could physically, cognitively, functionally, or electronically.\ninclude procedures for hazardous material handling,\ncrew training plans for control room operations, special 3.2 System Structure\ninstrumentation techniques, special interface documen- This section contains an explanation of how the tech-\ntation for vehicles, and maintenance procedures specific nical portion of the product layer (including enabling\nto the project. products, technical cost, and technical schedule) will be\n developed, how the resulting product layers will be inte-\n3.0 Technical Summary grated into the project portion of the WBS, and how the\nThis section contains an executive summary describing overall system structure will be developed. This section\nthe problem to be solved by this technical effort and the contains a description of the relationship of the specifica-\npurpose, context, and products to be developed and inte- tion tree and the drawing tree with the products of the\ngrated with other interfacing systems identified. system structure and how the relationship and interfaces\n of the system end products and their life cycle-enabling\n Key Questions products will be managed throughout the planned tech-\n 1. What is the problem we’re trying to solve? nical effort.\n\n 2. What are the influencing factors?\n 3. What are the critical questions? 3.3 Product Integration\n This section contains an explanation of how the products\n will be integrated and describes clear organizational\n\n\n\n 226",
+          "score": 8.85458840812727,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0083",
+          "page": 83,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\ncan cover the components of a subsystem down to products should be consistent with each other and\nthe level appropriate for verifying the design against will require iterations and design decisions to achieve\nthe requirements. Concerns raised at the peer this consistency. Once consistency is achieved, func-\nreview might have implications on the power sub- tional analyses allow the study team to validate the\nsystem design and verification and therefore should design against the stakeholder expectations. A sim-\nbe reported at the next higher level review of the plified validation asks the questions: Does the system\npower subsystem. work as expected? How does the system respond to\n failures, faults, and anomalies? Is the system afford-\nThe verification should show that the design solution able? If the answer to any of these questions is no,\ndefinition: then changes to the design or stakeholder expecta-\n tions will be required, and the process is started over\n• Is realizable within the constraints imposed on again. This process continues until the system—\n the technical effort; architecture, ConOps, and requirements—meets the\n stakeholder expectations.\n• Has specified requirements that are stated in\n acceptable statements and have bidirectional This design solution validation is in contrast to\n traceability with the technical requirements and the validation of the end product described in the\n stakeholder expectations; and end-product validation plan, which is part of the\n technical data package. That validation occurs in a\n• Has decisions and assumptions made in forming later life cycle phase and is a result of the Product\n the solution consistent with its set of technical Validation Process (see Section 5.4) applied to the\n requirements and identified system product and realization of the design solution as an end product.\n service constraints.\n 4.4.1.2.9 Identify Enabling Products\nThis design solution verification is in contrast Enabling products are the life cycle support prod-\nto the verification of the end product described ucts and services (e.g., production, test, deployment,\nin the end product verification plan which is training, maintenance, and disposal) that facili-\npart of the technical data package. That verifi- tate the progression and use of the operational end\ncation occurs in a later life cycle phase and is a product through its life cycle. Since the end prod-\nresult of the Product Verification Process (see uct and its enabling products are interdependent,\nSection 5.3) applied to the realization of the design they are viewed as a system. Project responsibility\nsolution as an end product. thus extends to responsibility for acquiring services\n from the relevant enabling products in each life cycle\n4.4.1.2.8 Validate the Design Solution phase. When a suitable enabling product does not\nThe validation of the design solution is a recursive already exist, the project that is responsible for the\nand iterative process as shown in FIGURE 4.0-1. end product can also be responsible for creating and\nEach alternative design concept is validated against using the enabling product.\nthe set of stakeholder expectations. The stakeholder\nexpectations drive the iterative design loop in which Therefore, an important activity in the Design\na straw man architecture/design, the ConOps, and Solution Definition Process is the identification of the\nthe derived requirements are developed. These three enabling products and personnel that will be required\n\n\n\n 73",
+          "score": 8.773152752926144,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0227",
+          "page": 227,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n3.0 System Description in the sections above. This may be an existing control\n3.1 System Requirements Flowdown center, training facility, or other support.\nThis section describes where the requirements for this\nsystem come from and how they are flowed down to\nsubsystems and lower-level elements. It should also 4.0 Verification and Validation\nindicate what method will be used to perform the flow- Process\ndown and bidirectional traceability of the requirements:\nspreadsheet, model, or other means. It can point to the This section describes the process that will be used to per-\nfile, document, or spreadsheet that captures the actual form verification and validation.\nrequirements flowdown.\n 4.1 Verification and Validation\n3.2 System Architecture Management Responsibilities\nThis section describes the system that is within the scope This section describes the responsibilities of key players\nof this V&V Plan. The description should be enough so in the V&V activities. It may include identification and\nthat the V&V activities will have the proper context and duty description for test directors/conductors, managers,\nbe understandable. facility owners, boards, and other key stakeholders.\n\n3.3 End Item Architectures 4.2 Verification Methods\nThis section describes each of the major end items (sub- This section defines and describes the methods that will\nsystems, elements, units, modules, etc.) that when inte- be used during the verification activities.\ngrated together, will form the overall system that is the\nscope of this V&V Plan. 4.2.1 Analysis\n Defines what this verification method means (See\n3.3.1 System End Item A Appendix B of this handbook) and how it will be\nThis section describes the first major end item/subsystem applied to this system.\nin more detail so that the V&V activities have context\nand are understandable. 4.2.2 Inspection\n Defines what this verification method means (See\n3.3.n System End Item n Appendix B of this handbook) and how it will be\nEach end item/subsystem is separately described in a sim- applied to this system.\nilar manner as above.\n 4.2.3 Demonstration\n3.4 Ground Support Equipment Defines what this verification method means (See\nThis section describes any major ground-support equip- Appendix B of this handbook) and how it will be applied\nment that will be used during the V&V activities. This to this system.\nmay include carts for supplying power or fuel, special test\nfixtures, lifting aids, simulators, or other type of support. 4.2.4 Test\n Defines what this verification method means (See\n3.5 Other Architecture Descriptions Appendix B of this handbook) and how it will be applied\nThis section describes any other items that are import- to this system. This category may need to be broken down\nant for the V&V activities but which are not included into further categories.\n\n\n\n 217",
+          "score": 8.702575383270913,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0063",
+          "page": 63,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nagreement. This agreement shows that both sides • Enabling Product Support Strategies: These\nhave committed to the development of this product. include any special provisions that might be\n needed for fabrication, test, deployment, opera-\n4.1.1.2.9 Baseline Stakeholder Expectations tions sustainment, and disposal of the end prod-\nThe set of stakeholder expectations (e.g., NGOs uct. They identify what support will be needed\nand MOEs) and the concept of operations that are and any enabling products that will need to be\nagreed upon are now baselined. Any further changes developed in order to generate the end product.\nwill be required to go through a formal or informal\n(depending on the nature of the product) approval • Measures of Effectiveness: A set of MOEs is\nprocess involving both the stakeholder and the developed based on the stakeholder expectations.\ntechnical team. These are measures that represent expectations\n that are critical to the success of the system, and\n4.1.1.2.10 Capture Work Products failure to satisfy these measures will cause the\nIn addition to developing, documenting, and base- stakeholder to deem the system unacceptable.\nlining stakeholder expectations, the ConOps and\nMOEs discussed above and other work products from Other outputs that might be generated:\nthis process should be captured. These may include\nkey decisions made, supporting decision rationale • Human/Systems Function Allocation: This\nand assumptions, and lessons learned in performing describes the interaction of the hardware and\nthese activities. software systems with all personnel and their\n supporting infrastructure. In many designs (e.g.,\n4.1.1.3 Outputs human space flight) human operators are a critical\nTypical outputs for capturing stakeholder expecta- total-system component and the roles and respon-\ntions include the following: sibilities of the humans-in-the-system should\n be clearly understood. This should include all\n• Validated Stakeholder Expectations: These are human/system interactions required for a mission\n the agreed-to set of expectations for this product including assembly, ground operations, logistics,\n layer. They are typically captured in the form of in-flight and ground maintenance, in-flight oper-\n needs, goals, and objectives with constraints and ations, etc.\n assumptions identified. They may also be in the\n form of models or other graphical forms. 4.1.2 Stakeholder Expectations\n Definition Guidance\n• Concept of Operations: The ConOps describes Refer to Section 4.1.2 in the NASA Expanded\n how the system will be operated during the life Guidance for Systems Engineering at https://nen.\n cycle phases that will meet stakeholder expecta- nasa.gov/web/se/doc-repository for additional guid-\n tions. It describes the system characteristics from ance on:\n an operational perspective and helps facilitate an\n understanding of the system goals and objectives • Concept of Operations (including examples),\n and other stakeholder expectations. Examples • protection of space assets, and\n would be the ConOps document, model, or a • identification of stakeholders for each phase.\n Design Reference Mission (DRM).\n\n\n\n 53",
+          "score": 8.617623792736445,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0072",
+          "page": 72,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n two or more MOPs for each MOE. See Section the requirements (e.g., functional, performance,\n 6.7.2.6.2in the NASA Expanded Guidance for behavioral, and temporal etc.), and\n Systems Engineering at https://nen.nasa.gov/web/\n se/doc-repository for further details. • Decompose the parent requirements into a set of\n logical decomposition models and their associated\n• Technical Performance Measures: These are the sets of derived technical requirements for input to\n set of performance measures that are monitored the Design Solution Definition Process.\n and trended by comparing the current actual\n achievement of the parameters with that expected 4.3.1 Process Description\n or required at the time. TPMs are used to confirm FIGURE 4.3-1 provides a typical flow diagram for the\n progress and identify deficiencies. See Section Logical Decomposition Process and identifies typical\n 6.7.2.6.2 in the NASA Expanded Guidance for inputs, outputs, and activities to consider in address-\n Systems Engineering at https://nen.nasa.gov/web/ ing logical decomposition.\n se/doc-repository for further details.\n 4.3.1.1 Inputs\n4.2.2 Technical Requirements Typical inputs needed for the Logical Decomposition\n Definition Guidance Process include the following:\nRefer to Section 4.2.2 of the NASA Expanded\nGuidance for SE document at https://nen.nasa.gov/ • Technical Requirements: A validated set of\nweb/se/doc-repository for additional information on: requirements that represent a description of the\n problem to be solved, have been established by\n• types of requirements, functional and performance analysis, and have\n• requirements databases, and been approved by the customer and other stake-\n• the use of technical standards. holders. Examples of documents that capture the\n requirements are an SRD, PRD, and IRD.\n4.3 Logical Decomposition • Technical Measures: An established set of mea-\n\nLogical decomposition is the process for creating the sures based on the expectations and requirements\ndetailed functional requirements that enable NASA that will be tracked and assessed to determine\nprograms and projects to meet the stakeholder expec- overall system or product effectiveness and cus-\ntations. This process identifies the “what” that should tomer satisfaction. These measures are MOEs,\nbe achieved by the system at each level to enable a MOPs, and a special subset of these called TPMs.\nsuccessful project. Logical decomposition utilizes See Section 6.7.2.6.2 in the NASA Expanded\nfunctional analysis to create a system architecture Guidance for Systems Engineering at https://nen.\nand to decompose top-level (or parent) requirements nasa.gov/web/se/doc-repository for further details.\nand allocate them down to the lowest desired levels\nof the project. 4.3.1.2 Process Activities\n 4.3.1.2.1 Define One or More Logical Decomposition\nThe Logical Decomposition Process is used to: Models\n The key first step in the Logical Decomposition\n• Improve understanding of the defined techni- Process is establishing the system architecture\n cal requirements and the relationships among model. The system architecture activity defines the\n\n\n 62",
+          "score": 8.576918348610759,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 62,
+          "path": "data/local/advanced/pages/p0062_1800.png",
+          "sha256": "823df82aa2a10de38250139f0e9069ef9fbcc1f6bad22c9749f859edbfc55305",
+          "source_id": "NASA-SE:p0062",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\nAppendix S contains one possible outline for developing requirements and constraints, are used within the\na ConOps. The specific sections of the ConOps will high-level requirements.\nvary depending on the scope and purpose of the project.\n Measures of Effectiveness (MOEs) are the measures\n4.1.1.2.5 Define Stakeholder Expectations in of success that are designed to correspond to accom-\n Acceptable Statements plishment of the system objectives as defined by the\nOnce the ConOps has been developed, any gaps or stakeholder’s expectations. They are stated from the\nambiguities have been resolved, and understanding stakeholder’s point of view and represent criteria that\nbetween the technical team and stakeholders about are to be met in order for the stakeholder to consider\nwhat is expected/intended for the system/product has the project successful. As such, they can be synon-\nbeen achieved, the expectations can be formally doc- ymous with mission/project success criteria. MOEs\numented. This often comes in the form of NGOs, are developed when the NGOs or other stakeholder\nmission success criteria, and design drivers. These expectation documentation is developed. Additional\nmay be captured in a document, spreadsheet, model, information on MOEs is contained in Section 6.7.2.4\nor other form appropriate to the product. of the NASA Expanded Guidance for SE document\n at https://nen.nasa.gov/web/se/doc-repository.\nThe design drivers will be strongly dependent upon\nthe ConOps, including the operational environment, 4.1.1.2.7 Validate That Defined Expectation Statements\norbit, and mission duration requirements. For science Reflect Bidirectional Traceability\nmissions, the design drivers include, at a minimum, The NGOs or other stakeholder expectation doc-\nthe mission launch date, duration, and orbit, as well umentation should also capture the source of the\nas operational considerations. If alternative orbits are expectation. Depending on the location within the\nto be considered, a separate concept is needed for product layer, the expectation may be traced to an\neach orbit. Exploration missions should consider the NGO or a requirement of a higher layer product, to\ndestination, duration, operational sequence (and sys- organizational strategic plans, or other sources. Later\ntem configuration changes), crew interactions, main- functions and requirements will be traced to these\ntenance and repair activities, required training, and NGOs. The use of a requirements management tool\nin situ exploration activities that allow the explora- or model or other application is particularly useful in\ntion to succeed. capturing and tracing expectations and requirements.\n\n\n4.1.1.2.6 Analyze Expectations Statements for Measures 4.1.1.2.8 Obtain Stakeholder Commitments to the\n of Effectiveness Validated Set of Expectations\nThe mission success criteria define what the mission Once the stakeholder and the technical team are\nneeds to accomplish to be successful. This could be in agreement with the expressed stakeholder expec-\nin the form of science missions, exploration concept tations and the concept of operations, signatures or\nfor human exploration missions, or a technological other forms of commitment are obtained. In order to\ngoal for technology demonstration missions. The obtain these commitments, a concept review is typi-\nsuccess criteria also define how well the concept cally held on a formal or informal basis depending on\nmeasurements or exploration activities should be the scope and complexity of the system (see Section\naccomplished. The success criteria capture the stake- 6.7). The stakeholder expectations (e.g., NGOs),\nholder expectations and, along with programmatic MOEs, and concept of operations are presented,\n discussed, and refined as necessary to achieve final\n\n\n 52"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    62
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "A stakeholder is defined implicitly as the source of expectations for the system/product, whose expectations are captured as needs, goals, objectives, constraints, and assumptions, and are documented in forms such as NGOs (Needs, Goals, and Objectives), mission success criteria, and design drivers. These expectations are stated from the stakeholder's point of view and represent criteria that must be met for the project to be considered successful.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0062",
+          "locator": "section 4.1.1.2.5 Define Stakeholder Expectations in Acceptable Statements",
+          "evidence": "Once the ConOps has been developed, any gaps or ambiguities have been resolved, and understanding between the technical team and stakeholders about what is expected/intended for the system/product has been achieved, the expectations can be formally documented. This often comes in the form of NGOs, mission success criteria, and design drivers. These may be captured in a document, spreadsheet, model, or other form appropriate to the product. Measures of Effectiveness (MOEs) are the measures of success that are designed to correspond to accomplishment of the system objectives as defined by the stakeholder’s expectations. They are stated from the stakeholder’s point of view and represent criteria that are to be met in order for the stakeholder to consider the project successful."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 6861.74
+}

@@ -1,0 +1,337 @@
+{
+  "id": "ADV2-TEST-17",
+  "split": "test",
+  "question": "Combine Table 4.2-2 and Appendix C.2: which metadata item records who writes/manages/approves requirement changes, and what grammatical voice should a personnel requirement use?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4pmlbZ8zxYKrn7HT9KrdJwNbaap",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 38,
+        "total_tokens": 699,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1646.25,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9uOMumvmbcBDOhWBOJLEU7wO",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 4.2-2 metadata item who writes manages approves requirement changes Appendix C.2 grammatical voice personnel requirement\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4podkGgkRefCBPEfX6wN17qm3sw",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5404,
+        "completion_tokens": 127,
+        "total_tokens": 5531,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 92,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2790.42,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_sgO9JJBpPY8Am4JWaol8U3JG",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0069\",\"NASA-SE:p0207\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ptu647TtkJwBQxtARiYo5TznBM",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 14061,
+        "completion_tokens": 258,
+        "total_tokens": 14319,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 44,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5897.77,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_c5SC5jZMvkAvDNNLFW35di1a",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The requirements metadata item that records who is responsible for writing, managing, and/or approving changes to a requirement is the **Owner**.\",\"citations\":[{\"source_id\":\"NASA-SE:p0069\",\"locator\":\"Table 4.2-2, row \\\"Owner\\\" (Item/Function)\",\"evidence\":\"Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement.\"}]},{\"text\":\"A personnel requirement should use the **active voice** (rather than the passive voice), in the form “responsible party shall perform such and such.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"Appendix C, Section C.2 \\\"Editorial Checklist\\\" under \\\"Personnel Requirement\\\"\",\"evidence\":\"The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4pygq1UCD2eGHeW6jSEHbEaP1jJ",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9140,
+        "completion_tokens": 302,
+        "total_tokens": 9442,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 88,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5707.89,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FSioL9E3fnXDFDq9q5pQTkfK",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In the requirements metadata, the item \\\"Owner\\\" records the person or group responsible for writing, managing, and/or approving changes to a requirement.\",\"citations\":[{\"source_id\":\"NASA-SE:p0069\",\"locator\":\"Table 4.2-2, row \\\"Owner\\\"\",\"evidence\":\"Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement.\"}]},{\"text\":\"A personnel requirement should be written in the active voice (rather than the passive voice), e.g., in the form “responsible party shall perform such and such.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"Appendix C, Section C.2 \\\"Editorial Checklist\\\" under \\\"Personnel Requirement\\\"\",\"evidence\":\"The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Combine Table 4.2-2 and Appendix C.2: which metadata item records who writes/manages/approves requirement changes, and what grammatical voice should a personnel requirement use?",
+      "results": [
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 18.510248240156987,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 10.705992444547766,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0068",
+          "page": 68,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission\n Authority\n\n\n Mission\n Objectives\n\n\n Mission Programmatics:\n Requirements • Cost\n • Schedule\n • Constraints\n Customer • Mission Classification\n\n Implementing\n Organizations FunctionalSystem\n Requirements\n Environmental Institutional\n and Other Design Constraints\n Requirements\n and Guidelines Assumptions\n\n System\n Performance\n Requirements\n\n\n\n\n\n Subsystem A Subsystem Subsystem Subsystem X\n Functional and B C Functional and\n Performance Performance\n Requirements Requirements\n\n\n\n Allocated Derived ... Allocated Derived\n Requirements Requirements Requirements Requirements\n\n\n\n\n FIGURE 4.2-3 The Flowdown of Requirements\n\n\n\ndocument provides several specific benefits to both request or have options for storing this type of infor-\nthe stakeholders and the technical team as shown in mation. TABLE 4.2-2 provides examples of the types of\nTABLE 4.2-1. metadata that might be useful.\n\nIt is useful to capture information about each of the 4.2.1.2.4 Validate Technical Requirements\nrequirements, called metadata, for future reference An important part of requirements definition is the\nand use. Many requirements management tools will validation of the requirements against the stakeholder\n\n\n\n\n\n\n 58",
+          "score": 15.903787616102958,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 12.491567526685971,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 4.677646484149441,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 24.827105879808865,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0200",
+          "page": 200,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nthe operational environment in order to satisfacto- of each product layer during system design. It pro-\nrily address performance margin requirements or vides bidirectional traceability back to the top prod-\nstakeholder expectations. Consequently, the relevant uct layer requirements and manages the changes to\nenvironment is the specific subset of the operational established requirement baselines over the life cycle\nenvironment that is required to demonstrate critical of the system products.\n“at risk” aspects of the final product performance in\nan operational environment. Risk: In the context of mission execution, risk is the\n potential for performance shortfalls that may be real-\nReliability: The measure of the degree to which a ized in the future with respect to achieving explicitly\nsystem ensures mission success by functioning prop- established and stated performance requirements.\nerly over its intended life. It has a low and acceptable The performance shortfalls may be related to any one\nprobability of failure, achieved through simplicity, or more of the following mission execution domains:\nproper design, and proper application of reliable parts (1) safety, (2) technical, (3) cost, and (4) schedule.\nand materials. In addition to long life, a reliable sys- (Source: NPR 8000.4, Agency Risk Management\ntem is robust and fault tolerant. Procedural Requirements)\n\n\nRepeatable: A characteristic of a process that can be Risk Assessment: An evaluation of a risk item that\napplied to products at any level of the system struc- determines (1) what can go wrong, (2) how likely it\nture or within any life cycle phase. is to occur, (3) what the consequences are, and (4)\n what the uncertainties associated with the likelihood\nRequirement: The agreed-upon need, desire, want, and consequences are, and 5) what the mitigation\ncapability, capacity, or demand for personnel, equip- plansare.\nment, facilities, or other resources or services by\nspecified quantities for specific periods of time or Risk-Informed Decision Analysis Process: A five-\nat a specified time expressed as a “shall” statement. step process focusing first on objectives and next\nAcceptable form for a requirement statement is indi- on developing decision alternatives with those\nvidually clear, correct, feasible to obtain, unambig- objectives clearly in mind and/or using decision\nuous in meaning, and can be validated at the level alternatives that have been developed under other\nof the system structure at which it is stated. In pairs systems engineering processes. The later steps of the\nof requirement statements or as a set, collectively, process interrelate heavily with the Technical Risk\nthey are not redundant, are adequately related with Management Process.\nrespect to terms used, and are not in conflict with\none another. Risk Management: Risk management includes\n Risk-Informed Decision-Making (RIDM) and\nRequirements Allocation Sheet: Documents the Continuous Risk Management (CRM) in an inte-\nconnection between allocated functions, allocated grated framework. RIDM informs systems engi-\nperformance, and the physical system. neering decisions through better use of risk and\n uncertainty information in selecting alternatives and\nRequirements Management Process: A process establishing baseline requirements. CRM manages\nused to manage the product requirements identified, risks over the course of the development and the\nbaselined, and used in the definition of the products Implementation Phase of the life cycle to ensure that\n\n\n\n 190",
+          "score": 21.998588423168652,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "image_path": "data/local/advanced/pages/p0069_2000.png",
+          "image_sha256": "649a93ae4d6e0ee63396365399e1605b7129deb678ae77af1f7c4ee29ec53411"
+        },
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_path": "data/local/advanced/pages/p0207_2000.png",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "image_sha256": "649a93ae4d6e0ee63396365399e1605b7129deb678ae77af1f7c4ee29ec53411"
+        },
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In the requirements metadata, the item \"Owner\" records the person or group responsible for writing, managing, and/or approving changes to a requirement.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0069",
+                "locator": "Table 4.2-2, row \"Owner\"",
+                "evidence": "Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement."
+              }
+            ]
+          },
+          {
+            "text": "A personnel requirement should be written in the active voice (rather than the passive voice), e.g., in the form “responsible party shall perform such and such.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0207",
+                "locator": "Appendix C, Section C.2 \"Editorial Checklist\" under \"Personnel Requirement\"",
+                "evidence": "The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    69,
+    207
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "The requirements metadata item that records who is responsible for writing, managing, and/or approving changes to a requirement is the **Owner**.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0069",
+            "locator": "Table 4.2-2, row \"Owner\" (Item/Function)",
+            "evidence": "Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement."
+          }
+        ]
+      },
+      {
+        "text": "A personnel requirement should use the **active voice** (rather than the passive voice), in the form “responsible party shall perform such and such.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0207",
+            "locator": "Appendix C, Section C.2 \"Editorial Checklist\" under \"Personnel Requirement\"",
+            "evidence": "The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In the requirements metadata, the item \"Owner\" records the person or group responsible for writing, managing, and/or approving changes to a requirement.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0069",
+          "locator": "Table 4.2-2, row \"Owner\"",
+          "evidence": "Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement."
+        }
+      ]
+    },
+    {
+      "text": "A personnel requirement should be written in the active voice (rather than the passive voice), e.g., in the form “responsible party shall perform such and such.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "locator": "Appendix C, Section C.2 \"Editorial Checklist\" under \"Personnel Requirement\"",
+          "evidence": "The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16189.87
+}

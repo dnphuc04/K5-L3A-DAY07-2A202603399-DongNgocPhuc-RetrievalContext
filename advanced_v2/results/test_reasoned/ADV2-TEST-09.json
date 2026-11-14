@@ -1,0 +1,423 @@
+{
+  "id": "ADV2-TEST-09",
+  "split": "test",
+  "question": "In Figure 5.5-1, to which two destinations can Delivered End Product With Applicable Documentation go, and which route is marked recursive?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4oAewpyNIToWLC3tiYQS8KLjpAH",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 652,
+        "completion_tokens": 50,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 13,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1647.83,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_yI7fVjnOZl60VE113GIwHdVQ",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 5.5-1 Delivered End Product With Applicable Documentation recursive route destination\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oCauNgxMrFQzWvKhpWiThkK25X",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 6127,
+        "completion_tokens": 105,
+        "total_tokens": 6232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 76,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2511.69,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_T5CqvgvRnTOPjihL707nq2Od",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0117\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oF5NMUt8f8WEQ9136l8jFdjlt6",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10433,
+        "completion_tokens": 178,
+        "total_tokens": 10611,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 132,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3819.06,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Yt6sNGgsjz3ktW3pVcSiTt7L",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0117\",\"bbox\":[0.58,0.18,0.97,0.44]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oKuM1rKPDpLFBrWUg697voo5mj",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 11478,
+        "completion_tokens": 183,
+        "total_tokens": 11661,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 137,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4204.5,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ZKytbSeKmfPtUSwyzFuUY1kg",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0117\",\"bbox\":[0.52,0.07,0.98,0.23]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oOuXxDdAKJCpMvTJeua8EYjs5L",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 12276,
+        "completion_tokens": 384,
+        "total_tokens": 12660,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 189,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6796.43,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_qK4cvt0tLHPfT081xq3Ec0sd",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 5.5-1, the “Delivered End Product With Applicable Documentation” can go “To end user” or to the “Product Integration Process.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0117\",\"locator\":\"Figure 5.5-1, top-right output label above 'Delivered End Product With Applicable Documentation'\",\"evidence\":\"To end user or Product Integration Process\"}]},{\"text\":\"The route labeled as recursive is the path “To end user or Product Integration Process,” which is marked “(recursive loop).”\",\"citations\":[{\"source_id\":\"NASA-SE:p0117\",\"locator\":\"Figure 5.5-1, top-right output label above 'Delivered End Product With Applicable Documentation'\",\"evidence\":\"To end user or Product Integration Process (recursive loop)\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oVfx9SqayFl79Yy6Yx7q89l4YD",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4798,
+        "completion_tokens": 485,
+        "total_tokens": 5283,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 280,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7309.9,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_vKT0Qi66KMYrbqiVy81npOmn",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 5.5-1, “Delivered End Product With Applicable Documentation” is directed “To end user” or to the “Product Integration Process.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0117\",\"locator\":\"Figure 5.5-1, text above the output box “Delivered End Product With Applicable Documentation” (top right)\",\"evidence\":\"“To end user or Product Integration Process”\"}]},{\"text\":\"In Figure 5.5-1, the route labeled “To end user or Product Integration Process” is marked “(recursive loop).”\",\"citations\":[{\"source_id\":\"NASA-SE:p0117\",\"locator\":\"Figure 5.5-1, same label above the “Delivered End Product With Applicable Documentation” output box\",\"evidence\":\"“To end user or Product Integration Process (recursive loop)”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 5.5-1, to which two destinations can Delivered End Product With Applicable Documentation go, and which route is marked recursive?",
+      "results": [
+        {
+          "id": "NASA-SE:p0117",
+          "page": 117,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n Prepare to conduct product To end user or Pro duct\n transition Integration Process\n (recursive loop)\n End Product to Be Evaluate the end product, personnel, Deli vered End Pro duct\n Transitioned and enabling product readiness for With Applicable\n product transition Documentation\n\n\n From Technical Data Prepare the end product for transition To Technical Data\n ManagementProcess ManagementProcess\n Documentation to Product Transition\n Accomp any the Transition the end product to t he Work Products\n Deli ver ed End Productcustomer with required documentation\n based on the type of transition required\n To Product\n Implementation,\n Prepare sites, as required, where the Integration , Verification,\n end product will be stored, assembled, Validation, and\n Product Transition– integrated, installed, used, and/or Transition Processes\n Enabling Products maintained Realized Enabling\n\n Products\n Capture work products from product\n transition activities\n\n\n\n FIGURE 5.5-1 Product Transition Process\n\n\n\ntransition that is taking place, and the location to Early phase products can take the form of infor-\nwhich the product is transitioning. Typical inputs are mation or data generated from basic or applied\nshown in FIGURE 5.5-1 and described below. research using analytical or physical models and\n are often in paper or electronic form. In fact, the\n• The end product or products to be transitioned end product for many NASA research projects\n (from the Product Validation Process): The prod- or science activities is a report, paper, model, or\n uct to be transitioned can take several forms. It even an oral presentation. In a sense, the dissem-\n can be a subsystem component, system assembly, ination of information gathered through NASA\n or top-level end product. It can be hardware, ana- research and development is an important form\n lytical models, or software. It can be newly built, of product transition.\n purchased, or reused. A product can transition\n from a lower system product to a higher one by • Documentation including manuals, procedures,\n being integrated with other transitioned products. and processes that accompany the end product\n This process may be repeated until the final end (from the Technical Data Management Process):\n product is achieved. Each succeeding transition The documentation required for the Product\n requires unique input considerations when pre- Transition Process depends on the specific end\n paring the validated product for transition to the product; its current location within the system\n next level.\n\n\n 107",
+          "score": 19.13808083815786,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0119",
+          "page": 119,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nIn the first case, the end product is one of perhaps planning and the kind of packaging, handling, stor-\nseveral other pieces that will ultimately be integrated age, and transportation that is required. The cus-\ntogether to form the item. In the second case, the tomer and other stakeholder expectations, as well\nend product is for final delivery to the customer. For as the specific design solution, may indicate special\nexample, the end product might be one of several transition procedures or enabling product needs for\ncircuit cards that will be integrated together to form packaging, storage, handling, shipping/transporting,\nthe final unit that is delivered. Or that unit might site preparation, installation, and/or sustainability.\nalso be one of several units that have to be integrated These requirements need to be reviewed during the\ntogether to form the final product. preparation stage.\n\nThe form of the product transitioned is not only a Other tasks in preparing to transition a product\nfunction of the location of that product within the involve making sure the end product, personnel, and\nsystem product hierarchy, but also a function of the any enabling products are ready for that transition.\nlife cycle phase. Early life cycle phase products may be This includes the availability of the documentation\nin the form of paper, electronic files, physical models, or models that will be sent with the end product,\nor technology demonstration prototypes. Later phase including proof of verification and validation confor-\nproducts may be preproduction prototypes (engineer- mance. The appropriateness of detail for that docu-\ning models), the final study report, or the flight units. mentation depends upon where the product is within\n the product hierarchy and the life cycle. Early in the\nFIGURE 5.5-1 shows what kind of inputs, outputs, life cycle, this documentation may be preliminary\nand activities are performed during product transi- in nature. Later in the life cycle, the documentation\ntion regardless of where in the product hierarchy or may be detailed design documents, user manuals,\nlife cycle the product is. These activities include pre- drawings, or other work products. Procedures neces-\nparing to conduct the transition; making sure the end sary for conducting the transition should be reviewed\nproduct, all personnel, and any enabling products are and approved by this time.\nready for transitioning; preparing the site; and per-\nforming the transition including capturing and doc- Finally, the availability and skills of personnel needed\numenting all work products. to conduct the transition as well as the availability\n of any necessary packaging materials/containers,\nHow these activities are performed and what form the handling equipment, storage facilities, and shipping/\ndocumentation takes depends on where the end items transporter services should also be reviewed. Any\nare in the product hierarchy and the life cyclephase. special training necessary for the personnel to per-\n form their tasks needs to be performed by this time.\n5.5.1.2.1 Prepare to Conduct Transition\nThe first task is to identify which of the two forms 5.5.1.2.2 Prepare the Site to Receive the Product\nof transition is needed: (1) the delivery of lower sys- For either of the forms of product transition, the receiv-\ntem end products to higher ones for integration into ing site needs to be prepared to receive the product.\nanother end product; or (2) the delivery of the final Here the end product is stored, assembled, integrated,\nend product to the customer or user that will use the installed, used, and/or maintained as appropriate for\nend product in its operational environment. The form the life cycle phase, position of the end product in the\nof the product being transitioned affects transition system structure, and customeragreement.\n\n\n\n 109",
+          "score": 15.519066492799233,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0116",
+          "page": 116,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n configuration drawings, and other records gener- these paper or soft products are transformed through\n ated during the validation activities. implementation and integration processes into hard-\n ware and software solutions to meet the stakeholder\nSuccess criteria for this process include: (1) objective expectations. They are repeated with different degrees\nevidence of performance and the results of each sys- of rigor throughout the life cycle. The Product\ntem-of-interest validation activity are documented, Transition Process includes product transitions from\nand (2) the validation process should not be consid- one level of the system architecture upward. The\nered or designated as complete until all issues and Product Transition Process is the last of the product\nactions are resolved. realization processes, and it is a bridge from one level\n of the system to the next higher level.\n5.4.2 Product Validation Guidance\nRefer to Section 5.4.2 in the NASA Expanded The Product Transition Process is the key to bridge\nGuidance for Systems Engineering at https://nen.nasa. from one activity, subsystem, or element to the overall\ngov/web/se/doc-repository for additional guidance on: engineered system. As the system development nears\n completion, the Product Transition Process is again\n• use of modeling and simulation, applied for the end product, but with much more\n• software validation, and rigor since now the transition objective is delivery of\n• taking credit for validation. the system-level end product to the actual end user.\n Depending on the kind or category of system devel-\n5.5 Product Transition oped, this may involve a Center or the Agency and\n impact thousands of individuals storing, handling,\nThe Product Transition Process is used to transition a and transporting multiple end products; preparing\nverified and validated end product that has been gen- user sites; training operators and maintenance per-\nerated by product implementation or product inte- sonnel; and installing and sustaining, as applicable.\ngration to the customer at the next level in the system Examples are transitioning the external tank, solid\nstructure for integration into an end product or, for rocket boosters, and orbiter to Kennedy Space Center\nthe top-level end product, transitioned to the intended (KSC) for integration and flight. Another example is\nend user. The form of the product transitioned will be the transition of a software subsystem for integration\na function of the product life cycle phase success cri- into a combined hardware/software system.\nteria and the location within the system structure of\nthe WBS model in which the end product exists. The 5.5.1 Process Description\nsystems engineer involvement in this process includes FIGURE 5.5-1 provides a typical flow diagram for\nensuring the product being transitioned has been the Product Transition Process and identifies typical\nproperly tested and verified/validated prior to being inputs, outputs, and activities to consider in address-\nshipped to the next level stakeholder/customer. ing product transition.\n\nProduct transition occurs during all phases of the 5.5.1.1 Inputs\nlife cycle. During the early phases, the technical Inputs to the Product Transition Process depend pri-\nteam’s products are documents, models, studies, and marily on the transition requirements, the product\nreports. As the project moves through the life cycle, that is being transitioned, the form of the product\n\n\n\n\n\n 106",
+          "score": 10.437989943724617,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 8.167218527415613,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0121",
+          "page": 121,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nwork products should be captured as well as docu- verification and validation of the end product.\nmentation of product acceptance. If the end user will perform end product val-\n idation, sufficient documentation to support\n5.5.1.2.5 Capture Product Transition Work Products end user validation activities is delivered with\nOther work products generated during the transition the end product.\nprocess are captured and archived as appropriate.\nThese may include site plans, special handling proce- • Work products from transition activities to tech-\ndures, training, certifications, videos, inspections, or nical data management: Work products could\nother products from these activities. include the transition plan, site surveys, measures,\n training modules, procedures, decisions, lessons\n5.5.1.3 Outputs learned, corrective actions, etc.\n• Delivered end product with applicable docu-\n mentation: This may take one of two forms: • Realized enabling end products to appropri-\n ate life cycle support organization: Some of the\n 1. Delivered end product for integration to next enabling products that were developed during the\n level up in system structure: This includes the various phases could include fabrication or integra-\n appropriate documentation. The form of the tion specialized machines; tools; jigs; fabrication\n end product and applicable documentation processes and manuals; integration processes and\n are a function of the life cycle phase and the manuals; specialized inspection, analysis, demon-\n placement within the system structure. (The stration, or test equipment; tools; test stands;\n form of the end product could be hardware, specialized packaging materials and containers;\n software, model, prototype, first article for handling equipment; storage-site environments;\n test, or single operational article or multiple shipping or transportation vehicles or equipment;\n production articles.) Documentation includes specialized courseware; instructional site environ-\n applicable draft installation, operation, user, ments; and delivery of the training instruction.\n maintenance, or training manuals; applicable For the later life cycle phases, enabling products\n baseline documents (configuration baseline, that are to be delivered may include specialized\n specifications, and stakeholder expectations); mission control equipment; data collection equip-\n and test results that reflect completion of veri- ment; data analysis equipment; operations man-\n fication and validation of the end product. uals; specialized maintenance equipment, tools,\n manuals, and spare parts; specialized recovery\n 2. Delivered operational end product for end equipment; disposal equipment; and readying\n users: The appropriate documentation is recovery or disposal site environments.\n to accompany the delivered end product as\n well as the operational end product appro- The process is complete when the following activities\n priately packaged. Documentation includes have been accomplished:\n applicable final installation, operation, user,\n maintenance, or training manuals; applica- • For deliveries to the integration path, the end\n ble baseline documents (configuration base- product is delivered to intended usage sites in\n line, specifications, stakeholder expectations); a condition suitable for integration with other\n and test results that reflect completion of end products or composites of end products.\n\n\n\n 111",
+          "score": 21.169344383509177,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0098",
+          "page": 98,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n5.2.1.3 Outputs 5.3 Product Verification\nThe following are typical outputs from this process The Product Verification Process is the first of the\nand destinations for the products from this process: verification and validation processes conducted on an\n end product. As used in the context of the systems\n• Integrated product(s) with all system interactions engineering common technical processes, a product\n identified and properly balanced. is one provided by either the Product Implementation\n Process or the Product Integration Process in a form\n• Documentation and manuals, including system suitable for meeting applicable life cycle phase success\n analysis models, data, and reports supporting criteria. Realization is the act of implementing, inte-\n flight-readiness rationale and available for future grating, verifying, validating, and transitioning the\n analysis during the operation of the system in the end product for use at the next level up of the system\n mission-execution phase. structure or to the customer. At this point, the end\n product can be referred to as a “realized product” or\n• Work products, including reports, records, and “realized end product.”\n non-deliverable outcomes of product integra-\n tion activities (to support the Technical Data Product verification proves that an end product\n Management Process); integration strategy doc- (whether built, coded, bought, or reused) for any\n ument; assembly/check area drawings; system/ element within the system structure conforms to its\n component documentation sequences and ratio- requirements or specifications. Such specifications\n nale for selected assemblies; interface manage- and other design description documentation estab-\n ment documentation; personnel requirements; lish the configuration baseline of that product, which\n special handling requirements; system documen- may have to be modified at a later time. Without a\n tation; shipping schedules; test equipment and verified baseline and appropriate configuration con-\n drivers’ requirements; emulator requirements; trols, such later modifications could be costly or\n and identification of limitations for both hard- cause major performance problems.\n ware and software.\n From a process perspective, product verification and\n5.2.2 Product Integration Guidance validation may be similar in nature, but the objec-\nRefer to Section 5.2.2 in the NASA Expanded tives are fundamentally different. A customer is inter-\nGuidance for Systems Engineering at https://nen.nasa. ested in whether the end product provided will do\ngov/web/se/doc-repository for additional guidance on: what the customer intended within the environment\n of use. Examination of this condition is validation.\n• product integration strategies, Simply put, the Product Verification Process answers\n• the relationship to product implementation, the critical question, “Was the end product realized\n• product integration support, right?” The Product Validation Process addresses the\n• product integration of the design solution, equally critical question, “Was the right end prod-\n• system analysis, and uct realized?” When cost effective and warranted by\n• interface system integration. analysis, the expense of validation testing alone can\n be mitigated by combining tests to perform verifica-\n tion and validation simultaneously.\n\n\n\n\n\n 88",
+          "score": 17.496834967901847,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0093",
+          "page": 93,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nverified and validated against equivalent require- baseline documents (configuration information\nments (including environments) and expectations. such as as-built specifications or stakeholder\nThe savings gained from reuse is not necessarily from expectations); certificates of compliance; or other\nreduced acceptance-level testing of the flight prod- vendor documentation.\nucts, but possibly elimination of the need to fully\nrequalify the item (if all elements are the same, includ- • Product Implementation Work Products: Any\ning the environment and operation), elimination of additional work products providing reports,\nthe need to specify all of the internal requirements records, lesson learned, assumptions, updated CM\nsuch as printed circuit board specifications or mate- products, and other outcomes of these activities.\nrial requirements, reduced internal data products, or\nthe confidence that the item will pass acceptance test The process is complete when the following activities\nand will not require rework. have been accomplished:\n\n\n5.1.1.2.3 Capture Work Products • End products are fabricated, purchased, or reuse\nRegardless of what implementation form was selected, modules are acquired.\nall work products from the make/buy/reuse process\nshould be captured, including as-built design draw- • End products are reviewed, checked, and ready\nings, design documentation, design models, code list- for verification.\nings, model descriptions, procedures used, operator\nmanuals, maintenance manuals, or other documen- • Procedures, decisions, assumptions, anomalies,\ntation as appropriate. corrective actions, lessons learned, etc., resulting\n from the make/buy/reuse are recorded.\n5.1.1.3 Outputs\n• End Product for Verification: Unless the vendor 5.1.2 Product Implementation\n performs verification, the made/coded, purchased, Guidance\n or reused end product in a form appropriate for Refer to Section 5.1.2 in the NASA Expanded\n the life cycle phase is provided for the verification Guidance for Systems Engineering at https://nen.\n process. The form of the end product is a function nasa.gov/web/se/doc-repository for additional guid-\n of the life cycle phase and the placement within ance on:\n the system structure (the form of the end product\n could be hardware, software, model, prototype, • buying off-the-shelf products and\n first article for test, or single operational article or • the need to consider the heritage of products.\n multiple production articles).\n• End Product Documents and Manuals: 5.2 Product Integration\n\n Appropriate documentation is also delivered Product integration is a key activity of the systems\n with the end product to the verification process engineer. Product integration is the engineering of\n and to the technical data management process. the subsystem interactions and their interactions\n Documentation may include applicable as-built with the system environments (both natural and\n design drawings; close out photos; operation, user, induced). Also in this process, lower-level products\n maintenance, or training manuals; applicable are assembled into higher-level products and checked\n\n\n\n 83",
+          "score": 14.547762466768262,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0117",
+          "page": 117,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n Prepare to conduct product To end user or Pro duct\n transition Integration Process\n (recursive loop)\n End Product to Be Evaluate the end product, personnel, Deli vered End Pro duct\n Transitioned and enabling product readiness for With Applicable\n product transition Documentation\n\n\n From Technical Data Prepare the end product for transition To Technical Data\n ManagementProcess ManagementProcess\n Documentation to Product Transition\n Accomp any the Transition the end product to t he Work Products\n Deli ver ed End Productcustomer with required documentation\n based on the type of transition required\n To Product\n Implementation,\n Prepare sites, as required, where the Integration , Verification,\n end product will be stored, assembled, Validation, and\n Product Transition– integrated, installed, used, and/or Transition Processes\n Enabling Products maintained Realized Enabling\n\n Products\n Capture work products from product\n transition activities\n\n\n\n FIGURE 5.5-1 Product Transition Process\n\n\n\ntransition that is taking place, and the location to Early phase products can take the form of infor-\nwhich the product is transitioning. Typical inputs are mation or data generated from basic or applied\nshown in FIGURE 5.5-1 and described below. research using analytical or physical models and\n are often in paper or electronic form. In fact, the\n• The end product or products to be transitioned end product for many NASA research projects\n (from the Product Validation Process): The prod- or science activities is a report, paper, model, or\n uct to be transitioned can take several forms. It even an oral presentation. In a sense, the dissem-\n can be a subsystem component, system assembly, ination of information gathered through NASA\n or top-level end product. It can be hardware, ana- research and development is an important form\n lytical models, or software. It can be newly built, of product transition.\n purchased, or reused. A product can transition\n from a lower system product to a higher one by • Documentation including manuals, procedures,\n being integrated with other transitioned products. and processes that accompany the end product\n This process may be repeated until the final end (from the Technical Data Management Process):\n product is achieved. Each succeeding transition The documentation required for the Product\n requires unique input considerations when pre- Transition Process depends on the specific end\n paring the validated product for transition to the product; its current location within the system\n next level.\n\n\n 107",
+          "image_path": "data/local/advanced/pages/p0117_2000.png",
+          "image_sha256": "383123f53dbe842b3326bcfaaa0f6696f57e433f2af9853d4795bbb51f5f8f46"
+        }
+      ]
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0117",
+      "bbox": [
+        0.58,
+        0.18,
+        0.97,
+        0.44
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0117_b874d091e900.png",
+      "image_sha256": "07d6a47d918c98b0e2b09551d2364d807cc1dc4e02607910ba8b27332ce1f8c4"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0117",
+      "bbox": [
+        0.52,
+        0.07,
+        0.98,
+        0.23
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0117_a9d52759344c.png",
+      "image_sha256": "fbd5ce2944697b560e79d60a25a2e2392c112f7828fe9232e0217ff9611a2ab1"
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0117",
+          "page": 117,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n Prepare to conduct product To end user or Pro duct\n transition Integration Process\n (recursive loop)\n End Product to Be Evaluate the end product, personnel, Deli vered End Pro duct\n Transitioned and enabling product readiness for With Applicable\n product transition Documentation\n\n\n From Technical Data Prepare the end product for transition To Technical Data\n ManagementProcess ManagementProcess\n Documentation to Product Transition\n Accomp any the Transition the end product to t he Work Products\n Deli ver ed End Productcustomer with required documentation\n based on the type of transition required\n To Product\n Implementation,\n Prepare sites, as required, where the Integration , Verification,\n end product will be stored, assembled, Validation, and\n Product Transition– integrated, installed, used, and/or Transition Processes\n Enabling Products maintained Realized Enabling\n\n Products\n Capture work products from product\n transition activities\n\n\n\n FIGURE 5.5-1 Product Transition Process\n\n\n\ntransition that is taking place, and the location to Early phase products can take the form of infor-\nwhich the product is transitioning. Typical inputs are mation or data generated from basic or applied\nshown in FIGURE 5.5-1 and described below. research using analytical or physical models and\n are often in paper or electronic form. In fact, the\n• The end product or products to be transitioned end product for many NASA research projects\n (from the Product Validation Process): The prod- or science activities is a report, paper, model, or\n uct to be transitioned can take several forms. It even an oral presentation. In a sense, the dissem-\n can be a subsystem component, system assembly, ination of information gathered through NASA\n or top-level end product. It can be hardware, ana- research and development is an important form\n lytical models, or software. It can be newly built, of product transition.\n purchased, or reused. A product can transition\n from a lower system product to a higher one by • Documentation including manuals, procedures,\n being integrated with other transitioned products. and processes that accompany the end product\n This process may be repeated until the final end (from the Technical Data Management Process):\n product is achieved. Each succeeding transition The documentation required for the Product\n requires unique input considerations when pre- Transition Process depends on the specific end\n paring the validated product for transition to the product; its current location within the system\n next level.\n\n\n 107",
+          "image_sha256": "383123f53dbe842b3326bcfaaa0f6696f57e433f2af9853d4795bbb51f5f8f46"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 5.5-1, “Delivered End Product With Applicable Documentation” is directed “To end user” or to the “Product Integration Process.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0117",
+                "locator": "Figure 5.5-1, text above the output box “Delivered End Product With Applicable Documentation” (top right)",
+                "evidence": "“To end user or Product Integration Process”"
+              }
+            ]
+          },
+          {
+            "text": "In Figure 5.5-1, the route labeled “To end user or Product Integration Process” is marked “(recursive loop).”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0117",
+                "locator": "Figure 5.5-1, same label above the “Delivered End Product With Applicable Documentation” output box",
+                "evidence": "“To end user or Product Integration Process (recursive loop)”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    117
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 5.5-1, the “Delivered End Product With Applicable Documentation” can go “To end user” or to the “Product Integration Process.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0117",
+            "locator": "Figure 5.5-1, top-right output label above 'Delivered End Product With Applicable Documentation'",
+            "evidence": "To end user or Product Integration Process"
+          }
+        ]
+      },
+      {
+        "text": "The route labeled as recursive is the path “To end user or Product Integration Process,” which is marked “(recursive loop).”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0117",
+            "locator": "Figure 5.5-1, top-right output label above 'Delivered End Product With Applicable Documentation'",
+            "evidence": "To end user or Product Integration Process (recursive loop)"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 5.5-1, “Delivered End Product With Applicable Documentation” is directed “To end user” or to the “Product Integration Process.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0117",
+          "locator": "Figure 5.5-1, text above the output box “Delivered End Product With Applicable Documentation” (top right)",
+          "evidence": "“To end user or Product Integration Process”"
+        }
+      ]
+    },
+    {
+      "text": "In Figure 5.5-1, the route labeled “To end user or Product Integration Process” is marked “(recursive loop).”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0117",
+          "locator": "Figure 5.5-1, same label above the “Delivered End Product With Applicable Documentation” output box",
+          "evidence": "“To end user or Product Integration Process (recursive loop)”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 27613.17
+}

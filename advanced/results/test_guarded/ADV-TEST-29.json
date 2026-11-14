@@ -1,0 +1,479 @@
+{
+  "id": "ADV-TEST-29",
+  "split": "test",
+  "question": "What exact universal number of years must every configuration-status accounting record be retained?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4KDh4iov7jfM0yYmtGeRq5J6RCg",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 562,
+        "completion_tokens": 10,
+        "total_tokens": 572,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 927.18,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_qtFVHGEdJ4weWnAdvdm2zR1w",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"configuration-status accounting record retention years\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KEmmwADGbwhdLGIhkMXBnx5ykU",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 4869,
+        "completion_tokens": 19,
+        "total_tokens": 4888,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1315.74,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_JCPMaxeg6mKiPuR76XcNaiyO",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"configuration status accounting record retention period years\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KFwBUSJnGa4bw2PPwkHXVg70BI",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 9051,
+        "completion_tokens": 17,
+        "total_tokens": 9068,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1332.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ofauHNsjUwpS59uw0GimRNxj",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"years configuration management record retention\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KH820W93XgSqBWHv3Cc7RmtfRe",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 13650,
+        "completion_tokens": 32,
+        "total_tokens": 13682,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1733.75,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9Vx3oM949HgcNwVvuf6HBJFR",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0161\",\"NASA-SE:p0276\",\"NASA-SE:p0292\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KN4gSxUFA3H4wPJR5DnFosP7DB",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 18218,
+        "completion_tokens": 25,
+        "total_tokens": 18243,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4902.79,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_dmfcPMkcbjFURKa2R5ZuJsQK",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"NPR 1441.1 configuration status accounting record retention years\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4KRN3GmFb7feToM5HhtlRLl33wL",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 22307,
+        "completion_tokens": 253,
+        "total_tokens": 22560,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5103.28,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "Insufficient retrieved evidence. The NASA Systems Engineering Handbook refers to NPR 1441.1, NASA Records Retention Schedules, for requirements on the retention period of configuration-status accounting records, but does not specify an exact universal number of years within the handbook itself.\n\nClaims:\n- Sổ tay không nêu rõ số năm lưu trữ hồ sơ kế toán trạng thái cấu hình, mà dẫn chiếu đến NPR 1441.1 để xác định thời hạn lưu trữ.  \n  - Citations:\n    - {source_id: \"NASA-SE:p0161\", locator: \"section/paragraph '6.6 Technical Data Management'\", evidence: \"retention of appropriate technical, to include mission and science, data beyond system retirement as required by NPR 1441.1, NASA Records Retention Schedules.\"}\n    - {source_id: \"NASA-SE:p0276\", locator: \"section/paragraph 'Section 6.6 Technical Data Management'\", evidence: \"NPR 1441.1, NASA Records Retention Schedules\"}\n    - {source_id: \"NASA-SE:p0292\", locator: \"Procedural Requirements\", evidence: \"NPR 1441.1, NASA Records Retention Schedules\"}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What exact universal number of years must every configuration-status accounting record be retained?",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 14.410999685745518,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 14.343855520885029,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 12.008286785783797,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0183",
+          "page": 183,
+          "text": "Appendix A: Acronyms\n\n\n\n\n\n\n\n AADL Architecture Analysis and Design Language EEE Electrical, Electronic, and Electromechanical\n AD2 Advancement Degree of Difficulty EFFBD Enhanced Functional Flow Block Diagram\n Assessment EIA Electronic Industries Alliance\n AIAA American Institute of Aeronautics and EMC Electromagnetic Compatibility\n Astronautics EMI Electromagnetic Interference\n AO Announcement of Opportunity EO (U.S.) Executive Order\n AS9100 Aerospace Quality Management Standard EOM End of Mission\n ASME American Society of Mechanical Engineers EVM Earned Value Management\n ASQ American Society for Quality FA Formulation Agreement\n CAIB Columbia Accident Investigation Board FAD Formulation Authorization Document\n CCB Configuration Control Board FAR Federal Acquisition Regulation\n CDR Critical Design Review FCA Functional Configuration Audit\n CE Concurrent Engineering or Chief Engineer FFBD Functional Flow Block Diagram\n CEQ Council on Environmental Quality FIPS Federal Information Processing Standard\n CERR Critical Event Readiness Review FM Fault Management\n CHSIP Commercial Human Systems Integration FMEA Failure Modes and Effects Analysis\n Processes\n CI Configuration Item FMR Financial Management Requirements\n CM Configuration Management FRR Flight Readiness Review\n CMO Configuration Management Organization FTE Full Time Equivalent\n ConOps Concept of Operations GEO Geostationary\n COSPAR Committee on Space Research GOTS Government Off-The-Shelf\n COTS Commercial Off-The-Shelf GSE Government-Supplied Equipment or Ground\n CPI Critical Program Information Support Equipment\n CR Change Request GSFC Goddard Space Flight Center\n CRM Continuous Risk Management HCD Human-Centered Design\n CSA Configuration Status Accounting HF Human Factors\n D&C Design and Construction HITL Human-In-The-Loop\n DDT&E Design, Development, Test, and Evaluation HQ Headquarters\n DM Data Management HSI Human Systems Integration\n DOD (U.S.) Department of Defense HSIP Human System Integration Plan\n DODAF DOD Architecture Framework HWIL HardWare-In-the-Loop\n DR Decommissioning Review I&T Integration and Test\n DRM Design Reference Mission ICD Interface Control Document/Drawing\n DRR Disposal Readiness Review ICP Interface Control Plan\n EDL Entry, Descent, and Landing IDD Interface Definition Document\n\n\n\n\n 173",
+          "score": 9.673290280897765,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 9.52883352481738,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0020",
+          "page": 20,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.3 Example of Using the SE Engine enable designers to accurately determine the feasibil-\nIn Pre-Phase A, the SE engine is used to develop the ity of accomplishing the project, which is the purpose\ninitial concepts; clearly define the unique roles of of Pre-Phase A.\nhumans, hardware, and software in performing the\nmissions objectives; establish the system functional During Phase A, the recursive use of the SE engine\nand performance boundaries; develop/identify a pre- is continued, this time taking the concepts and draft\nliminary/draft set of key high-level requirements, key requirements that were developed and validated\ndefine one or more initial Concept of Operations during Pre-Phase A and fleshing them out to become\n(ConOps) scenarios; realize these concepts through the set of baseline system requirements and ConOps.\niterative modeling, mock-ups, simulation, or other During this phase, key areas of high risk might be\nmeans; and verify and validate that these concepts simulated to ensure that the concepts and require-\nand products would be able to meet the key high-level ments being developed are good ones and to identify\nrequirements and ConOps. The operational concept verification and validation tools and techniques that\nmust include scenarios for all significant operational will be needed in later phases.\nsituations, including known off-nominal situations.\nTo develop a useful and complete set of scenarios, During Phase B, the SE engine is applied recursively\nimportant malfunctions and degraded-mode opera- to further mature requirements and designs for all\ntional situations must be considered. The importance products in the developing product tree and perform\nof early ConOps development cannot be underesti- verification and validation of concepts to ensure\nmated. As system requirements become more detailed that the designs are able to meet their requirements.\nand contain more complex technical information, Operational designs and mission scenarios are evalu-\nit becomes harder for the stakeholders and users to ated and feasibility of execution within design capa-\nunderstand what the requirements are conveying; bilities and cost estimates are assessed.\ni.e., it may become more difficult to visualize the end\nproduct. The ConOps can serve as a check in identi- Phase C again uses the left side of the SE engine to\nfying missing or conflicting requirements. finalize all requirement updates, finalize the ConOps\n validation, develop the final designs to the lowest\nNote that this Pre-Phase A initial concepts develop- level of the product tree, and begin fabrication.\nment work is not the formal verification and valida-\ntion program that is performed on the final product, Phase D uses the right side of the SE engine to recur-\nbut rather it is a methodical run through ensuring sively perform the final implementation, integration,\nthat the concepts that are being developed in this verification, and validation of the end product, and at\nPre-Phase A are able to meet the likely requirements the final pass, transition the end product to the user.\nand expectations of the stakeholders. Concepts are\ndeveloped to the lowest level necessary to ensure that The technical management processes of the SE engine\nthey are feasible and to a level that reduces the risk are used in Phases E and F to monitor performance;\nlow enough to satisfy the project. Academically, this control configuration; and make decisions associ-\nprocess could proceed down to the circuit board level ated with the operations, sustaining engineering,\nfor every system; however, that would involve a great and closeout of the system. Any new capabilities or\ndeal of time and money. There may be a higher level upgrades of the existing system reenter the SE engine\nor tier of product than circuit board level that would as new developments.\n\n\n\n 10",
+          "score": 9.0972745850447,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0225",
+          "page": 225,
+          "text": " Appendix H: Integration Plan Outline\n\n\n\n\n\n• Internal document control number, if available 4.0 Phase 1 Integration\n This and the following sections define and explain each\n• Revision version and date issued step in the integration process. The intent here is to iden-\n tify all the needed participants and to describe to them\n1.0 Purpose of Document what they have to do. In general, the description of each\nThis section gives a brief statement of the purpose of this integration step should identify the following:\ndocument. It is the plan for integrating the components\nand subsystems of the project prior to verification. • The location of the activities.\n\n2.0 Scope of Project • The project-developed equipment and software prod-\nThis section gives a brief description of the planned proj- ucts to be integrated. Initially this is just a high-level\nect and the purpose of the system to be built. Special list, but eventually the list should be exact and com-\nemphasis is placed on the project’s deployment complex- plete, showing part numbers and quantity.\nities and challenges.\n • Any support equipment (special software, test hard-\n3.0 Integration Strategy ware, software stubs, and drivers to simulate yet-to-\nThis section tells the reader what the high-level plan for be-integrated software components, external systems)\nintegration is and, most importantly, why the integra- needed for this integration step. The same support\ntion plan is structured the way it is. The integration plan equipment is most likely needed for the subsequent\nis subject to several, sometimes conflicting, constraints. verification step.\nAlso, it is one part of the larger process of build, inte-\ngrate, verify, and deploy, all of which should be syn- • All integration activities that need to be performed\nchronized to support the same project strategy. So, for after installation, including integration with onsite\neven a moderately complex project, the integration strat- systems and external systems at other sites.\negy, which is based on a clear and concise statement of\nthe project’s goals and objectives, is described here at a • A description of the verification activities, as defined\nhigh but all-inclusive level. It may also be necessary to in the applicable verification plan, that occur after\ndescribe the analysis of alternative strategies to make it this integration step.\nclear why this particular strategy was selected.\n • The responsible parties for each activity in the inte-\nThe same strategy is the basis for the build plan, the gration step.\nverification plan, and the deployment plan. This section\ncovers and describes each step in the integration process. • The schedule for each activity.\nIt describes what components are integrated at each step\nand gives a general idea of what threads of the opera- 5.0 Multiple Phase Integration Steps\ntional capabilities (requirements) are covered. It ties the (1 or N steps)\nplan to the previously identified goals and objectives so This and any needed additional sections follow the\nthe stakeholders can understand the rationale for each format for Section 3.0. Each covers each step in a\nintegration step. This summary-level description also multiple-step integration effort.\ndefines the schedule for all the integration efforts.\n\n\n\n\n\n 215",
+          "score": 9.02504934423711,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "configuration status accounting record retention period years",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 13.836568543834465,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 10.906294651255605,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0183",
+          "page": 183,
+          "text": "Appendix A: Acronyms\n\n\n\n\n\n\n\n AADL Architecture Analysis and Design Language EEE Electrical, Electronic, and Electromechanical\n AD2 Advancement Degree of Difficulty EFFBD Enhanced Functional Flow Block Diagram\n Assessment EIA Electronic Industries Alliance\n AIAA American Institute of Aeronautics and EMC Electromagnetic Compatibility\n Astronautics EMI Electromagnetic Interference\n AO Announcement of Opportunity EO (U.S.) Executive Order\n AS9100 Aerospace Quality Management Standard EOM End of Mission\n ASME American Society of Mechanical Engineers EVM Earned Value Management\n ASQ American Society for Quality FA Formulation Agreement\n CAIB Columbia Accident Investigation Board FAD Formulation Authorization Document\n CCB Configuration Control Board FAR Federal Acquisition Regulation\n CDR Critical Design Review FCA Functional Configuration Audit\n CE Concurrent Engineering or Chief Engineer FFBD Functional Flow Block Diagram\n CEQ Council on Environmental Quality FIPS Federal Information Processing Standard\n CERR Critical Event Readiness Review FM Fault Management\n CHSIP Commercial Human Systems Integration FMEA Failure Modes and Effects Analysis\n Processes\n CI Configuration Item FMR Financial Management Requirements\n CM Configuration Management FRR Flight Readiness Review\n CMO Configuration Management Organization FTE Full Time Equivalent\n ConOps Concept of Operations GEO Geostationary\n COSPAR Committee on Space Research GOTS Government Off-The-Shelf\n COTS Commercial Off-The-Shelf GSE Government-Supplied Equipment or Ground\n CPI Critical Program Information Support Equipment\n CR Change Request GSFC Goddard Space Flight Center\n CRM Continuous Risk Management HCD Human-Centered Design\n CSA Configuration Status Accounting HF Human Factors\n D&C Design and Construction HITL Human-In-The-Loop\n DDT&E Design, Development, Test, and Evaluation HQ Headquarters\n DM Data Management HSI Human Systems Integration\n DOD (U.S.) Department of Defense HSIP Human System Integration Plan\n DODAF DOD Architecture Framework HWIL HardWare-In-the-Loop\n DR Decommissioning Review I&T Integration and Test\n DRM Design Reference Mission ICD Interface Control Document/Drawing\n DRR Disposal Readiness Review ICP Interface Control Plan\n EDL Entry, Descent, and Landing IDD Interface Definition Document\n\n\n\n\n 173",
+          "score": 9.552018913970084,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 9.243177808837805,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 8.168398373307221,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0048",
+          "page": 48,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n TABLE 3.11-1 Example of Program/Project Types\nCriteria Type A Type B Type C Type D Type E Type F\nDescription of the Human Space Non-Human Small Science or Smaller Science Suborbital or Aircraft or\nTypes of Mission Flight or Very Space Flight or Robotic Missions or Technology Aircraft or Large Ground based\n Large Science/ Science/Robotic Missions (ISS Ground based technology\n Robotic Missions Missions payload) Missions demonstrations\n\nPriority (Criticality High priority, High priority, Medium priority, Low priority, Low priority, Low to very low\nto Agency Strategic very low low risk medium risk high risk high risk priority, high risk\nPlan) and Acceptable (minimized) risk\nRisk Level\n\nNational Significance Very high High Medium Medium to Low Low Very Low\n\nComplexity Very high to high High to Medium Medium to Low Medium to Low Low Low to Very Low\n\nMission Lifetime Long. >5 years Medium. 2–5 Short. <2 years Short. <2 years N/A N/A\n(Primary Baseline years\nMission)\n\nCost Guidance High High to Medium Medium to Low Low\n(estimate LCC) (greater than (~$500M–$1B) (~$100M–$500M) (~$50M–$100M) (~$10–50M) (less than\n ~$1B) $10–15M)\n\nLaunch Constraints Critical Medium Few Few to none Few to none N/A\n\nAlternative Research No alternative Few or no Some or few Significant Significant Significant\nOpportunities or re-flight alternative alternative alternative alternative alternative\nor Re-flight opportunities or re-flight or re-flight or re-flight or re-flight or re-flight\nOpportunities opportunities opportunities opportunities opportunities opportunities\n\nAchievement of All practical Stringent Medium risk of Medium or Significant risk Significant risk\nMission Success measures are assurance not achieving significant risk of not achieving of not achieving\nCriteria taken to achieve standards with mission of not achieving mission success mission success\n minimum risk to only minor success may mission success is permitted. is permitted.\n mission success. compromises in be acceptable. is permitted. Minimal Minimal\n The highest application to Reduced Minimal assurance assurance\n assurance maintain a low assurance assurance standards are standards are\n standards are risk to mission standards are standards are permitted. permitted.\n used. success. permitted. permitted.\n\nExamples HST, Cassini, MER, MRO, ESSP, Explorer SPARTAN, GAS IRVE-2, IRVE-3, DAWNAir,\n JIMO, JWST, Discovery payloads, Can, technology HiFIRE, HyBoLT, InFlame,\n MPCV, SLS, ISS payloads, ISS MIDES, ISS demonstrators, ALHAT, STORRM, Research,\n Facility Class complex subrack simple ISS, Earth Venture I technology\n payloads, payloads, PA-1, express middeck demonstrations\n Attached ISS ARES 1-X, and subrack\n payloads MEDLI, payloads, SMEX,\n CLARREO, MISSE-X, EV-2\n SAGE III, Calipso\n\n\n\n\n\n\n\n\n\n\n\n\n 38",
+          "score": 7.991221966983733,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0276",
+          "page": 276,
+          "text": " References Cited\n\n\n\n\n\nNASA/SP-2011-3421, Probabilistic Risk Assessment NPR 1600.1, NASA Security Program Procedural\n Procedures Guide for NASA Managers and Requirements\n Practitioners\n NID 1600.55, Sensitive But Unclassified (SBU)\nNASA/SP-2011-3422, NASA Risk Management Controlled Information\n Handbook\n NPR 7120.5, NASA Space Flight Program and\nCode of Federal Regulations (CFR) Title 22 – Project Management Requirements\n Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations NPR 7123.1, NASA Systems Engineering Processes\n (ITAR) (22 CFR 120-130). Implements 22 and Requirements\n U.S.C. 2778 of the Arms Export Control Act\n (AECA) of 1976 and Executive Order 13637, NASA Form (NF) 1686, NASA Scientific and\n “Administration of Reformed Export Controls,” Technical Document Availability Authorization\n March 8, 2013 (DAA) for Administratively Controlled\n Information.\nSection 6.5 Configuration Management\nNPR 7120.5, NASA Space Flight Program and Code of Federal Regulations (CFR) Title 22 –\n Project Management Requirements Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations\nNASA. Columbia Accident Investigation Board (ITAR) (22 CFR 120-130). Implements 22\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. U.S.C. 2778 of the Arms Export Control Act\n http://www.nasa.gov/columbia/caib/html/report.html (AECA) of 1976 and Executive Order 13637,\n “Administration of Reformed Export Controls,”\nNASA. NOAA N-Prime Mishap Investigation Final March 8, 2013\n Report, Sept. 13, 2004 http://www.nasa.gov/pdf/\n 65776main_noaa_np_mishap.pdf The Invention Secrecy Act of 1951, 35 U.S.C.\n §181–§188. Secrecy of Certain Inventions and\nSAE International (SAE)/Electronic Industries Filing Applications in Foreign Country; §181 –\n Alliance (EIA) 649B-2011, Configuration Secrecy of Certain Inventions and Withholding\n Management Standard (Aerospace Sector) April 1, of Patent.\n 2011\n Code of Federal Regulations (CFR) Title 37 –\nAmerican National Standards Institute (ANSI)/ Patents, Trademarks, and Copyrights; Part 5\n Electronic Industries Alliance (EIA). ANSI/ Secrecy of Certain Inventions and Licenses\n EIA-649, National Consensus Standard for to Export and File Applications in Foreign\n Configuration Management, 1998–1999 Countries; Part 5.2 Secrecy Order. (37 CFR 5.2)\n\nSection 6.6 Technical Data Management Section 6.7 Technical Assessment\nNPR 1441.1, NASA Records Retention Schedules NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\n\n\n\n 266",
+          "score": 6.46334651129428,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "years configuration management record retention",
+      "results": [
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 9.411775021203933,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0048",
+          "page": 48,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n TABLE 3.11-1 Example of Program/Project Types\nCriteria Type A Type B Type C Type D Type E Type F\nDescription of the Human Space Non-Human Small Science or Smaller Science Suborbital or Aircraft or\nTypes of Mission Flight or Very Space Flight or Robotic Missions or Technology Aircraft or Large Ground based\n Large Science/ Science/Robotic Missions (ISS Ground based technology\n Robotic Missions Missions payload) Missions demonstrations\n\nPriority (Criticality High priority, High priority, Medium priority, Low priority, Low priority, Low to very low\nto Agency Strategic very low low risk medium risk high risk high risk priority, high risk\nPlan) and Acceptable (minimized) risk\nRisk Level\n\nNational Significance Very high High Medium Medium to Low Low Very Low\n\nComplexity Very high to high High to Medium Medium to Low Medium to Low Low Low to Very Low\n\nMission Lifetime Long. >5 years Medium. 2–5 Short. <2 years Short. <2 years N/A N/A\n(Primary Baseline years\nMission)\n\nCost Guidance High High to Medium Medium to Low Low\n(estimate LCC) (greater than (~$500M–$1B) (~$100M–$500M) (~$50M–$100M) (~$10–50M) (less than\n ~$1B) $10–15M)\n\nLaunch Constraints Critical Medium Few Few to none Few to none N/A\n\nAlternative Research No alternative Few or no Some or few Significant Significant Significant\nOpportunities or re-flight alternative alternative alternative alternative alternative\nor Re-flight opportunities or re-flight or re-flight or re-flight or re-flight or re-flight\nOpportunities opportunities opportunities opportunities opportunities opportunities\n\nAchievement of All practical Stringent Medium risk of Medium or Significant risk Significant risk\nMission Success measures are assurance not achieving significant risk of not achieving of not achieving\nCriteria taken to achieve standards with mission of not achieving mission success mission success\n minimum risk to only minor success may mission success is permitted. is permitted.\n mission success. compromises in be acceptable. is permitted. Minimal Minimal\n The highest application to Reduced Minimal assurance assurance\n assurance maintain a low assurance assurance standards are standards are\n standards are risk to mission standards are standards are permitted. permitted.\n used. success. permitted. permitted.\n\nExamples HST, Cassini, MER, MRO, ESSP, Explorer SPARTAN, GAS IRVE-2, IRVE-3, DAWNAir,\n JIMO, JWST, Discovery payloads, Can, technology HiFIRE, HyBoLT, InFlame,\n MPCV, SLS, ISS payloads, ISS MIDES, ISS demonstrators, ALHAT, STORRM, Research,\n Facility Class complex subrack simple ISS, Earth Venture I technology\n payloads, payloads, PA-1, express middeck demonstrations\n Attached ISS ARES 1-X, and subrack\n payloads MEDLI, payloads, SMEX,\n CLARREO, MISSE-X, EV-2\n SAGE III, Calipso\n\n\n\n\n\n\n\n\n\n\n\n\n 38",
+          "score": 7.991221966983733,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0276",
+          "page": 276,
+          "text": " References Cited\n\n\n\n\n\nNASA/SP-2011-3421, Probabilistic Risk Assessment NPR 1600.1, NASA Security Program Procedural\n Procedures Guide for NASA Managers and Requirements\n Practitioners\n NID 1600.55, Sensitive But Unclassified (SBU)\nNASA/SP-2011-3422, NASA Risk Management Controlled Information\n Handbook\n NPR 7120.5, NASA Space Flight Program and\nCode of Federal Regulations (CFR) Title 22 – Project Management Requirements\n Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations NPR 7123.1, NASA Systems Engineering Processes\n (ITAR) (22 CFR 120-130). Implements 22 and Requirements\n U.S.C. 2778 of the Arms Export Control Act\n (AECA) of 1976 and Executive Order 13637, NASA Form (NF) 1686, NASA Scientific and\n “Administration of Reformed Export Controls,” Technical Document Availability Authorization\n March 8, 2013 (DAA) for Administratively Controlled\n Information.\nSection 6.5 Configuration Management\nNPR 7120.5, NASA Space Flight Program and Code of Federal Regulations (CFR) Title 22 –\n Project Management Requirements Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations\nNASA. Columbia Accident Investigation Board (ITAR) (22 CFR 120-130). Implements 22\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. U.S.C. 2778 of the Arms Export Control Act\n http://www.nasa.gov/columbia/caib/html/report.html (AECA) of 1976 and Executive Order 13637,\n “Administration of Reformed Export Controls,”\nNASA. NOAA N-Prime Mishap Investigation Final March 8, 2013\n Report, Sept. 13, 2004 http://www.nasa.gov/pdf/\n 65776main_noaa_np_mishap.pdf The Invention Secrecy Act of 1951, 35 U.S.C.\n §181–§188. Secrecy of Certain Inventions and\nSAE International (SAE)/Electronic Industries Filing Applications in Foreign Country; §181 –\n Alliance (EIA) 649B-2011, Configuration Secrecy of Certain Inventions and Withholding\n Management Standard (Aerospace Sector) April 1, of Patent.\n 2011\n Code of Federal Regulations (CFR) Title 37 –\nAmerican National Standards Institute (ANSI)/ Patents, Trademarks, and Copyrights; Part 5\n Electronic Industries Alliance (EIA). ANSI/ Secrecy of Certain Inventions and Licenses\n EIA-649, National Consensus Standard for to Export and File Applications in Foreign\n Configuration Management, 1998–1999 Countries; Part 5.2 Secrecy Order. (37 CFR 5.2)\n\nSection 6.6 Technical Data Management Section 6.7 Technical Assessment\nNPR 1441.1, NASA Records Retention Schedules NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\n\n\n\n 266",
+          "score": 7.612461019596731,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 6.401476130009087,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0292",
+          "page": 292,
+          "text": " Bibliography\n\n\n\n\n\nNASA-STD-3001, Space Flight Human System NPD 2820.1, NASA Software Policy\n Standard. Volume 1: Crew Health. Rev. A, July\n 30, 2014 NPD 7120.4, NASA Engineering and Program/\n Project Management Policy\nNASA-STD-3001, Space Flight Human System\n Standard. Volume 2: Human Factors, NPD 7120.6, Knowledge Policy on Programs and\n Habitability, and Environmental Health. Rev. A, Projects\n February 10, 2015\n NPD 8010.2, Use of the SI (Metric) System of\nNASA GSFC-STD-7000, Goddard Technical Measurement in NASA Programs\n Standard: General Environmental Verification\n Standard (GEVS) for GSFC Flight Programs and NPD 8010.3, Notification of Intent to\n Projects. Goddard Space Flight Center, April Decommission or Terminate Operating Space\n 2005 Systems and Terminate Missions\n\nNASA KSC-NE-9439 Kennedy Space Center Design NPD 8020.7, Biological Contamination Control for\n Engineering Handbook, Best Practices for Design Outbound and Inbound Planetary Spacecraft\n and Development of Ground Systems. Kennedy\n Space Center, November 20 2009 NPD 8730.5, NASA Quality Assurance Program\n Policy\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, Procedural Requirements\n 2013 NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\nNASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013 NPR 1441.1, NASA Records Retention Schedules\n\nNASA-STD-8719.14, Handbook for Limiting Orbital NPR 1600.1, NASA Security Program Procedural\n Debris. Rev A with Change 1. December 8, 2011 Requirements\n\nNASA-STD-8729.1, Planning, Developing, and NPR 2210.1, Release of NASA Software\n Maintaining an Effective Reliability and\n Maintainability (R&M) Program. Washington, NPR 2810.1, Security of Information Technology\n DC, December 1, 1998\n LPR 5000.2, Procurement Initiator’s Guide. NASA\nPolicy Directives Langley Research Center (LARC)\nNPD 1001.0, 2014 NASA Strategic Plan\n JPR 7120.3, Project Management: Systems\nNID 1600.55, Sensitive But Unclassified (SBU) Engineering & Project Control Processes and\n Controlled Information Requirements. NASA Lyndon B. Johnson Space\n Center (JSC)\n\n\n\n 282",
+          "score": 5.45688603269975,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0163",
+          "page": 163,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Establishing the rights, obligations, and commit- used for in-house data preparation. The standard\n ments regarding the retention of, transmission of, description is modified to suit program/project-spe-\n and access to data items; and cific needs, and appropriate language is included\n in SOWs to implement actions resulting from the\n• Relevant data storage, transformation, transmis- data evaluation. “Data suppliers” may be contrac-\n sion, and presentation standards and conven- tors, academia, or the Government. Procurement of\n tions to be used according to program/project or data from an outside supplier is a formal procure-\n organizational policy, agreements, or legislative ment action that requires a procurement document;\n constraints. in-house requirements may be handled using a less\n formal method. Below are the different types of data\n• Obtain strategy/plan commitment from relevant that might be utilized within a program/project:\n stakeholders.\n • Data\n• Prepare procedures for implementing the techni- » “Data” is defined in general as “recorded\n cal data management strategy for the technical information regardless of the form or method\n effort and/or for implementing the activities of of recording.” However, the terms “data” and\n the technical data management plan. “information” are frequently used inter-\n changeably. To be more precise, data gener-\n• Establish a technical database(s) to use for tech- ally should be processed in some manner to\n nical data maintenance and storage or work with generate useful, actionable information.\n the program/project staff to arrange use of the\n program/project database(s) for managing tech- » “Data,” as used in SE DM, includes technical\n nical data. data; computer software documentation; and\n representation of facts, numbers, or data of\n• Establish data collection tools, as appropriate to any nature that can be communicated, stored,\n the technical data management scope and avail- and processed to form information required\n able resources. by a contract or agreement to be delivered to,\n or accessed by, the Government.\n• Establish electronic data exchange interfaces in\n accordance with international standards/agree- » Data include that associated with system\n ments and applicable NASA standards. development, modeling and simulation used\n in development or test, test and evaluation,\nTrain appropriate stakeholders and other technical installation, parts, spares, repairs, usage\npersonnel in the established technical data manage- data required for product sustainability, and\nment strategy/plan, procedures, and data collection source and/or supplier data.\ntools, as applicable\n » Data specifically not included in Technical\nData Identification/Definition Data Management would be data relating\nEach program/project determines data needs during to general NASA workforce operations\nthe life cycle. Data types may be defined in standard information, communications information\ndocuments. Center and Agency directives sometimes (except where related to a specific require-\nspecify content of documents and are appropriately ment), financial transactions, personnel data,\n\n\n 153",
+          "score": 5.0211581265499925,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0242",
+          "page": 242,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n7.6 Other 9.0 Compliance Matrices\nThis section is reserved to describe any unique SE func- Appendix H.2 in NPR 7123.1A is the basis for the com-\ntions or activities for the project that are not covered in pliance matrix for this section of the SEMP. The proj-\nother sections. ect will complete this matrix from the point of view of\n the project and the technical scope. Each requirement\n8.0 Integration with the Project Plan will be addressed as compliant, partially compliant, or\n and Technical Resource Allocation noncompliant. Compliant requirements should indicate\nThis section describes how the technical effort will inte- which process or activity addresses the compliance. For\ngrate with project management and defines roles and example, compliance can be accomplished by using a\nresponsibilities. It addresses how technical requirements Center process or by using a project process as described\nwill be integrated with the project plan to determine in another section of the SEMP or by reference to another\nthe allocation of resources, including cost, schedule, and documented process. Noncompliant areas should state\npersonnel, and how changes to the allocations will be the rationale for noncompliance.\ncoordinated.\n Appendices\n Key Questions Appendices are included, as necessary, to provide a\n 1. How will we assess risk? What thresholds glossary, acronyms and abbreviations, and informa-\n are needed for triggering mitigation activi- tion published separately for convenience in document\n ties? How will we integrate risk management maintenance. Included are: (1) information that may\n into the technical decision process? be pertinent to multiple topic areas (e.g., description of\n 2. How will we communicate across and out- methods or procedures); (2) charts and proprietary data\n side of the project? applicable to the technical efforts required in the SEMP;\n 3. How will we record decisions? and (3) a summary of technical plans associated with\n 4. How do we incorporate lessons learned from the project. Each appendix should be referenced in one\n other projects? of the sections of the engineering plan where data would\n normally have been provided.\n\n Templates\nThis section describes the interface between all of the tech- Any templates for forms, plans, or reports the technical\nnical aspects of the project and the overall project man- team will need to fill out, like the format for the veri-\nagement process during the systems engineering planning fication and validation plan, should be included in the\nactivities and updates. All activities to coordinate tech- appendices.\nnical efforts with the overall project are included, such\nas technical interactions with the external stakeholders, References\nusers, and contractors. This section contains all documents referenced in the text\n of the SEMP.\n\n\n\n\n\n\n\n\n\n 232",
+          "score": 4.793490294782723,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 161,
+          "path": "data/local/advanced/pages/p0161_2000.png",
+          "sha256": "8689be25cb7525b0a855159176c02a1a690b9953d53f6e2985eb9e387609ddf9",
+          "source_id": "NASA-SE:p0161",
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151"
+        },
+        {
+          "page": 276,
+          "path": "data/local/advanced/pages/p0276_2000.png",
+          "sha256": "ba15b9081f3ed602156dd1c4c4d6249db98afd70f2467ea2156763fc5e05672f",
+          "source_id": "NASA-SE:p0276",
+          "text": " References Cited\n\n\n\n\n\nNASA/SP-2011-3421, Probabilistic Risk Assessment NPR 1600.1, NASA Security Program Procedural\n Procedures Guide for NASA Managers and Requirements\n Practitioners\n NID 1600.55, Sensitive But Unclassified (SBU)\nNASA/SP-2011-3422, NASA Risk Management Controlled Information\n Handbook\n NPR 7120.5, NASA Space Flight Program and\nCode of Federal Regulations (CFR) Title 22 – Project Management Requirements\n Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations NPR 7123.1, NASA Systems Engineering Processes\n (ITAR) (22 CFR 120-130). Implements 22 and Requirements\n U.S.C. 2778 of the Arms Export Control Act\n (AECA) of 1976 and Executive Order 13637, NASA Form (NF) 1686, NASA Scientific and\n “Administration of Reformed Export Controls,” Technical Document Availability Authorization\n March 8, 2013 (DAA) for Administratively Controlled\n Information.\nSection 6.5 Configuration Management\nNPR 7120.5, NASA Space Flight Program and Code of Federal Regulations (CFR) Title 22 –\n Project Management Requirements Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations\nNASA. Columbia Accident Investigation Board (ITAR) (22 CFR 120-130). Implements 22\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. U.S.C. 2778 of the Arms Export Control Act\n http://www.nasa.gov/columbia/caib/html/report.html (AECA) of 1976 and Executive Order 13637,\n “Administration of Reformed Export Controls,”\nNASA. NOAA N-Prime Mishap Investigation Final March 8, 2013\n Report, Sept. 13, 2004 http://www.nasa.gov/pdf/\n 65776main_noaa_np_mishap.pdf The Invention Secrecy Act of 1951, 35 U.S.C.\n §181–§188. Secrecy of Certain Inventions and\nSAE International (SAE)/Electronic Industries Filing Applications in Foreign Country; §181 –\n Alliance (EIA) 649B-2011, Configuration Secrecy of Certain Inventions and Withholding\n Management Standard (Aerospace Sector) April 1, of Patent.\n 2011\n Code of Federal Regulations (CFR) Title 37 –\nAmerican National Standards Institute (ANSI)/ Patents, Trademarks, and Copyrights; Part 5\n Electronic Industries Alliance (EIA). ANSI/ Secrecy of Certain Inventions and Licenses\n EIA-649, National Consensus Standard for to Export and File Applications in Foreign\n Configuration Management, 1998–1999 Countries; Part 5.2 Secrecy Order. (37 CFR 5.2)\n\nSection 6.6 Technical Data Management Section 6.7 Technical Assessment\nNPR 1441.1, NASA Records Retention Schedules NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\n\n\n\n 266"
+        },
+        {
+          "page": 292,
+          "path": "data/local/advanced/pages/p0292_2000.png",
+          "sha256": "01d76e1c8ac6f0289cd8aaf5a9934fc4849bb7a9525d910623ab26f37d842afe",
+          "source_id": "NASA-SE:p0292",
+          "text": " Bibliography\n\n\n\n\n\nNASA-STD-3001, Space Flight Human System NPD 2820.1, NASA Software Policy\n Standard. Volume 1: Crew Health. Rev. A, July\n 30, 2014 NPD 7120.4, NASA Engineering and Program/\n Project Management Policy\nNASA-STD-3001, Space Flight Human System\n Standard. Volume 2: Human Factors, NPD 7120.6, Knowledge Policy on Programs and\n Habitability, and Environmental Health. Rev. A, Projects\n February 10, 2015\n NPD 8010.2, Use of the SI (Metric) System of\nNASA GSFC-STD-7000, Goddard Technical Measurement in NASA Programs\n Standard: General Environmental Verification\n Standard (GEVS) for GSFC Flight Programs and NPD 8010.3, Notification of Intent to\n Projects. Goddard Space Flight Center, April Decommission or Terminate Operating Space\n 2005 Systems and Terminate Missions\n\nNASA KSC-NE-9439 Kennedy Space Center Design NPD 8020.7, Biological Contamination Control for\n Engineering Handbook, Best Practices for Design Outbound and Inbound Planetary Spacecraft\n and Development of Ground Systems. Kennedy\n Space Center, November 20 2009 NPD 8730.5, NASA Quality Assurance Program\n Policy\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, Procedural Requirements\n 2013 NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\nNASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013 NPR 1441.1, NASA Records Retention Schedules\n\nNASA-STD-8719.14, Handbook for Limiting Orbital NPR 1600.1, NASA Security Program Procedural\n Debris. Rev A with Change 1. December 8, 2011 Requirements\n\nNASA-STD-8729.1, Planning, Developing, and NPR 2210.1, Release of NASA Software\n Maintaining an Effective Reliability and\n Maintainability (R&M) Program. Washington, NPR 2810.1, Security of Information Technology\n DC, December 1, 1998\n LPR 5000.2, Procurement Initiator’s Guide. NASA\nPolicy Directives Langley Research Center (LARC)\nNPD 1001.0, 2014 NASA Strategic Plan\n JPR 7120.3, Project Management: Systems\nNID 1600.55, Sensitive But Unclassified (SBU) Engineering & Project Control Processes and\n Controlled Information Requirements. NASA Lyndon B. Johnson Space\n Center (JSC)\n\n\n\n 282"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "NPR 1441.1 configuration status accounting record retention years",
+      "results": [
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 14.786216125037422,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 14.327303302973952,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0276",
+          "page": 276,
+          "text": " References Cited\n\n\n\n\n\nNASA/SP-2011-3421, Probabilistic Risk Assessment NPR 1600.1, NASA Security Program Procedural\n Procedures Guide for NASA Managers and Requirements\n Practitioners\n NID 1600.55, Sensitive But Unclassified (SBU)\nNASA/SP-2011-3422, NASA Risk Management Controlled Information\n Handbook\n NPR 7120.5, NASA Space Flight Program and\nCode of Federal Regulations (CFR) Title 22 – Project Management Requirements\n Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations NPR 7123.1, NASA Systems Engineering Processes\n (ITAR) (22 CFR 120-130). Implements 22 and Requirements\n U.S.C. 2778 of the Arms Export Control Act\n (AECA) of 1976 and Executive Order 13637, NASA Form (NF) 1686, NASA Scientific and\n “Administration of Reformed Export Controls,” Technical Document Availability Authorization\n March 8, 2013 (DAA) for Administratively Controlled\n Information.\nSection 6.5 Configuration Management\nNPR 7120.5, NASA Space Flight Program and Code of Federal Regulations (CFR) Title 22 –\n Project Management Requirements Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations\nNASA. Columbia Accident Investigation Board (ITAR) (22 CFR 120-130). Implements 22\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. U.S.C. 2778 of the Arms Export Control Act\n http://www.nasa.gov/columbia/caib/html/report.html (AECA) of 1976 and Executive Order 13637,\n “Administration of Reformed Export Controls,”\nNASA. NOAA N-Prime Mishap Investigation Final March 8, 2013\n Report, Sept. 13, 2004 http://www.nasa.gov/pdf/\n 65776main_noaa_np_mishap.pdf The Invention Secrecy Act of 1951, 35 U.S.C.\n §181–§188. Secrecy of Certain Inventions and\nSAE International (SAE)/Electronic Industries Filing Applications in Foreign Country; §181 –\n Alliance (EIA) 649B-2011, Configuration Secrecy of Certain Inventions and Withholding\n Management Standard (Aerospace Sector) April 1, of Patent.\n 2011\n Code of Federal Regulations (CFR) Title 37 –\nAmerican National Standards Institute (ANSI)/ Patents, Trademarks, and Copyrights; Part 5\n Electronic Industries Alliance (EIA). ANSI/ Secrecy of Certain Inventions and Licenses\n EIA-649, National Consensus Standard for to Export and File Applications in Foreign\n Configuration Management, 1998–1999 Countries; Part 5.2 Secrecy Order. (37 CFR 5.2)\n\nSection 6.6 Technical Data Management Section 6.7 Technical Assessment\nNPR 1441.1, NASA Records Retention Schedules NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\n\n\n\n 266",
+          "score": 14.085572433570073,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0292",
+          "page": 292,
+          "text": " Bibliography\n\n\n\n\n\nNASA-STD-3001, Space Flight Human System NPD 2820.1, NASA Software Policy\n Standard. Volume 1: Crew Health. Rev. A, July\n 30, 2014 NPD 7120.4, NASA Engineering and Program/\n Project Management Policy\nNASA-STD-3001, Space Flight Human System\n Standard. Volume 2: Human Factors, NPD 7120.6, Knowledge Policy on Programs and\n Habitability, and Environmental Health. Rev. A, Projects\n February 10, 2015\n NPD 8010.2, Use of the SI (Metric) System of\nNASA GSFC-STD-7000, Goddard Technical Measurement in NASA Programs\n Standard: General Environmental Verification\n Standard (GEVS) for GSFC Flight Programs and NPD 8010.3, Notification of Intent to\n Projects. Goddard Space Flight Center, April Decommission or Terminate Operating Space\n 2005 Systems and Terminate Missions\n\nNASA KSC-NE-9439 Kennedy Space Center Design NPD 8020.7, Biological Contamination Control for\n Engineering Handbook, Best Practices for Design Outbound and Inbound Planetary Spacecraft\n and Development of Ground Systems. Kennedy\n Space Center, November 20 2009 NPD 8730.5, NASA Quality Assurance Program\n Policy\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, Procedural Requirements\n 2013 NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\nNASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013 NPR 1441.1, NASA Records Retention Schedules\n\nNASA-STD-8719.14, Handbook for Limiting Orbital NPR 1600.1, NASA Security Program Procedural\n Debris. Rev A with Change 1. December 8, 2011 Requirements\n\nNASA-STD-8729.1, Planning, Developing, and NPR 2210.1, Release of NASA Software\n Maintaining an Effective Reliability and\n Maintainability (R&M) Program. Washington, NPR 2810.1, Security of Information Technology\n DC, December 1, 1998\n LPR 5000.2, Procurement Initiator’s Guide. NASA\nPolicy Directives Langley Research Center (LARC)\nNPD 1001.0, 2014 NASA Strategic Plan\n JPR 7120.3, Project Management: Systems\nNID 1600.55, Sensitive But Unclassified (SBU) Engineering & Project Control Processes and\n Controlled Information Requirements. NASA Lyndon B. Johnson Space\n Center (JSC)\n\n\n\n 282",
+          "score": 12.555874670941654,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 11.182876536963212,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 10.82937427562702,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0183",
+          "page": 183,
+          "text": "Appendix A: Acronyms\n\n\n\n\n\n\n\n AADL Architecture Analysis and Design Language EEE Electrical, Electronic, and Electromechanical\n AD2 Advancement Degree of Difficulty EFFBD Enhanced Functional Flow Block Diagram\n Assessment EIA Electronic Industries Alliance\n AIAA American Institute of Aeronautics and EMC Electromagnetic Compatibility\n Astronautics EMI Electromagnetic Interference\n AO Announcement of Opportunity EO (U.S.) Executive Order\n AS9100 Aerospace Quality Management Standard EOM End of Mission\n ASME American Society of Mechanical Engineers EVM Earned Value Management\n ASQ American Society for Quality FA Formulation Agreement\n CAIB Columbia Accident Investigation Board FAD Formulation Authorization Document\n CCB Configuration Control Board FAR Federal Acquisition Regulation\n CDR Critical Design Review FCA Functional Configuration Audit\n CE Concurrent Engineering or Chief Engineer FFBD Functional Flow Block Diagram\n CEQ Council on Environmental Quality FIPS Federal Information Processing Standard\n CERR Critical Event Readiness Review FM Fault Management\n CHSIP Commercial Human Systems Integration FMEA Failure Modes and Effects Analysis\n Processes\n CI Configuration Item FMR Financial Management Requirements\n CM Configuration Management FRR Flight Readiness Review\n CMO Configuration Management Organization FTE Full Time Equivalent\n ConOps Concept of Operations GEO Geostationary\n COSPAR Committee on Space Research GOTS Government Off-The-Shelf\n COTS Commercial Off-The-Shelf GSE Government-Supplied Equipment or Ground\n CPI Critical Program Information Support Equipment\n CR Change Request GSFC Goddard Space Flight Center\n CRM Continuous Risk Management HCD Human-Centered Design\n CSA Configuration Status Accounting HF Human Factors\n D&C Design and Construction HITL Human-In-The-Loop\n DDT&E Design, Development, Test, and Evaluation HQ Headquarters\n DM Data Management HSI Human Systems Integration\n DOD (U.S.) Department of Defense HSIP Human System Integration Plan\n DODAF DOD Architecture Framework HWIL HardWare-In-the-Loop\n DR Decommissioning Review I&T Integration and Test\n DRM Design Reference Mission ICD Interface Control Document/Drawing\n DRR Disposal Readiness Review ICP Interface Control Plan\n EDL Entry, Descent, and Landing IDD Interface Definition Document\n\n\n\n\n 173",
+          "score": 9.552018913970084,
+          "reference_match": 0
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    161,
+    276,
+    292
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "JSONDecodeError",
+    "message": "Sanitized unexpected failure"
+  },
+  "elapsed_ms": 17411.91
+}

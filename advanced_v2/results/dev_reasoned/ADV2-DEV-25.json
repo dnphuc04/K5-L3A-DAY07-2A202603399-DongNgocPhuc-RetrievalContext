@@ -1,0 +1,799 @@
+{
+  "id": "ADV2-DEV-25",
+  "split": "dev",
+  "question": "For all NASA missions, what single mandatory random-vibration qualification level in g RMS does this handbook specify?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4iviTUqh9bGwA05MYmIYPkvXLzP",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 644,
+        "completion_tokens": 83,
+        "total_tokens": 727,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 50,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2358.79,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rR6HG74s4Mbw0wXlMzkrwzdh",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandatory random-vibration qualification level g RMS for all NASA missions\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4iyclXjUHFNt1PdDqQccXq1MPGl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5318,
+        "completion_tokens": 112,
+        "total_tokens": 5430,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 83,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2750.77,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_62RA5RdUXfV4i4AFLfuekF8N",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"g RMS\\\" random vibration qualification level\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4j0IBDIjSAXAkqqb53Vd6wmrPq3",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10386,
+        "completion_tokens": 383,
+        "total_tokens": 10769,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 358,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6022.16,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_dgj65kbzDnPtLQqhBCKEgr0x",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"random vibration qualification level\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4j6IT2Ykk8vqm2sfKxlIxCh1Ejl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15025,
+        "completion_tokens": 141,
+        "total_tokens": 15166,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 112,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3177.39,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_zETvfYq7gKPsr7LIZ1aictq3",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"random vibration\\\" qualification \\\"g\\\"\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jAircJBvUCX64HgzFIu3FOSlJ6",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 19674,
+        "completion_tokens": 201,
+        "total_tokens": 19875,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 160,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3889.48,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_HBlMj8uCpakEZu64tkfTES8B",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0100\",\"NASA-SE:p0135\",\"NASA-SE:p0229\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jGNqFvt6i5tM2mZJgOgBOsW1Wt",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 32844,
+        "completion_tokens": 163,
+        "total_tokens": 33007,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 133,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4887.25,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FlMdY6YL3zM0YPlTcQ20sY1N",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"random vibration g rms qualification NASA Systems Engineering Handbook\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jLlJsTr9EBxsvfqFSaGcclDAcU",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 37367,
+        "completion_tokens": 159,
+        "total_tokens": 37526,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 136,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4995.84,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_atsj83d4qQCjniuMftCYowrd",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Grms\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jPZtP9eAf0o8VqCQFHDyIuyfcQ",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 37395,
+        "completion_tokens": 26,
+        "total_tokens": 37421,
+        "prompt_tokens_details": {
+          "cached_tokens": 37120,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2979.29,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_czedVuyWotX0z8jMWlnNZbGc",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"random\\\" \\\"vibration\\\" \\\"RMS\\\"\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jS1zApR1GMyditOzwwPIqFkNbl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 39386,
+        "completion_tokens": 124,
+        "total_tokens": 39510,
+        "prompt_tokens_details": {
+          "cached_tokens": 36992,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 96,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4358.17,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nC5ORksGWA4XdVxBJu2YLRbc",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jXiKjl4lMYcZWkMyo2IqsIiyrw",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 13399,
+        "completion_tokens": 80,
+        "total_tokens": 13479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3329.09,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_DFawuTC9bt89mNpWO6Po37mG",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "For all NASA missions, what single mandatory random-vibration qualification level in g RMS does this handbook specify?",
+      "results": [
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 15.629601997288784,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 14.120259396810717,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 12.780226078801117,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0057",
+          "page": 57,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "score": 12.063444178293123,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 11.866072298131048,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 11.807059974714967,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0093",
+          "page": 93,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nverified and validated against equivalent require- baseline documents (configuration information\nments (including environments) and expectations. such as as-built specifications or stakeholder\nThe savings gained from reuse is not necessarily from expectations); certificates of compliance; or other\nreduced acceptance-level testing of the flight prod- vendor documentation.\nucts, but possibly elimination of the need to fully\nrequalify the item (if all elements are the same, includ- • Product Implementation Work Products: Any\ning the environment and operation), elimination of additional work products providing reports,\nthe need to specify all of the internal requirements records, lesson learned, assumptions, updated CM\nsuch as printed circuit board specifications or mate- products, and other outcomes of these activities.\nrial requirements, reduced internal data products, or\nthe confidence that the item will pass acceptance test The process is complete when the following activities\nand will not require rework. have been accomplished:\n\n\n5.1.1.2.3 Capture Work Products • End products are fabricated, purchased, or reuse\nRegardless of what implementation form was selected, modules are acquired.\nall work products from the make/buy/reuse process\nshould be captured, including as-built design draw- • End products are reviewed, checked, and ready\nings, design documentation, design models, code list- for verification.\nings, model descriptions, procedures used, operator\nmanuals, maintenance manuals, or other documen- • Procedures, decisions, assumptions, anomalies,\ntation as appropriate. corrective actions, lessons learned, etc., resulting\n from the make/buy/reuse are recorded.\n5.1.1.3 Outputs\n• End Product for Verification: Unless the vendor 5.1.2 Product Implementation\n performs verification, the made/coded, purchased, Guidance\n or reused end product in a form appropriate for Refer to Section 5.1.2 in the NASA Expanded\n the life cycle phase is provided for the verification Guidance for Systems Engineering at https://nen.\n process. The form of the end product is a function nasa.gov/web/se/doc-repository for additional guid-\n of the life cycle phase and the placement within ance on:\n the system structure (the form of the end product\n could be hardware, software, model, prototype, • buying off-the-shelf products and\n first article for test, or single operational article or • the need to consider the heritage of products.\n multiple production articles).\n• End Product Documents and Manuals: 5.2 Product Integration\n\n Appropriate documentation is also delivered Product integration is a key activity of the systems\n with the end product to the verification process engineer. Product integration is the engineering of\n and to the technical data management process. the subsystem interactions and their interactions\n Documentation may include applicable as-built with the system environments (both natural and\n design drawings; close out photos; operation, user, induced). Also in this process, lower-level products\n maintenance, or training manuals; applicable are assembled into higher-level products and checked\n\n\n\n 83",
+          "score": 11.336680113037959,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"g RMS\" random vibration qualification level",
+      "results": [
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 10.45799801752947,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 10.145730703101176,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 6.082436329118731,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 6.043317721845338,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0217",
+          "page": 217,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n TABLE G.1-1 Products Provided by the TA as a Function of Program/Project Phase\n Gate Product\n KDP A: Transition from Requires an assessment of potential technology needs versus current and planned\n Pre-Phase A to Phase A technology readiness levels, as well as potential opportunities to use commercial,\n academic, and other government agency sources of technology. Included as part of\n the draft integrated baseline. Technology Development Plan is baselined that identifies\n technologies to be developed, heritage systems to be modified, alternative paths to be\n pursued, fallback positions and corresponding performance descopes, milestones, metrics,\n and key decision points. Initial Technology Readiness Assessment (TRA) is available.\n\n KDP B: Transition from Technology Development Plan and Technology Readiness Assessment (TRA) are updated.\n Phase A to Phase B Incorporated in the preliminary project plan.\n\n KDP C: Transition from Requires a TRAR demonstrating that all systems, subsystems, and components have\n Phase B to Phase C/D achieved a level of technological maturity with demonstrated evidence of qualification in a\n relevant environment.\n\nSource: NPR 7120 .5 .\n\n\nA number of processes can be used to develop the systems, subsystems, and components demonstrated\nappropriate level of understanding required for through test and analysis. The initial AD2 provides the\nsuccessful technology insertion. The intent of this material necessary to develop preliminary cost and to\nappendix is to describe a systematic process that schedule plans and preliminary risk assessments. In\ncan be used as an example of how to apply standard subsequent assessments, the information is used to\nsystems engineering practices to perform a compre- build the Technology Development Plan and in the\nhensive Technology Assessment (TA). The TA com- process, identify alternative paths, fallback positions,\nprises two parts, a Technology Maturity Assessment and performance descope options. The information\n(TMA) and an Advancement Degree of Difficulty is also vital to preparing milestones and metrics for\nAssessment (AD2). The process begins with the TMA subsequent Earned Value Management (EVM).\nwhich is used to determine technological maturity\nvia NASA’s Technology Readiness Level (TRL) scale. The TMA is performed against the hierarchical\nIt then proceeds to develop an understanding of what breakdown of the hardware and software products\nis required to advance the level of maturity through of the program/project PBS to achieve a systematic,\nthe AD2. It is necessary to conduct TAs at various overall understanding at the system, subsystem, and\nstages throughout a program/project to provide the component levels. (See FIGURE G.1-1.)\nKey Decision Point (KDP) products required for\ntransition between phases. (See TABLE G.1-1.)\n G.2 Inputs/Entry Criteria\nThe initial TMA provides the baseline maturity of It is extremely important that a TA process be defined\nthe system’s required technologies at program/project at the beginning of the program/project and that it\noutset and allows monitoring progress throughout be performed at the earliest possible stage (concept\ndevelopment. The final TMA is performed just prior development) and throughout the program/proj-\nto the Preliminary Design Review (PDR). It forms ect through PDR. Inputs to the process will vary in\nthe basis for the Technology Readiness Assessment level of detail according to the phase of the program/\nReport (TRAR), which documents the maturity project, and even though there is a lack of detail in\nof the technological advancement required by the Pre-Phase A, the TA will drive out the major critical\n\n\n\n 207",
+          "score": 5.71422147890331,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 5.4619396276407635,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "score": 5.356385615145152,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "random vibration qualification level",
+      "results": [
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 10.45799801752947,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 10.145730703101176,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 5.4619396276407635,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0100",
+          "page": 100,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n DIFFERENCES BETWEEN VERIFICATION, QUALIFICATION,\n ACCEPTANCE AND CERTIFICATION\n\n\n Verification: Verification is a formal process, using the method of test, analysis, inspection or\n demonstration, to confirm that a system and its associated hardware and software components satisfy all\n specified requirements. The Verification program is performed once regardless of how many flight units may\n be generated (as long as the design doesn’t change).\n\n\n Qualification: Qualification activities are performed to ensure that the flight unit design will meet functional\n and performance requirements in anticipated environmental conditions. A subset of the verification program\n is performed at the extremes of the environmental envelope and will ensure the design will operate properly\n with the expected margins. Qualification is performed once regardless of how many flight units may be\n generated (as long as the design doesn’t change).\n\n\n Acceptance: smaller subset of the verification program is selected as criteria for the acceptance program.\n The selected Acceptance activities are performed on each of the flight units as they are manufactured and\n readied for flight/use. An Acceptance Data Package is prepared for each of the flight units and shipped with\n the unit. The acceptance test/analysis criteria are selected to show that the manufacturing/workmanship of\n the unit conforms to the design that was previously verified/qualified. Acceptance testing is performed for\n each flight unit produced.\n\n\n Certification: Certification is the audit process by which the body of evidence that results from the\n verification activities and other activities are provided to the appropriate certifying authority to indicate the\n design is certified for flight/use. The Certification activity is performed once regardless of how many flight\n units may be generated.\n\n\n\n\n\n5.3.1.2 Process Activities (QA) personnel are also critical in the verification\nThere are five major activities in the Product planning and execution activities.\nVerification Process: (1) prepare to conduct prod-\nuct verification; (2) perform verification; (3) analyze A verification approach should be adapted (tailored)\nverification results; (4) preparing a product verifica- to the project it supports. The project manager and\ntion report; and (5) capture work products generated systems engineer should work with the verification\nduring the verification activities. lead engineer to develop a verification approach and\n plan the activities. Many factors need to be consid-\nProduct Verification is often performed by the devel- ered in developing this approach and the subsequent\noper that produced the end product with participa- verification program. These factors include:\ntion of the end user and customer. Quality Assurance\n\n\n\n 90",
+          "score": 5.135828834217575,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 4.988741138279436,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0137",
+          "page": 137,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n ENVIRONMENTS\n\n\n Relevant Environment: Not all systems, subsystems, and/or components need to be operated in the\n operational environment in order to satisfactorily address performance margin requirements or stakeholder\n expectations. Consequently, the relevant environment is the specific subset of the operational environment\n that is required to demonstrate critical “at risk” aspects of the final product performance in an operational\n environment.\n\n\n Operational Environment: The environment in which the final product will be operated. In the case of\n space flight hardware/software, it is space. In the case of ground-based or airborne systems that are not\n directed toward space flight, it is the environments defined by the scope of operations. For software, the\n environment is defined by the operational platform.\n\n\n\n• concept description (paper report); prototype is not acceptable: it is usually completed\n• engineering unit (functional but may not be same on a qualification, flight, or other more final, con-\n form/fit); trolled unit.\n• prototype (product with form, fit, and function);\n• design validation test units (form, fit, and func-\n tion may be the same, but they may not have NOTE: In planning for validation, consideration\n flight parts); should be given to the extent to which validation\n• qualification unit (identical to flight unit but may testing will be done. In many instances, off-nominal\n be subjected to extreme environments); and operational scenarios and nominal operational sce-\n• flight unit (end product that is flown). narios should be utilized. Off-nominal testing offers\n insight into a system’s total performance charac-\nAny of these types of product forms may be in any of teristics and often assists in identifying the design\nthese states: issues and human-machine interface, training, and\n procedural changes required to meet the mission\n• produced (built, fabricated, manufactured, or goals and objectives. Off-nominal testing as well as\n coded); nominal testing should be included when planning\n• reused (modified internal non-developmental for validation.\n products or off-the-shelf product); or\n• assembled and integrated (a composite of lower\n level products). For additional information on technical plans, refer\n to the following appendices of this document and to\n NOTE: The final, official validation of the end Section 6.1.1.2.4 of the NASA Expanded Guidance\n product should be for a controlled unit. Typically, for Systems Engineering at https://nen.nasa.gov/web/\n attempting final validation against the ConOps on a se/doc-repository:\n\n\n\n\n\n 127",
+          "score": 4.834853826649608,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "score": 4.381019688804649,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"random vibration\" qualification \"g\"",
+      "results": [
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 9.28281132752634,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 9.090235090369008,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 5.448384398187179,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 5.327284897954553,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0221",
+          "page": 221,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n\n\n\n System test, launch, TRL 9 Actual system “flight proven” thr ough successful\n and operations __ mission operations\n\n\n System/subsystem TRL 8 Actual system completed and “flight qualified” through”\n development __ test and demonstration (ground or flight)\n\n\n TRL 7 System prototype demonstration in a\n target/space environment\n Technology __\n demonstration TRL 6 System/subsystem model or prototype demonstration\n __ in a relevant environment (ground or space)\n\n\n Technology TRL 5 Component and/or breadboard validation in relevant\n development __ environment\n\n\n TRL 4 Component and/or breadboard validation in laboratory\n Research to prove __ environment\n feasibility\n TRL 3 Analytical and experimental critical function and/or\n __ characteristic proof-of-concept\n\n Basic technology\n research TRL 2 Technology concept and/or application form ulated\n __\n\n\n TRL 1 Basic principles observed and reported\n\n\n\n\n FIGURE G.4-1 Technology Readiness Levels\n\n\nprimarily to units that are subjected to different levels with clear definitions, judgment calls will be required\nof stress under testing, e.g., qualification, protoflight, when it comes time to assess just how similar a given\nand flight units. The first step in developing a uni- element is relative to what is needed (i.e., is it close\nform TRL assessment (see FIGURE G.4-2) is to define enough to a prototype to be considered a proto-\nthe terms used. It is extremely important to develop type, or is it more like an engineering breadboard?).\nand use a consistent set of definitions over the course Describing what has been done in terms of form, fit,\nof the program/project. and function provides a means of quantifying an\n element based on its design intent and subsequent\nJudgment Calls performance. The current definitions for software\nHaving established a common set of terminology, it TRLs are contained in NPR 7123.1, NASA Systems\nis necessary to proceed to the next step: quantifying Engineering Processes and Requirements.\n“judgment calls” on the basis of past experience. Even\n\n\n\n 211",
+          "score": 5.19912923349938,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0100",
+          "page": 100,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n DIFFERENCES BETWEEN VERIFICATION, QUALIFICATION,\n ACCEPTANCE AND CERTIFICATION\n\n\n Verification: Verification is a formal process, using the method of test, analysis, inspection or\n demonstration, to confirm that a system and its associated hardware and software components satisfy all\n specified requirements. The Verification program is performed once regardless of how many flight units may\n be generated (as long as the design doesn’t change).\n\n\n Qualification: Qualification activities are performed to ensure that the flight unit design will meet functional\n and performance requirements in anticipated environmental conditions. A subset of the verification program\n is performed at the extremes of the environmental envelope and will ensure the design will operate properly\n with the expected margins. Qualification is performed once regardless of how many flight units may be\n generated (as long as the design doesn’t change).\n\n\n Acceptance: smaller subset of the verification program is selected as criteria for the acceptance program.\n The selected Acceptance activities are performed on each of the flight units as they are manufactured and\n readied for flight/use. An Acceptance Data Package is prepared for each of the flight units and shipped with\n the unit. The acceptance test/analysis criteria are selected to show that the manufacturing/workmanship of\n the unit conforms to the design that was previously verified/qualified. Acceptance testing is performed for\n each flight unit produced.\n\n\n Certification: Certification is the audit process by which the body of evidence that results from the\n verification activities and other activities are provided to the appropriate certifying authority to indicate the\n design is certified for flight/use. The Certification activity is performed once regardless of how many flight\n units may be generated.\n\n\n\n\n\n5.3.1.2 Process Activities (QA) personnel are also critical in the verification\nThere are five major activities in the Product planning and execution activities.\nVerification Process: (1) prepare to conduct prod-\nuct verification; (2) perform verification; (3) analyze A verification approach should be adapted (tailored)\nverification results; (4) preparing a product verifica- to the project it supports. The project manager and\ntion report; and (5) capture work products generated systems engineer should work with the verification\nduring the verification activities. lead engineer to develop a verification approach and\n plan the activities. Many factors need to be consid-\nProduct Verification is often performed by the devel- ered in developing this approach and the subsequent\noper that produced the end product with participa- verification program. These factors include:\ntion of the end user and customer. Quality Assurance\n\n\n\n 90",
+          "score": 5.135828834217575,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "score": 4.694134974036736,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0100",
+          "page": 100,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n DIFFERENCES BETWEEN VERIFICATION, QUALIFICATION,\n ACCEPTANCE AND CERTIFICATION\n\n\n Verification: Verification is a formal process, using the method of test, analysis, inspection or\n demonstration, to confirm that a system and its associated hardware and software components satisfy all\n specified requirements. The Verification program is performed once regardless of how many flight units may\n be generated (as long as the design doesn’t change).\n\n\n Qualification: Qualification activities are performed to ensure that the flight unit design will meet functional\n and performance requirements in anticipated environmental conditions. A subset of the verification program\n is performed at the extremes of the environmental envelope and will ensure the design will operate properly\n with the expected margins. Qualification is performed once regardless of how many flight units may be\n generated (as long as the design doesn’t change).\n\n\n Acceptance: smaller subset of the verification program is selected as criteria for the acceptance program.\n The selected Acceptance activities are performed on each of the flight units as they are manufactured and\n readied for flight/use. An Acceptance Data Package is prepared for each of the flight units and shipped with\n the unit. The acceptance test/analysis criteria are selected to show that the manufacturing/workmanship of\n the unit conforms to the design that was previously verified/qualified. Acceptance testing is performed for\n each flight unit produced.\n\n\n Certification: Certification is the audit process by which the body of evidence that results from the\n verification activities and other activities are provided to the appropriate certifying authority to indicate the\n design is certified for flight/use. The Certification activity is performed once regardless of how many flight\n units may be generated.\n\n\n\n\n\n5.3.1.2 Process Activities (QA) personnel are also critical in the verification\nThere are five major activities in the Product planning and execution activities.\nVerification Process: (1) prepare to conduct prod-\nuct verification; (2) perform verification; (3) analyze A verification approach should be adapted (tailored)\nverification results; (4) preparing a product verifica- to the project it supports. The project manager and\ntion report; and (5) capture work products generated systems engineer should work with the verification\nduring the verification activities. lead engineer to develop a verification approach and\n plan the activities. Many factors need to be consid-\nProduct Verification is often performed by the devel- ered in developing this approach and the subsequent\noper that produced the end product with participa- verification program. These factors include:\ntion of the end user and customer. Quality Assurance\n\n\n\n 90",
+          "image_path": "data/local/advanced/pages/p0100_2000.png",
+          "image_sha256": "abd9d78316f0595262b69ce55cd81a7f96a3af027675e36523e61c985aeb8a49"
+        },
+        {
+          "source_id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "image_path": "data/local/advanced/pages/p0135_2000.png",
+          "image_sha256": "723104894e9f201096dc8f66cdde231b8650f395ad2f7fffb1144508c1f2a2e5"
+        },
+        {
+          "source_id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "image_path": "data/local/advanced/pages/p0229_2000.png",
+          "image_sha256": "e0b3c9f8a268350e8a3dc576454d42ff2227c70f5c3b9fb8377af908a7fb7914"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "random vibration g rms qualification NASA Systems Engineering Handbook",
+      "results": [
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 10.574789854624887,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 10.223003594881783,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 8.574104467219666,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "score": 7.7884381785035925,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0040",
+          "page": 40,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n SPACE FLIGHT PHASE D:\n SYSTEM ASSEMBLY, INTEGRATION AND TEST, LAUNCH\n\n\nPurpose\nTo assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence\nthat it will be able to meet the system requirements. Launch and prepare for operations. Perform system\nend product implementation, assembly, integration and test, and transition to use.\n\n\nTypical Activities and Their Products\n• Update documents developed and baselined in previous phases\n• Monitor project progress against plans\n• Identify and update risks\n• Integrate/assemble components according to the integration plans\n• Perform verification and validation on assemblies according to the V&V Plan and procedures\n > Perform system qualification verifications, including environmental verifications\n > Perform system acceptance verifications and validation(s) (e.g., end-to-end tests encompassing all\n elements; i.e., space element, ground system, data processing system)\n > Assess and approve verification and validation results\n > Resolve verification and validation discrepancies\n > Archive documentation for verifications and validations performed\n > Baseline verification and validation report\n• Prepare and baseline\n > Operator’s manuals\n > Maintenance manuals\n > Operations handbook\n• Prepare launch, operations, and ground support sites including training as needed\n > Train initial system operators and maintainers\n > Train on contingency planning\n > Confirm telemetry validation and ground data processing\n > Confirm system and support elements are ready for flight\n > Provide support to the launch and checkout of the system\n > Perform planned on-orbit operational verification(s) and validation(s)\n• Document lessons learned. Perform required Phase D technical activities from NPR 7120.5\n• Satisfy Phase D reviews’ entrance/success criteria from NPR 7123.1\n\n\nReviews\n• Test Readiness Reviews (TRRs)\n• System Acceptance Review (SAR) or pre-Ship Review\n• ORR\n\n (continued)\n\n\n 30",
+          "score": 7.768185139300719,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 7.602562292074611,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0008",
+          "page": 8,
+          "text": "Preface\n\n\n\n ince the initial writing of NASA/SP-6105 in 1995 The update of this handbook continues the methodol-\nSand the following revision (Rev 1) in 2007, systems ogy of the previous revision: a top-down compatibility\nengineering as a discipline at the National Aeronautics with higher level Agency policy and a bottom-up infu-\nand Space Administration (NASA) has undergone sion of guidance from the NASA practitioners in the\nrapid and continued evolution. Changes include field. This approach provides the opportunity to obtain\nusing Model-Based Systems Engineering to improve best practices from across NASA and bridge the infor-\ndevelopment and delivery of products, and accommo- mation to the established NASA systems engineering\ndating updates to NASA Procedural Requirements processes and to communicate principles of good prac-\n(NPR) 7123.1. Lessons learned on systems engi- tice as well as alternative approaches rather than spec-\nneering were documented in reports such as those ify a particular way to accomplish a task. The result\nby the NASA Integrated Action Team (NIAT), the embodied in this handbook is a top-level implemen-\nColumbia Accident Investigation Board (CAIB), and tation approach on the practice of systems engineer-\nthe follow-on Diaz Report. Other lessons learned were ing unique to NASA. Material used for updating this\ngarnered from the robotic missions such as Genesis handbook has been drawn from many sources, includ-\nand the Mars Reconnaissance Orbiter as well as from ing NPRs, Center systems engineering handbooks and\nmishaps from ground operations and the commercial processes, other Agency best practices, and external\nspace flight industry. Out of these reports came the systems engineering textbooks and guides.\nNASA Office of the Chief Engineer (OCE) initia-\ntive to improve the overall Agency systems engineer- This handbook consists of six chapters: (1) an intro-\ning infrastructure and capability for the efficient and duction, (2) a systems engineering fundamentals dis-\neffective engineering of NASA systems, to produce cussion, (3) the NASA program/project life cycles,\nquality products, and to achieve mission success. This (4) systems engineering processes to get from a con-\nhandbook update is a part of that OCE-sponsored cept to a design, (5) systems engineering processes to\nAgency-wide systems engineering initiative. get from a design to a final product, and (6) crosscut-\n ting management processes in systems engineering.\nIn 1995, SP-6105 was initially published to bring the The chapters are supplemented by appendices that\nfundamental concepts and techniques of systems engi- provide outlines, examples, and further information\nneering to NASA personnel in a way that recognized to illustrate topics in the chapters. The handbook\nthe nature of NASA systems and the NASA environ- makes extensive use of boxes and figures to define,\nment. This revision (Rev 2) of SP-6105 maintains that refine, illustrate, and extend concepts in the chapters.\noriginal philosophy while updating the Agency’s sys-\ntems engineering body of knowledge, providing guid- Finally, it should be noted that this handbook provides\nance for insight into current best Agency practices, top-level guidance for good systems engineering prac-\nand maintaining the alignment of the handbook with tices; it is not intended in any way to be a directive.\nthe Agency’s systems engineering policy.\n NASA/SP-2016-6105 Rev2 supersedes SP-2007-6105 Rev 1\n dated December, 2007.\n\n viii",
+          "score": 7.587411045835419,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Grms",
+      "results": []
+    },
+    {
+      "tool": "search",
+      "query": "\"random\" \"vibration\" \"RMS\"",
+      "results": [
+        {
+          "id": "NASA-SE:p0134",
+          "page": 134,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nat a detailed technical level, plays a pivotal role in • simulated (algorithmic models, virtual reality\nbottom-up product realization. simulator);\n • mock-up (plywood, brassboard, breadboard);\nA phase product can be verified recursively through- • concept description (paper report);\nout the project life cycle and on a wide variety of • engineering unit (fully functional but may not be\nproduct forms. For example: same form/fit);\n • prototype (form, fit, and function);\n\n\n\n\n TYPES OF HARDWARE\n\n\n Breadboard: A low fidelity unit that demonstrates function only without considering form or fit in the case\n of hardware or platform in the case of software. It often uses commercial and/or ad hoc components and is\n not intended to provide definitive information regarding operational performance.\n\n\n Brassboard: A medium fidelity functional unit that typically tries to make use of as much operational\n hardware/software as possible and begins to address scaling issues associated with the operational\n system. It does not have the engineering pedigree in all aspects, but is structured to be able to operate in\n simulated operational environments in order to assess performance of critical functions.\n\n\n Engineering Unit: A high fidelity unit that demonstrates critical aspects of the engineering processes\n involved in the development of the operational unit. Engineering test units are intended to closely resemble\n the final product (hardware/software) to the maximum extent possible and are built and tested so as\n to establish confidence that the design will function in the expected environments. In some cases, the\n engineering unit will become the final product, assuming proper traceability has been exercised over the\n components and hardware handling.\n\n\n Prototype Unit: The prototype unit demonstrates form, fit, and function at a scale deemed to be\n representative of the final product operating in its operational environment. A subscale test article provides\n fidelity sufficient to permit validation of analytical models capable of predicting the behavior of full-scale\n systems in an operational environment.\n\n\n Qualification Unit: A unit that is the same as the flight unit (form, fit, function, components, etc.) that will be\n exposed to the extremes of the environmental criteria (thermal, vibration, etc.). The unit will typically not be\n flown due to these off-nominal stresses.\n\n\n Protoflight Unit: In projects that will not develop a qualification unit, the flight unit may be designated as a\n protoflight unit and a limited version of qualification test ranges will be applied. This unit will be flown.\n\n\n Flight Unit: The end product that will be flown and will typically undergo acceptance level testing.\n\n\n\n 124",
+          "score": 4.394808333522607,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 4.272708314388651,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 4.03553477833876,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0100",
+          "page": 100,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n DIFFERENCES BETWEEN VERIFICATION, QUALIFICATION,\n ACCEPTANCE AND CERTIFICATION\n\n\n Verification: Verification is a formal process, using the method of test, analysis, inspection or\n demonstration, to confirm that a system and its associated hardware and software components satisfy all\n specified requirements. The Verification program is performed once regardless of how many flight units may\n be generated (as long as the design doesn’t change).\n\n\n Qualification: Qualification activities are performed to ensure that the flight unit design will meet functional\n and performance requirements in anticipated environmental conditions. A subset of the verification program\n is performed at the extremes of the environmental envelope and will ensure the design will operate properly\n with the expected margins. Qualification is performed once regardless of how many flight units may be\n generated (as long as the design doesn’t change).\n\n\n Acceptance: smaller subset of the verification program is selected as criteria for the acceptance program.\n The selected Acceptance activities are performed on each of the flight units as they are manufactured and\n readied for flight/use. An Acceptance Data Package is prepared for each of the flight units and shipped with\n the unit. The acceptance test/analysis criteria are selected to show that the manufacturing/workmanship of\n the unit conforms to the design that was previously verified/qualified. Acceptance testing is performed for\n each flight unit produced.\n\n\n Certification: Certification is the audit process by which the body of evidence that results from the\n verification activities and other activities are provided to the appropriate certifying authority to indicate the\n design is certified for flight/use. The Certification activity is performed once regardless of how many flight\n units may be generated.\n\n\n\n\n\n5.3.1.2 Process Activities (QA) personnel are also critical in the verification\nThere are five major activities in the Product planning and execution activities.\nVerification Process: (1) prepare to conduct prod-\nuct verification; (2) perform verification; (3) analyze A verification approach should be adapted (tailored)\nverification results; (4) preparing a product verifica- to the project it supports. The project manager and\ntion report; and (5) capture work products generated systems engineer should work with the verification\nduring the verification activities. lead engineer to develop a verification approach and\n plan the activities. Many factors need to be consid-\nProduct Verification is often performed by the devel- ered in developing this approach and the subsequent\noper that produced the end product with participa- verification program. These factors include:\ntion of the end user and customer. Quality Assurance\n\n\n\n 90",
+          "image_sha256": "abd9d78316f0595262b69ce55cd81a7f96a3af027675e36523e61c985aeb8a49"
+        },
+        {
+          "source_id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "image_sha256": "723104894e9f201096dc8f66cdde231b8650f395ad2f7fffb1144508c1f2a2e5"
+        },
+        {
+          "source_id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "image_sha256": "e0b3c9f8a268350e8a3dc576454d42ff2227c70f5c3b9fb8377af908a7fb7914"
+        }
+      ],
+      "result": {
+        "status": "abstain",
+        "claims": []
+      }
+    }
+  ],
+  "viewed_pages": [
+    100,
+    135,
+    229
+  ],
+  "draft_answer": {
+    "status": "abstain",
+    "claims": []
+  },
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 39737.84
+}

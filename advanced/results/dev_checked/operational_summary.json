@@ -1,0 +1,15 @@
+{
+  "N": 18,
+  "statuses": {
+    "answered": 17,
+    "abstain": 1,
+    "error": 0
+  },
+  "elapsed_ms_sum": 168116.16,
+  "usage": {
+    "prompt_tokens": 442681,
+    "completion_tokens": 5249,
+    "total_tokens": 447930
+  },
+  "quality": "Not scored; requires per-question source/citation review, errors remain in denominator"
+}

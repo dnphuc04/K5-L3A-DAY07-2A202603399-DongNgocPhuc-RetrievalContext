@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-15",
+  "split": "test",
+  "question": "In Figure 4.4-3, what do the differently shaded areas represent?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4pLqtZjlReRk1T3157fA7woQcJp",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 640,
+        "completion_tokens": 52,
+        "total_tokens": 692,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 20,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1709.18,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_p22AwbtWCWdnwcXvhnUE6ZSG",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.4-3 differently shaded areas represent\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4pNxy80Zhvvj3IQAyT1dg3EN02Q",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 6100,
+        "completion_tokens": 62,
+        "total_tokens": 6162,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 33,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2089.36,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_HJxDfM3tfStpPYmdW3msFYL2",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0081\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4pQ5sM0ovCsMySAlLYAAnZ0ca3Z",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10600,
+        "completion_tokens": 140,
+        "total_tokens": 10740,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 46,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3594.45,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_fbTd6DV6ZqrUpMWb3yF28zMR",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 4.4-3, the differently shaded areas indicate different levels of uncertainty.\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3 note (below figure)\",\"evidence\":\"“Note: The different shaded areas indicate different levels of uncertainty.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4pU7xXwE1X8amjEOxJ5TG19yOhD",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4873,
+        "completion_tokens": 88,
+        "total_tokens": 4961,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2848.57,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_DACRlBBLOpP1RPIRg07syU7u",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 4.4-3, the different shaded areas indicate different levels of uncertainty.\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3 note (below figure)\",\"evidence\":\"“Note: The different shaded areas indicate different levels of uncertainty.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.4-3, what do the differently shaded areas represent?",
+      "results": [
+        {
+          "id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "score": 16.267741115083997,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 6.379827992790716,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0080",
+          "page": 80,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nmanagers—should cooperate. The right quantita- to find regions of the design space that warrant fur-\ntive methods and selection criteria should be used. ther investigation.\nTrade study assumptions, models, and results should\nbe documented as part of the project archives. The Whether system models are used or not, the design\nparticipants should remain focused on the functional concepts are developed, modified, reassessed, and\nrequirements, including those for enabling products. compared against competing alternatives in a closed-\nFor an in-depth discussion of the trade study process, loop process that seeks the best choices for further\nsee Section 6.8. The ability to perform these studies is development. System and subsystem sizes are often\nenhanced by the development of system models that determined during the trade studies. The end result is\nrelate the design parameters to those assessments, but the determination of bounds on the relative cost-ef-\nit does not depend upon them. fectiveness of the design alternatives, measured in\n terms of the quantified system goals. (Only bounds,\nThe technical team should consider a broad range rather than final values, are possible because deter-\nof concepts when developing the system model. The mination of the final details of the design is inten-\nmodel should define the roles of crew, operators, tionally deferred.) Increasing detail associated with\nmaintainers, logistics, hardware, and software in the continually improving resolution reduces the\nthe system. It should identify the critical technolo- spread between upper and lower bounds as the pro-\ngies required to implement the mission and should cess proceeds.\nconsider the entire life cycle from fabrication to\ndisposal. Evaluation criteria for selecting concepts 4.4.1.2.4 Select the Best Design Solution Alternative\nshould be established. Cost is always a limiting fac- The technical team selects the best design solution\ntor. However, other criteria, such as time to develop from among the alternative design concepts, taking\nand certify a unit, risk, and reliability, also are crit- into account subjective factors that the team was\nical. This stage cannot be accomplished without unable to quantify, such as robustness, as well as\naddressing the roles of operators and maintainers. estimates of how well the alternatives meet the quan-\nThese contribute significantly to life cycle costs and titative requirements; the maturity of the available\nto the system reliability. Reliability analysis should be technology; and any effectiveness, cost, schedule,\nperformed based upon estimates of component fail- risk, or other constraints.\nure rates for hardware and an understanding of the\nconsequences of these failures. If probabilistic risk The Decision Analysis Process, as described in\nassessment models are applied, it may be necessary to Section 6.8, should be used to make an evaluation of\ninclude occurrence rates or probabilities for software the alternative design concepts and to recommend\nfaults or human error events. These models should the “best” design solution.\ninclude hazard analyses and controls implemented\nthrough fault management. Assessments of the matu- When it is possible, it is usually well worth the trou-\nrity of the required technology should be done and a ble to develop a mathematical expression, called an\ntechnology development plan developed. “objective function,” that expresses the values of com-\n binations of possible outcomes as a single measure of\nControlled modification and development of design cost-effectiveness, as illustrated in FIGURE 4.4-3, even\nconcepts, together with such system models, often if both cost and effectiveness should be described by\npermits the use of formal optimization techniques more than one measure.\n\n\n\n 70",
+          "score": 3.281484285445279,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0220",
+          "page": 220,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nnecessary to perform detailed architecture studies 1980s. The TRL essentially describes the state of a\nwith the Technology Assessment Process intimately given technology and provides a baseline from which\ninterwoven. (See FIGURE G.3-2.) maturity is gauged and advancement defined. (See\n FIGURE G.4-1.)\n\n Requir e-Concepts Architectural System\n ments Stud ies Design Programs are often undertaken without fully under-\n standing either the maturity of key technologies\n TRL/AD2 Assessment or what is needed to develop them to the required\n level. It is impossible to understand the magnitude and\n Tec hnology Maturation scope of a development program without having a clear\n understanding of the baseline technological maturity of\n FIGURE G.3-2 Architectural Studies and Technology all elements of the system. Establishing the TRL is a\n Development vital first step on the way to a successful program. A\n frequent misconception is that in practice, it is too\nThe purpose of the architecture studies is to refine difficult to determine TRLs and that when you do,\nend-item system design to meet the overall scientific it is not meaningful. On the contrary, identifying\nrequirements of the mission. It is imperative that TRLs can be a straightforward systems engineering\nthere be a continuous relationship between architec- process of determining what was demonstrated and\ntural studies and maturing technology advances. The under what conditions it was demonstrated.\narchitectural studies should incorporate the results of\nthe technology maturation, planning for alternative Terminology\npaths and identifying new areas required for devel- At first glance, the TRL descriptions in FIGURE G.4-1\nopment as the architecture is refined. Similarly, it appear to be straightforward. It is in the process of\nis incumbent upon the technology maturation pro- trying to assign levels that problems arise. A primary\ncess to identify requirements that are not feasible cause of difficulty is in terminology; e.g., everyone\nand development routes that are not fruitful and to knows what a breadboard is, but not everyone has\ntransmit that information to the architecture studies the same definition. Also, what is a “relevant envi-\nin a timely manner. It is also incumbent upon the ronment?” What is relevant to one application may\narchitecture studies to provide feedback to the tech- or may not be relevant to another. Many of these\nnology development process relative to changes in terms originated in various branches of engineering\nrequirements. Particular attention should be given and had, at the time, very specific meanings to that\nto “heritage” systems in that they are often used in particular field. They have since become commonly\narchitectures and environments different from those used throughout the engineering field and often\nin which they were designed to operate. acquire differences in meaning from discipline to\n discipline, some differences subtle, some not so sub-\n tle. “Breadboard,” for example, comes from electrical\nG.4 Establishing TRLs engineering where the original use referred to check-\nA Technology Readiness Level (TRL) is, at its most ing out the functional design of an electrical circuit\nbasic, a description of the performance history of a by populating a “breadboard” with components to\ngiven system, subsystem, or component relative to verify that the design operated as anticipated. Other\na set of levels first described at NASA HQ in the terms come from mechanical engineering, referring\n\n\n\n 210",
+          "score": 11.239686183085094,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0058",
+          "page": 58,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission Mission Operational Success Design\n Goals Objectives Objectives Criteria Drivers\n\n\n\n\n\n\n\n • Agency Strategic • Science Objectives Operational Drivers Measurements Mission Drivers\n Plans • Exploration • Integration and • What • Launch Date\n • Announcements Objectives Test measurements? • Mission Duration\n of Opportunity • Technology • Launch • How well? • Orbit\n • Road Maps Demonstration • On-Orbit • Cost Constraints\n • Directed Missions Objectives • Transfer • Etc.\n • Technology • Surface\n Development • Science Data Explorations\n Objectives Distribution • What\n • Programmatic • Maintenance explorations?\n Objectives • Logistics • What goals?\n • Etc.\n\n\n FIGURE 4.1-2 Information Flow for Stakeholder Expectations\n\n\nobjectives form the basis for developing the mission, In identifying the full set of expectations, the systems\nso they need to be clearly defined and articulated. engineer will need to interact with various commu-\n nities, such as those working in the areas of orbital\nThe project team should also identify the constraints debris, space asset protection, human systems inte-\nthat may apply. A “constraint” is a condition that is to gration, quality assurance, and reliability. Ensuring\nbe met. Sometimes a constraint is dictated by external that a complete set of expectations is captured will\nfactors such as orbital mechanics, an existing system help prevent “surprise” features from arising later in\nthat must be utilized (external interface), a regu- the life cycle. For example, space asset protection may\nlatory restriction, or the state of technology; some- require additional encryption for the forward link\ntimes constraints are the result of the overall budget commands, additional shielding or filtering for RF\nenvironment. Concepts of operation and constraints systems, use of a different frequency, or other design\nalso need to be included in defining the stakeholder changes that might be costly to add to a system that\nexpectations. These identify how the system should has already been developed.\nbe operated to achieve the mission objectives.\n 4.1.1.2.3 Identify Needs, Goals, and Objectives\n In order to define the goals and objectives, it is nec-\n NOTE: It is extremely important to involve stake- essary to elicit the needs, wants, desires, capabilities,\n holders in all phases of a project. Such involvement external interfaces, assumptions, and constraints\n should be built in as a self-correcting feedback loop from the stakeholders. Arriving at an agreed-to set of\n that will significantly enhance the chances of mis- goals and objectives can be a long and arduous task.\n sion success. Involving stakeholders in a project Proactive iteration with the stakeholders throughout\n builds confidence in the end product and serves as a the systems engineering process is the way that all par-\n validation and acceptance with the target audience. ties can come to a true understanding of what should\n be done and what it takes to do the job. It is important\n\n\n\n 48",
+          "score": 10.63727152919529,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0015",
+          "page": 15,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n PROJECT MANAGEMENT\n\nPROJECT MANAGEMENT ACTIVITIES\n\n• Setting up Project Team • Identifying Programmatic Risks\n• Programmatic Stakeholders (non-technical, non-business) • Technology Transfer and Commercialization\n• Programmatic Planning (non-technical, non-business) • Integration of technical and non-technical activities\n• Identifying Programmatic (non-technical) requirements • Overall Approver/Decider\n\n\n\n\n\n Systems Engineering\n\n System Design Processes\n • Stakeholder Expectations DefinitionCommon\n • Technical Requirement’s Definition Areas PP&C\n • Logical Decomposition\n • Design Solution Definition • Stakeholders • PP&C Integration\n Product Realization Processes • Risks • Resource Management\n • Product Implementation • Configuration • Scheduling\n • Product Integration Management • Cost Estimation & Assessment\n • Product Verification • Data\n • Product Validation Management • Acquisition & Contract\n • Product Transition • Reviews Management\n Technical Management Processes • Schedule • Risk Management\n • Technical Planning • CM/DM\n • Requirements Management\n • Interface Management\n • Technical Risk Management\n • Configuration Management\n • Technical Data Management\n • Technical Assessment\n • Decision Analyses\n\n\n\n FIGURE 2.0-1 SE in Context of Overall Project Management\n\n\n\n\ndocument, but an overview is given in the following by the NPR systems engineering “engine” shown in\nsubsections of this chapter. FIGURE 2.1-1. The processes of the SE engine are used\n to develop and realize the end products. This chap-\n ter provides the application context of the 17 com-\n2.1 The Common Technical mon technical processes required in NPR7123.1.\n Processes and the SE Engine The system design processes, the product realization\n processes, and the technical management processes\nThere are three sets of common technical processes in are discussed in more detail in Chapters 4.0, 5.0, and\nNPR 7123.1, NASA Systems Engineering Processes 6.0, respectively. Processes 1 through 9 indicated in\nand Requirements: system design, product realiza- FIGURE 2.1-1 represent the tasks in the execution of a\ntion, and technical management. The processes in project. Processes 10 through17 are crosscutting tools\neach set and their interactions and flows are illustrated for carrying out the processes.\n\n\n\n 5",
+          "score": 9.918560518397243,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0240",
+          "page": 240,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nthe specific tailoring of the requirements to the system Key Questions\nand the project; the procedures to be used in implement- 1. How and when will we insert new of special\ning the processes; in-house documentation; trade study technology into the project?\nmethodology; types of mathematical and/or simulation 2. What is the relationship to research and\nmodels to be used; and generation of specifications. development efforts? How will they sup-\n\n port the project? How will the results be\n Key Questions incorporated?\n 1. What are the systems engineering processes 3. How will we incorporate system elements\n for this project? provided by others? How will these items be\n 2. What are the methods that we will apply for certified for adequacy?\n each systems engineering task? 4. What facilities are required?\n 3. What are the tools we will use to support these 5. When and how will these items be transi-\n methods? How will the tools be integrated? tioned to be part of the configuration?\n 4. How will we control configuration development?\n 5. How and when will we conduct technical 7.0 Additional SE Functions and\n reviews?\n 6. How will we establish the need for and man- Activities\n age trade-off studies? This section describes other areas not specifically included\n 7. Who has authorization for technical change in previous sections but that are essential for proper plan-\n control? ning and conduct of the overall technical effort.\n\n 8. How will we manage requirements? inter- 7.1 System Safety\n faces? documentation?\n This section describes the approach and methods for con-\n ducting safety analysis and assessing the risk to operators,\n6.0 Technology Insertion the system, the environment, or the public.\nThis section describes the approach and methods for\nidentifying key technologies and their associated risks 7.2 Engineering Methods and Tools\nand criteria for assessing and inserting technologies, This section describes the methods and tools that are\nincluding those for inserting critical technologies from not included in the technology insertion sections but\ntechnology development projects. An approach should be are needed to support the overall technical effort. It\ndeveloped for appropriate level and timing of technology identifies those tools to be acquired and tool training\ninsertion. This could include alternative approaches to requirements.\ntake advantage of new technologies to meet systems needs\nas well as alternative options if the technologies do not This section defines the development environment for\nprove appropriate in result or timing. The strategy for the project, including automation, simulation, and soft-\nan initial technology assessment within the scope of the ware tools. If required, it describes the tools and facilities\nproject requirements should be provided to identify tech- that need to be developed or acquired for all disciplines\nnology constraints for the system. on the project. It describes important enabling strategies\n such as standardizing tools across the project, or utiliz-\n ing a common input and output format to support a\n\n\n\n\n\n 230",
+          "score": 9.167222227552905,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "image_path": "data/local/advanced/pages/p0081_2000.png",
+          "image_sha256": "9f978305b31d66df6d898f1f08043b210e08d8c6d783b4e112af4fe5851acbe0"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "image_sha256": "9f978305b31d66df6d898f1f08043b210e08d8c6d783b4e112af4fe5851acbe0"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 4.4-3, the different shaded areas indicate different levels of uncertainty.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0081",
+                "locator": "Figure 4.4-3 note (below figure)",
+                "evidence": "“Note: The different shaded areas indicate different levels of uncertainty.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    81
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 4.4-3, the differently shaded areas indicate different levels of uncertainty.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 note (below figure)",
+            "evidence": "“Note: The different shaded areas indicate different levels of uncertainty.”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 4.4-3, the different shaded areas indicate different levels of uncertainty.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "locator": "Figure 4.4-3 note (below figure)",
+          "evidence": "“Note: The different shaded areas indicate different levels of uncertainty.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 10337.74
+}

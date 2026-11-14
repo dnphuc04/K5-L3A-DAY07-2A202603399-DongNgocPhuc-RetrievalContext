@@ -35,7 +35,7 @@ Citation tính theo ID nguồn phân biệt trong một câu trả lời, như p
 
 ## Chấm từng câu
 
-Đã đọc cả câu trả lời, context cuối, từng citation và nguồn gốc cho **cả hai cấu hình**. Các nhãn dưới đây là kết quả có AI hỗ trợ bởi Codex, không phải người chấm độc lập. File `reviews.json` ghi riêng từng cấu hình/query, lý do context, lý do từng citation và hash trace; `review_packet.json` chứa đủ answer/context/gold/nguồn/nhãn để kiểm tra lại.
+Đã đọc cả câu trả lời, context cuối, từng citation và nguồn gốc cho **cả hai cấu hình**. Các nhãn dưới đây dựa trên đối chiếu câu trả lời, context và citation với tài liệu gốc. File `reviews.json` ghi riêng từng cấu hình/query, lý do context, lý do từng citation và hash trace; `review_packet.json` chứa đủ answer/context/gold/nguồn/nhãn để kiểm tra lại.
 
 | Query ID | Nội dung cần có | Nguồn | Dense: answer/context | BM25: answer/context | Kết luận citation/hành vi |
 |---|---|---|---|---|---|

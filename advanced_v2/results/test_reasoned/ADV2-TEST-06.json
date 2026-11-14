@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-06",
+  "split": "test",
+  "question": "At KDP B in Table G.1-1, which two products are updated and in which plan are they incorporated?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4njMHbDLGdG6G2xzI3XbrVf0ycv",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 648,
+        "completion_tokens": 28,
+        "total_tokens": 676,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1584.65,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_8pN2wKXyUFDpFJXWR1aVQ2RS",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table G.1-1 KDP B updated products incorporated plan\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nlH0u1xAarYAl4LL27yICDc9Zx",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5882,
+        "completion_tokens": 105,
+        "total_tokens": 5987,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 76,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2348.05,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_8U3MsaePWFYbXu1Sb463LRpg",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0217\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4noK3g1jJ3MTlPTJPx1TQW6bZsr",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10423,
+        "completion_tokens": 198,
+        "total_tokens": 10621,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 58,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4001.19,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KBhz3AYcqr5Aa4JVbg8BLN6T",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"At KDP B, the two products that are updated are the “Technology Development Plan” and the “Technology Readiness Assessment (TRA),” and they are “incorporated in the preliminary project plan.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0217\",\"locator\":\"Table G.1-1, row 'KDP B: Transition from Phase A to Phase B' (Product column)\",\"evidence\":\"“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nspasUsjfmYM8akPntGavDWJpl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4968,
+        "completion_tokens": 216,
+        "total_tokens": 5184,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 83,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4321.29,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nojWM2BH5tGA6YHWOc2vYO1J",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table G.1-1 at KDP B (Transition from Phase A to Phase B), the Technology Development Plan and the Technology Readiness Assessment (TRA) are updated, and they are incorporated in the preliminary project plan.\",\"citations\":[{\"source_id\":\"NASA-SE:p0217\",\"locator\":\"Table G.1-1, KDP B row (Product column)\",\"evidence\":\"“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "At KDP B in Table G.1-1, which two products are updated and in which plan are they incorporated?",
+      "results": [
+        {
+          "id": "NASA-SE:p0217",
+          "page": 217,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n TABLE G.1-1 Products Provided by the TA as a Function of Program/Project Phase\n Gate Product\n KDP A: Transition from Requires an assessment of potential technology needs versus current and planned\n Pre-Phase A to Phase A technology readiness levels, as well as potential opportunities to use commercial,\n academic, and other government agency sources of technology. Included as part of\n the draft integrated baseline. Technology Development Plan is baselined that identifies\n technologies to be developed, heritage systems to be modified, alternative paths to be\n pursued, fallback positions and corresponding performance descopes, milestones, metrics,\n and key decision points. Initial Technology Readiness Assessment (TRA) is available.\n\n KDP B: Transition from Technology Development Plan and Technology Readiness Assessment (TRA) are updated.\n Phase A to Phase B Incorporated in the preliminary project plan.\n\n KDP C: Transition from Requires a TRAR demonstrating that all systems, subsystems, and components have\n Phase B to Phase C/D achieved a level of technological maturity with demonstrated evidence of qualification in a\n relevant environment.\n\nSource: NPR 7120 .5 .\n\n\nA number of processes can be used to develop the systems, subsystems, and components demonstrated\nappropriate level of understanding required for through test and analysis. The initial AD2 provides the\nsuccessful technology insertion. The intent of this material necessary to develop preliminary cost and to\nappendix is to describe a systematic process that schedule plans and preliminary risk assessments. In\ncan be used as an example of how to apply standard subsequent assessments, the information is used to\nsystems engineering practices to perform a compre- build the Technology Development Plan and in the\nhensive Technology Assessment (TA). The TA com- process, identify alternative paths, fallback positions,\nprises two parts, a Technology Maturity Assessment and performance descope options. The information\n(TMA) and an Advancement Degree of Difficulty is also vital to preparing milestones and metrics for\nAssessment (AD2). The process begins with the TMA subsequent Earned Value Management (EVM).\nwhich is used to determine technological maturity\nvia NASA’s Technology Readiness Level (TRL) scale. The TMA is performed against the hierarchical\nIt then proceeds to develop an understanding of what breakdown of the hardware and software products\nis required to advance the level of maturity through of the program/project PBS to achieve a systematic,\nthe AD2. It is necessary to conduct TAs at various overall understanding at the system, subsystem, and\nstages throughout a program/project to provide the component levels. (See FIGURE G.1-1.)\nKey Decision Point (KDP) products required for\ntransition between phases. (See TABLE G.1-1.)\n G.2 Inputs/Entry Criteria\nThe initial TMA provides the baseline maturity of It is extremely important that a TA process be defined\nthe system’s required technologies at program/project at the beginning of the program/project and that it\noutset and allows monitoring progress throughout be performed at the earliest possible stage (concept\ndevelopment. The final TMA is performed just prior development) and throughout the program/proj-\nto the Preliminary Design Review (PDR). It forms ect through PDR. Inputs to the process will vary in\nthe basis for the Technology Readiness Assessment level of detail according to the phase of the program/\nReport (TRAR), which documents the maturity project, and even though there is a lack of detail in\nof the technological advancement required by the Pre-Phase A, the TA will drive out the major critical\n\n\n\n 207",
+          "score": 24.711523331713032,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0218",
+          "page": 218,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n 1.3\n Crew Launch\n Vehicle\n\n 1.3.8\n Launch\n Vehicle\n ...\n 1.3.8.1 1.3.8.2 1.3.8.3\n First Stage Upper Stage Upper Stage\n Engine\n... ...\n 1.3.8.2.4 1.3.8.2.5 1.3.8.2.6 1.3.8.2.7 1.3.8.2.8 1.3.8.2.9 1.3.8.2.10\n MPS US R CS FS R CS TVCS Avionics Software Integrated\n Test H/W...\n\n .1: Integ MPS .1: Integ RCS .1: Integ RCS .1: Integ TVCS.1: Integ Avionic s.1: Integ S/W.1: MPTA\n .2: LH System .2: Integ Energy .2: Actuator .2: C&DH System System .2: GVT\n .3: O2 Fluid Sys. Support .3: Hydraulic .3: GN&C H/W .2: Flight S/W .3: STA\n .4: Pressure & Power .4: Radio Frequency .4: US for DTF-1\n Pneumatic Sys. .4: APU System .5: US for VTF-2\n .5: Umbilicals & .5: EPS .6: US for RRF-3\n Disconnect .6: Electrical Integration\n .7: Struc. Therma l\n .7: Develop Flight InstrumentComponent Test\n\n .8: Sensor & Instrument System\n .9: EGSE\n .10: Integ CLV Avionics System\n Element Testing\n .11: Flight Safety Sys tem\n\n FIGURE G.1-1 PBS Example\n\n\ntechnological advancements required. Therefore, at G.3 How to Do Technology\nthe beginning of Pre-Phase A, the following should Assessment\nbe provided:\n The technology assessment process makes use of basic\n• Refinement of TRL definitions. systems engineering principles and processes. As\n• Definition of AD2. mentioned previously, it is structured to occur within\n• Definition of terms to be used in the assessment the framework of the Product Breakdown Structure\n process. (PBS) to facilitate incorporation of the results. Using\n• Establishment of meaningful evaluation criteria the PBS as a framework has a twofold benefit—it\n and metrics that will allow for clear identification breaks the “problem” down into systems, subsys-\n of gaps and shortfalls in performance. tems, and components that can be more accurately\n• Establishment of the TA team. assessed; and it provides the results of the assessment\n• Establishment of an independent TA review team. in a format that can be readily used in the generation\n\n\n\n\n\n 208",
+          "score": 3.499167924418374,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 7.77703849118201,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 5.341991367786941,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 15.129639595095341,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0036",
+          "page": 36,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n SPACE FLIGHT PHASE B:\n PRELIMINARY DESIGN AND TECHNOLOGY COMPLETION\n\n\nPurpose\nTo define the project in enough detail to establish an initial baseline capable of meeting mission needs.\nDevelop system structure end product (and enabling product) requirements and generate a preliminary\ndesign for each system structure end product.\n\n\nTypical Activities and Their Products\n• Review and update documents baselined in previous phases\n• Monitor progress against plans\n• Develop the preliminary design\n > Identify one or more feasible preliminary designs including internal and external interfaces\n > Perform analyses of candidate designs and report results\n > Conduct engineering development tests as needed and report results\n > Perform human systems integration assessments\n > Select a preliminary design solution\n• Develop operations plans based on matured ConOps\n > Define system operations as well as Principal Investigator (PI)/contract proposal management,\n review, and access and contingency planning\n• Report technology development results\n• Update cost range estimate and schedule data (Note that after PDR changes are incorporated and\n costed, at KDP C this will turn into the Agency Baseline Commitment)\n• Improve fidelity of models and prototypes used in evaluations\n• Identify and update risks\n• Develop appropriate level safety data package and security plan\n• Develop preliminary plans\n > Orbital Debris Assessment\n > Decommissioning Plan\n > Disposal Plan\n• Perform required Phase B technical activities from NPR 7120.5 as applicable\n• Satisfy Phase B reviews’ entrance/success criteria from NPR 7123.1\n\n\nReviews\n• PDR\n• Safety review\n\n\n\n\n\n\n\n 26",
+          "score": 14.654423074320711,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0029",
+          "page": 29,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n TABLE 3.0-1 SE Product Maturity from NPR 7123 .1\n Formulation Implementation\n Uncoupled/\n Loosely Coupled KDP 0 KDP I Periodic KDPs\n Tightly Coupled\n Programs KDP 0 KDP I KDP II KDP III Periodic KDPs\n Pre-\n Projects and Phase A Phase A Phase B Phase C Phase D Phase E Phase F\n Single Project KDP A KDP B KDP C KDP D KDP E KDP F\n Programs\n MCR SRR MDR/SDR PDR CDR SIR ORR FRR DR DRR\n\n Stakeholder identification and **Baseline Update Update Update\n\n Concept definition **Baseline Update Update Update Update\n\n Measure of effectiveness **Approve\n definition\n\n Cost and schedule for technical Initial Update Update Update Update Update Update Update Update\n\n SEMP1 Preliminary **Baseline **Baseline Update Update Update\n\n Requirements Preliminary **Baseline Update Update Update\n\n Technical Performance **Approve\n Measures definition\n\n Architecture definition **Baseline\n\n Allocation of requirements to **Baseline\n next lower level\n\n Required leading indicator **Initial Update Update Update\n trends\n\n Design solution definition Preliminary **Preliminary **Baseline Update Update\n\n Interface definition(s) Preliminary Baseline Update Update\n\n Implementation plans (Make/ Preliminary Baseline Update\n code, buy, reuse)\n\n Integration plans Preliminary Baseline Update **Update\n\n Verification and validation Approach Preliminary Baseline Update Update\n plans\n\n Verification and validation **Initial **Preliminary **Baseline\n results\n\n Transportation criteria and Initial Final Update\n instructions\n\n Operations plans Baseline Update Update **Update\n\n Operational procedures Preliminary Baseline **Update Update\n\n Certification (flight/use) Preliminary **Final\n\n Decommissioning plans Preliminary Preliminary Preliminary **Baseline Update **Update\n\n Disposal plans Preliminary Preliminary Preliminary **Baseline Update Update **Update\n** Item is a required product for that review\n1 SEMP is baselined at SRR for projects, tightly coupled programs and single-project programs, and at MDR/SDR for uncoupled,\n and loosely coupled programs .\n\n\n\n\n\n\n\n\n\n\n\n\n 19",
+          "score": 13.516922592915959,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0217",
+          "page": 217,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n TABLE G.1-1 Products Provided by the TA as a Function of Program/Project Phase\n Gate Product\n KDP A: Transition from Requires an assessment of potential technology needs versus current and planned\n Pre-Phase A to Phase A technology readiness levels, as well as potential opportunities to use commercial,\n academic, and other government agency sources of technology. Included as part of\n the draft integrated baseline. Technology Development Plan is baselined that identifies\n technologies to be developed, heritage systems to be modified, alternative paths to be\n pursued, fallback positions and corresponding performance descopes, milestones, metrics,\n and key decision points. Initial Technology Readiness Assessment (TRA) is available.\n\n KDP B: Transition from Technology Development Plan and Technology Readiness Assessment (TRA) are updated.\n Phase A to Phase B Incorporated in the preliminary project plan.\n\n KDP C: Transition from Requires a TRAR demonstrating that all systems, subsystems, and components have\n Phase B to Phase C/D achieved a level of technological maturity with demonstrated evidence of qualification in a\n relevant environment.\n\nSource: NPR 7120 .5 .\n\n\nA number of processes can be used to develop the systems, subsystems, and components demonstrated\nappropriate level of understanding required for through test and analysis. The initial AD2 provides the\nsuccessful technology insertion. The intent of this material necessary to develop preliminary cost and to\nappendix is to describe a systematic process that schedule plans and preliminary risk assessments. In\ncan be used as an example of how to apply standard subsequent assessments, the information is used to\nsystems engineering practices to perform a compre- build the Technology Development Plan and in the\nhensive Technology Assessment (TA). The TA com- process, identify alternative paths, fallback positions,\nprises two parts, a Technology Maturity Assessment and performance descope options. The information\n(TMA) and an Advancement Degree of Difficulty is also vital to preparing milestones and metrics for\nAssessment (AD2). The process begins with the TMA subsequent Earned Value Management (EVM).\nwhich is used to determine technological maturity\nvia NASA’s Technology Readiness Level (TRL) scale. The TMA is performed against the hierarchical\nIt then proceeds to develop an understanding of what breakdown of the hardware and software products\nis required to advance the level of maturity through of the program/project PBS to achieve a systematic,\nthe AD2. It is necessary to conduct TAs at various overall understanding at the system, subsystem, and\nstages throughout a program/project to provide the component levels. (See FIGURE G.1-1.)\nKey Decision Point (KDP) products required for\ntransition between phases. (See TABLE G.1-1.)\n G.2 Inputs/Entry Criteria\nThe initial TMA provides the baseline maturity of It is extremely important that a TA process be defined\nthe system’s required technologies at program/project at the beginning of the program/project and that it\noutset and allows monitoring progress throughout be performed at the earliest possible stage (concept\ndevelopment. The final TMA is performed just prior development) and throughout the program/proj-\nto the Preliminary Design Review (PDR). It forms ect through PDR. Inputs to the process will vary in\nthe basis for the Technology Readiness Assessment level of detail according to the phase of the program/\nReport (TRAR), which documents the maturity project, and even though there is a lack of detail in\nof the technological advancement required by the Pre-Phase A, the TA will drive out the major critical\n\n\n\n 207",
+          "image_path": "data/local/advanced/pages/p0217_2000.png",
+          "image_sha256": "7b01731df91f76ae59f203b215bc7c1fe9a584fd1d53b85cb116a630c0b1dfc0"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0217",
+          "page": 217,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\n\n TABLE G.1-1 Products Provided by the TA as a Function of Program/Project Phase\n Gate Product\n KDP A: Transition from Requires an assessment of potential technology needs versus current and planned\n Pre-Phase A to Phase A technology readiness levels, as well as potential opportunities to use commercial,\n academic, and other government agency sources of technology. Included as part of\n the draft integrated baseline. Technology Development Plan is baselined that identifies\n technologies to be developed, heritage systems to be modified, alternative paths to be\n pursued, fallback positions and corresponding performance descopes, milestones, metrics,\n and key decision points. Initial Technology Readiness Assessment (TRA) is available.\n\n KDP B: Transition from Technology Development Plan and Technology Readiness Assessment (TRA) are updated.\n Phase A to Phase B Incorporated in the preliminary project plan.\n\n KDP C: Transition from Requires a TRAR demonstrating that all systems, subsystems, and components have\n Phase B to Phase C/D achieved a level of technological maturity with demonstrated evidence of qualification in a\n relevant environment.\n\nSource: NPR 7120 .5 .\n\n\nA number of processes can be used to develop the systems, subsystems, and components demonstrated\nappropriate level of understanding required for through test and analysis. The initial AD2 provides the\nsuccessful technology insertion. The intent of this material necessary to develop preliminary cost and to\nappendix is to describe a systematic process that schedule plans and preliminary risk assessments. In\ncan be used as an example of how to apply standard subsequent assessments, the information is used to\nsystems engineering practices to perform a compre- build the Technology Development Plan and in the\nhensive Technology Assessment (TA). The TA com- process, identify alternative paths, fallback positions,\nprises two parts, a Technology Maturity Assessment and performance descope options. The information\n(TMA) and an Advancement Degree of Difficulty is also vital to preparing milestones and metrics for\nAssessment (AD2). The process begins with the TMA subsequent Earned Value Management (EVM).\nwhich is used to determine technological maturity\nvia NASA’s Technology Readiness Level (TRL) scale. The TMA is performed against the hierarchical\nIt then proceeds to develop an understanding of what breakdown of the hardware and software products\nis required to advance the level of maturity through of the program/project PBS to achieve a systematic,\nthe AD2. It is necessary to conduct TAs at various overall understanding at the system, subsystem, and\nstages throughout a program/project to provide the component levels. (See FIGURE G.1-1.)\nKey Decision Point (KDP) products required for\ntransition between phases. (See TABLE G.1-1.)\n G.2 Inputs/Entry Criteria\nThe initial TMA provides the baseline maturity of It is extremely important that a TA process be defined\nthe system’s required technologies at program/project at the beginning of the program/project and that it\noutset and allows monitoring progress throughout be performed at the earliest possible stage (concept\ndevelopment. The final TMA is performed just prior development) and throughout the program/proj-\nto the Preliminary Design Review (PDR). It forms ect through PDR. Inputs to the process will vary in\nthe basis for the Technology Readiness Assessment level of detail according to the phase of the program/\nReport (TRAR), which documents the maturity project, and even though there is a lack of detail in\nof the technological advancement required by the Pre-Phase A, the TA will drive out the major critical\n\n\n\n 207",
+          "image_sha256": "7b01731df91f76ae59f203b215bc7c1fe9a584fd1d53b85cb116a630c0b1dfc0"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Table G.1-1 at KDP B (Transition from Phase A to Phase B), the Technology Development Plan and the Technology Readiness Assessment (TRA) are updated, and they are incorporated in the preliminary project plan.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0217",
+                "locator": "Table G.1-1, KDP B row (Product column)",
+                "evidence": "“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    217
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "At KDP B, the two products that are updated are the “Technology Development Plan” and the “Technology Readiness Assessment (TRA),” and they are “incorporated in the preliminary project plan.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0217",
+            "locator": "Table G.1-1, row 'KDP B: Transition from Phase A to Phase B' (Product column)",
+            "evidence": "“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Table G.1-1 at KDP B (Transition from Phase A to Phase B), the Technology Development Plan and the Technology Readiness Assessment (TRA) are updated, and they are incorporated in the preliminary project plan.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0217",
+          "locator": "Table G.1-1, KDP B row (Product column)",
+          "evidence": "“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 13242.55
+}

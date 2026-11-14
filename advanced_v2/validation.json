@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-14T10:20:28.576801+00:00",
+  "offline_tests": {
+    "basic": 50,
+    "advanced_v1": 8,
+    "advanced_v2": 4,
+    "total_passed": 62
+  },
+  "historical_advanced_receipt_passed": true,
+  "historical_files_byte_unchanged": true,
+  "git_clean_filter_checked_files": 362,
+  "git_clean_filter_byte_changes": [],
+  "source_assets_sha_matched": true
+}

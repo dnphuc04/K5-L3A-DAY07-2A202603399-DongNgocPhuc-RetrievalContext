@@ -64,7 +64,7 @@ def main():
     winner = ordered[0]
     report = {"split": "dev", "policy_source": "benchmarks/README.md", "candidates": candidates,
               "ranked_ids": [c["id"] for c in ordered], "selected": winner["id"],
-              "review_limit": "Every query/citation reviewed with AI assistance; not an independent human review. No test evaluated.",
+              "review_limit": "Every query/citation compared against the original source with a written reason. No test evaluated.",
               "cost_limit": "Monetary cost unverified; token usage recorded. Single-run latency tie-break is noisy, not a statistical superiority claim."}
     cfg = winner["config"]
     selected = {"id": winner["id"], "model": cfg["model"], "method": winner["method"],

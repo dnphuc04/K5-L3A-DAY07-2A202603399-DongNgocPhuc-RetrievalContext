@@ -1,0 +1,101 @@
+{
+  "type": "estimate_not_invoice",
+  "checked_on": "2026-11-14",
+  "rates_usd_per_million": {
+    "gpt-4.1-mini": {
+      "input": 0.4,
+      "cached_input": 0.1,
+      "output": 1.6
+    },
+    "gpt-4.1": {
+      "input": 2,
+      "cached_input": 0.5,
+      "output": 8
+    }
+  },
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "https://developers.openai.com/api/docs/models/gpt-4.1"
+  ],
+  "assumptions": "Standard synchronous token rates; image tokens included in recorded prompt usage. Successful response usage includes malformed outputs. No tax, discounts, compute/storage/download costs or invoice reconciliation.",
+  "runs": {
+    "dev_checked": {
+      "model": "gpt-4.1-2025-04-14",
+      "prompt_tokens": 442681,
+      "cached_prompt_tokens": 178048,
+      "completion_tokens": 5249,
+      "model_calls": 80,
+      "estimated_usd": 0.660282,
+      "latency_ms_sum": 168116.16,
+      "median_query_ms": 7933.555,
+      "wall_seconds": null
+    },
+    "dev_compact": {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "prompt_tokens": 454141,
+      "cached_prompt_tokens": 148864,
+      "completion_tokens": 2433,
+      "model_calls": 75,
+      "estimated_usd": 0.14089,
+      "latency_ms_sum": 150336.86000000002,
+      "median_query_ms": 8293.115,
+      "wall_seconds": null
+    },
+    "dev_guarded": {
+      "model": "gpt-4.1-2025-04-14",
+      "prompt_tokens": 554168,
+      "cached_prompt_tokens": 304256,
+      "completion_tokens": 5485,
+      "model_calls": 84,
+      "estimated_usd": 0.695832,
+      "latency_ms_sum": 189524.74,
+      "median_query_ms": 7601.74,
+      "wall_seconds": null
+    },
+    "dev_locator": {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "prompt_tokens": 541441,
+      "cached_prompt_tokens": 102656,
+      "completion_tokens": 3261,
+      "model_calls": 64,
+      "estimated_usd": 0.1909972,
+      "latency_ms_sum": 123351.86,
+      "median_query_ms": 5378.89,
+      "wall_seconds": null
+    },
+    "dev_precise": {
+      "model": "gpt-4.1-2025-04-14",
+      "prompt_tokens": 578789,
+      "cached_prompt_tokens": 44032,
+      "completion_tokens": 3224,
+      "model_calls": 69,
+      "estimated_usd": 1.117322,
+      "latency_ms_sum": 156809.46,
+      "median_query_ms": 6831.525,
+      "wall_seconds": null
+    },
+    "dev_wide": {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "prompt_tokens": 712727,
+      "cached_prompt_tokens": 183040,
+      "completion_tokens": 2718,
+      "model_calls": 68,
+      "estimated_usd": 0.2345276,
+      "latency_ms_sum": 166171.25,
+      "median_query_ms": 6041.3,
+      "wall_seconds": null
+    },
+    "test_guarded": {
+      "model": "gpt-4.1-2025-04-14",
+      "prompt_tokens": 1195960,
+      "cached_prompt_tokens": 81920,
+      "completion_tokens": 9598,
+      "model_calls": 150,
+      "estimated_usd": 2.345824,
+      "latency_ms_sum": 351548.8,
+      "median_query_ms": 8653.955,
+      "wall_seconds": 194.058987
+    }
+  },
+  "total_estimated_usd": 5.3856748
+}

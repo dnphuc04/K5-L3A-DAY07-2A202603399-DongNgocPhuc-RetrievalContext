@@ -1,0 +1,799 @@
+{
+  "method": "Direct per-question/per-citation comparison with original PDF renders; binary strict claim completeness. Correct evidence quotes do not silently repair a changed conjunction or missing condition in the answer claim. No independent external grading claimed.",
+  "reviews": [
+    {
+      "id": "ADV-TEST-01",
+      "trace_sha256": "95159b9de5b03d843544913a5fccb55babb69eca6e51d0ab46fee31b0f9d0ebe",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All three Technical Data Management mappings match the original row on PDF 17.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, Technical Data Management row",
+            "evidence": "Control of Documents; Control of Records; Control of Design and Development Changes"
+          },
+          "supported": true,
+          "reason": "Original PDF 17, Table 2.1-1, Technical Data Management row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 17,
+            "printed_page": 7,
+            "region": "Table 2.1-1, Technical Data Management row"
+          }
+        }
+      ],
+      "source_pages": [
+        17
+      ]
+    },
+    {
+      "id": "ADV-TEST-02",
+      "trace_sha256": "92ddbb45523743859ea64a693d7fb0cc09d4174de31066dbb5473ab91659e9e3",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Strict completeness failure: claim says returned data OR samples, while both original Table 2.2-1 and Phase F box require analysis of returned data AND any returned samples. Correct source quotes do not repair the changed conjunction in the answer claim.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "TABLE 2.2-1 Project Life Cycle Phases, Phase F row",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, TABLE 2.2-1 Project Life Cycle Phases, Phase F row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "TABLE 2.2-1 Project Life Cycle Phases, Phase F row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0043",
+            "locator": "PHASE F: CLOSEOUT, Purpose block",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 43, PHASE F: CLOSEOUT, Purpose block: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 43,
+            "printed_page": 33,
+            "region": "PHASE F: CLOSEOUT, Purpose block"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "TABLE 2.2-1 Project Life Cycle Phases, Phase F row",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, TABLE 2.2-1 Project Life Cycle Phases, Phase F row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "TABLE 2.2-1 Project Life Cycle Phases, Phase F row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0043",
+            "locator": "PHASE F: CLOSEOUT, Purpose block",
+            "evidence": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples."
+          },
+          "supported": true,
+          "reason": "Original PDF 43, PHASE F: CLOSEOUT, Purpose block: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 43,
+            "printed_page": 33,
+            "region": "PHASE F: CLOSEOUT, Purpose block"
+          }
+        }
+      ],
+      "source_pages": [
+        19
+      ]
+    },
+    {
+      "id": "ADV-TEST-03",
+      "trace_sha256": "17e58475a7cd5a75a4b0db8c50e4482fb4aa24bea02d150fde963cc68a8a1c44",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Rationale clarifies intent at time of writing, exactly the original Table 4.2-2 row on PDF 69.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0069",
+            "locator": "TABLE 4.2-2, Rationale row",
+            "evidence": "Provides additional information to help clarify the intent of the requirements at the time they were written."
+          },
+          "supported": true,
+          "reason": "Original PDF 69, TABLE 4.2-2, Rationale row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 69,
+            "printed_page": 59,
+            "region": "TABLE 4.2-2, Rationale row"
+          }
+        }
+      ],
+      "source_pages": [
+        69
+      ]
+    },
+    {
+      "id": "ADV-TEST-04",
+      "trace_sha256": "c0ce7167c864ee20965fd5dbfea8fb4bf9cfedd661952e8bc44d3619226125ee",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All four selections plus copy of the setup matrix are present; original row 3 on PDF 181 supports each.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0181",
+            "locator": "Table 6.8-1, row 'Decision Matrix Setup Rationale'",
+            "evidence": "Provide the rationale for setting up the decision matrix: • Criteria selected • Options selected • Weights selected • Evaluation methods selected. Provide a copy of the setup decision matrix."
+          },
+          "supported": true,
+          "reason": "Original PDF 181, Table 6.8-1, row 'Decision Matrix Setup Rationale': identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 181,
+            "printed_page": 171,
+            "region": "Table 6.8-1, row 'Decision Matrix Setup Rationale'"
+          }
+        }
+      ],
+      "source_pages": [
+        181
+      ]
+    },
+    {
+      "id": "ADV-TEST-05",
+      "trace_sha256": "47f3fcdbaf07ae2758173a62cb82c58eb66ccd5c23f0abe74a888f6b6f747537",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Main contrast is complete: Phase C detailed design/fabrication/software versus Phase E mission execution and sustained support. Extra Typical Outcomes are also supported by original rows on PDF 19.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase C row",
+            "evidence": "To complete the detailed design of the system (and its associated subsystems, including its operations systems), fabricate hardware, and code software. Generate final designs for each system structure end product. End product detailed designs, end product component fabrication, and software development"
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase C row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "Table 2.2-1, Phase C row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase E row",
+            "evidence": "To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan. Desired system"
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase E row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "Table 2.2-1, Phase E row"
+          }
+        }
+      ],
+      "source_pages": [
+        19
+      ]
+    },
+    {
+      "id": "ADV-TEST-06",
+      "trace_sha256": "aee5c1842053a2b602669c2fad0e5a7e8a2afef731cfa609b201f334f8881de7",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Half-page length and both one-sentence items match original row 1 on PDF 181.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0181",
+            "locator": "Table 6.8-1, row 1 Executive Summary",
+            "evidence": "Provide a short half-page executive summary of the report: • Recommendation (short summary—1 sentence) • Problem/issue requiring a decision (short summary—1 sentence)"
+          },
+          "supported": true,
+          "reason": "Original PDF 181, Table 6.8-1, row 1 Executive Summary: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 181,
+            "printed_page": 171,
+            "region": "Table 6.8-1, row 1 Executive Summary"
+          }
+        }
+      ],
+      "source_pages": [
+        181
+      ]
+    },
+    {
+      "id": "ADV-TEST-07",
+      "trace_sha256": "fc6b37e15c3a94b2db4cc69f4a1514bd8177cfd0b9dbe70f146f9100b1c8fa81",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original green arrows on PDF 16 show requirements down, realized products up, with both level labels.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0016",
+            "locator": "Figure 2.1-1 chart arrows and labels",
+            "evidence": "Requirements Flow Down from Level above to Level below; Realized Products to Level above; Realized Products From Level below"
+          },
+          "supported": true,
+          "reason": "Original PDF 16, Figure 2.1-1 chart arrows and labels: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 16,
+            "printed_page": 6,
+            "region": "Figure 2.1-1 chart arrows and labels"
+          }
+        }
+      ],
+      "source_pages": [
+        16
+      ]
+    },
+    {
+      "id": "ADV-TEST-08",
+      "trace_sha256": "621aa2f54996799eb7a976987d58c96fd51d776823f82d0d87a8d8f73c516d27",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Wrong No branch. Original Figure 4.0-1 sends No / Recursive Cycle upward to Stakeholder Expectations, not to Logical Decomposition. Yes branch to Product Realization is correct, but partial correctness fails.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0054",
+            "locator": "Figure 4.0-1, diagram branch 'Lowest Level?'",
+            "evidence": "Yes → To Product Realization Processes; No – Recursive Cycle → Logical Decomposition"
+          },
+          "supported": false,
+          "reason": "Wrong No branch. Original Figure 4.0-1 sends No / Recursive Cycle upward to Stakeholder Expectations, not to Logical Decomposition. Yes branch to Product Realization is correct, but partial correctness fails.",
+          "original_source_check": {
+            "physical_page": 54,
+            "printed_page": 44,
+            "region": "Figure 4.0-1, diagram branch 'Lowest Level?'"
+          }
+        }
+      ],
+      "source_pages": [
+        54
+      ]
+    },
+    {
+      "id": "ADV-TEST-09",
+      "trace_sha256": "be91764a113391f1cb9daed9ad6ec0b4b584fc5412ee26006dba64a3f2bc9626",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All four clockwise spiral activity labels in original Figure 4.4-2 on PDF 77 are correct and ordered.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0077",
+            "locator": "Figure 4.4-2 spiral activity labels",
+            "evidence": "Identify and quantify goals; Create concepts; Do trade studies; Select design"
+          },
+          "supported": true,
+          "reason": "Original PDF 77, Figure 4.4-2 spiral activity labels: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 77,
+            "printed_page": 67,
+            "region": "Figure 4.4-2 spiral activity labels"
+          }
+        }
+      ],
+      "source_pages": [
+        77
+      ]
+    },
+    {
+      "id": "ADV-TEST-10",
+      "trace_sha256": "56451a3b2cc127279d5a8ee01b438a7f103516d9f58ba47e1819711c8bddd177",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All five Configuration Management elements match Figure 6.5-2 on PDF 155; no confusion with neighboring process activities.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0155",
+            "locator": "Figure 6.5-2 Five Elements of Configuration Management",
+            "evidence": "Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification"
+          },
+          "supported": true,
+          "reason": "Original PDF 155, Figure 6.5-2 Five Elements of Configuration Management: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 155,
+            "printed_page": 145,
+            "region": "Figure 6.5-2 Five Elements of Configuration Management"
+          }
+        }
+      ],
+      "source_pages": [
+        155
+      ]
+    },
+    {
+      "id": "ADV-TEST-11",
+      "trace_sha256": "864cb6eedd8aab4d56d95225aa2c5d789dd69c5d9bc61aa6b46b5534575a0959",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original robust Yes arrow on PDF 176 goes directly to deliberation/recommending a decision alternative.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0176",
+            "locator": "Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes",
+            "evidence": "Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'."
+          },
+          "supported": true,
+          "reason": "Original PDF 176, Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 176,
+            "printed_page": 166,
+            "region": "Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes"
+          }
+        }
+      ],
+      "source_pages": [
+        176
+      ]
+    },
+    {
+      "id": "ADV-TEST-12",
+      "trace_sha256": "a63058e0594827ad001fcc4ea8d4ce2fc7d1b3fa1e38376dedfbcd547b06566c",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original yellow Design block on PDF 23 reads 15%; correctly avoids the committed-cost curve.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, yellow 'Design' block",
+            "evidence": "Design 15%"
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1, yellow 'Design' block: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 23,
+            "printed_page": 13,
+            "region": "Figure 2.5-1, yellow 'Design' block"
+          }
+        }
+      ],
+      "source_pages": [
+        23
+      ]
+    },
+    {
+      "id": "ADV-TEST-13",
+      "trace_sha256": "222bcbc6c169d0859d8c9b5c6ae82c70ba0bf13cbbd8487568442489be2b3e64",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original yellow Develop block on PDF 23 reads 20%, not the 90% committed-cost label.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, % Completed (Costs Expended) at 'Develop'",
+            "evidence": "20% Develop"
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1, % Completed (Costs Expended) at 'Develop': identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 23,
+            "printed_page": 13,
+            "region": "Figure 2.5-1, % Completed (Costs Expended) at 'Develop'"
+          }
+        }
+      ],
+      "source_pages": [
+        23
+      ]
+    },
+    {
+      "id": "ADV-TEST-14",
+      "trace_sha256": "cb0646d8e7b73055479d5a4cc5853870b995444f2800dc7ce35b801eab36686c",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original yellow Prod/Test block on PDF 23 reads 50%.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, yellow 'Prod/Test' block, '% Completed (Costs Expended)' axis",
+            "evidence": "50% Prod/Test"
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1, yellow 'Prod/Test' block, '% Completed (Costs Expended)' axis: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 23,
+            "printed_page": 13,
+            "region": "Figure 2.5-1, yellow 'Prod/Test' block, '% Completed (Costs Expended)' axis"
+          }
+        }
+      ],
+      "source_pages": [
+        23
+      ]
+    },
+    {
+      "id": "ADV-TEST-15",
+      "trace_sha256": "1e57d64440c1a730bfaa4f99d825e689f423252ed482622957eac48268206cfc",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Both original axes on PDF 81 match, including constant dollars and quantitative effectiveness units.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 chart axes and legend",
+            "evidence": "x-axis: 'Life-Cycle Cost, Expressed in Constant Dollars'; y-axis: 'Some Aspect of Effectiveness, Expressed in Quantitative Units'"
+          },
+          "supported": true,
+          "reason": "Original PDF 81, Figure 4.4-3 chart axes and legend: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 81,
+            "printed_page": 71,
+            "region": "Figure 4.4-3 chart axes and legend"
+          }
+        }
+      ],
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "ADV-TEST-16",
+      "trace_sha256": "e6a4b2766811c902b4aac7300e62e59b728d33d883e8fdb2e834b854d35930ca",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original dashed-line note on PDF 81 explicitly states constant cost-effectiveness and upper-left direction.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 chart legend and note",
+            "evidence": "Dashed lines represent constant values of objective function (cost-effectiveness). Higher values of cost-effectiveness are achieved by moving toward upper left."
+          },
+          "supported": true,
+          "reason": "Original PDF 81, Figure 4.4-3 chart legend and note: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 81,
+            "printed_page": 71,
+            "region": "Figure 4.4-3 chart legend and note"
+          }
+        }
+      ],
+      "source_pages": [
+        81
+      ]
+    },
+    {
+      "id": "ADV-TEST-17",
+      "trace_sha256": "256f35095b3113237db5e9759ad4241d256e18388e06d9ee0ff53baa0207fa4d",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Both independent review rows checked: PDR end Phase B/design-to on PDF 171; CDR Phase C/build-to plus plans on PDF 172. Two-page citation supports the comparison.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0171",
+            "locator": "Table 6.7-1, Preliminary Design Review (PDR) row, Timing & Results of Review columns",
+            "evidence": "PDR occurs near the completion of the preliminary design phase (Phase B) as the last review in the Formulation Phase. As a result of successful completion of the PDR, the design-to baseline is approved."
+          },
+          "supported": true,
+          "reason": "Original PDF 171, Table 6.7-1, Preliminary Design Review (PDR) row, Timing & Results of Review columns: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 171,
+            "printed_page": 161,
+            "region": "Table 6.7-1, Preliminary Design Review (PDR) row, Timing & Results of Review columns"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0172",
+            "locator": "Table 6.7-1, Critical Design Review (CDR) row, Timing & Results of Review columns",
+            "evidence": "CDR occurs during the final design phase (Phase C). As a result of successful completion of the CDR, the build-to baseline, production, and verification plans are approved."
+          },
+          "supported": true,
+          "reason": "Original PDF 172, Table 6.7-1, Critical Design Review (CDR) row, Timing & Results of Review columns: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 172,
+            "printed_page": 162,
+            "region": "Table 6.7-1, Critical Design Review (CDR) row, Timing & Results of Review columns"
+          }
+        }
+      ],
+      "source_pages": [
+        171,
+        172
+      ]
+    },
+    {
+      "id": "ADV-TEST-18",
+      "trace_sha256": "05181e23a29fe064e91237f25006f5bbba5ad9d8a554b847abe13888d6102c34",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Phase D work matches PDF 19; SIR end Phase C before Phase D matches original Timing cell on PDF 172. Both required evidence hops are cited.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "TABLE 2.2-1 Phase D row",
+            "evidence": "To assemble and integrate the system (hardware, software, and humans), meanwhile developing confidence that it is able to meet the system requirements. Launch and prepare for operations. Perform system end product implementation, assembly, integration and test, and transition to use."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, TABLE 2.2-1 Phase D row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "TABLE 2.2-1 Phase D row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0172",
+            "locator": "TABLE 6.7-1 SIR row Timing column",
+            "evidence": "SIR occurs at the end of the final design phase (Phase C) and before the systems assembly, integration, and test phase (Phase D) begins."
+          },
+          "supported": true,
+          "reason": "Original PDF 172, TABLE 6.7-1 SIR row Timing column: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 172,
+            "printed_page": 162,
+            "region": "TABLE 6.7-1 SIR row Timing column"
+          }
+        }
+      ],
+      "source_pages": [
+        19,
+        172
+      ]
+    },
+    {
+      "id": "ADV-TEST-19",
+      "trace_sha256": "b88fa5f50141172aea2f9f2962be4bef9b22ec6b0ee78b7ce911cce58c01ace5",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Verification level is correct from Table 4.2-2. However, PDF 136 describes validation and simulated product forms, not verification Analysis when a prototype is unavailable. Correct Analysis keyword without conditional supporting citation is insufficient; required evidence is on PDF 103.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0069",
+            "locator": "TABLE 4.2-2 Requirements Metadata, Verification level row",
+            "evidence": "Specifies the level in the hierarchy at which the requirements will be verified (e.g., system, subsystem, element)."
+          },
+          "supported": true,
+          "reason": "Original PDF 69, TABLE 4.2-2 Requirements Metadata, Verification level row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 69,
+            "printed_page": 59,
+            "region": "TABLE 4.2-2 Requirements Metadata, Verification level row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0136",
+            "locator": "section/paragraph: Validation of phase products can be performed recursively... For example: simulated (algorithmic models, virtual reality simulator)",
+            "evidence": "Validation of phase products can be performed recursively... For example: simulated (algorithmic models, virtual reality simulator);"
+          },
+          "supported": false,
+          "reason": "Verification level is correct from Table 4.2-2. However, PDF 136 describes validation and simulated product forms, not verification Analysis when a prototype is unavailable. Correct Analysis keyword without conditional supporting citation is insufficient; required evidence is on PDF 103.",
+          "original_source_check": {
+            "physical_page": 136,
+            "printed_page": 126,
+            "region": "section/paragraph: Validation of phase products can be performed recursively... For example: simulated (algorithmic models, virtual reality simulator)"
+          }
+        }
+      ],
+      "source_pages": [
+        69,
+        103
+      ]
+    },
+    {
+      "id": "ADV-TEST-20",
+      "trace_sha256": "95cf1fc2742a5cc78aa08d2352bbe11aaa40fede4efe0105f10e83b1c93e6547",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Strict completeness failure: Vietnamese claim omits flight-proven from the TRL 9 criterion. Citation evidence quotes flight proven correctly, but supporting-source text is not substituted for an essential missing condition in the answer claim. Phase E part is correct.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0221",
+            "locator": "Figure G.4-1, TRL 9 row",
+            "evidence": "Actual system 'flight proven' through successful mission operations"
+          },
+          "supported": true,
+          "reason": "Original PDF 221, Figure G.4-1, TRL 9 row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 221,
+            "printed_page": 211,
+            "region": "Figure G.4-1, TRL 9 row"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase E row",
+            "evidence": "To conduct the mission and meet the initially identified need and maintain support for that need. Implement the mission operations plan."
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1, Phase E row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "region": "Table 2.2-1, Phase E row"
+          }
+        }
+      ],
+      "source_pages": [
+        221,
+        19
+      ]
+    },
+    {
+      "id": "ADV-TEST-21",
+      "trace_sha256": "b1dd34fbe8092f948978197c22bfa0302e9fb8d5b563b2f037e51cd75ff4086c",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Correct data-gathering distinction, but adds that Demonstration is usually under less strictly controlled conditions than Test. The cited Methods of Verification box explicitly states controlled conditions for Test but does not establish that comparative assertion about Demonstration.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0103",
+            "locator": "METHODS OF VERIFICATION - Demonstration, Test paragraphs",
+            "evidence": "Demonstration: ...differentiated from testing by the lack of detailed data gathering... Test: ...obtain detailed data needed to verify performance... Testing produces data at discrete points for each specified requirement under controlled conditions..."
+          },
+          "supported": false,
+          "reason": "Correct data-gathering distinction, but adds that Demonstration is usually under less strictly controlled conditions than Test. The cited Methods of Verification box explicitly states controlled conditions for Test but does not establish that comparative assertion about Demonstration.",
+          "original_source_check": {
+            "physical_page": 103,
+            "printed_page": 93,
+            "region": "METHODS OF VERIFICATION - Demonstration, Test paragraphs"
+          }
+        }
+      ],
+      "source_pages": [
+        103
+      ]
+    },
+    {
+      "id": "ADV-TEST-22",
+      "trace_sha256": "23b1633d2cad8a7bbf74273deb41c2a254aaac7872cbcadaa0178dddaeb37c52",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Test paragraph in Methods of Validation on PDF 111 states most resource-intensive and specified expectations, correctly distinguished from verification of requirements.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0111",
+            "locator": "METHODS OF VALIDATION table, Test row",
+            "evidence": "Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique."
+          },
+          "supported": true,
+          "reason": "Original PDF 111, METHODS OF VALIDATION table, Test row: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 111,
+            "printed_page": 101,
+            "region": "METHODS OF VALIDATION table, Test row"
+          }
+        }
+      ],
+      "source_pages": [
+        111
+      ]
+    },
+    {
+      "id": "ADV-TEST-23",
+      "trace_sha256": "cf2fd65f3e01fff270587a724f65034493c933f4b6d8c660df54b538fdd4ff96",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All three modalities match original Appendix C.1 on PDF 207.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.1 Use of Correct Terms",
+            "evidence": "Shall = requirement; Will = facts or declaration of purpose; Should = goal"
+          },
+          "supported": true,
+          "reason": "Original PDF 207, C.1 Use of Correct Terms: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 207,
+            "printed_page": 197,
+            "region": "C.1 Use of Correct Terms"
+          }
+        }
+      ],
+      "source_pages": [
+        207
+      ]
+    },
+    {
+      "id": "ADV-TEST-24",
+      "trace_sha256": "1b2b7059ad568486a877e94d448e14590e42b16268f806018a271fbd2a1f33e2",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Phase B paragraph on PDF 35 specifies strictly greater than $250 million and names ABC with Congress/OMB.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0035",
+            "locator": "section 3.5 Project Phase B, paragraph 2",
+            "evidence": "For projects with a Life Cycle Cost (LCC) greater than $250 million, this commitment is made with the Congress and the U.S. Office of Management and Budget (OMB). This external commitment is the Agency Baseline Commitment (ABC)."
+          },
+          "supported": true,
+          "reason": "Original PDF 35, section 3.5 Project Phase B, paragraph 2: identifying words/labels verified against original page pixels. The source supports the corresponding quoted fact; answer completeness is scored separately.",
+          "original_source_check": {
+            "physical_page": 35,
+            "printed_page": 25,
+            "region": "section 3.5 Project Phase B, paragraph 2"
+          }
+        }
+      ],
+      "source_pages": [
+        35
+      ]
+    },
+    {
+      "id": "ADV-TEST-25",
+      "trace_sha256": "ee1dbfe58d5a947ebfa9907f0b2d2458eadfa3c154ccca4d58ab87ea8887f5ba",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: source search/view evidence and the full-corpus absence record establish no requested universal mandated quantity/language; final claims are empty and no unsupported guess is supplied.",
+      "citations": [],
+      "source_pages": []
+    },
+    {
+      "id": "ADV-TEST-26",
+      "trace_sha256": "2b2fffbd1c6167b99df6442dc64ae8db0cb8342178b0da4a2e1521df299d9355",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: source search/view evidence and the full-corpus absence record establish no requested universal mandated quantity/language; final claims are empty and no unsupported guess is supplied.",
+      "citations": [],
+      "source_pages": []
+    },
+    {
+      "id": "ADV-TEST-27",
+      "trace_sha256": "7d450206914f970638061be7cd94b2a49e39234f63b4f724f91f3655dc818cde",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "System JSONDecodeError. No accepted final answer; kept as failure in denominator, not counted as correct refusal.",
+      "citations": [],
+      "source_pages": []
+    },
+    {
+      "id": "ADV-TEST-28",
+      "trace_sha256": "fe41b6694e6db85759a8a359fe1a8624debcc46159620ff3147280693a096e81",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: source search/view evidence and the full-corpus absence record establish no requested universal mandated quantity/language; final claims are empty and no unsupported guess is supplied.",
+      "citations": [],
+      "source_pages": []
+    },
+    {
+      "id": "ADV-TEST-29",
+      "trace_sha256": "b110ed8563ad1894e288164904b53d4c9a5561a99c020ad04fd6b6cd0c2252fc",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "System JSONDecodeError. No accepted final answer; kept as failure in denominator, not counted as correct refusal.",
+      "citations": [],
+      "source_pages": []
+    },
+    {
+      "id": "ADV-TEST-30",
+      "trace_sha256": "4b8b94c1f98cdb1fca621a56a30bbde92ce90bc7210580d83d80bbd7dbc33819",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: source search/view evidence and the full-corpus absence record establish no requested universal mandated quantity/language; final claims are empty and no unsupported guess is supplied.",
+      "citations": [],
+      "source_pages": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "split": "dev",
+  "run": "dev_locator",
+  "n": 14,
+  "N": 18,
+  "rate": 0.7777777777777778,
+  "groups": {
+    "table": {
+      "n": 4,
+      "N": 4
+    },
+    "diagram": {
+      "n": 4,
+      "N": 4
+    },
+    "chart": {
+      "n": 2,
+      "N": 2
+    },
+    "multi_hop": {
+      "n": 1,
+      "N": 2
+    },
+    "text": {
+      "n": 2,
+      "N": 3
+    },
+    "unanswerable": {
+      "n": 1,
+      "N": 3
+    }
+  },
+  "errors": 0,
+  "elapsed_ms_sum": 123351.86,
+  "usage": {
+    "prompt_tokens": 541441,
+    "completion_tokens": 3261,
+    "total_tokens": 544702
+  },
+  "meets_numeric_90_percent": false,
+  "cost_usd": null,
+  "cost_note": "Usage recorded, billed USD not verified. See cost estimate separately.",
+  "review_method": "Direct per-question and per-citation comparison against original NASA PDF pages; binary completeness/grounding/region review. No independent external grading claimed.",
+  "reviews_sha256": "ac85568c27add674256b0bffc581e402f328f888f27d7a47baa158ff3f95ff2e"
+}

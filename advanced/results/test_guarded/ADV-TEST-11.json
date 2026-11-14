@@ -1,0 +1,283 @@
+{
+  "id": "ADV-TEST-11",
+  "split": "test",
+  "question": "In Figure 6.8-2, where does the Yes branch from Is the ranking/comparison robust? go?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4IdWE9x181L5n8EGJ6iDs371C5w",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 571,
+        "completion_tokens": 11,
+        "total_tokens": 582,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 894.6,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_r3JvZHiZbnYOqOrelYK8xent",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 6.8-2\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IeZeuEW5m5SMA5E76MDdVFn2u4",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5372,
+        "completion_tokens": 20,
+        "total_tokens": 5392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1085.6,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_C4M4Ybx6ADymVwfMcoRx1LRV",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0176\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IgnAZd7FA5kpCDB6yGRNPzIrse",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6908,
+        "completion_tokens": 125,
+        "total_tokens": 7033,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3053.69,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BezLDKg8cjvn1vh0mswgWcYz",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Trong Hình 6.8-2, nhánh Yes từ \\\"Is the ranking/comparison robust?\\\" dẫn đến \\\"Deliberation and Recommending a Decision Alternative\\\".\",\"citations\":[{\"source_id\":\"NASA-SE:p0176\",\"locator\":\"Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes\",\"evidence\":\"Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "stage": "source_verification",
+      "response_id": "chatcmpl-Ek4Ik3DhzQ7W9J2jQOnDQ4CVsYwhk",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 1863,
+        "completion_tokens": 116,
+        "total_tokens": 1979,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2684.78,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_15I6Huk1pKTSmUDLYwuRB9YQ",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Trong Hình 6.8-2, nhánh Yes từ \\\"Is the ranking/comparison robust?\\\" dẫn đến \\\"Deliberation and Recommending a Decision Alternative\\\".\",\"citations\":[{\"source_id\":\"NASA-SE:p0176\",\"locator\":\"Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes\",\"evidence\":\"Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 6.8-2, where does the Yes branch from Is the ranking/comparison robust? go?",
+      "results": [
+        {
+          "id": "NASA-SE:p0176",
+          "page": 176,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166",
+          "score": 30.275329438162817,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 9.495560881163907,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0222",
+          "page": 222,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nAssessment Team Has an identical unit been successfully YES\nA third critical element of any assessment relates to operated/ launched in i dentical TRL 9\nthe question of who is in the best position to make configu ration/environment?\njudgment calls relative to the status of the technol- NO\nogy in question. For this step, it is extremely import- Has an identical unit in a different configuration/\nant to have a well-balanced, experienced assessment system architecture been successfully operated YES\nteam. Team members do not necessarily have to be in space or the target environment or launched? TRL 5\n If so, then this initially drops to TRL 5 until\ndiscipline experts. The primary expertise required for differences are evaulated.\na TRL assessment is that the systems engineer/user NO\nunderstands the current state of the art in applica- Has an identical unit been flight qualified but\ntions. User considerations are evaluated by HFE per- not yet operated in space or the target YES TRL 8\nsonnel who understand the challenges of technology environment or launched?\ninsertions at various stages of the product life cycle. NO\nHaving established a set of definitions, defined a pro- Has a prototype unit (or one similar enough to be\ncess for quantifying judgment calls, and assembled an considered a prototype) been successfully operated YES TRL 7\nexpert assessment team, the process primarily consists in space or the target environment or launched?\nof asking the right questions. The flowchart depicted NO\nin FIGURE G.4-2 demonstrates the questions to ask to Has a prototype unit (or one similar enough\ndetermine TRL at any level in the assessment. to be considered a prototype) been YES TRL 6\n demonstrated in a relevant environment?\nHeritage Systems NO\nNote the second box particularly refers to heritage Has a breadboard unit been demonstrated in YES TRL 5\nsystems. If the architecture and the environment a relevant environment?\nhave changed, then the TRL drops to TRL 5—at NO\nleast initially. Additional testing may need to be done Has a breadboard unit been demonstrated in YES TRL 4\nfor heritage systems for the new use or new environ- a laboratory environment?\nment. If in subsequent analysis the new environment NO\nis sufficiently close to the old environment or the new Has analytical and experimental YES\narchitecture sufficiently close to the old architecture, proof-of-concept been demonstrated? TRL 3\nthen the resulting evaluation could be TRL 6 or 7, NO\nbut the most important thing to realize is that it is Has concept or application YES\nno longer at TRL 9. Applying this process at the been formulated? TRL 2\nsystem level and then proceeding to lower levels of NO\nsubsystem and component identifies those elements\nthat require development and sets the stage for the Have basic principles been observed YES TRL 1\nsubsequent phase, determining the AD2. and reported?\n NO\n\n RETHINK POSITION REGARDING\n THIS TECHNOLOGY!\n\n\n FIGURE G.4-2 TMA Thought Process\n\n\n\n\n 212",
+          "score": 14.76435893327487,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "score": 13.539351857704935,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0149",
+          "page": 149,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n 1. What can go wrong? 2. How frequently does 3. What are the\n (definition of scenarios) it happen? consequences?\n (scenario frequency (scenario consequence\n quantification) quantification)\n\n Scenario Development\n Initiating Scenario Scenario Consequence\n Event Modeling Frequency Modeling\n Selection Evaluation\n\n Uncertainty Analysis\n\n\n FIGURE 6.4-1 Risk Scenario Development (Source: NASA/SP-2011-3421)\n\nRisk is characterized by three basic components: Uncertainties are included in the evaluation of likeli-\n hoods and consequences.\n1. The scenario(s) leading to degraded performance\n with respect to one or more performance mea- Scenarios begin with a set of initiating events that\n sures (e.g., scenarios leading to injury, fatality, cause the activity to depart from its intended state.\n destruction of key assets; scenarios leading to For each initiating event, other events that are rele-\n exceedance of mass limits; scenarios leading vant to the evolution of the scenario may (or may not)\n to cost overruns; scenarios leading to schedule occur and may have either a mitigating or exacerbat-\n slippage); ing effect on the scenario progression. The frequen-\n cies of scenarios with undesired consequences are\n2. The likelihood(s) (qualitative or quantitative) of determined. Finally, the multitude of such scenarios\n those scenario(s); and is put together, with an understanding of the uncer-\n tainties, to create the risk profile of the system.\n3. The consequence(s) (qualitative or quantitative\n severity of the performance degradation) that This “risk triplet” conceptualization of risk is illus-\n would result if the scenario(s) was (were) to occur. trated in FIGURES 6.4-1 and 6.4-2.\n\n\n\n\n\n\n\n\n\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n RISK =\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n Structure of Scenario Likelihood and Consequence Severity\n Its Uncertainty and Its Uncertainty\n\n\n\n FIGURE 6.4-2 Risk as an Aggregate Set of Risk Triplets\n\n\n 139",
+          "score": 12.598728925302979,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0178",
+          "page": 178,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nnot meet mandatory criteria should be disregarded. to document the fact that these options were consid-\nFor complex decisions, criteria can be grouped into ered. A few decisions might only have one option. It\ncategories or objectives. is a best practice to document a decision matrix for\n a major decision even if only one alternative is deter-\n6.8.1.2.2 Identify Alternative Solutions to Address mined to be viable. (Sometimes doing nothing or not\n Decision Issues making a decision is an option.)\nWith the decision need well understood, alterna-\ntives can be identified that fit the mission and system 6.8.1.2.3 Select Evaluation Methods and Tools\ncontext. There may be several alternatives that could Based on the decision to be made, various approaches\npotentially satisfy the decision criteria. Alternatives can be taken to evaluate identified alternatives. These\ncan be found from design options, operational can range from simple discussion meetings with con-\noptions, cost options, and/or schedule options. tributing and affected stakeholders to more formal\n evaluation methods. In selecting the approach, the\nAlmost every decision will have options to choose mission and system context should be kept in mind\nfrom. These options are often fairly clear within the and the complexity of the decision analysis should\nmission and system context once the decision need is fit the complexity of the mission, system, and corre-\nunderstood. In cases where the approach has uncer- sponding decision.\ntainty, there are several methods to help generate\nvarious options. Brainstorming decision options with Evaluation methods and tools/techniques to be used\nthose knowledgeable of the context and decision can should be selected based on the purpose for analyzing\nprovide a good list of candidate alternatives. A litera- a decision and on the availability of the information\nture search of related systems and approaches to iden- used to support the method and/or tool. Typical eval-\ntify options may also provide some possible options. uation methods include: simulations; weighted trade-\nAll possible options should be considered. This can off matrices; engineering, manufacturing, cost, and\nget unwieldy if a large number of variations is possi- technical opportunity trade studies; surveys; human-\nble. A “trade tree” (discussed later) is an excellent way in-the-loop testing; extrapolations based on field expe-\nto prune the set of variations before extensive analysis rience and prototypes; user review and comment; and\nis undertaken, and to convey to other stakeholders testing. Section 6.8.2 provides several options.\nthe basis for that pruning.\n 6.8.1.2.4 Evaluate Alternative Solutions with the\nA good understanding of decision need and criteria Established Criteria and Selected Methods\nwill include the definition of primary and secondary The performance of each alternative with respect to\nfactors. Options should be focused on primary fac- each chosen performance measure is evaluated. In all\ntors in the decision as defined by the decision criteria. but the simplest cases, some consideration of uncer-\nNon-primary factors (i.e., secondary, tertiary) can be tainty is warranted. Uncertainty matters in a partic-\nincluded in evaluations but should not, in general, ular analysis only if there is a non-zero probability\ndefine separate alternatives. This will require some that uncertainty reduction could alter the ranking\nengineering judgment that is based on the mission of alternatives. If this condition is obtained, then it\nand system context as well as the identified decision is necessary to consider the value of reducing that\ncriteria. Some options may quickly drop out of con- uncertainty, and act accordingly.\nsideration as the analysis is conducted. It is important\n\n\n\n 168",
+          "score": 11.688554134017135,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0210",
+          "page": 210,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n the system from the point of view of hardware,  Are the requirements free of unverifiable terms\n software, operations, personnel and procedures? (e.g., flexible, easy, sufficient, safe, ad hoc, ade-\n quate, accommodate, user-friendly, usable, when\nVerifiability/Testability required, if required, appropriate, fast, portable,\n Can the system be tested, demonstrated, light-weight, small, large, maximize, minimize,\n inspected, or analyzed to show that it satisfies sufficient, robust, quickly, easily, clearly, other\n requirements? Can this be done at the level of the “ly” words, other “ize” words)?\n system at which the requirement is stated? Does\n a means exist to measure the accomplishment of Data Usage\n the requirement and verify compliance? Can the  Where applicable, are “don’t care” conditions\n criteria for verification be stated? truly “don’t care”? (“Don’t care” values identify\n cases when the value of a condition or flag is irrel-\n Are the requirements stated precisely to facilitate evant, even though the value may be important\n specification of system test success criteria and for other cases.) Are “don’t care” conditions values\n requirements? explicitly stated? (Correct identification of “don’t\n care” values may improve a design’s portability.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 200",
+          "score": 11.599153736843267,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 176,
+          "path": "data/local/advanced/pages/p0176_2000.png",
+          "sha256": "430479215363388e3fe85c48545bd207171a53b03337458d724b38983ead05c0",
+          "source_id": "NASA-SE:p0176",
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0176",
+          "page": 176,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n\n\n Examples of Decisions\n\n • Architecture A vs. Architecture V vs. Archicture C• Making changes to existing systems\n • Extending the life of existing systems • Responding to operational occurrences in\n • Contingency Plan A vs. Contingency Plan B real time\n • Changing requirements • Technology A vs. Technology B\n • Launch or no launch • Prioritization Deliberation and\n Recommending a\n Decision Alternative\n\n\n Decision\n Alternatives for\n Analysis Qualitative Yes Risk &\n Identify Techniques\n Performance\n Analyze Measurement\n Preliminary Risk Results\n Scoping & & Performance Is the ranking/\n Determination of\n Methods to Measurement comparison robust?\n Be Used Results\n Identify No\n Analyze Quantitative\n Techniques\n Net beneficial to No\n Risk Analysis reduce uncertainty?\n Techniques\n\n Iteration Yes\n\n Additional Uncertainty Reduction Necessary per Stakeholders\n\n FIGURE 6.8-2 Risk Analysis of Decision Alternatives\n\n\ndecision-maker preferences and values given the state complicated or not well defined relationships. Due\nof knowledge at the time of the decision. This is sug- to this complexity, formal decision analysis has the\ngested in FIGURE 6.8-2. potential to consume significant resources and time.\n Typically, its application to a specific decision is war-\nNote that in FIGURE 6.8-2, the phrase “net beneficial” ranted only when some of the following conditions\nin the decision node “Net beneficial to reduce uncer- are met:\ntainty?” is meant to imply consideration of all factors,\nincluding whether the project can afford any sched- • Complexity: The actual ramifications of alterna-\nule slip that might be caused by additional informa- tives are difficult to understand without detailed\ntion collection and additional analysis. analysis;\n\n6.8.1.1 Inputs • Uncertainty: Uncertainty in key inputs creates\nThe technical, cost, and schedule inputs need to be substantial uncertainty in the ranking of alter-\ncomprehensively understood as part of the general natives and points to risks that may need to be\ndecision definition. Based on this understanding, managed;\ndecision making can be addressed from a simple\nmeeting to a formal analytical analysis. As illustrated • Multiple Attributes: Greater numbers of attributes\nin FIGURE 6.8-2, many decisions do not require exten- cause a greater need for formal analysis; and\nsive analysis and can be readily made with clear input\nfrom the responsible engineering and programmatic • Diversity of Stakeholders: Extra attention is war-\ndisciplines. Complex decisions may require more for- ranted to clarify objectives and formulate TPMs\nmal decision analysis when contributing factors have\n\n\n\n 166",
+          "image_sha256": "430479215363388e3fe85c48545bd207171a53b03337458d724b38983ead05c0"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Trong Hình 6.8-2, nhánh Yes từ \"Is the ranking/comparison robust?\" dẫn đến \"Deliberation and Recommending a Decision Alternative\".",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0176",
+                "locator": "Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes",
+                "evidence": "Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    176
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Trong Hình 6.8-2, nhánh Yes từ \"Is the ranking/comparison robust?\" dẫn đến \"Deliberation and Recommending a Decision Alternative\".",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0176",
+            "locator": "Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes",
+            "evidence": "Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Trong Hình 6.8-2, nhánh Yes từ \"Is the ranking/comparison robust?\" dẫn đến \"Deliberation and Recommending a Decision Alternative\".",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0176",
+          "locator": "Figure 6.8-2, diagram branch from 'Is the ranking/comparison robust?' Yes",
+          "evidence": "Yes branch from 'Is the ranking/comparison robust?' leads to 'Deliberation and Recommending a Decision Alternative'."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 8311.27
+}

@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-07",
+  "split": "dev",
+  "question": "In Figure 6.5-1, what is the last central activity after Conduct configuration audits?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4AWfItjDMTWOsIhyxiDvrrtGY0l",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 567,
+        "completion_tokens": 11,
+        "total_tokens": 578,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 932.94,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_sy2ldkwpbddaq7ewteMDK5aL",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 6.5-1\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4AXrwfFZRlWdbZZkd98lGfVR2Ku",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5549,
+        "completion_tokens": 20,
+        "total_tokens": 5569,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1200.21,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_soO0u2mGyRIathzz33QxKIbp",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0155\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4AauZILHRkfH7VDVMdjQbkR9DwA",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6869,
+        "completion_tokens": 93,
+        "total_tokens": 6962,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2767.34,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_mfEk5zz0uHKyMS3cGucgnVdB",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Hoạt động trung tâm cuối cùng sau 'Conduct configuration audits' trong Hình 6.5-1 là 'Capture work products from configuration management activities'.\",\"citations\":[{\"source_id\":\"NASA-SE:p0155\",\"locator\":\"Figure 6.5-1, last yellow process block\",\"evidence\":\"Capture work products from configuration management activities\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 6.5-1, what is the last central activity after Conduct configuration audits?",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 15.947608559234775,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0154",
+          "page": 154,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nTogether, these standards address what configuration 6.5.1 Process Description\nmanagement activities are to be done, when they are FIGURE 6.5-1 provides a typical flow diagram for the\nto happen in the product life cycle, and what plan- Configuration Management Process and identifies\nning and resources are required. Configuration man- typical inputs, outputs, and activities to consider in\nagement is a key systems engineering practice that, addressing CM.\nwhen properly implemented, provides visibility of a\ntrue representation of a product and attains the prod- 6.5.1.1 Inputs\nuct’s integrity by controlling the changes made to the The inputs for this process are:\nbaseline configuration and tracking such changes.\nConfiguration management ensures that the con- • CM plan: This plan would have been developed\nfiguration of a product is known and reflected in under the Technical Planning Process and serves\nproduct information, that any product change is ben- as the overall guidance for this process for the\neficial and is effected without adverse consequences, program/project\nand that changes are managed.\n • Engineering change proposals: These are the\nCM reduces technical risks by ensuring correct prod- requests for changes to the established baselines\nuct configurations, distinguishes among product in whatever form they may appear throughout the\nversions, ensures consistency between the product life cycle.\nand information about the product, and avoids the\nembarrassment cost of stakeholder dissatisfaction and • Expectation, requirements and interface docu-\ncomplaint. In general, NASA adopts the CM prin- ments: These baselined documents or models are\nciples as defined by SAE/EIA 649B, Configuration key to the design and development of the product.\nManagement Standard, in addition to implementa-\ntion as defined by NASA CM professionals and as • Approved requirements baseline changes: The\napproved by NASA management. approved requests for changes will authorize the\n update of the associated baselined document or\nWhen applied to the design, fabrication/assembly, model.\nsystem/subsystem testing, integration, and opera-\ntional and sustaining activities of complex technol- • Designated configuration items to be controlled:\nogy items, CM represents the “backbone” of the As part of technical planning, a list or philosophy\nenterprise structure. It instills discipline and keeps would have been developed that identifies the\nthe product attributes and documentation consistent. types of items that will need to be placed under\nCM enables all stakeholders in the technical effort, at configuration control.\nany given time in the life of a product, to use identical\ndata for development activities and decision-making. 6.5.1.2 Process Activities\nCM principles are applied to keep the documentation There are five elements of CM (see FIGURE 6.5-2):\nconsistent with the approved product, and to ensure\nthat the product conforms to the functional and • configuration planning and management\nphysical requirements of the approved design. • configuration identification,\n\n\n\n\n\n\n 144",
+          "score": 10.926880418496458,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 9.352843045960535,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 12.849854484358943,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0156",
+          "page": 156,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nOne of the key inputs to preparing for CM imple- baseline identifies an agreed-to description of attri-\nmentation is a strategic plan for the project’s com- butes of a CI at a point in time and provides a known\nplete CM process. This is typically contained in a configuration to which changes are addressed.\nCM plan. See Appendix M for an outline of a typical Baselines are established by agreeing to (and docu-\nCM plan. menting) the stated definition of a CI’s attributes.\n The approved “current” baseline defines the basis of\nThis plan has both internal and external uses: the subsequent change. The system specification is\n typically finalized following the SRR. The functional\n• Internal: It is used within the program/project baseline is established at the SDR and will usually\n office to guide, monitor, and measure the over- transfer to NASA’s control at that time for contract-\n all CM process. It describes all the CM activities ing efforts. For in-house efforts, the baseline is set/\n and the schedule for implementing those activities controlled by the NASA program/project.\n within the program/project.\n The four baselines (see FIGURE 6.5-3) normally con-\n• External: The CM plan is used to communicate trolled by the program, project, or Center are the\n the CM process to the contractors involved in following:\n the program/project. It establishes consistent CM\n processes and working relationships. • Functional Baseline: The functional baseline\n is the approved configuration documentation\nThe CM plan may be a standalone document or it that describes a system’s or top-level CI’s perfor-\nmay be combined with other program/project plan- mance requirements (functional, interoperability,\nning documents. It should describe the criteria for and interface characteristics) and the verification\neach technical baseline creation, technical approvals, required to demonstrate the achievement of those\nand audits. specified characteristics. The functional baseline\n is established at the SDR by the NASA program/\n6.5.1.2.2 Identify Baseline to be Under Configuration project. The program/project will direct through\n Control contractual agreements, how the functional base-\nConfiguration identification is the systematic process lines are managed at the different functional lev-\nof selecting, organizing, and stating the product attri- els. (Levels 1–4)\nbutes. Identification requires unique identifiers for a\nproduct and its configuration documentation. The • Allocated Baseline: The allocated baseline is\nCM activity associated with identification includes the approved performance-oriented configura-\nselecting the Configuration Items (CIs), determin- tion documentation for a CI to be developed\ning the CIs’ associated configuration documentation, that describes the functional, performance, and\ndetermining the appropriate change control author- interface characteristics that are allocated from\nity, issuing unique identifiers for both CIs and CI a higher level requirements document or a CI\ndocumentation, releasing configuration documenta- and the verification required to demonstrate\ntion, and establishing configuration baselines. achievement of those specified characteristics.\n The allocated baseline extends the top-level per-\nNASA has four baselines, each of which defines a dis- formance requirements of the functional baseline\ntinct phase in the evolution of a product design. The to sufficient detail for defining the functional and\n\n\n\n 146",
+          "score": 11.996249894236504,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0158",
+          "page": 158,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• As-Deployed Baseline: The as-deployed baseline project objectives and requirements. The first step\n occurs at the ORR. At this point, the design is consid- establishes a robust and well-disciplined internal\n ered to be functional and ready for flight. All changes NASA Configuration Control Board (CCB) system,\n will have been incorporated into the documentation. which is chaired by someone with program/project\n change authority. CCB members represent the stake-\n6.5.1.2.3 Manage Configuration Change Control holders with authority to commit the team they rep-\nConfiguration change management is a process to resent. The second step creates configuration change\nmanage approved designs and the implementation management surveillance of the contractor’s activity.\nof approved changes. Configuration change man- The CM office advises the NASA program or project\nagement is achieved through the systematic proposal, manager to achieve a balanced configuration change\njustification, and evaluation of proposed changes management implementation that suits the unique\nfollowed by incorporation of approved changes and program/project situation. See FIGURE 6.5-4 for an\nverification of implementation. Implementing con- example of a typical configuration change manage-\nfiguration change management in a given program/ ment control process.\nproject requires unique knowledge of the program/\n\n\n\n NORMAL CONFIGURATION CHANGE PROCESS\n Responsible\n Originator CM Function Reviewers Organization CCB Actionees\n\n 1. 2. 3. 4.\n • Prepare and • Receive and log Review and Collect, track,\n submit change request in system submit comments and adjudicate\n request • Screen change comments (with\n • Propose reviewers package reviewers and\n • Release for review originator)\n\n\n\n 5. 6. 7. 8a.\n Schedule CCB and Prepare decision • Disposition Complete\n prepare agenda package change request assigned actions\n (if needed) • Assign action\n items as needed\n\n\n\n 8b. 9.\n • Release CCB • Execute approved\n minutes changes\n • Track actions • Finalize\n documentation\n\n\n\n 10.\n • Verify release\n package\n • Release final\n documentation\n • Close change\n request\n\n\n\n FIGURE 6.5-4 Ty pical Change Control Process\n\n\n\n 148",
+          "score": 11.682417404493027,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0116",
+          "page": 116,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n configuration drawings, and other records gener- these paper or soft products are transformed through\n ated during the validation activities. implementation and integration processes into hard-\n ware and software solutions to meet the stakeholder\nSuccess criteria for this process include: (1) objective expectations. They are repeated with different degrees\nevidence of performance and the results of each sys- of rigor throughout the life cycle. The Product\ntem-of-interest validation activity are documented, Transition Process includes product transitions from\nand (2) the validation process should not be consid- one level of the system architecture upward. The\nered or designated as complete until all issues and Product Transition Process is the last of the product\nactions are resolved. realization processes, and it is a bridge from one level\n of the system to the next higher level.\n5.4.2 Product Validation Guidance\nRefer to Section 5.4.2 in the NASA Expanded The Product Transition Process is the key to bridge\nGuidance for Systems Engineering at https://nen.nasa. from one activity, subsystem, or element to the overall\ngov/web/se/doc-repository for additional guidance on: engineered system. As the system development nears\n completion, the Product Transition Process is again\n• use of modeling and simulation, applied for the end product, but with much more\n• software validation, and rigor since now the transition objective is delivery of\n• taking credit for validation. the system-level end product to the actual end user.\n Depending on the kind or category of system devel-\n5.5 Product Transition oped, this may involve a Center or the Agency and\n impact thousands of individuals storing, handling,\nThe Product Transition Process is used to transition a and transporting multiple end products; preparing\nverified and validated end product that has been gen- user sites; training operators and maintenance per-\nerated by product implementation or product inte- sonnel; and installing and sustaining, as applicable.\ngration to the customer at the next level in the system Examples are transitioning the external tank, solid\nstructure for integration into an end product or, for rocket boosters, and orbiter to Kennedy Space Center\nthe top-level end product, transitioned to the intended (KSC) for integration and flight. Another example is\nend user. The form of the product transitioned will be the transition of a software subsystem for integration\na function of the product life cycle phase success cri- into a combined hardware/software system.\nteria and the location within the system structure of\nthe WBS model in which the end product exists. The 5.5.1 Process Description\nsystems engineer involvement in this process includes FIGURE 5.5-1 provides a typical flow diagram for\nensuring the product being transitioned has been the Product Transition Process and identifies typical\nproperly tested and verified/validated prior to being inputs, outputs, and activities to consider in address-\nshipped to the next level stakeholder/customer. ing product transition.\n\nProduct transition occurs during all phases of the 5.5.1.1 Inputs\nlife cycle. During the early phases, the technical Inputs to the Product Transition Process depend pri-\nteam’s products are documents, models, studies, and marily on the transition requirements, the product\nreports. As the project moves through the life cycle, that is being transitioned, the form of the product\n\n\n\n\n\n 106",
+          "score": 11.375949686066614,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 155,
+          "path": "data/local/advanced/pages/p0155_2000.png",
+          "sha256": "f2f3f3aac52944028821b18a2e0310010aecb487f8d913717cd3e9f244b3a3d8",
+          "source_id": "NASA-SE:p0155",
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    155
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Hoạt động trung tâm cuối cùng sau 'Conduct configuration audits' trong Hình 6.5-1 là 'Capture work products from configuration management activities'.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0155",
+          "locator": "Figure 6.5-1, last yellow process block",
+          "evidence": "Capture work products from configuration management activities"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 5627.01
+}

@@ -1,0 +1,439 @@
+[
+  {
+    "id": "ADV-DEV-01",
+    "primary_group": "table",
+    "question": "In Table 2.1-1, which AS9100 requirements align with Decision Analysis?",
+    "answerable": true,
+    "expected": "Measurement, Analysis and Improvement; Analysis of Data.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 7,
+        "bbox": [
+          0.09,
+          0.88,
+          0.91,
+          0.92
+        ],
+        "locator": "Table 2.1-1, Decision Analysis row, AS9100 column",
+        "fact": "Both mappings required",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-02",
+    "primary_group": "table",
+    "question": "In Table 2.2-1, what is the typical outcome for Phase D?",
+    "answerable": true,
+    "expected": "Operations-ready system end product with supporting related enabling products.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.68,
+          0.47,
+          0.91,
+          0.57
+        ],
+        "locator": "Table 2.2-1, Phase D / Typical Outcomes",
+        "fact": "Operations-ready plus enabling products",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-03",
+    "primary_group": "table",
+    "question": "According to Table 4.2-2, list the verification methods and when that metadata should be determined.",
+    "answerable": true,
+    "expected": "Test, inspection, analysis, demonstration; determined as requirements are developed.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 69,
+        "printed_page": 59,
+        "bbox": [
+          0.09,
+          0.73,
+          0.91,
+          0.77
+        ],
+        "locator": "Table 4.2-2, Verification method row",
+        "fact": "Four methods and development timing",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-04",
+    "primary_group": "table",
+    "question": "In Table 6.8-1, what must the Dissent section record when applicable?",
+    "answerable": true,
+    "expected": "Dissent with the recommendation and how it was addressed, e.g. decision matrix or risk.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 181,
+        "printed_page": 171,
+        "bbox": [
+          0.09,
+          0.5,
+          0.91,
+          0.54
+        ],
+        "locator": "Table 6.8-1, row 8 Dissent",
+        "fact": "Dissent and its disposition",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-05",
+    "primary_group": "diagram",
+    "question": "In Figure 4.1-1, which two activities start the central stakeholder-expectations process, in order?",
+    "answerable": true,
+    "expected": "Establish list of stakeholders, then elicit stakeholder expectations.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 56,
+        "printed_page": 46,
+        "bbox": [
+          0.32,
+          0.12,
+          0.68,
+          0.2
+        ],
+        "locator": "Figure 4.1-1, first two yellow boxes",
+        "fact": "Sequence, not just labels",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-06",
+    "primary_group": "diagram",
+    "question": "In Figure 4.2-1, what activity immediately precedes Establish technical requirements baseline on the left-hand vertical path?",
+    "answerable": true,
+    "expected": "Validate technical requirements.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 65,
+        "printed_page": 55,
+        "bbox": [
+          0.28,
+          0.38,
+          0.48,
+          0.5
+        ],
+        "locator": "Figure 4.2-1, lower-left arrow",
+        "fact": "Validation flows to baselining",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-07",
+    "primary_group": "diagram",
+    "question": "In Figure 6.5-1, what is the last central activity after Conduct configuration audits?",
+    "answerable": true,
+    "expected": "Capture work products from configuration management activities.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 155,
+        "printed_page": 145,
+        "bbox": [
+          0.38,
+          0.38,
+          0.63,
+          0.48
+        ],
+        "locator": "Figure 6.5-1, bottom two yellow boxes",
+        "fact": "Capture follows audits",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-08",
+    "primary_group": "diagram",
+    "question": "Using the technology-readiness ladder in Figure G.4-1, what distinguishes the environments at TRL 4 and TRL 5?",
+    "answerable": true,
+    "expected": "TRL 4 component/breadboard validation in laboratory environment; TRL 5 in relevant environment.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 221,
+        "printed_page": 211,
+        "bbox": [
+          0.08,
+          0.08,
+          0.92,
+          0.83
+        ],
+        "locator": "Figure G.4-1, TRL 4 and 5 boxes",
+        "fact": "Laboratory versus relevant",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-09",
+    "primary_group": "chart",
+    "question": "In Figure 2.5-1, what percentage of life-cycle cost is shown expended at Concept?",
+    "answerable": true,
+    "expected": "8%.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.09,
+          0.08,
+          0.9,
+          0.6
+        ],
+        "locator": "Figure 2.5-1, yellow Costs Expended block / Concept",
+        "fact": "8 percent, not committed-cost curve",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-10",
+    "primary_group": "chart",
+    "question": "In Figure 2.5-1, what are the earliest and latest labeled multipliers on the cost-to-change-design-direction arrow?",
+    "answerable": true,
+    "expected": "3–6x at the early end; 500–1000x at the late end.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.12,
+          0.1,
+          0.89,
+          0.39
+        ],
+        "locator": "Figure 2.5-1, rising teal cost-to-change arrow",
+        "fact": "Multipliers, not percentages",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-11",
+    "primary_group": "multi_hop",
+    "question": "Combine Section 3.5 and Figure G.4-1: what technology-development work is completed in Phase B, and what does TRL 6 demonstrate and in what environment?",
+    "answerable": true,
+    "expected": "Phase B completes technology development, engineering prototyping, heritage assessments and risk mitigation. TRL 6 is a system/subsystem model or prototype demonstration in a relevant environment (ground or space).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 35,
+        "printed_page": 25,
+        "bbox": [
+          0.51,
+          0.51,
+          0.92,
+          0.92
+        ],
+        "locator": "Section 3.5 Phase B opening",
+        "fact": "Technology development/prototyping/heritage/risk mitigation",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 221,
+        "printed_page": 211,
+        "bbox": [
+          0.08,
+          0.08,
+          0.92,
+          0.83
+        ],
+        "locator": "Figure G.4-1, TRL 6",
+        "fact": "System/subsystem model/prototype, relevant ground or space environment",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-12",
+    "primary_group": "multi_hop",
+    "question": "Compare Figure 4.1-1 and Figure 4.2-1: to which technical definition/decomposition process are Validated Stakeholder Expectations and Validated Technical Requirements respectively sent?",
+    "answerable": true,
+    "expected": "Validated Stakeholder Expectations go to Technical Requirements Definition; Validated Technical Requirements go to Logical Decomposition (along with requirements/interface management recipients).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 56,
+        "printed_page": 46,
+        "bbox": [
+          0.68,
+          0.11,
+          0.9,
+          0.24
+        ],
+        "locator": "Figure 4.1-1, top-right output and recipient",
+        "fact": "Technical Requirements Definition",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 65,
+        "printed_page": 55,
+        "bbox": [
+          0.71,
+          0.14,
+          0.9,
+          0.25
+        ],
+        "locator": "Figure 4.2-1, top-right output and recipient",
+        "fact": "Logical Decomposition",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-13",
+    "primary_group": "text",
+    "question": "In Section 4.1.1.2.1, how is a stakeholder defined?",
+    "answerable": true,
+    "expected": "A group or individual affected by or having a stake in the product or project.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 55,
+        "printed_page": 45,
+        "bbox": [
+          0.51,
+          0.78,
+          0.91,
+          0.9
+        ],
+        "locator": "Section 4.1.1.2.1 Identify Stakeholders",
+        "fact": "Affected by or stake in product/project",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-14",
+    "primary_group": "text",
+    "question": "In Section 4.1's discussion of Needs, Goals, and Objectives, must goals already be quantitative or measurable, and what must they still allow?",
+    "answerable": true,
+    "expected": "Goals need not be quantitative/measurable, but must allow assessment of whether achieved.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 59,
+        "printed_page": 49,
+        "bbox": [
+          0.51,
+          0.09,
+          0.91,
+          0.23
+        ],
+        "locator": "Goals bullet, upper-right",
+        "fact": "Need not measurable, assess achievement",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-15",
+    "primary_group": "text",
+    "question": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?",
+    "answerable": true,
+    "expected": "WHAT is needed, not HOW to provide it.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 207,
+        "printed_page": 197,
+        "bbox": [
+          0.09,
+          0.08,
+          0.92,
+          0.93
+        ],
+        "locator": "Appendix C, Good Requirements / correct statements",
+        "fact": "WHAT not HOW",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-16",
+    "primary_group": "unanswerable",
+    "question": "What exact universal maximum probability of catastrophic risk must every NASA project meet at PDR in this handbook?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "catastrophic",
+            "probability",
+            "PDR"
+          ],
+          "related_sections": "6.4 risk management; 6.7 reviews",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-17",
+    "primary_group": "unanswerable",
+    "question": "What mandatory word count must every Concept of Operations document contain?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "word count",
+            "ConOps",
+            "Concept of Operations"
+          ],
+          "related_sections": "4.1 and Appendix S ConOps",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-DEV-18",
+    "primary_group": "unanswerable",
+    "question": "What universal minimum number of stakeholders must each NASA project interview?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "minimum number",
+            "stakeholders",
+            "interview"
+          ],
+          "related_sections": "4.1 stakeholder expectations",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "split": "test",
+  "run": "test_guarded",
+  "n": 23,
+  "N": 30,
+  "rate": 0.7666666666666667,
+  "groups": {
+    "table": {
+      "n": 5,
+      "N": 6
+    },
+    "diagram": {
+      "n": 4,
+      "N": 5
+    },
+    "chart": {
+      "n": 5,
+      "N": 5
+    },
+    "multi_hop": {
+      "n": 2,
+      "N": 4
+    },
+    "text": {
+      "n": 3,
+      "N": 4
+    },
+    "unanswerable": {
+      "n": 4,
+      "N": 6
+    }
+  },
+  "errors": 2,
+  "elapsed_ms_sum": 351548.8,
+  "usage": {
+    "prompt_tokens": 1195960,
+    "completion_tokens": 9598,
+    "total_tokens": 1205558
+  },
+  "meets_numeric_90_percent": false,
+  "cost_usd": null,
+  "cost_note": "Usage recorded, billed USD not verified. See cost estimate separately.",
+  "review_method": "Direct per-question/per-citation comparison with original PDF renders; binary strict claim completeness. Correct evidence quotes do not silently repair a changed conjunction or missing condition in the answer claim. No independent external grading claimed.",
+  "reviews_sha256": "42451f97b247f98640cf4c5cb68a54b39d781b73541aff720e891e8539f2087e"
+}

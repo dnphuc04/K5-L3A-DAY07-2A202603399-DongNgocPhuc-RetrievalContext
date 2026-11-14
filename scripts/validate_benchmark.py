@@ -58,7 +58,7 @@ def validate(day6):
                 check = q["absence_check"]
                 checks.append({"id": q["id"], "scope": "all 33 indexed pages", "pages_scanned": len(selected),
                     "term_hits": {term: [p for p in selected if norm(term).casefold() in pages[p].casefold()] for term in check["terms"]},
-                    "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence", "missing_fact": check["missing_fact"]})
+                    "semantic_absence_review": "Review of all selected page text and relevant source sections; keyword hits alone do not prove absence", "missing_fact": check["missing_fact"]})
         inputs = [{k: q[k] for k in ("id", "question", "filter") if k in q and q[k] is not None} for q in cases]
         assert load(ROOT / f"benchmarks/{split}.inputs.json") == inputs, "Agent inputs differ or contain labels"
         all_cases.extend(cases)

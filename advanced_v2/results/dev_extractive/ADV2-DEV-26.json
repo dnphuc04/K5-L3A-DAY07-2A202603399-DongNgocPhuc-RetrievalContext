@@ -1,0 +1,547 @@
+{
+  "id": "ADV2-DEV-26",
+  "split": "dev",
+  "question": "What exact mandatory Monte Carlo sample count must all decision analyses use?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4gq9H3ahZmoqpV7MpzkY6Q0c1OF",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 560,
+        "completion_tokens": 12,
+        "total_tokens": 572,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1328.4,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_zpJS2y4QFDyPcy1xemJKvrgW",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mandatory Monte Carlo sample count for decision analyses\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gsVHi5qaCUDzcH33vl5sEDZMF3",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5655,
+        "completion_tokens": 19,
+        "total_tokens": 5674,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1209.65,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_EPwPjWJ0TgUF7z7rga1TiDFj",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Monte Carlo sample count mandatory decision analysis\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gt2lEzGJ4ZE9xlyiYiioTkHMuY",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10664,
+        "completion_tokens": 17,
+        "total_tokens": 10681,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1421.0,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_p4FEDdIWD5xFRdaayhqs6X5T",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Monte Carlo sample count requirement\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gvgoZFLcADZHd2COBB3SWa6NYY",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 15271,
+        "completion_tokens": 32,
+        "total_tokens": 15303,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1643.07,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_V9LheLUW7M6Ykl2iGOdMxBBd",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0177\",\"NASA-SE:p0178\",\"NASA-SE:p0133\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4h0PuodvuIqMa1sYIyNLoSP11On",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 20258,
+        "completion_tokens": 37,
+        "total_tokens": 20295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4499.95,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_4FFgWbblFxSTyhtGGnUQzHzn",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0133\",\"bbox\":[0.0,0.6,1.0,1.0]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4h6QVLbLzNl3oNIMViCWLRAuhtN",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 21561,
+        "completion_tokens": 3,
+        "total_tokens": 21564,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5223.51,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "claims=[]",
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hBvymfEBcEDXbBVYA8h5vhyHF5",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 21583,
+        "completion_tokens": 31,
+        "total_tokens": 21614,
+        "prompt_tokens_details": {
+          "cached_tokens": 20096,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5954.33,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_wYprLD75egbU08ckNVHWr7LR",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0133\",\"bbox\":[0,0.6,1,1]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hIf1K7efodrDEjqRQQZPeDfW5D",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 22866,
+        "completion_tokens": 3,
+        "total_tokens": 22869,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6447.31,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "claims=[]",
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What exact mandatory Monte Carlo sample count must all decision analyses use?",
+      "results": [
+        {
+          "id": "NASA-SE:p0133",
+          "page": 133,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nstand-alone, it should be referenced in the SEMP. it will become outmoded and unused and the proj-\nDepending on the size and complexity of the project, ect could slide into an uncontrolled state. The lead\nthese may be separate plans or they may be included NASA field Center should have its SEMP developed\nwithin the SEMP. Once identified, the plans can be before attempting to prepare an initial cost estimate\ndeveloped, training on these plans established, and since activities that incur cost, such as technical risk\nthe plans implemented. Examples of technical plans reduction and human element accounting, need to be\nin addition to the SEMP are listed in Appendix K. identified and described beforehand. The contractor\n should have its SEMP developed during the proposal\nThe SEMP should be developed during pre- process (prior to costing and pricing) because the\nformulation. In developing the SEMP, the technical SEMP describes the technical content of the project,\napproach to the project’s life cycle is developed. This the potentially costly risk management activities, and\ndetermines the project’s length and cost. The devel- the verification and validation techniques to be used,\nopment of the programmatic and technical man- all of which should be included in the preparation of\nagement approaches requires that the key project project cost estimates. The SEMPs from the support-\npersonnel develop an understanding of the work to ing Centers should be developed along with the pri-\nbe performed and the relationships among the vari- mary project SEMP. The project SEMP is the senior\nous parts of that work. Refer to Sections 6.1.2.1 and technical management document for the project;\n6.1.1.2 on WBSs and network scheduling, respec- all other technical plans should comply with it. The\ntively. The SEMP then flows into the project plan to SEMP should be comprehensive and describe how a\nensure the proper allocation of resources including fully integrated engineering effort will be managed\ncost, schedule, and personnel. and conducted.\n\nThe SEMP’s development requires contributions Verification Plan\nfrom knowledgeable programmatic and technical The verification plan is developed as part of the\nexperts from all areas of the project that can signifi- Technical Planning Process and is baselined at PDR.\ncantly influence the project’s outcome. The involve- As the design matures throughout the life cycle, the\nment of recognized experts is needed to establish a plan is updated and refined as needed. The task of\nSEMP that is credible to the project manager and to preparing the verification plan includes establishing\nsecure the full commitment of the project team. the method of verification to be performed, depen-\n dent on the life cycle phase; the position of the prod-\nRole of the SEMP uct in the system structure; the form of the product\nThe SEMP is the rule book that describes to all par- used; and the related costs of verification of individ-\nticipants how the project will be technically man- ual specified requirements. The verification methods\naged. The NASA technical team on the project include analyses, inspection, demonstration, and test.\nshould have a SEMP to describe how it will con- In some cases, the complete verification of a given\nduct its technical management, and each contractor requirement might require more than one method.\nshould have a SEMP to describe how it will man- For example, to verify the performance of a product\nage in accordance with both its contract and NASA’s may require looking at many use cases. This might be\ntechnical management practices. Since the SEMP accomplished by running a Monte Carlo simulation\nis unique to a project and contract, it should be (analysis) and also running actual tests on a few of\nupdated for each significant programmatic change or the key cases. The verification plan, typically written\n\n\n\n 123",
+          "score": 12.151811666701997,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0193",
+          "page": 193,
+          "text": " Appendix B: Glossary\n\n\n\n\n\n\nGoal: Goals elaborate on the need and constitute a Human Systems Integration: An interdisciplinary\nspecific set of expectations for the system. They fur- and comprehensive management and technical pro-\nther define what we hope to accomplish by address- cess that focuses on the integration of human consid-\ning the critical issues identified during the problem erations into the system acquisition and development\nassessment. Goals need not be in a quantitative or processes to enhance human system design, reduce\nmeasurable form, but they must allow us to assess life cycle ownership cost, and optimize total system\nwhether the system has achieved them. performance.\n\n\nGovernment Mandatory Inspection Points: Implementation Phase: The part of the NASA man-\nInspection points required by Federal regulations agement life cycle defined in NPR 7120.5 where the\nto ensure 100 percent compliance with safety/mis- detailed design of system products is completed and the\nsion-critical attributes when noncompliance can products to be deployed are fabricated, assembled, inte-\nresult in loss of life or loss of mission. grated, and tested and the products are deployed to their\n customers or users for their assigned use or mission.\nHealth Assessment: The activity under Fault Man-\nagement that carries out detection, diagnosis, and Incommensurable Costs: Costs that cannot be easily\nidentification of faults and prediction of fault prop- measured, such as controlling pollution on launch or\nagation states into the future. mitigating debris.\n\n\nHealth Monitoring: The activity under Fault Influence Diagram: A compact graphical and mathe-\nManagement that implements system state data col- matical representation of a decision state. Its elements are\nlection, storage, and reporting though sensing and decision nodes, chance nodes, value nodes, and arrows\ncommunication. to indicate the relationships among these elements.\n\n\nHeritage (or legacy): Refers to the original manufactur- Inspection: The visual examination of a realized end\ner’s level of quality and reliability that is built into the product. Inspection is generally used to verify phys-\nparts, which have been proven by (1) time in service, ical design features or specific manufacturer identi-\n(2) number of units in service, (3) mean time between fication. For example, if there is a requirement that\nfailure performance, and (4) number of use cycles. the safety arming pin has a red flag with the words\n “Remove Before Flight” stenciled on the flag in black\nHuman-Centered Design: An approach to the devel- letters, a visual inspection of the arming pin flag can\nopment of interactive systems that focuses on making be used to determine if this requirement wasmet.\nsystems usable by ensuring that the needs, abilities,\nand limitations of the human user are met through- Integrated Logistics Support: The management,\nout the system’s life cycle. engineering activities, analysis, and information\n management associated with design requirements\nHuman Factors Engineering: The discipline that definition, material procurement and distribution,\nstudies human-system interfaces and provides maintenance, supply replacement, transportation,\nrequirements, standards, and guidelines to ensure the and disposal that are identified by space flight and\nhuman component of an integrated system is able to ground systems supportability objectives.\nfunction as intended.\n\n\n\n 183",
+          "score": 10.661875728056904,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0177",
+          "page": 177,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n when the set of stakeholders reflects a diversity of Decisions are based on facts, qualitative and quan-\n values, preferences, and perspectives. titative data, engineering judgment, and open com-\n munications to facilitate the flow of information\nSatisfaction of all of these conditions is not a require- throughout the hierarchy of forums where technical\nment for initiating decision analysis. The point is, analyses and evaluations are presented and assessed\nrather, that the need for decision analysis increases and where decisions are made. The extent of technical\nas a function of the above conditions. In addition, analysis and evaluation required should be commen-\noften these decisions have the potential to result in surate with the consequences of the issue requiring\nhigh stakes impacts to cost, safety, or mission success a decision. The work required to conduct a formal\ncriteria, which should be identified and addressed in evaluation is significant and applicability should be\nthe process. When the Decision Analysis Process is based on the nature of the problem to be resolved.\ntriggered, the following are inputs: Guidelines for use can be determined by the magni-\n tude of the possible consequences of the decision to\n• Decision need, identified alternatives, issues, or be made.\n problems and supporting data: This information\n would come from all technical, cost, and sched- 6.8.1.2.1 Define the Criteria for Evaluating Alternative\n ule management processes. It may also include Solutions\n high-level objectives and constraints (from the This step includes identifying the following:\n program/project).\n • The types of criteria to consider, such as customer\n• Analysis support requests: Requests will arise expectations and requirements, technology lim-\n from the technical, cost, and schedule assessment itations, environmental impact, safety, risks, total\n processes. ownership and life cycle costs, and schedule impact;\n\n6.8.1.2 Process Activities • The acceptable range and scale of the criteria; and\nFor the Decision Analysis Process, the following\nactivities are typically performed. • The rank of each criterion by its importance.\n\nIt is important to understand the decision needed in Decision criteria are requirements for individually\nthe context of the mission and system, which requires assessing the options and alternatives being consid-\nknowledge of the intended outcome in terms of tech- ered. Typical decision criteria include cost, sched-\nnical performance, cost, and schedule. A part of this ule, risk, safety, mission success, and supportability.\nunderstanding is the definition of the decision crite- However, considerations should also include tech-\nria, or the measures that are important to character- nical criteria specific to the decision being made.\nize the options for making a decision. The specific Criteria should be objective and measurable. Criteria\ndecision-making body, whether the program/project should also permit differentiating among options or\nmanager, chief engineer, line management, or con- alternatives. Some criteria may not be meaningful to\ntrol board should also be well defined. Based on this a decision; however, they should be documented as\nunderstanding, then the specific approach to deci- having been considered. Criteria may be mandatory\nsion-making can be defined. (i.e., “shall have”) or enhancing. An option that does\n\n\n\n\n\n 167",
+          "score": 10.520127412010693,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0022",
+          "page": 22,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n THE SYSTEMS ENGINEER’S DILEMMA\n\n\n At each cost-effective solution:\n\n\n • To reduce cost at constant risk, performance must be reduced.\n • To reduce risk at constant cost, performance must be reduced.\n • To reduce cost at constant performance, higher risks must be accepted.\n • To reduce risk at constant performance, higher costs must be accepted.\n\n\n In this context, time in the schedule is often a critical resource, so that schedule behaves like a kind of cost .\n\n\n\n\n\nFIGURE 2.5-1 shows that the life cycle costs of a The technical team may have to choose among designs\nprogram or project tend to get “locked in” early in that differ in terms of numerous attributes. A variety of\ndesign and development. The cost curves clearly show methods have been developed that can be used to help\nthat late identification of and fixes to problems cost uncover preferences between attributes and to quan-\nconsiderably more later in the life cycle. Conversely, tify subjective assessments of relative value. When\ndescopes taken later versus earlier in the project life this can be done, trades between attributes can be\ncycle result in reduced cost savings. This figure, assessed quantitatively. Often, however, the attributes\nobtained from the Defense Acquisition University, is are incompatible. In the end, decisions need to be\nan example of how these costs are determined by the made in spite of the given variety of attributes. There\nearly concepts and designs. The numbers will vary are several decision analysis techniques (Section 6.8)\nfrom project to project, but the general shape of the that can aid in complex decision analysis. The systems\ncurves and the message they send will be similar. For engineer should always keep in mind the information\nexample, the figure shows that during design, only that needs to be available to help the decision-makers\nabout 15% of the costs might be expended, but the choose the most cost-effective option.\ndesign itself will commit about 75% of the life cycle\ncosts. This is because the way the system is designed\nwill determine how expensive it will be to test, man- 2.6 Human Systems Integration\nufacture, integrate, operate, and sustain. If these fac- (HSI) in the SE Process\ntors have not been considered during design, they\npose significant cost risks later in the life cycle. Also As noted at the beginning of NPR 7123.1, the “sys-\nnote that the cost to change the design increases as tems approach is applied to all elements of a system\nyou get later in the life cycle. If the project waits until (i.e., hardware, software, human systems integra-\nverification to do any type of test or analysis, any tion. In short, the systems engineering approach\nproblems found will have a significant cost impact to must equally address and integrate these three key\nredesign and reverify. elements: hardware, software, and human systems\n\n\n\n\n\n\n 12",
+          "score": 8.124263926211398,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0225",
+          "page": 225,
+          "text": " Appendix H: Integration Plan Outline\n\n\n\n\n\n• Internal document control number, if available 4.0 Phase 1 Integration\n This and the following sections define and explain each\n• Revision version and date issued step in the integration process. The intent here is to iden-\n tify all the needed participants and to describe to them\n1.0 Purpose of Document what they have to do. In general, the description of each\nThis section gives a brief statement of the purpose of this integration step should identify the following:\ndocument. It is the plan for integrating the components\nand subsystems of the project prior to verification. • The location of the activities.\n\n2.0 Scope of Project • The project-developed equipment and software prod-\nThis section gives a brief description of the planned proj- ucts to be integrated. Initially this is just a high-level\nect and the purpose of the system to be built. Special list, but eventually the list should be exact and com-\nemphasis is placed on the project’s deployment complex- plete, showing part numbers and quantity.\nities and challenges.\n • Any support equipment (special software, test hard-\n3.0 Integration Strategy ware, software stubs, and drivers to simulate yet-to-\nThis section tells the reader what the high-level plan for be-integrated software components, external systems)\nintegration is and, most importantly, why the integra- needed for this integration step. The same support\ntion plan is structured the way it is. The integration plan equipment is most likely needed for the subsequent\nis subject to several, sometimes conflicting, constraints. verification step.\nAlso, it is one part of the larger process of build, inte-\ngrate, verify, and deploy, all of which should be syn- • All integration activities that need to be performed\nchronized to support the same project strategy. So, for after installation, including integration with onsite\neven a moderately complex project, the integration strat- systems and external systems at other sites.\negy, which is based on a clear and concise statement of\nthe project’s goals and objectives, is described here at a • A description of the verification activities, as defined\nhigh but all-inclusive level. It may also be necessary to in the applicable verification plan, that occur after\ndescribe the analysis of alternative strategies to make it this integration step.\nclear why this particular strategy was selected.\n • The responsible parties for each activity in the inte-\nThe same strategy is the basis for the build plan, the gration step.\nverification plan, and the deployment plan. This section\ncovers and describes each step in the integration process. • The schedule for each activity.\nIt describes what components are integrated at each step\nand gives a general idea of what threads of the opera- 5.0 Multiple Phase Integration Steps\ntional capabilities (requirements) are covered. It ties the (1 or N steps)\nplan to the previously identified goals and objectives so This and any needed additional sections follow the\nthe stakeholders can understand the rationale for each format for Section 3.0. Each covers each step in a\nintegration step. This summary-level description also multiple-step integration effort.\ndefines the schedule for all the integration efforts.\n\n\n\n\n\n 215",
+          "score": 7.699640329425879,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0261",
+          "page": 261,
+          "text": "Appendix S: Concept of Operations\n Annotated Outline\n\n\n\n\n\nThis Concept of Operations (ConOps) annotated ready to be fielded, or that the system has to be provided\noutline describes the type and sequence of informa- by a certain date in order to accomplish the mission.\ntion that should be contained in a ConOps, although\nthe exact content and sequence will be a function of 1.2 Overview of the Envisioned System\nthe type, size, and complexity of the project. The text This section provides an executive summary overview of\nin italics describes the type of information that would the envisioned system. A more detailed description will\nbe provided in the associated subsection. Additional be provided in Section 3.0\nsubsections should be added as necessary to fully\ndescribe the envisioned system. 1.2.1 Overview\n This subsection provides a high-level overview of the sys-\n tem and its operation. Pictorials, graphics, videos, mod-\nCover Page els, or other means may be used to provide this basic\n understanding of the concept.\nTable of Contents\n 1.2.2 System Scope\n1.0 Introduction This section gives an estimate of the size and complex-\n ity of the system. It defines the system’s external inter-\n1.1 Project Description faces and enabling systems. It describes what the project\nThis section will provide a brief overview of the devel- will encompass and what will lie outside of the project’s\nopment activity and system context as delineated in the development.\nfollowing two subsections.\n\n1.1.1 Background 2.0 Documents\n\nSummarize the conditions that created the need for the 2.1 Applicable Documents\nnew system. Provide the high-level mission goals and This section lists all the documents, models, standards\nobjective of the system operation. Provide the rationale or other material that are applicable and some or all of\nfor the development of the system. which will form part of the requirements of the project.\n\n1.1.2 Assumptions and Constraints 2.2 Reference Documents\nState the basic assumptions and constraints in the devel- This section provides supplemental information that might\nopment of the concept. For example, that some technol- be useful in understanding the system or its scenarios.\nogy will be matured enough by the time the system is\n\n\n\n\n\n\n 251",
+          "score": 7.673928560929518,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0058",
+          "page": 58,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission Mission Operational Success Design\n Goals Objectives Objectives Criteria Drivers\n\n\n\n\n\n\n\n • Agency Strategic • Science Objectives Operational Drivers Measurements Mission Drivers\n Plans • Exploration • Integration and • What • Launch Date\n • Announcements Objectives Test measurements? • Mission Duration\n of Opportunity • Technology • Launch • How well? • Orbit\n • Road Maps Demonstration • On-Orbit • Cost Constraints\n • Directed Missions Objectives • Transfer • Etc.\n • Technology • Surface\n Development • Science Data Explorations\n Objectives Distribution • What\n • Programmatic • Maintenance explorations?\n Objectives • Logistics • What goals?\n • Etc.\n\n\n FIGURE 4.1-2 Information Flow for Stakeholder Expectations\n\n\nobjectives form the basis for developing the mission, In identifying the full set of expectations, the systems\nso they need to be clearly defined and articulated. engineer will need to interact with various commu-\n nities, such as those working in the areas of orbital\nThe project team should also identify the constraints debris, space asset protection, human systems inte-\nthat may apply. A “constraint” is a condition that is to gration, quality assurance, and reliability. Ensuring\nbe met. Sometimes a constraint is dictated by external that a complete set of expectations is captured will\nfactors such as orbital mechanics, an existing system help prevent “surprise” features from arising later in\nthat must be utilized (external interface), a regu- the life cycle. For example, space asset protection may\nlatory restriction, or the state of technology; some- require additional encryption for the forward link\ntimes constraints are the result of the overall budget commands, additional shielding or filtering for RF\nenvironment. Concepts of operation and constraints systems, use of a different frequency, or other design\nalso need to be included in defining the stakeholder changes that might be costly to add to a system that\nexpectations. These identify how the system should has already been developed.\nbe operated to achieve the mission objectives.\n 4.1.1.2.3 Identify Needs, Goals, and Objectives\n In order to define the goals and objectives, it is nec-\n NOTE: It is extremely important to involve stake- essary to elicit the needs, wants, desires, capabilities,\n holders in all phases of a project. Such involvement external interfaces, assumptions, and constraints\n should be built in as a self-correcting feedback loop from the stakeholders. Arriving at an agreed-to set of\n that will significantly enhance the chances of mis- goals and objectives can be a long and arduous task.\n sion success. Involving stakeholders in a project Proactive iteration with the stakeholders throughout\n builds confidence in the end product and serves as a the systems engineering process is the way that all par-\n validation and acceptance with the target audience. ties can come to a true understanding of what should\n be done and what it takes to do the job. It is important\n\n\n\n 48",
+          "score": 7.575205887295281,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Monte Carlo sample count mandatory decision analysis",
+      "results": [
+        {
+          "id": "NASA-SE:p0133",
+          "page": 133,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nstand-alone, it should be referenced in the SEMP. it will become outmoded and unused and the proj-\nDepending on the size and complexity of the project, ect could slide into an uncontrolled state. The lead\nthese may be separate plans or they may be included NASA field Center should have its SEMP developed\nwithin the SEMP. Once identified, the plans can be before attempting to prepare an initial cost estimate\ndeveloped, training on these plans established, and since activities that incur cost, such as technical risk\nthe plans implemented. Examples of technical plans reduction and human element accounting, need to be\nin addition to the SEMP are listed in Appendix K. identified and described beforehand. The contractor\n should have its SEMP developed during the proposal\nThe SEMP should be developed during pre- process (prior to costing and pricing) because the\nformulation. In developing the SEMP, the technical SEMP describes the technical content of the project,\napproach to the project’s life cycle is developed. This the potentially costly risk management activities, and\ndetermines the project’s length and cost. The devel- the verification and validation techniques to be used,\nopment of the programmatic and technical man- all of which should be included in the preparation of\nagement approaches requires that the key project project cost estimates. The SEMPs from the support-\npersonnel develop an understanding of the work to ing Centers should be developed along with the pri-\nbe performed and the relationships among the vari- mary project SEMP. The project SEMP is the senior\nous parts of that work. Refer to Sections 6.1.2.1 and technical management document for the project;\n6.1.1.2 on WBSs and network scheduling, respec- all other technical plans should comply with it. The\ntively. The SEMP then flows into the project plan to SEMP should be comprehensive and describe how a\nensure the proper allocation of resources including fully integrated engineering effort will be managed\ncost, schedule, and personnel. and conducted.\n\nThe SEMP’s development requires contributions Verification Plan\nfrom knowledgeable programmatic and technical The verification plan is developed as part of the\nexperts from all areas of the project that can signifi- Technical Planning Process and is baselined at PDR.\ncantly influence the project’s outcome. The involve- As the design matures throughout the life cycle, the\nment of recognized experts is needed to establish a plan is updated and refined as needed. The task of\nSEMP that is credible to the project manager and to preparing the verification plan includes establishing\nsecure the full commitment of the project team. the method of verification to be performed, depen-\n dent on the life cycle phase; the position of the prod-\nRole of the SEMP uct in the system structure; the form of the product\nThe SEMP is the rule book that describes to all par- used; and the related costs of verification of individ-\nticipants how the project will be technically man- ual specified requirements. The verification methods\naged. The NASA technical team on the project include analyses, inspection, demonstration, and test.\nshould have a SEMP to describe how it will con- In some cases, the complete verification of a given\nduct its technical management, and each contractor requirement might require more than one method.\nshould have a SEMP to describe how it will man- For example, to verify the performance of a product\nage in accordance with both its contract and NASA’s may require looking at many use cases. This might be\ntechnical management practices. Since the SEMP accomplished by running a Monte Carlo simulation\nis unique to a project and contract, it should be (analysis) and also running actual tests on a few of\nupdated for each significant programmatic change or the key cases. The verification plan, typically written\n\n\n\n 123",
+          "score": 9.236938452519873,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0269",
+          "page": 269,
+          "text": " Appendix T: Systems Engineering in Phase E\n\n\n\n\n\nMandatory Technical Data Management infrastruc- phases. Phase E TPMs may focus on the accomplish-\nture changes, when they occur, should be carefully ment of mission events, the performance of the sys-\nreviewed by those who interact with the data on a tem in operation, and the ability of the operations\nregular basis. This includes not only operations per- team to support upcoming events.\nsonnel, but also engineering and science customers of\nthat data. T.3.3.8 Decision Analysis\n The Phase E Decision Analysis Process is similar to\nT.3.3.7 Technical Assessment that in other project phases but may emphasize dif-\nFormal technical assessments during Phase E are typ- ferent criteria. For example, the ability to change a\nically focused on the upcoming execution of a spe- schedule may be limited by the absolute timing of\ncific operational activity such as launch, orbit entry, events such as an orbit entry or landing on a plan-\nor decommissioning. Reviews executed while flight etary surface. Cost trades may be more constrained\noperations are in progress should be scoped to answer by the inability to add trained personnel to support\ncritical questions while not overburdening the project an activity. Technical trades may be limited by the\nor operations team. inability to modify hardware in operation.\n\nTechnical Performance Measures (TPMs) in Phase E\nmay differ significantly from those in other project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 259",
+          "score": 9.096547431108757,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0177",
+          "page": 177,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n when the set of stakeholders reflects a diversity of Decisions are based on facts, qualitative and quan-\n values, preferences, and perspectives. titative data, engineering judgment, and open com-\n munications to facilitate the flow of information\nSatisfaction of all of these conditions is not a require- throughout the hierarchy of forums where technical\nment for initiating decision analysis. The point is, analyses and evaluations are presented and assessed\nrather, that the need for decision analysis increases and where decisions are made. The extent of technical\nas a function of the above conditions. In addition, analysis and evaluation required should be commen-\noften these decisions have the potential to result in surate with the consequences of the issue requiring\nhigh stakes impacts to cost, safety, or mission success a decision. The work required to conduct a formal\ncriteria, which should be identified and addressed in evaluation is significant and applicability should be\nthe process. When the Decision Analysis Process is based on the nature of the problem to be resolved.\ntriggered, the following are inputs: Guidelines for use can be determined by the magni-\n tude of the possible consequences of the decision to\n• Decision need, identified alternatives, issues, or be made.\n problems and supporting data: This information\n would come from all technical, cost, and sched- 6.8.1.2.1 Define the Criteria for Evaluating Alternative\n ule management processes. It may also include Solutions\n high-level objectives and constraints (from the This step includes identifying the following:\n program/project).\n • The types of criteria to consider, such as customer\n• Analysis support requests: Requests will arise expectations and requirements, technology lim-\n from the technical, cost, and schedule assessment itations, environmental impact, safety, risks, total\n processes. ownership and life cycle costs, and schedule impact;\n\n6.8.1.2 Process Activities • The acceptable range and scale of the criteria; and\nFor the Decision Analysis Process, the following\nactivities are typically performed. • The rank of each criterion by its importance.\n\nIt is important to understand the decision needed in Decision criteria are requirements for individually\nthe context of the mission and system, which requires assessing the options and alternatives being consid-\nknowledge of the intended outcome in terms of tech- ered. Typical decision criteria include cost, sched-\nnical performance, cost, and schedule. A part of this ule, risk, safety, mission success, and supportability.\nunderstanding is the definition of the decision crite- However, considerations should also include tech-\nria, or the measures that are important to character- nical criteria specific to the decision being made.\nize the options for making a decision. The specific Criteria should be objective and measurable. Criteria\ndecision-making body, whether the program/project should also permit differentiating among options or\nmanager, chief engineer, line management, or con- alternatives. Some criteria may not be meaningful to\ntrol board should also be well defined. Based on this a decision; however, they should be documented as\nunderstanding, then the specific approach to deci- having been considered. Criteria may be mandatory\nsion-making can be defined. (i.e., “shall have”) or enhancing. An option that does\n\n\n\n\n\n 167",
+          "score": 8.744419275967546,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0178",
+          "page": 178,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nnot meet mandatory criteria should be disregarded. to document the fact that these options were consid-\nFor complex decisions, criteria can be grouped into ered. A few decisions might only have one option. It\ncategories or objectives. is a best practice to document a decision matrix for\n a major decision even if only one alternative is deter-\n6.8.1.2.2 Identify Alternative Solutions to Address mined to be viable. (Sometimes doing nothing or not\n Decision Issues making a decision is an option.)\nWith the decision need well understood, alterna-\ntives can be identified that fit the mission and system 6.8.1.2.3 Select Evaluation Methods and Tools\ncontext. There may be several alternatives that could Based on the decision to be made, various approaches\npotentially satisfy the decision criteria. Alternatives can be taken to evaluate identified alternatives. These\ncan be found from design options, operational can range from simple discussion meetings with con-\noptions, cost options, and/or schedule options. tributing and affected stakeholders to more formal\n evaluation methods. In selecting the approach, the\nAlmost every decision will have options to choose mission and system context should be kept in mind\nfrom. These options are often fairly clear within the and the complexity of the decision analysis should\nmission and system context once the decision need is fit the complexity of the mission, system, and corre-\nunderstood. In cases where the approach has uncer- sponding decision.\ntainty, there are several methods to help generate\nvarious options. Brainstorming decision options with Evaluation methods and tools/techniques to be used\nthose knowledgeable of the context and decision can should be selected based on the purpose for analyzing\nprovide a good list of candidate alternatives. A litera- a decision and on the availability of the information\nture search of related systems and approaches to iden- used to support the method and/or tool. Typical eval-\ntify options may also provide some possible options. uation methods include: simulations; weighted trade-\nAll possible options should be considered. This can off matrices; engineering, manufacturing, cost, and\nget unwieldy if a large number of variations is possi- technical opportunity trade studies; surveys; human-\nble. A “trade tree” (discussed later) is an excellent way in-the-loop testing; extrapolations based on field expe-\nto prune the set of variations before extensive analysis rience and prototypes; user review and comment; and\nis undertaken, and to convey to other stakeholders testing. Section 6.8.2 provides several options.\nthe basis for that pruning.\n 6.8.1.2.4 Evaluate Alternative Solutions with the\nA good understanding of decision need and criteria Established Criteria and Selected Methods\nwill include the definition of primary and secondary The performance of each alternative with respect to\nfactors. Options should be focused on primary fac- each chosen performance measure is evaluated. In all\ntors in the decision as defined by the decision criteria. but the simplest cases, some consideration of uncer-\nNon-primary factors (i.e., secondary, tertiary) can be tainty is warranted. Uncertainty matters in a partic-\nincluded in evaluations but should not, in general, ular analysis only if there is a non-zero probability\ndefine separate alternatives. This will require some that uncertainty reduction could alter the ranking\nengineering judgment that is based on the mission of alternatives. If this condition is obtained, then it\nand system context as well as the identified decision is necessary to consider the value of reducing that\ncriteria. Some options may quickly drop out of con- uncertainty, and act accordingly.\nsideration as the analysis is conducted. It is important\n\n\n\n 168",
+          "score": 8.18232907987423,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0136",
+          "page": 136,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\ndevelopment of lower-end through higher-end prod- Procedures should be prepared to conduct valida-\nucts in the system structure and through operational tion based on the method planned; e.g., analysis,\nT&E into production and acceptance. It may com- inspection, demonstration, or test). These proce-\nbine the verification and validation plans into a single dures are typically developed during the design phase\ndocument. (See Appendix I for a sample Verification of the project life cycle and matured as the design\nand Validation Plan outline.) is matured. Operational and use-case scenarios are\n thought through in order to explore all possible vali-\nThe methods of validation include test, demonstra- dation activities to be performed.\ntion, inspection, and analysis. While the name of\neach method is the same as the name of the methods Validation is conducted by the user/operator or by\nfor verification, the purpose and intent as described the developer as determined by NASA Center direc-\nabove are quite different. tives or the contract with the developers. Systems-\n level validation (e.g., customer Test and Evaluation\nPlanning to conduct the product validation is a key (T&E) and some other types of validation) may be\nfirst step. The method of validation to be used (e.g., performed by an acquirer testing organization. For\nanalysis, demonstration, inspection, or test) should those portions of validation performed by the devel-\nbe established based on the form of the realized end oper, appropriate agreements should be negotiated\nproduct, the applicable life cycle phase, cost, sched- to ensure that validation proof-of-documentation is\nule, resources available, and location of the system delivered with the product.\nproduct within the system structure.\n Regardless of the source (buy, make, reuse, assemble\nAn established set or subset of expectations or behav- and integrate) and the position in the system struc-\niors to be validated should be identified and the val- ture, all realized end products should be validated\nidation plan reviewed (an output of the Technical to demonstrate/confirm satisfaction of stakeholder\nPlanning Process, based on design solution outputs) expectations. Variations, anomalies, and out-of-com-\nfor any specific procedures, constraints, success cri- pliance conditions, where such have been detected,\nteria, or other validation requirements. The condi- are documented along with the actions taken to\ntions and environment under which the product is resolve the discrepancies. Validation is typically car-\nto be validated should be established and the vali- ried out in the intended operational environment or\ndation should be planned based on the relevant life a relevant environment under simulated or actual\ncycle phase and associated success criteria identified. operational conditions, not necessarily under the\nThe Decision Analysis Process should be used to help tightly controlled conditions usually employed for\nfinalize the planning details. the Product Verification Process.\n\nIt is important to review the validation plans with rel- Validation of phase products can be performed recur-\nevant stakeholders and to understand the relationship sively throughout the project life cycle and on a wide\nbetween the context of the validation and the con- variety of product forms. For example:\ntext of use (human involvement). As part of the plan-\nning process, validation-enabling products should be • simulated (algorithmic models, virtual reality\nidentified and scheduling and/or acquisition should simulator);\nbe initiated. • mock-up (plywood, brassboard, breadboard);\n\n\n\n 126",
+          "score": 6.728067118595817,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0193",
+          "page": 193,
+          "text": " Appendix B: Glossary\n\n\n\n\n\n\nGoal: Goals elaborate on the need and constitute a Human Systems Integration: An interdisciplinary\nspecific set of expectations for the system. They fur- and comprehensive management and technical pro-\nther define what we hope to accomplish by address- cess that focuses on the integration of human consid-\ning the critical issues identified during the problem erations into the system acquisition and development\nassessment. Goals need not be in a quantitative or processes to enhance human system design, reduce\nmeasurable form, but they must allow us to assess life cycle ownership cost, and optimize total system\nwhether the system has achieved them. performance.\n\n\nGovernment Mandatory Inspection Points: Implementation Phase: The part of the NASA man-\nInspection points required by Federal regulations agement life cycle defined in NPR 7120.5 where the\nto ensure 100 percent compliance with safety/mis- detailed design of system products is completed and the\nsion-critical attributes when noncompliance can products to be deployed are fabricated, assembled, inte-\nresult in loss of life or loss of mission. grated, and tested and the products are deployed to their\n customers or users for their assigned use or mission.\nHealth Assessment: The activity under Fault Man-\nagement that carries out detection, diagnosis, and Incommensurable Costs: Costs that cannot be easily\nidentification of faults and prediction of fault prop- measured, such as controlling pollution on launch or\nagation states into the future. mitigating debris.\n\n\nHealth Monitoring: The activity under Fault Influence Diagram: A compact graphical and mathe-\nManagement that implements system state data col- matical representation of a decision state. Its elements are\nlection, storage, and reporting though sensing and decision nodes, chance nodes, value nodes, and arrows\ncommunication. to indicate the relationships among these elements.\n\n\nHeritage (or legacy): Refers to the original manufactur- Inspection: The visual examination of a realized end\ner’s level of quality and reliability that is built into the product. Inspection is generally used to verify phys-\nparts, which have been proven by (1) time in service, ical design features or specific manufacturer identi-\n(2) number of units in service, (3) mean time between fication. For example, if there is a requirement that\nfailure performance, and (4) number of use cycles. the safety arming pin has a red flag with the words\n “Remove Before Flight” stenciled on the flag in black\nHuman-Centered Design: An approach to the devel- letters, a visual inspection of the arming pin flag can\nopment of interactive systems that focuses on making be used to determine if this requirement wasmet.\nsystems usable by ensuring that the needs, abilities,\nand limitations of the human user are met through- Integrated Logistics Support: The management,\nout the system’s life cycle. engineering activities, analysis, and information\n management associated with design requirements\nHuman Factors Engineering: The discipline that definition, material procurement and distribution,\nstudies human-system interfaces and provides maintenance, supply replacement, transportation,\nrequirements, standards, and guidelines to ensure the and disposal that are identified by space flight and\nhuman component of an integrated system is able to ground systems supportability objectives.\nfunction as intended.\n\n\n\n 183",
+          "score": 6.436270555625702,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0226",
+          "page": 226,
+          "text": "Appendix I: Verification and Validation Plan Outline\n\n\n\nSample Outline requirements (verification) and to establish that the sys-\n tem will meet the customers’ expectations (validation).\nThe Verification and Validation (V&V) Plan needs\nto be baselined after the comments from PDR are 1.2 Responsibility and Change\nincorporated. In this annotated outline, the use of Authority\nthe term “system” is indicative of the entire scope for This section will identify who has responsibility for the\nwhich this plan is developed. This may be an entire maintenance of this plan and who or what board has the\nspacecraft, just the avionics system, or a card within authority to approve any changes to it.\nthe avionics system. Likewise, the terms “end item,”\n“subsystem,” or “element” are meant to imply the 1.3 Definitions\nlower-level products that, when integrated together, This section will define any key terms used in the plan.\nwill produce the “system.” The general term “end item” The section may include the definitions of verification,\nis used to encompass activities regardless of whether validation, analysis, test, demonstration, and test. See\nthe end item is a hardware or software element. appendix B of this handbook for definitions of these and\n other terms that might be used.\nThe various sections are intended to move from the\nhigh-level generic descriptions to the more detailed.\nThe sections also flow from the lower-level items in 2.0 Applicable and Reference\nthe product layer to larger and larger assemblies and Documents\nto the completely integrated system. The sections also\ndescribe how that system may be integrated and fur- 2.1 Applicable Documents\nther verified/validated with its externally interfacing These are the documents that may impose additional\nelements. This progression will help build a complete requirements or from which some of the requirements\nunderstanding of the overall plans for verification have been taken.\nand validation.\n 2.2 Reference Documents\n These are the documents that are referred to within the\n1.0 Introduction V&V Plan that do not impose requirements, but which\n1.1 Purpose and Scope may have additional useful information.\nThis section states the purpose of this Verification and\nValidation Plan and the scope (i.e., systems) to which 2.3 Order of Precedence\nit applies. The purpose of the V&V Plan is to identify This section identifies which documents take precedence\nthe activities that will establish compliance with the whenever there are conflicting requirements.\n\n\n\n\n\n 216",
+          "score": 5.501008328042575,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Monte Carlo sample count requirement",
+      "results": [
+        {
+          "id": "NASA-SE:p0133",
+          "page": 133,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nstand-alone, it should be referenced in the SEMP. it will become outmoded and unused and the proj-\nDepending on the size and complexity of the project, ect could slide into an uncontrolled state. The lead\nthese may be separate plans or they may be included NASA field Center should have its SEMP developed\nwithin the SEMP. Once identified, the plans can be before attempting to prepare an initial cost estimate\ndeveloped, training on these plans established, and since activities that incur cost, such as technical risk\nthe plans implemented. Examples of technical plans reduction and human element accounting, need to be\nin addition to the SEMP are listed in Appendix K. identified and described beforehand. The contractor\n should have its SEMP developed during the proposal\nThe SEMP should be developed during pre- process (prior to costing and pricing) because the\nformulation. In developing the SEMP, the technical SEMP describes the technical content of the project,\napproach to the project’s life cycle is developed. This the potentially costly risk management activities, and\ndetermines the project’s length and cost. The devel- the verification and validation techniques to be used,\nopment of the programmatic and technical man- all of which should be included in the preparation of\nagement approaches requires that the key project project cost estimates. The SEMPs from the support-\npersonnel develop an understanding of the work to ing Centers should be developed along with the pri-\nbe performed and the relationships among the vari- mary project SEMP. The project SEMP is the senior\nous parts of that work. Refer to Sections 6.1.2.1 and technical management document for the project;\n6.1.1.2 on WBSs and network scheduling, respec- all other technical plans should comply with it. The\ntively. The SEMP then flows into the project plan to SEMP should be comprehensive and describe how a\nensure the proper allocation of resources including fully integrated engineering effort will be managed\ncost, schedule, and personnel. and conducted.\n\nThe SEMP’s development requires contributions Verification Plan\nfrom knowledgeable programmatic and technical The verification plan is developed as part of the\nexperts from all areas of the project that can signifi- Technical Planning Process and is baselined at PDR.\ncantly influence the project’s outcome. The involve- As the design matures throughout the life cycle, the\nment of recognized experts is needed to establish a plan is updated and refined as needed. The task of\nSEMP that is credible to the project manager and to preparing the verification plan includes establishing\nsecure the full commitment of the project team. the method of verification to be performed, depen-\n dent on the life cycle phase; the position of the prod-\nRole of the SEMP uct in the system structure; the form of the product\nThe SEMP is the rule book that describes to all par- used; and the related costs of verification of individ-\nticipants how the project will be technically man- ual specified requirements. The verification methods\naged. The NASA technical team on the project include analyses, inspection, demonstration, and test.\nshould have a SEMP to describe how it will con- In some cases, the complete verification of a given\nduct its technical management, and each contractor requirement might require more than one method.\nshould have a SEMP to describe how it will man- For example, to verify the performance of a product\nage in accordance with both its contract and NASA’s may require looking at many use cases. This might be\ntechnical management practices. Since the SEMP accomplished by running a Monte Carlo simulation\nis unique to a project and contract, it should be (analysis) and also running actual tests on a few of\nupdated for each significant programmatic change or the key cases. The verification plan, typically written\n\n\n\n 123",
+          "score": 9.703346192002462,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0226",
+          "page": 226,
+          "text": "Appendix I: Verification and Validation Plan Outline\n\n\n\nSample Outline requirements (verification) and to establish that the sys-\n tem will meet the customers’ expectations (validation).\nThe Verification and Validation (V&V) Plan needs\nto be baselined after the comments from PDR are 1.2 Responsibility and Change\nincorporated. In this annotated outline, the use of Authority\nthe term “system” is indicative of the entire scope for This section will identify who has responsibility for the\nwhich this plan is developed. This may be an entire maintenance of this plan and who or what board has the\nspacecraft, just the avionics system, or a card within authority to approve any changes to it.\nthe avionics system. Likewise, the terms “end item,”\n“subsystem,” or “element” are meant to imply the 1.3 Definitions\nlower-level products that, when integrated together, This section will define any key terms used in the plan.\nwill produce the “system.” The general term “end item” The section may include the definitions of verification,\nis used to encompass activities regardless of whether validation, analysis, test, demonstration, and test. See\nthe end item is a hardware or software element. appendix B of this handbook for definitions of these and\n other terms that might be used.\nThe various sections are intended to move from the\nhigh-level generic descriptions to the more detailed.\nThe sections also flow from the lower-level items in 2.0 Applicable and Reference\nthe product layer to larger and larger assemblies and Documents\nto the completely integrated system. The sections also\ndescribe how that system may be integrated and fur- 2.1 Applicable Documents\nther verified/validated with its externally interfacing These are the documents that may impose additional\nelements. This progression will help build a complete requirements or from which some of the requirements\nunderstanding of the overall plans for verification have been taken.\nand validation.\n 2.2 Reference Documents\n These are the documents that are referred to within the\n1.0 Introduction V&V Plan that do not impose requirements, but which\n1.1 Purpose and Scope may have additional useful information.\nThis section states the purpose of this Verification and\nValidation Plan and the scope (i.e., systems) to which 2.3 Order of Precedence\nit applies. The purpose of the V&V Plan is to identify This section identifies which documents take precedence\nthe activities that will establish compliance with the whenever there are conflicting requirements.\n\n\n\n\n\n 216",
+          "score": 4.443648693400133,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 4.272708314388651,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0136",
+          "page": 136,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\ndevelopment of lower-end through higher-end prod- Procedures should be prepared to conduct valida-\nucts in the system structure and through operational tion based on the method planned; e.g., analysis,\nT&E into production and acceptance. It may com- inspection, demonstration, or test). These proce-\nbine the verification and validation plans into a single dures are typically developed during the design phase\ndocument. (See Appendix I for a sample Verification of the project life cycle and matured as the design\nand Validation Plan outline.) is matured. Operational and use-case scenarios are\n thought through in order to explore all possible vali-\nThe methods of validation include test, demonstra- dation activities to be performed.\ntion, inspection, and analysis. While the name of\neach method is the same as the name of the methods Validation is conducted by the user/operator or by\nfor verification, the purpose and intent as described the developer as determined by NASA Center direc-\nabove are quite different. tives or the contract with the developers. Systems-\n level validation (e.g., customer Test and Evaluation\nPlanning to conduct the product validation is a key (T&E) and some other types of validation) may be\nfirst step. The method of validation to be used (e.g., performed by an acquirer testing organization. For\nanalysis, demonstration, inspection, or test) should those portions of validation performed by the devel-\nbe established based on the form of the realized end oper, appropriate agreements should be negotiated\nproduct, the applicable life cycle phase, cost, sched- to ensure that validation proof-of-documentation is\nule, resources available, and location of the system delivered with the product.\nproduct within the system structure.\n Regardless of the source (buy, make, reuse, assemble\nAn established set or subset of expectations or behav- and integrate) and the position in the system struc-\niors to be validated should be identified and the val- ture, all realized end products should be validated\nidation plan reviewed (an output of the Technical to demonstrate/confirm satisfaction of stakeholder\nPlanning Process, based on design solution outputs) expectations. Variations, anomalies, and out-of-com-\nfor any specific procedures, constraints, success cri- pliance conditions, where such have been detected,\nteria, or other validation requirements. The condi- are documented along with the actions taken to\ntions and environment under which the product is resolve the discrepancies. Validation is typically car-\nto be validated should be established and the vali- ried out in the intended operational environment or\ndation should be planned based on the relevant life a relevant environment under simulated or actual\ncycle phase and associated success criteria identified. operational conditions, not necessarily under the\nThe Decision Analysis Process should be used to help tightly controlled conditions usually employed for\nfinalize the planning details. the Product Verification Process.\n\nIt is important to review the validation plans with rel- Validation of phase products can be performed recur-\nevant stakeholders and to understand the relationship sively throughout the project life cycle and on a wide\nbetween the context of the validation and the con- variety of product forms. For example:\ntext of use (human involvement). As part of the plan-\nning process, validation-enabling products should be • simulated (algorithmic models, virtual reality\nidentified and scheduling and/or acquisition should simulator);\nbe initiated. • mock-up (plywood, brassboard, breadboard);\n\n\n\n 126",
+          "score": 3.801497602262094,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 3.7929047352757856,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 3.6177217783019375,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "score": 3.4969889839351027,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0177",
+          "page": 177,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n when the set of stakeholders reflects a diversity of Decisions are based on facts, qualitative and quan-\n values, preferences, and perspectives. titative data, engineering judgment, and open com-\n munications to facilitate the flow of information\nSatisfaction of all of these conditions is not a require- throughout the hierarchy of forums where technical\nment for initiating decision analysis. The point is, analyses and evaluations are presented and assessed\nrather, that the need for decision analysis increases and where decisions are made. The extent of technical\nas a function of the above conditions. In addition, analysis and evaluation required should be commen-\noften these decisions have the potential to result in surate with the consequences of the issue requiring\nhigh stakes impacts to cost, safety, or mission success a decision. The work required to conduct a formal\ncriteria, which should be identified and addressed in evaluation is significant and applicability should be\nthe process. When the Decision Analysis Process is based on the nature of the problem to be resolved.\ntriggered, the following are inputs: Guidelines for use can be determined by the magni-\n tude of the possible consequences of the decision to\n• Decision need, identified alternatives, issues, or be made.\n problems and supporting data: This information\n would come from all technical, cost, and sched- 6.8.1.2.1 Define the Criteria for Evaluating Alternative\n ule management processes. It may also include Solutions\n high-level objectives and constraints (from the This step includes identifying the following:\n program/project).\n • The types of criteria to consider, such as customer\n• Analysis support requests: Requests will arise expectations and requirements, technology lim-\n from the technical, cost, and schedule assessment itations, environmental impact, safety, risks, total\n processes. ownership and life cycle costs, and schedule impact;\n\n6.8.1.2 Process Activities • The acceptable range and scale of the criteria; and\nFor the Decision Analysis Process, the following\nactivities are typically performed. • The rank of each criterion by its importance.\n\nIt is important to understand the decision needed in Decision criteria are requirements for individually\nthe context of the mission and system, which requires assessing the options and alternatives being consid-\nknowledge of the intended outcome in terms of tech- ered. Typical decision criteria include cost, sched-\nnical performance, cost, and schedule. A part of this ule, risk, safety, mission success, and supportability.\nunderstanding is the definition of the decision crite- However, considerations should also include tech-\nria, or the measures that are important to character- nical criteria specific to the decision being made.\nize the options for making a decision. The specific Criteria should be objective and measurable. Criteria\ndecision-making body, whether the program/project should also permit differentiating among options or\nmanager, chief engineer, line management, or con- alternatives. Some criteria may not be meaningful to\ntrol board should also be well defined. Based on this a decision; however, they should be documented as\nunderstanding, then the specific approach to deci- having been considered. Criteria may be mandatory\nsion-making can be defined. (i.e., “shall have”) or enhancing. An option that does\n\n\n\n\n\n 167",
+          "image_path": "data/local/advanced/pages/p0177_2000.png",
+          "image_sha256": "295e1a0066f7751a657d179ab3eaafe166f59f1df7b541a4b7e37c95c0e15f13"
+        },
+        {
+          "source_id": "NASA-SE:p0178",
+          "page": 178,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nnot meet mandatory criteria should be disregarded. to document the fact that these options were consid-\nFor complex decisions, criteria can be grouped into ered. A few decisions might only have one option. It\ncategories or objectives. is a best practice to document a decision matrix for\n a major decision even if only one alternative is deter-\n6.8.1.2.2 Identify Alternative Solutions to Address mined to be viable. (Sometimes doing nothing or not\n Decision Issues making a decision is an option.)\nWith the decision need well understood, alterna-\ntives can be identified that fit the mission and system 6.8.1.2.3 Select Evaluation Methods and Tools\ncontext. There may be several alternatives that could Based on the decision to be made, various approaches\npotentially satisfy the decision criteria. Alternatives can be taken to evaluate identified alternatives. These\ncan be found from design options, operational can range from simple discussion meetings with con-\noptions, cost options, and/or schedule options. tributing and affected stakeholders to more formal\n evaluation methods. In selecting the approach, the\nAlmost every decision will have options to choose mission and system context should be kept in mind\nfrom. These options are often fairly clear within the and the complexity of the decision analysis should\nmission and system context once the decision need is fit the complexity of the mission, system, and corre-\nunderstood. In cases where the approach has uncer- sponding decision.\ntainty, there are several methods to help generate\nvarious options. Brainstorming decision options with Evaluation methods and tools/techniques to be used\nthose knowledgeable of the context and decision can should be selected based on the purpose for analyzing\nprovide a good list of candidate alternatives. A litera- a decision and on the availability of the information\nture search of related systems and approaches to iden- used to support the method and/or tool. Typical eval-\ntify options may also provide some possible options. uation methods include: simulations; weighted trade-\nAll possible options should be considered. This can off matrices; engineering, manufacturing, cost, and\nget unwieldy if a large number of variations is possi- technical opportunity trade studies; surveys; human-\nble. A “trade tree” (discussed later) is an excellent way in-the-loop testing; extrapolations based on field expe-\nto prune the set of variations before extensive analysis rience and prototypes; user review and comment; and\nis undertaken, and to convey to other stakeholders testing. Section 6.8.2 provides several options.\nthe basis for that pruning.\n 6.8.1.2.4 Evaluate Alternative Solutions with the\nA good understanding of decision need and criteria Established Criteria and Selected Methods\nwill include the definition of primary and secondary The performance of each alternative with respect to\nfactors. Options should be focused on primary fac- each chosen performance measure is evaluated. In all\ntors in the decision as defined by the decision criteria. but the simplest cases, some consideration of uncer-\nNon-primary factors (i.e., secondary, tertiary) can be tainty is warranted. Uncertainty matters in a partic-\nincluded in evaluations but should not, in general, ular analysis only if there is a non-zero probability\ndefine separate alternatives. This will require some that uncertainty reduction could alter the ranking\nengineering judgment that is based on the mission of alternatives. If this condition is obtained, then it\nand system context as well as the identified decision is necessary to consider the value of reducing that\ncriteria. Some options may quickly drop out of con- uncertainty, and act accordingly.\nsideration as the analysis is conducted. It is important\n\n\n\n 168",
+          "image_path": "data/local/advanced/pages/p0178_2000.png",
+          "image_sha256": "04745ae8408f6dd0dd28b2904c73d4655f57653719a59873066c6b618b4d58dc"
+        },
+        {
+          "source_id": "NASA-SE:p0133",
+          "page": 133,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nstand-alone, it should be referenced in the SEMP. it will become outmoded and unused and the proj-\nDepending on the size and complexity of the project, ect could slide into an uncontrolled state. The lead\nthese may be separate plans or they may be included NASA field Center should have its SEMP developed\nwithin the SEMP. Once identified, the plans can be before attempting to prepare an initial cost estimate\ndeveloped, training on these plans established, and since activities that incur cost, such as technical risk\nthe plans implemented. Examples of technical plans reduction and human element accounting, need to be\nin addition to the SEMP are listed in Appendix K. identified and described beforehand. The contractor\n should have its SEMP developed during the proposal\nThe SEMP should be developed during pre- process (prior to costing and pricing) because the\nformulation. In developing the SEMP, the technical SEMP describes the technical content of the project,\napproach to the project’s life cycle is developed. This the potentially costly risk management activities, and\ndetermines the project’s length and cost. The devel- the verification and validation techniques to be used,\nopment of the programmatic and technical man- all of which should be included in the preparation of\nagement approaches requires that the key project project cost estimates. The SEMPs from the support-\npersonnel develop an understanding of the work to ing Centers should be developed along with the pri-\nbe performed and the relationships among the vari- mary project SEMP. The project SEMP is the senior\nous parts of that work. Refer to Sections 6.1.2.1 and technical management document for the project;\n6.1.1.2 on WBSs and network scheduling, respec- all other technical plans should comply with it. The\ntively. The SEMP then flows into the project plan to SEMP should be comprehensive and describe how a\nensure the proper allocation of resources including fully integrated engineering effort will be managed\ncost, schedule, and personnel. and conducted.\n\nThe SEMP’s development requires contributions Verification Plan\nfrom knowledgeable programmatic and technical The verification plan is developed as part of the\nexperts from all areas of the project that can signifi- Technical Planning Process and is baselined at PDR.\ncantly influence the project’s outcome. The involve- As the design matures throughout the life cycle, the\nment of recognized experts is needed to establish a plan is updated and refined as needed. The task of\nSEMP that is credible to the project manager and to preparing the verification plan includes establishing\nsecure the full commitment of the project team. the method of verification to be performed, depen-\n dent on the life cycle phase; the position of the prod-\nRole of the SEMP uct in the system structure; the form of the product\nThe SEMP is the rule book that describes to all par- used; and the related costs of verification of individ-\nticipants how the project will be technically man- ual specified requirements. The verification methods\naged. The NASA technical team on the project include analyses, inspection, demonstration, and test.\nshould have a SEMP to describe how it will con- In some cases, the complete verification of a given\nduct its technical management, and each contractor requirement might require more than one method.\nshould have a SEMP to describe how it will man- For example, to verify the performance of a product\nage in accordance with both its contract and NASA’s may require looking at many use cases. This might be\ntechnical management practices. Since the SEMP accomplished by running a Monte Carlo simulation\nis unique to a project and contract, it should be (analysis) and also running actual tests on a few of\nupdated for each significant programmatic change or the key cases. The verification plan, typically written\n\n\n\n 123",
+          "image_path": "data/local/advanced/pages/p0133_2000.png",
+          "image_sha256": "6deb7a565a8f51dfcf10b8fbef5f01ddf465ebfa894a67a83253cf2b6e79a2c9"
+        }
+      ]
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0133",
+      "bbox": [
+        0.0,
+        0.6,
+        1.0,
+        1.0
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0133_f9b99f9d73c5.png",
+      "image_sha256": "9d4637f49b266271b8bde68ed7955cde6436223952622b7a4fefd09ed9008aaa"
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0133",
+      "bbox": [
+        0,
+        0.6,
+        1,
+        1
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0133_41988c0d033c.png",
+      "image_sha256": "9d4637f49b266271b8bde68ed7955cde6436223952622b7a4fefd09ed9008aaa"
+    }
+  ],
+  "viewed_pages": [
+    133,
+    177,
+    178
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Protocol failure after one recorded repair"
+  },
+  "elapsed_ms": 30996.19
+}

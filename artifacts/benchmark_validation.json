@@ -224,7 +224,7 @@
           26
         ]
       },
-      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "semantic_absence_review": "Review of all selected page text and relevant source sections; keyword hits alone do not prove absence",
       "missing_fact": "Giá trị cost factor cụ thể được cấu hình cho ứng dụng"
     },
     {
@@ -253,7 +253,7 @@
         "ttl": [],
         "phút": []
       },
-      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "semantic_absence_review": "Review of all selected page text and relevant source sections; keyword hits alone do not prove absence",
       "missing_fact": "Thời lượng token JWT tính bằng phút"
     },
     {
@@ -337,7 +337,7 @@
           25
         ]
       },
-      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "semantic_absence_review": "Review of all selected page text and relevant source sections; keyword hits alone do not prove absence",
       "missing_fact": "Giới hạn dung lượng tệp Excel tính bằng MB"
     },
     {
@@ -369,7 +369,7 @@
           79
         ]
       },
-      "semantic_absence_review": "AI-assisted review of all selected page text; keyword hits alone do not prove absence",
+      "semantic_absence_review": "Review of all selected page text and relevant source sections; keyword hits alone do not prove absence",
       "missing_fact": "Số người dùng đồng thời tối đa đo bằng kiểm thử tải"
     }
   ]

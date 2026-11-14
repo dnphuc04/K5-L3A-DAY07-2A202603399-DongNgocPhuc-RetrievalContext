@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-24",
+  "split": "test",
+  "question": "According to Section 2.4, which document does validation relate back to, and is validation limited to delivery of end products?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4r2ggipbeeooJO2ZO3UMsR4cpwY",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 83,
+        "total_tokens": 732,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 41,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1954.35,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_3WLAudJcHenryJOR7qMh03Gm",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Section 2.4 validation relate back to document relates back to and not limited to delivery of end products\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4r5B0hjgMEicw2S3mlbHG7oY96c",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5949,
+        "completion_tokens": 102,
+        "total_tokens": 6051,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 73,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2579.46,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_vktpfsxaZfgzGgsTyUHSOgy3",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0021\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4r9tPzbknnjTPsJMPhrzxvKR5ni",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10411,
+        "completion_tokens": 301,
+        "total_tokens": 10712,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 105,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5221.31,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_gySVnX5d0TEZtbreYkbfzd2Y",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Section 2.4, validation relates back to the Concept of Operations (ConOps) document.\",\"citations\":[{\"source_id\":\"NASA-SE:p0021\",\"locator\":\"Section 2.4, paragraph beginning \\\"Validation relates back\\\"\",\"evidence\":\"\\\"Validation relates back to the ConOps document.\\\"\"}]},{\"text\":\"No. Validation is not limited to delivery using end products; it \\\"can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0021\",\"locator\":\"Section 2.4, final sentence of validation discussion\",\"evidence\":\"\\\"Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rFMQx5YVI8EsRnqrXgCBHFnrkp",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4951,
+        "completion_tokens": 289,
+        "total_tokens": 5240,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 101,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5215.78,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_T44TuhsqcV8j1xhMmf7qIRWM",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Section 2.4 states that validation relates back to the Concept of Operations (ConOps) document.\",\"citations\":[{\"source_id\":\"NASA-SE:p0021\",\"locator\":\"Section 2.4, validation paragraph\",\"evidence\":\"“Validation relates back to the ConOps document.”\"}]},{\"text\":\"No. Section 2.4 says validation is not limited to delivery using end products; it can be performed in each development phase using phase products (e.g., models).\",\"citations\":[{\"source_id\":\"NASA-SE:p0021\",\"locator\":\"Section 2.4, validation paragraph (last sentence)\",\"evidence\":\"“Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Section 2.4, which document does validation relate back to, and is validation limited to delivery of end products?",
+      "results": [
+        {
+          "id": "NASA-SE:p0021",
+          "page": 21,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.4 Distinctions between It is appropriate for verification and validation meth-\n Product Verification and ods to differ between phases as designs advance. The\n Product Validation ultimate success of a program or project may relate\n to the frequency and diligence of validation efforts\nFrom a process perspective, the Product Verification during the design process, especially in Pre-Phase A\nand Product Validation processes may be similar in and Phase A during which corrections in the direc-\nnature, but the objectives are fundamentally different: tion of product design might still be made cost-effec-\n tively. The question should be continually asked, “Are\n• Verification of a product shows proof of compli- we building the right product for our users and other\n ance with requirements—that the product can stakeholders?” The selection of the verification or val-\n meet each “shall” statement as proven though per- idation method is based on engineering judgment as\n formance of a test, analysis, inspection, or demon- to which is the most effective way to reliably show the\n stration (or combination of these). product’s conformance to requirements or that it will\n operate as intended and described in the ConOps.\n• Validation of a product shows that the prod-\n uct accomplishes the intended purpose in the\n intended environment—that it meets the expec- 2.5 Cost Effectiveness\n tations of the customer and other stakeholders as Considerations\n shown through performance of a test, analysis,\n inspection, or demonstration. The objective of systems engineering is to see that the\n system is designed, built, and can be operated so that\nVerification testing relates back to the approved it accomplishes its purpose safely in the most cost-ef-\nrequirements set and can be performed at different fective way possible considering performance, cost,\nstages in the product life cycle. The approved specifi- schedule, and risk. A cost-effective and safe system\ncations, drawings, parts lists, and other configuration should provide a particular kind of balance between\ndocumentation establish the configuration baseline effectiveness and cost. This causality is an indefinite\nof that product, which may have to be modified at a one because there are usually many designs that meet\nlater time. Without a verified baseline and appropri- the cost-effective condition.\nate configuration controls, later modifications could\nbe costly or cause major performance problems. Design trade studies, an important part of the sys-\n tems engineering process, often attempt to find\nValidation relates back to the ConOps document. designs that provide the best combination of cost\nValidation testing is conducted under realistic con- and effectiveness. At times there are alternatives that\nditions (or simulated conditions) on end products for either reduce costs without reducing effectiveness or\nthe purpose of determining the effectiveness and suit- increase effectiveness without increasing cost. In such\nability of the product for use in mission operations by “win-win” cases, the systems engineer’s decision is\ntypical users. Validation can be performed in each easy. When the alternatives in a design trade study\ndevelopment phase using phase products (e.g., mod- require trading cost for effectiveness, the decisions\nels) and not only at delivery using end products. become harder.\n\n\n\n\n\n\n 11",
+          "score": 19.579145959331868,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0025",
+          "page": 25,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\nCompetency Competency Description\nArea\nSE 2.0 SE 2.4 Confirming that a verified end product satisfies the stakeholder expectations for\nProduct Product its intended use when placed in its intended environment and ensuring that any\nRealization Validation anomalies discovered during validation are appropriately resolved prior to product\n transition. This includes preparing to conduct product validation, performing\n the product validation, analyzing the results of validation (including identifying\n anomalies and establishing recommended corrective actions), and preparing a\n product validation report providing the evidence of product conformance with the\n stakeholder expectations baseline.\n\n SE 2.5 Transitioning the verified and validated product to the customer at the next level\n Product in the system structure. This includes preparing to conduct product transition,\n Transition evaluating the product and enabling product readiness for product transition,\n preparing the product for transition (including handling, storing, and shipping\n preparation), preparing sites, and generating required documentation to accompany\n the product\nSE 3.0 SE 3.1 Planning for the application and management of each common technical process,\nTechnical Technical as well as identifying, defining, and planning the technical effort necessary to\nManagement Planning meet project objectives. This includes preparing or updating a planning strategy\n for each of the technical processes, and determining deliverable work products\n from technical efforts; identifying technical reporting requirements; identifying\n entry and success criteria for technical reviews; identifying product and process\n measures to be used; identifying critical technical events; defining cross domain\n interoperability and collaboration needs; defining the data management approach;\n identifying the technical risks to be addressed in the planning effort; identifying\n tools and engineering methods to be employed; and defining the approach to\n acquire and maintain technical expertise needed. This also includes preparing the\n Systems Engineering Management Plan (SEMP) and other technical plans; obtaining\n stakeholder commitments to the technical plans; and issuing authorized technical\n work directives to implement the technical work\n\n SE 3.2 Managing the product requirements, including providing bidirectional traceability,\n Requirements and managing changes to establish requirement baselines over the life cycle of the\n Management system products. This includes preparing or updating a strategy for requirements\n management; selecting an appropriate requirements management tool; training\n technical team members in established requirement management procedures;\n conducting expectation and requirements traceability audits; managing expectation\n and requirement changes; and communicating expectation and requirement change\n information\n\n SE 3.3 Establishing and using formal interface management to maintain internal and\n Interface external interface definition and compliance among the end products and enabling\n Management products. This includes preparing interface management procedures, identifying\n interfaces, generating and maintaining interface documentation, managing changes\n to interfaces, disseminating interface information, and conducting interface control\n SE 3.4 Examining on a continual basis the risks of technical deviations from the plans, and\n Technical Risk identifying potential technical problems before they occur. Planning, invoking, and\n Management performing risk-handling activities as needed across the life of the product or project\n to mitigate impacts on meeting technical objectives. This includes developing the\n strategy for technical risk management, identifying technical risks, and conducting\n technical risk assessment; preparing for technical risk mitigation, monitoring\n the status of each technical risk, and implementing technical risk mitigation and\n contingency action plans when applicable thresholds have been triggered.\n\n (continued)\n\n\n\n\n\n 15",
+          "score": 6.717918592076932,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0003",
+          "page": 3,
+          "text": "Table of Contents\n\n\n\n\n Preface viii 3.10 Funding: The Budget Cycle . . . . . . . 33\n Acknowledgments ix 3.11 Tailoring and Customization of\n NPR 7123 .1 Requirements . . . . . . . 34\n1.0 Introduction 1 3.11.1 Introduction 34\n 1.1 Purpose . . . . . . . . . . . . . . . . 1 3.11.2 Criteria for Tailoring 34\n 1.2 Scope and Depth . . . . . . . . . . . 1 3.11.3 Tailoring SE NPR Requirements\n Using the Compliance Matrix 35\n 3.11.4 Ways to Tailor a SE Requirement 36\n2.0 Fundamentals of Systems Engineering 3 3.11.5 Examples of Tailoring and\n 2.1 The Common Technical Processes Customization 37\n and the SE Engine . . . . . . . . . . . 5 3.11.6 Approvals for Tailoring 40\n 2.2 An Overview of the SE Engine by\n Project Phase . . . . . . . . . . . . . 8 4.0 System Design Processes 43\n 2.3 Example of Using the SE Engine . . . . 10 4.1 Stakeholder Expectations Definition . .45\n 2.4 Distinctions between Product 4.1.1 Process Description 45\n Verification and Product Validation . . . 11 4.1.2 Stakeholder Expectations Definition\n 2.5 Cost Effectiveness Considerations . . . 11 Guidance 53\n 2.6 Human Systems Integration (HSI) 4.2 Technical Requirements Definition . . .54\n in the SE Process . . . . . . . . . . .12 4.2.1 Process Description 54\n 2.7 Competency Model for 4.2.2 Technical Requirements Definition\n Systems Engineers . . . . . . . . . . . 13 Guidance 62\n 4.3 Logical Decomposition . . . . . . . . .62\n3.0 NASA Program/Project Life Cycle 17 4.3.1 Process Description 62\n 3.1 Program Formulation . . . . . . . . . . 20 4.3.2 Logical Decomposition Guidance 65\n 3.2 Program Implementation . . . . . . . . 20 4.4 Design Solution Definition . . . . . . .65\n 3.3 Project Pre-Phase A: Concept Studies . 21 4.4.1 Process Description 66\n 3.4 Project Phase A: Concept and 4.4.2 Design Solution Definition Guidance 76\n Technology Development . . . . . . . . 23\n 3.5 Project Phase B: Preliminary Design 5.0 Product Realization 77\n and Technology Completion . . . . . . 25\n 3.6 Project Phase C: Final Design and 5.1 Product Implementation . . . . . . . .78\n Fabrication . . . . . . . . . . . . . . . 27 5.1.1 Process Description 79\n 3.7 Project Phase D: System Assembly, 5.1.2 Product Implementation Guidance 83\n Integration and Test, Launch . . . . . . 29 5.2 Product Integration . . . . . . . . . . .83\n 3.8 Project Phase E: Operations 5.2.1 Process Description 85\n and Sustainment . . . . . . . . . . . . 31 5.2.2 Product Integration Guidance 88\n 3.9 Project Phase F: Closeout . . . . . . .31 5.3 Product Verification . . . . . . . . . . .88\n\n\n\n\n iii",
+          "score": 4.11664141117893,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0109",
+          "page": 109,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n environment; configuration drawings; calibra- System validation confirms that the integrated real-\n tions; operator certifications; and other records. ized end products conform to stakeholder expec-\n tations as captured in the MOEs, MOPs, and\nCriteria for completing verification of the product ConOps. Validation also ensures that any anomalies\ninclude: (1) documented objective evidence of com- discovered are appropriately resolved prior to prod-\npliance with requirements or waiver and (2) closure uct delivery. This section discusses the process activ-\nof all discrepancy and nonconformance reports. ities, methods of validation, inputs and outputs, and\n potential deficiencies.\n5.3.2 Product Verification Guidance\nRefer to Section 5.3.2 in the NASA Expanded See Section 2.4 for a discussion about the distinctions\nGuidance for Systems Engineering at https://nen.nasa. between Product Verification and Product Validation.\ngov/web/se/doc-repository for additional guidance on:\n 5.4.1 Process Description\n• the verification approach, FIGURE 5.4-1, taken from NPR 7123.1, provides a typ-\n• verification in the life cycle, ical flow diagram for the Product Validation Process\n• verification procedures, and identifies typical inputs, outputs, and activities\n• verification reports to consider in addressing product validation.\n• end-to-end testing,\n• use of modeling and simulations, and 5.4.1.1 Inputs\n• hardware-in-the-loop testing. Key inputs to the process are:\n5.4 Product Validation • End product to be validated: This is the end prod-\n uct that is to be validated and which has success-\nThe Product Validation Process is the second of the fully passed through the verification process.\nverification and validation processes conducted on an\nimplemented or integrated end product. While veri- • Validation plan: This plan would have been devel-\nfication proves whether “the product was done right,” oped under the Technical Planning Process and\nvalidation proves whether “the right product was baselined prior to entering this process. This plan\ndone.” In other words, verification provides objective may be a separate document or a section within\nevidence that every “shall” statement in the require- the Verification and Validation Plan.\nments document or specification was met, whereas\nvalidation is performed for the benefit of the custom- • Baselined stakeholder expectations: These would\ners and users to ensure that the system functions in have been developed for the product at this level\nthe expected manner when placed in the intended during the Stakeholder Expectations Definition\nenvironment. This is achieved by examining the Process. It includes the needs, goals, and objec-\nproducts of the system at every level of the product tives as well as the baselined and updated concept\nstructure and comparing them to the stakeholder of operations and MOEs.\nexpectations for that level. A well-structured valida-\ntion process can save cost and schedule while meeting • Any enabling products: These are any special\nthe stakeholder expectations. equipment, facilities, test fixtures, applications,\n\n\n\n\n\n 99",
+          "score": 16.244029297302827,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0083",
+          "page": 83,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\ncan cover the components of a subsystem down to products should be consistent with each other and\nthe level appropriate for verifying the design against will require iterations and design decisions to achieve\nthe requirements. Concerns raised at the peer this consistency. Once consistency is achieved, func-\nreview might have implications on the power sub- tional analyses allow the study team to validate the\nsystem design and verification and therefore should design against the stakeholder expectations. A sim-\nbe reported at the next higher level review of the plified validation asks the questions: Does the system\npower subsystem. work as expected? How does the system respond to\n failures, faults, and anomalies? Is the system afford-\nThe verification should show that the design solution able? If the answer to any of these questions is no,\ndefinition: then changes to the design or stakeholder expecta-\n tions will be required, and the process is started over\n• Is realizable within the constraints imposed on again. This process continues until the system—\n the technical effort; architecture, ConOps, and requirements—meets the\n stakeholder expectations.\n• Has specified requirements that are stated in\n acceptable statements and have bidirectional This design solution validation is in contrast to\n traceability with the technical requirements and the validation of the end product described in the\n stakeholder expectations; and end-product validation plan, which is part of the\n technical data package. That validation occurs in a\n• Has decisions and assumptions made in forming later life cycle phase and is a result of the Product\n the solution consistent with its set of technical Validation Process (see Section 5.4) applied to the\n requirements and identified system product and realization of the design solution as an end product.\n service constraints.\n 4.4.1.2.9 Identify Enabling Products\nThis design solution verification is in contrast Enabling products are the life cycle support prod-\nto the verification of the end product described ucts and services (e.g., production, test, deployment,\nin the end product verification plan which is training, maintenance, and disposal) that facili-\npart of the technical data package. That verifi- tate the progression and use of the operational end\ncation occurs in a later life cycle phase and is a product through its life cycle. Since the end prod-\nresult of the Product Verification Process (see uct and its enabling products are interdependent,\nSection 5.3) applied to the realization of the design they are viewed as a system. Project responsibility\nsolution as an end product. thus extends to responsibility for acquiring services\n from the relevant enabling products in each life cycle\n4.4.1.2.8 Validate the Design Solution phase. When a suitable enabling product does not\nThe validation of the design solution is a recursive already exist, the project that is responsible for the\nand iterative process as shown in FIGURE 4.0-1. end product can also be responsible for creating and\nEach alternative design concept is validated against using the enabling product.\nthe set of stakeholder expectations. The stakeholder\nexpectations drive the iterative design loop in which Therefore, an important activity in the Design\na straw man architecture/design, the ConOps, and Solution Definition Process is the identification of the\nthe derived requirements are developed. These three enabling products and personnel that will be required\n\n\n\n 73",
+          "score": 15.676673739812491,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 14.434772738648583,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 13.715573387485026,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0021",
+          "page": 21,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.4 Distinctions between It is appropriate for verification and validation meth-\n Product Verification and ods to differ between phases as designs advance. The\n Product Validation ultimate success of a program or project may relate\n to the frequency and diligence of validation efforts\nFrom a process perspective, the Product Verification during the design process, especially in Pre-Phase A\nand Product Validation processes may be similar in and Phase A during which corrections in the direc-\nnature, but the objectives are fundamentally different: tion of product design might still be made cost-effec-\n tively. The question should be continually asked, “Are\n• Verification of a product shows proof of compli- we building the right product for our users and other\n ance with requirements—that the product can stakeholders?” The selection of the verification or val-\n meet each “shall” statement as proven though per- idation method is based on engineering judgment as\n formance of a test, analysis, inspection, or demon- to which is the most effective way to reliably show the\n stration (or combination of these). product’s conformance to requirements or that it will\n operate as intended and described in the ConOps.\n• Validation of a product shows that the prod-\n uct accomplishes the intended purpose in the\n intended environment—that it meets the expec- 2.5 Cost Effectiveness\n tations of the customer and other stakeholders as Considerations\n shown through performance of a test, analysis,\n inspection, or demonstration. The objective of systems engineering is to see that the\n system is designed, built, and can be operated so that\nVerification testing relates back to the approved it accomplishes its purpose safely in the most cost-ef-\nrequirements set and can be performed at different fective way possible considering performance, cost,\nstages in the product life cycle. The approved specifi- schedule, and risk. A cost-effective and safe system\ncations, drawings, parts lists, and other configuration should provide a particular kind of balance between\ndocumentation establish the configuration baseline effectiveness and cost. This causality is an indefinite\nof that product, which may have to be modified at a one because there are usually many designs that meet\nlater time. Without a verified baseline and appropri- the cost-effective condition.\nate configuration controls, later modifications could\nbe costly or cause major performance problems. Design trade studies, an important part of the sys-\n tems engineering process, often attempt to find\nValidation relates back to the ConOps document. designs that provide the best combination of cost\nValidation testing is conducted under realistic con- and effectiveness. At times there are alternatives that\nditions (or simulated conditions) on end products for either reduce costs without reducing effectiveness or\nthe purpose of determining the effectiveness and suit- increase effectiveness without increasing cost. In such\nability of the product for use in mission operations by “win-win” cases, the systems engineer’s decision is\ntypical users. Validation can be performed in each easy. When the alternatives in a design trade study\ndevelopment phase using phase products (e.g., mod- require trading cost for effectiveness, the decisions\nels) and not only at delivery using end products. become harder.\n\n\n\n\n\n\n 11",
+          "image_path": "data/local/advanced/pages/p0021_2000.png",
+          "image_sha256": "b14db70c70c122140ebb0a9cc50342866fde4994fcb84ebbff806ee25d2e3ecd"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0021",
+          "page": 21,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n2.4 Distinctions between It is appropriate for verification and validation meth-\n Product Verification and ods to differ between phases as designs advance. The\n Product Validation ultimate success of a program or project may relate\n to the frequency and diligence of validation efforts\nFrom a process perspective, the Product Verification during the design process, especially in Pre-Phase A\nand Product Validation processes may be similar in and Phase A during which corrections in the direc-\nnature, but the objectives are fundamentally different: tion of product design might still be made cost-effec-\n tively. The question should be continually asked, “Are\n• Verification of a product shows proof of compli- we building the right product for our users and other\n ance with requirements—that the product can stakeholders?” The selection of the verification or val-\n meet each “shall” statement as proven though per- idation method is based on engineering judgment as\n formance of a test, analysis, inspection, or demon- to which is the most effective way to reliably show the\n stration (or combination of these). product’s conformance to requirements or that it will\n operate as intended and described in the ConOps.\n• Validation of a product shows that the prod-\n uct accomplishes the intended purpose in the\n intended environment—that it meets the expec- 2.5 Cost Effectiveness\n tations of the customer and other stakeholders as Considerations\n shown through performance of a test, analysis,\n inspection, or demonstration. The objective of systems engineering is to see that the\n system is designed, built, and can be operated so that\nVerification testing relates back to the approved it accomplishes its purpose safely in the most cost-ef-\nrequirements set and can be performed at different fective way possible considering performance, cost,\nstages in the product life cycle. The approved specifi- schedule, and risk. A cost-effective and safe system\ncations, drawings, parts lists, and other configuration should provide a particular kind of balance between\ndocumentation establish the configuration baseline effectiveness and cost. This causality is an indefinite\nof that product, which may have to be modified at a one because there are usually many designs that meet\nlater time. Without a verified baseline and appropri- the cost-effective condition.\nate configuration controls, later modifications could\nbe costly or cause major performance problems. Design trade studies, an important part of the sys-\n tems engineering process, often attempt to find\nValidation relates back to the ConOps document. designs that provide the best combination of cost\nValidation testing is conducted under realistic con- and effectiveness. At times there are alternatives that\nditions (or simulated conditions) on end products for either reduce costs without reducing effectiveness or\nthe purpose of determining the effectiveness and suit- increase effectiveness without increasing cost. In such\nability of the product for use in mission operations by “win-win” cases, the systems engineer’s decision is\ntypical users. Validation can be performed in each easy. When the alternatives in a design trade study\ndevelopment phase using phase products (e.g., mod- require trading cost for effectiveness, the decisions\nels) and not only at delivery using end products. become harder.\n\n\n\n\n\n\n 11",
+          "image_sha256": "b14db70c70c122140ebb0a9cc50342866fde4994fcb84ebbff806ee25d2e3ecd"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Section 2.4 states that validation relates back to the Concept of Operations (ConOps) document.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0021",
+                "locator": "Section 2.4, validation paragraph",
+                "evidence": "“Validation relates back to the ConOps document.”"
+              }
+            ]
+          },
+          {
+            "text": "No. Section 2.4 says validation is not limited to delivery using end products; it can be performed in each development phase using phase products (e.g., models).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0021",
+                "locator": "Section 2.4, validation paragraph (last sentence)",
+                "evidence": "“Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    21
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Section 2.4, validation relates back to the Concept of Operations (ConOps) document.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0021",
+            "locator": "Section 2.4, paragraph beginning \"Validation relates back\"",
+            "evidence": "\"Validation relates back to the ConOps document.\""
+          }
+        ]
+      },
+      {
+        "text": "No. Validation is not limited to delivery using end products; it \"can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0021",
+            "locator": "Section 2.4, final sentence of validation discussion",
+            "evidence": "\"Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.\""
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Section 2.4 states that validation relates back to the Concept of Operations (ConOps) document.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0021",
+          "locator": "Section 2.4, validation paragraph",
+          "evidence": "“Validation relates back to the ConOps document.”"
+        }
+      ]
+    },
+    {
+      "text": "No. Section 2.4 says validation is not limited to delivery using end products; it can be performed in each development phase using phase products (e.g., models).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0021",
+          "locator": "Section 2.4, validation paragraph (last sentence)",
+          "evidence": "“Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16688.4
+}

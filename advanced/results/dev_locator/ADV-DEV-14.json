@@ -1,0 +1,204 @@
+{
+  "id": "ADV-DEV-14",
+  "split": "dev",
+  "question": "In Section 4.1's discussion of Needs, Goals, and Objectives, must goals already be quantitative or measurable, and what must they still allow?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek48lVkBKsHISw5NhOdPJZJ30WxKl",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 500,
+        "completion_tokens": 14,
+        "total_tokens": 514,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1053.35,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_L9ZkUQCCaZFynYDkAGsHGpMA",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Section 4.1 Needs Goals Objectives quantitative measurable\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48mUO1j5exuY8cOE7gBmNKIzG0W",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5610,
+        "completion_tokens": 20,
+        "total_tokens": 5630,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1430.34,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_YexWWx6qyJQAGmdZQUZKbg3d",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0059\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48ozTvdVyecmcKFGOdvq5hp83qO",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10546,
+        "completion_tokens": 103,
+        "total_tokens": 10649,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2228.87,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_iXMl3SRUbzAN3CGI2haDXRQX",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Section 4.1, goals need not already be quantitative or measurable, but they must allow assessment of whether the system has achieved them.\",\"citations\":[{\"source_id\":\"NASA-SE:p0059\",\"locator\":\"section/paragraph starting with • Goals:\",\"evidence\":\"Goals need not be in a quantitative or measurable form, but they should allow us to assess whether the system has achieved them.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Section 4.1's discussion of Needs, Goals, and Objectives, must goals already be quantitative or measurable, and what must they still allow?",
+      "results": [
+        {
+          "id": "NASA-SE:p0059",
+          "page": 59,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49",
+          "score": 29.469312487650292,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0193",
+          "page": 193,
+          "text": " Appendix B: Glossary\n\n\n\n\n\n\nGoal: Goals elaborate on the need and constitute a Human Systems Integration: An interdisciplinary\nspecific set of expectations for the system. They fur- and comprehensive management and technical pro-\nther define what we hope to accomplish by address- cess that focuses on the integration of human consid-\ning the critical issues identified during the problem erations into the system acquisition and development\nassessment. Goals need not be in a quantitative or processes to enhance human system design, reduce\nmeasurable form, but they must allow us to assess life cycle ownership cost, and optimize total system\nwhether the system has achieved them. performance.\n\n\nGovernment Mandatory Inspection Points: Implementation Phase: The part of the NASA man-\nInspection points required by Federal regulations agement life cycle defined in NPR 7120.5 where the\nto ensure 100 percent compliance with safety/mis- detailed design of system products is completed and the\nsion-critical attributes when noncompliance can products to be deployed are fabricated, assembled, inte-\nresult in loss of life or loss of mission. grated, and tested and the products are deployed to their\n customers or users for their assigned use or mission.\nHealth Assessment: The activity under Fault Man-\nagement that carries out detection, diagnosis, and Incommensurable Costs: Costs that cannot be easily\nidentification of faults and prediction of fault prop- measured, such as controlling pollution on launch or\nagation states into the future. mitigating debris.\n\n\nHealth Monitoring: The activity under Fault Influence Diagram: A compact graphical and mathe-\nManagement that implements system state data col- matical representation of a decision state. Its elements are\nlection, storage, and reporting though sensing and decision nodes, chance nodes, value nodes, and arrows\ncommunication. to indicate the relationships among these elements.\n\n\nHeritage (or legacy): Refers to the original manufactur- Inspection: The visual examination of a realized end\ner’s level of quality and reliability that is built into the product. Inspection is generally used to verify phys-\nparts, which have been proven by (1) time in service, ical design features or specific manufacturer identi-\n(2) number of units in service, (3) mean time between fication. For example, if there is a requirement that\nfailure performance, and (4) number of use cycles. the safety arming pin has a red flag with the words\n “Remove Before Flight” stenciled on the flag in black\nHuman-Centered Design: An approach to the devel- letters, a visual inspection of the arming pin flag can\nopment of interactive systems that focuses on making be used to determine if this requirement wasmet.\nsystems usable by ensuring that the needs, abilities,\nand limitations of the human user are met through- Integrated Logistics Support: The management,\nout the system’s life cycle. engineering activities, analysis, and information\n management associated with design requirements\nHuman Factors Engineering: The discipline that definition, material procurement and distribution,\nstudies human-system interfaces and provides maintenance, supply replacement, transportation,\nrequirements, standards, and guidelines to ensure the and disposal that are identified by space flight and\nhuman component of an integrated system is able to ground systems supportability objectives.\nfunction as intended.\n\n\n\n 183",
+          "score": 21.569360525665253,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0058",
+          "page": 58,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n Mission Mission Operational Success Design\n Goals Objectives Objectives Criteria Drivers\n\n\n\n\n\n\n\n • Agency Strategic • Science Objectives Operational Drivers Measurements Mission Drivers\n Plans • Exploration • Integration and • What • Launch Date\n • Announcements Objectives Test measurements? • Mission Duration\n of Opportunity • Technology • Launch • How well? • Orbit\n • Road Maps Demonstration • On-Orbit • Cost Constraints\n • Directed Missions Objectives • Transfer • Etc.\n • Technology • Surface\n Development • Science Data Explorations\n Objectives Distribution • What\n • Programmatic • Maintenance explorations?\n Objectives • Logistics • What goals?\n • Etc.\n\n\n FIGURE 4.1-2 Information Flow for Stakeholder Expectations\n\n\nobjectives form the basis for developing the mission, In identifying the full set of expectations, the systems\nso they need to be clearly defined and articulated. engineer will need to interact with various commu-\n nities, such as those working in the areas of orbital\nThe project team should also identify the constraints debris, space asset protection, human systems inte-\nthat may apply. A “constraint” is a condition that is to gration, quality assurance, and reliability. Ensuring\nbe met. Sometimes a constraint is dictated by external that a complete set of expectations is captured will\nfactors such as orbital mechanics, an existing system help prevent “surprise” features from arising later in\nthat must be utilized (external interface), a regu- the life cycle. For example, space asset protection may\nlatory restriction, or the state of technology; some- require additional encryption for the forward link\ntimes constraints are the result of the overall budget commands, additional shielding or filtering for RF\nenvironment. Concepts of operation and constraints systems, use of a different frequency, or other design\nalso need to be included in defining the stakeholder changes that might be costly to add to a system that\nexpectations. These identify how the system should has already been developed.\nbe operated to achieve the mission objectives.\n 4.1.1.2.3 Identify Needs, Goals, and Objectives\n In order to define the goals and objectives, it is nec-\n NOTE: It is extremely important to involve stake- essary to elicit the needs, wants, desires, capabilities,\n holders in all phases of a project. Such involvement external interfaces, assumptions, and constraints\n should be built in as a self-correcting feedback loop from the stakeholders. Arriving at an agreed-to set of\n that will significantly enhance the chances of mis- goals and objectives can be a long and arduous task.\n sion success. Involving stakeholders in a project Proactive iteration with the stakeholders throughout\n builds confidence in the end product and serves as a the systems engineering process is the way that all par-\n validation and acceptance with the target audience. ties can come to a true understanding of what should\n be done and what it takes to do the job. It is important\n\n\n\n 48",
+          "score": 20.681380427252375,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0071",
+          "page": 71,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nRequirements validation results are often a decid- For additional information on MOPs and TPMs,\ning factor in whether to proceed with the next pro- their relationship to each other and MOEs, and\ncess of Logical Decomposition or Design Solution examples of each, see Section 6.7.2.6.2 of the NASA\nDefinition. The project team should be prepared to: Expanded Guidance for SE document at https://nen.\n(1) demonstrate that the project requirements are nasa.gov/web/se/doc-repository.\ncomplete and understandable; (2) demonstrate that\nevaluation criteria are consistent with requirements 4.2.1.2.6 Establish Technical Requirement Baseline\nand the operations and logistics concepts; (3) con- Once the technical requirements are identified and\nfirm that requirements and MOEs are consistent validated to be good (clear, correct, complete, and\nwith stakeholder needs; (4) demonstrate that oper- achievable) requirements, and agreement has been\nations and architecture concepts support mission gained by the customer and key stakeholders, they\nneeds, goals, objectives, assumptions, guidelines, and are baselined and placed under configuration control.\nconstraints; and (5) demonstrate that the process for Typically, a System Requirements Review (SRR) is\nmanaging change in requirements is established, doc- held to allow comments on any needed changes and\numented in the project information repository, and to gain agreement on the set of requirements so that it\ncommunicated to stakeholders. may be subsequently baselined. For additional infor-\n mation on the SRR, see Section 6.7.\n4.2.1.2.5 Define MOPs and TPMs\nMeasures of Performance (MOPs) define the perfor- 4.2.1.2.7 Capture Work Products\nmance characteristics that the system should exhibit The work products generated during the above activ-\nwhen fielded and operated in its intended environment. ities should be captured along with key decisions\nMOPs are derived from the MOEs but are stated in that were made, any supporting decision rationale\nmore technical terms from the supplier’s point of view. and assumptions, and lessons learned in performing\nTypically, multiple MOPs, which are quantitative and these activities.\nmeasurable, are needed to satisfy a MOE, which can\nbe qualitative. From a verification and acceptance 4.2.1.3 Outputs\npoint of view, MOPs reflect the system characteristics • Validated Technical Requirements: This is the\ndeemed necessary to achieve the MOEs. approved set of requirements that represents a\n complete description of the problem to be solved\nTechnical Performance Measures (TPMs) are phys- and requirements that have been validated and\nical or functional characteristics of the system asso- approved by the customer and stakeholders.\nciated with or established from the MOPs that are Examples of documents that capture the require-\ndeemed critical or key to mission success. The TPMs ments are a System Requirements Document\nare monitored during implementation by comparing (SRD), Project Requirements Document (PRD),\nthe current actual achievement or best estimate of the Interface Requirements Document (IRD), and a\nparameters with the values that were anticipated for Software Requirements Specification (SRS).\nthe current time and projected for future dates. They\nare used to confirm progress and identify deficien- • Measures of Performance: These are the iden-\ncies that might jeopardize meeting a critical system tified quantitative measures that, when met\nrequirement or put the project at cost or schedule risk. by the design solution, help ensure that one\n or more MOEs will be satisfied. There may be\n\n\n\n 61",
+          "score": 20.5751913306917,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0044",
+          "page": 44,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n3.11 Tailoring and Customization While the technical aspects of small projects are gen-\n of NPR 7123.1 Requirements erally narrower and more focused, they can also be\nIn this section, the term requirements refers to the challenging when their objectives are to demonstrate\n“shall” statements imposed from Agency direc- advanced technologies or provide “one of a kind”\ntives. This discussion focuses on the tailoring of the capabilities. At the same time, their comparatively\nrequirements contained in NPR 7123.1. small budgets and restricted schedules dictate lean\n and innovative implementation approaches to proj-\n3.11.1 Introduction ect management and systems engineering. Tailoring\nNASA policy recognizes the need to accommodate the and customization allow programs and projects to be\nunique aspects of each program or project to achieve successful in achieving technical objectives within\nmission success in an efficient and economical man- cost and schedule constraints. The key is effective tai-\nner. Tailoring is a process used to accomplish this. loring that reflects lessons learned and best practices.\n Tailoring the SE requirements and customizing the\nNPR 7123.1 defines tailoring as “the process used SE best practices to the specific needs of the project\nto seek relief from SE NPR requirements consistent helps to obtain the desired benefits while eliminating\nwith program or project objectives, allowable risk, unnecessary overhead. To accomplish this, an accept-\nand constraints.” Tailoring results in deviations or able risk posture must be understood and agreed\nwaivers (see NPR 7120.5, Section 3.5) to SE require- upon by the project, customer/stakeholder, Center\nments and is documented in the next revision of the management, and independent reviewers. Even with\nSEMP (e.g., via the Compliance Matrix). this foundation, however, the actual process of appro-\n priately tailoring SE requirements and customizing\nSince NPR 7123.1 was written to accommodate pro- NPR 7123.1 practices to a specific project can be\ngrams and projects regardless of size or complexity, complicated and arduous. Effective approaches and\nthe NPR requirements leave considerable latitude for experienced mentors make the tailoring process for\ninterpretation. Therefore, the term “customization” any project more systematic and efficient.\nis introduced and is defined as “the modification of\nrecommended SE practices that are used to accom- Chapter 6 of the NASA Software Engineering\nplish the SE requirements.” Customization does not Handbook provides guidance on tailoring SE require-\nrequire waivers or deviations, but significant custom- ments for software projects.\nization should be documented in the SEMP.\n 3.11.2 Criteria for Tailoring\nTailoring and customization are essential systems NPR 8705.4, Risk Classification for NASA Payloads,\nengineering tools that are an accepted and expected is intended for assigning a risk classification to projects\npart of establishing the proper SE NPR require- and programs. It establishes baseline criteria that enable\nments for a program or project. Although tailoring is users to define the risk classification level for NASA\nexpected for all sizes of projects and programs, small payloads on human or non-human-rated launch sys-\nprojects present opportunities and challenges that are tems or carrier vehicles. It is also a starting point for\ndifferent from those of large, traditional projects such understanding and defining criteria for tailoring.\nas the Shuttle, International Space Station, Hubble\nSpace Telescope, and Mars Science Laboratory. The extent of acceptable tailoring depends on several char-\n acteristics of the program/project such as the following:\n\n\n\n 34",
+          "score": 16.18344476804216,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 15.654208161710931,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 15.382408620399106,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 59,
+          "path": "data/local/advanced/pages/p0059_1800.png",
+          "sha256": "b1bacee2da030eedde02e20e40aad971ac9403a70d45eaf98b6d9b82222a2117",
+          "source_id": "NASA-SE:p0059",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    59
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Section 4.1, goals need not already be quantitative or measurable, but they must allow assessment of whether the system has achieved them.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0059",
+          "locator": "section/paragraph starting with • Goals:",
+          "evidence": "Goals need not be in a quantitative or measurable form, but they should allow us to assess whether the system has achieved them."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 4738.81
+}

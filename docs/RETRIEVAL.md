@@ -37,7 +37,7 @@ V3 median retrieval latency: Dense 40.50 ms, BM25 0.82 ms, Hybrid 47.48 ms. All 
 
 These are retrieval scores on a small, same-document dev set, not agent answer scores or evidence of generalization. BM25 currently matches the wording particularly well. Do not select the final agent configuration from these numbers alone; the frozen policy prioritizes grounded answers, which have not been measured yet.
 
-## Dev error analysis (AI-assisted)
+## Dev error analysis
 
 1. **q13, tie between repeated course attempts.** Dense top-1 is an image caption on page 56 referring to choosing the highest score; top-2 on page 49 describes CPA selection generally. Neither contains the required tie-break by newer academic year/semester, so this is not merely an exact-string false negative. The complete rule chunk is BM25 rank 1 and Hybrid rank 2; Hybrid recovers strict Hit@3/context from 0 to 1 for this query. Hypothesis: lexical terms retrieve the detailed rule while dense favors a short semantically similar caption. A later context/rerank experiment can prefer complete rule-bearing paragraphs; no index/gold modification is made here.
 2. **q08, JWT header.** Dense top-1 on page 26 explains JWT signatures but omits the requested header/format; correct page-27 chunk is rank 2. BM25 and Hybrid promote it to rank 1. Hypothesis: semantic topic similarity alone does not distinguish introductory JWT text from the exact transport rule.

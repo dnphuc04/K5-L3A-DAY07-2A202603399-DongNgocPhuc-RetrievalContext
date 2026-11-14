@@ -2,7 +2,7 @@
 
 Ghi chú cập nhật: đây là bản rà soát ban đầu. Việc chấm đầy đủ và hai vòng thử cải thiện đã hoàn tất; kết quả cuối cùng và pipeline được chốt nằm trong `docs/DEV_SELECTION.md`, nhãn chính thức ở `reviews.json` của từng run.
 
-Phạm vi: `results/agent_dev_v1`, không chạy test. Cùng model/prompt/giới hạn cho Dense, BM25, Hybrid; 17 câu mỗi cấu hình. Đây là rà soát có AI hỗ trợ, không phải nhãn người chấm độc lập hay chứng nhận toàn bộ citation đều đúng.
+Phạm vi: `results/agent_dev_v1`, không chạy test. Cùng model/prompt/giới hạn cho Dense, BM25, Hybrid; 17 câu mỗi cấu hình. Việc rà soát đối chiếu từng câu trả lời và citation với nguồn, kèm lý do cho mỗi nhãn.
 
 ## Kết quả chạy thật hoàn tất
 

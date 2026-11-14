@@ -1,0 +1,533 @@
+{
+  "id": "ADV2-TEST-11",
+  "split": "test",
+  "question": "In Figure 6.5-4, identify both branches immediately after CCB step 7: their step labels, responsible lanes, and activities.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4oSxJ9G19FNhOoR8a3GfJ99Ftfg",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 653,
+        "completion_tokens": 63,
+        "total_tokens": 716,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 27,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2009.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_B6XLxN9CKTMDYtiZrDDYvadu",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 6.5-4 CCB step 7 branch immediately after\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oUFMonWePuNCua3LoNXGY3p7v7",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 6133,
+        "completion_tokens": 131,
+        "total_tokens": 6264,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 102,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2700.57,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_i1fVNNBrS4jorHKu415CUnPL",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0158\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oYHVrAfdrgGAOegyKIHpatxkJg",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10402,
+        "completion_tokens": 154,
+        "total_tokens": 10556,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 108,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3618.41,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_5zqUy0KJK0HOaAB135hCuXhl",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0158\",\"bbox\":[0.18,0.56,0.98,0.92]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ocK7SUzKRHsqFqEmh52FGp9Fxw",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 12967,
+        "completion_tokens": 370,
+        "total_tokens": 13337,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 324,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5955.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_4V1Ii9P2QqXtBsfBDm6sBngM",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0158\",\"bbox\":[0.15,0.62,0.64,0.82]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oiwVWIQeBpD68GxavrFY89L3Wq",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 13971,
+        "completion_tokens": 314,
+        "total_tokens": 14285,
+        "prompt_tokens_details": {
+          "cached_tokens": 12416,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 268,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6136.69,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_x7Z4DBSfr7ACQC046Mdovx9Y",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0158\",\"bbox\":[0.55,0.52,0.98,0.70]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ooq8l5yU0Gjkzag9nxZPxMTmA0",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 14807,
+        "completion_tokens": 342,
+        "total_tokens": 15149,
+        "prompt_tokens_details": {
+          "cached_tokens": 12416,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 296,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5899.48,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_1Uw4TF2iPTJz5BrUSRIg81uN",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0158\",\"bbox\":[0.18,0.42,0.98,0.58]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ovVy449XDSEp2fVbZMypXGx291",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 16053,
+        "completion_tokens": 1315,
+        "total_tokens": 17368,
+        "prompt_tokens_details": {
+          "cached_tokens": 13952,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 998,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 19425.17,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ycROoSO7jnjyk1cZNXbWYM9E",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 6.5-4, one branch immediately after CCB step 7 goes to step 8a in the Actionees lane: activity is “Complete assigned actions.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4 (Typical Change Control Process), lane headers\",\"evidence\":\"... CCB ... Actionees\"},{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4, CCB step 7 arrow to Actionees step 8a\",\"evidence\":\"“7. • Disposition change request • Assign action items as needed” → “8a. Complete assigned actions”\"}]},{\"text\":\"In Figure 6.5-4, the other branch immediately after CCB step 7 goes to step 8b in the CM Function lane: activities are “Release CCB minutes” and “Track actions.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4 (Typical Change Control Process), lane headers\",\"evidence\":\"CM Function\"},{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4, branch from CCB step 7 down to CM Function step 8b\",\"evidence\":\"from “7.” a line branches down to “8b. • Release CCB minutes • Track actions”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4pE2m9h8EvgjfuPz8Wte9mrHCc2",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4897,
+        "completion_tokens": 470,
+        "total_tokens": 5367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 208,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7660.41,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pGft5EkGnlzNjndsillKzO4o",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 6.5-4, one branch immediately after CCB step 7 goes to step 8a in the Actionees lane: “Complete assigned actions.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4, CCB lane step 7 to Actionees lane step 8a\",\"evidence\":\"From CCB step “7. • Disposition change request • Assign action items as needed” an arrow leads to Actionees step “8a. Complete assigned actions”.\"}]},{\"text\":\"In Figure 6.5-4, the other branch immediately after CCB step 7 goes to step 8b in the CM Function lane: “Release CCB minutes” and “Track actions.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0158\",\"locator\":\"Figure 6.5-4, branch from CCB lane step 7 down to CM Function lane step 8b\",\"evidence\":\"From CCB step 7 a branch leads down to CM Function step “8b. • Release CCB minutes • Track actions”.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 6.5-4, identify both branches immediately after CCB step 7: their step labels, responsible lanes, and activities.",
+      "results": [
+        {
+          "id": "NASA-SE:p0158",
+          "page": 158,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• As-Deployed Baseline: The as-deployed baseline project objectives and requirements. The first step\n occurs at the ORR. At this point, the design is consid- establishes a robust and well-disciplined internal\n ered to be functional and ready for flight. All changes NASA Configuration Control Board (CCB) system,\n will have been incorporated into the documentation. which is chaired by someone with program/project\n change authority. CCB members represent the stake-\n6.5.1.2.3 Manage Configuration Change Control holders with authority to commit the team they rep-\nConfiguration change management is a process to resent. The second step creates configuration change\nmanage approved designs and the implementation management surveillance of the contractor’s activity.\nof approved changes. Configuration change man- The CM office advises the NASA program or project\nagement is achieved through the systematic proposal, manager to achieve a balanced configuration change\njustification, and evaluation of proposed changes management implementation that suits the unique\nfollowed by incorporation of approved changes and program/project situation. See FIGURE 6.5-4 for an\nverification of implementation. Implementing con- example of a typical configuration change manage-\nfiguration change management in a given program/ ment control process.\nproject requires unique knowledge of the program/\n\n\n\n NORMAL CONFIGURATION CHANGE PROCESS\n Responsible\n Originator CM Function Reviewers Organization CCB Actionees\n\n 1. 2. 3. 4.\n • Prepare and • Receive and log Review and Collect, track,\n submit change request in system submit comments and adjudicate\n request • Screen change comments (with\n • Propose reviewers package reviewers and\n • Release for review originator)\n\n\n\n 5. 6. 7. 8a.\n Schedule CCB and Prepare decision • Disposition Complete\n prepare agenda package change request assigned actions\n (if needed) • Assign action\n items as needed\n\n\n\n 8b. 9.\n • Release CCB • Execute approved\n minutes changes\n • Track actions • Finalize\n documentation\n\n\n\n 10.\n • Verify release\n package\n • Release final\n documentation\n • Close change\n request\n\n\n\n FIGURE 6.5-4 Ty pical Change Control Process\n\n\n\n 148",
+          "score": 22.944087399059548,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 10.891287662819378,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0225",
+          "page": 225,
+          "text": " Appendix H: Integration Plan Outline\n\n\n\n\n\n• Internal document control number, if available 4.0 Phase 1 Integration\n This and the following sections define and explain each\n• Revision version and date issued step in the integration process. The intent here is to iden-\n tify all the needed participants and to describe to them\n1.0 Purpose of Document what they have to do. In general, the description of each\nThis section gives a brief statement of the purpose of this integration step should identify the following:\ndocument. It is the plan for integrating the components\nand subsystems of the project prior to verification. • The location of the activities.\n\n2.0 Scope of Project • The project-developed equipment and software prod-\nThis section gives a brief description of the planned proj- ucts to be integrated. Initially this is just a high-level\nect and the purpose of the system to be built. Special list, but eventually the list should be exact and com-\nemphasis is placed on the project’s deployment complex- plete, showing part numbers and quantity.\nities and challenges.\n • Any support equipment (special software, test hard-\n3.0 Integration Strategy ware, software stubs, and drivers to simulate yet-to-\nThis section tells the reader what the high-level plan for be-integrated software components, external systems)\nintegration is and, most importantly, why the integra- needed for this integration step. The same support\ntion plan is structured the way it is. The integration plan equipment is most likely needed for the subsequent\nis subject to several, sometimes conflicting, constraints. verification step.\nAlso, it is one part of the larger process of build, inte-\ngrate, verify, and deploy, all of which should be syn- • All integration activities that need to be performed\nchronized to support the same project strategy. So, for after installation, including integration with onsite\neven a moderately complex project, the integration strat- systems and external systems at other sites.\negy, which is based on a clear and concise statement of\nthe project’s goals and objectives, is described here at a • A description of the verification activities, as defined\nhigh but all-inclusive level. It may also be necessary to in the applicable verification plan, that occur after\ndescribe the analysis of alternative strategies to make it this integration step.\nclear why this particular strategy was selected.\n • The responsible parties for each activity in the inte-\nThe same strategy is the basis for the build plan, the gration step.\nverification plan, and the deployment plan. This section\ncovers and describes each step in the integration process. • The schedule for each activity.\nIt describes what components are integrated at each step\nand gives a general idea of what threads of the opera- 5.0 Multiple Phase Integration Steps\ntional capabilities (requirements) are covered. It ties the (1 or N steps)\nplan to the previously identified goals and objectives so This and any needed additional sections follow the\nthe stakeholders can understand the rationale for each format for Section 3.0. Each covers each step in a\nintegration step. This summary-level description also multiple-step integration effort.\ndefines the schedule for all the integration efforts.\n\n\n\n\n\n 215",
+          "score": 14.21666008958878,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0072",
+          "page": 72,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n two or more MOPs for each MOE. See Section the requirements (e.g., functional, performance,\n 6.7.2.6.2in the NASA Expanded Guidance for behavioral, and temporal etc.), and\n Systems Engineering at https://nen.nasa.gov/web/\n se/doc-repository for further details. • Decompose the parent requirements into a set of\n logical decomposition models and their associated\n• Technical Performance Measures: These are the sets of derived technical requirements for input to\n set of performance measures that are monitored the Design Solution Definition Process.\n and trended by comparing the current actual\n achievement of the parameters with that expected 4.3.1 Process Description\n or required at the time. TPMs are used to confirm FIGURE 4.3-1 provides a typical flow diagram for the\n progress and identify deficiencies. See Section Logical Decomposition Process and identifies typical\n 6.7.2.6.2 in the NASA Expanded Guidance for inputs, outputs, and activities to consider in address-\n Systems Engineering at https://nen.nasa.gov/web/ ing logical decomposition.\n se/doc-repository for further details.\n 4.3.1.1 Inputs\n4.2.2 Technical Requirements Typical inputs needed for the Logical Decomposition\n Definition Guidance Process include the following:\nRefer to Section 4.2.2 of the NASA Expanded\nGuidance for SE document at https://nen.nasa.gov/ • Technical Requirements: A validated set of\nweb/se/doc-repository for additional information on: requirements that represent a description of the\n problem to be solved, have been established by\n• types of requirements, functional and performance analysis, and have\n• requirements databases, and been approved by the customer and other stake-\n• the use of technical standards. holders. Examples of documents that capture the\n requirements are an SRD, PRD, and IRD.\n4.3 Logical Decomposition • Technical Measures: An established set of mea-\n\nLogical decomposition is the process for creating the sures based on the expectations and requirements\ndetailed functional requirements that enable NASA that will be tracked and assessed to determine\nprograms and projects to meet the stakeholder expec- overall system or product effectiveness and cus-\ntations. This process identifies the “what” that should tomer satisfaction. These measures are MOEs,\nbe achieved by the system at each level to enable a MOPs, and a special subset of these called TPMs.\nsuccessful project. Logical decomposition utilizes See Section 6.7.2.6.2 in the NASA Expanded\nfunctional analysis to create a system architecture Guidance for Systems Engineering at https://nen.\nand to decompose top-level (or parent) requirements nasa.gov/web/se/doc-repository for further details.\nand allocate them down to the lowest desired levels\nof the project. 4.3.1.2 Process Activities\n 4.3.1.2.1 Define One or More Logical Decomposition\nThe Logical Decomposition Process is used to: Models\n The key first step in the Logical Decomposition\n• Improve understanding of the defined techni- Process is establishing the system architecture\n cal requirements and the relationships among model. The system architecture activity defines the\n\n\n 62",
+          "score": 12.797455433968613,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0143",
+          "page": 143,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n6.2.1.2.4 Managing Expectations and Requirement 6.2.1.2.5 Key Issues for Requirements Management\n Changes Requirements Changes\nThroughout early Phase A, changes in requirements Effective management of requirements changes\nand constraints will occur as they are initially defined requires a process that assesses the impact of the pro-\nand matured. It is imperative that all changes be posed changes prior to approval and implementation\nthoroughly evaluated to determine the impacts on of the change. This is normally accomplished through\nthe cost, schedule, architecture, design, interfaces, the use of the Configuration Management Process.\nConOps, and higher and lower level requirements. In order for CM to perform this function, a baseline\nPerforming functional and sensitivity analyses will configuration should be documented and tools used\nensure that the requirements are realistic and evenly to assess impacts to the baseline. Typical tools used to\nallocated. Rigorous requirements verification and analyze the change impacts are as follows:\nvalidation will ensure that the requirements can\nbe satisfied and conform to mission objectives. All • Performance Margins: This tool is a list of key\nchanges should be subjected to a review and approval performance margins for the system and the\ncycle to maintain traceability and to ensure that the current status of the margin. For example, the\nimpacts are fully assessed for all parts of the system. propellant performance margin will provide the\n necessary propellant available versus the propel-\nOnce the requirements have been validated and lant necessary to complete the mission. Changes\nreviewed in the System Requirements Review (SRR) should be assessed for their impact on perfor-\nin late Phase A, they are placed under formal con- mance margins.\nfiguration control. Thereafter, any changes to the\nrequirements should be approved by a Configuration • CM Topic Evaluators List: This list is developed\nControl Board (CCB) or equivalent authority. The by the project office to ensure that the appropriate\nsystems engineer, project manager, and other key persons are evaluating the changes and provid-\nengineers usually participate in the CCB approval ing impacts to the change. All changes need to\nprocesses to assess the impact of the change including be routed to the appropriate individuals to ensure\ncost, performance, programmatic, and safety. that the change has had all impacts identified.\n This list will need to be updated periodically.\nRequirement changes during Phases B and C are\nmore likely to cause significant adverse impacts to • Risk System and Threats List: The risk system\nthe project cost and schedule. It is even more import- can be used to identify risks to the project and\nant that these late changes are carefully evaluated to the cost, schedule, and technical aspects of the\nfully understand their impact on cost, schedule, and risk. Changes to the baseline can affect the con-\ntechnical designs. sequences and likelihood of identified risk or can\n introduce new risk to the project. A threats list\nThe technical team should also ensure that the is normally used to identify the costs associated\napproved requirements are communicated in a timely with all the risks for the project. Project reserves\nmanner to all relevant people. Each project should are used to mitigate the appropriate risk. Analyses\nhave already established the mechanism to track and of the reserves available versus the needs identified\ndisseminate the latest project information. Further by the threats list assist in the prioritization for\ninformation on Configuration Management (CM) reserve use.\ncan be found in Section 6.5.\n\n\n 133",
+          "score": 11.83238535946367,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 11.673047790118764,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0220",
+          "page": 220,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nnecessary to perform detailed architecture studies 1980s. The TRL essentially describes the state of a\nwith the Technology Assessment Process intimately given technology and provides a baseline from which\ninterwoven. (See FIGURE G.3-2.) maturity is gauged and advancement defined. (See\n FIGURE G.4-1.)\n\n Requir e-Concepts Architectural System\n ments Stud ies Design Programs are often undertaken without fully under-\n standing either the maturity of key technologies\n TRL/AD2 Assessment or what is needed to develop them to the required\n level. It is impossible to understand the magnitude and\n Tec hnology Maturation scope of a development program without having a clear\n understanding of the baseline technological maturity of\n FIGURE G.3-2 Architectural Studies and Technology all elements of the system. Establishing the TRL is a\n Development vital first step on the way to a successful program. A\n frequent misconception is that in practice, it is too\nThe purpose of the architecture studies is to refine difficult to determine TRLs and that when you do,\nend-item system design to meet the overall scientific it is not meaningful. On the contrary, identifying\nrequirements of the mission. It is imperative that TRLs can be a straightforward systems engineering\nthere be a continuous relationship between architec- process of determining what was demonstrated and\ntural studies and maturing technology advances. The under what conditions it was demonstrated.\narchitectural studies should incorporate the results of\nthe technology maturation, planning for alternative Terminology\npaths and identifying new areas required for devel- At first glance, the TRL descriptions in FIGURE G.4-1\nopment as the architecture is refined. Similarly, it appear to be straightforward. It is in the process of\nis incumbent upon the technology maturation pro- trying to assign levels that problems arise. A primary\ncess to identify requirements that are not feasible cause of difficulty is in terminology; e.g., everyone\nand development routes that are not fruitful and to knows what a breadboard is, but not everyone has\ntransmit that information to the architecture studies the same definition. Also, what is a “relevant envi-\nin a timely manner. It is also incumbent upon the ronment?” What is relevant to one application may\narchitecture studies to provide feedback to the tech- or may not be relevant to another. Many of these\nnology development process relative to changes in terms originated in various branches of engineering\nrequirements. Particular attention should be given and had, at the time, very specific meanings to that\nto “heritage” systems in that they are often used in particular field. They have since become commonly\narchitectures and environments different from those used throughout the engineering field and often\nin which they were designed to operate. acquire differences in meaning from discipline to\n discipline, some differences subtle, some not so sub-\n tle. “Breadboard,” for example, comes from electrical\nG.4 Establishing TRLs engineering where the original use referred to check-\nA Technology Readiness Level (TRL) is, at its most ing out the functional design of an electrical circuit\nbasic, a description of the performance history of a by populating a “breadboard” with components to\ngiven system, subsystem, or component relative to verify that the design operated as anticipated. Other\na set of levels first described at NASA HQ in the terms come from mechanical engineering, referring\n\n\n\n 210",
+          "score": 11.370622657675879,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0158",
+          "page": 158,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• As-Deployed Baseline: The as-deployed baseline project objectives and requirements. The first step\n occurs at the ORR. At this point, the design is consid- establishes a robust and well-disciplined internal\n ered to be functional and ready for flight. All changes NASA Configuration Control Board (CCB) system,\n will have been incorporated into the documentation. which is chaired by someone with program/project\n change authority. CCB members represent the stake-\n6.5.1.2.3 Manage Configuration Change Control holders with authority to commit the team they rep-\nConfiguration change management is a process to resent. The second step creates configuration change\nmanage approved designs and the implementation management surveillance of the contractor’s activity.\nof approved changes. Configuration change man- The CM office advises the NASA program or project\nagement is achieved through the systematic proposal, manager to achieve a balanced configuration change\njustification, and evaluation of proposed changes management implementation that suits the unique\nfollowed by incorporation of approved changes and program/project situation. See FIGURE 6.5-4 for an\nverification of implementation. Implementing con- example of a typical configuration change manage-\nfiguration change management in a given program/ ment control process.\nproject requires unique knowledge of the program/\n\n\n\n NORMAL CONFIGURATION CHANGE PROCESS\n Responsible\n Originator CM Function Reviewers Organization CCB Actionees\n\n 1. 2. 3. 4.\n • Prepare and • Receive and log Review and Collect, track,\n submit change request in system submit comments and adjudicate\n request • Screen change comments (with\n • Propose reviewers package reviewers and\n • Release for review originator)\n\n\n\n 5. 6. 7. 8a.\n Schedule CCB and Prepare decision • Disposition Complete\n prepare agenda package change request assigned actions\n (if needed) • Assign action\n items as needed\n\n\n\n 8b. 9.\n • Release CCB • Execute approved\n minutes changes\n • Track actions • Finalize\n documentation\n\n\n\n 10.\n • Verify release\n package\n • Release final\n documentation\n • Close change\n request\n\n\n\n FIGURE 6.5-4 Ty pical Change Control Process\n\n\n\n 148",
+          "image_path": "data/local/advanced/pages/p0158_2000.png",
+          "image_sha256": "ef8351775f36bd824e05b53df046963e13fc04dd703b928f74d45299c82a5f98"
+        }
+      ]
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0158",
+      "bbox": [
+        0.18,
+        0.56,
+        0.98,
+        0.92
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0158_ceba73126e63.png",
+      "image_sha256": "f2ffdd625675084761e45071f61cc1a1912ff4f91facc9f119490aab847471a2"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0158",
+      "bbox": [
+        0.15,
+        0.62,
+        0.64,
+        0.82
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0158_cea69d05c56f.png",
+      "image_sha256": "d5c4e99ab783a7ff858f18c8fc0ea7ace693f12182d83aff8a7c222a6e13885e"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0158",
+      "bbox": [
+        0.55,
+        0.52,
+        0.98,
+        0.7
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0158_200a8472ef1e.png",
+      "image_sha256": "45739a72b17f70ebc5a9056025b71d4a647591857033bd319d1a4458d39d80c7"
+    },
+    {
+      "tool": "view_region",
+      "source_id": "NASA-SE:p0158",
+      "bbox": [
+        0.18,
+        0.42,
+        0.98,
+        0.58
+      ],
+      "image_path": "data/local/advanced_v2/crops/p0158_fb5352ee7d52.png",
+      "image_sha256": "e3624073446f541c0f41b5528feeaf56a4db28bc32e79cc2af8daa2b962cf83a"
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0158",
+          "page": 158,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• As-Deployed Baseline: The as-deployed baseline project objectives and requirements. The first step\n occurs at the ORR. At this point, the design is consid- establishes a robust and well-disciplined internal\n ered to be functional and ready for flight. All changes NASA Configuration Control Board (CCB) system,\n will have been incorporated into the documentation. which is chaired by someone with program/project\n change authority. CCB members represent the stake-\n6.5.1.2.3 Manage Configuration Change Control holders with authority to commit the team they rep-\nConfiguration change management is a process to resent. The second step creates configuration change\nmanage approved designs and the implementation management surveillance of the contractor’s activity.\nof approved changes. Configuration change man- The CM office advises the NASA program or project\nagement is achieved through the systematic proposal, manager to achieve a balanced configuration change\njustification, and evaluation of proposed changes management implementation that suits the unique\nfollowed by incorporation of approved changes and program/project situation. See FIGURE 6.5-4 for an\nverification of implementation. Implementing con- example of a typical configuration change manage-\nfiguration change management in a given program/ ment control process.\nproject requires unique knowledge of the program/\n\n\n\n NORMAL CONFIGURATION CHANGE PROCESS\n Responsible\n Originator CM Function Reviewers Organization CCB Actionees\n\n 1. 2. 3. 4.\n • Prepare and • Receive and log Review and Collect, track,\n submit change request in system submit comments and adjudicate\n request • Screen change comments (with\n • Propose reviewers package reviewers and\n • Release for review originator)\n\n\n\n 5. 6. 7. 8a.\n Schedule CCB and Prepare decision • Disposition Complete\n prepare agenda package change request assigned actions\n (if needed) • Assign action\n items as needed\n\n\n\n 8b. 9.\n • Release CCB • Execute approved\n minutes changes\n • Track actions • Finalize\n documentation\n\n\n\n 10.\n • Verify release\n package\n • Release final\n documentation\n • Close change\n request\n\n\n\n FIGURE 6.5-4 Ty pical Change Control Process\n\n\n\n 148",
+          "image_sha256": "ef8351775f36bd824e05b53df046963e13fc04dd703b928f74d45299c82a5f98"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 6.5-4, one branch immediately after CCB step 7 goes to step 8a in the Actionees lane: “Complete assigned actions.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0158",
+                "locator": "Figure 6.5-4, CCB lane step 7 to Actionees lane step 8a",
+                "evidence": "From CCB step “7. • Disposition change request • Assign action items as needed” an arrow leads to Actionees step “8a. Complete assigned actions”."
+              }
+            ]
+          },
+          {
+            "text": "In Figure 6.5-4, the other branch immediately after CCB step 7 goes to step 8b in the CM Function lane: “Release CCB minutes” and “Track actions.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0158",
+                "locator": "Figure 6.5-4, branch from CCB lane step 7 down to CM Function lane step 8b",
+                "evidence": "From CCB step 7 a branch leads down to CM Function step “8b. • Release CCB minutes • Track actions”."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    158
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 6.5-4, one branch immediately after CCB step 7 goes to step 8a in the Actionees lane: activity is “Complete assigned actions.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4 (Typical Change Control Process), lane headers",
+            "evidence": "... CCB ... Actionees"
+          },
+          {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4, CCB step 7 arrow to Actionees step 8a",
+            "evidence": "“7. • Disposition change request • Assign action items as needed” → “8a. Complete assigned actions”"
+          }
+        ]
+      },
+      {
+        "text": "In Figure 6.5-4, the other branch immediately after CCB step 7 goes to step 8b in the CM Function lane: activities are “Release CCB minutes” and “Track actions.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4 (Typical Change Control Process), lane headers",
+            "evidence": "CM Function"
+          },
+          {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4, branch from CCB step 7 down to CM Function step 8b",
+            "evidence": "from “7.” a line branches down to “8b. • Release CCB minutes • Track actions”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 6.5-4, one branch immediately after CCB step 7 goes to step 8a in the Actionees lane: “Complete assigned actions.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0158",
+          "locator": "Figure 6.5-4, CCB lane step 7 to Actionees lane step 8a",
+          "evidence": "From CCB step “7. • Disposition change request • Assign action items as needed” an arrow leads to Actionees step “8a. Complete assigned actions”."
+        }
+      ]
+    },
+    {
+      "text": "In Figure 6.5-4, the other branch immediately after CCB step 7 goes to step 8b in the CM Function lane: “Release CCB minutes” and “Track actions.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0158",
+          "locator": "Figure 6.5-4, branch from CCB lane step 7 down to CM Function lane step 8b",
+          "evidence": "From CCB step 7 a branch leads down to CM Function step “8b. • Release CCB minutes • Track actions”."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 55264.16
+}

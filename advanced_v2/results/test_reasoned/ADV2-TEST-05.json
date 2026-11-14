@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-05",
+  "split": "test",
+  "question": "In Table 6.6-1, for Technical data capture, to whom are integrity-check anomalies reported and for what purpose? Also name the inventory output.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nfk0xLb1YJLOQN8QcahrvGBc5w",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 59,
+        "total_tokens": 714,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 19,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1940.56,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_j8SA6Jd0f8PKyVsHuMe2ypTp",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 6.6-1 Technical data capture integrity-check anomalies reported to whom purpose inventory output\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nhdNzu5d8FmA7MwcTz9Tpf6rDW",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5716,
+        "completion_tokens": 179,
+        "total_tokens": 5895,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 150,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3212.18,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FrlNRbXJJ9met7lc1ipTexx9",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0166\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nmWGe8t6Sa7FShfP3mJwvyN8zd",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10177,
+        "completion_tokens": 386,
+        "total_tokens": 10563,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 185,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5990.39,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KPbTDkDZ9EuRyApylEhrg8Qk",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 6.6-1 under “Technical data capture,” integrity-check anomalies/variances are reported to “the authors or generators of the data” for the purpose of “correction.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0166\",\"locator\":\"Table 6.6-1, Technical data capture row, Tasks column (sentence beginning “Report integrity check anomalies…”)\",\"evidence\":\"Report integrity check anomalies or variances to the authors or generators of the data for correction.\"}]},{\"text\":\"In Table 6.6-1 under “Technical data capture,” the inventory output is “Stored data inventory.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0166\",\"locator\":\"Table 6.6-1, Technical data capture row, Expected Outcomes column\",\"evidence\":\"Stored data inventory.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nsnIHzMzJo0Gstk76Vj7maVbw2",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4964,
+        "completion_tokens": 216,
+        "total_tokens": 5180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 29,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4078.17,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_bAFHdwgwXtXgMgeI8RErVU0O",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"For “Technical data capture” in Table 6.6-1, integrity-check anomalies/variances are reported to the authors or generators of the data for correction.\",\"citations\":[{\"source_id\":\"NASA-SE:p0166\",\"locator\":\"Table 6.6-1, “Technical data capture” row, Tasks\",\"evidence\":\"Report integrity check anomalies or variances to the authors or generators of the data for correction.\"}]},{\"text\":\"For “Technical data capture” in Table 6.6-1, the inventory output is “Stored data inventory.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0166\",\"locator\":\"Table 6.6-1, “Technical data capture” row, Expected Outcomes\",\"evidence\":\"Stored data inventory.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 6.6-1, for Technical data capture, to whom are integrity-check anomalies reported and for what purpose? Also name the inventory output.",
+      "results": [
+        {
+          "id": "NASA-SE:p0166",
+          "page": 166,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.6-1 Technical Data Tasks\nDescription Tasks Expected Outcomes\nTechnical Collect and store inputs and technical effort outcomes from the technical and technical Sharable data needed to\ndata capture management processes, including: perform and control the\n • results from technical assessments; technical and technical\n management processes is\n • descriptions of methods, tools, and metrics used; collected and stored.\n • recommendations, decisions, assumptions, and impacts of technical efforts and Stored data inventory.\n decisions;\n • lessons learned;\n • deviations from plan;\n • anomalies and out-of-tolerances relative to requirements; and\n • other data for tracking requirements.\n Perform data integrity checks on collected data to ensure compliance with content and\n format as well as technical data checks to ensure there are no errors in specifying or\n recording the data.\n Report integrity check anomalies or variances to the authors or generators of the data for\n correction.\n Prioritize, review, and update data collection and storage procedures as part of regularly\n scheduled maintenance.\n\nTechnical Implement technical management roles and responsibilities with technical data products Records of technical data\ndata received. maintenance.\nmaintenance Manage database(s) to ensure that collected data have proper quality and integrity; and Technical effort data,\n are properly retained, secure, and available to those with access authority. including captured work\n Periodically review technical data management activities to ensure consistency and products, contractor-\n identify anomalies and variances. delivered documents,\n and acquirer-provided\n Review stored data to ensure completeness, integrity, validity, availability, accuracy, documents are controlled and\n currency, and traceability. maintained.\n Perform technical data maintenance, as required. Status of data stored is\n Identify and document significant issues, their impacts, and changes made to technical maintained to include: version\n data to correct issues and mitigate impacts. description, timeline, and\n Maintain, control, and prevent the stored data from being used inappropriately. security classification.\n\n Store data in a manner that enables easy and speedy retrieval.\n Maintain stored data in a manner that protects the technical data against foreseeable\n hazards, e.g., fire, flood, earthquake, etc.\n\nTechnical Maintain an information library or reference index to provide technical data availability and Access information (e.g.,\ndata/ access instructions. available data, access means,\ninformation Receive and evaluate requests to determine data requirements and delivery instructions. security procedures, time\ndistribution period for availability, and\n Process special requests for technical effort data or information according to established personnel cleared for access)\n procedures for handling such requests. is readily available.\n Ensure that required and requested data are appropriately distributed to satisfy the Technical data are provided\n needs of the acquirer and requesters in accordance with the agreement, program/project to authorize requesters in the\n directives, and technical data management plans and procedures. appropriate format, with the\n Ensure that electronic access rules are followed before database access is allowed or any appropriate content, and by\n requested data are electronically released/transferred to the requester. a secure mode of delivery, as\n Provide proof of correctness, reliability, and security of technical data provided to internal applicable.\n\n and external recipients.\n (continued)\n\n\n\n 156",
+          "score": 27.946146302242276,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 8.718347237477456,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 13.66246424254403,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0164",
+          "page": 164,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n transactional data, and other data of a purely these activities for implementing Technical Data\n business nature. Management include:\n\n• Data Call: Solicitation from Government stake- • Requirements relating to the flow/delivery of data\n holders (specifically Integrated Product Team to or from a contractor should be specified in the\n (IPT) leads and functional managers) identi- technical data management plan and included in\n fies and justifies their data requirements from the Request for Proposal (RFP) and contractor\n a proposed contracted procurement. Since agreement.\n data provided by contractors have a cost to the\n Government, a data call (or an equivalent activ- • NASA should not impose changes on existing\n ity) is a common control mechanism used to contractor data management systems unless the\n ensure that the requested data are truly needed. program/project technical data management\n If approved by the data call, a description of each requirements, including data exchange require-\n data item needed is then developed and placed ments, cannot otherwise be met.\n on contract.\n • Responsibility for data inputs into the technical\n• Information: Information is generally consid- data management system lies solely with the orig-\n ered as processed data. The form of the processed inator or generator of the data.\n data is dependent on the documentation, report,\n review formats, or templates that are applicable. • The availability/access of technical data lies with\n the author, originator, or generator of the data in\n• Technical Data Package: A technical data pack- conjunction with the manager of the technical\n age is a technical description of an item adequate data management system.\n for supporting an acquisition strategy, produc-\n tion, engineering, and logistics support. The • The established availability/access description and\n package defines the required design configuration list should be baselined and placed under config-\n and procedures to ensure adequacy of item per- uration control.\n formance. It consists of all applicable items such\n as drawings, associated lists, specifications, stan- • For new programs/projects, a digital generation\n dards, performance requirements, quality assur- and delivery medium is desired. Existing pro-\n ance provisions, and packaging details. grams/projects should weigh the cost/benefit\n trades of digitizing hard copy data.\n• Technical Data Management System: The strat-\n egies, plans, procedures, tools, people, data for- TABLE 6.6-1 defines the tasks required to capture\n mats, data exchange rules, databases, and other technical data.\n entities and descriptions required to manage the\n technical data of a program/project. 6.6.1.2.3 Provide Data to Authorized Parties\n All data deliverables should include distribution state-\n6.6.1.2.2 Collect and Store Data ments and procedures to protect all data that contain\nSubsequent activities collect, store, and maintain critical technology information, as well as to ensure\ntechnical data and provide it to authorized par- that limited distribution data, intellectual property\nties as required. Some considerations that impact data, or proprietary data are properly handled during\n\n\n 154",
+          "score": 9.984187041239592,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0165",
+          "page": 165,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n DATA COLLECTION CHECKLIST\n\n\n • Have the frequency of collection and the points in the technical and technical management processes\n when data inputs will be available been determined?\n • Has the timeline that is required to move data from the point of origin to storage repositories or\n stakeholders been established?\n • Who is responsible for the input of the data?\n • Who is responsible for data storage, retrieval, and security?\n • Have necessary supporting tools been developed or acquired?\n\n\n\nsystems engineering activities. This injunction applies other ways to capture the formats used for the\nwhether the data are hard copy or digital. various data exchanges.\n\nAs part of overall asset protection planning, NASA • Delivered Technical Data: The data that were\nhas established special procedures for the protection delivered to the requester.\nof Critical Program Information (CPI). CPI may\ninclude components; engineering, design, or manu- Other work products generated as part of this process\nfacturing processes; technologies; system capabilities, include the strategy and procedures used for techni-\nand vulnerabilities; and any other information that cal data management, request dispositions, decisions,\ngives a system its distinctive operational capability. and assumptions.\n\nCPI protection should be a key consideration for the 6.6.2 Technical Data Management\ntechnical data management effort and is part of the Guidance\nasset protection planning process. Refer to Section 6.6.2 in the NASA Expanded\n Guidance for Systems Engineering at https://nen.nasa.\n6.6.1.3 Outputs gov/web/se/doc-repository for additional guidance on:\nOutputs include timely, secure availability of needed\ndata in various representations to those authorized • data security and\nto receive it. Major outputs from the Technical Data • ITAR.\nManagement Process include the following (see\nFIGURE 6.6-1): 6.7 Technical Assessment\n\n• Form of Technical Data Products: How each Technical assessment is the crosscutting process used\n type of data is held and stored such as textual, to help monitor technical progress of a program/proj-\n graphic, video, etc. ect through periodic technical reviews and through\n monitoring of technical indicators such as MOEs,\n• Technical Data Electronic Exchange Formats: MOPs, Key Performance Parameters (KPPs), and\n Description and perhaps templates, models or TPMs. The reviews and metrics also provide status\n\n\n\n 155",
+          "score": 9.5100962105558,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 6.914469029308433,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0153",
+          "page": 153,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n6.4.1.2.4 Prepare for Technical Risk Mitigation 6.4.1.3 Outputs\nThis includes selecting the risks that will be mitigated Following are key risk outputs from activities:\nand more closely monitored, identifying the risk level\nor threshold that will trigger a risk mitigation action • Technical Risk Mitigation and/or Contingency\nplan, and identifying for each risk which stakeholders Actions: Actions taken to mitigate identified risks\nwill need to be informed that a mitigation/contin- or contingency actions taken in case risks are\ngency action is determined as well as which organi- realized.\nzations will need to become involved to perform the\nmitigation/contingency action. • Technical Risk Reports: Reports of the techni-\n cal risk policies, status, remaining residual risks,\n6.4.1.2.5 Monitor the Status of Each Technical Risk actions taken, etc. Output at the agreed-to fre-\n Periodically quency and recipients.\nRisk status will need to be monitored periodically at\na frequency identified in the risk plan. Risks that are • Work Products: Includes the procedures for con-\napproaching the trigger thresholds will be monitored ducting technical risk management; rationale for\non a more frequent basis. Reports of the status are decisions made; selected decision alternatives;\nmade to the appropriate program/project manage- assumptions made in prioritizing, handling, and\nment or board for communication and for decisions reporting technical risks; and lessons learned.\nwhether to trigger a mitigation action early. Risk sta-\ntus will also be reported at most life cycle reviews. 6.4.2 Risk Management Process\n Guidance\n6.4.1.2.6 Implement Technical Risk Mitigation and For additional guidance on risk management, refer to\n Contingency Action Plans as Triggered NASA/SP-2010-576, NASA RIDM Handbook and NASA/\nWhen the applicable thresholds are triggered, the SP-2011-3422, NASA Risk Management Handbook.\ntechnical risk mitigation and contingency action\nplans are implemented. This includes monitoring the\nresults of the action plan implementation and mod- 6.5 Configuration Management\nifying them as necessary, continuing the mitigation Configuration management is a management disci-\nuntil the residual risk and/or consequence impacts pline applied over the product’s life cycle to provide\nare acceptable, and communicating the actions and visibility into and to control changes to perfor-\nresults to the identified stakeholders. Action plan mance and functional and physical characteristics.\nreports are prepared and results reported at appropri- Additionally, according to SAE Electronic Industries\nate boards and at life cycle reviews. Alliance (EIA) 649B, improper configuration man-\n agement may result in incorrect, ineffective, and/or\n6.4.1.2.7 Capture Work Products unsafe products being released. Therefore, in order to\nWork products include the strategy and procedures for protect and ensure the integrity of NASA products,\nconducting technical risk management; the rationale NASA has endorsed the implementation of the five\nfor decisions made; assumptions made in prioritizing, configuration management functions and the asso-\nhandling, and reporting technical risks and action ciated 37 underlying principles defined within SAE/\nplan effectiveness; actions taken to correct action plan EIA-649-2 Configuration Management Requirements\nimplementation anomalies; and lessons learned. for NASA Enterprises.\n\n\n\n 143",
+          "score": 19.481893255306293,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0166",
+          "page": 166,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.6-1 Technical Data Tasks\nDescription Tasks Expected Outcomes\nTechnical Collect and store inputs and technical effort outcomes from the technical and technical Sharable data needed to\ndata capture management processes, including: perform and control the\n • results from technical assessments; technical and technical\n management processes is\n • descriptions of methods, tools, and metrics used; collected and stored.\n • recommendations, decisions, assumptions, and impacts of technical efforts and Stored data inventory.\n decisions;\n • lessons learned;\n • deviations from plan;\n • anomalies and out-of-tolerances relative to requirements; and\n • other data for tracking requirements.\n Perform data integrity checks on collected data to ensure compliance with content and\n format as well as technical data checks to ensure there are no errors in specifying or\n recording the data.\n Report integrity check anomalies or variances to the authors or generators of the data for\n correction.\n Prioritize, review, and update data collection and storage procedures as part of regularly\n scheduled maintenance.\n\nTechnical Implement technical management roles and responsibilities with technical data products Records of technical data\ndata received. maintenance.\nmaintenance Manage database(s) to ensure that collected data have proper quality and integrity; and Technical effort data,\n are properly retained, secure, and available to those with access authority. including captured work\n Periodically review technical data management activities to ensure consistency and products, contractor-\n identify anomalies and variances. delivered documents,\n and acquirer-provided\n Review stored data to ensure completeness, integrity, validity, availability, accuracy, documents are controlled and\n currency, and traceability. maintained.\n Perform technical data maintenance, as required. Status of data stored is\n Identify and document significant issues, their impacts, and changes made to technical maintained to include: version\n data to correct issues and mitigate impacts. description, timeline, and\n Maintain, control, and prevent the stored data from being used inappropriately. security classification.\n\n Store data in a manner that enables easy and speedy retrieval.\n Maintain stored data in a manner that protects the technical data against foreseeable\n hazards, e.g., fire, flood, earthquake, etc.\n\nTechnical Maintain an information library or reference index to provide technical data availability and Access information (e.g.,\ndata/ access instructions. available data, access means,\ninformation Receive and evaluate requests to determine data requirements and delivery instructions. security procedures, time\ndistribution period for availability, and\n Process special requests for technical effort data or information according to established personnel cleared for access)\n procedures for handling such requests. is readily available.\n Ensure that required and requested data are appropriately distributed to satisfy the Technical data are provided\n needs of the acquirer and requesters in accordance with the agreement, program/project to authorize requesters in the\n directives, and technical data management plans and procedures. appropriate format, with the\n Ensure that electronic access rules are followed before database access is allowed or any appropriate content, and by\n requested data are electronically released/transferred to the requester. a secure mode of delivery, as\n Provide proof of correctness, reliability, and security of technical data provided to internal applicable.\n\n and external recipients.\n (continued)\n\n\n\n 156",
+          "image_path": "data/local/advanced/pages/p0166_2000.png",
+          "image_sha256": "ddf0fd6e0a44f879c4eaff632a555d9429a9ac1dbbd742581541de6c1cc1bfa5"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0166",
+          "page": 166,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.6-1 Technical Data Tasks\nDescription Tasks Expected Outcomes\nTechnical Collect and store inputs and technical effort outcomes from the technical and technical Sharable data needed to\ndata capture management processes, including: perform and control the\n • results from technical assessments; technical and technical\n management processes is\n • descriptions of methods, tools, and metrics used; collected and stored.\n • recommendations, decisions, assumptions, and impacts of technical efforts and Stored data inventory.\n decisions;\n • lessons learned;\n • deviations from plan;\n • anomalies and out-of-tolerances relative to requirements; and\n • other data for tracking requirements.\n Perform data integrity checks on collected data to ensure compliance with content and\n format as well as technical data checks to ensure there are no errors in specifying or\n recording the data.\n Report integrity check anomalies or variances to the authors or generators of the data for\n correction.\n Prioritize, review, and update data collection and storage procedures as part of regularly\n scheduled maintenance.\n\nTechnical Implement technical management roles and responsibilities with technical data products Records of technical data\ndata received. maintenance.\nmaintenance Manage database(s) to ensure that collected data have proper quality and integrity; and Technical effort data,\n are properly retained, secure, and available to those with access authority. including captured work\n Periodically review technical data management activities to ensure consistency and products, contractor-\n identify anomalies and variances. delivered documents,\n and acquirer-provided\n Review stored data to ensure completeness, integrity, validity, availability, accuracy, documents are controlled and\n currency, and traceability. maintained.\n Perform technical data maintenance, as required. Status of data stored is\n Identify and document significant issues, their impacts, and changes made to technical maintained to include: version\n data to correct issues and mitigate impacts. description, timeline, and\n Maintain, control, and prevent the stored data from being used inappropriately. security classification.\n\n Store data in a manner that enables easy and speedy retrieval.\n Maintain stored data in a manner that protects the technical data against foreseeable\n hazards, e.g., fire, flood, earthquake, etc.\n\nTechnical Maintain an information library or reference index to provide technical data availability and Access information (e.g.,\ndata/ access instructions. available data, access means,\ninformation Receive and evaluate requests to determine data requirements and delivery instructions. security procedures, time\ndistribution period for availability, and\n Process special requests for technical effort data or information according to established personnel cleared for access)\n procedures for handling such requests. is readily available.\n Ensure that required and requested data are appropriately distributed to satisfy the Technical data are provided\n needs of the acquirer and requesters in accordance with the agreement, program/project to authorize requesters in the\n directives, and technical data management plans and procedures. appropriate format, with the\n Ensure that electronic access rules are followed before database access is allowed or any appropriate content, and by\n requested data are electronically released/transferred to the requester. a secure mode of delivery, as\n Provide proof of correctness, reliability, and security of technical data provided to internal applicable.\n\n and external recipients.\n (continued)\n\n\n\n 156",
+          "image_sha256": "ddf0fd6e0a44f879c4eaff632a555d9429a9ac1dbbd742581541de6c1cc1bfa5"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "For “Technical data capture” in Table 6.6-1, integrity-check anomalies/variances are reported to the authors or generators of the data for correction.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0166",
+                "locator": "Table 6.6-1, “Technical data capture” row, Tasks",
+                "evidence": "Report integrity check anomalies or variances to the authors or generators of the data for correction."
+              }
+            ]
+          },
+          {
+            "text": "For “Technical data capture” in Table 6.6-1, the inventory output is “Stored data inventory.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0166",
+                "locator": "Table 6.6-1, “Technical data capture” row, Expected Outcomes",
+                "evidence": "Stored data inventory."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    166
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Table 6.6-1 under “Technical data capture,” integrity-check anomalies/variances are reported to “the authors or generators of the data” for the purpose of “correction.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0166",
+            "locator": "Table 6.6-1, Technical data capture row, Tasks column (sentence beginning “Report integrity check anomalies…”)",
+            "evidence": "Report integrity check anomalies or variances to the authors or generators of the data for correction."
+          }
+        ]
+      },
+      {
+        "text": "In Table 6.6-1 under “Technical data capture,” the inventory output is “Stored data inventory.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0166",
+            "locator": "Table 6.6-1, Technical data capture row, Expected Outcomes column",
+            "evidence": "Stored data inventory."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "For “Technical data capture” in Table 6.6-1, integrity-check anomalies/variances are reported to the authors or generators of the data for correction.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0166",
+          "locator": "Table 6.6-1, “Technical data capture” row, Tasks",
+          "evidence": "Report integrity check anomalies or variances to the authors or generators of the data for correction."
+        }
+      ]
+    },
+    {
+      "text": "For “Technical data capture” in Table 6.6-1, the inventory output is “Stored data inventory.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0166",
+          "locator": "Table 6.6-1, “Technical data capture” row, Expected Outcomes",
+          "evidence": "Stored data inventory."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 15956.03
+}

@@ -1,0 +1,176 @@
+{
+  "previous_question_ids": [
+    "ADV-DEV-01",
+    "ADV-DEV-02",
+    "ADV-DEV-03",
+    "ADV-DEV-04",
+    "ADV-DEV-05",
+    "ADV-DEV-06",
+    "ADV-DEV-07",
+    "ADV-DEV-08",
+    "ADV-DEV-09",
+    "ADV-DEV-10",
+    "ADV-DEV-11",
+    "ADV-DEV-12",
+    "ADV-DEV-13",
+    "ADV-DEV-14",
+    "ADV-DEV-15",
+    "ADV-DEV-16",
+    "ADV-DEV-17",
+    "ADV-DEV-18",
+    "ADV-TEST-01",
+    "ADV-TEST-02",
+    "ADV-TEST-03",
+    "ADV-TEST-04",
+    "ADV-TEST-05",
+    "ADV-TEST-06",
+    "ADV-TEST-07",
+    "ADV-TEST-08",
+    "ADV-TEST-09",
+    "ADV-TEST-10",
+    "ADV-TEST-11",
+    "ADV-TEST-12",
+    "ADV-TEST-13",
+    "ADV-TEST-14",
+    "ADV-TEST-15",
+    "ADV-TEST-16",
+    "ADV-TEST-17",
+    "ADV-TEST-18",
+    "ADV-TEST-19",
+    "ADV-TEST-20",
+    "ADV-TEST-21",
+    "ADV-TEST-22",
+    "ADV-TEST-23",
+    "ADV-TEST-24",
+    "ADV-TEST-25",
+    "ADV-TEST-26",
+    "ADV-TEST-27",
+    "ADV-TEST-28",
+    "ADV-TEST-29",
+    "ADV-TEST-30"
+  ],
+  "method": "Manual target-fact comparison against ALL prior dev and test questions; exact question intersection also checked.",
+  "cases": [
+    {
+      "id": "ADV2-TEST-01",
+      "reason": "New table and stakeholder row; old Phase F question asked purpose, not stakeholder membership."
+    },
+    {
+      "id": "ADV2-TEST-02",
+      "reason": "New Verification Report cells, not old verification method/validation-method questions."
+    },
+    {
+      "id": "ADV2-TEST-03",
+      "reason": "New team-discipline table and ordered row lookup."
+    },
+    {
+      "id": "ADV2-TEST-04",
+      "reason": "New facility table and spatial row/column alignment."
+    },
+    {
+      "id": "ADV2-TEST-05",
+      "reason": "New technical-data task table; does not repeat old metadata Rationale item."
+    },
+    {
+      "id": "ADV2-TEST-06",
+      "reason": "New technology-assessment gate table; different from old life-cycle review baselines."
+    },
+    {
+      "id": "ADV2-TEST-07",
+      "reason": "New grouping relationships in a different informative diagram."
+    },
+    {
+      "id": "ADV2-TEST-08",
+      "reason": "New integration-process edge; old dev predecessor question used a different requirements process."
+    },
+    {
+      "id": "ADV2-TEST-09",
+      "reason": "New transition output and recursive-loop relationship, not the old Lowest Level diamond."
+    },
+    {
+      "id": "ADV2-TEST-10",
+      "reason": "New interface-management output destinations, not old expectations-definition recipients."
+    },
+    {
+      "id": "ADV2-TEST-11",
+      "reason": "New change-control branching diagram, not old five-element CM figure or risk Yes branch."
+    },
+    {
+      "id": "ADV2-TEST-12",
+      "reason": "Old questions targeted expended-cost blocks and endpoint multipliers; committed-curve labels were not asked."
+    },
+    {
+      "id": "ADV2-TEST-13",
+      "reason": "Old dev asked only the two endpoints 3–6x and 500–1000x, not the middle value."
+    },
+    {
+      "id": "ADV2-TEST-14",
+      "reason": "Old axes question concerned Figure 4.4-3, with different quantities and units."
+    },
+    {
+      "id": "ADV2-TEST-15",
+      "reason": "Old chart test asked dashed lines/direction and axes; shading meaning is a new visual encoding."
+    },
+    {
+      "id": "ADV2-TEST-16",
+      "reason": "New risk-pattern comparison; old questions never asked the A/B/C concepts."
+    },
+    {
+      "id": "ADV2-TEST-17",
+      "reason": "Unused Owner row plus unused active-voice checklist; old questions asked Rationale, verification level, modals and WHAT/HOW."
+    },
+    {
+      "id": "ADV2-TEST-18",
+      "reason": "Different phase and TRL from earlier B/TRL6 and E/TRL9 pairs."
+    },
+    {
+      "id": "ADV2-TEST-19",
+      "reason": "Unused SEMP timing fact and unused Technical Planning mapping, not old Phase B commitment or Decision Analysis row."
+    },
+    {
+      "id": "ADV2-TEST-20",
+      "reason": "Unused Technical Risk mapping plus the other risk diamond/No branch; old test asked robust Yes branch only."
+    },
+    {
+      "id": "ADV2-TEST-21",
+      "reason": "Unused Need definition, different from old Goals measurability question."
+    },
+    {
+      "id": "ADV2-TEST-22",
+      "reason": "Unused positive-statement checklist item; old C.1 modalities and WHAT/HOW target different criteria."
+    },
+    {
+      "id": "ADV2-TEST-23",
+      "reason": "New conditional interface-change rule, not old CM elements or software pricing."
+    },
+    {
+      "id": "ADV2-TEST-24",
+      "reason": "New validation reference-document/timing facts, distinct from old most-resource-intensive Test method."
+    },
+    {
+      "id": "ADV2-TEST-25",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    },
+    {
+      "id": "ADV2-TEST-26",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    },
+    {
+      "id": "ADV2-TEST-27",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    },
+    {
+      "id": "ADV2-TEST-28",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    },
+    {
+      "id": "ADV2-TEST-29",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    },
+    {
+      "id": "ADV2-TEST-30",
+      "reason": "New missing fact/entity; not a rephrase of old absence questions."
+    }
+  ],
+  "limitations": "Same NASA document and two quantitative charts; source-page overlap permitted, answer targets differ. Not a new document generalization test."
+}

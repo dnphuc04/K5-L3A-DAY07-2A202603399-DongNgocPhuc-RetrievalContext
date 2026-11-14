@@ -1,0 +1,7 @@
+{
+  "name": "compact",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "top_k": 4,
+  "max_tools": 4,
+  "image_size": 1400
+}

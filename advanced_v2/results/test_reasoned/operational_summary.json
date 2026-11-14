@@ -1,0 +1,16 @@
+{
+  "N": 30,
+  "finished_at": "2026-11-14T10:03:01.321186+00:00",
+  "wall_seconds": 359.71942,
+  "latency_ms_sum": 709683.23,
+  "statuses": {
+    "answered": 25,
+    "abstain": 5,
+    "error": 0
+  },
+  "usage": {
+    "prompt_tokens": 1685685,
+    "completion_tokens": 30755,
+    "total_tokens": 1716440
+  }
+}

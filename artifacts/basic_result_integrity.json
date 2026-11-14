@@ -1,0 +1,24 @@
+{
+  "original_commit": "c0a294c42af6ae798ac97e242f0a539206a159b3",
+  "predictor_inputs_gold_and_raw_traces_byte_identical": {
+    "src/agent.py": true,
+    "src/model.py": true,
+    "src/retrieval.py": true,
+    "src/runtime.py": true,
+    "src/day6_adapter.py": true,
+    "benchmarks/dev.inputs.json": true,
+    "benchmarks/test.inputs.json": true,
+    "benchmarks/dev.gold.json": true,
+    "benchmarks/test.gold.json": true,
+    "results/agent_dev_v1/traces.json": true,
+    "results/agent_dev_dense_wide/traces.json": true,
+    "results/agent_dev_dense_wide_quotes/traces.json": true,
+    "results/agent_test_v1/traces.json": true
+  },
+  "review_labels_and_reasons_identical_excluding_reviewer_caption": {
+    "agent_dev_v1": true,
+    "agent_dev_dense_wide": true,
+    "agent_dev_dense_wide_quotes": true,
+    "agent_test_v1": true
+  }
+}

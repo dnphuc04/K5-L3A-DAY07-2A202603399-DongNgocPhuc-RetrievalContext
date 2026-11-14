@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "ADV2-TEST-01",
+    "question": "In Table 4.1-1, list all example stakeholders for Phase F.",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Customer; NASA Headquarters; operators; safety; planetary protection; public.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 57,
+        "printed_page": 47,
+        "bbox": [
+          0.09,
+          0.34,
+          0.91,
+          0.38
+        ],
+        "locator": "Table 4.1-1, Phase F row",
+        "fact": "All six stakeholder entries required",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New table and stakeholder row; old Phase F question asked purpose, not stakeholder membership."
+  },
+  {
+    "id": "ADV2-TEST-02",
+    "question": "In Table 5.3-1, what procedure copy must a Verification Report include, and what does its final entry require about test results and acceptability?",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Copy of the as-run procedure (may include redlines); authentication of test results and authorization of acceptability.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 104,
+        "printed_page": 94,
+        "bbox": [
+          0.5,
+          0.5,
+          0.91,
+          0.63
+        ],
+        "locator": "Table 5.3-1, Verification Report column, last two entries",
+        "fact": "As-run copy plus authentication/authorization",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New Verification Report cells, not old verification method/validation-method questions."
+  },
+  {
+    "id": "ADV2-TEST-03",
+    "question": "In Table 6.1-1, which two Instrument Subteam subsystem entries appear after Mechanism Drive Electronics and before Control Subsystem?",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Detector Subsystem and Optics Subsystem.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 128,
+        "printed_page": 118,
+        "bbox": [
+          0.09,
+          0.61,
+          0.91,
+          0.69
+        ],
+        "locator": "Table 6.1-1, Instrument Subteam, rows between Mechanism Drive Electronics and Control",
+        "fact": "Detector then Optics",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New team-discipline table and ordered row lookup."
+  },
+  {
+    "id": "ADV2-TEST-04",
+    "question": "In Table 6.1-2, which middle-column facility shares the row with Robotics Labs in the left column?",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Vacuum Chambers.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 130,
+        "printed_page": 120,
+        "bbox": [
+          0.09,
+          0.26,
+          0.91,
+          0.29
+        ],
+        "locator": "Table 6.1-2, Robotics Labs row, middle column",
+        "fact": "Vacuum Chambers",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New facility table and spatial row/column alignment."
+  },
+  {
+    "id": "ADV2-TEST-05",
+    "question": "In Table 6.6-1, for Technical data capture, to whom are integrity-check anomalies reported and for what purpose? Also name the inventory output.",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Report anomalies/variances to the authors or generators of the data for correction; Stored data inventory.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 166,
+        "printed_page": 156,
+        "bbox": [
+          0.09,
+          0.14,
+          0.91,
+          0.44
+        ],
+        "locator": "Table 6.6-1, Technical data capture, Tasks and Expected Outcomes",
+        "fact": "Authors/generators, correction, stored data inventory",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New technical-data task table; does not repeat old metadata Rationale item."
+  },
+  {
+    "id": "ADV2-TEST-06",
+    "question": "At KDP B in Table G.1-1, which two products are updated and in which plan are they incorporated?",
+    "primary_group": "table",
+    "answerable": true,
+    "expected": "Technology Development Plan and Technology Readiness Assessment (TRA), incorporated in the preliminary project plan.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 217,
+        "printed_page": 207,
+        "bbox": [
+          0.09,
+          0.24,
+          0.91,
+          0.29
+        ],
+        "locator": "Table G.1-1, KDP B row",
+        "fact": "Both updated products and preliminary project plan",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New technology-assessment gate table; different from old life-cycle review baselines."
+  },
+  {
+    "id": "ADV2-TEST-07",
+    "question": "In Figure 5.0-1, which two processes are grouped under Design Realization and which two under Evaluation Processes?",
+    "primary_group": "diagram",
+    "answerable": true,
+    "expected": "Design Realization: Product Implementation and Product Integration. Evaluation: Product Verification and Product Validation.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 88,
+        "printed_page": 78,
+        "bbox": [
+          0.14,
+          0.11,
+          0.71,
+          0.29
+        ],
+        "locator": "Figure 5.0-1, Design Realization and Evaluation columns",
+        "fact": "Four processes in their correct groups",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New grouping relationships in a different informative diagram."
+  },
+  {
+    "id": "ADV2-TEST-08",
+    "question": "In Figure 5.2-1, what central activity follows Confirm that received products have been validated and precedes Assemble and integrate the received products?",
+    "primary_group": "diagram",
+    "answerable": true,
+    "expected": "Prepare the integration environment for assembly and integration.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 96,
+        "printed_page": 86,
+        "bbox": [
+          0.36,
+          0.22,
+          0.63,
+          0.39
+        ],
+        "locator": "Figure 5.2-1, middle three yellow blocks",
+        "fact": "Preparation of integration environment between named nodes",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New integration-process edge; old dev predecessor question used a different requirements process."
+  },
+  {
+    "id": "ADV2-TEST-09",
+    "question": "In Figure 5.5-1, to which two destinations can Delivered End Product With Applicable Documentation go, and which route is marked recursive?",
+    "primary_group": "diagram",
+    "answerable": true,
+    "expected": "To the end user or to Product Integration Process; the Product Integration route is the recursive loop.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 117,
+        "printed_page": 107,
+        "bbox": [
+          0.65,
+          0.12,
+          0.82,
+          0.23
+        ],
+        "locator": "Figure 5.5-1, top-right output and recipient note",
+        "fact": "End user or Product Integration Process (recursive loop)",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New transition output and recursive-loop relationship, not the old Lowest Level diamond."
+  },
+  {
+    "id": "ADV2-TEST-10",
+    "question": "In Figure 6.3-1, which outputs go to Configuration Management and which output goes to Technical Data Management?",
+    "primary_group": "diagram",
+    "answerable": true,
+    "expected": "Interface Control Documents and Approved Interface Requirement Changes go to Configuration Management. Interface Management Work Products go to Technical Data Management.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 146,
+        "printed_page": 136,
+        "bbox": [
+          0.65,
+          0.13,
+          0.84,
+          0.38
+        ],
+        "locator": "Figure 6.3-1, three right-hand outputs and recipient labels",
+        "fact": "Two CM outputs, one TDM output",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New interface-management output destinations, not old expectations-definition recipients."
+  },
+  {
+    "id": "ADV2-TEST-11",
+    "question": "In Figure 6.5-4, identify both branches immediately after CCB step 7: their step labels, responsible lanes, and activities.",
+    "primary_group": "diagram",
+    "answerable": true,
+    "expected": "8a in Actionees: Complete assigned actions. 8b in CM Function: Release CCB minutes and Track actions.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 158,
+        "printed_page": 148,
+        "bbox": [
+          0.23,
+          0.43,
+          0.91,
+          0.75
+        ],
+        "locator": "Figure 6.5-4, outgoing step 7 arrows to 8a and 8b; lane headings above",
+        "fact": "8a Actionees; 8b CM Function",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New change-control branching diagram, not old five-element CM figure or risk Yes branch."
+  },
+  {
+    "id": "ADV2-TEST-12",
+    "question": "In Figure 2.5-1, what three intermediate percentages are explicitly labelled along the Committed Life Cycle Costs curve before it reaches 100%?",
+    "primary_group": "chart",
+    "answerable": true,
+    "expected": "45%, 75%, 90%.",
+    "units_calculation": "percent; no calculation",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.22,
+          0.09,
+          0.71,
+          0.25
+        ],
+        "locator": "Figure 2.5-1, upper committed-cost curve, three intermediate percentage labels",
+        "fact": "45,75,90 percent",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Old questions targeted expended-cost blocks and endpoint multipliers; committed-curve labels were not asked."
+  },
+  {
+    "id": "ADV2-TEST-13",
+    "question": "In Figure 2.5-1, what multiplier range is labelled in the middle of the Cost to Change Design Direction arrow, between its early and late labels?",
+    "primary_group": "chart",
+    "answerable": true,
+    "expected": "20–100x.",
+    "units_calculation": "dimensionless multiplier",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.42,
+          0.18,
+          0.53,
+          0.24
+        ],
+        "locator": "Figure 2.5-1, middle teal-arrow multiplier label",
+        "fact": "20–100x",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Old dev asked only the two endpoints 3–6x and 500–1000x, not the middle value."
+  },
+  {
+    "id": "ADV2-TEST-14",
+    "question": "In Figure 2.5-1, what does the horizontal axis represent and how is the vertical axis labelled?",
+    "primary_group": "chart",
+    "answerable": true,
+    "expected": "Horizontal: Time. Vertical: Cumulative Percentage Life Cycle Cost against Time.",
+    "units_calculation": "time axis not numerically scaled; vertical percentage",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.14,
+          0.08,
+          0.82,
+          0.45
+        ],
+        "locator": "Figure 2.5-1, axis labels",
+        "fact": "Time; cumulative percentage life-cycle cost against time",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Old axes question concerned Figure 4.4-3, with different quantities and units."
+  },
+  {
+    "id": "ADV2-TEST-15",
+    "question": "In Figure 4.4-3, what do the differently shaded areas represent?",
+    "primary_group": "chart",
+    "answerable": true,
+    "expected": "Different levels of uncertainty.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 81,
+        "printed_page": 71,
+        "bbox": [
+          0.09,
+          0.09,
+          0.49,
+          0.5
+        ],
+        "locator": "Figure 4.4-3, shaded ellipses and Note",
+        "fact": "Shaded areas indicate different uncertainty levels",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Old chart test asked dashed lines/direction and axes; shading meaning is a new visual encoding."
+  },
+  {
+    "id": "ADV2-TEST-16",
+    "question": "Using Figure 4.4-3 and its explanation, contrast concept B with concept C in terms of risk of an expensive failure and the cost/effectiveness location shown for C.",
+    "primary_group": "chart",
+    "answerable": true,
+    "expected": "B has little risk in effectiveness or cost. C has high risk of expensive failure, shown by probability near the x axis at high cost and essentially no effectiveness.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 81,
+        "printed_page": 71,
+        "bbox": [
+          0.09,
+          0.09,
+          0.49,
+          0.9
+        ],
+        "locator": "Figure 4.4-3, B and C annotations, probability cloud and lower-left explanatory paragraph",
+        "fact": "B low risk; C expensive failure, high cost near zero effectiveness",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New risk-pattern comparison; old questions never asked the A/B/C concepts."
+  },
+  {
+    "id": "ADV2-TEST-17",
+    "question": "Combine Table 4.2-2 and Appendix C.2: which metadata item records who writes/manages/approves requirement changes, and what grammatical voice should a personnel requirement use?",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "expected": "Owner is the person/group responsible for writing, managing and/or approving changes. Use active voice, identifying the responsible party who shall perform the action.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 69,
+        "printed_page": 59,
+        "bbox": [
+          0.09,
+          0.69,
+          0.91,
+          0.74
+        ],
+        "locator": "Table 4.2-2, Owner row",
+        "fact": "Responsible person/group for writing/managing/approving changes",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      },
+      {
+        "page": 207,
+        "printed_page": 197,
+        "bbox": [
+          0.09,
+          0.44,
+          0.49,
+          0.58
+        ],
+        "locator": "C.2 Editorial Checklist, Personnel Requirement",
+        "fact": "Active voice; responsible party shall perform",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Unused Owner row plus unused active-voice checklist; old questions asked Rationale, verification level, modals and WHAT/HOW."
+  },
+  {
+    "id": "ADV2-TEST-18",
+    "question": "Combine Table 2.2-1 and Figure G.4-1: give the full name of Phase A and the formulation criterion at TRL 2.",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "expected": "Phase A: Concept and Technology Development. TRL 2: Technology concept and/or application formulated.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.09,
+          0.24,
+          0.91,
+          0.34
+        ],
+        "locator": "Table 2.2-1, Phase A name",
+        "fact": "Concept and Technology Development",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      },
+      {
+        "page": 221,
+        "printed_page": 211,
+        "bbox": [
+          0.27,
+          0.5,
+          0.68,
+          0.57
+        ],
+        "locator": "Figure G.4-1, TRL 2 label",
+        "fact": "Technology concept/application formulated",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Different phase and TRL from earlier B/TRL6 and E/TRL9 pairs."
+  },
+  {
+    "id": "ADV2-TEST-19",
+    "question": "Using Section 3.4 and Table 2.1-1, in which phase is the SEMP baselined, and list all AS9100 requirements mapped to Technical Planning.",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "expected": "SEMP is baselined in Phase A. Technical Planning maps to Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 35,
+        "printed_page": 25,
+        "bbox": [
+          0.09,
+          0.32,
+          0.49,
+          0.56
+        ],
+        "locator": "Section 3.4 continuation, SEMP paragraph",
+        "fact": "SEMP baselined in Phase A",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      },
+      {
+        "page": 17,
+        "printed_page": 7,
+        "bbox": [
+          0.09,
+          0.68,
+          0.91,
+          0.73
+        ],
+        "locator": "Table 2.1-1, Technical Planning row",
+        "fact": "All three AS9100 mappings",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Unused SEMP timing fact and unused Technical Planning mapping, not old Phase B commitment or Decision Analysis row."
+  },
+  {
+    "id": "ADV2-TEST-20",
+    "question": "Combine Table 2.1-1 with Figure 6.8-2: what AS9100 requirement maps to Technical Risk Management, and where does the No branch of Net beneficial to reduce uncertainty? lead before deliberation?",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "expected": "AS9100 Risk Management. The No branch leads to Risk & Performance Measurement Results, which then feed Deliberation and Recommending a Decision Alternative.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 7,
+        "bbox": [
+          0.09,
+          0.76,
+          0.91,
+          0.8
+        ],
+        "locator": "Table 2.1-1, Technical Risk Management row",
+        "fact": "Risk Management",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      },
+      {
+        "page": 176,
+        "printed_page": 166,
+        "bbox": [
+          0.65,
+          0.15,
+          0.91,
+          0.4
+        ],
+        "locator": "Figure 6.8-2, lower uncertainty diamond, No arrow and results box",
+        "fact": "No -> Risk & Performance Measurement Results -> Deliberation",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Unused Technical Risk mapping plus the other risk diamond/No branch; old test asked robust Yes branch only."
+  },
+  {
+    "id": "ADV2-TEST-21",
+    "question": "In the Section 4.1 discussion of Needs, Goals, and Objectives, how many needs should a need statement express, and should it identify the problem or the solution?",
+    "primary_group": "text",
+    "answerable": true,
+    "expected": "A single need; the statement should relate to the problem to be solved, not the solution.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 59,
+        "printed_page": 49,
+        "bbox": [
+          0.09,
+          0.74,
+          0.49,
+          0.91
+        ],
+        "locator": "Need definition bullet, lower-left column",
+        "fact": "Single/singular need; problem not solution",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Unused Need definition, different from old Goals measurability question."
+  },
+  {
+    "id": "ADV2-TEST-22",
+    "question": "According to Appendix C.3, should a requirement be stated positively or negatively, and what example of negative phrasing is given?",
+    "primary_group": "text",
+    "answerable": true,
+    "expected": "Positively; the negative example is shall not.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 207,
+        "printed_page": 197,
+        "bbox": [
+          0.51,
+          0.78,
+          0.91,
+          0.85
+        ],
+        "locator": "C.3 General Goodness Checklist, positive statement checkbox",
+        "fact": "Positively, as opposed to shall not",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "Unused positive-statement checklist item; old C.1 modalities and WHAT/HOW target different criteria."
+  },
+  {
+    "id": "ADV2-TEST-23",
+    "question": "In Types of Configuration Management Changes, who must coordinate and approve a change affecting an external interface?",
+    "primary_group": "text",
+    "answerable": true,
+    "expected": "All stakeholders affected must coordinate and approve it.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 159,
+        "printed_page": 149,
+        "bbox": [
+          0.09,
+          0.17,
+          0.91,
+          0.24
+        ],
+        "locator": "Types of Configuration Management Changes, Engineering Change paragraph",
+        "fact": "All stakeholders affected",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New conditional interface-change rule, not old CM elements or software pricing."
+  },
+  {
+    "id": "ADV2-TEST-24",
+    "question": "According to Section 2.4, which document does validation relate back to, and is validation limited to delivery of end products?",
+    "primary_group": "text",
+    "answerable": true,
+    "expected": "The ConOps document. No: validation can be performed in each development phase using phase products such as models, not only at delivery using end products.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "page": 21,
+        "printed_page": 11,
+        "bbox": [
+          0.09,
+          0.71,
+          0.49,
+          0.87
+        ],
+        "locator": "Section 2.4, final left-column validation paragraph",
+        "fact": "ConOps; each development phase with phase products",
+        "source_check": "Original NASA PDF render read directly, with native text used only as supporting access"
+      }
+    ],
+    "independence_note": "New validation reference-document/timing facts, distinct from old most-resource-intensive Test method."
+  },
+  {
+    "id": "ADV2-TEST-25",
+    "question": "What universal minimum number of configuration audits per year does this handbook mandate for every NASA project?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "6.5 Configuration Management",
+          "terms": [
+            "configuration audits",
+            "per year"
+          ],
+          "term_hits": {
+            "configuration audits": [
+              26,
+              41,
+              155,
+              160,
+              196
+            ],
+            "per year": []
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  },
+  {
+    "id": "ADV2-TEST-26",
+    "question": "What fixed maximum interface response latency in milliseconds is prescribed for every system in this handbook?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "6.3 Interface Management",
+          "terms": [
+            "latency",
+            "milliseconds",
+            "interface"
+          ],
+          "term_hits": {
+            "latency": [
+              209
+            ],
+            "milliseconds": [],
+            "interface": [
+              4,
+              5,
+              14,
+              15,
+              16,
+              17,
+              19,
+              25,
+              29,
+              30,
+              34,
+              36,
+              37,
+              38,
+              39,
+              54,
+              56,
+              58,
+              64,
+              65,
+              66,
+              67,
+              71,
+              73,
+              74,
+              76,
+              79,
+              85,
+              87,
+              88,
+              91,
+              94,
+              95,
+              97,
+              98,
+              99,
+              102,
+              105,
+              106,
+              111,
+              123,
+              124,
+              128,
+              129,
+              137,
+              138,
+              140,
+              143,
+              145,
+              146,
+              147,
+              148,
+              154,
+              155,
+              156,
+              159,
+              163,
+              168,
+              171,
+              183,
+              184,
+              186,
+              187,
+              192,
+              193,
+              194,
+              197,
+              203,
+              209,
+              224,
+              230,
+              232,
+              233,
+              236,
+              237,
+              241,
+              242,
+              246,
+              247,
+              248,
+              249,
+              258,
+              260,
+              262,
+              266,
+              268,
+              275,
+              278,
+              291,
+              296
+            ]
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  },
+  {
+    "id": "ADV2-TEST-27",
+    "question": "Which single vendor of requirements-management software does this handbook require every NASA project to buy?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "6.2 Requirements Management",
+          "terms": [
+            "vendor",
+            "requirements management",
+            "software"
+          ],
+          "term_hits": {
+            "vendor": [
+              24,
+              89,
+              90,
+              91,
+              92,
+              93
+            ],
+            "requirements management": [
+              4,
+              5,
+              15,
+              17,
+              25,
+              62,
+              68,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              148,
+              168,
+              200,
+              268
+            ],
+            "software": [
+              11,
+              13,
+              19,
+              20,
+              22,
+              23,
+              27,
+              34,
+              35,
+              37,
+              38,
+              39,
+              40,
+              41,
+              44,
+              46,
+              50,
+              63,
+              65,
+              69,
+              71,
+              73,
+              75,
+              80,
+              85,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              98,
+              100,
+              102,
+              104,
+              105,
+              106,
+              112,
+              113,
+              116,
+              117,
+              121,
+              128,
+              129,
+              130,
+              131,
+              134,
+              137,
+              159,
+              160,
+              161,
+              163,
+              172,
+              173,
+              185,
+              187,
+              188,
+              191,
+              192,
+              195,
+              196,
+              197,
+              201,
+              202,
+              205,
+              206,
+              207,
+              209,
+              210,
+              217,
+              218,
+              221,
+              223,
+              225,
+              226,
+              241,
+              245,
+              247,
+              254,
+              256,
+              264,
+              266,
+              268,
+              270,
+              272,
+              273,
+              274,
+              275,
+              277,
+              278,
+              279,
+              280,
+              281,
+              284,
+              285,
+              286,
+              287,
+              288,
+              289,
+              290,
+              291,
+              292,
+              293,
+              295
+            ]
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  },
+  {
+    "id": "ADV2-TEST-28",
+    "question": "What exact mass of returned samples in grams must every Phase F closeout analyze?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "3.9 Phase F",
+          "terms": [
+            "samples",
+            "grams",
+            "Phase F"
+          ],
+          "term_hits": {
+            "samples": [
+              19,
+              41,
+              43
+            ],
+            "grams": [
+              11,
+              12,
+              19,
+              29,
+              30,
+              31,
+              32,
+              41,
+              44,
+              45,
+              51,
+              72,
+              74,
+              95,
+              104,
+              111,
+              124,
+              145,
+              152,
+              159,
+              161,
+              164,
+              167,
+              170,
+              171,
+              180,
+              189,
+              190,
+              194,
+              201,
+              202,
+              205,
+              215,
+              216,
+              220,
+              237,
+              273,
+              275,
+              284,
+              287,
+              289,
+              292,
+              293,
+              294
+            ],
+            "Phase F": [
+              3,
+              7,
+              18,
+              19,
+              27,
+              28,
+              29,
+              41,
+              43,
+              57,
+              126,
+              204,
+              234,
+              260,
+              272
+            ]
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  },
+  {
+    "id": "ADV2-TEST-29",
+    "question": "What universal fixed number of thermal-vacuum cycles is required for verification of every product?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "5.3 Product Verification",
+          "terms": [
+            "thermal",
+            "vacuum",
+            "cycles"
+          ],
+          "term_hits": {
+            "thermal": [
+              66,
+              85,
+              94,
+              127,
+              128,
+              130,
+              134,
+              223,
+              228,
+              229,
+              247
+            ],
+            "vacuum": [
+              130
+            ],
+            "cycles": [
+              8,
+              19,
+              28,
+              95,
+              167,
+              193
+            ]
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  },
+  {
+    "id": "ADV2-TEST-30",
+    "question": "What mandatory maximum number of design alternatives may every trade study evaluate?",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "expected": "Abstain without inventing a universal mandate/value/vendor.",
+    "units_calculation": "none",
+    "evidence": [
+      {
+        "absence_check": {
+          "related_section": "4.4 Design Solution Definition and 6.8 Decision Analysis",
+          "terms": [
+            "alternatives",
+            "maximum",
+            "trade study"
+          ],
+          "term_hits": {
+            "alternatives": [
+              5,
+              19,
+              21,
+              26,
+              31,
+              32,
+              33,
+              35,
+              77,
+              78,
+              79,
+              80,
+              152,
+              153,
+              170,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              186,
+              189,
+              200,
+              205
+            ],
+            "maximum": [
+              66,
+              134,
+              228,
+              229
+            ],
+            "trade study": [
+              19,
+              21,
+              70,
+              79,
+              80,
+              101,
+              205,
+              233,
+              240
+            ]
+          },
+          "method": "Whole-corpus phrase scan and direct review of relevant source guidance; related examples/qualitative statements do not establish requested universal rule."
+        }
+      }
+    ],
+    "independence_note": "New missing fact/entity; not a rephrase of old absence questions."
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "id": "ADV2-DEV-21",
+  "split": "dev",
+  "question": "In Methods of Verification, distinguish Demonstration from Test in terms of data gathering and conditions.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4gM1NtPNeraWRtqdldxyJCx123w",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 565,
+        "completion_tokens": 15,
+        "total_tokens": 580,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1235.68,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9PLYJXzMSwdgyPaSkjRi39J8",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Methods of Verification Demonstration vs Test data gathering and conditions\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gNsewdCSZzARTdKha6wdEELHc1",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5287,
+        "completion_tokens": 26,
+        "total_tokens": 5313,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1202.38,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_S1RKLPA6pYcnUSZ0sL5TBKSp",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0103\",\"NASA-SE:p0190\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gRzcanJIgKeWkLY5Y69x1UzJCz",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 8381,
+        "completion_tokens": 572,
+        "total_tokens": 8953,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5589.84,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Zv9aGELVCR1FiC9b0Jyrwsne",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Demonstration is a method of verification that shows the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups and may be performed as a one-time event by highly qualified personnel, but do not involve collecting detailed data under controlled conditions.\",\"citations\":[{\"source_id\":\"NASA-SE:p0103\",\"locator\":\"METHODS OF VERIFICATION - Demonstration\",\"evidence\":\"Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example, a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance, an operation not normally expected from a representative operational pilot.\"},{\"source_id\":\"NASA-SE:p0190\",\"locator\":\"Demonstration (Glossary)\",\"evidence\":\"Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example, a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance.\"}]},{\"text\":\"Test is a method of verification that uses an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique.\",\"citations\":[{\"source_id\":\"NASA-SE:p0103\",\"locator\":\"METHODS OF VERIFICATION - Test\",\"evidence\":\"Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing can be conducted on final end products, breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4gX3BCkTi7KnvM2CiBlO25ALUE5",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 3862,
+        "completion_tokens": 360,
+        "total_tokens": 4222,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4834.81,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Ap3AtrN0JHtYNogno8Q04Sju",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Demonstration is a verification method that confirms performance capability by showing that the end product achieves the specified requirement, but it is differentiated from testing by the lack of detailed data gathering and is not performed under controlled conditions for data collection.\",\"citations\":[{\"source_id\":\"NASA-SE:p0103\",\"locator\":\"METHODS OF VERIFICATION - Demonstration\",\"evidence\":\"Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups... A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance.\"},{\"source_id\":\"NASA-SE:p0190\",\"locator\":\"Demonstration (Glossary)\",\"evidence\":\"Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering.\"}]},{\"text\":\"Test is a verification method that uses the end product to obtain detailed data needed to verify performance, producing data at discrete points for each specified requirement under controlled conditions.\",\"citations\":[{\"source_id\":\"NASA-SE:p0103\",\"locator\":\"METHODS OF VERIFICATION - Test\",\"evidence\":\"Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Methods of Verification, distinguish Demonstration from Test in terms of data gathering and conditions.",
+      "results": [
+        {
+          "id": "NASA-SE:p0103",
+          "page": 103,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n METHODS OF VERIFICATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of a\n model. Analysis can include verification by similarity of a heritage product.\n\n\n Demonstration: Showing that the use of an end product achieves the individual specified requirement.\n It is generally a basic confirmation of performance capability, differentiated from testing by the lack of\n detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example,\n a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform\n flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation\n of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that\n demonstrates a capability to operate at extreme limits of system performance, an operation not normally\n expected from a representative operational pilot.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to verify physical\n design features or specific manufacturer identification. For example, if there is a requirement that the safety\n arming pin has a red flag with the words “Remove Before Flight” stenciled on the flag in black letters, a\n visual inspection of the arming pin flag can be used to determine if this requirement was met. Inspection can\n include inspection of drawings, documents, or other records.\n\n\n Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient\n information to verify performance through further analysis. Testing can be conducted on final end products,\n breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified\n requirement under controlled conditions and is the most resource-intensive verification technique. As the\n saying goes, “Test as you fly, and fly as you test.” (See Section 5.3.2.5 in the NASA Expanded Guidance for\n Systems Engineering at https://nen.nasa.gov/web/se/doc-repository)\n\n\n\nOutcomes of verification preparation include the • Articles/models to be verified and verification-en-\nfollowing: abling products are on hand, assembled, and\n integrated with the verification environment\n• The verification plan, approved procedures, and according to verification plans and schedules;\n an appropriate baseline set of specified require-\n ments and supporting configuration documenta- • The resources (funding, facilities, and people\n tion is available and on hand; including appropriately skilled operators) needed\n\n\n\n 93",
+          "score": 18.589863269734536,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0111",
+          "page": 111,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n• To ensure the human has been properly integrated • To ensure that any problems discovered are\n into the system: appropriately resolved prior to delivery of the end\n product (if validation is done by the supplier of\n » The user interface meets human engineering the product) or prior to integration with other\n criteria. products into a higher level assembled product (if\n » Operators and maintainers have the required validation is done by the receiver of the product).\n skills and abilities.\n » Instructions are provided and training pro- 5.4.1.2.1 Product Validation Preparation\n grams are in place. To prepare for performing product validation, the\n » The working environment supports crew appropriate set of expectations, including MOEs and\n health and safety. MOPs, against which the validation is to be made\n\n\n\n METHODS OF VALIDATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of\n a model.\n\n\n Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined\n in the NGOs and the ConOps. It is generally a basic confirmation of behavioral capability, differentiated\n from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models\n or mock-ups; for example, an expectation that controls are readable by the pilot in low light conditions\n could be validated by having a pilot perform flight-related tasks in a cockpit mock-up or simulator under\n those conditions.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to validate the\n presence of a physical design features or specific manufacturer identification. For example, if there is an\n expectation that the safety arming pin has a red flag with the words “Remove Before Flight” stenciled on the\n flag in black letters, a visual inspection of the arming pin flag can be used to determine if this expectation\n has been met.\n\n\n Test: The use of an end product to obtain detailed data needed to determine a behavior, or provide\n sufficient information to determine a behavior through further analysis. Testing can be conducted on\n final end products, breadboards, brassboards, or prototypes. Testing produces information at discrete\n points for each specified expectation under controlled conditions and is the most resource-intensive\n validation technique.\n\n\n\n\n 101",
+          "score": 16.090513749544776,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0136",
+          "page": 136,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\ndevelopment of lower-end through higher-end prod- Procedures should be prepared to conduct valida-\nucts in the system structure and through operational tion based on the method planned; e.g., analysis,\nT&E into production and acceptance. It may com- inspection, demonstration, or test). These proce-\nbine the verification and validation plans into a single dures are typically developed during the design phase\ndocument. (See Appendix I for a sample Verification of the project life cycle and matured as the design\nand Validation Plan outline.) is matured. Operational and use-case scenarios are\n thought through in order to explore all possible vali-\nThe methods of validation include test, demonstra- dation activities to be performed.\ntion, inspection, and analysis. While the name of\neach method is the same as the name of the methods Validation is conducted by the user/operator or by\nfor verification, the purpose and intent as described the developer as determined by NASA Center direc-\nabove are quite different. tives or the contract with the developers. Systems-\n level validation (e.g., customer Test and Evaluation\nPlanning to conduct the product validation is a key (T&E) and some other types of validation) may be\nfirst step. The method of validation to be used (e.g., performed by an acquirer testing organization. For\nanalysis, demonstration, inspection, or test) should those portions of validation performed by the devel-\nbe established based on the form of the realized end oper, appropriate agreements should be negotiated\nproduct, the applicable life cycle phase, cost, sched- to ensure that validation proof-of-documentation is\nule, resources available, and location of the system delivered with the product.\nproduct within the system structure.\n Regardless of the source (buy, make, reuse, assemble\nAn established set or subset of expectations or behav- and integrate) and the position in the system struc-\niors to be validated should be identified and the val- ture, all realized end products should be validated\nidation plan reviewed (an output of the Technical to demonstrate/confirm satisfaction of stakeholder\nPlanning Process, based on design solution outputs) expectations. Variations, anomalies, and out-of-com-\nfor any specific procedures, constraints, success cri- pliance conditions, where such have been detected,\nteria, or other validation requirements. The condi- are documented along with the actions taken to\ntions and environment under which the product is resolve the discrepancies. Validation is typically car-\nto be validated should be established and the vali- ried out in the intended operational environment or\ndation should be planned based on the relevant life a relevant environment under simulated or actual\ncycle phase and associated success criteria identified. operational conditions, not necessarily under the\nThe Decision Analysis Process should be used to help tightly controlled conditions usually employed for\nfinalize the planning details. the Product Verification Process.\n\nIt is important to review the validation plans with rel- Validation of phase products can be performed recur-\nevant stakeholders and to understand the relationship sively throughout the project life cycle and on a wide\nbetween the context of the validation and the con- variety of product forms. For example:\ntext of use (human involvement). As part of the plan-\nning process, validation-enabling products should be • simulated (algorithmic models, virtual reality\nidentified and scheduling and/or acquisition should simulator);\nbe initiated. • mock-up (plywood, brassboard, breadboard);\n\n\n\n 126",
+          "score": 13.58329014171948,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0102",
+          "page": 102,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n verification activities. Other risk assessments of the project life cycle and matures as the design is\n contribute to trade studies that determine matured. The verification environment is considered as\n the preferred methods of verification to be part of procedure development. Operational scenarios\n used and when those methods should be are assessed to explore all possible verification activities\n performed. For example, a trade might be to be performed. The final element is preparation of the\n made between performing a model test versus verification environment; e.g., facilities, equipment,\n determining model characteristics by a less tools, measuring devices, and climatic conditions.\n costly but less revealing analysis. The project\n manager/systems engineer should determine When operator or other user interaction is involved,\n what risks are acceptable in terms of the proj- it is important to ensure that humans are properly\n ect’s cost and schedule. represented in the verification activities. This includes\n physical size, skills, knowledge, training, clothing,\n• Availability of verification facilities/sites and special gear, and tools. Note: Testing that includes\n transportation assets to move an article from one representatives of the human in the system is often\n location to another (when needed). This requires referred to as “human-in-the-loop” testing.\n coordination with the Integrated Logistics\n Support (ILS) engineer.\n NOTE: Depending on the nature of the verifica-\n• Availability of appropriately trained users for tion effort and the life cycle phase the program is in,\n interaction with systems having human interfaces. some type of review to assess readiness for verifi-\n cation (as well as validation later) is typically held. In\n• Acquisition strategy; i.e., in-house development or earlier phases of the life cycle, these Test Readiness\n system contract. A NASA field Center can often Reviews (TRRs) may be held informally; in later\n shape a contractor’s verification process through phases of the life cycle, this review may become a\n the project’s SOW. more formal event. TRRs and other technical reviews\n are an activity of the Technical Assessment Process.\n• Degree of design heritage and hardware/software reuse. On most projects, a number of TRRs with tailored\n entrance/success criteria are held to assess the\n5.3.1.2.1 Product Verification Preparation readiness and availability of test ranges, test facili-\nIn preparation for verification, the verification ties, trained testers, instrumentation, integration labs,\nplan and the specified requirements are collected, support equipment, and other enabling products.\nreviewed, and confirmed. The product to be verified Peer reviews are additional reviews that may be\nis obtained (output from the Product Implementation conducted formally or informally to ensure readiness\nProcess or the Product Integration Process) along for verification (as well as the results of the verifi-\nwith any enabling products, such as those repre- cation process). Guidelines for conducting a peer\nsenting external interfacing products and support review are discussed in Section 6.7.2.4.5.\nresources (including personnel) that are necessary for\nverification. Procedures capturing detailed step-by-\nstep activities and based on the verification type and TABLE 5.3-1 provides an example of the type of infor-\nmethods are finalized and approved. Development of mation that may be included in a verification proce-\nprocedures typically begins during the design phase dure and a verification report.\n\n\n\n 92",
+          "score": 12.188666850490387,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0190",
+          "page": 190,
+          "text": " Appendix B: Glossary\n\n\n\n\n\ndocuments, management data plans, and metrics descope,” it indicates the process or the result of the\nreports, that have been identified as items to be deliv- process of narrowing the scope; i.e., removing part of\nered with an end product. the original scope.\n\n\nDemonstration: Showing that the use of an end Design Solution Definition Process: The process used\nproduct achieves the individual specified requirement to translate the outputs of the logical decomposition\n(verification) or stakeholder expectation (validation). process into a design solution definition. It includes\nIt is generally a basic confirmation of performance transforming the defined logical decomposition\ncapability, differentiated from testing by the lack of models and their associated sets of derived technical\ndetailed data gathering. Demonstrations can involve requirements into alternative solutions and analyzing\nthe use of physical models or mock-ups; for example, each alternative to be able to select a preferred alterna-\na requirement that all controls shall be reachable by tive and fully define that alternative into a final design\nthe pilot could be verified by having a pilot perform solution that will satisfy the technical requirements.\nflight-related tasks in a cockpit mock-up or simulator.\nA demonstration could also be the actual operation Designated Governing Authority: For the technical\nof the end product by highly qualified personnel, effort, this is the Center Director or the person that\nsuch as test pilots, who perform a one-time event that has been designated by the Center Director to ensure\ndemonstrates a capability to operate at extreme limits the appropriate level of technical management over-\nof system performance. sight. For large programs, this will typically be the\n Engineering Technical Authority. For smaller proj-\nDerived Requirements: Requirements arising from ects, this function can be delegated to line managers.\nconstraints, consideration of issues implied but not\nexplicitly stated in the high-level direction provided Detection: Determination that system state or behav-\nby NASA Headquarters and Center institutional ior is different from expected performance.\nrequirements, factors introduced by the selected\narchitecture, and the design. These requirements are Diagnosis: Determining the possible locations and/\nfinalized through requirements analysis as part of or causes of an anomaly or a failure.\nthe overall systems engineering process and become\npart of the program or project requirements baseline. Discrepancy: Any observed variance from, lack of\nRequirements arising from constraints, consideration agreement with, or contradiction to the required or\nof issues implied but not explicitly stated in the high- expected outcome, configuration, or result.\nlevel direction provided by NASA Headquarters and\nCenter institutional requirements, factors introduced Earned Value: The sum of the budgeted cost for tasks\nby the selected architecture, and the design. These and products that have actually been produced (com-\nrequirements are finalized through requirements pleted or in progress) at a given time in the schedule.\nanalysis as part of the overall systems engineering\nprocess and become part of the program or project Earned Value Management: A tool for measur-\nrequirements baseline. ing and assessing project performance through the\n integration of technical scope with schedule and\nDescope: As a verb, take out of (or remove from) cost objectives during the execution of the project.\nthe scope of a project. As a noun, as in “performance EVM provides quantification of technical progress,\n\n\n\n 180",
+          "score": 11.357827897722963,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0210",
+          "page": 210,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n the system from the point of view of hardware,  Are the requirements free of unverifiable terms\n software, operations, personnel and procedures? (e.g., flexible, easy, sufficient, safe, ad hoc, ade-\n quate, accommodate, user-friendly, usable, when\nVerifiability/Testability required, if required, appropriate, fast, portable,\n Can the system be tested, demonstrated, light-weight, small, large, maximize, minimize,\n inspected, or analyzed to show that it satisfies sufficient, robust, quickly, easily, clearly, other\n requirements? Can this be done at the level of the “ly” words, other “ize” words)?\n system at which the requirement is stated? Does\n a means exist to measure the accomplishment of Data Usage\n the requirement and verify compliance? Can the  Where applicable, are “don’t care” conditions\n criteria for verification be stated? truly “don’t care”? (“Don’t care” values identify\n cases when the value of a condition or flag is irrel-\n Are the requirements stated precisely to facilitate evant, even though the value may be important\n specification of system test success criteria and for other cases.) Are “don’t care” conditions values\n requirements? explicitly stated? (Correct identification of “don’t\n care” values may improve a design’s portability.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 200",
+          "score": 11.300458767563896,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 11.017406222119854,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0103",
+          "page": 103,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n METHODS OF VERIFICATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of a\n model. Analysis can include verification by similarity of a heritage product.\n\n\n Demonstration: Showing that the use of an end product achieves the individual specified requirement.\n It is generally a basic confirmation of performance capability, differentiated from testing by the lack of\n detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example,\n a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform\n flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation\n of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that\n demonstrates a capability to operate at extreme limits of system performance, an operation not normally\n expected from a representative operational pilot.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to verify physical\n design features or specific manufacturer identification. For example, if there is a requirement that the safety\n arming pin has a red flag with the words “Remove Before Flight” stenciled on the flag in black letters, a\n visual inspection of the arming pin flag can be used to determine if this requirement was met. Inspection can\n include inspection of drawings, documents, or other records.\n\n\n Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient\n information to verify performance through further analysis. Testing can be conducted on final end products,\n breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified\n requirement under controlled conditions and is the most resource-intensive verification technique. As the\n saying goes, “Test as you fly, and fly as you test.” (See Section 5.3.2.5 in the NASA Expanded Guidance for\n Systems Engineering at https://nen.nasa.gov/web/se/doc-repository)\n\n\n\nOutcomes of verification preparation include the • Articles/models to be verified and verification-en-\nfollowing: abling products are on hand, assembled, and\n integrated with the verification environment\n• The verification plan, approved procedures, and according to verification plans and schedules;\n an appropriate baseline set of specified require-\n ments and supporting configuration documenta- • The resources (funding, facilities, and people\n tion is available and on hand; including appropriately skilled operators) needed\n\n\n\n 93",
+          "image_path": "data/local/advanced/pages/p0103_2000.png",
+          "image_sha256": "ec7639868edf6070e5ccf8effc4a5be22691e913b2cc0090ceef93a2b422ead8"
+        },
+        {
+          "source_id": "NASA-SE:p0190",
+          "page": 190,
+          "text": " Appendix B: Glossary\n\n\n\n\n\ndocuments, management data plans, and metrics descope,” it indicates the process or the result of the\nreports, that have been identified as items to be deliv- process of narrowing the scope; i.e., removing part of\nered with an end product. the original scope.\n\n\nDemonstration: Showing that the use of an end Design Solution Definition Process: The process used\nproduct achieves the individual specified requirement to translate the outputs of the logical decomposition\n(verification) or stakeholder expectation (validation). process into a design solution definition. It includes\nIt is generally a basic confirmation of performance transforming the defined logical decomposition\ncapability, differentiated from testing by the lack of models and their associated sets of derived technical\ndetailed data gathering. Demonstrations can involve requirements into alternative solutions and analyzing\nthe use of physical models or mock-ups; for example, each alternative to be able to select a preferred alterna-\na requirement that all controls shall be reachable by tive and fully define that alternative into a final design\nthe pilot could be verified by having a pilot perform solution that will satisfy the technical requirements.\nflight-related tasks in a cockpit mock-up or simulator.\nA demonstration could also be the actual operation Designated Governing Authority: For the technical\nof the end product by highly qualified personnel, effort, this is the Center Director or the person that\nsuch as test pilots, who perform a one-time event that has been designated by the Center Director to ensure\ndemonstrates a capability to operate at extreme limits the appropriate level of technical management over-\nof system performance. sight. For large programs, this will typically be the\n Engineering Technical Authority. For smaller proj-\nDerived Requirements: Requirements arising from ects, this function can be delegated to line managers.\nconstraints, consideration of issues implied but not\nexplicitly stated in the high-level direction provided Detection: Determination that system state or behav-\nby NASA Headquarters and Center institutional ior is different from expected performance.\nrequirements, factors introduced by the selected\narchitecture, and the design. These requirements are Diagnosis: Determining the possible locations and/\nfinalized through requirements analysis as part of or causes of an anomaly or a failure.\nthe overall systems engineering process and become\npart of the program or project requirements baseline. Discrepancy: Any observed variance from, lack of\nRequirements arising from constraints, consideration agreement with, or contradiction to the required or\nof issues implied but not explicitly stated in the high- expected outcome, configuration, or result.\nlevel direction provided by NASA Headquarters and\nCenter institutional requirements, factors introduced Earned Value: The sum of the budgeted cost for tasks\nby the selected architecture, and the design. These and products that have actually been produced (com-\nrequirements are finalized through requirements pleted or in progress) at a given time in the schedule.\nanalysis as part of the overall systems engineering\nprocess and become part of the program or project Earned Value Management: A tool for measur-\nrequirements baseline. ing and assessing project performance through the\n integration of technical scope with schedule and\nDescope: As a verb, take out of (or remove from) cost objectives during the execution of the project.\nthe scope of a project. As a noun, as in “performance EVM provides quantification of technical progress,\n\n\n\n 180",
+          "image_path": "data/local/advanced/pages/p0190_2000.png",
+          "image_sha256": "d9527fdab02425511e1d4084f7d8eb8da592b5616346559609327435d54d574c"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0103",
+          "page": 103,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n METHODS OF VERIFICATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of a\n model. Analysis can include verification by similarity of a heritage product.\n\n\n Demonstration: Showing that the use of an end product achieves the individual specified requirement.\n It is generally a basic confirmation of performance capability, differentiated from testing by the lack of\n detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example,\n a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform\n flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation\n of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that\n demonstrates a capability to operate at extreme limits of system performance, an operation not normally\n expected from a representative operational pilot.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to verify physical\n design features or specific manufacturer identification. For example, if there is a requirement that the safety\n arming pin has a red flag with the words “Remove Before Flight” stenciled on the flag in black letters, a\n visual inspection of the arming pin flag can be used to determine if this requirement was met. Inspection can\n include inspection of drawings, documents, or other records.\n\n\n Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient\n information to verify performance through further analysis. Testing can be conducted on final end products,\n breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified\n requirement under controlled conditions and is the most resource-intensive verification technique. As the\n saying goes, “Test as you fly, and fly as you test.” (See Section 5.3.2.5 in the NASA Expanded Guidance for\n Systems Engineering at https://nen.nasa.gov/web/se/doc-repository)\n\n\n\nOutcomes of verification preparation include the • Articles/models to be verified and verification-en-\nfollowing: abling products are on hand, assembled, and\n integrated with the verification environment\n• The verification plan, approved procedures, and according to verification plans and schedules;\n an appropriate baseline set of specified require-\n ments and supporting configuration documenta- • The resources (funding, facilities, and people\n tion is available and on hand; including appropriately skilled operators) needed\n\n\n\n 93",
+          "image_sha256": "ec7639868edf6070e5ccf8effc4a5be22691e913b2cc0090ceef93a2b422ead8"
+        },
+        {
+          "source_id": "NASA-SE:p0190",
+          "page": 190,
+          "text": " Appendix B: Glossary\n\n\n\n\n\ndocuments, management data plans, and metrics descope,” it indicates the process or the result of the\nreports, that have been identified as items to be deliv- process of narrowing the scope; i.e., removing part of\nered with an end product. the original scope.\n\n\nDemonstration: Showing that the use of an end Design Solution Definition Process: The process used\nproduct achieves the individual specified requirement to translate the outputs of the logical decomposition\n(verification) or stakeholder expectation (validation). process into a design solution definition. It includes\nIt is generally a basic confirmation of performance transforming the defined logical decomposition\ncapability, differentiated from testing by the lack of models and their associated sets of derived technical\ndetailed data gathering. Demonstrations can involve requirements into alternative solutions and analyzing\nthe use of physical models or mock-ups; for example, each alternative to be able to select a preferred alterna-\na requirement that all controls shall be reachable by tive and fully define that alternative into a final design\nthe pilot could be verified by having a pilot perform solution that will satisfy the technical requirements.\nflight-related tasks in a cockpit mock-up or simulator.\nA demonstration could also be the actual operation Designated Governing Authority: For the technical\nof the end product by highly qualified personnel, effort, this is the Center Director or the person that\nsuch as test pilots, who perform a one-time event that has been designated by the Center Director to ensure\ndemonstrates a capability to operate at extreme limits the appropriate level of technical management over-\nof system performance. sight. For large programs, this will typically be the\n Engineering Technical Authority. For smaller proj-\nDerived Requirements: Requirements arising from ects, this function can be delegated to line managers.\nconstraints, consideration of issues implied but not\nexplicitly stated in the high-level direction provided Detection: Determination that system state or behav-\nby NASA Headquarters and Center institutional ior is different from expected performance.\nrequirements, factors introduced by the selected\narchitecture, and the design. These requirements are Diagnosis: Determining the possible locations and/\nfinalized through requirements analysis as part of or causes of an anomaly or a failure.\nthe overall systems engineering process and become\npart of the program or project requirements baseline. Discrepancy: Any observed variance from, lack of\nRequirements arising from constraints, consideration agreement with, or contradiction to the required or\nof issues implied but not explicitly stated in the high- expected outcome, configuration, or result.\nlevel direction provided by NASA Headquarters and\nCenter institutional requirements, factors introduced Earned Value: The sum of the budgeted cost for tasks\nby the selected architecture, and the design. These and products that have actually been produced (com-\nrequirements are finalized through requirements pleted or in progress) at a given time in the schedule.\nanalysis as part of the overall systems engineering\nprocess and become part of the program or project Earned Value Management: A tool for measur-\nrequirements baseline. ing and assessing project performance through the\n integration of technical scope with schedule and\nDescope: As a verb, take out of (or remove from) cost objectives during the execution of the project.\nthe scope of a project. As a noun, as in “performance EVM provides quantification of technical progress,\n\n\n\n 180",
+          "image_sha256": "d9527fdab02425511e1d4084f7d8eb8da592b5616346559609327435d54d574c"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Demonstration is a verification method that confirms performance capability by showing that the end product achieves the specified requirement, but it is differentiated from testing by the lack of detailed data gathering and is not performed under controlled conditions for data collection.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0103",
+                "locator": "METHODS OF VERIFICATION - Demonstration",
+                "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups... A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance."
+              },
+              {
+                "source_id": "NASA-SE:p0190",
+                "locator": "Demonstration (Glossary)",
+                "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering."
+              }
+            ]
+          },
+          {
+            "text": "Test is a verification method that uses the end product to obtain detailed data needed to verify performance, producing data at discrete points for each specified requirement under controlled conditions.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0103",
+                "locator": "METHODS OF VERIFICATION - Test",
+                "evidence": "Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    103,
+    190
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Demonstration is a method of verification that shows the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups and may be performed as a one-time event by highly qualified personnel, but do not involve collecting detailed data under controlled conditions.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0103",
+            "locator": "METHODS OF VERIFICATION - Demonstration",
+            "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example, a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance, an operation not normally expected from a representative operational pilot."
+          },
+          {
+            "source_id": "NASA-SE:p0190",
+            "locator": "Demonstration (Glossary)",
+            "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example, a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance."
+          }
+        ]
+      },
+      {
+        "text": "Test is a method of verification that uses an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0103",
+            "locator": "METHODS OF VERIFICATION - Test",
+            "evidence": "Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing can be conducted on final end products, breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Demonstration is a verification method that confirms performance capability by showing that the end product achieves the specified requirement, but it is differentiated from testing by the lack of detailed data gathering and is not performed under controlled conditions for data collection.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0103",
+          "locator": "METHODS OF VERIFICATION - Demonstration",
+          "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement. It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models or mock-ups... A demonstration could also be the actual operation of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that demonstrates a capability to operate at extreme limits of system performance."
+        },
+        {
+          "source_id": "NASA-SE:p0190",
+          "locator": "Demonstration (Glossary)",
+          "evidence": "Demonstration: Showing that the use of an end product achieves the individual specified requirement (verification) or stakeholder expectation (validation). It is generally a basic confirmation of performance capability, differentiated from testing by the lack of detailed data gathering."
+        }
+      ]
+    },
+    {
+      "text": "Test is a verification method that uses the end product to obtain detailed data needed to verify performance, producing data at discrete points for each specified requirement under controlled conditions.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0103",
+          "locator": "METHODS OF VERIFICATION - Test",
+          "evidence": "Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient information to verify performance through further analysis. Testing produces data at discrete points for each specified requirement under controlled conditions and is the most resource-intensive verification technique."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 13932.36
+}

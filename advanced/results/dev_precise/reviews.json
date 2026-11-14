@@ -1,0 +1,459 @@
+{
+  "method": "Direct per-question and per-citation comparison against original NASA PDF pages; binary completeness/grounding/region review. No independent external grading claimed.",
+  "reviews": [
+    {
+      "id": "ADV-DEV-01",
+      "trace_sha256": "11b93afb9f498f6cf287a3f35280f1ce4985b987d8767412bef030ef7c38a099",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Measurement, Analysis and Improvement; Analysis of Data.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, Decision Analysis row",
+            "evidence": "Decision Analysis | Measurement, Analysis and Improvement; Analysis of Data"
+          },
+          "supported": true,
+          "reason": "Original PDF page 17, Table 2.1-1, Decision Analysis row: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 17,
+            "printed_page": 7,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-02",
+      "trace_sha256": "076601d6f568497c908b702c2931a5d80c7a86c88b7af219125281c86ac691fb",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Operations-ready system end product with supporting related enabling products.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1, Phase D row, Typical Outcomes column",
+            "evidence": "Operations-ready system end product with supporting related enabling products"
+          },
+          "supported": true,
+          "reason": "Original PDF page 19, Table 2.2-1, Phase D row, Typical Outcomes column: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 19,
+            "printed_page": 9,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-03",
+      "trace_sha256": "92896d18c1eaee8880c52fba26fb3af633d0bf9b7c293116a547de8d34975183",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Test, inspection, analysis, demonstration; determined as requirements are developed.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0069",
+            "locator": "Table 4.2-2, Verification method row",
+            "evidence": "Captures the method of verification (test, inspection, analysis, demonstration) and should be determined as the requirements are developed."
+          },
+          "supported": true,
+          "reason": "Original PDF page 69, Table 4.2-2, Verification method row: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 69,
+            "printed_page": 59,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-04",
+      "trace_sha256": "0a667873fd471656f2bfb5c20653bc2cd7d213c8e5548b8892d31fa623209131",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Dissent with the recommendation and how it was addressed, e.g. decision matrix or risk.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0181",
+            "locator": "Table 6.8-1, row 8 Dissent",
+            "evidence": "If applicable, document any dissent with the recommendation. Document how dissent was addressed (e.g., decision matrix, risk)."
+          },
+          "supported": true,
+          "reason": "Original PDF page 181, Table 6.8-1, row 8 Dissent: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 181,
+            "printed_page": 171,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-05",
+      "trace_sha256": "edfbcf8d64d3105f88abe08294a95ea45a3527f5989faba01cd320b0267bdab0",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Establish list of stakeholders, then elicit stakeholder expectations.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0056",
+            "locator": "Figure 4.1-1, hai nhánh đầu tiên từ trên xuống",
+            "evidence": "Establish list of stakeholders → Elicit stakeholder expectations"
+          },
+          "supported": true,
+          "reason": "Original PDF page 56, Figure 4.1-1, hai nhánh đầu tiên từ trên xuống: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 56,
+            "printed_page": 46,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-06",
+      "trace_sha256": "10e082ad5bf18c316e226860430027c6e01b56cd4e2fa142379d8ed2e4a77c36",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Validate technical requirements.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0065",
+            "locator": "Figure 4.2-1, left-hand vertical path above 'Establish technical requirements baseline'",
+            "evidence": "Validate technical requirements"
+          },
+          "supported": true,
+          "reason": "Original PDF page 65, Figure 4.2-1, left-hand vertical path above 'Establish technical requirements baseline': read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 65,
+            "printed_page": 55,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-07",
+      "trace_sha256": "cb8c0480fd8d001edcde750876a0bbc3a9ee48086fbdc4f2afb47fb4d8264f0b",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Capture work products from configuration management activities.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0155",
+            "locator": "Figure 6.5-1, last yellow process block",
+            "evidence": "Capture work products from configuration management activities"
+          },
+          "supported": true,
+          "reason": "Original PDF page 155, Figure 6.5-1, last yellow process block: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 155,
+            "printed_page": 145,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-08",
+      "trace_sha256": "37684526eaecdefe54fb581598cac0a974eb20df384e61993b5e7f46f51e565e",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: TRL 4 component/breadboard validation in laboratory environment; TRL 5 in relevant environment.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0221",
+            "locator": "Figure G.4-1, TRL 4 and TRL 5 rows",
+            "evidence": "TRL 4: Component and/or breadboard validation in laboratory environment; TRL 5: Component and/or breadboard validation in relevant environment"
+          },
+          "supported": true,
+          "reason": "Original PDF page 221, Figure G.4-1, TRL 4 and TRL 5 rows: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 221,
+            "printed_page": 211,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-09",
+      "trace_sha256": "21da1b3d4acdb2c01b11649da8de12beda43f5998062c9eaada2bed197c12b33",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: 8%.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, Concept block, % Completed (Costs Expended)",
+            "evidence": "Concept 8%"
+          },
+          "supported": true,
+          "reason": "Original PDF page 23, Figure 2.5-1, Concept block, % Completed (Costs Expended): read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 23,
+            "printed_page": 13,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-10",
+      "trace_sha256": "cb7a15b7d785f44d726b443a89e5b09f3670a64c1662afbf3480eb92c7a92d6b",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Correct multipliers but adds unsupported phase assignments: the late arrow label is not explicitly an Operations-through-Disposal value; that phase belongs to a different yellow cost block.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1 cost-to-change-design-direction arrow, chart labels",
+            "evidence": "3–6× (Concept/Design), 500–1000× (Operations through Disposal)"
+          },
+          "supported": false,
+          "reason": "Correct multipliers but adds unsupported phase assignments: the late arrow label is not explicitly an Operations-through-Disposal value; that phase belongs to a different yellow cost block.",
+          "source_check": {
+            "physical_page": 23,
+            "printed_page": 13,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-11",
+      "trace_sha256": "13b1e828492754b2f37541ba73d3bbedbe214c570e05d03ad1885e770b5d8c83",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Gives reporting/model/test activities from page 36 rather than the technology development/prototyping/heritage/risk-mitigation work to be completed in Section 3.5 on page 35.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0036",
+            "locator": "Typical Activities and Their Products, bullet points: Report technology development results; Improve fidelity of models and prototypes used in evaluations; Conduct engineering development tests as needed and report results",
+            "evidence": "Report technology development results; Improve fidelity of models and prototypes used in evaluations; Conduct engineering development tests as needed and report results"
+          },
+          "supported": true,
+          "reason": "Original PDF page 36, Typical Activities and Their Products, bullet points: Report technology development results; Improve fidelity of models and prototypes used in evaluations; Conduct engineering development tests as needed and report results: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 36,
+            "printed_page": 26,
+            "method": "original PDF render plus source text comparison"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0221",
+            "locator": "FIGURE G.4-1 Technology Readiness Levels, TRL 6 row",
+            "evidence": "TRL 6 System/subsystem model or prototype demonstration in a relevant environment (ground or space)"
+          },
+          "supported": true,
+          "reason": "Original PDF page 221, FIGURE G.4-1 Technology Readiness Levels, TRL 6 row: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 221,
+            "printed_page": 211,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-12",
+      "trace_sha256": "ee6038305c97a5473e863593c4bb005dd05df5a9d895dfc48256771c9a72579e",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Validated Stakeholder Expectations go to Technical Requirements Definition; Validated Technical Requirements go to Logical Decomposition (along with requirements/interface management recipients).",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0056",
+            "locator": "Figure 4.1-1, right output block",
+            "evidence": "To Technical Requirements Definition and Requirements and Interface Management Processes – Validated Stakeholder Expectations"
+          },
+          "supported": true,
+          "reason": "Original PDF page 56, Figure 4.1-1, right output block: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 56,
+            "printed_page": 46,
+            "method": "original PDF render plus source text comparison"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0065",
+            "locator": "Figure 4.2-1, right output block",
+            "evidence": "To Logical Decomposition and Requirements and Interface Management Processes – Validated Technical Requirements"
+          },
+          "supported": true,
+          "reason": "Original PDF page 65, Figure 4.2-1, right output block: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 65,
+            "printed_page": 55,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-13",
+      "trace_sha256": "99d1dfa391f13538429b307b0a0cee1697b75d51d8b56417e78176fdc40adc26",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "False refusal: exact stakeholder definition exists on PDF 55; interleaved two-column heading was not boosted by anchored section regex.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-14",
+      "trace_sha256": "35127b4f444fc891d04a051b7de5f2ac42a0b57ac69a689ae76846a39edb05d0",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: Goals need not be quantitative/measurable, but must allow assessment of whether achieved.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0059",
+            "locator": "Goals definition paragraph",
+            "evidence": "Goals need not be in a quantitative or measurable form, but they should allow us to assess whether the system has achieved them."
+          },
+          "supported": true,
+          "reason": "Original PDF page 59, Goals definition paragraph: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 59,
+            "printed_page": 49,
+            "method": "original PDF render plus source text comparison"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0193",
+            "locator": "Goal: Glossary entry",
+            "evidence": "Goals need not be in a quantitative or measurable form, but they must allow us to assess whether the system has achieved them."
+          },
+          "supported": true,
+          "reason": "Original PDF page 193, Goal: Glossary entry: read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 193,
+            "printed_page": 183,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-15",
+      "trace_sha256": "20de79a32d142f34e0f3282bc41fa25a7781b9456b8bd1f7ddb6e81ba2204e44",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Correct and complete for requested conditions; original source confirms: WHAT is needed, not HOW to provide it.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.2 Editorial Checklist, bullet 'Is the requirement free of implementation?'",
+            "evidence": "Requirements should state WHAT is needed, NOT HOW to provide it; i.e., state the problem not the solution."
+          },
+          "supported": true,
+          "reason": "Original PDF page 207, C.2 Editorial Checklist, bullet 'Is the requirement free of implementation?': read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 207,
+            "printed_page": 197,
+            "method": "original PDF render plus source text comparison"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0208",
+            "locator": "C.4 Requirements Validation Checklist, Compliance, bullet 'Are requirements free of implementation specifics?'",
+            "evidence": "Requirements should state what is needed, not how to provide it."
+          },
+          "supported": true,
+          "reason": "Original PDF page 208, C.4 Requirements Validation Checklist, Compliance, bullet 'Are requirements free of implementation specifics?': read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 208,
+            "printed_page": 198,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-16",
+      "trace_sha256": "2ded757352e0dd0c912728e81444da4cf0a7af7fdd597886bdd3c2a4c99ae114",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: no unsupported value supplied; full-corpus absence-check record and related source sections do not establish the requested mandate.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-17",
+      "trace_sha256": "ad7fff732f5dc8227caa5228fa1ac0d7d81d7f69e32116f1efa175765b478409",
+      "passed": false,
+      "answer_correct_complete": null,
+      "reason": "Does not supply requested word count; overclaims absence and applies generic small-project plans/few paragraphs guidance on page 47 specifically to ConOps without sufficient evidence.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0047",
+            "locator": "section 3.11.4.2 Adjusting the Scope",
+            "evidence": "the SE NPR does not require any additional stand-alone documents. For small projects, many of the plans can be described in just a few paragraphs or pages."
+          },
+          "supported": false,
+          "reason": "Does not supply requested word count; overclaims absence and applies generic small-project plans/few paragraphs guidance on page 47 specifically to ConOps without sufficient evidence.",
+          "source_check": {
+            "physical_page": 47,
+            "printed_page": 37,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ADV-DEV-18",
+      "trace_sha256": "3343ef462e04dcf7c45200dc95eff977193c4812524f99a1fe257cd0cbeb1f7f",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Acknowledges that no concrete minimum quantity is given and adds only source-supported qualitative stakeholder guidance on original pages 33/58; no fabricated count. Treated as semantic abstention despite answered status.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0058",
+            "locator": "NOTE box, paragraph: 'It is extremely important to involve stakeholders in all phases of a project...'",
+            "evidence": "It is extremely important to involve stakeholders in all phases of a project. Such involvement should be built in as a self-correcting feedback loop that will significantly enhance the chances of mission success."
+          },
+          "supported": true,
+          "reason": "Original PDF page 58, NOTE box, paragraph: 'It is extremely important to involve stakeholders in all phases of a project...': read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 58,
+            "printed_page": 48,
+            "method": "original PDF render plus source text comparison"
+          }
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0033",
+            "locator": "paragraph: 'It is important in Pre-Phase A to define an accurate group of stakeholders and users...'",
+            "evidence": "It is important in Pre-Phase A to define an accurate group of stakeholders and users to help ensure that mission goals and operations concepts meet the needs and expectations of the end users."
+          },
+          "supported": true,
+          "reason": "Original PDF page 33, paragraph: 'It is important in Pre-Phase A to define an accurate group of stakeholders and users...': read the original table/diagram/chart/paragraph; identifying labels support the corresponding claim. No conclusion inferred from ID validity alone.",
+          "source_check": {
+            "physical_page": 33,
+            "printed_page": 23,
+            "method": "original PDF render plus source text comparison"
+          }
+        }
+      ]
+    }
+  ]
+}

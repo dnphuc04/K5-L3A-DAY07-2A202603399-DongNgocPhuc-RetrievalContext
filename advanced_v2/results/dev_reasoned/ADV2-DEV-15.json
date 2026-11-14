@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-DEV-15",
+  "split": "dev",
+  "question": "In Figure 4.4-3, what are the x- and y-axis quantities and how are their units described?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4hSSZLuU7avVuSRMScfWjhw0gIi",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 648,
+        "completion_tokens": 75,
+        "total_tokens": 723,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 42,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2151.97,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_t32pZAjGeqHuQO0Tjzy0gBwZ",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.4-3 x-axis y-axis units\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hVaCfk0x1Qd2aKpNKaVvRIq8Xc",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 6147,
+        "completion_tokens": 103,
+        "total_tokens": 6250,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 74,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2463.15,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_vJIyVuSgwI8MtMoQ8pEUDN6M",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0081\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hYCxqupKGwBf725USiGxmXEseb",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10647,
+        "completion_tokens": 269,
+        "total_tokens": 10916,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 83,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6767.07,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BJEYbAnyNOfhanLxX0drNHJ6",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 4.4-3, the x-axis quantity is \\\"Life-Cycle Cost,\\\" with units described as \\\"Expressed in Constant Dollars.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3 diagram, x-axis label\",\"evidence\":\"Life-Cycle Cost, Expressed in Constant Dollars\"}]},{\"text\":\"In Figure 4.4-3, the y-axis quantity is \\\"Some Aspect of Effectiveness,\\\" with units described as \\\"Expressed in Quantitative Units.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3 diagram, y-axis label\",\"evidence\":\"Some Aspect of Effectiveness, Expressed in Quantitative Units\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4hf7G7k0agms2p5U6Orz9zDu0Kq",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4981,
+        "completion_tokens": 266,
+        "total_tokens": 5247,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 90,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4577.44,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_mQ7xPNVaDZiA0xclmJ8ZvR8a",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Figure 4.4-3 x-axis: “Life-Cycle Cost,” with units described as “Expressed in Constant Dollars.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3, x-axis label\",\"evidence\":\"Life-Cycle Cost, Expressed in Constant Dollars\"}]},{\"text\":\"Figure 4.4-3 y-axis: “Some Aspect of Effectiveness,” with units described as “Expressed in Quantitative Units.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0081\",\"locator\":\"Figure 4.4-3, y-axis label\",\"evidence\":\"Some Aspect of Effectiveness, Expressed in Quantitative Units\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.4-3, what are the x- and y-axis quantities and how are their units described?",
+      "results": [
+        {
+          "id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "score": 16.271434644495056,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0080",
+          "page": 80,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nmanagers—should cooperate. The right quantita- to find regions of the design space that warrant fur-\ntive methods and selection criteria should be used. ther investigation.\nTrade study assumptions, models, and results should\nbe documented as part of the project archives. The Whether system models are used or not, the design\nparticipants should remain focused on the functional concepts are developed, modified, reassessed, and\nrequirements, including those for enabling products. compared against competing alternatives in a closed-\nFor an in-depth discussion of the trade study process, loop process that seeks the best choices for further\nsee Section 6.8. The ability to perform these studies is development. System and subsystem sizes are often\nenhanced by the development of system models that determined during the trade studies. The end result is\nrelate the design parameters to those assessments, but the determination of bounds on the relative cost-ef-\nit does not depend upon them. fectiveness of the design alternatives, measured in\n terms of the quantified system goals. (Only bounds,\nThe technical team should consider a broad range rather than final values, are possible because deter-\nof concepts when developing the system model. The mination of the final details of the design is inten-\nmodel should define the roles of crew, operators, tionally deferred.) Increasing detail associated with\nmaintainers, logistics, hardware, and software in the continually improving resolution reduces the\nthe system. It should identify the critical technolo- spread between upper and lower bounds as the pro-\ngies required to implement the mission and should cess proceeds.\nconsider the entire life cycle from fabrication to\ndisposal. Evaluation criteria for selecting concepts 4.4.1.2.4 Select the Best Design Solution Alternative\nshould be established. Cost is always a limiting fac- The technical team selects the best design solution\ntor. However, other criteria, such as time to develop from among the alternative design concepts, taking\nand certify a unit, risk, and reliability, also are crit- into account subjective factors that the team was\nical. This stage cannot be accomplished without unable to quantify, such as robustness, as well as\naddressing the roles of operators and maintainers. estimates of how well the alternatives meet the quan-\nThese contribute significantly to life cycle costs and titative requirements; the maturity of the available\nto the system reliability. Reliability analysis should be technology; and any effectiveness, cost, schedule,\nperformed based upon estimates of component fail- risk, or other constraints.\nure rates for hardware and an understanding of the\nconsequences of these failures. If probabilistic risk The Decision Analysis Process, as described in\nassessment models are applied, it may be necessary to Section 6.8, should be used to make an evaluation of\ninclude occurrence rates or probabilities for software the alternative design concepts and to recommend\nfaults or human error events. These models should the “best” design solution.\ninclude hazard analyses and controls implemented\nthrough fault management. Assessments of the matu- When it is possible, it is usually well worth the trou-\nrity of the required technology should be done and a ble to develop a mathematical expression, called an\ntechnology development plan developed. “objective function,” that expresses the values of com-\n binations of possible outcomes as a single measure of\nControlled modification and development of design cost-effectiveness, as illustrated in FIGURE 4.4-3, even\nconcepts, together with such system models, often if both cost and effectiveness should be described by\npermits the use of formal optimization techniques more than one measure.\n\n\n\n 70",
+          "score": 7.790910626264607,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 6.456378488822959,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0223",
+          "page": 223,
+          "text": " Appendix G: Technology Assessment/Insertion\n\n\n\n\n\nFormal Process for Determining TRLs the system is at TRL 2. The problem of multiple ele-\nA method for formalizing this process is shown in ments being at low TRLs is dealt with in the AD2\n\nFIGURE G.4-3. Here, the process has been set up as a process. Note that the issue of integration affects the\ntable: the rows identify the systems, subsystems, and TRL of every system, subsystem, and component. All\ncomponents that are under assessment. The columns of the elements can be at a higher TRL, but if they\nidentify the categories that will be used to determine have never been integrated as a unit, the TRL will\nthe TRL; i.e., what units have been built, to what be lower for the unit. How much lower depends on\nscale, and in what environment have they been tested. the complexity of the integration. The assessed com-\nAnswers to these questions determine the TRL of an plexity depends upon the combined judgment of the\nitem under consideration. The TRL of the system is engineers. It is important to have a good cross-section\ndetermined by the lowest TRL present in the system; of senior people sitting in judgment.\ni.e., a system is at TRL 2 if any single element in\n\n\n\n\n Red = Below TRL 3 Demonstration Units Environment Unit Description\n\n Yellow = TRL 3, 4 & 5\n Green = TRL 6 and above\n White = Unknown\n X = Exists\n\n\n\n\n\n 1.0 System\n 1.1 Subsystem X\n 1.1.1 Mechanical Components\n 1.1.2 Mechanical Systems\n 1.1.3 Electrical Components X X X X X\n 1.1.4 Electrical Systems\n 1.1.5 Control Systems\n 1.1.6 Thermal Systems X X X\n 1.1.7 Fluid Systems X\n 1.1.8 Optical Systems\n 1.1.9 Electro-Optical Systems\n 1.1.10 Software Systems\n 1.1.11 Mechanisms X\n 1.1.12 Integration\n 1.2 Subsystem Y\n 1.2.1 Mechanical Components\n\n\n\n FIGURE G.4-3 TRL Assessment Matrix\n\n\n\n 213",
+          "score": 24.907003024008667,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0227",
+          "page": 227,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n3.0 System Description in the sections above. This may be an existing control\n3.1 System Requirements Flowdown center, training facility, or other support.\nThis section describes where the requirements for this\nsystem come from and how they are flowed down to\nsubsystems and lower-level elements. It should also 4.0 Verification and Validation\nindicate what method will be used to perform the flow- Process\ndown and bidirectional traceability of the requirements:\nspreadsheet, model, or other means. It can point to the This section describes the process that will be used to per-\nfile, document, or spreadsheet that captures the actual form verification and validation.\nrequirements flowdown.\n 4.1 Verification and Validation\n3.2 System Architecture Management Responsibilities\nThis section describes the system that is within the scope This section describes the responsibilities of key players\nof this V&V Plan. The description should be enough so in the V&V activities. It may include identification and\nthat the V&V activities will have the proper context and duty description for test directors/conductors, managers,\nbe understandable. facility owners, boards, and other key stakeholders.\n\n3.3 End Item Architectures 4.2 Verification Methods\nThis section describes each of the major end items (sub- This section defines and describes the methods that will\nsystems, elements, units, modules, etc.) that when inte- be used during the verification activities.\ngrated together, will form the overall system that is the\nscope of this V&V Plan. 4.2.1 Analysis\n Defines what this verification method means (See\n3.3.1 System End Item A Appendix B of this handbook) and how it will be\nThis section describes the first major end item/subsystem applied to this system.\nin more detail so that the V&V activities have context\nand are understandable. 4.2.2 Inspection\n Defines what this verification method means (See\n3.3.n System End Item n Appendix B of this handbook) and how it will be\nEach end item/subsystem is separately described in a sim- applied to this system.\nilar manner as above.\n 4.2.3 Demonstration\n3.4 Ground Support Equipment Defines what this verification method means (See\nThis section describes any major ground-support equip- Appendix B of this handbook) and how it will be applied\nment that will be used during the V&V activities. This to this system.\nmay include carts for supplying power or fuel, special test\nfixtures, lifting aids, simulators, or other type of support. 4.2.4 Test\n Defines what this verification method means (See\n3.5 Other Architecture Descriptions Appendix B of this handbook) and how it will be applied\nThis section describes any other items that are import- to this system. This category may need to be broken down\nant for the V&V activities but which are not included into further categories.\n\n\n\n 217",
+          "score": 13.199357038376158,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0074",
+          "page": 74,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nconcept architectures capable of achieving program are developed with increased fidelity as the project\nobjectives. Each architecture concept involves spec- evolves. Functional decomposition, requirements\nification of the functional elements (what the pieces development, and trade studies are subsequently\ndo), their relationships to each other (interface defi- undertaken. Multiple iterations of these activities\nnition), and the ConOps, i.e., how the various seg- feed back to the evolving architectural concept as the\nments, subsystems, elements, personnel, units, etc., requirements flow down and the design matures.\nwill operate as a system when distributed by location\nand environment from the start of operations to the 4.3.1.2.2 Allocate Technical Requirements, Resolve\nend of the mission. Conflicts, and Baseline\n Functional analysis is the primary method used in\nThe development process for the architectural con- system architecture development and functional\ncepts should be recursive and iterative with feedback requirement decomposition. It is the systematic pro-\nfrom stakeholders and external reviewers, as well as cess of identifying, describing, and relating the func-\nfrom subsystem designers and operators, provided as tions a system should perform to fulfill its goals and\noften as possible to increase the likelihood of effec- objectives. Functional analysis identifies and links\ntively achieving the program’s desired ends while system functions, trade studies, interface character-\nreducing the likelihood of cost and schedule overruns. istics, and rationales to requirements. It is usually\n based on the ConOps for the system of interest.\nIn the early stages of development, multiple con-\ncepts are generated. Cost and schedule constraints Three key steps in performing functional analysis are:\nwill ultimately limit how long a program or project\ncan maintain multiple architectural concepts. For all 1. Translate top-level requirements into functions\nNASA programs, architecture design is completed that should be performed to accomplish the\nduring the Formulation Phase. For most NASA proj- requirements.\nects (and tightly coupled programs), the baselining\nof a single architecture happens during Phase A. 2. Decompose and allocate the functions to lower\nArchitectural changes at higher levels occasionally levels of the product breakdown structure.\noccur as decomposition to lower levels produces com-\nplexity in design, cost, or schedule that necessitates 3. Identify and describe functional and subsystem\nsuch changes. However, as noted in FIGURE 2.5-1, the interfaces.\nlater in the development process that changes occur,\nthe more expensive they become. The process involves analyzing each system require-\n ment to identify all of the functions that need to be\nAside from the creative minds of the architects, there performed to meet the requirement. Each function\nare multiple tools that can be utilized to develop a identified is described in terms of inputs, outputs,\nsystem’s architecture. These are primarily modeling failure modes, consequence of failure, and inter-\nand simulation tools, functional analysis tools, archi- face requirements. The process is repeated from\ntecture frameworks, and trade studies. (For example, the top down so that sub-functions are recognized\none way of doing architecture is the Department of as part of larger functional areas. Functions are\nDefense (DOD) Architecture Framework (DODAF). arranged in a logical sequence so that any specified\nA search concept is developed, and analytical models operational usage of the system can be traced in an\nof the architecture, its elements, and their operations end-to-end path.\n\n\n 64",
+          "score": 12.509505168664926,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0230",
+          "page": 230,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n6.1.2.3 Verification by Inspection 7.0 System Verification and\nThis section describes the verifications that will be per- Validation\nformed for this end item by inspection. 7.1 End-Item Integration\n This section describes how the various end items will be\n6.1.2.4 Verification Demonstration assembled/integrated together, verified and validated.\nThis section describes the verifications that will be per- For example, the avionics and power systems may be\nformed for this end item by demonstration. integrated and tested together to ensure their interfaces\n and performance is as required and expected prior to\n6.1.3 Validation Activities integration with a larger element. This section describes\n6.1.3.1 Validation by Testing the verification and validation that will be performed\nThis section describes what validation tests will be per- on these major assemblies. Complete system integration\nformed on this end item. will be described in later sections.\n\n\n6.1.3.2 Validation by Analysis 7.1.1 Developmental/Engineering Unit Evaluations\nThis section describes the validation that will be per- This section describes the unofficial (not the formal ver-\nformed for this end item through analysis. ification/validation) testing/analysis that will be per-\n formed on the various assemblies that will be tested\n6.1.3.3 Validation by Inspection together and the pedigree of the units that will be used.\nThis section describes the validation that will be per- This may include system-level testing of configurations\nformed for this end item through inspection. using engineering units, breadboard, simulators, or\n other forms or combination of forms.\n6.1.3.4 Validation by Demonstration\nThis section describes the validations that will be per- 7.1.2 Verification Activities\nformed for this end item by demonstration. This section describes the verification activities that will\n be performed on the various assemblies.\n6.1.4 Acceptance Testing\nThis section describes the set of tests, analysis, demonstra- 7.1.2.1 Verification by Testing\ntions, or inspections that will be performed on the flight/ This section describes all verification testing that will be\nfinal version of the end item to show it has the same performed on the various assemblies. The section may be\ndesign as the one that is being verified, that the work- broken up to describe qualification testing performed on\nmanship on this end item is good, and that it performs the various assemblies and other types of testing.\nthe identified functions properly.\n 7.1.2.2 Verification by Analysis\n6.n End Item n This section describes all verification analysis that will be\nIn a similar manner as above, a description of how each performed on the various assemblies.\nend item that makes up the system will be verified and\nvalidated is made. 7.1.2.3 Verification by Inspection\n This section describes all verification inspections that\n will be performed on the various assemblies.\n\n\n\n\n\n\n 220",
+          "score": 12.378530668642775,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "image_path": "data/local/advanced/pages/p0081_2000.png",
+          "image_sha256": "9f978305b31d66df6d898f1f08043b210e08d8c6d783b4e112af4fe5851acbe0"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "image_sha256": "9f978305b31d66df6d898f1f08043b210e08d8c6d783b4e112af4fe5851acbe0"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Figure 4.4-3 x-axis: “Life-Cycle Cost,” with units described as “Expressed in Constant Dollars.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0081",
+                "locator": "Figure 4.4-3, x-axis label",
+                "evidence": "Life-Cycle Cost, Expressed in Constant Dollars"
+              }
+            ]
+          },
+          {
+            "text": "Figure 4.4-3 y-axis: “Some Aspect of Effectiveness,” with units described as “Expressed in Quantitative Units.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0081",
+                "locator": "Figure 4.4-3, y-axis label",
+                "evidence": "Some Aspect of Effectiveness, Expressed in Quantitative Units"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    81
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 4.4-3, the x-axis quantity is \"Life-Cycle Cost,\" with units described as \"Expressed in Constant Dollars.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 diagram, x-axis label",
+            "evidence": "Life-Cycle Cost, Expressed in Constant Dollars"
+          }
+        ]
+      },
+      {
+        "text": "In Figure 4.4-3, the y-axis quantity is \"Some Aspect of Effectiveness,\" with units described as \"Expressed in Quantitative Units.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 diagram, y-axis label",
+            "evidence": "Some Aspect of Effectiveness, Expressed in Quantitative Units"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Figure 4.4-3 x-axis: “Life-Cycle Cost,” with units described as “Expressed in Constant Dollars.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "locator": "Figure 4.4-3, x-axis label",
+          "evidence": "Life-Cycle Cost, Expressed in Constant Dollars"
+        }
+      ]
+    },
+    {
+      "text": "Figure 4.4-3 y-axis: “Some Aspect of Effectiveness,” with units described as “Expressed in Quantitative Units.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "locator": "Figure 4.4-3, y-axis label",
+          "evidence": "Some Aspect of Effectiveness, Expressed in Quantitative Units"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16058.81
+}

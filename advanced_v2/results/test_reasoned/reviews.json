@@ -1,0 +1,700 @@
+{
+  "method": "Direct per-question/per-citation comparison with original source pixels and text; strict complete claims; faithful paraphrases accepted; semantic refusals judged by content, not status field alone. No independent external grading claimed.",
+  "reviews": [
+    {
+      "id": "ADV2-TEST-01",
+      "trace_sha256": "fee8cb3cdd471ab6920950f1e22bf842f1c47f98c1bee71363f6ce32ca94a51c",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "All six Phase F example stakeholders match the original Table 4.1-1 row on PDF 57.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0057",
+            "locator": "Table 4.1-1, Phase F row (Life-Cycle Stage) / Example Stakeholders column",
+            "evidence": "Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public"
+          },
+          "supported": true,
+          "reason": "Original PDF 57, Table 4.1-1, Phase F row (Life-Cycle Stage) / Example Stakeholders column: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 57
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-02",
+      "trace_sha256": "6375a3895810fd17063e615c400ec4b1aed60bd96828c6764c6d33106ade3ba4",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original PDF 104 last report entries support as-run copy with optional redlines, authentication of results and authorization of acceptability. The contextual word test does not change these required acts.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0104",
+            "locator": "Table 5.3-1, Verification Report column (row near bottom)",
+            "evidence": "\"Copy of the as-run procedure (may include redlines);\""
+          },
+          "supported": true,
+          "reason": "Original PDF 104, Table 5.3-1, Verification Report column (row near bottom): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 104
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0104",
+            "locator": "Table 5.3-1, Verification Report column (final entry)",
+            "evidence": "\"Authentication of test results and authorization of test acceptability.\""
+          },
+          "supported": true,
+          "reason": "Original PDF 104, Table 5.3-1, Verification Report column (final entry): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 104
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-03",
+      "trace_sha256": "2c5ee9c4321320f0eb87355a29fbad2c5222ea18408581e4ffdbb2abb3b7fe8a",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Instrument Subteam entries on PDF 128 are Detector Subsystem then Optics Subsystem between the two named bounding entries.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0128",
+            "locator": "Table 6.1-1, Instrument Subteam section (lines following “Mechanism Drive Electronics Subsystem”)",
+            "evidence": "Mechanism Drive Electronics Subsystem; Detector Subsystem; Optics Subsystem; Control Subsystem"
+          },
+          "supported": true,
+          "reason": "Original PDF 128, Table 6.1-1, Instrument Subteam section (lines following “Mechanism Drive Electronics Subsystem”): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 128
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-04",
+      "trace_sha256": "b75bc1067d4e89b6f2d7fb328073ab2185537da884a594ab5eaec5aee05c143e",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original 3-column layout on PDF 130 aligns Robotics Labs with Vacuum Chambers in the middle column.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0130",
+            "locator": "Table 6.1-2, row containing “Robotics Labs”",
+            "evidence": "Robotics Labs | Vacuum Chambers | NDE Labs"
+          },
+          "supported": true,
+          "reason": "Original PDF 130, Table 6.1-2, row containing “Robotics Labs”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 130
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-05",
+      "trace_sha256": "2a74b310a2b51ea256b04e547f654fac37a768048c7836e585609333bb4695e9",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Technical data capture row on PDF 166 specifies authors/generators for correction and Stored data inventory output; both requested parts present.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0166",
+            "locator": "Table 6.6-1, “Technical data capture” row, Tasks",
+            "evidence": "Report integrity check anomalies or variances to the authors or generators of the data for correction."
+          },
+          "supported": true,
+          "reason": "Original PDF 166, Table 6.6-1, “Technical data capture” row, Tasks: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 166
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0166",
+            "locator": "Table 6.6-1, “Technical data capture” row, Expected Outcomes",
+            "evidence": "Stored data inventory."
+          },
+          "supported": true,
+          "reason": "Original PDF 166, Table 6.6-1, “Technical data capture” row, Expected Outcomes: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 166
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-06",
+      "trace_sha256": "0120698fc7afa6a37ff3aba1b32f0c5668e8d38358b541c093c9f280128191d1",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original KDP B row on PDF 217 updates both Technology Development Plan and TRA, incorporated in preliminary project plan.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0217",
+            "locator": "Table G.1-1, KDP B row (Product column)",
+            "evidence": "“Technology Development Plan and Technology Readiness Assessment (TRA) are updated. Incorporated in the preliminary project plan.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 217, Table G.1-1, KDP B row (Product column): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 217
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-07",
+      "trace_sha256": "45af8cb0aa788b3b3927da2a771c96bd5528c6d632bc03893fd57caf39b425f0",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original grouped headers on PDF 88 place Implementation/Integration in Design Realization and Verification/Validation in Evaluation.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0088",
+            "locator": "Figure 5.0-1, columns under the header “DESIGN REALIZATION”",
+            "evidence": "DESIGN REALIZATION … Product Implementation … Product Integration"
+          },
+          "supported": true,
+          "reason": "Original PDF 88, Figure 5.0-1, columns under the header “DESIGN REALIZATION”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 88
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0088",
+            "locator": "Figure 5.0-1, columns under the header “EVALUATION PROCESSES”",
+            "evidence": "EVALUATION PROCESSES … Product Verification … Product Validation"
+          },
+          "supported": true,
+          "reason": "Original PDF 88, Figure 5.0-1, columns under the header “EVALUATION PROCESSES”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 88
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-08",
+      "trace_sha256": "e481317265c7fda1a2658995ec5170b4e7db645262ee46357eb99dacec43caaf",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original central arrow sequence on PDF 96 places preparation of the integration environment between the specified validation and assembly nodes.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0096",
+            "locator": "Figure 5.2-1 (central activity column, box immediately below “Confirm that received products have been validated”)",
+            "evidence": "The figure’s central flow shows: “Confirm that received products have been validated” → “Prepare the integration environment for assembly and integration” → “Assemble and integrate the received products into the desired end product.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 96, Figure 5.2-1 (central activity column, box immediately below “Confirm that received products have been validated”): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 96
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-09",
+      "trace_sha256": "fd25b127fac45c7069ddd09abc54d201d1c96ecfef7b870ad21455cf5c244211",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "Strict completeness failure: both destination names are correct and the combined printed annotation is quoted faithfully, but the answer repeats the combined end-user-or-Product-Integration label instead of clearly identifying Product Integration as the recursive route. This ambiguity is retained as a failure; citations themselves are valid.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0117",
+            "locator": "Figure 5.5-1, text above the output box “Delivered End Product With Applicable Documentation” (top right)",
+            "evidence": "“To end user or Product Integration Process”"
+          },
+          "supported": true,
+          "reason": "Original PDF 117, Figure 5.5-1, text above the output box “Delivered End Product With Applicable Documentation” (top right): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 117
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0117",
+            "locator": "Figure 5.5-1, same label above the “Delivered End Product With Applicable Documentation” output box",
+            "evidence": "“To end user or Product Integration Process (recursive loop)”"
+          },
+          "supported": true,
+          "reason": "Original PDF 117, Figure 5.5-1, same label above the “Delivered End Product With Applicable Documentation” output box: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 117
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-10",
+      "trace_sha256": "0f2d4d2e33dacae4100a87e14db44bdf9237491f989162316899eb175de0ddbb",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original right-side outputs on PDF 146 send ICDs and Approved Interface Requirement Changes to CM, and Interface Management Work Products to TDM.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0146",
+            "locator": "Figure 6.3-1 (right side), under “To Configuration Management Process”",
+            "evidence": "To Configuration Management Process: Interface Control Documents; Approved Interface Requirement Changes"
+          },
+          "supported": true,
+          "reason": "Original PDF 146, Figure 6.3-1 (right side), under “To Configuration Management Process”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 146
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0146",
+            "locator": "Figure 6.3-1 (right side), under “To Technical Data Management Process”",
+            "evidence": "To Technical Data Management Process: Interface Management Work Products"
+          },
+          "supported": true,
+          "reason": "Original PDF 146, Figure 6.3-1 (right side), under “To Technical Data Management Process”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 146
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-11",
+      "trace_sha256": "5c86904a972e8cbf2ccf855ac3d3e73bd9ac3a7e38732f06f187ac9c2bfbbfe8",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original arrows/lane headers on PDF 158 show 7 -> 8a Actionees/Complete assigned actions and 7 -> 8b CM Function/Release CCB minutes, Track actions.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4, CCB lane step 7 to Actionees lane step 8a",
+            "evidence": "From CCB step “7. • Disposition change request • Assign action items as needed” an arrow leads to Actionees step “8a. Complete assigned actions”."
+          },
+          "supported": true,
+          "reason": "Original PDF 158, Figure 6.5-4, CCB lane step 7 to Actionees lane step 8a: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 158
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0158",
+            "locator": "Figure 6.5-4, branch from CCB lane step 7 down to CM Function lane step 8b",
+            "evidence": "From CCB step 7 a branch leads down to CM Function step “8b. • Release CCB minutes • Track actions”."
+          },
+          "supported": true,
+          "reason": "Original PDF 158, Figure 6.5-4, branch from CCB lane step 7 down to CM Function lane step 8b: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 158
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-12",
+      "trace_sha256": "20e67a3ac0d9a8178fda4daf888f1d3c5efc9983583a1db2669059c69013a8bc",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "The three original committed-curve labels on PDF 23 are 45%,75%,90%; no confusion with expended-cost blocks.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1 (Committed Life Cycle Costs curve label)",
+            "evidence": "Label near early part of the curve: “45%”."
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1 (Committed Life Cycle Costs curve label): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1 (Committed Life Cycle Costs curve label)",
+            "evidence": "Label near mid part of the curve: “75%”."
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1 (Committed Life Cycle Costs curve label): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1 (Committed Life Cycle Costs curve label)",
+            "evidence": "Label near upper part of the curve: “90%”."
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1 (Committed Life Cycle Costs curve label): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-13",
+      "trace_sha256": "a76ef98e01a9efda24f79331963840522db3b7ed9a2fcfbeaaf72bafd22105d8",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original middle teal-arrow label on PDF 23 is 20–100x, a multiplier rather than percentage.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1 (middle of the “Cost to Change Design Direction” arrow)",
+            "evidence": "The “Cost to Change Design Direction” arrow has the multiplier label “20–100×” in its middle section."
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1 (middle of the “Cost to Change Design Direction” arrow): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-14",
+      "trace_sha256": "776d9d40b8c07947709fa2b6593a087894cd037a931b011d3935bc8d985b85e1",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original PDF 23 labels horizontal axis Time and vertical axis Cumulative Percentage Life Cycle Cost against Time; both requested labels present.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, bottom axis label",
+            "evidence": "Time"
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1, bottom axis label: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0023",
+            "locator": "Figure 2.5-1, left vertical axis label",
+            "evidence": "Cumulative Percentage Life Cycle Cost against Time"
+          },
+          "supported": true,
+          "reason": "Original PDF 23, Figure 2.5-1, left vertical axis label: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 23
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-15",
+      "trace_sha256": "8d7b9e23649d97345bcb632304995930eaebb1786ab1da7e5b34bd2827f16f48",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original shaded ellipses and explanatory Note on PDF 81 identify different levels of uncertainty.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Figure 4.4-3 note (below figure)",
+            "evidence": "“Note: The different shaded areas indicate different levels of uncertainty.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 81, Figure 4.4-3 note (below figure): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 81
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-16",
+      "trace_sha256": "3adb9fc62655783df7cb75159e28afd74df0245c65e0ac61b7ed99a13f105021",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original chart and explanatory paragraph on PDF 81 support B little risk in effectiveness/cost, C high expensive-failure risk with high cost and near-zero effectiveness.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Text below Figure 4.4-3, paragraph beginning “In FIGURE 4.4-3…”",
+            "evidence": "“There is little risk in either effectiveness or cost for concept B…”"
+          },
+          "supported": true,
+          "reason": "Original PDF 81, Text below Figure 4.4-3, paragraph beginning “In FIGURE 4.4-3…”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 81
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0081",
+            "locator": "Text below Figure 4.4-3, paragraph beginning “In FIGURE 4.4-3…”",
+            "evidence": "“…the risk of an expensive failure is high for concept C, as is shown by the cloud of probability near the x axis with a high cost and essentially no effectiveness.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 81, Text below Figure 4.4-3, paragraph beginning “In FIGURE 4.4-3…”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 81
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-17",
+      "trace_sha256": "55c52be28da6d3c7d3e3cbb8d06df6983f71d58319c5612b754a1c51dc79a015",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Owner row PDF 69 preserves writing/managing/and-or approving changes; original C.2 PDF 207 specifies active voice and responsible party shall perform. Two source hops correctly cited.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0069",
+            "locator": "Table 4.2-2, row \"Owner\"",
+            "evidence": "Owner — Person or group responsible for writing, managing, and/or approving changes to this requirement."
+          },
+          "supported": true,
+          "reason": "Original PDF 69, Table 4.2-2, row \"Owner\": page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 69
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "Appendix C, Section C.2 \"Editorial Checklist\" under \"Personnel Requirement\"",
+            "evidence": "The requirement is in the form “responsible party shall perform such and such.” In other words, use the active, rather than the passive voice."
+          },
+          "supported": true,
+          "reason": "Original PDF 207, Appendix C, Section C.2 \"Editorial Checklist\" under \"Personnel Requirement\": page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 207
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-18",
+      "trace_sha256": "9ff6f50aba73a0812cfa7fae85409457d4e4ba1a42dd43d514f9408fba6990af",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Phase A name on PDF 19 and TRL 2 formulation criterion on PDF 221 both match, including and/or application.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0019",
+            "locator": "Table 2.2-1 (Project Life Cycle Phases), Phase A row",
+            "evidence": "“Phase A … Concept and Technology Development”"
+          },
+          "supported": true,
+          "reason": "Original PDF 19, Table 2.2-1 (Project Life Cycle Phases), Phase A row: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 19
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0221",
+            "locator": "Figure G.4-1 (Technology Readiness Levels), TRL 2",
+            "evidence": "“TRL 2 Technology concept and/or application formulated”"
+          },
+          "supported": true,
+          "reason": "Original PDF 221, Figure G.4-1 (Technology Readiness Levels), TRL 2: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 221
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-19",
+      "trace_sha256": "9281a262df6e20fefa457fca5b598cdeda3ca859b7090395dcec56262e48b617",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Section 3.4 continuation on PDF 35 baselines SEMP in Phase A; original Technical Planning row PDF 17 contains all three AS9100 mappings.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0035",
+            "locator": "Section 3.4 (Phase A discussion), sentence beginning \"A Systems Engineering Management Plan (SEMP) is baselined\"",
+            "evidence": "\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\""
+          },
+          "supported": true,
+          "reason": "Original PDF 35, Section 3.4 (Phase A discussion), sentence beginning \"A Systems Engineering Management Plan (SEMP) is baselined\": page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 35
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, row \"Technical Planning\"",
+            "evidence": "\"Technical Planning\" -> \"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\""
+          },
+          "supported": true,
+          "reason": "Original PDF 17, Table 2.1-1, row \"Technical Planning\": page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 17
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-20",
+      "trace_sha256": "42ddb859b34611816d42d568cc6cf442d455e4effdf76e6b8a7536b6c56fed22",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Technical Risk Management mapping on PDF 17 is Risk Management; original lower-diamond No branch on PDF 176 leads through measurement results to deliberation. Both pages support requested facts.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, row “Technical Risk Management”",
+            "evidence": "Technical Risk Management — Risk Management"
+          },
+          "supported": true,
+          "reason": "Original PDF 17, Table 2.1-1, row “Technical Risk Management”: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 17
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0176",
+            "locator": "Figure 6.8-2, decision diamond “Net beneficial to reduce uncertainty?” and its “No” arrow",
+            "evidence": "The “No” arrow from “Net beneficial to reduce uncertainty?” goes right into the “Risk & Performance Measurement Results” box, which then connects upward to “Deliberation and Recommending a Decision Alternative.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 176, Figure 6.8-2, decision diamond “Net beneficial to reduce uncertainty?” and its “No” arrow: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 176
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-21",
+      "trace_sha256": "33edc5e35be1dc032cee46f9c482166f7751e00afb3e3249eddfb31df442140f",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Need definition PDF 59 specifies a single/singular need and a problem, not the solution. Both claim statements preserve these constraints.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0059",
+            "locator": "Sec. 4.0, “Needs, Goals, and Objectives (NGOs)” definitions, bullet “Need” (page labeled 49)",
+            "evidence": "“Need: A single statement that drives everything else… The need statement is singular.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 59, Sec. 4.0, “Needs, Goals, and Objectives (NGOs)” definitions, bullet “Need” (page labeled 49): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 59
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0059",
+            "locator": "Sec. 4.0, “Needs, Goals, and Objectives (NGOs)” definitions, bullet “Need” (page labeled 49)",
+            "evidence": "“It should relate to the problem that the system is supposed to solve but not be the solution.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 59, Sec. 4.0, “Needs, Goals, and Objectives (NGOs)” definitions, bullet “Need” (page labeled 49): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 59
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-22",
+      "trace_sha256": "5c0bbd8413c8f9f915ac62731b6cd585aeb1a925c8480edb3ea5a04ce6d05168",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original C.3 checkbox PDF 207 says positively and gives shall not as negative example. Both requested parts present.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+            "evidence": "“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”"
+          },
+          "supported": true,
+          "reason": "Original PDF 207, Appendix C, C.3 General Goodness Checklist bullet: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 207
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0207",
+            "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+            "evidence": "“...as opposed to negatively, i.e., ‘shall not’.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 207, Appendix C, C.3 General Goodness Checklist bullet: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 207
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-23",
+      "trace_sha256": "507a1759e838e93171c00982343d1fce6d3d64fe2eaf5d8a6441e0dddcd91dcc",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Engineering Change paragraph PDF 159 requires coordination AND approval by ALL affected stakeholders; all qualifiers retained.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0159",
+            "locator": "\"TYPES OF CONFIGURATION MANAGEMENT CHANGES\" box, bullet \"Engineering Change\"",
+            "evidence": "“Changes affecting an external interface must be coordinated and approved by all stakeholders affected.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 159, \"TYPES OF CONFIGURATION MANAGEMENT CHANGES\" box, bullet \"Engineering Change\": page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 159
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-24",
+      "trace_sha256": "0799d5f7e54f39fb4c3cac4de27d0823adb629f4cf2ce3da2389a01ef1dabdaa",
+      "passed": true,
+      "answer_correct_complete": true,
+      "reason": "Original Section 2.4 PDF 21 relates validation to ConOps and permits each development phase with phase products/models, not only end-product delivery.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0021",
+            "locator": "Section 2.4, validation paragraph",
+            "evidence": "“Validation relates back to the ConOps document.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 21, Section 2.4, validation paragraph: page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 21
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0021",
+            "locator": "Section 2.4, validation paragraph (last sentence)",
+            "evidence": "“Validation can be performed in each development phase using phase products (e.g., models) and not only at delivery using end products.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 21, Section 2.4, validation paragraph (last sentence): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 21
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-25",
+      "trace_sha256": "3a145108c8cecfafc40fb34f3270c96cea50d4f16e96c02e8787044178cd28a9",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal with empty claims: corpus absence record and related source guidance do not establish the requested universal mandate/value; no guessed number or extra facts.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-TEST-26",
+      "trace_sha256": "2d3a3a22ba4daa9a7f42e2872ef9f8f2395bd21558c35fd5b91b84a28e28a28f",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal with empty claims: corpus absence record and related source guidance do not establish the requested universal mandate/value; no guessed number or extra facts.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-TEST-27",
+      "trace_sha256": "0403a8f5dfffd6e266d6dd308d8239be955f7c86ded1aa1ed048b39b9ff4bf65",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct semantic refusal despite answered status: says None/no required single vendor, supplies no invented vendor. Original Preface PDF 8 confirms non-directive top-level guidance, and PDF 148 uses a generic documentation/tool/database reference. Full-corpus absence review is the basis for absence, not either excerpt alone.",
+      "citations": [
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0008",
+            "locator": "Preface, last paragraph (page viii)",
+            "evidence": "“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 8, Preface, last paragraph (page viii): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 8
+        },
+        {
+          "citation": {
+            "source_id": "NASA-SE:p0148",
+            "locator": "Section 6.0, bullet “Approved interface requirement changes” (page 138)",
+            "evidence": "“…update the requirements documentation/tool/database.”"
+          },
+          "supported": true,
+          "reason": "Original PDF 148, Section 6.0, bullet “Approved interface requirement changes” (page 138): page pixels and source text checked directly; quoted words/relationship support the corresponding part. Answer completeness and corpus-level absence are assessed separately.",
+          "original_source_page": 148
+        }
+      ]
+    },
+    {
+      "id": "ADV2-TEST-28",
+      "trace_sha256": "d54aed89d4958594112b080a1aaade786296d26f9b6eefcddc7e78886fb8077b",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal with empty claims: corpus absence record and related source guidance do not establish the requested universal mandate/value; no guessed number or extra facts.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-TEST-29",
+      "trace_sha256": "e147b9e83003188ade35bfdfb20de3040fce4a275cc25838c74925a1aac0ced7",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal with empty claims: corpus absence record and related source guidance do not establish the requested universal mandate/value; no guessed number or extra facts.",
+      "citations": []
+    },
+    {
+      "id": "ADV2-TEST-30",
+      "trace_sha256": "bd2b6981f1d4592678fa4d22c606dfdd69e06f8bd7857f4181a586973d6e5087",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal with empty claims: corpus absence record and related source guidance do not establish the requested universal mandate/value; no guessed number or extra facts.",
+      "citations": []
+    }
+  ]
+}

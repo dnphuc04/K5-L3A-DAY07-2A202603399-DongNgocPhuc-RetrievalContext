@@ -1,0 +1,741 @@
+{
+  "id": "ADV2-TEST-27",
+  "split": "test",
+  "question": "Which single vendor of requirements-management software does this handbook require every NASA project to buy?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4rpzF9s2aBOnIULwE2jCEz7wtaC",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 640,
+        "completion_tokens": 48,
+        "total_tokens": 688,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 16,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1730.44,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ShoQ1hHsD0BhvX9IBdd298au",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"requirements-management software vendor required every NASA project to buy handbook\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rrAUX0SlvTwxLXRrdjrazEo9q7",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5907,
+        "completion_tokens": 85,
+        "total_tokens": 5992,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 55,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2554.94,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_mUgMzljtwE8MeBSS1Wmv5qRw",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"DOORS requirements management tool shall NASA project buy\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ruVhr1N20SFqfdY4efTEGgyrMC",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10780,
+        "completion_tokens": 124,
+        "total_tokens": 10904,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 93,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3263.99,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_pbjnAe4A8UWU85TAnr3JRsTd",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"requirements management\\\" tool NASA Systems Engineering Handbook vendor\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rxFmcomyONmlDSjlDKpdPT78cl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15366,
+        "completion_tokens": 103,
+        "total_tokens": 15469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 75,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2869.44,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_TzgotB0P3BffV3qe8InwlbsH",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"DOORS \\\"Systems Engineering Handbook\\\"\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4s0J7UqWWzoJiLSm7lkAkNOmdf6",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 19485,
+        "completion_tokens": 282,
+        "total_tokens": 19767,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 241,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5388.75,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_L3bduqoDf7gErBSlOQq8psSK",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0008\",\"NASA-SE:p0148\",\"NASA-SE:p0011\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sI9KPvJE3lHUinFK3e8eRWMZBV",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 32568,
+        "completion_tokens": 144,
+        "total_tokens": 32712,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 103,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 12485.17,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_sUXDrBPlIpFtBruff0lbcCUP",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"requirements\\\" \\\"tool\\\" \\\"database\\\" \\\"shall\\\" \\\"NASA\\\" \\\"Systems Engineering Handbook\\\"\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4sP8DszpZUwAxFlRd2FZ2BZkxrh",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 37084,
+        "completion_tokens": 518,
+        "total_tokens": 37602,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 291,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 11876.34,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KQa8104iRg8qwe1q9NQFweFl",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"No vendor is required: the NASA Systems Engineering Handbook is “not intended in any way to be a directive” and presents “alternative approaches rather than specify a particular way to accomplish a task,” and it refers only generically to updating “requirements documentation/tool/database” (no vendor named).\",\"citations\":[{\"source_id\":\"NASA-SE:p0008\",\"locator\":\"Preface, right column, last paragraph\",\"evidence\":\"“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”\"},{\"source_id\":\"NASA-SE:p0008\",\"locator\":\"Preface, right column, first paragraph\",\"evidence\":\"“communicate principles of good practice as well as alternative approaches rather than specify a particular way to accomplish a task.”\"},{\"source_id\":\"NASA-SE:p0148\",\"locator\":\"Section 6.3.2, bullet “Approved interface requirement changes”\",\"evidence\":\"“update the requirements documentation/tool/database.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4saiBFbUUmnb7LyvIzBTB1R6Y3X",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 13526,
+        "completion_tokens": 251,
+        "total_tokens": 13777,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 71,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7072.14,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_O0zjHe4so8RhvZXLTau9CgXd",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"None—the NASA Systems Engineering Handbook does not require NASA projects to buy requirements-management software from any single vendor; it is “not intended in any way to be a directive” and refers only generically to updating a “requirements documentation/tool/database” without naming any vendor.\",\"citations\":[{\"source_id\":\"NASA-SE:p0008\",\"locator\":\"Preface, last paragraph (page viii)\",\"evidence\":\"“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”\"},{\"source_id\":\"NASA-SE:p0148\",\"locator\":\"Section 6.0, bullet “Approved interface requirement changes” (page 138)\",\"evidence\":\"“…update the requirements documentation/tool/database.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Which single vendor of requirements-management software does this handbook require every NASA project to buy?",
+      "results": [
+        {
+          "id": "NASA-SE:p0093",
+          "page": 93,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nverified and validated against equivalent require- baseline documents (configuration information\nments (including environments) and expectations. such as as-built specifications or stakeholder\nThe savings gained from reuse is not necessarily from expectations); certificates of compliance; or other\nreduced acceptance-level testing of the flight prod- vendor documentation.\nucts, but possibly elimination of the need to fully\nrequalify the item (if all elements are the same, includ- • Product Implementation Work Products: Any\ning the environment and operation), elimination of additional work products providing reports,\nthe need to specify all of the internal requirements records, lesson learned, assumptions, updated CM\nsuch as printed circuit board specifications or mate- products, and other outcomes of these activities.\nrial requirements, reduced internal data products, or\nthe confidence that the item will pass acceptance test The process is complete when the following activities\nand will not require rework. have been accomplished:\n\n\n5.1.1.2.3 Capture Work Products • End products are fabricated, purchased, or reuse\nRegardless of what implementation form was selected, modules are acquired.\nall work products from the make/buy/reuse process\nshould be captured, including as-built design draw- • End products are reviewed, checked, and ready\nings, design documentation, design models, code list- for verification.\nings, model descriptions, procedures used, operator\nmanuals, maintenance manuals, or other documen- • Procedures, decisions, assumptions, anomalies,\ntation as appropriate. corrective actions, lessons learned, etc., resulting\n from the make/buy/reuse are recorded.\n5.1.1.3 Outputs\n• End Product for Verification: Unless the vendor 5.1.2 Product Implementation\n performs verification, the made/coded, purchased, Guidance\n or reused end product in a form appropriate for Refer to Section 5.1.2 in the NASA Expanded\n the life cycle phase is provided for the verification Guidance for Systems Engineering at https://nen.\n process. The form of the end product is a function nasa.gov/web/se/doc-repository for additional guid-\n of the life cycle phase and the placement within ance on:\n the system structure (the form of the end product\n could be hardware, software, model, prototype, • buying off-the-shelf products and\n first article for test, or single operational article or • the need to consider the heritage of products.\n multiple production articles).\n• End Product Documents and Manuals: 5.2 Product Integration\n\n Appropriate documentation is also delivered Product integration is a key activity of the systems\n with the end product to the verification process engineer. Product integration is the engineering of\n and to the technical data management process. the subsystem interactions and their interactions\n Documentation may include applicable as-built with the system environments (both natural and\n design drawings; close out photos; operation, user, induced). Also in this process, lower-level products\n maintenance, or training manuals; applicable are assembled into higher-level products and checked\n\n\n\n 83",
+          "score": 17.64072484944265,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 14.066749371686981,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0091",
+          "page": 91,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n5.1.1.2.2 Purchase, Make, or Reuse the Product The NASA technical team should also ensure that\nPurchase the Product any enabling products necessary to provide test,\nIn the first case, the end product is to be purchased operations, maintenance, and disposal support for\nfrom a commercial or other vendor. Design/purchase the product are also ready or provided as defined in\nspecifications will have been generated during require- the contract.\nments development and provided as inputs. The tech-\nnical team needs to review these specifications and Depending on the strategy and roles/responsibilities\nensure they are in a form adequate for the contract of the vendor, a determination/analysis of the ven-\nor purchase order. This may include the generation dor’s verification and validation compliance may\nof contracts, Statements of Work (SOWs), requests need to be reviewed. This may be done informally\nfor proposals, purchase orders, or other purchasing or formally as appropriate for the complexity of the\nmechanisms. For major end products purchased from product. For products that were verified and validated\na vendor, the responsibilities of the Government and by the vendor, after ensuring that all work products\ncontractor team should be documented in the SEMP from this phase have been captured, the product may\nand Integration Plan. This will define, for example, be ready to enter the Product Transition Process to\nwhether NASA expects the vendor to provide a fully be delivered to the next higher level or to its final end\nverified and validated product or whether the NASA user. For products that the technical team will verify\ntechnical team will be performing those duties. The and validate, the product will be ready for verification\nteam needs to work with the acquisition team to after ensuring that all work products for this phase\nensure the accuracy of the contract SOW or purchase have been captured.\norder and to ensure that adequate documentation,\ncertificates of compliance, or other specific needs are Make/Code the Product\nrequested from the vendor. If the strategy is to make or code the product, the\n technical team should first ensure that the enabling\nFor contracted purchases, as proposals come back products are ready. This may include ensuring all\nfrom the vendors, the technical team should work piece parts are available, drawings are complete and\nwith the contracting officer and participate in the adequate, software design is complete and reviewed,\nreview of the technical information and in the selec- machines to cut the material are available, interface\ntion of the vendor that best meets the design require- specifications are approved, operators are trained and\nments for acceptable cost and schedule. available, manufacturing and/or coding procedures/\n processes are ready, software personnel are trained\nAs the purchased products arrive, the technical team and available to generate code, test fixtures are devel-\nshould assist in the inspection of the delivered prod- oped and ready to hold products while being gener-\nuct and its accompanying documentation. The team ated, and software test cases are available and ready to\nshould ensure that the requested product was indeed begin model generation.\nthe one delivered, and that all necessary documenta-\ntion, such as source code, operator manuals, certifi- The product is then made or coded in accordance\ncates of compliance, safety information, or drawings with the specified requirements, configuration docu-\nhave been received. mentation, and applicable standards. Software devel-\n opment must be consistent with NPR 7150.2, NASA\n Software Engineering Requirements. Throughout\n\n\n\n 81",
+          "score": 14.032045932039864,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0090",
+          "page": 90,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n• Inputs If Making/Coding the End Product: For making/reusing the product, and capturing the prod-\n end products that will be made/coded by the uct implementation work product. In some cases,\n technical team, the inputs will be the config- implementing a product may have aspects of more\n uration-controlled design specifications, man- than one of these forms (such as a build-to-print). In\n ufacturing plans, manufacturing processes, those cases, the appropriate aspects of the applicable\n manufacturing procedures, and raw materials as forms are used.\n provided to or purchased by the project.\n 5.1.1.2.1 Prepare to Conduct Implementation\n• Inputs Needed If Reusing an End Product: For Preparing to conduct the product implementation\n end products that will reuse part or all of prod- is a key first step regardless of what form of imple-\n ucts generated by other projects, the inputs may mentation has been selected. For complex projects,\n be the documentation associated with the product implementation strategy and detailed planning or\n as well as the product itself. Care should be taken procedures need to be developed and documented.\n to ensure that these products will indeed meet the For less complex projects, the implementation strat-\n specifications and environments for this project. egy and planning need to be discussed, approved,\n These would have been factors involved in the and documented as appropriate for the complexity of\n Decision Analysis Process to determine the make/ the project.\n buy/reuse decision.\n The documentation, specifications, and other inputs\n• Enabling Products: These would be any enabling also need to be reviewed to ensure they are ready and\n products necessary to make, code, purchase, or at an appropriate level of detail to adequately complete\n reuse the product (e.g., drilling fixtures, produc- the type of implementation form being employed and\n tion facilities, production lines, software devel- for the product life cycle phase. For example, if the\n opment facilities, software test facilities, system “make” implementation form is being employed, the\n integration and test facilities). design specifications need to be reviewed to ensure\n they are at a design-to level that allows the product\n5.1.1.2 Process Activities to be developed. If the product is to be bought as\nImplementing the product can take one of three a pure Commercial Off-the-Shelf (COTS) item, the\nforms: specifications need to be checked to make sure they\n adequately describe the vendor characteristics to nar-\n1. Purchase/buy row to a single make/model of their product line.\n2. Make/code\n3. Reuse Finally, the availability and skills of personnel needed\n to conduct the implementation as well as the avail-\nThese three forms will be discussed in the following ability of any necessary raw materials, enabling prod-\nsubsections. FIGURE 5.1-1 shows what kind of inputs, ucts, or special services should also be reviewed. Any\noutputs, and activities are performed during product special training necessary for the personnel to per-\nimplementation regardless of where in the product form their tasks needs to be performed by this time.\nhierarchy or life cycle it is. These activities include pre- This is a key part of the Acceptance Data Package.\nparing to conduct the implementation, purchasing/\n\n\n\n\n\n 80",
+          "score": 12.867275480172234,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0044",
+          "page": 44,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n3.11 Tailoring and Customization While the technical aspects of small projects are gen-\n of NPR 7123.1 Requirements erally narrower and more focused, they can also be\nIn this section, the term requirements refers to the challenging when their objectives are to demonstrate\n“shall” statements imposed from Agency direc- advanced technologies or provide “one of a kind”\ntives. This discussion focuses on the tailoring of the capabilities. At the same time, their comparatively\nrequirements contained in NPR 7123.1. small budgets and restricted schedules dictate lean\n and innovative implementation approaches to proj-\n3.11.1 Introduction ect management and systems engineering. Tailoring\nNASA policy recognizes the need to accommodate the and customization allow programs and projects to be\nunique aspects of each program or project to achieve successful in achieving technical objectives within\nmission success in an efficient and economical man- cost and schedule constraints. The key is effective tai-\nner. Tailoring is a process used to accomplish this. loring that reflects lessons learned and best practices.\n Tailoring the SE requirements and customizing the\nNPR 7123.1 defines tailoring as “the process used SE best practices to the specific needs of the project\nto seek relief from SE NPR requirements consistent helps to obtain the desired benefits while eliminating\nwith program or project objectives, allowable risk, unnecessary overhead. To accomplish this, an accept-\nand constraints.” Tailoring results in deviations or able risk posture must be understood and agreed\nwaivers (see NPR 7120.5, Section 3.5) to SE require- upon by the project, customer/stakeholder, Center\nments and is documented in the next revision of the management, and independent reviewers. Even with\nSEMP (e.g., via the Compliance Matrix). this foundation, however, the actual process of appro-\n priately tailoring SE requirements and customizing\nSince NPR 7123.1 was written to accommodate pro- NPR 7123.1 practices to a specific project can be\ngrams and projects regardless of size or complexity, complicated and arduous. Effective approaches and\nthe NPR requirements leave considerable latitude for experienced mentors make the tailoring process for\ninterpretation. Therefore, the term “customization” any project more systematic and efficient.\nis introduced and is defined as “the modification of\nrecommended SE practices that are used to accom- Chapter 6 of the NASA Software Engineering\nplish the SE requirements.” Customization does not Handbook provides guidance on tailoring SE require-\nrequire waivers or deviations, but significant custom- ments for software projects.\nization should be documented in the SEMP.\n 3.11.2 Criteria for Tailoring\nTailoring and customization are essential systems NPR 8705.4, Risk Classification for NASA Payloads,\nengineering tools that are an accepted and expected is intended for assigning a risk classification to projects\npart of establishing the proper SE NPR require- and programs. It establishes baseline criteria that enable\nments for a program or project. Although tailoring is users to define the risk classification level for NASA\nexpected for all sizes of projects and programs, small payloads on human or non-human-rated launch sys-\nprojects present opportunities and challenges that are tems or carrier vehicles. It is also a starting point for\ndifferent from those of large, traditional projects such understanding and defining criteria for tailoring.\nas the Shuttle, International Space Station, Hubble\nSpace Telescope, and Mars Science Laboratory. The extent of acceptable tailoring depends on several char-\n acteristics of the program/project such as the following:\n\n\n\n 34",
+          "score": 11.859634563704454,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 11.455747029425375,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0092",
+          "page": 92,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nthis process, the technical team should work with the used in the decision strategy to make/buy/reuse. If\nquality organization to review, inspect, and discuss the new environment is more extreme, requalifica-\nprogress and status within the team and with higher tion is needed for the component or system. Design\nlevels of management as appropriate. Progress should factors of safety, margins, and other required design\nbe documented within the technical schedules. Peer and construction standards should also be assessed.\nreviews, audits, unit testing, code inspections, simu- If the program/project requires higher factor of safety\nlation checkout, and other techniques may be used or margins, the component may not be usable or a\nto ensure the made or coded product is ready for the waiver may have to be approved.\nverification process. Some production and coding\ncan also be separately contracted. This is sometimes The documentation available (e.g., as-built documen-\npursued as a cost control feature providing motiva- tation, user’s guides, operations manuals, discrep-\ntion for the design contractor to keep the operations ancy reports, waivers and deviations) from the reuse\ncosts low and not roll costs into the operations phase product should be reviewed by the technical team so\nof a long-term contract. This is also valuable when that they can become completely familiar with the\nthe design contractor is not well suited for long-term product and ensure it will meet the requirements in\ncontinuing production operations. Small projects the intended environment. Any supporting manuals,\nand activities often use small manufacturing shops drawings, or other documentation available should\nto fabricate the system or major portions and small also be gathered.\nsoftware companies to code their software. In these\ncases, the production and software engineers may The availability of any supporting or enabling prod-\nspecify some portion of the hardware production or ucts or infrastructure needed to complete the fabrica-\nsoftware coding and request the remaining portions, tion, coding, testing, analysis, verification, validation,\nincluding as-built documentation, from the man- or shipping of the product needs to be determined.\nufacturing or software provider. The specified por- Supporting products may be found in product man-\ntions are contained as part of the contract statement ufacturing plans, processes, and procedures. If any of\nof work in these cases. The level of process control these products or services are lacking, they will need\nand information provided to or from the vendor is to be developed or arranged for before progressing to\ndependent on the criticality of the systems obtained. the next phase.\nAs production proceeds and components are pro-\nduced, there is a need to establish a method (Material Special arrangements may need to be made or forms\nReview Boards (MRBs) are typically used for large such as nondisclosure agreements may need to be\nprojects) to review any nonconformance to specifica- acquired before the reuse product can be received.\ntions and disposition whether the components can be\naccepted, reworked, or scrapped and remade. A reused product often needs to undergo the same\n verification and validation as a purchased product\nReuse or a built product. Relying on prior verification and\nIf the strategy is to reuse a product that already validation should only be considered if the product’s\nexists, extreme care should be taken to ensure that verification and validation documentation meets or\nthe product is truly applicable to this project and for exceeds the verification, validation, and documen-\nthe intended uses and the environment in which it tation requirements of the current project and the\nwill be used. This should have been a major factor documentation demonstrates that the product was\n\n\n\n 82",
+          "score": 11.261767123457759,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "DOORS requirements management tool shall NASA project buy",
+      "results": [
+        {
+          "id": "NASA-SE:p0190",
+          "page": 190,
+          "text": " Appendix B: Glossary\n\n\n\n\n\ndocuments, management data plans, and metrics descope,” it indicates the process or the result of the\nreports, that have been identified as items to be deliv- process of narrowing the scope; i.e., removing part of\nered with an end product. the original scope.\n\n\nDemonstration: Showing that the use of an end Design Solution Definition Process: The process used\nproduct achieves the individual specified requirement to translate the outputs of the logical decomposition\n(verification) or stakeholder expectation (validation). process into a design solution definition. It includes\nIt is generally a basic confirmation of performance transforming the defined logical decomposition\ncapability, differentiated from testing by the lack of models and their associated sets of derived technical\ndetailed data gathering. Demonstrations can involve requirements into alternative solutions and analyzing\nthe use of physical models or mock-ups; for example, each alternative to be able to select a preferred alterna-\na requirement that all controls shall be reachable by tive and fully define that alternative into a final design\nthe pilot could be verified by having a pilot perform solution that will satisfy the technical requirements.\nflight-related tasks in a cockpit mock-up or simulator.\nA demonstration could also be the actual operation Designated Governing Authority: For the technical\nof the end product by highly qualified personnel, effort, this is the Center Director or the person that\nsuch as test pilots, who perform a one-time event that has been designated by the Center Director to ensure\ndemonstrates a capability to operate at extreme limits the appropriate level of technical management over-\nof system performance. sight. For large programs, this will typically be the\n Engineering Technical Authority. For smaller proj-\nDerived Requirements: Requirements arising from ects, this function can be delegated to line managers.\nconstraints, consideration of issues implied but not\nexplicitly stated in the high-level direction provided Detection: Determination that system state or behav-\nby NASA Headquarters and Center institutional ior is different from expected performance.\nrequirements, factors introduced by the selected\narchitecture, and the design. These requirements are Diagnosis: Determining the possible locations and/\nfinalized through requirements analysis as part of or causes of an anomaly or a failure.\nthe overall systems engineering process and become\npart of the program or project requirements baseline. Discrepancy: Any observed variance from, lack of\nRequirements arising from constraints, consideration agreement with, or contradiction to the required or\nof issues implied but not explicitly stated in the high- expected outcome, configuration, or result.\nlevel direction provided by NASA Headquarters and\nCenter institutional requirements, factors introduced Earned Value: The sum of the budgeted cost for tasks\nby the selected architecture, and the design. These and products that have actually been produced (com-\nrequirements are finalized through requirements pleted or in progress) at a given time in the schedule.\nanalysis as part of the overall systems engineering\nprocess and become part of the program or project Earned Value Management: A tool for measur-\nrequirements baseline. ing and assessing project performance through the\n integration of technical scope with schedule and\nDescope: As a verb, take out of (or remove from) cost objectives during the execution of the project.\nthe scope of a project. As a noun, as in “performance EVM provides quantification of technical progress,\n\n\n\n 180",
+          "score": 7.8920451505842175,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0024",
+          "page": 24,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.7-1 NASA System Engineering Competency Model\nCompetency Competency Description\nArea\nSE 1.0 SE 1.1 Eliciting and defining use cases, scenarios, concept of operations and stakeholder\nSystem Stakeholder expectations. This includes identifying stakeholders, establishing support strategies,\nDesign Expectation establishing a set of Measures of Effectiveness (MOEs), validating stakeholder\n Definition & expectation statements, and obtaining commitments from the customer and other\n Management stakeholders, as well as using the baselined stakeholder expectations for product\n validation during product realization\n\n SE 1.2 Transforming the baseline stakeholder expectations into unique, quantitative, and\n Technical measurable technical requirements expressed as “shall” statements that can be\n Requirements used for defining the design solution. This includes analyzing the scope of the\n Definition technical problems to be solved, defining constraints affecting the designs, defining\n the performance requirements, validating the resulting technical requirement\n statements, defining the Measures of Performance (MOPs) for each MOE, and\n defining appropriate Technical Performance Measures (TPMs) by which technical\n progress will be assessed.\n SE 1.3 Transforming the defined set of technical requirements into a set of logical\n Logical decomposition models and their associated set of derived technical requirements for\n Decomposition lower levels of the system, and for input to the design solution efforts. This includes\n decomposing and analyzing by function, time, behavior, data flow, object, and other\n models. It also includes allocating requirements to these decomposition models,\n resolving conflicts between derived requirements as revealed by the models,\n defining a system architecture for establishing the levels of allocation, and validating\n the derived technical requirements.\n\n SE 1.4 Translating the decomposition models and derived requirements into one or more\n Design design solutions, and using the Decision Analysis process to analyze each alternative\n Solution and for selecting a preferred alternative that will satisfy the technical requirements.\n Definition A full technical data package is developed describing the selected solution. This\n includes generating a full design description for the selected solution; developing a\n set of ‘make-to,’ ‘buy-to,’ ‘reuse-to,’ specifications; and initiating the development or\n acquisition of system products and enabling products.\n\nSE 2.0 SE 2.1 Generating a specific product through buying, making, or reusing so as to satisfy\nProduct Product the design requirements. This includes preparing the implementation strategy;\nRealization Implementation building or coding the produce; reviewing vendor technical information; inspecting\n delivered, built, or reused products; and preparing product support documentation\n for integration.\n SE 2.2 Assembling and integrating lower-level validated end products into the desired end\n Product product of the higher-level product. This includes preparing the product integration\n Integration strategy, performing detailed planning, obtaining products to integrate, confirming\n that the products are ready for integration, preparing the integration environment,\n and preparing product support documentation.\n\n SE 2.3 Proving the end product conforms to its requirements. This includes preparing for\n Product the verification efforts, analyzing the outcomes of verification (including identifying\n Verification anomalies and establishing recommended corrective actions), and preparing a\n product verification report providing the evidence of product conformance with the\n applicable requirements.\n\n (continued)\n\n\n\n\n\n\n\n 14",
+          "score": 7.25786058414037,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0135",
+          "page": 135,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• design verification test units (form, fit, and func- Procedures should be prepared to conduct verifica-\n tion is the same, but they may not have flight parts); tion based on the method (e.g., analysis, inspection,\n demonstration, or test) planned. These procedures\n• qualification units (identical to flight units but are typically developed during the design phase\n may be subjected to extreme environments); and of the project life cycle and matured as the design\n• flight units (end product that is flown, including is matured. Operational use scenarios are thought\n protoflight units). through in order to explore all possible verification\n activities to be performed.\nVerification of the end product—that is, the official\n“run for the record” verification where the program/\nproject takes credit for meeting a requirement—is NOTE: Verification planning begins early in the\nusually performed on a qualification, protoflight, or project life cycle during the requirements devel-\nflight unit to ensure its applicability to the flight sys- opment phase. (See Section 4.2.) The verification\ntem. However, with discussion and approval from the approach to use should be included as part of\nprogram/project and systems engineering teams, ver- requirements development to plan for future activi-\nification credit may be taken on lower fidelity units ties, to establish special requirements derived from\nif they can be shown to be sufficiently like the flight identified verification-enabling products, and to\nunits in the areas to be verified. ensure that the requirements are verifiable. Updates\n to verification planning continue throughout logical\nAny of these types of product forms may be in any of decomposition and design development, especially\nthese states: as design reviews and simulations shed light on\n items under consideration. (See Section 6.1.)\n• produced (built, fabricated, manufactured, or coded);\n• reused (modified internal non-developmental\n products or OTS product); or As appropriate, project risk items are updated based\n• assembled and integrated (a composite of low- on approved verification strategies that cannot dupli-\n er-level products). cate fully integrated test systems, configurations,\n and/or target operating environments. Rationales,\nThe conditions and environment under which the trade space, optimization results, and implications of\nproduct is to be verified should be established and the approaches are documented in the new or revised\nthe verification should be planned based on the asso- risk statements as well as references to accommodate\nciated entrance/exit criteria that are identified. The future design, test, and operational changes to the\nDecision Analysis Process should be used to help project baseline.\nfinalize the planning details.\n Validation Plan\n The validation plan is one of the work products of the\n NOTE: The final, official verification of the end Technical Planning Process and is generated during\n product should be on a controlled unit. Typically, the Design Solution Process to validate the end prod-\n attempting to “buy off” a “shall” on a prototype is uct against the baselined stakeholder expectations.\n not acceptable; it is usually completed on a qualifi- This plan can take many forms. The plan describes\n cation, flight, or other more final, controlled unit. the total Test and Evaluation (T&E) planning from\n\n\n\n 125",
+          "score": 7.156273388029964,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 7.1400105169270125,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 6.930655393103382,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 6.866703247948421,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0051",
+          "page": 51,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nThe result of this tailoring, whether for a Center or team as well as associated managers. If an indepen-\nfor a program/project, should also be captured in dent assessment is being conducted on the program/\nthe next revision of the SEMP along with support- project, this also allows appropriate modification of\ning rationale and documented approvals from the expectations and assessment criteria. TABLE 3.11-3\nrequirement owner. This allows communication of provides some examples of tailoring captured within\nthe approved waivers/deviations to the entire project the H.2 Compliance Matrix.\n\n\n\n TABLE 3.11-3 Example Use of a Compliance Matrix\nReq SE NPR Requirement Rationale Req. Comply? Justification\nID Section Statement Owner\n\nSE-05 2.1.5.2 For those For programs and projects, the CD Fully\n requirements Compliance Matrix in Appendix Compliant\n owned by Center H.2 is filled out showing that the\n Directors, the program/project is compliant with\n technical team the requirements of this NPR (or a\n shall complete the particular Center’s implementation\n Compliance Matrix of NPR 7123.1, whichever is\n in Appendix H.2 applicable) or any tailoring thereof\n and include it in the is identified and approved by the\n SEMP. Center Director or designee as part\n of the program/project SEMP.\n\nSE-06 2.1.6.1 The DGA shall The DGA, who is often the TA, CD Fully\n approve the provides an approval of the SEMPs, Complaint\n SEMP, waiver waivers to technical requirements\n authorizations, and and other key technical document\n other key technical to provide assurance of the\n documents to applicability and technical quality of\n ensure independent the products.\n assessment of\n technical content.\n\nSE-24 4.2.1 The NASA technical It is important for both the CD Not Project is\n team shall define government and contractor Applicable conducted\n the engineering technical teams to understand entirely\n activities for the what activities will be handled by in-house and\n periods before which organization throughout the therefore\n contract award, product life cycle. The contractor(s) there are no\n during contract will typically develop a SEMP or its contracts\n performance, and equivalent to describe the technical involved\n upon contract activities in their portion of the\n completion in the project, but an overarching SEMP\n SEMP. is needed that will describe all\n technical activities across the life\n cycle whether contracted or not.\n\n\n\n\n\n\n\n\n\n\n 41",
+          "score": 6.816063293654471,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"requirements management\" tool NASA Systems Engineering Handbook vendor",
+      "results": [
+        {
+          "id": "NASA-SE:p0091",
+          "page": 91,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n5.1.1.2.2 Purchase, Make, or Reuse the Product The NASA technical team should also ensure that\nPurchase the Product any enabling products necessary to provide test,\nIn the first case, the end product is to be purchased operations, maintenance, and disposal support for\nfrom a commercial or other vendor. Design/purchase the product are also ready or provided as defined in\nspecifications will have been generated during require- the contract.\nments development and provided as inputs. The tech-\nnical team needs to review these specifications and Depending on the strategy and roles/responsibilities\nensure they are in a form adequate for the contract of the vendor, a determination/analysis of the ven-\nor purchase order. This may include the generation dor’s verification and validation compliance may\nof contracts, Statements of Work (SOWs), requests need to be reviewed. This may be done informally\nfor proposals, purchase orders, or other purchasing or formally as appropriate for the complexity of the\nmechanisms. For major end products purchased from product. For products that were verified and validated\na vendor, the responsibilities of the Government and by the vendor, after ensuring that all work products\ncontractor team should be documented in the SEMP from this phase have been captured, the product may\nand Integration Plan. This will define, for example, be ready to enter the Product Transition Process to\nwhether NASA expects the vendor to provide a fully be delivered to the next higher level or to its final end\nverified and validated product or whether the NASA user. For products that the technical team will verify\ntechnical team will be performing those duties. The and validate, the product will be ready for verification\nteam needs to work with the acquisition team to after ensuring that all work products for this phase\nensure the accuracy of the contract SOW or purchase have been captured.\norder and to ensure that adequate documentation,\ncertificates of compliance, or other specific needs are Make/Code the Product\nrequested from the vendor. If the strategy is to make or code the product, the\n technical team should first ensure that the enabling\nFor contracted purchases, as proposals come back products are ready. This may include ensuring all\nfrom the vendors, the technical team should work piece parts are available, drawings are complete and\nwith the contracting officer and participate in the adequate, software design is complete and reviewed,\nreview of the technical information and in the selec- machines to cut the material are available, interface\ntion of the vendor that best meets the design require- specifications are approved, operators are trained and\nments for acceptable cost and schedule. available, manufacturing and/or coding procedures/\n processes are ready, software personnel are trained\nAs the purchased products arrive, the technical team and available to generate code, test fixtures are devel-\nshould assist in the inspection of the delivered prod- oped and ready to hold products while being gener-\nuct and its accompanying documentation. The team ated, and software test cases are available and ready to\nshould ensure that the requested product was indeed begin model generation.\nthe one delivered, and that all necessary documenta-\ntion, such as source code, operator manuals, certifi- The product is then made or coded in accordance\ncates of compliance, safety information, or drawings with the specified requirements, configuration docu-\nhave been received. mentation, and applicable standards. Software devel-\n opment must be consistent with NPR 7150.2, NASA\n Software Engineering Requirements. Throughout\n\n\n\n 81",
+          "score": 9.796215817487212,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 9.133289632689898,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0271",
+          "page": 271,
+          "text": " References Cited\n\n\n\n\n\n of Engineering.” Boeing Lecture, Purdue NPR 7123.1, NASA Systems Engineering Processes\n University, March 28, 2007. and Requirements\n\nRechtin, Eberhardt. Systems Architecting of Section 3.0 NASA Program/Project Life\n Organizations: Why Eagles Can’t Swim. Boca Cycle\n Raton: CRC Press, 2000. NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.1 The Common Technical\nProcesses and the SE Engine NPR 7120.8, NASA Research and Technology\nNPR 7123.1, NASA Systems Engineering Processes Program and Project Management\n and Requirements Requirements\n\nSociety of Automotive Engineers (SAE) and the NASA Office of the Chief Information Officer\n European Association of Aerospace Industries (OCIO), Information Technology Systems\n (EAAI). AS9100C Quality Management Systems Engineering Handbook Version 2.0\n (QMS) – Requirements for Aviation, Space, and\n Defense Organizations Revision C: January 15, NASA/SP-2014-3705, NASA Space Flight Program\n 2009. and Project Management Handbook\n\nSection 2.3 Example of Using the SE Section 3.1 Program Formulation\nEngine NPR 7120.5, NASA Space Flight Program and\nNPD 1001.0, 2006 NASA Strategic Plan Project Management Requirements\n\nNPR 7120.5, NASA Space Flight Program and NPR 7120.7, NASA Information Technology and\n Project Management Requirements Institutional Infrastructure Program and Project\n Management Requirements\nSection 2.5 Cost Effectiveness\nConsiderations NPR 7120.8, NASA Research and Technology\nDepartment of Defense (DOD) Defense Acquisition Program and Project Management\n University (DAU). Systems Engineering Requirements\n Fundamentals Guide. Fort Belvoir, VA, 2001.\n NPR 7123.1, NASA Systems Engineering Processes\nINCOSE-TP-2003-002-04, Systems Engineering and Requirements\n Handbook: A Guide for System Life Cycle Processes\n and Activities, Version 4, edited by Walden, Section 3.2 Program Implementation\n David D., et al., 2015 NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.6 Human Systems Integration\n(HSI) in the SE Process NPR 7123.1, NASA Systems Engineering Processes\nNPR 7120.5, NASA Space Flight Program and and Requirements\n Project Management Requirements\n\n\n\n 261",
+          "score": 9.108047841181367,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0270",
+          "page": 270,
+          "text": "References Cited\n\n\n\n\n\nThis appendix contains references that were cited in Section 1.1 Purpose\nthe sections of the handbook. NPR 7123.1. Systems Engineering Processes and\n Requirements\nPreface\nNPR 7123.1, Systems Engineering Processes and Section 1.2 Scope and Depth\n Requirements NASA Office of Chief Information Officer (OCIO),\n Information Technology Systems Engineering\nNASA Chief Engineer and the NASA Integrated Handbook Version 2.0\n Action Team (NIAT) report, Enhancing Mission\n Success – A Framework for the Future, December NASA-HDBK-2203, NASA Software Engineering\n 21, 2000. Authors: McBrayer, Robert O and Handbook (February 28, 2013)\n Thomas, Dale, NASA Marshall Space Flight\n Center, Huntsville, AL United States. Section 2.0 Fundamentals of Systems\n Engineering\nNASA. Columbia Accident Investigation Board NPR 7120.5, NASA Space Flight Program and\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. Project Management Requirements\n http://www.nasa.gov/columbia/caib/html/report.\n html NPR 7120.7, NASA Information Technology and\n Institutional Infrastructure Program and Project\nNASA. Diaz Report,A Renewed Commitment to Management Requirements\n Excellence: An Assessment of the NASA Agency-\n wide Applicability of the Columbia Accident NPR 7120.8, NASA Research and Technology\n Investigation Board Report, January 30, 2004. Program and Project Management\n Mr. Al Diaz, Director, Goddard Space Flight Requirements\n Center, and team.\n NPR 7123.1, NASA Systems Engineering Processes\nInternational Organization for Standardization and Requirements\n (ISO) 9000:2015, Quality management sys -\n tems – Fundamentals and vocabulary. Geneva: NASA Engineering Network (NEN) Systems\n International Organization for Standardization, Engineering Community of Practice (SECoP),\n 2015. located at https://nen.nasa.gov/web/se\n\n Griffin, Michael D., NASA Administrator.\n “System Engineering and the Two Cultures\n\n\n\n 260",
+          "score": 9.032843617637186,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0148",
+          "page": 148,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Approved interface requirement changes. After 6.4 Technical Risk Management\n the interface requirements have been baselined, The Technical Risk Management Process is one of\n the Requirements Management Process should the crosscutting technical management processes.\n be used to identify the need for changes, eval- Risk is the potential for performance shortfalls,\n uate the impact of the proposed change, docu- which may be realized in the future, with respect\n ment the final approval/disapproval, and update to achieving explicitly established and stated per-\n the requirements documentation/tool/database. formance requirements. The performance shortfalls\n For interfaces that require approval from all may be related to institutional support for mission\n sides, unanimous approval is required. Changing execution or related to any one or more of the follow-\n interface requirements late in the design or ing mission execution domains:\n implementation life cycle is more likely to have a\n significant impact on the cost, schedule, or tech- • safety\n nical design/operations. • technical\n • cost\n• Other work products. These work products • schedule\n include the strategy and procedures for con-\n ducting interface management, the rationale for Systems engineers are involved in this process to help\n interface decisions made, the assumption made identify potential technical risks, develop mitigation\n in approving or denying an interface change, plans, monitor progress of the technical effort to deter-\n the actions taken to correct identified interface mine if new risks arise or old risks can be retired, and\n anomalies, the lessons learned in performing the to be available to answer questions and resolve issues.\n interface management activities, and the updated The following is guidance in implementation of risk\n support and interface agreement documentation. management in general. Thus, when implementing\n risk management on any given program/project, the\n6.3.2 Interface Management Guidance responsible systems engineer should direct the effort\nRefer to Section 6.3.2 in the NASA Expanded accordingly. This may involve more or less rigor and\nGuidance for Systems Engineering at https://nen.nasa. formality than that specified in governing docu-\ngov/web/se/doc-repository for additional guidance on: ments such as NPRs. Of course, if deviating from\n NPR “requirements,” the responsible engineer must\n• interface requirements documents, follow the deviation approval process. The idea is to\n• interface control documents, tailor the risk management process so that it meets\n• interface control drawings, the needs of the individual program/project being\n• interface definition documents, executed while working within the bounds of the\n• the interface control plans, and governing documentation (e.g., NPRs). For detailed\n• interface management tasks. information on the Risk Management Process, refer\n to the NASA Risk Management Handbook (NASA/\n SP-2011-3422).\n\n\n\n\n\n\n\n\n 138",
+          "score": 8.921946712850776,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0275",
+          "page": 275,
+          "text": " References Cited\n\n\n\n\n\nNPR 8705.4, Risk Classification for NASA Payloads NASA-SP-2010-3404, NASA Work Breakdown\n Structure Handbook\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, NASA Cost Estimating Handbook (CEH), Version 4,\n 2013 Februar y 2015.\n\nNASA GSFC-STD-7000, Goddard Technical DOD. MIL-STD-881C, Work Breakdown Structure\n Standard: General Environmental Verification (WBS) for Defense Materiel Items. Washington,\n Standard (GEVS) for GSFC Flight Programs and DC, October 3, 2011.\n Projects. Goddard Space Flight Center. April\n 2005 Institute of Electrical and Electronics Engineers\n (IEEE) STD 1220-2005. IEEE Standard for\nDepartment of Defense (DOD). MIL-STD-1540D, Application and Management of the Systems\n Product Verification Requirements for Launch, Engineering Process, Washington, DC, 2005.\n Upper Stage, and Space Vehicles. January 15,\n 1999 Office of Management and Budget (OMB) Circular\n A-94, “Guidelines and Discount Rates for\nSection 5.4 Product Validation Benefit-Cost Analysis of Federal Programs”\nNPD 7120.4, NASA Engineering and Program/ (10/29/1992)\n Project Management Policy\n Joint (cost and schedule) Confidence Level (JCL).\nNPR 7150.2, NASA Software Engineering Frequently asked questions (FAQs) can be found\n Requirements at: http://www.nasa.gov/pdf/394931main_JCL_\n FAQ_10_12_09.pdf\nSection 5.5 Product Transition\n(The) National Environmental Policy Act of 1969 The U. S. Chemical Safety Board (CSB) case study\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. reports on mishaps found at: http://www.csb.gov/\n doe.gov/welcome.html\n Section 6.3 Interface Management\nSection 6.1 Technical Planning NPR 7120.5, NASA Space Flight Program and\nNPR 7120.5, NASA Space Flight Program and Project Management Requirements\n Project Management Requirements\n Section 6.4 Technical Risk Management\nNPD 7120.6, Knowledge Policy on Programs and NPR 8000.4, Agency Risk Management Procedural\n Projects Requirements\n\nNPR 7123.1, NASA Systems Engineering Processes NASA/SP-2010-576, NASA Risk-Informed Decision\n and Requirements Making Handbook\n\nNASA-SP-2010-3403, NASA Schedule Management\n Handbook\n\n\n\n 265",
+          "score": 8.857195607358921,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0093",
+          "page": 93,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nverified and validated against equivalent require- baseline documents (configuration information\nments (including environments) and expectations. such as as-built specifications or stakeholder\nThe savings gained from reuse is not necessarily from expectations); certificates of compliance; or other\nreduced acceptance-level testing of the flight prod- vendor documentation.\nucts, but possibly elimination of the need to fully\nrequalify the item (if all elements are the same, includ- • Product Implementation Work Products: Any\ning the environment and operation), elimination of additional work products providing reports,\nthe need to specify all of the internal requirements records, lesson learned, assumptions, updated CM\nsuch as printed circuit board specifications or mate- products, and other outcomes of these activities.\nrial requirements, reduced internal data products, or\nthe confidence that the item will pass acceptance test The process is complete when the following activities\nand will not require rework. have been accomplished:\n\n\n5.1.1.2.3 Capture Work Products • End products are fabricated, purchased, or reuse\nRegardless of what implementation form was selected, modules are acquired.\nall work products from the make/buy/reuse process\nshould be captured, including as-built design draw- • End products are reviewed, checked, and ready\nings, design documentation, design models, code list- for verification.\nings, model descriptions, procedures used, operator\nmanuals, maintenance manuals, or other documen- • Procedures, decisions, assumptions, anomalies,\ntation as appropriate. corrective actions, lessons learned, etc., resulting\n from the make/buy/reuse are recorded.\n5.1.1.3 Outputs\n• End Product for Verification: Unless the vendor 5.1.2 Product Implementation\n performs verification, the made/coded, purchased, Guidance\n or reused end product in a form appropriate for Refer to Section 5.1.2 in the NASA Expanded\n the life cycle phase is provided for the verification Guidance for Systems Engineering at https://nen.\n process. The form of the end product is a function nasa.gov/web/se/doc-repository for additional guid-\n of the life cycle phase and the placement within ance on:\n the system structure (the form of the end product\n could be hardware, software, model, prototype, • buying off-the-shelf products and\n first article for test, or single operational article or • the need to consider the heritage of products.\n multiple production articles).\n• End Product Documents and Manuals: 5.2 Product Integration\n\n Appropriate documentation is also delivered Product integration is a key activity of the systems\n with the end product to the verification process engineer. Product integration is the engineering of\n and to the technical data management process. the subsystem interactions and their interactions\n Documentation may include applicable as-built with the system environments (both natural and\n design drawings; close out photos; operation, user, induced). Also in this process, lower-level products\n maintenance, or training manuals; applicable are assembled into higher-level products and checked\n\n\n\n 83",
+          "score": 8.68149898660073,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "DOORS \"Systems Engineering Handbook\"",
+      "results": [
+        {
+          "id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "score": 6.21678299976041,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0008",
+          "page": 8,
+          "text": "Preface\n\n\n\n ince the initial writing of NASA/SP-6105 in 1995 The update of this handbook continues the methodol-\nSand the following revision (Rev 1) in 2007, systems ogy of the previous revision: a top-down compatibility\nengineering as a discipline at the National Aeronautics with higher level Agency policy and a bottom-up infu-\nand Space Administration (NASA) has undergone sion of guidance from the NASA practitioners in the\nrapid and continued evolution. Changes include field. This approach provides the opportunity to obtain\nusing Model-Based Systems Engineering to improve best practices from across NASA and bridge the infor-\ndevelopment and delivery of products, and accommo- mation to the established NASA systems engineering\ndating updates to NASA Procedural Requirements processes and to communicate principles of good prac-\n(NPR) 7123.1. Lessons learned on systems engi- tice as well as alternative approaches rather than spec-\nneering were documented in reports such as those ify a particular way to accomplish a task. The result\nby the NASA Integrated Action Team (NIAT), the embodied in this handbook is a top-level implemen-\nColumbia Accident Investigation Board (CAIB), and tation approach on the practice of systems engineer-\nthe follow-on Diaz Report. Other lessons learned were ing unique to NASA. Material used for updating this\ngarnered from the robotic missions such as Genesis handbook has been drawn from many sources, includ-\nand the Mars Reconnaissance Orbiter as well as from ing NPRs, Center systems engineering handbooks and\nmishaps from ground operations and the commercial processes, other Agency best practices, and external\nspace flight industry. Out of these reports came the systems engineering textbooks and guides.\nNASA Office of the Chief Engineer (OCE) initia-\ntive to improve the overall Agency systems engineer- This handbook consists of six chapters: (1) an intro-\ning infrastructure and capability for the efficient and duction, (2) a systems engineering fundamentals dis-\neffective engineering of NASA systems, to produce cussion, (3) the NASA program/project life cycles,\nquality products, and to achieve mission success. This (4) systems engineering processes to get from a con-\nhandbook update is a part of that OCE-sponsored cept to a design, (5) systems engineering processes to\nAgency-wide systems engineering initiative. get from a design to a final product, and (6) crosscut-\n ting management processes in systems engineering.\nIn 1995, SP-6105 was initially published to bring the The chapters are supplemented by appendices that\nfundamental concepts and techniques of systems engi- provide outlines, examples, and further information\nneering to NASA personnel in a way that recognized to illustrate topics in the chapters. The handbook\nthe nature of NASA systems and the NASA environ- makes extensive use of boxes and figures to define,\nment. This revision (Rev 2) of SP-6105 maintains that refine, illustrate, and extend concepts in the chapters.\noriginal philosophy while updating the Agency’s sys-\ntems engineering body of knowledge, providing guid- Finally, it should be noted that this handbook provides\nance for insight into current best Agency practices, top-level guidance for good systems engineering prac-\nand maintaining the alignment of the handbook with tices; it is not intended in any way to be a directive.\nthe Agency’s systems engineering policy.\n NASA/SP-2016-6105 Rev2 supersedes SP-2007-6105 Rev 1\n dated December, 2007.\n\n viii",
+          "score": 6.05659159395452,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 5.945684307156883,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0270",
+          "page": 270,
+          "text": "References Cited\n\n\n\n\n\nThis appendix contains references that were cited in Section 1.1 Purpose\nthe sections of the handbook. NPR 7123.1. Systems Engineering Processes and\n Requirements\nPreface\nNPR 7123.1, Systems Engineering Processes and Section 1.2 Scope and Depth\n Requirements NASA Office of Chief Information Officer (OCIO),\n Information Technology Systems Engineering\nNASA Chief Engineer and the NASA Integrated Handbook Version 2.0\n Action Team (NIAT) report, Enhancing Mission\n Success – A Framework for the Future, December NASA-HDBK-2203, NASA Software Engineering\n 21, 2000. Authors: McBrayer, Robert O and Handbook (February 28, 2013)\n Thomas, Dale, NASA Marshall Space Flight\n Center, Huntsville, AL United States. Section 2.0 Fundamentals of Systems\n Engineering\nNASA. Columbia Accident Investigation Board NPR 7120.5, NASA Space Flight Program and\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. Project Management Requirements\n http://www.nasa.gov/columbia/caib/html/report.\n html NPR 7120.7, NASA Information Technology and\n Institutional Infrastructure Program and Project\nNASA. Diaz Report,A Renewed Commitment to Management Requirements\n Excellence: An Assessment of the NASA Agency-\n wide Applicability of the Columbia Accident NPR 7120.8, NASA Research and Technology\n Investigation Board Report, January 30, 2004. Program and Project Management\n Mr. Al Diaz, Director, Goddard Space Flight Requirements\n Center, and team.\n NPR 7123.1, NASA Systems Engineering Processes\nInternational Organization for Standardization and Requirements\n (ISO) 9000:2015, Quality management sys -\n tems – Fundamentals and vocabulary. Geneva: NASA Engineering Network (NEN) Systems\n International Organization for Standardization, Engineering Community of Practice (SECoP),\n 2015. located at https://nen.nasa.gov/web/se\n\n Griffin, Michael D., NASA Administrator.\n “System Engineering and the Two Cultures\n\n\n\n 260",
+          "score": 5.621076324445694,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0271",
+          "page": 271,
+          "text": " References Cited\n\n\n\n\n\n of Engineering.” Boeing Lecture, Purdue NPR 7123.1, NASA Systems Engineering Processes\n University, March 28, 2007. and Requirements\n\nRechtin, Eberhardt. Systems Architecting of Section 3.0 NASA Program/Project Life\n Organizations: Why Eagles Can’t Swim. Boca Cycle\n Raton: CRC Press, 2000. NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.1 The Common Technical\nProcesses and the SE Engine NPR 7120.8, NASA Research and Technology\nNPR 7123.1, NASA Systems Engineering Processes Program and Project Management\n and Requirements Requirements\n\nSociety of Automotive Engineers (SAE) and the NASA Office of the Chief Information Officer\n European Association of Aerospace Industries (OCIO), Information Technology Systems\n (EAAI). AS9100C Quality Management Systems Engineering Handbook Version 2.0\n (QMS) – Requirements for Aviation, Space, and\n Defense Organizations Revision C: January 15, NASA/SP-2014-3705, NASA Space Flight Program\n 2009. and Project Management Handbook\n\nSection 2.3 Example of Using the SE Section 3.1 Program Formulation\nEngine NPR 7120.5, NASA Space Flight Program and\nNPD 1001.0, 2006 NASA Strategic Plan Project Management Requirements\n\nNPR 7120.5, NASA Space Flight Program and NPR 7120.7, NASA Information Technology and\n Project Management Requirements Institutional Infrastructure Program and Project\n Management Requirements\nSection 2.5 Cost Effectiveness\nConsiderations NPR 7120.8, NASA Research and Technology\nDepartment of Defense (DOD) Defense Acquisition Program and Project Management\n University (DAU). Systems Engineering Requirements\n Fundamentals Guide. Fort Belvoir, VA, 2001.\n NPR 7123.1, NASA Systems Engineering Processes\nINCOSE-TP-2003-002-04, Systems Engineering and Requirements\n Handbook: A Guide for System Life Cycle Processes\n and Activities, Version 4, edited by Walden, Section 3.2 Program Implementation\n David D., et al., 2015 NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.6 Human Systems Integration\n(HSI) in the SE Process NPR 7123.1, NASA Systems Engineering Processes\nNPR 7120.5, NASA Space Flight Program and and Requirements\n Project Management Requirements\n\n\n\n 261",
+          "score": 5.506210308364422,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0279",
+          "page": 279,
+          "text": " References Cited\n\n\n\n\n\nAppendix N: Guidance on Technical Peer NASA Langley Research Center (LaRC) Guidance\nReviews/Inspections on System and Software Metrics for Performance-\nNPR 7123.1, Systems Engineering Processes and Based Contracting sites-e.larc.nasa.gov/sweng/\n Requirements files/2013/05/Guidance_on_Metrics_for_PBC_\n R1V01.doc\nNPR 7150.2, NASA Software Engineering\n Requirements Appendix R: HSI Plan Content Outline\n NPR 7123.1, NASA Systems Engineering Processes\nNASA Langley Research Center (LARC), and Requirements\n Instructional Handbook for Formal Inspections.\n http://sw-eng.larc.nasa.gov/files/2013/05/ NPR 8705.2, Human-Rating Requirements for\n Instructional-Handbook-for-Formal-Inspections. Space Systems\n pdf\n NASA-STD-3001, Space Flight Human-System\nAppendix P: SOW Review Checklist Standard, Volume 2: Human Factors,\nNASA Langley Research Center (LaRC) Procedural Habitability, and Environmental Health,\n Requirements (LPR) 5000.2 Procurement Section 3.5 [V2 3005], “Human-Centered\n Initiator’s Guide Design Process.” February 10, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 269",
+          "score": 5.376440772396553,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0275",
+          "page": 275,
+          "text": " References Cited\n\n\n\n\n\nNPR 8705.4, Risk Classification for NASA Payloads NASA-SP-2010-3404, NASA Work Breakdown\n Structure Handbook\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, NASA Cost Estimating Handbook (CEH), Version 4,\n 2013 Februar y 2015.\n\nNASA GSFC-STD-7000, Goddard Technical DOD. MIL-STD-881C, Work Breakdown Structure\n Standard: General Environmental Verification (WBS) for Defense Materiel Items. Washington,\n Standard (GEVS) for GSFC Flight Programs and DC, October 3, 2011.\n Projects. Goddard Space Flight Center. April\n 2005 Institute of Electrical and Electronics Engineers\n (IEEE) STD 1220-2005. IEEE Standard for\nDepartment of Defense (DOD). MIL-STD-1540D, Application and Management of the Systems\n Product Verification Requirements for Launch, Engineering Process, Washington, DC, 2005.\n Upper Stage, and Space Vehicles. January 15,\n 1999 Office of Management and Budget (OMB) Circular\n A-94, “Guidelines and Discount Rates for\nSection 5.4 Product Validation Benefit-Cost Analysis of Federal Programs”\nNPD 7120.4, NASA Engineering and Program/ (10/29/1992)\n Project Management Policy\n Joint (cost and schedule) Confidence Level (JCL).\nNPR 7150.2, NASA Software Engineering Frequently asked questions (FAQs) can be found\n Requirements at: http://www.nasa.gov/pdf/394931main_JCL_\n FAQ_10_12_09.pdf\nSection 5.5 Product Transition\n(The) National Environmental Policy Act of 1969 The U. S. Chemical Safety Board (CSB) case study\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. reports on mishaps found at: http://www.csb.gov/\n doe.gov/welcome.html\n Section 6.3 Interface Management\nSection 6.1 Technical Planning NPR 7120.5, NASA Space Flight Program and\nNPR 7120.5, NASA Space Flight Program and Project Management Requirements\n Project Management Requirements\n Section 6.4 Technical Risk Management\nNPD 7120.6, Knowledge Policy on Programs and NPR 8000.4, Agency Risk Management Procedural\n Projects Requirements\n\nNPR 7123.1, NASA Systems Engineering Processes NASA/SP-2010-576, NASA Risk-Informed Decision\n and Requirements Making Handbook\n\nNASA-SP-2010-3403, NASA Schedule Management\n Handbook\n\n\n\n 265",
+          "score": 5.351277199691993,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0008",
+          "page": 8,
+          "text": "Preface\n\n\n\n ince the initial writing of NASA/SP-6105 in 1995 The update of this handbook continues the methodol-\nSand the following revision (Rev 1) in 2007, systems ogy of the previous revision: a top-down compatibility\nengineering as a discipline at the National Aeronautics with higher level Agency policy and a bottom-up infu-\nand Space Administration (NASA) has undergone sion of guidance from the NASA practitioners in the\nrapid and continued evolution. Changes include field. This approach provides the opportunity to obtain\nusing Model-Based Systems Engineering to improve best practices from across NASA and bridge the infor-\ndevelopment and delivery of products, and accommo- mation to the established NASA systems engineering\ndating updates to NASA Procedural Requirements processes and to communicate principles of good prac-\n(NPR) 7123.1. Lessons learned on systems engi- tice as well as alternative approaches rather than spec-\nneering were documented in reports such as those ify a particular way to accomplish a task. The result\nby the NASA Integrated Action Team (NIAT), the embodied in this handbook is a top-level implemen-\nColumbia Accident Investigation Board (CAIB), and tation approach on the practice of systems engineer-\nthe follow-on Diaz Report. Other lessons learned were ing unique to NASA. Material used for updating this\ngarnered from the robotic missions such as Genesis handbook has been drawn from many sources, includ-\nand the Mars Reconnaissance Orbiter as well as from ing NPRs, Center systems engineering handbooks and\nmishaps from ground operations and the commercial processes, other Agency best practices, and external\nspace flight industry. Out of these reports came the systems engineering textbooks and guides.\nNASA Office of the Chief Engineer (OCE) initia-\ntive to improve the overall Agency systems engineer- This handbook consists of six chapters: (1) an intro-\ning infrastructure and capability for the efficient and duction, (2) a systems engineering fundamentals dis-\neffective engineering of NASA systems, to produce cussion, (3) the NASA program/project life cycles,\nquality products, and to achieve mission success. This (4) systems engineering processes to get from a con-\nhandbook update is a part of that OCE-sponsored cept to a design, (5) systems engineering processes to\nAgency-wide systems engineering initiative. get from a design to a final product, and (6) crosscut-\n ting management processes in systems engineering.\nIn 1995, SP-6105 was initially published to bring the The chapters are supplemented by appendices that\nfundamental concepts and techniques of systems engi- provide outlines, examples, and further information\nneering to NASA personnel in a way that recognized to illustrate topics in the chapters. The handbook\nthe nature of NASA systems and the NASA environ- makes extensive use of boxes and figures to define,\nment. This revision (Rev 2) of SP-6105 maintains that refine, illustrate, and extend concepts in the chapters.\noriginal philosophy while updating the Agency’s sys-\ntems engineering body of knowledge, providing guid- Finally, it should be noted that this handbook provides\nance for insight into current best Agency practices, top-level guidance for good systems engineering prac-\nand maintaining the alignment of the handbook with tices; it is not intended in any way to be a directive.\nthe Agency’s systems engineering policy.\n NASA/SP-2016-6105 Rev2 supersedes SP-2007-6105 Rev 1\n dated December, 2007.\n\n viii",
+          "image_path": "data/local/advanced/pages/p0008_2000.png",
+          "image_sha256": "9f5b4adae9b395435f92a5c807e073c336860bfbe10c14cccbe842e5eb2abc73"
+        },
+        {
+          "source_id": "NASA-SE:p0148",
+          "page": 148,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Approved interface requirement changes. After 6.4 Technical Risk Management\n the interface requirements have been baselined, The Technical Risk Management Process is one of\n the Requirements Management Process should the crosscutting technical management processes.\n be used to identify the need for changes, eval- Risk is the potential for performance shortfalls,\n uate the impact of the proposed change, docu- which may be realized in the future, with respect\n ment the final approval/disapproval, and update to achieving explicitly established and stated per-\n the requirements documentation/tool/database. formance requirements. The performance shortfalls\n For interfaces that require approval from all may be related to institutional support for mission\n sides, unanimous approval is required. Changing execution or related to any one or more of the follow-\n interface requirements late in the design or ing mission execution domains:\n implementation life cycle is more likely to have a\n significant impact on the cost, schedule, or tech- • safety\n nical design/operations. • technical\n • cost\n• Other work products. These work products • schedule\n include the strategy and procedures for con-\n ducting interface management, the rationale for Systems engineers are involved in this process to help\n interface decisions made, the assumption made identify potential technical risks, develop mitigation\n in approving or denying an interface change, plans, monitor progress of the technical effort to deter-\n the actions taken to correct identified interface mine if new risks arise or old risks can be retired, and\n anomalies, the lessons learned in performing the to be available to answer questions and resolve issues.\n interface management activities, and the updated The following is guidance in implementation of risk\n support and interface agreement documentation. management in general. Thus, when implementing\n risk management on any given program/project, the\n6.3.2 Interface Management Guidance responsible systems engineer should direct the effort\nRefer to Section 6.3.2 in the NASA Expanded accordingly. This may involve more or less rigor and\nGuidance for Systems Engineering at https://nen.nasa. formality than that specified in governing docu-\ngov/web/se/doc-repository for additional guidance on: ments such as NPRs. Of course, if deviating from\n NPR “requirements,” the responsible engineer must\n• interface requirements documents, follow the deviation approval process. The idea is to\n• interface control documents, tailor the risk management process so that it meets\n• interface control drawings, the needs of the individual program/project being\n• interface definition documents, executed while working within the bounds of the\n• the interface control plans, and governing documentation (e.g., NPRs). For detailed\n• interface management tasks. information on the Risk Management Process, refer\n to the NASA Risk Management Handbook (NASA/\n SP-2011-3422).\n\n\n\n\n\n\n\n\n 138",
+          "image_path": "data/local/advanced/pages/p0148_2000.png",
+          "image_sha256": "9877185bdf1876d6b024b8032d1e5b2b1e4f689b8fa9ca23db7b3a6d73376377"
+        },
+        {
+          "source_id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "image_path": "data/local/advanced/pages/p0011_2000.png",
+          "image_sha256": "57de438c67cb229483ad2b1b0f58eb684f2734b5b93b179df316c8bf2d3f45ba"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"requirements\" \"tool\" \"database\" \"shall\" \"NASA\" \"Systems Engineering Handbook\"",
+      "results": [
+        {
+          "id": "NASA-SE:p0148",
+          "page": 148,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Approved interface requirement changes. After 6.4 Technical Risk Management\n the interface requirements have been baselined, The Technical Risk Management Process is one of\n the Requirements Management Process should the crosscutting technical management processes.\n be used to identify the need for changes, eval- Risk is the potential for performance shortfalls,\n uate the impact of the proposed change, docu- which may be realized in the future, with respect\n ment the final approval/disapproval, and update to achieving explicitly established and stated per-\n the requirements documentation/tool/database. formance requirements. The performance shortfalls\n For interfaces that require approval from all may be related to institutional support for mission\n sides, unanimous approval is required. Changing execution or related to any one or more of the follow-\n interface requirements late in the design or ing mission execution domains:\n implementation life cycle is more likely to have a\n significant impact on the cost, schedule, or tech- • safety\n nical design/operations. • technical\n • cost\n• Other work products. These work products • schedule\n include the strategy and procedures for con-\n ducting interface management, the rationale for Systems engineers are involved in this process to help\n interface decisions made, the assumption made identify potential technical risks, develop mitigation\n in approving or denying an interface change, plans, monitor progress of the technical effort to deter-\n the actions taken to correct identified interface mine if new risks arise or old risks can be retired, and\n anomalies, the lessons learned in performing the to be available to answer questions and resolve issues.\n interface management activities, and the updated The following is guidance in implementation of risk\n support and interface agreement documentation. management in general. Thus, when implementing\n risk management on any given program/project, the\n6.3.2 Interface Management Guidance responsible systems engineer should direct the effort\nRefer to Section 6.3.2 in the NASA Expanded accordingly. This may involve more or less rigor and\nGuidance for Systems Engineering at https://nen.nasa. formality than that specified in governing docu-\ngov/web/se/doc-repository for additional guidance on: ments such as NPRs. Of course, if deviating from\n NPR “requirements,” the responsible engineer must\n• interface requirements documents, follow the deviation approval process. The idea is to\n• interface control documents, tailor the risk management process so that it meets\n• interface control drawings, the needs of the individual program/project being\n• interface definition documents, executed while working within the bounds of the\n• the interface control plans, and governing documentation (e.g., NPRs). For detailed\n• interface management tasks. information on the Risk Management Process, refer\n to the NASA Risk Management Handbook (NASA/\n SP-2011-3422).\n\n\n\n\n\n\n\n\n 138",
+          "score": 11.374850198247675,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "score": 8.146429960877668,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 7.969182136389673,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0270",
+          "page": 270,
+          "text": "References Cited\n\n\n\n\n\nThis appendix contains references that were cited in Section 1.1 Purpose\nthe sections of the handbook. NPR 7123.1. Systems Engineering Processes and\n Requirements\nPreface\nNPR 7123.1, Systems Engineering Processes and Section 1.2 Scope and Depth\n Requirements NASA Office of Chief Information Officer (OCIO),\n Information Technology Systems Engineering\nNASA Chief Engineer and the NASA Integrated Handbook Version 2.0\n Action Team (NIAT) report, Enhancing Mission\n Success – A Framework for the Future, December NASA-HDBK-2203, NASA Software Engineering\n 21, 2000. Authors: McBrayer, Robert O and Handbook (February 28, 2013)\n Thomas, Dale, NASA Marshall Space Flight\n Center, Huntsville, AL United States. Section 2.0 Fundamentals of Systems\n Engineering\nNASA. Columbia Accident Investigation Board NPR 7120.5, NASA Space Flight Program and\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. Project Management Requirements\n http://www.nasa.gov/columbia/caib/html/report.\n html NPR 7120.7, NASA Information Technology and\n Institutional Infrastructure Program and Project\nNASA. Diaz Report,A Renewed Commitment to Management Requirements\n Excellence: An Assessment of the NASA Agency-\n wide Applicability of the Columbia Accident NPR 7120.8, NASA Research and Technology\n Investigation Board Report, January 30, 2004. Program and Project Management\n Mr. Al Diaz, Director, Goddard Space Flight Requirements\n Center, and team.\n NPR 7123.1, NASA Systems Engineering Processes\nInternational Organization for Standardization and Requirements\n (ISO) 9000:2015, Quality management sys -\n tems – Fundamentals and vocabulary. Geneva: NASA Engineering Network (NEN) Systems\n International Organization for Standardization, Engineering Community of Practice (SECoP),\n 2015. located at https://nen.nasa.gov/web/se\n\n Griffin, Michael D., NASA Administrator.\n “System Engineering and the Two Cultures\n\n\n\n 260",
+          "score": 7.952485766275991,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.915420218618968,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0271",
+          "page": 271,
+          "text": " References Cited\n\n\n\n\n\n of Engineering.” Boeing Lecture, Purdue NPR 7123.1, NASA Systems Engineering Processes\n University, March 28, 2007. and Requirements\n\nRechtin, Eberhardt. Systems Architecting of Section 3.0 NASA Program/Project Life\n Organizations: Why Eagles Can’t Swim. Boca Cycle\n Raton: CRC Press, 2000. NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.1 The Common Technical\nProcesses and the SE Engine NPR 7120.8, NASA Research and Technology\nNPR 7123.1, NASA Systems Engineering Processes Program and Project Management\n and Requirements Requirements\n\nSociety of Automotive Engineers (SAE) and the NASA Office of the Chief Information Officer\n European Association of Aerospace Industries (OCIO), Information Technology Systems\n (EAAI). AS9100C Quality Management Systems Engineering Handbook Version 2.0\n (QMS) – Requirements for Aviation, Space, and\n Defense Organizations Revision C: January 15, NASA/SP-2014-3705, NASA Space Flight Program\n 2009. and Project Management Handbook\n\nSection 2.3 Example of Using the SE Section 3.1 Program Formulation\nEngine NPR 7120.5, NASA Space Flight Program and\nNPD 1001.0, 2006 NASA Strategic Plan Project Management Requirements\n\nNPR 7120.5, NASA Space Flight Program and NPR 7120.7, NASA Information Technology and\n Project Management Requirements Institutional Infrastructure Program and Project\n Management Requirements\nSection 2.5 Cost Effectiveness\nConsiderations NPR 7120.8, NASA Research and Technology\nDepartment of Defense (DOD) Defense Acquisition Program and Project Management\n University (DAU). Systems Engineering Requirements\n Fundamentals Guide. Fort Belvoir, VA, 2001.\n NPR 7123.1, NASA Systems Engineering Processes\nINCOSE-TP-2003-002-04, Systems Engineering and Requirements\n Handbook: A Guide for System Life Cycle Processes\n and Activities, Version 4, edited by Walden, Section 3.2 Program Implementation\n David D., et al., 2015 NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nSection 2.6 Human Systems Integration\n(HSI) in the SE Process NPR 7123.1, NASA Systems Engineering Processes\nNPR 7120.5, NASA Space Flight Program and and Requirements\n Project Management Requirements\n\n\n\n 261",
+          "score": 7.881794282423733,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0008",
+          "page": 8,
+          "text": "Preface\n\n\n\n ince the initial writing of NASA/SP-6105 in 1995 The update of this handbook continues the methodol-\nSand the following revision (Rev 1) in 2007, systems ogy of the previous revision: a top-down compatibility\nengineering as a discipline at the National Aeronautics with higher level Agency policy and a bottom-up infu-\nand Space Administration (NASA) has undergone sion of guidance from the NASA practitioners in the\nrapid and continued evolution. Changes include field. This approach provides the opportunity to obtain\nusing Model-Based Systems Engineering to improve best practices from across NASA and bridge the infor-\ndevelopment and delivery of products, and accommo- mation to the established NASA systems engineering\ndating updates to NASA Procedural Requirements processes and to communicate principles of good prac-\n(NPR) 7123.1. Lessons learned on systems engi- tice as well as alternative approaches rather than spec-\nneering were documented in reports such as those ify a particular way to accomplish a task. The result\nby the NASA Integrated Action Team (NIAT), the embodied in this handbook is a top-level implemen-\nColumbia Accident Investigation Board (CAIB), and tation approach on the practice of systems engineer-\nthe follow-on Diaz Report. Other lessons learned were ing unique to NASA. Material used for updating this\ngarnered from the robotic missions such as Genesis handbook has been drawn from many sources, includ-\nand the Mars Reconnaissance Orbiter as well as from ing NPRs, Center systems engineering handbooks and\nmishaps from ground operations and the commercial processes, other Agency best practices, and external\nspace flight industry. Out of these reports came the systems engineering textbooks and guides.\nNASA Office of the Chief Engineer (OCE) initia-\ntive to improve the overall Agency systems engineer- This handbook consists of six chapters: (1) an intro-\ning infrastructure and capability for the efficient and duction, (2) a systems engineering fundamentals dis-\neffective engineering of NASA systems, to produce cussion, (3) the NASA program/project life cycles,\nquality products, and to achieve mission success. This (4) systems engineering processes to get from a con-\nhandbook update is a part of that OCE-sponsored cept to a design, (5) systems engineering processes to\nAgency-wide systems engineering initiative. get from a design to a final product, and (6) crosscut-\n ting management processes in systems engineering.\nIn 1995, SP-6105 was initially published to bring the The chapters are supplemented by appendices that\nfundamental concepts and techniques of systems engi- provide outlines, examples, and further information\nneering to NASA personnel in a way that recognized to illustrate topics in the chapters. The handbook\nthe nature of NASA systems and the NASA environ- makes extensive use of boxes and figures to define,\nment. This revision (Rev 2) of SP-6105 maintains that refine, illustrate, and extend concepts in the chapters.\noriginal philosophy while updating the Agency’s sys-\ntems engineering body of knowledge, providing guid- Finally, it should be noted that this handbook provides\nance for insight into current best Agency practices, top-level guidance for good systems engineering prac-\nand maintaining the alignment of the handbook with tices; it is not intended in any way to be a directive.\nthe Agency’s systems engineering policy.\n NASA/SP-2016-6105 Rev2 supersedes SP-2007-6105 Rev 1\n dated December, 2007.\n\n viii",
+          "score": 7.879148185098142,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0008",
+          "page": 8,
+          "text": "Preface\n\n\n\n ince the initial writing of NASA/SP-6105 in 1995 The update of this handbook continues the methodol-\nSand the following revision (Rev 1) in 2007, systems ogy of the previous revision: a top-down compatibility\nengineering as a discipline at the National Aeronautics with higher level Agency policy and a bottom-up infu-\nand Space Administration (NASA) has undergone sion of guidance from the NASA practitioners in the\nrapid and continued evolution. Changes include field. This approach provides the opportunity to obtain\nusing Model-Based Systems Engineering to improve best practices from across NASA and bridge the infor-\ndevelopment and delivery of products, and accommo- mation to the established NASA systems engineering\ndating updates to NASA Procedural Requirements processes and to communicate principles of good prac-\n(NPR) 7123.1. Lessons learned on systems engi- tice as well as alternative approaches rather than spec-\nneering were documented in reports such as those ify a particular way to accomplish a task. The result\nby the NASA Integrated Action Team (NIAT), the embodied in this handbook is a top-level implemen-\nColumbia Accident Investigation Board (CAIB), and tation approach on the practice of systems engineer-\nthe follow-on Diaz Report. Other lessons learned were ing unique to NASA. Material used for updating this\ngarnered from the robotic missions such as Genesis handbook has been drawn from many sources, includ-\nand the Mars Reconnaissance Orbiter as well as from ing NPRs, Center systems engineering handbooks and\nmishaps from ground operations and the commercial processes, other Agency best practices, and external\nspace flight industry. Out of these reports came the systems engineering textbooks and guides.\nNASA Office of the Chief Engineer (OCE) initia-\ntive to improve the overall Agency systems engineer- This handbook consists of six chapters: (1) an intro-\ning infrastructure and capability for the efficient and duction, (2) a systems engineering fundamentals dis-\neffective engineering of NASA systems, to produce cussion, (3) the NASA program/project life cycles,\nquality products, and to achieve mission success. This (4) systems engineering processes to get from a con-\nhandbook update is a part of that OCE-sponsored cept to a design, (5) systems engineering processes to\nAgency-wide systems engineering initiative. get from a design to a final product, and (6) crosscut-\n ting management processes in systems engineering.\nIn 1995, SP-6105 was initially published to bring the The chapters are supplemented by appendices that\nfundamental concepts and techniques of systems engi- provide outlines, examples, and further information\nneering to NASA personnel in a way that recognized to illustrate topics in the chapters. The handbook\nthe nature of NASA systems and the NASA environ- makes extensive use of boxes and figures to define,\nment. This revision (Rev 2) of SP-6105 maintains that refine, illustrate, and extend concepts in the chapters.\noriginal philosophy while updating the Agency’s sys-\ntems engineering body of knowledge, providing guid- Finally, it should be noted that this handbook provides\nance for insight into current best Agency practices, top-level guidance for good systems engineering prac-\nand maintaining the alignment of the handbook with tices; it is not intended in any way to be a directive.\nthe Agency’s systems engineering policy.\n NASA/SP-2016-6105 Rev2 supersedes SP-2007-6105 Rev 1\n dated December, 2007.\n\n viii",
+          "image_sha256": "9f5b4adae9b395435f92a5c807e073c336860bfbe10c14cccbe842e5eb2abc73"
+        },
+        {
+          "source_id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "image_sha256": "57de438c67cb229483ad2b1b0f58eb684f2734b5b93b179df316c8bf2d3f45ba"
+        },
+        {
+          "source_id": "NASA-SE:p0148",
+          "page": 148,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Approved interface requirement changes. After 6.4 Technical Risk Management\n the interface requirements have been baselined, The Technical Risk Management Process is one of\n the Requirements Management Process should the crosscutting technical management processes.\n be used to identify the need for changes, eval- Risk is the potential for performance shortfalls,\n uate the impact of the proposed change, docu- which may be realized in the future, with respect\n ment the final approval/disapproval, and update to achieving explicitly established and stated per-\n the requirements documentation/tool/database. formance requirements. The performance shortfalls\n For interfaces that require approval from all may be related to institutional support for mission\n sides, unanimous approval is required. Changing execution or related to any one or more of the follow-\n interface requirements late in the design or ing mission execution domains:\n implementation life cycle is more likely to have a\n significant impact on the cost, schedule, or tech- • safety\n nical design/operations. • technical\n • cost\n• Other work products. These work products • schedule\n include the strategy and procedures for con-\n ducting interface management, the rationale for Systems engineers are involved in this process to help\n interface decisions made, the assumption made identify potential technical risks, develop mitigation\n in approving or denying an interface change, plans, monitor progress of the technical effort to deter-\n the actions taken to correct identified interface mine if new risks arise or old risks can be retired, and\n anomalies, the lessons learned in performing the to be available to answer questions and resolve issues.\n interface management activities, and the updated The following is guidance in implementation of risk\n support and interface agreement documentation. management in general. Thus, when implementing\n risk management on any given program/project, the\n6.3.2 Interface Management Guidance responsible systems engineer should direct the effort\nRefer to Section 6.3.2 in the NASA Expanded accordingly. This may involve more or less rigor and\nGuidance for Systems Engineering at https://nen.nasa. formality than that specified in governing docu-\ngov/web/se/doc-repository for additional guidance on: ments such as NPRs. Of course, if deviating from\n NPR “requirements,” the responsible engineer must\n• interface requirements documents, follow the deviation approval process. The idea is to\n• interface control documents, tailor the risk management process so that it meets\n• interface control drawings, the needs of the individual program/project being\n• interface definition documents, executed while working within the bounds of the\n• the interface control plans, and governing documentation (e.g., NPRs). For detailed\n• interface management tasks. information on the Risk Management Process, refer\n to the NASA Risk Management Handbook (NASA/\n SP-2011-3422).\n\n\n\n\n\n\n\n\n 138",
+          "image_sha256": "9877185bdf1876d6b024b8032d1e5b2b1e4f689b8fa9ca23db7b3a6d73376377"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "None—the NASA Systems Engineering Handbook does not require NASA projects to buy requirements-management software from any single vendor; it is “not intended in any way to be a directive” and refers only generically to updating a “requirements documentation/tool/database” without naming any vendor.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0008",
+                "locator": "Preface, last paragraph (page viii)",
+                "evidence": "“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”"
+              },
+              {
+                "source_id": "NASA-SE:p0148",
+                "locator": "Section 6.0, bullet “Approved interface requirement changes” (page 138)",
+                "evidence": "“…update the requirements documentation/tool/database.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    8,
+    11,
+    148
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "No vendor is required: the NASA Systems Engineering Handbook is “not intended in any way to be a directive” and presents “alternative approaches rather than specify a particular way to accomplish a task,” and it refers only generically to updating “requirements documentation/tool/database” (no vendor named).",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0008",
+            "locator": "Preface, right column, last paragraph",
+            "evidence": "“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”"
+          },
+          {
+            "source_id": "NASA-SE:p0008",
+            "locator": "Preface, right column, first paragraph",
+            "evidence": "“communicate principles of good practice as well as alternative approaches rather than specify a particular way to accomplish a task.”"
+          },
+          {
+            "source_id": "NASA-SE:p0148",
+            "locator": "Section 6.3.2, bullet “Approved interface requirement changes”",
+            "evidence": "“update the requirements documentation/tool/database.”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "None—the NASA Systems Engineering Handbook does not require NASA projects to buy requirements-management software from any single vendor; it is “not intended in any way to be a directive” and refers only generically to updating a “requirements documentation/tool/database” without naming any vendor.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0008",
+          "locator": "Preface, last paragraph (page viii)",
+          "evidence": "“this handbook provides top-level guidance for good systems engineering practices; it is not intended in any way to be a directive.”"
+        },
+        {
+          "source_id": "NASA-SE:p0148",
+          "locator": "Section 6.0, bullet “Approved interface requirement changes” (page 138)",
+          "evidence": "“…update the requirements documentation/tool/database.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 50934.27
+}

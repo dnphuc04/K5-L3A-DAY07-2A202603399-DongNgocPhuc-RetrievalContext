@@ -1,0 +1,288 @@
+{
+  "id": "ADV-TEST-22",
+  "split": "test",
+  "question": "In Methods of Validation, which method is identified as most resource-intensive, and does it validate stakeholder expectations or merely verify requirements?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4JRzeDNrCeBfNoWaiYdInlMXB2p",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 572,
+        "completion_tokens": 10,
+        "total_tokens": 582,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 719.33,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_46TR87nHIJYpvk8phazwVKgr",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Methods of Validation most resource-intensive\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4JSH38vh03m2KzN5EvVRpEV5Pyy",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5325,
+        "completion_tokens": 20,
+        "total_tokens": 5345,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1216.49,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_elAppQJAuXMLhTIvNiSZSI9x",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0111\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4JVrpIibXfDIAQpHkZwe5T3i0wQ",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6846,
+        "completion_tokens": 172,
+        "total_tokens": 7018,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3102.06,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_XE7UUjE5D2SV3MFCRqXWQbNd",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phương pháp kiểm tra (Test) là phương pháp xác nhận tốn nhiều nguồn lực nhất và nó dùng để xác nhận các kỳ vọng của các bên liên quan (stakeholder expectations), không chỉ đơn thuần xác minh yêu cầu.\",\"citations\":[{\"source_id\":\"NASA-SE:p0111\",\"locator\":\"METHODS OF VALIDATION table, Test row\",\"evidence\":\"Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique.\"},{\"source_id\":\"NASA-SE:p0111\",\"locator\":\"METHODS OF VALIDATION table, Demonstration row\",\"evidence\":\"Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined in the NGOs and the ConOps.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "stage": "source_verification",
+      "response_id": "chatcmpl-Ek4JYvrR90bxKi3OVhQmxKvjL24FV",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 1902,
+        "completion_tokens": 107,
+        "total_tokens": 2009,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2346.04,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_eyx1fjzIbdZ8Ceq8aNqbcbRe",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Phương pháp kiểm tra (Test) là phương pháp xác nhận tốn nhiều nguồn lực nhất và nó dùng để xác nhận các kỳ vọng của các bên liên quan, không chỉ đơn thuần xác minh yêu cầu.\",\"citations\":[{\"source_id\":\"NASA-SE:p0111\",\"locator\":\"METHODS OF VALIDATION table, Test row\",\"evidence\":\"Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Methods of Validation, which method is identified as most resource-intensive, and does it validate stakeholder expectations or merely verify requirements?",
+      "results": [
+        {
+          "id": "NASA-SE:p0111",
+          "page": 111,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n• To ensure the human has been properly integrated • To ensure that any problems discovered are\n into the system: appropriately resolved prior to delivery of the end\n product (if validation is done by the supplier of\n » The user interface meets human engineering the product) or prior to integration with other\n criteria. products into a higher level assembled product (if\n » Operators and maintainers have the required validation is done by the receiver of the product).\n skills and abilities.\n » Instructions are provided and training pro- 5.4.1.2.1 Product Validation Preparation\n grams are in place. To prepare for performing product validation, the\n » The working environment supports crew appropriate set of expectations, including MOEs and\n health and safety. MOPs, against which the validation is to be made\n\n\n\n METHODS OF VALIDATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of\n a model.\n\n\n Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined\n in the NGOs and the ConOps. It is generally a basic confirmation of behavioral capability, differentiated\n from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models\n or mock-ups; for example, an expectation that controls are readable by the pilot in low light conditions\n could be validated by having a pilot perform flight-related tasks in a cockpit mock-up or simulator under\n those conditions.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to validate the\n presence of a physical design features or specific manufacturer identification. For example, if there is an\n expectation that the safety arming pin has a red flag with the words “Remove Before Flight” stenciled on the\n flag in black letters, a visual inspection of the arming pin flag can be used to determine if this expectation\n has been met.\n\n\n Test: The use of an end product to obtain detailed data needed to determine a behavior, or provide\n sufficient information to determine a behavior through further analysis. Testing can be conducted on\n final end products, breadboards, brassboards, or prototypes. Testing produces information at discrete\n points for each specified expectation under controlled conditions and is the most resource-intensive\n validation technique.\n\n\n\n\n 101",
+          "score": 24.11743078584274,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0103",
+          "page": 103,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n METHODS OF VERIFICATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of a\n model. Analysis can include verification by similarity of a heritage product.\n\n\n Demonstration: Showing that the use of an end product achieves the individual specified requirement.\n It is generally a basic confirmation of performance capability, differentiated from testing by the lack of\n detailed data gathering. Demonstrations can involve the use of physical models or mock-ups; for example,\n a requirement that all controls shall be reachable by the pilot could be verified by having a pilot perform\n flight-related tasks in a cockpit mock-up or simulator. A demonstration could also be the actual operation\n of the end product by highly qualified personnel, such as test pilots, who perform a one-time event that\n demonstrates a capability to operate at extreme limits of system performance, an operation not normally\n expected from a representative operational pilot.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to verify physical\n design features or specific manufacturer identification. For example, if there is a requirement that the safety\n arming pin has a red flag with the words “Remove Before Flight” stenciled on the flag in black letters, a\n visual inspection of the arming pin flag can be used to determine if this requirement was met. Inspection can\n include inspection of drawings, documents, or other records.\n\n\n Test: The use of an end product to obtain detailed data needed to verify performance or provide sufficient\n information to verify performance through further analysis. Testing can be conducted on final end products,\n breadboards, brassboards, or prototypes. Testing produces data at discrete points for each specified\n requirement under controlled conditions and is the most resource-intensive verification technique. As the\n saying goes, “Test as you fly, and fly as you test.” (See Section 5.3.2.5 in the NASA Expanded Guidance for\n Systems Engineering at https://nen.nasa.gov/web/se/doc-repository)\n\n\n\nOutcomes of verification preparation include the • Articles/models to be verified and verification-en-\nfollowing: abling products are on hand, assembled, and\n integrated with the verification environment\n• The verification plan, approved procedures, and according to verification plans and schedules;\n an appropriate baseline set of specified require-\n ments and supporting configuration documenta- • The resources (funding, facilities, and people\n tion is available and on hand; including appropriately skilled operators) needed\n\n\n\n 93",
+          "score": 20.986742567303907,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0083",
+          "page": 83,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\ncan cover the components of a subsystem down to products should be consistent with each other and\nthe level appropriate for verifying the design against will require iterations and design decisions to achieve\nthe requirements. Concerns raised at the peer this consistency. Once consistency is achieved, func-\nreview might have implications on the power sub- tional analyses allow the study team to validate the\nsystem design and verification and therefore should design against the stakeholder expectations. A sim-\nbe reported at the next higher level review of the plified validation asks the questions: Does the system\npower subsystem. work as expected? How does the system respond to\n failures, faults, and anomalies? Is the system afford-\nThe verification should show that the design solution able? If the answer to any of these questions is no,\ndefinition: then changes to the design or stakeholder expecta-\n tions will be required, and the process is started over\n• Is realizable within the constraints imposed on again. This process continues until the system—\n the technical effort; architecture, ConOps, and requirements—meets the\n stakeholder expectations.\n• Has specified requirements that are stated in\n acceptable statements and have bidirectional This design solution validation is in contrast to\n traceability with the technical requirements and the validation of the end product described in the\n stakeholder expectations; and end-product validation plan, which is part of the\n technical data package. That validation occurs in a\n• Has decisions and assumptions made in forming later life cycle phase and is a result of the Product\n the solution consistent with its set of technical Validation Process (see Section 5.4) applied to the\n requirements and identified system product and realization of the design solution as an end product.\n service constraints.\n 4.4.1.2.9 Identify Enabling Products\nThis design solution verification is in contrast Enabling products are the life cycle support prod-\nto the verification of the end product described ucts and services (e.g., production, test, deployment,\nin the end product verification plan which is training, maintenance, and disposal) that facili-\npart of the technical data package. That verifi- tate the progression and use of the operational end\ncation occurs in a later life cycle phase and is a product through its life cycle. Since the end prod-\nresult of the Product Verification Process (see uct and its enabling products are interdependent,\nSection 5.3) applied to the realization of the design they are viewed as a system. Project responsibility\nsolution as an end product. thus extends to responsibility for acquiring services\n from the relevant enabling products in each life cycle\n4.4.1.2.8 Validate the Design Solution phase. When a suitable enabling product does not\nThe validation of the design solution is a recursive already exist, the project that is responsible for the\nand iterative process as shown in FIGURE 4.0-1. end product can also be responsible for creating and\nEach alternative design concept is validated against using the enabling product.\nthe set of stakeholder expectations. The stakeholder\nexpectations drive the iterative design loop in which Therefore, an important activity in the Design\na straw man architecture/design, the ConOps, and Solution Definition Process is the identification of the\nthe derived requirements are developed. These three enabling products and personnel that will be required\n\n\n\n 73",
+          "score": 19.464915510834683,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 17.879208282148742,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0136",
+          "page": 136,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\ndevelopment of lower-end through higher-end prod- Procedures should be prepared to conduct valida-\nucts in the system structure and through operational tion based on the method planned; e.g., analysis,\nT&E into production and acceptance. It may com- inspection, demonstration, or test). These proce-\nbine the verification and validation plans into a single dures are typically developed during the design phase\ndocument. (See Appendix I for a sample Verification of the project life cycle and matured as the design\nand Validation Plan outline.) is matured. Operational and use-case scenarios are\n thought through in order to explore all possible vali-\nThe methods of validation include test, demonstra- dation activities to be performed.\ntion, inspection, and analysis. While the name of\neach method is the same as the name of the methods Validation is conducted by the user/operator or by\nfor verification, the purpose and intent as described the developer as determined by NASA Center direc-\nabove are quite different. tives or the contract with the developers. Systems-\n level validation (e.g., customer Test and Evaluation\nPlanning to conduct the product validation is a key (T&E) and some other types of validation) may be\nfirst step. The method of validation to be used (e.g., performed by an acquirer testing organization. For\nanalysis, demonstration, inspection, or test) should those portions of validation performed by the devel-\nbe established based on the form of the realized end oper, appropriate agreements should be negotiated\nproduct, the applicable life cycle phase, cost, sched- to ensure that validation proof-of-documentation is\nule, resources available, and location of the system delivered with the product.\nproduct within the system structure.\n Regardless of the source (buy, make, reuse, assemble\nAn established set or subset of expectations or behav- and integrate) and the position in the system struc-\niors to be validated should be identified and the val- ture, all realized end products should be validated\nidation plan reviewed (an output of the Technical to demonstrate/confirm satisfaction of stakeholder\nPlanning Process, based on design solution outputs) expectations. Variations, anomalies, and out-of-com-\nfor any specific procedures, constraints, success cri- pliance conditions, where such have been detected,\nteria, or other validation requirements. The condi- are documented along with the actions taken to\ntions and environment under which the product is resolve the discrepancies. Validation is typically car-\nto be validated should be established and the vali- ried out in the intended operational environment or\ndation should be planned based on the relevant life a relevant environment under simulated or actual\ncycle phase and associated success criteria identified. operational conditions, not necessarily under the\nThe Decision Analysis Process should be used to help tightly controlled conditions usually employed for\nfinalize the planning details. the Product Verification Process.\n\nIt is important to review the validation plans with rel- Validation of phase products can be performed recur-\nevant stakeholders and to understand the relationship sively throughout the project life cycle and on a wide\nbetween the context of the validation and the con- variety of product forms. For example:\ntext of use (human involvement). As part of the plan-\nning process, validation-enabling products should be • simulated (algorithmic models, virtual reality\nidentified and scheduling and/or acquisition should simulator);\nbe initiated. • mock-up (plywood, brassboard, breadboard);\n\n\n\n 126",
+          "score": 17.356125835273165,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0113",
+          "page": 113,
+          "text": " 5.0 Product Realization\n\n\n\n\n\nOutcomes of performing validation include the the end product. If it is found to be a result of the test\nfollowing: configuration, the configuration should be corrected\n and the validation repeated. If it is found to be a result\n• A validated product is established with support- of the end product being validated, discussions with\n ing confirmation that the appropriate results were the customer should be held and any required sys-\n collected and evaluated to show completion of tem design and product realization process activities\n validation objectives. should be conducted to resolve deficiencies. The defi-\n ciencies along with recommended corrective actions\n• A determination is made as to whether the fabri- and resolution results should be recorded, and valida-\n cated/manufactured or assembled and integrated tion should be repeated, as required.\n products (including software or firmware builds\n and human element allocations) comply with Outcomes of analyzing validation results include the\n their respective stakeholder expectations. following:\n\n• A determination is made that the validated prod- • Product anomalies, variations, deficiencies, non-\n uct was appropriately integrated with the valida- conformance and/or issues are identified.\n tion environment and the selected stakeholder\n expectations set was properly validated. • Assurances that appropriate replanning, redefi-\n nition of requirements, design, and revalidation\n• A determination is made that the product being have been accomplished for resolution of anoma-\n validated functions together with interfacing lies, variations, deficiencies or out-of-compliance\n products throughout their operational envelopes. conditions (for problems not caused by poor vali-\n dation conduct).\n5.4.1.2.3 Analyze Product Validation Results\nOnce the validation activities have been completed, • Discrepancy and corrective action reports are gen-\nthe results are collected and the data are analyzed erated as needed.\nto confirm that the end product provided will sup-\nply the customer’s needed capabilities within the • The validation report is completed.\nintended environments of use, validation procedures\nwere followed, and enabling products and supporting Re-engineering\nresources functioned correctly. The data are also ana- Based on the results of the Product Validation Process,\nlyzed for quality, integrity, correctness, consistency, it could become necessary to re-engineer a deficient\nand validity, and any unsuitable products or product end product. Care should be taken that correcting a\nattributes are identified and reported. deficiency or set of deficiencies does not generate a\n new issue with a part or performance that had previ-\nIt is important to compare the actual validation ously operated satisfactorily. Regression testing, a for-\nresults to the expected results. If discrepancies are mal process of rerunning previously used acceptance\nfound, it needs to be determined if they are a result tests (primarily used for software), is one method to\nof the test configuration or analysis assumptions or ensure a change does not affect function or perfor-\nwhether they are a true characteristic or behavior of mance that was previously accepted.\n\n\n\n\n\n 103",
+          "score": 16.549722452129906,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0138",
+          "page": 138,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Appendix H Integration Plan Outline down through the Logical Decomposition Process,\n• Appendix I Verification and Validation Plan and specific stakeholders are identified for all of the\n Outline primary and derived requirements. A critical part\n• Appendix J SEMP Content Outline of the stakeholders’ involvement is in the definition\n• Appendix K Technical Plans of the technical requirements. As requirements and\n• Appendix L Interface Requirements Document the ConOps are developed, the stakeholders will be\n Outline required to agree to these products. Inadequate stake-\n• Appendix M CM Plan Outline holder involvement leads to inadequate requirements\n• Appendix R HSI Plan Content Outline and a resultant product that does not meet the stake-\n• Appendix S Concept of Operations Annotated holder expectations. Status on relevant stakeholder\n Outline involvement should be tracked and corrective action\n taken if stakeholders are not participating as planned.\n6.1.1.2.5 Obtain Stakeholder Commitments to\n Technical Plans Stakeholder Agreements\nStakeholder Roles in Project Planning Throughout the project life cycle, communication\nTo obtain commitments to the technical plans from with the stakeholders and commitments from the\nthe stakeholders, the technical team should ensure stakeholders may be accomplished through the use of\nthat the appropriate stakeholders, including subject agreements. Organizations may use an Internal Task\ndomain experts, have a method to provide inputs and Agreement (ITA), a Memorandum Of Understanding\nto review the project planning for implementation of (MOU), or other similar documentation to establish\nstakeholder interests. the relationship between the project and the stake-\n holder. These agreements are also used to document\nDuring the Formulation Phase, the roles of the stake- the customer and provider responsibilities for defin-\nholders should be defined in the project plan and the ing products to be delivered. These agreements should\nSEMP. Review of these plans and the agreements establish the Measures of Effectiveness (MOEs) or\nfrom the stakeholders to the content of these plans Measures of Performance (MOPs) that will be used\nconstitutes buy-in from the stakeholders to the techni- to monitor the progress of activities. Reporting\ncal approach. It is essential to identify the stakeholders requirements and schedule requirements should be\nand get their concurrence on the technical approach. established in these agreements. Preparation of these\n agreements will ensure that the stakeholders’ roles\nLater in the project life cycle, stakeholders may be and responsibilities support the project goals and that\nresponsible for delivering products to the project. the project has a method to address risks and issues as\nInitial agreements regarding the responsibilities of they are identified.\nthe stakeholders are key to ensuring that the proj-\nect technical team obtains the appropriate deliveries Stakeholder Support for Forums\nfrom stakeholders. During development of the project plan and the\n SEMP, forums are established to facilitate communi-\nStakeholder Involvement in Defining Requirements cation and document decisions during the life cycle of\nThe identification of stakeholders is one of the early the project. These forums include meetings, working\nsteps in the systems engineering process. As the proj- groups, decision panels, and control boards. Each of\nect progresses, stakeholder expectations are flowed these forums should establish a charter to define the\n\n\n\n 128",
+          "score": 15.22087153585692,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 111,
+          "path": "data/local/advanced/pages/p0111_2000.png",
+          "sha256": "2cffd5e267b0e081a27ef7c41c865131f09c9121fe40d62ab02bfbbc0eda852a",
+          "source_id": "NASA-SE:p0111",
+          "text": " 5.0 Product Realization\n\n\n\n\n\n• To ensure the human has been properly integrated • To ensure that any problems discovered are\n into the system: appropriately resolved prior to delivery of the end\n product (if validation is done by the supplier of\n » The user interface meets human engineering the product) or prior to integration with other\n criteria. products into a higher level assembled product (if\n » Operators and maintainers have the required validation is done by the receiver of the product).\n skills and abilities.\n » Instructions are provided and training pro- 5.4.1.2.1 Product Validation Preparation\n grams are in place. To prepare for performing product validation, the\n » The working environment supports crew appropriate set of expectations, including MOEs and\n health and safety. MOPs, against which the validation is to be made\n\n\n\n METHODS OF VALIDATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of\n a model.\n\n\n Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined\n in the NGOs and the ConOps. It is generally a basic confirmation of behavioral capability, differentiated\n from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models\n or mock-ups; for example, an expectation that controls are readable by the pilot in low light conditions\n could be validated by having a pilot perform flight-related tasks in a cockpit mock-up or simulator under\n those conditions.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to validate the\n presence of a physical design features or specific manufacturer identification. For example, if there is an\n expectation that the safety arming pin has a red flag with the words “Remove Before Flight” stenciled on the\n flag in black letters, a visual inspection of the arming pin flag can be used to determine if this expectation\n has been met.\n\n\n Test: The use of an end product to obtain detailed data needed to determine a behavior, or provide\n sufficient information to determine a behavior through further analysis. Testing can be conducted on\n final end products, breadboards, brassboards, or prototypes. Testing produces information at discrete\n points for each specified expectation under controlled conditions and is the most resource-intensive\n validation technique.\n\n\n\n\n 101"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0111",
+          "page": 111,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n• To ensure the human has been properly integrated • To ensure that any problems discovered are\n into the system: appropriately resolved prior to delivery of the end\n product (if validation is done by the supplier of\n » The user interface meets human engineering the product) or prior to integration with other\n criteria. products into a higher level assembled product (if\n » Operators and maintainers have the required validation is done by the receiver of the product).\n skills and abilities.\n » Instructions are provided and training pro- 5.4.1.2.1 Product Validation Preparation\n grams are in place. To prepare for performing product validation, the\n » The working environment supports crew appropriate set of expectations, including MOEs and\n health and safety. MOPs, against which the validation is to be made\n\n\n\n METHODS OF VALIDATION\n\n\n Analysis: The use of mathematical modeling and analytical techniques to predict the suitability of a\n design to stakeholder expectations based on calculated data or data derived from lower system structure\n end product verifications. Analysis is generally used when a prototype; engineering model; or fabricated,\n assembled, and integrated product is not available. Analysis includes the use of modeling and simulation\n as analytical tools. A model is a mathematical representation of reality. A simulation is the manipulation of\n a model.\n\n\n Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined\n in the NGOs and the ConOps. It is generally a basic confirmation of behavioral capability, differentiated\n from testing by the lack of detailed data gathering. Demonstrations can involve the use of physical models\n or mock-ups; for example, an expectation that controls are readable by the pilot in low light conditions\n could be validated by having a pilot perform flight-related tasks in a cockpit mock-up or simulator under\n those conditions.\n\n\n Inspection: The visual examination of a realized end product. Inspection is generally used to validate the\n presence of a physical design features or specific manufacturer identification. For example, if there is an\n expectation that the safety arming pin has a red flag with the words “Remove Before Flight” stenciled on the\n flag in black letters, a visual inspection of the arming pin flag can be used to determine if this expectation\n has been met.\n\n\n Test: The use of an end product to obtain detailed data needed to determine a behavior, or provide\n sufficient information to determine a behavior through further analysis. Testing can be conducted on\n final end products, breadboards, brassboards, or prototypes. Testing produces information at discrete\n points for each specified expectation under controlled conditions and is the most resource-intensive\n validation technique.\n\n\n\n\n 101",
+          "image_sha256": "2cffd5e267b0e081a27ef7c41c865131f09c9121fe40d62ab02bfbbc0eda852a"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Phương pháp kiểm tra (Test) là phương pháp xác nhận tốn nhiều nguồn lực nhất và nó dùng để xác nhận các kỳ vọng của các bên liên quan, không chỉ đơn thuần xác minh yêu cầu.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0111",
+                "locator": "METHODS OF VALIDATION table, Test row",
+                "evidence": "Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    111
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Phương pháp kiểm tra (Test) là phương pháp xác nhận tốn nhiều nguồn lực nhất và nó dùng để xác nhận các kỳ vọng của các bên liên quan (stakeholder expectations), không chỉ đơn thuần xác minh yêu cầu.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0111",
+            "locator": "METHODS OF VALIDATION table, Test row",
+            "evidence": "Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique."
+          },
+          {
+            "source_id": "NASA-SE:p0111",
+            "locator": "METHODS OF VALIDATION table, Demonstration row",
+            "evidence": "Demonstration: Showing that the use of an end product achieves the stakeholder expectations as defined in the NGOs and the ConOps."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Phương pháp kiểm tra (Test) là phương pháp xác nhận tốn nhiều nguồn lực nhất và nó dùng để xác nhận các kỳ vọng của các bên liên quan, không chỉ đơn thuần xác minh yêu cầu.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0111",
+          "locator": "METHODS OF VALIDATION table, Test row",
+          "evidence": "Testing produces information at discrete points for each specified expectation under controlled conditions and is the most resource-intensive validation technique."
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 7995.0
+}

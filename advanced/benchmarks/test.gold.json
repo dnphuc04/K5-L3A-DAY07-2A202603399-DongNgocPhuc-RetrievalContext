@@ -1,0 +1,738 @@
+[
+  {
+    "id": "ADV-TEST-01",
+    "primary_group": "table",
+    "question": "In Table 2.1-1, give all AS9100 requirements mapped to Technical Data Management.",
+    "answerable": true,
+    "expected": "Control of Documents; Control of Records; Control of Design and Development Changes.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 7,
+        "bbox": [
+          0.09,
+          0.82,
+          0.91,
+          0.87
+        ],
+        "locator": "Table 2.1-1, Technical Data Management row",
+        "fact": "All three mappings",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-02",
+    "primary_group": "table",
+    "question": "In Table 2.2-1, what is Phase F's purpose and when was its decommissioning/disposal plan developed?",
+    "answerable": true,
+    "expected": "Implement the system decommissioning/disposal plan developed in Phase E and analyze returned data and any returned samples.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.09,
+          0.61,
+          0.91,
+          0.68
+        ],
+        "locator": "Table 2.2-1, Phase F / Purpose",
+        "fact": "Phase E plan, analysis of data and samples",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-03",
+    "primary_group": "table",
+    "question": "In Table 4.2-2, what is the function of the Rationale metadata item?",
+    "answerable": true,
+    "expected": "Additional information to clarify the intent of requirements at the time they were written.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 69,
+        "printed_page": 59,
+        "bbox": [
+          0.09,
+          0.62,
+          0.91,
+          0.67
+        ],
+        "locator": "Table 4.2-2, Rationale row",
+        "fact": "Intent at writing time",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-04",
+    "primary_group": "table",
+    "question": "According to Table 6.8-1, what four selections need rationale in Decision Matrix Setup Rationale, and what copy is required?",
+    "answerable": true,
+    "expected": "Criteria, options, weights, evaluation methods selected; a copy of the setup decision matrix.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 181,
+        "printed_page": 171,
+        "bbox": [
+          0.09,
+          0.24,
+          0.91,
+          0.36
+        ],
+        "locator": "Table 6.8-1, row 3",
+        "fact": "Four selections plus setup matrix",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-05",
+    "primary_group": "table",
+    "question": "Using Table 2.2-1, contrast the main work in Phase C and Phase E.",
+    "answerable": true,
+    "expected": "C completes detailed system/subsystem/operations-system design, fabricates hardware and codes software/final designs; E conducts mission, meets initial need, maintains support and implements mission operations plan.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.09,
+          0.41,
+          0.91,
+          0.62
+        ],
+        "locator": "Table 2.2-1, Phase C and E / Purpose",
+        "fact": "Fabrication/code vs operations/sustainment",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-06",
+    "primary_group": "table",
+    "question": "In Table 6.8-1, how long is the Executive Summary and what two one-sentence items does it contain?",
+    "answerable": true,
+    "expected": "Short half-page; one-sentence recommendation and one-sentence problem/issue requiring a decision.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 181,
+        "printed_page": 171,
+        "bbox": [
+          0.09,
+          0.14,
+          0.91,
+          0.2
+        ],
+        "locator": "Table 6.8-1, row 1",
+        "fact": "Half-page, both one-sentence items",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-07",
+    "primary_group": "diagram",
+    "question": "In Figure 2.1-1, in which direction do requirements flow through product levels, and in which direction do realized products move?",
+    "answerable": true,
+    "expected": "Requirements flow downward from level above to below; realized products move upward from level below to above.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 16,
+        "printed_page": 6,
+        "bbox": [
+          0.09,
+          0.1,
+          0.91,
+          0.56
+        ],
+        "locator": "Figure 2.1-1, green arrows and level labels",
+        "fact": "Opposite directions",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-08",
+    "primary_group": "diagram",
+    "question": "In Figure 4.0-1, after Design Solution Definition reaches Lowest Level?, where do the Yes and No branches lead?",
+    "answerable": true,
+    "expected": "Yes goes to Product Realization Processes; No goes through the recursive cycle back to Stakeholder Expectations.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 54,
+        "printed_page": 44,
+        "bbox": [
+          0.09,
+          0.3,
+          0.42,
+          0.44
+        ],
+        "locator": "Figure 4.0-1, Lowest Level diamond and outgoing arrows",
+        "fact": "Yes left to product realization; No upward recursive cycle",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-09",
+    "primary_group": "diagram",
+    "question": "In Figure 4.4-2, list the four named activities repeated around the successive-refinement spiral in order, starting with Identify and quantify goals.",
+    "answerable": true,
+    "expected": "Identify and quantify goals → Create concepts → Do trade studies → Select design (then repeats with increased resolution).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 77,
+        "printed_page": 67,
+        "bbox": [
+          0.51,
+          0.1,
+          0.92,
+          0.45
+        ],
+        "locator": "Figure 4.4-2, clockwise spiral labels",
+        "fact": "Four ordered labels",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-10",
+    "primary_group": "diagram",
+    "question": "In Figure 6.5-2, name all five elements of Configuration Management.",
+    "answerable": true,
+    "expected": "Configuration Planning and Management; Configuration Identification; Configuration Change Management; Configuration Status Accounting; Configuration Verification.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 155,
+        "printed_page": 145,
+        "bbox": [
+          0.18,
+          0.71,
+          0.84,
+          0.91
+        ],
+        "locator": "Figure 6.5-2, five bottom boxes",
+        "fact": "Five elements, not activities from Figure 6.5-1",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-11",
+    "primary_group": "diagram",
+    "question": "In Figure 6.8-2, where does the Yes branch from Is the ranking/comparison robust? go?",
+    "answerable": true,
+    "expected": "Deliberation and Recommending a Decision Alternative.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 176,
+        "printed_page": 166,
+        "bbox": [
+          0.65,
+          0.15,
+          0.91,
+          0.33
+        ],
+        "locator": "Figure 6.8-2, robust diamond / Yes arrow",
+        "fact": "Directly to deliberation/recommendation",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-12",
+    "primary_group": "chart",
+    "question": "Read the yellow Costs Expended blocks in Figure 2.5-1: what percentage is shown for Design, rather than on the committed-cost curve?",
+    "answerable": true,
+    "expected": "15%.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.09,
+          0.08,
+          0.9,
+          0.6
+        ],
+        "locator": "Figure 2.5-1, Design yellow block",
+        "fact": "15 percent, cost expended",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-13",
+    "primary_group": "chart",
+    "question": "Read Figure 2.5-1: what percentage of Costs Expended is shown at Develop?",
+    "answerable": true,
+    "expected": "20%.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.09,
+          0.08,
+          0.9,
+          0.6
+        ],
+        "locator": "Figure 2.5-1, Develop yellow block",
+        "fact": "20 percent, not 90 percent committed",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-14",
+    "primary_group": "chart",
+    "question": "Read Figure 2.5-1: what percentage of Costs Expended is shown at Prod/Test?",
+    "answerable": true,
+    "expected": "50%.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 23,
+        "printed_page": 13,
+        "bbox": [
+          0.09,
+          0.08,
+          0.9,
+          0.6
+        ],
+        "locator": "Figure 2.5-1, Prod/Test yellow block",
+        "fact": "50 percent",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-15",
+    "primary_group": "chart",
+    "question": "In Figure 4.4-3, what are the x- and y-axis quantities and how are their units described?",
+    "answerable": true,
+    "expected": "X: life-cycle cost expressed in constant dollars. Y: some aspect of effectiveness expressed in quantitative units.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 81,
+        "printed_page": 71,
+        "bbox": [
+          0.09,
+          0.08,
+          0.49,
+          0.44
+        ],
+        "locator": "Figure 4.4-3, axis labels",
+        "fact": "Cost constant dollars; effectiveness quantitative units",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-16",
+    "primary_group": "chart",
+    "question": "In Figure 4.4-3, what do dashed lines represent and in which direction is cost-effectiveness higher?",
+    "answerable": true,
+    "expected": "Constant cost-effectiveness values; higher toward upper left.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 81,
+        "printed_page": 71,
+        "bbox": [
+          0.09,
+          0.08,
+          0.49,
+          0.5
+        ],
+        "locator": "Figure 4.4-3, dashed lines / explanatory note",
+        "fact": "Constant values, upper-left direction",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-17",
+    "primary_group": "multi_hop",
+    "question": "Using the PDR and CDR rows of Table 6.7-1, compare their timing and the named design baseline approved on successful completion.",
+    "answerable": true,
+    "expected": "PDR near completion of Phase B, last Formulation review, approves design-to baseline; CDR during Phase C approves build-to baseline (with production and verification plans).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 171,
+        "printed_page": 161,
+        "bbox": [
+          0.09,
+          0.59,
+          0.91,
+          0.81
+        ],
+        "locator": "Table 6.7-1, PDR row / Timing and Results",
+        "fact": "End B; design-to",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 172,
+        "printed_page": 162,
+        "bbox": [
+          0.09,
+          0.14,
+          0.91,
+          0.33
+        ],
+        "locator": "Table 6.7-1 continuation, CDR row",
+        "fact": "During C; build-to",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-18",
+    "primary_group": "multi_hop",
+    "question": "Combine Table 2.2-1 and the SIR row of Table 6.7-1: what work does Phase D perform and when must SIR occur relative to that phase?",
+    "answerable": true,
+    "expected": "D assembles/integrates hardware, software and humans, verifies system requirements, launches/prepares operations; SIR at end Phase C before Phase D begins.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.09,
+          0.47,
+          0.91,
+          0.57
+        ],
+        "locator": "Table 2.2-1, Phase D Purpose",
+        "fact": "Assembly/integration/test/launch/preparation",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 172,
+        "printed_page": 162,
+        "bbox": [
+          0.09,
+          0.53,
+          0.91,
+          0.73
+        ],
+        "locator": "Table 6.7-1, SIR Timing",
+        "fact": "End C before D",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-19",
+    "primary_group": "multi_hop",
+    "question": "Combine Table 4.2-2 and Methods of Verification: which metadata item records the system/subsystem/element hierarchy of verification, and which verification method uses models when a prototype is unavailable?",
+    "answerable": true,
+    "expected": "Verification level; Analysis (mathematical/analytical models or simulations when prototype not available).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 69,
+        "printed_page": 59,
+        "bbox": [
+          0.09,
+          0.79,
+          0.91,
+          0.84
+        ],
+        "locator": "Table 4.2-2, Verification level",
+        "fact": "Hierarchy level",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 103,
+        "printed_page": 93,
+        "bbox": [
+          0.09,
+          0.08,
+          0.91,
+          0.55
+        ],
+        "locator": "Methods of Verification, Analysis",
+        "fact": "Analytical models when prototype unavailable",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-20",
+    "primary_group": "multi_hop",
+    "question": "Combine Figure G.4-1 and Table 2.2-1: what is TRL 9's demonstration criterion, and which named phase conducts the mission and maintains support?",
+    "answerable": true,
+    "expected": "TRL 9 actual system flight proven through successful mission operations; Phase E Operations and Sustainment conducts mission and maintains support.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 221,
+        "printed_page": 211,
+        "bbox": [
+          0.08,
+          0.08,
+          0.92,
+          0.83
+        ],
+        "locator": "Figure G.4-1, TRL 9",
+        "fact": "Flight proven successful mission operations",
+        "verification": "Read against original PDF page render, not extraction alone"
+      },
+      {
+        "page": 19,
+        "printed_page": 9,
+        "bbox": [
+          0.09,
+          0.56,
+          0.91,
+          0.62
+        ],
+        "locator": "Table 2.2-1, Phase E",
+        "fact": "Operations and Sustainment",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-21",
+    "primary_group": "text",
+    "question": "In Methods of Verification, distinguish Demonstration from Test in terms of data gathering and conditions.",
+    "answerable": true,
+    "expected": "Demonstration shows basic capability without detailed data gathering; Test uses detailed data under controlled conditions to verify requirement compliance.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 103,
+        "printed_page": 93,
+        "bbox": [
+          0.09,
+          0.08,
+          0.91,
+          0.93
+        ],
+        "locator": "Methods of Verification, Demonstration and Test bullets",
+        "fact": "Basic/no detailed data vs detailed/controlled",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-22",
+    "primary_group": "text",
+    "question": "In Methods of Validation, which method is identified as most resource-intensive, and does it validate stakeholder expectations or merely verify requirements?",
+    "answerable": true,
+    "expected": "Test is most resource-intensive; validates stakeholder expectations (as opposed to verification against requirements).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 111,
+        "printed_page": 101,
+        "bbox": [
+          0.09,
+          0.08,
+          0.91,
+          0.93
+        ],
+        "locator": "Methods of Validation, Test bullet",
+        "fact": "Resource-intensive validation against expectations",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-23",
+    "primary_group": "text",
+    "question": "According to Appendix C.1, what do shall, will, and should denote?",
+    "answerable": true,
+    "expected": "Shall: requirement; will: facts or declaration of purpose; should: goal.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 207,
+        "printed_page": 197,
+        "bbox": [
+          0.09,
+          0.08,
+          0.92,
+          0.5
+        ],
+        "locator": "Appendix C.1 Use of Correct Terms",
+        "fact": "Three distinct modalities",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-24",
+    "primary_group": "text",
+    "question": "In the Phase B discussion, above which life-cycle-cost threshold is the commitment made with Congress and OMB, and what is that commitment called?",
+    "answerable": true,
+    "expected": "Life-cycle cost greater than $250M; Agency Baseline Commitment (ABC).",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "page": 35,
+        "printed_page": 25,
+        "bbox": [
+          0.51,
+          0.75,
+          0.92,
+          0.93
+        ],
+        "locator": "Section 3.5 Phase B, cost commitment paragraph",
+        "fact": "Strictly greater than $250M; ABC",
+        "verification": "Read against original PDF page render, not extraction alone"
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-25",
+    "primary_group": "unanswerable",
+    "question": "For all NASA missions, what single mandatory random-vibration qualification level in g RMS does this handbook specify?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "vibration",
+            "RMS",
+            "qualification"
+          ],
+          "related_sections": "5.3 verification and test facilities",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-26",
+    "primary_group": "unanswerable",
+    "question": "What exact mandatory Monte Carlo sample count must all decision analyses use?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "Monte Carlo",
+            "sample count",
+            "samples"
+          ],
+          "related_sections": "6.8 Decision Analysis",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-27",
+    "primary_group": "unanswerable",
+    "question": "What single annual license price in USD does the handbook give for NASA's configuration-management software?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "license",
+            "price",
+            "software"
+          ],
+          "related_sections": "6.5 Configuration Management",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-28",
+    "primary_group": "unanswerable",
+    "question": "Which single programming language does the handbook mandate for every flight-software implementation?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "programming language",
+            "flight software",
+            "implementation"
+          ],
+          "related_sections": "5.1 Product Implementation",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-29",
+    "primary_group": "unanswerable",
+    "question": "What exact universal number of years must every configuration-status accounting record be retained?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "retention",
+            "retained",
+            "years"
+          ],
+          "related_sections": "6.5 CM and 6.6 Technical Data Management",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ADV-TEST-30",
+    "primary_group": "unanswerable",
+    "question": "What fixed maximum dry mass in kilograms does the handbook prescribe for every lunar lander design?",
+    "answerable": false,
+    "expected": "Abstain: insufficient evidence for the requested universal value/mandate.",
+    "units_calculation": "As explicitly stated in expected answer; no unstated unit conversion.",
+    "evidence": [
+      {
+        "absence_check": {
+          "terms": [
+            "dry mass",
+            "lunar",
+            "lander"
+          ],
+          "related_sections": "4.1 lunar sortie example",
+          "method": "Case-insensitive phrase scan over all 297 native-text pages; inspect related source sections. Related qualitative guidance/examples do not establish the requested universal constant.",
+          "reason": "No evidence supports the exact universal mandate/value; do not substitute a mission example or external knowledge."
+        }
+      }
+    ]
+  }
+]

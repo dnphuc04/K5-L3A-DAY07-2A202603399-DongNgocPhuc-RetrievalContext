@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-10",
+  "split": "test",
+  "question": "In Figure 6.3-1, which outputs go to Configuration Management and which output goes to Technical Data Management?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4oDliOjWuYYgGwg2X0M1uztuNF3",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 647,
+        "completion_tokens": 28,
+        "total_tokens": 675,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1536.2,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_OsWbIu8McM5enbMrH4xy5ynk",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 6.3-1 outputs Configuration Management Technical Data Management\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oFrbLHrF33r7aU7dlyW4PcCNlh",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5329,
+        "completion_tokens": 122,
+        "total_tokens": 5451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 93,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2696.75,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_mGLtEurNR69Sp0q8xivcUnBW",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0146\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oJUBXJcWI4RTrYrYh6AT5NS0N5",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9540,
+        "completion_tokens": 310,
+        "total_tokens": 9850,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 115,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5159.8,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_EUO3cW5uPxVeP2IKpV1tv6l1",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 6.3-1, the outputs that go to the Configuration Management Process are “Interface Control Documents” and “Approved Interface Requirement Changes.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0146\",\"locator\":\"Figure 6.3-1 (right side), under label “To Configuration Management Process”\",\"evidence\":\"To Configuration Management Process\\nInterface Control Documents\\nApproved Interface Requirement Changes\"}]},{\"text\":\"In Figure 6.3-1, the output that goes to the Technical Data Management Process is “Interface Management Work Products.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0146\",\"locator\":\"Figure 6.3-1 (right side), under label “To Technical Data Management Process”\",\"evidence\":\"To Technical Data Management Process\\nInterface Management Work Products\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4oOJ0OWQESWvAT2Co1IUMl7VagB",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4700,
+        "completion_tokens": 265,
+        "total_tokens": 4965,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 72,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4527.07,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_5kAxNK6O6mX0jru5sZpTLkdm",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 6.3-1, the outputs that go to the Configuration Management Process are “Interface Control Documents” and “Approved Interface Requirement Changes.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0146\",\"locator\":\"Figure 6.3-1 (right side), under “To Configuration Management Process”\",\"evidence\":\"To Configuration Management Process: Interface Control Documents; Approved Interface Requirement Changes\"}]},{\"text\":\"In Figure 6.3-1, the output that goes to the Technical Data Management Process is “Interface Management Work Products.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0146\",\"locator\":\"Figure 6.3-1 (right side), under “To Technical Data Management Process”\",\"evidence\":\"To Technical Data Management Process: Interface Management Work Products\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 6.3-1, which outputs go to Configuration Management and which output goes to Technical Data Management?",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 11.342150428047596,
+          "reference_match": 0,
+          "heading_match": true
+        },
+        {
+          "id": "NASA-SE:p0146",
+          "page": 146,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n Prepare or update interface\n management procedures To Configuration\n Management Process\n From user or program and Interface Control\n system design processes Conduct interface management during\n Documents\n Interface system design activities for each WBS-\n Requirements like model in the system structure\n Approved Interface\n FromProject and Requirement\n Technical Assessment Conduct interface management during Changes\n Processes product int egratio n activities\n To Technical Data\n Interface Management Process\n Changes Conduct interface control Interface Management\n Work Products\n\n Captu re wor k products from interface\n management activities\n\n\n FIGURE 6.3-1 Interface Management Process\n\n\n6.3.1 Process Description Other inputs that might be useful are:\nFIGURE 6.3-1 provides a typical flow diagram for the\nInterface Management Process and identifies typical • System Description: This allows the design of\ninputs, outputs, and activities to consider in address- the system to be explored and examined to deter-\ning interface management. mine where system interfaces exist. Contractor\n arrangements will also dictate where interfaces\n6.3.1.1 Inputs are needed.\nTypical inputs needed to understand and address\ninterface management would include the following: • System Boundaries: Documented physical\n boundaries, components, and/or subsystems,\n• Interface Requirements: These include the inter- which are all drivers for determining where inter-\n nal and external functional, physical, and perfor- faces exist.\n mance interface requirements developed as part\n of the Technical Requirements Definition Process • Organizational Structure: Decisions on which\n for the product(s). organization will dictate interfaces, particularly\n when there is the need to jointly agree on shared\n• Interface Change Requests: These include interface parameters of a system. The program\n changes resulting from program or project agree- and project WBS will also provide organizational\n ments or changes on the part of the technical interface boundaries.\n team as part of the Technical Assessment Process.\n • Boards Structure: Defined board structure that\n identifies organizational interface responsibilities.\n\n\n\n 136",
+          "score": 14.02976111601069,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 12.1809493293822,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0153",
+          "page": 153,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n6.4.1.2.4 Prepare for Technical Risk Mitigation 6.4.1.3 Outputs\nThis includes selecting the risks that will be mitigated Following are key risk outputs from activities:\nand more closely monitored, identifying the risk level\nor threshold that will trigger a risk mitigation action • Technical Risk Mitigation and/or Contingency\nplan, and identifying for each risk which stakeholders Actions: Actions taken to mitigate identified risks\nwill need to be informed that a mitigation/contin- or contingency actions taken in case risks are\ngency action is determined as well as which organi- realized.\nzations will need to become involved to perform the\nmitigation/contingency action. • Technical Risk Reports: Reports of the techni-\n cal risk policies, status, remaining residual risks,\n6.4.1.2.5 Monitor the Status of Each Technical Risk actions taken, etc. Output at the agreed-to fre-\n Periodically quency and recipients.\nRisk status will need to be monitored periodically at\na frequency identified in the risk plan. Risks that are • Work Products: Includes the procedures for con-\napproaching the trigger thresholds will be monitored ducting technical risk management; rationale for\non a more frequent basis. Reports of the status are decisions made; selected decision alternatives;\nmade to the appropriate program/project manage- assumptions made in prioritizing, handling, and\nment or board for communication and for decisions reporting technical risks; and lessons learned.\nwhether to trigger a mitigation action early. Risk sta-\ntus will also be reported at most life cycle reviews. 6.4.2 Risk Management Process\n Guidance\n6.4.1.2.6 Implement Technical Risk Mitigation and For additional guidance on risk management, refer to\n Contingency Action Plans as Triggered NASA/SP-2010-576, NASA RIDM Handbook and NASA/\nWhen the applicable thresholds are triggered, the SP-2011-3422, NASA Risk Management Handbook.\ntechnical risk mitigation and contingency action\nplans are implemented. This includes monitoring the\nresults of the action plan implementation and mod- 6.5 Configuration Management\nifying them as necessary, continuing the mitigation Configuration management is a management disci-\nuntil the residual risk and/or consequence impacts pline applied over the product’s life cycle to provide\nare acceptable, and communicating the actions and visibility into and to control changes to perfor-\nresults to the identified stakeholders. Action plan mance and functional and physical characteristics.\nreports are prepared and results reported at appropri- Additionally, according to SAE Electronic Industries\nate boards and at life cycle reviews. Alliance (EIA) 649B, improper configuration man-\n agement may result in incorrect, ineffective, and/or\n6.4.1.2.7 Capture Work Products unsafe products being released. Therefore, in order to\nWork products include the strategy and procedures for protect and ensure the integrity of NASA products,\nconducting technical risk management; the rationale NASA has endorsed the implementation of the five\nfor decisions made; assumptions made in prioritizing, configuration management functions and the asso-\nhandling, and reporting technical risks and action ciated 37 underlying principles defined within SAE/\nplan effectiveness; actions taken to correct action plan EIA-649-2 Configuration Management Requirements\nimplementation anomalies; and lessons learned. for NASA Enterprises.\n\n\n\n 143",
+          "score": 14.150064086860766,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0157",
+          "page": 157,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n Configuration Information Non-Configuration Milestones\n Information (examples)\n Level 1 Technical\n Requirements Concept\n\n MDR\n FUNCTIO NAL\n BASELINE System Spec Partial analyses\n and studies\n Major Architecture Program and\n Aspects of Design project plans SRR\n Complete Developmental SDR\n data\n\n Segment Spec Segment Spec Segment Spec\n\n\n\n ALLO CATED PDR\n BASELINE Complete\n Prime Item Prime Item Prime Item analyses\n Implementation Design-to-Spec Design-to-Spec Design-to-Spec Developmental\n Aspects of Design data\n Complete Test plans\n\n\n End Item End Item End Item\n Design-to-Spec Design-to-Spec Design-to-Spec\n CDR\n PROD UCT Test information\n BASELINE End Item Manuals\n Realization Aspects of Build-to-Spec Certifications\n Design Complete; Fabrication Product SAR\n and Text Complete structure\n\n\n ORR\n\n FIGURE 6.5-3 Evolution of Technical Baseline\n\n\n performance characteristics and for initiating the configuration of a CI during the production,\n detailed design for a CI. The allocated baseline fielding/deployment, and operational support\n is usually controlled by the design organization phases of its life cycle. The established product\n until all design requirements have been verified. baseline is controlled as described in the config-\n The allocated baseline is typically established at uration management plan that was developed\n the successful completion of the PDR. Prior to during Phase A. The product baseline is typically\n CDR, NASA normally reviews design output established at the completion of the CDR. The\n for conformance to design requirements through product baseline describes:\n incremental deliveries of engineering data. NASA\n control of the allocated baseline occurs through » Detailed physical or form, fit, and function\n review of the engineering deliveries as data items. characteristics of a CI;\n » The selected functional characteristics desig-\n• Product Baseline: The product baseline is the nated for production acceptance testing; and\n approved technical documentation that describes » The production acceptance test requirements.\n\n\n 147",
+          "score": 13.383062926952439,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0161",
+          "page": 161,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n6.6 Technical Data Management • analysis of data use,\nThe Technical Data Management Process is used • evaluation of data for future value to other pro-\nto plan for, acquire, access, manage, protect, and grams/projects, and\nuse data of a technical nature to support the total • process access to information written in legacy\nlife cycle of a system. Data Management (DM) software.\nincludes the development, deployment, operations\nand support, eventual retirement, and retention of The Technical Data Management and Configuration\nappropriate technical, to include mission and science, Management Processes work side-by-side to ensure\ndata beyond system retirement as required by NPR all information about the project is safe, known, and\n1441.1, NASA Records Retention Schedules. accessible. Changes to information under configu-\n ration control require a Change Request (CR) and\nDM is illustrated in FIGURE 6.6-1. Key aspects of DM are typically approved by a Configuration Control\nfor systems engineering include: Board. Changes to information under Technical\n Data Management do not need a CR but still need to\n• application of policies and procedures for data be managed by identifying who can make changes to\n identification and control, each type of technical data.\n• timely and economical acquisition of technical\n data, 6.6.1 Process Description\n• assurance of the adequacy of data and its FIGURE 6.6-1 provides a typical flow diagram for the\n protection, Technical Data Management Process and identifies\n• facilitating access to and distribution of the data typical inputs, outputs, and activities to consider in\n to the point of use, addressing technical data management.\n\n\n\n To all technical processes\n and contractors\n From all technical Prepare for technical data Form of Technical\n processes and contractors management implementation Data Products\n Technical Data\n Productsto Be\n Mana ged Collect and store required Technical Data\n technical data Electronic Exchange\n Formats\n\n Maintain stored technical data To project and all\n\n Technical Data technical processes\n Requests Provide technical data to authorized Deli vered Technical\n\n parties Data\n\n\n Capture work products from technical\n data management activities\n\n\n\n FIGURE 6.6-1 Technical Data Management Process\n\n\n\n 151",
+          "score": 13.350015833032884,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0082",
+          "page": 82,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nof the design to the requirements and ConOps; completed, then the design is fully defined into a\nit should also have sufficient depth to support cost final design solution that will satisfy the technical\nand operations modeling and to convince a review requirements and ConOps. The design solution defi-\nteam of a feasible design with performance, cost, and nition will be used to generate the end product speci-\nrisk margins. fications that will be used to produce the product and\n to conduct product verification. This process may be\nThe systems engineering engine is applied again and further refined depending on whether there are addi-\nagain as the system is developed. As the system is real- tional subsystems of the end product that need to\nized, the issues addressed evolve and the particulars be defined.\nof the activity change. Most of the major system deci-\nsions (goals, architecture, acceptable life cycle cost, The scope and content of the full design description\netc.) are made during the early phases of the project, should be appropriate for the product life cycle phase,\nso the successive refinements do not correspond pre- the phase success criteria, and the product position in\ncisely to the phases of the system life cycle. Much of the PBS (system structure). Depending on these fac-\nthe system architecture can be seen even at the out- tors, the form of the design solution definition could\nset, so the successive refinements do not correspond be simply a simulation model or a paper study report.\nexactly to development of the architectural hierarchy The technical data package evolves from phase to\neither. Rather, they correspond to the successively phase, starting with conceptual sketches or models\ngreater resolution by which the system is defined. and ending with complete drawings, parts list, and\n other details needed for product implementation or\nIt is reasonable to expect the system to be defined product integration. Typical output definitions from\nwith better resolution as time passes. This tendency the Design Solution Definition Process are shown in\nis formalized at some point (in Phase B) by defin- FIGURE 4.4-1 and are described in Section 4.4.1.3.\ning a baseline system definition. Usually, the goals,\nobjectives, and constraints are baselined as the 4.4.1.2.7 Verify the Design Solution\nrequirements portion of the baseline. The entire base- Once an acceptable design solution has been selected\nline is then placed under configuration control in an from among the various alternative designs and doc-\nattempt to ensure that any subsequent changes are umented in a technical data package, the design\nindeed justified and affordable. solution should next be verified against the system\n requirements and constraints. A method to achieve\nAt this point in the systems engineering process, there this verification is by means of a peer review to\nis a logical branch point. For those issues for which evaluate the resulting design solution definition.\nthe process of successive refinement has proceeded far Guidelines for conducting a peer review are discussed\nenough, the next step is to implement the decisions at in Section 6.7.2.4.5.\nthat level of resolution. For those issues that are still\ninsufficiently resolved, the next step is to refine the In addition, peer reviews play a significant role as a\ndevelopment further. detailed technical component of higher level tech-\n nical and programmatic reviews. For example, the\n4.4.1.2.6 Fully Describe the Design Solution peer review of a component battery design can go\nOnce the preferred design alternative has been into much more technical detail on the battery than\nselected and the proper level of refinement has been the integrated power subsystem review. Peer reviews\n\n\n\n 72",
+          "score": 13.01388928701231,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0146",
+          "page": 146,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n Prepare or update interface\n management procedures To Configuration\n Management Process\n From user or program and Interface Control\n system design processes Conduct interface management during\n Documents\n Interface system design activities for each WBS-\n Requirements like model in the system structure\n Approved Interface\n FromProject and Requirement\n Technical Assessment Conduct interface management during Changes\n Processes product int egratio n activities\n To Technical Data\n Interface Management Process\n Changes Conduct interface control Interface Management\n Work Products\n\n Captu re wor k products from interface\n management activities\n\n\n FIGURE 6.3-1 Interface Management Process\n\n\n6.3.1 Process Description Other inputs that might be useful are:\nFIGURE 6.3-1 provides a typical flow diagram for the\nInterface Management Process and identifies typical • System Description: This allows the design of\ninputs, outputs, and activities to consider in address- the system to be explored and examined to deter-\ning interface management. mine where system interfaces exist. Contractor\n arrangements will also dictate where interfaces\n6.3.1.1 Inputs are needed.\nTypical inputs needed to understand and address\ninterface management would include the following: • System Boundaries: Documented physical\n boundaries, components, and/or subsystems,\n• Interface Requirements: These include the inter- which are all drivers for determining where inter-\n nal and external functional, physical, and perfor- faces exist.\n mance interface requirements developed as part\n of the Technical Requirements Definition Process • Organizational Structure: Decisions on which\n for the product(s). organization will dictate interfaces, particularly\n when there is the need to jointly agree on shared\n• Interface Change Requests: These include interface parameters of a system. The program\n changes resulting from program or project agree- and project WBS will also provide organizational\n ments or changes on the part of the technical interface boundaries.\n team as part of the Technical Assessment Process.\n • Boards Structure: Defined board structure that\n identifies organizational interface responsibilities.\n\n\n\n 136",
+          "image_path": "data/local/advanced/pages/p0146_2000.png",
+          "image_sha256": "4989f228c796affad8d6e0b9b92cbcaccacda9d82e0bf74b4a07d13d012cca7a"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0146",
+          "page": 146,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n Prepare or update interface\n management procedures To Configuration\n Management Process\n From user or program and Interface Control\n system design processes Conduct interface management during\n Documents\n Interface system design activities for each WBS-\n Requirements like model in the system structure\n Approved Interface\n FromProject and Requirement\n Technical Assessment Conduct interface management during Changes\n Processes product int egratio n activities\n To Technical Data\n Interface Management Process\n Changes Conduct interface control Interface Management\n Work Products\n\n Captu re wor k products from interface\n management activities\n\n\n FIGURE 6.3-1 Interface Management Process\n\n\n6.3.1 Process Description Other inputs that might be useful are:\nFIGURE 6.3-1 provides a typical flow diagram for the\nInterface Management Process and identifies typical • System Description: This allows the design of\ninputs, outputs, and activities to consider in address- the system to be explored and examined to deter-\ning interface management. mine where system interfaces exist. Contractor\n arrangements will also dictate where interfaces\n6.3.1.1 Inputs are needed.\nTypical inputs needed to understand and address\ninterface management would include the following: • System Boundaries: Documented physical\n boundaries, components, and/or subsystems,\n• Interface Requirements: These include the inter- which are all drivers for determining where inter-\n nal and external functional, physical, and perfor- faces exist.\n mance interface requirements developed as part\n of the Technical Requirements Definition Process • Organizational Structure: Decisions on which\n for the product(s). organization will dictate interfaces, particularly\n when there is the need to jointly agree on shared\n• Interface Change Requests: These include interface parameters of a system. The program\n changes resulting from program or project agree- and project WBS will also provide organizational\n ments or changes on the part of the technical interface boundaries.\n team as part of the Technical Assessment Process.\n • Boards Structure: Defined board structure that\n identifies organizational interface responsibilities.\n\n\n\n 136",
+          "image_sha256": "4989f228c796affad8d6e0b9b92cbcaccacda9d82e0bf74b4a07d13d012cca7a"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 6.3-1, the outputs that go to the Configuration Management Process are “Interface Control Documents” and “Approved Interface Requirement Changes.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0146",
+                "locator": "Figure 6.3-1 (right side), under “To Configuration Management Process”",
+                "evidence": "To Configuration Management Process: Interface Control Documents; Approved Interface Requirement Changes"
+              }
+            ]
+          },
+          {
+            "text": "In Figure 6.3-1, the output that goes to the Technical Data Management Process is “Interface Management Work Products.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0146",
+                "locator": "Figure 6.3-1 (right side), under “To Technical Data Management Process”",
+                "evidence": "To Technical Data Management Process: Interface Management Work Products"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    146
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 6.3-1, the outputs that go to the Configuration Management Process are “Interface Control Documents” and “Approved Interface Requirement Changes.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0146",
+            "locator": "Figure 6.3-1 (right side), under label “To Configuration Management Process”",
+            "evidence": "To Configuration Management Process\nInterface Control Documents\nApproved Interface Requirement Changes"
+          }
+        ]
+      },
+      {
+        "text": "In Figure 6.3-1, the output that goes to the Technical Data Management Process is “Interface Management Work Products.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0146",
+            "locator": "Figure 6.3-1 (right side), under label “To Technical Data Management Process”",
+            "evidence": "To Technical Data Management Process\nInterface Management Work Products"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 6.3-1, the outputs that go to the Configuration Management Process are “Interface Control Documents” and “Approved Interface Requirement Changes.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0146",
+          "locator": "Figure 6.3-1 (right side), under “To Configuration Management Process”",
+          "evidence": "To Configuration Management Process: Interface Control Documents; Approved Interface Requirement Changes"
+        }
+      ]
+    },
+    {
+      "text": "In Figure 6.3-1, the output that goes to the Technical Data Management Process is “Interface Management Work Products.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0146",
+          "locator": "Figure 6.3-1 (right side), under “To Technical Data Management Process”",
+          "evidence": "To Technical Data Management Process: Interface Management Work Products"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 14779.87
+}

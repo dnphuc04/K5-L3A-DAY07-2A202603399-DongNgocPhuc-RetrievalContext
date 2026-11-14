@@ -1,0 +1,149 @@
+{
+  "method": "Direct per-question and per-citation comparison against original NASA PDF pages; binary completeness/grounding/region review. No independent external grading claimed.",
+  "reviews": [
+    {
+      "id": "ADV-DEV-01",
+      "trace_sha256": "72f1a26247c8f0fab9dc9899be454996cf97dd5e1ffd2be5d872e94183d577eb",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-02",
+      "trace_sha256": "4d4d093c7ef511bdc33e0bd2764356408ea86be567ae210250c8f00787359d27",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-03",
+      "trace_sha256": "1906447d2c6e4520e3d924651743b3fb256c7661f53ce369f27b0db1317f16fd",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-04",
+      "trace_sha256": "e83789f6b2502b0d6c56d3d27eccf88192cc28aea66b6d57b37207e9c509659b",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-05",
+      "trace_sha256": "47579abef4426012f881f6c7c0e14fe2b7b15378adaf9123083813a6391b0c9c",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-06",
+      "trace_sha256": "59d709281418aab5e7d56459ce2b4d096de9b956dd2fb0f8584dc6f2ead0819e",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-07",
+      "trace_sha256": "6414684475663bcab2c0d56ede92daa627f1b631872a03bdcb371de830fc67b6",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-08",
+      "trace_sha256": "7a5e8b3143c12fd42bc2f7211cfa70ff534eb1fde6030a4c8a495e7ded0aa964",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-09",
+      "trace_sha256": "e1eeaff4ee3b5c0df6be9b1ccd42b77c8134e87c37d2d9bd93aa169037f7d907",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-10",
+      "trace_sha256": "adf8e0cb3219a1f4093ce39e3993e628cb7805f1ae0f08fa9a5fdcf97f7d3faf",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-11",
+      "trace_sha256": "be719581c735012f0a7c9fb1850abf470231a5e5bcd0cc1235df4c9ee266c1d2",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-12",
+      "trace_sha256": "2a258ad605e093a463ecd7e9720a091e7879ff606e521608cd3a0a442ec5e72d",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-13",
+      "trace_sha256": "1baab26cb1995f5c432a2310e7c8ef9949e1226bfba4920348a4e74c80a5b25a",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-14",
+      "trace_sha256": "921ba3351303b08c9bf1c3f2dd31b8a789a50f17f1464cca0e741a81ca8d7793",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-15",
+      "trace_sha256": "fa28a14ff2c44cd57cb6c6d9ba0c1a1380f5531261d785daca3aa5c1b33875e0",
+      "passed": false,
+      "answer_correct_complete": false,
+      "reason": "System output guard rejected citation coordinates/page or invalid JSON; no usable final answer. Raw provider draft is retained in calls.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-16",
+      "trace_sha256": "cad2946529bae40afb317c4f1394793234c22027c608dce163103ee2d29df09a",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: no unsupported value supplied; full-corpus absence-check record and related source sections do not establish the requested mandate.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-17",
+      "trace_sha256": "5533aac016985c5384c4892029fb3e795ab20dcdf11bda7eddc05f316fc9a8df",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: no unsupported value supplied; full-corpus absence-check record and related source sections do not establish the requested mandate.",
+      "citations": []
+    },
+    {
+      "id": "ADV-DEV-18",
+      "trace_sha256": "8e78d589d87e7e152901a825500cc277004b2a4a5badfa68f0cb9476682d75be",
+      "passed": true,
+      "answer_correct_complete": null,
+      "reason": "Correct refusal: no unsupported value supplied; full-corpus absence-check record and related source sections do not establish the requested mandate.",
+      "citations": []
+    }
+  ]
+}

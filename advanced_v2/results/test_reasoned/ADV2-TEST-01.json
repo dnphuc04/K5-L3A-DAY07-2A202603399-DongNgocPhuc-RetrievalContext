@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-01",
+  "split": "test",
+  "question": "In Table 4.1-1, list all example stakeholders for Phase F.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nH72gLKtgP9R7TIBYhj0Assjf4",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 640,
+        "completion_tokens": 55,
+        "total_tokens": 695,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 23,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2084.12,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_tZJl1YQky3MO1gMiDC1TClNc",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 4.1-1 Phase F example stakeholders\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nJVHSd3Bk5npPneBW7cA4a8JMa",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5796,
+        "completion_tokens": 78,
+        "total_tokens": 5874,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 49,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2193.15,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_36zl2J927jnZ7f01I2xoJMwE",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0057\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nMyoSpT5GejuXzdQg7vQSKsMYk",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10223,
+        "completion_tokens": 185,
+        "total_tokens": 10408,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 62,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3945.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_XA5Wl3hjQIn96VB2BPceCAos",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 4.1-1, the example stakeholders for Phase F are: Customer; NASA Headquarters; operators; safety; planetary protection; public.\",\"citations\":[{\"source_id\":\"NASA-SE:p0057\",\"locator\":\"Table 4.1-1, row \\\"Phase F\\\" (Life-Cycle Stage) / column \\\"Example Stakeholders\\\"\",\"evidence\":\"Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nQMW98xrgYks5CJAdGtmEAW47i",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4829,
+        "completion_tokens": 192,
+        "total_tokens": 5021,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 75,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3702.88,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_BPqBY8XASvXRRglXxaeqaGyb",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Table 4.1-1 lists the Phase F example stakeholders as: Customer; NASA Headquarters; operators; safety; planetary protection; public.\",\"citations\":[{\"source_id\":\"NASA-SE:p0057\",\"locator\":\"Table 4.1-1, Phase F row (Life-Cycle Stage) / Example Stakeholders column\",\"evidence\":\"Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 4.1-1, list all example stakeholders for Phase F.",
+      "results": [
+        {
+          "id": "NASA-SE:p0057",
+          "page": 57,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "score": 14.170913125948005,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 13.749634685945681,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 11.336375828588908,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0055",
+          "page": 55,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nthe next level of decomposition, the baselined derived 4.1.1 Process Description\n(and allocated) requirements become the set of high- FIGURE 4.1-1 provides a typical flow diagram for the\nlevel requirements for the decomposed elements and Stakeholder Expectations Definition Process and\nthe process begins again. These system design pro- identifies typical inputs, outputs, and activities to\ncesses are primarily applied in Pre-Phase A and con- consider in defining stakeholder expectations.\ntinue through Phase C.\n 4.1.1.1 Inputs\nThe system design processes during Pre-Phase A Typical inputs needed for the Stakeholder Expectations\nfocus on producing a feasible design that will lead Definition Process include the following:\nto Formulation approval. During Phase A, alterna-\ntive designs and additional analytical maturity are • Initial Customer Expectations: These are the\npursued to optimize the design architecture. Phase needs, goals, objectives, desires, capabilities, and\nB results in a preliminary design that satisfies the other constraints that are received from the cus-\napproval criteria. During Phase C, detailed, build-to tomer for the product within the product layer.\ndesigns are completed. For the top-tier products (final end item), these are\n the expectations of the originating customer who\nThis is a simplified description intended to demon- requested the product. For an end product within\nstrate the recursive relationship among the system the product layer, these are the expectations of the\ndesign processes. These processes should be used as recipient of the end item when transitioned.\nguidance and tailored for each study team depending\non the size of the project and the hierarchical level • Other Stakeholder Expectations: These are the\nof the study team. The next sections describe each of expectations of key stakeholders other than the\nthe four system design processes and their associated customer. For example, such stakeholders may\nproducts for a given NASA mission. be the test team that will be receiving the transi-\n tioned product (end product and enabling prod-\n ucts) or the trainers that will be instructing the\n4.1 Stakeholder Expectations operators or managers that are accountable for the\n Definition product at this layer.\n\nThe Stakeholder Expectations Definition Process is • Customer Flow-down Requirements: These are\nthe initial process within the SE engine that estab- any requirements that are being flowed down or\nlishes the foundation from which the system is allocated from a higher level (i.e., parent require-\ndesigned and the product is realized. The main pur- ments). They are helpful in establishing the expec-\npose of this process is to identify who the stakehold- tations of the customer at this layer.\ners are and how they intend to use the product. This\nis usually accomplished through use-case scenarios 4.1.1.2 Process Activities\n(sometimes referred to as Design Reference Missions 4.1.1.2.1 Identify Stakeholders\n(DRMs)) and the ConOps. A “stakeholder” is a group or individual that is\n affected by or has a stake in the product or project.\n The key players for a project/product are called the\n key stakeholders. One key stakeholder is always the\n\n\n\n 45",
+          "score": 8.15616481950807,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 8.027850506358497,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 12.10564842864614,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 11.207047544430276,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0057",
+          "page": 57,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "image_path": "data/local/advanced/pages/p0057_2000.png",
+          "image_sha256": "6b72ca135233d7ad1587aa0db15785e6bb2e0ea088761300f2f193336e5957bd"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0057",
+          "page": 57,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "image_sha256": "6b72ca135233d7ad1587aa0db15785e6bb2e0ea088761300f2f193336e5957bd"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Table 4.1-1 lists the Phase F example stakeholders as: Customer; NASA Headquarters; operators; safety; planetary protection; public.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0057",
+                "locator": "Table 4.1-1, Phase F row (Life-Cycle Stage) / Example Stakeholders column",
+                "evidence": "Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    57
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Table 4.1-1, the example stakeholders for Phase F are: Customer; NASA Headquarters; operators; safety; planetary protection; public.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0057",
+            "locator": "Table 4.1-1, row \"Phase F\" (Life-Cycle Stage) / column \"Example Stakeholders\"",
+            "evidence": "Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Table 4.1-1 lists the Phase F example stakeholders as: Customer; NASA Headquarters; operators; safety; planetary protection; public.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0057",
+          "locator": "Table 4.1-1, Phase F row (Life-Cycle Stage) / Example Stakeholders column",
+          "evidence": "Phase F  Customer, NASA Headquarters, operators, safety, planetary protection, public"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 12866.4
+}

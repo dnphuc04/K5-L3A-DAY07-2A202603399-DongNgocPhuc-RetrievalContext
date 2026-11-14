@@ -1,0 +1,251 @@
+{
+  "id": "ADV2-DEV-16",
+  "split": "dev",
+  "question": "In Figure 4.4-3, what do dashed lines represent and in which direction is cost-effectiveness higher?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4flBL3QOycEvHEr6Ox835jzOmDi",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 571,
+        "completion_tokens": 17,
+        "total_tokens": 588,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 965.63,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6mppgzZRe2gY5D9vTDaOa5pp",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.4-3 dashed lines cost-effectiveness direction\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4fmHnoC23kxlcSClemoGJAKxtOY",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6427,
+        "completion_tokens": 20,
+        "total_tokens": 6447,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1131.02,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_NE1LLg2MC9FNjyN8WFdTysI9",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0081\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4foueK6MTJMGS3hPqNFMuWVvkUk",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 8056,
+        "completion_tokens": 29,
+        "total_tokens": 8085,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2030.0,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_F3z5dlFg6oXnWqfnJBmWLbjr",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0081\",\"bbox\":[44,93,726,420]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4fqkJITXR7TtlmdWj1HA40tgz3k",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 8129,
+        "completion_tokens": 29,
+        "total_tokens": 8158,
+        "prompt_tokens_details": {
+          "cached_tokens": 8064,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2147.46,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_MZouLcDSR3b5kosUvBZV7vMN",
+            "type": "function",
+            "function": {
+              "name": "view_region",
+              "arguments": "{\"source_id\":\"NASA-SE:p0081\",\"bbox\":[44,93,726,420]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 4.4-3, what do dashed lines represent and in which direction is cost-effectiveness higher?",
+      "results": [
+        {
+          "id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "score": 25.55224823050804,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 9.690575614698444,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0080",
+          "page": 80,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nmanagers—should cooperate. The right quantita- to find regions of the design space that warrant fur-\ntive methods and selection criteria should be used. ther investigation.\nTrade study assumptions, models, and results should\nbe documented as part of the project archives. The Whether system models are used or not, the design\nparticipants should remain focused on the functional concepts are developed, modified, reassessed, and\nrequirements, including those for enabling products. compared against competing alternatives in a closed-\nFor an in-depth discussion of the trade study process, loop process that seeks the best choices for further\nsee Section 6.8. The ability to perform these studies is development. System and subsystem sizes are often\nenhanced by the development of system models that determined during the trade studies. The end result is\nrelate the design parameters to those assessments, but the determination of bounds on the relative cost-ef-\nit does not depend upon them. fectiveness of the design alternatives, measured in\n terms of the quantified system goals. (Only bounds,\nThe technical team should consider a broad range rather than final values, are possible because deter-\nof concepts when developing the system model. The mination of the final details of the design is inten-\nmodel should define the roles of crew, operators, tionally deferred.) Increasing detail associated with\nmaintainers, logistics, hardware, and software in the continually improving resolution reduces the\nthe system. It should identify the critical technolo- spread between upper and lower bounds as the pro-\ngies required to implement the mission and should cess proceeds.\nconsider the entire life cycle from fabrication to\ndisposal. Evaluation criteria for selecting concepts 4.4.1.2.4 Select the Best Design Solution Alternative\nshould be established. Cost is always a limiting fac- The technical team selects the best design solution\ntor. However, other criteria, such as time to develop from among the alternative design concepts, taking\nand certify a unit, risk, and reliability, also are crit- into account subjective factors that the team was\nical. This stage cannot be accomplished without unable to quantify, such as robustness, as well as\naddressing the roles of operators and maintainers. estimates of how well the alternatives meet the quan-\nThese contribute significantly to life cycle costs and titative requirements; the maturity of the available\nto the system reliability. Reliability analysis should be technology; and any effectiveness, cost, schedule,\nperformed based upon estimates of component fail- risk, or other constraints.\nure rates for hardware and an understanding of the\nconsequences of these failures. If probabilistic risk The Decision Analysis Process, as described in\nassessment models are applied, it may be necessary to Section 6.8, should be used to make an evaluation of\ninclude occurrence rates or probabilities for software the alternative design concepts and to recommend\nfaults or human error events. These models should the “best” design solution.\ninclude hazard analyses and controls implemented\nthrough fault management. Assessments of the matu- When it is possible, it is usually well worth the trou-\nrity of the required technology should be done and a ble to develop a mathematical expression, called an\ntechnology development plan developed. “objective function,” that expresses the values of com-\n binations of possible outcomes as a single measure of\nControlled modification and development of design cost-effectiveness, as illustrated in FIGURE 4.4-3, even\nconcepts, together with such system models, often if both cost and effectiveness should be described by\npermits the use of formal optimization techniques more than one measure.\n\n\n\n 70",
+          "score": 8.823720149293619,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0196",
+          "page": 196,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nparticular goal. Generally, objectives should meet ensures that all system and support (flight and ground)\nfour criteria: hardware, software, personnel, procedures, and user\n documentation accurately reflects the deployed state\n1. Specific: Objectives should aim at results and of the system and are operationally ready.\n reflect what the system needs to do, but they don’t\n outline how to implement the solution. They need Operations Concept: A description of how the flight\n to be specific enough to provide clear direction, so system and the ground system are used together to\n developers, customers, and testers can understand ensure that the concept of operation is reasonable. This\n them. might include how mission data of interest, such as\n engineering or scientific data, are captured, returned to\n2. Measurable: Objectives need to be quantifiable Earth, processed, made available to users, and archived\n and verifiable. The project needs to monitor the for future reference. (Source: NPR 7120.5)\n system’s success in achieving each objective.\n Optimal Solution: A feasible solution that best meets\n3. Aggressive, but attainable: Objectives need to be criteria when balanced at a system level.\n challenging but reachable, and targets need to be\n realistic. At first, objectives “To Be Determined” Other Interested Parties (Stakeholders): A subset of\n (TBD) may be included until trade studies “stakeholders,” other interested parties are groups or\n occur, operations concepts solidify, or technology individuals who are not customers of a planned tech-\n matures. But objectives need to be feasible before nical effort but may be affected by the resulting prod-\n starting to write requirements and design systems. uct, the manner in which the product is realized or\n used, or have a responsibility for providing life cycle\n4. Results-oriented: Objectives need to focus on support services.\n desired outputs and outcomes, not on the meth-\n ods used to achieve the target (what, not how). Peer Review: Independent evaluation by internal or\n external subject matter experts who do not have a\nObjective Function (sometimes Cost Function): vested interest in the work product under review. Peer\nA mathematical expression of the values of combi- reviews can be planned, focused reviews conducted\nnations of possible outcomes as a single measure of on selected work products by the producer’s peers to\ncost-effectiveness. identify defects and issues prior to that work product\n moving into a milestone review or approval cycle.\nOperational Environment: The environment in\nwhich the final product will be operated. In the case Performance Standards: Defines what constitutes\nof space flight hardware/software, it is space. In the acceptable performance by the provider. Common\ncase of ground-based or airborne systems that are not metrics for use in performance standards include cost\ndirected toward space flight, it is the environments and schedule.\ndefined by the scope of operations. For software, the\nenvironment is defined by the operational platform. Physical Configuration Audits (PCA) or configura-\n tion inspection: The PCA examines the physical con-\nOperational Readiness Review: A review that exam- figuration of the configured product and verifies that\nines the actual system characteristics and the proce- the product corresponds to the build-to (or code-to)\ndures used in the system or product’s operation and product baseline documentation previously approved\n\n\n 186",
+          "score": 15.01532124310358,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0077",
+          "page": 77,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n4.4.1.2 Process Activities Recognize Identify and\n4.4.1.2.1 Define Alternative Design Solutions need/ quantify goals\n opportunity\nThe realization of a system over its life cycle involves Identify and\na succession of decisions among alternative courses quantify goals\nof action. If the alternatives are precisely defined and Identify and\n quantify goals conceptsCreate\nthoroughly understood to be well differentiated in conceptsCreate\n Identify and conceptsCreate\nthe cost-effectiveness space, then the systems engi- quantify goalsconceptsCreate\nneer can make choices among them with confidence. Increaseresolution\n Increaseresolution Increase\n resolution\nTo obtain assessments that are crisp enough to facili- Select\n design Do trade studies\ntate good decisions, it is often necessary to delve more Select Do trade\ndeeply into the space of possible designs than has yet design studies\nbeen done, as illustrated in FIGURE 4.4-2. It should Select Do trade studies\n design\nbe realized, however, that this illustration represents Implement decisionsSelect Do trade\nneither the project life cycle, which encompasses Perform design studies\n mission\nthe system development process from inception\nthrough disposal, nor the product development pro-\ncess by which the system design is developed and FIGURE 4.4-2 The Doctrine of Successive Refinement\nimplemented.\n Additionally, the state of any technology that is con-\nEach “create concepts” step in FIGURE 4.4-2 involves a sidered enabling should be properly monitored, and\nrecursive and iterative design loop driven by the set of care should be taken when assessing the impact of\nstakeholder expectations where a straw man architec- this technology on the concept performance. This\nture/design, the associated ConOps, and the derived interaction is facilitated through a periodic assess-\nrequirements are developed and programmatic con- ment of the design with respect to the maturity of the\nstraints such as cost and schedule are considered. technology required to implement the design. (See\nThese three products should be consistent with each Section 4.4.2.1 in the NASA Expanded Guidance\nother and will require iterations and design decisions for Systems Engineering at https://nen.nasa.gov/web/\nto achieve this consistency. This recursive and itera- se/doc-repository for a more detailed discussion of\ntive design loop is illustrated in FIGURE 4.0-1. technology assessment.) These technology elements\n usually exist at a lower level in the PBS. Although\nEach “create concepts” step in FIGURE 4.4-2 also the process of design concept development by the\ninvolves an assessment of potential capabilities offered integration of lower level elements is a part of the\nby the continually changing state of technology and systems engineering process, there is always a danger\npotential pitfalls captured through experience-based that the top-down process cannot keep up with the\nreview of prior program/project lessons learned data. bottom-up process. Therefore, system architecture\nIt is imperative that there be a continual interaction issues need to be resolved early so that the system\nbetween the technology development process, cross- can be modeled with sufficient realism to do reliable\ncutting processes such as human systems integration, trade studies.\nand the design process to ensure that the design\nreflects the realities of the available technology and As the system is realized, its particulars become\nthat overreliance on immature technology is avoided. clearer—but also harder to change. See the rising\n\n\n 67",
+          "score": 13.560492283455144,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0059",
+          "page": 59,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nto know who the primary stakeholders are and who • Goals: An elaboration of the need, which con-\nhas the decision authority to help resolve conflicts. stitutes a specific set of expectations for the sys-\n tem. Goals address the critical issues identified\nNeeds, Goals, and Objectives (NGOs) provide a during the problem assessment. Goals need not\nmechanism to ensure that everyone (implementer, be in a quantitative or measurable form, but they\ncustomer, and other stakeholders) is in agreement at should allow us to assess whether the system has\nthe beginning of a project in terms of defining the achieved them.\nproblem that needs to be solved and its scope. NGOs\nare not contractual requirements or designs. • Objectives: Specific target levels of outputs the\n system must achieve. Each objective should relate\nNeeds are defined in the answer to the question to a particular goal. Generally, objectives should\n“What problem are we trying to solve?” Goals meet four criteria. (1) They should be specific\naddress what must be done to meet the needs; i.e., enough to provide clear direction, so developers,\nwhat the customer wants the system to do. Objectives customers, and testers will understand them. They\nexpand on the goals and provide a means to docu- should aim at results and reflect what the system\nment specific expectations. (Rationale should be pro- needs to do but not outline how to implement the\nvided where needed to explain why the need, goal, solution. (2) They should be measurable, quantifi-\nor objective exists, any assumptions made, and any able, and verifiable. The project needs to monitor\nother information useful in understanding or man- the system’s success in achieving each objective.\naging the NGO.) (3) They should be aggressive but attainable,\n challenging but reachable, and targets need to be\nWell-written NGOs provide clear traceability from realistic. Objectives “To Be Determined” (TBD)\nthe needs, then to the goals, and then to objectives. may be included until trade studies occur, oper-\nFor example, if a given goal does not support a need, ations concepts solidify, or technology matures.\nor an objective does not support a goal, it should not Objectives need to be feasible before require-\nbe part of the integrated set of NGOs. This traceabil- ments are written and systems designed. (4) They\nity helps ensure that the team is actually providing should be results-oriented focusing on desired\nwhat is needed. outputs and outcomes, not on the methods used\n to achieve the target (what, not how). It is import-\nThe following definitions (source: Applied Space ant to always remember that objectives are not\nSystems Engineering edited by Larson, Kirkpatrick, requirements. Objectives are identified during\nSellers, Thomas, and Verma) are provided to help the pre-Phase A development and help with the even-\nreader interpret the NGOs contained in this product. tual formulation of a requirements set, but it is the\n requirements themselves that are contractually\n• Need: A single statement that drives everything binding and will be verified against the “as-built”\n else. It should relate to the problem that the system system design.\n is supposed to solve but not be the solution. The\n need statement is singular. Trying to satisfy more These stakeholder expectations are captured and are\n than one need requires a trade between the two, considered as initial until they can be further refined\n which could easily result in failing to meet at least through development of the concept of operations\n one, and possibly several, stakeholder expectations. and final agreement by the stakeholders.\n\n\n\n 49",
+          "score": 12.05342346758812,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0152",
+          "page": 152,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Technical Risk Reporting Requirements: management of individual risk issues during imple-\n Includes requirements of how technical risks will mentation. In December of 2008, NASA revised its\n be reported, how often, and to whom. RM approach in order to more effectively foster pro-\n active risk management. The new approach, which is\nAdditional inputs that may be useful: outlined in NPR 8000.4, Agency Risk Management\n Procedural Requirements and further developed\n• Other Plans and Policies: Systems Engineering in NASA/SP-2011-3422, NASA Risk Management\n Management Plan, form of technical data prod- Handbook, evolves NASA‘s risk management to\n ucts, and policy input to metrics and thresholds. entail two complementary processes: Risk-Informed\n Decision Making (RIDM) and CRM. RIDM is\n• Technical Inputs: Stakeholder expectations, con- intended to inform direction-setting systems engi-\n cept of operations, imposed constraints, tracked neering (SE) decisions (e.g., design decisions) through\n observables, current program baseline, perfor- better use of risk and uncertainty information in\n mance requirements, and relevant experience data. selecting alternatives and establishing baseline perfor-\n mance requirements (for additional RIDM technical\n6.4.1.2 Activities information, guidance, and process description, see\n6.4.1.2.1 Prepare a Strategy to Conduct Technical Risk NASA/SP-2010-576 Version 1, NASA Risk-Informed\n Management Decision Making Handbook).\nThis strategy would include documenting how the\nprogram/project risk management plan (as devel- CRM is then used to manage risks over the course\noped during the Technical Planning Process) will be of the development and implementation phases of\nimplemented, identifying any additional technical the life cycle to assure that requirements related to\nrisk sources and categories not captured in the plan, safety, technical, cost, and schedule are met. In the\nidentifying what will trigger actions and how these past, RM was considered equivalent to the CRM\nactivities will be communicated to the internal and process; now, RM is defined as comprising both the\nexternal teams. RIDM and CRM processes, which work together to\n assure proactive risk management as NASA programs\n6.4.1.2.2 Identify Technical Risks and projects are conceived, developed, and executed.\nOn a continuing basis, the technical team will iden- FIGURE 6.4-4 illustrates the concept.\ntify technical risks including their source, analyze\nthe potential consequence and likelihood of the risks\noccurring, and prepare clear risk statements for entry\ninto the program/project risk management system.\nCoordination with the relevant stakeholders for the\nidentified risks is included. For more information on\nidentifying technical risks, see Section 6.4.2.1.\n\n\n6.4.1.2.3 Conduct Technical Risk Assessment\nUntil recently, NASA’s Risk Management (RM) FIGURE 6.4-4 Risk Management as the Interaction of\napproach was based almost exclusively on Continuous Risk-Informed Decision Making and Continuous Risk\nRisk Management (CRM), which stresses the Management (Source: NASA/SP-2011-3422)\n\n\n\n 142",
+          "score": 11.812829594382393,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0081",
+          "page": 81,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n may affect the effectiveness and cost values and the\n risk distributions.\n\n The mission success criteria for systems differ sig-\n nificantly. In some cases, effectiveness goals may be\n A much more important than all others. Other projects\n may demand low costs, have an immutable sched-\n ule, or require minimization of some kinds of risks.\n C Rarely (if ever) is it possible to produce a combined\n B quantitative measure that relates all of the important\n factors, even if it is expressed as a vector with sev-\n eral components. Even when that can be done, it is\n Life-Cycle Cost, Expressed in Constant Dollars essential that the underlying actors and relationships\nFIGURE 4.4-3 A Quantitative Objective Function, Dependent be thoroughly revealed to and understood by the sys-\n on Life Cycle Cost and All Aspects of Effectiveness tems engineer. The systems engineer should weigh\n the importance of the unquantifiable factors along\nNote: The different shaded areas indicate different levels with the quantitative data.\nof uncertainty . Dashed lines represent constant values of\nobjective function (cost-effectiveness) . Higher values of cost-\neffectiveness are achieved by moving toward upper left . A, Technical reviews of the data and analyses, includ-\nB, and C are design concepts with different risk patterns . ing technology maturity assessments, are an import-\n ant part of the decision support packages prepared\nThe objective function (or “cost function”) assigns a for the technical team. The decisions that are made\nreal number to candidate solutions or “feasible solu- are generally entered into the configuration manage-\ntions” in the alternative space or “search space.” A ment system as changes to (or elaborations of) the\nfeasible solution that minimizes (or maximizes, if system baseline. The supporting trade studies are\nthat is the goal) the objective function is called an archived for future use. An essential feature of the\n“optimal solution.” When achievement of the goals systems engineering process is that trade studies are\ncan be quantitatively expressed by such an objec- performed before decisions are made. They can then\ntive function, designs can be compared in terms of be baselined with much more confidence.\ntheir value. Risks associated with design concepts\ncan cause these evaluations to be somewhat nebulous 4.4.1.2.5 Increase the Resolution of the Design\nbecause they are uncertain and are best described by The successive refinement process of FIGURE 4.4-2\nprobability distributions. illustrates a continuing refinement of the system\n design. At each level of decomposition, the baselined\nIn FIGURE 4.4-3, the risks are relatively high for derived (and allocated) requirements become the set\ndesign concept A. There is little risk in either effec- of high-level requirements for the decomposed ele-\ntiveness or cost for concept B, while the risk of an ments, and the process begins again. One might ask,\nexpensive failure is high for concept C, as is shown “When do we stop refining the design?” The answer\nby the cloud of probability near the x axis with a high is that the design effort proceeds to a depth that is\ncost and essentially no effectiveness. Schedule factors sufficient to meet several needs: the design should\n penetrate sufficiently to allow analytical validation\n\n\n\n 71",
+          "image_path": "data/local/advanced/pages/p0081_2000.png",
+          "image_sha256": "9f978305b31d66df6d898f1f08043b210e08d8c6d783b4e112af4fe5851acbe0"
+        }
+      ]
+    },
+    {
+      "tool": "format_repair",
+      "stage": "agent",
+      "attempt": 1,
+      "reason": "ValueError"
+    }
+  ],
+  "viewed_pages": [
+    81
+  ],
+  "status": "error",
+  "claims": [],
+  "error": {
+    "type": "ValueError",
+    "message": "Protocol failure after one recorded repair"
+  },
+  "elapsed_ms": 6365.36
+}

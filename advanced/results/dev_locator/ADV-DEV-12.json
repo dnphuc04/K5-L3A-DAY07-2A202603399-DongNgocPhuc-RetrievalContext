@@ -1,0 +1,222 @@
+{
+  "id": "ADV-DEV-12",
+  "split": "dev",
+  "question": "Compare Figure 4.1-1 and Figure 4.2-1: to which technical definition/decomposition process are Validated Stakeholder Expectations and Validated Technical Requirements respectively sent?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek48bcbyUoxZzEV2CnCt1SxzH8UkI",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 507,
+        "completion_tokens": 16,
+        "total_tokens": 523,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1099.29,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_uZDl0LIg7zyC9g0KeUH9rxo2",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 4.1-1 Validated Stakeholder Expectations\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48cwcp1fHYD3TYaFxIpUp29LZku",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5499,
+        "completion_tokens": 26,
+        "total_tokens": 5525,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1741.4,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_wvnnqfe5XYXhaR0DRjGyHceW",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0056\",\"NASA-SE:p0065\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek48eKqepSkXoyQSYh5xNwAfH9WSx",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 14715,
+        "completion_tokens": 230,
+        "total_tokens": 14945,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3422.98,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_OXiXv9PYqtQsRA2yQmZcpSl8",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Validated Stakeholder Expectations are sent to the Technical Requirements Definition and Requirements and Interface Management Processes, as shown in Figure 4.1-1 on NASA-SE:p0056 in the diagram branch labeled 'Validated Stakeholder Expectations' with the note 'To Technical Requirements Definition and Requirements and Interface Management Processes'.\",\"citations\":[{\"source_id\":\"NASA-SE:p0056\",\"locator\":\"Figure 4.1-1 diagram branch\",\"evidence\":\"Validated Stakeholder Expectations To Technical Requirements Definition and Requirements and Interface Management Processes\"}]},{\"text\":\"Validated Technical Requirements are sent to the Logical Decomposition and Requirements and Interface Management Processes, as shown in Figure 4.2-1 on NASA-SE:p0065 in the diagram branch labeled 'Validated Technical Requirements' with the note 'To Logical Decomposition and Requirements and Interface Management Processes'.\",\"citations\":[{\"source_id\":\"NASA-SE:p0065\",\"locator\":\"Figure 4.2-1 diagram branch\",\"evidence\":\"Validated Technical Requirements To Logical Decomposition and Requirements and Interface Management Processes\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Compare Figure 4.1-1 and Figure 4.2-1: to which technical definition/decomposition process are Validated Stakeholder Expectations and Validated Technical Requirements respectively sent?",
+      "results": [
+        {
+          "id": "NASA-SE:p0056",
+          "page": 56,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46",
+          "score": 18.53585713388065,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0065",
+          "page": 65,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55",
+          "score": 17.67008908144411,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0057",
+          "page": 57,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.1-1 Stakeholder Identification throughout the Life Cycle\n Life-Cycle Stage Example Stakeholders\n Pre-Phase A NASA Headquarters, NASA Centers, Presidential Directives, NASA advisory committees, the\n National Academy of Sciences\n\n Phase A Mission Directorate, customer, potential users, engineering disciplines, safety organization\n\n Phase B Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase C Customer, engineering disciplines, safety, crew, operations, logistics, production facilities,\n suppliers, principle investigators\n\n Phase D Customer, engineering disciplines, safety, crew, operations, training, logistics, verification team,\n Flight Readiness Board members\n\n Phase E Customer, system managers, operations, safety, logistics, sustaining team, crew, principle\n investigators, users\n Phase F Customer, NASA Headquarters, operators, safety, planetary protection, public\n\n\n\nexamples of stakeholders in the life cycle phase that encompass expenditures (resources), time to deliver,\nshould be considered. life cycle support expectations, performance objec-\n tives, operational constraints, training goals, or other\n4.1.1.2.2 Understand Stakeholder Expectations less obvious quantities such as organizational needs\nThoroughly understanding the customer and other or geopolitical goals. This information is reviewed,\nkey stakeholders’ expectations for the project/prod- summarized, and documented so that all parties can\nuct is one of the most important steps in the systems come to an agreement on the expectations.\nengineering process. It provides the foundation upon\nwhich all other systems engineering work depends. It FIGURE 4.1-2 shows the type of information needed\nhelps ensure that all parties are on the same page and when defining stakeholder expectations and depicts\nthat the product being provided will satisfy the cus- how the information evolves into a set of high-level\ntomer. When the customer, other stakeholders, and requirements. The yellow lines depict validation\nthe systems engineer mutually agree on the func- paths. Examples of the types of information that\ntions, characteristics, behaviors, appearance, and would be defined during each step are also provided.\nperformance the product will exhibit, it sets more\nrealistic expectations on the customer’s part and Defining stakeholder expectations begins with\nhelps prevent significant requirements creep later in the mission authority and strategic objectives that\nthe life cycle. the mission is meant to achieve. Mission authority\n changes depending on the category of the mission.\nThrough interviews/discussions, surveys, marketing For example, science missions are usually driven by\ngroups, e-mails, a Statement of Work (SOW), an NASA Science Mission Directorate strategic plans,\ninitial set of customer requirements, or some other whereas the exploration missions may be driven by a\nmeans, stakeholders specify what is desired as an end Presidential directive. Understanding the objectives\nstate or as an item to be produced and put bounds of the mission helps ensure that the project team is\non the achievement of the goals. These bounds may working toward a common vision. These goals and\n\n\n\n 47",
+          "score": 11.409413378216701,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0069",
+          "page": 69,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n TABLE 4.2-1 Benefits of Well-Written Requirements\nBenefit Rationale\nEstablish the basis for The complete description of the functions to be performed by the product specified in\nagreement between the the requirements will assist the potential users in determining if the product specified\nstakeholders and the meets their needs or how the product should be modified to meet their needs. During\ndevelopers on what the system design, requirements are allocated to subsystems (e.g., hardware, software,\nproduct is to do and other major components of the system), people, or processes.\n\nReduce the development The Technical Requirements Definition Process activities force the relevant\neffort because less rework stakeholders to rigorously consider all of the requirements before design begins.\nis required to address Careful review of the requirements can reveal omissions, misunderstandings, and\npoorly written, missing, inconsistencies early in the development cycle when these problems are easier to\nand misunderstood correct thereby reducing costly redesign, remanufacture, recoding, and retesting in\nrequirements later life cycle phases.\n\nProvide a basis for The description of the product to be developed as given in the requirements is a\nestimating costs and realistic basis for estimating project costs and can be used to evaluate bids or price\nschedules estimates.\n\nProvide a baseline for Organizations can develop their verification and validation plans much more\nverification and validation productively from a good requirements document. Both system and subsystem\n test plans and procedures are generated from the requirements. As part of the\n development, the requirements document provides a baseline against which\n compliance can be measured. The requirements are also used to provide the\n stakeholders with a basis for acceptance of the system.\n\nFacilitate transfer The requirements make it easier to transfer the product. Stakeholders thus find it\n easier to transfer the product to other parts of their organization, and developers find it\n easier to transfer it to new stakeholders or reuse it.\n\nServe as a basis for The requirements serve as a basis for later enhancement or alteration of the finished\nenhancement product.\n\n\n\n TABLE 4.2-2 Requirements Metadata\nItem Function\nRequirement ID Provides a unique numbering system for sorting and tracking.\n\nRationale Provides additional information to help clarify the intent of the requirements at the time they\n were written. (See “Rationale” box below on what should be captured.)\n\nTraced from Captures the bidirectional traceability between parent requirements and lower level (derived)\n requirements and the relationships between requirements.\n\nOwner Person or group responsible for writing, managing, and/or approving changes to this\n requirement.\n\nVerification method Captures the method of verification (test, inspection, analysis, demonstration) and should be\n determined as the requirements are developed.\n\nVerification lead Person or group assigned responsibility for verifying the requirement.\n\nVerification level Specifies the level in the hierarchy at which the requirements will be verified (e.g., system,\n subsystem, element).\n\n\n\n\n\n\n\n 59",
+          "score": 7.1361079779117045,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0055",
+          "page": 55,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\nthe next level of decomposition, the baselined derived 4.1.1 Process Description\n(and allocated) requirements become the set of high- FIGURE 4.1-1 provides a typical flow diagram for the\nlevel requirements for the decomposed elements and Stakeholder Expectations Definition Process and\nthe process begins again. These system design pro- identifies typical inputs, outputs, and activities to\ncesses are primarily applied in Pre-Phase A and con- consider in defining stakeholder expectations.\ntinue through Phase C.\n 4.1.1.1 Inputs\nThe system design processes during Pre-Phase A Typical inputs needed for the Stakeholder Expectations\nfocus on producing a feasible design that will lead Definition Process include the following:\nto Formulation approval. During Phase A, alterna-\ntive designs and additional analytical maturity are • Initial Customer Expectations: These are the\npursued to optimize the design architecture. Phase needs, goals, objectives, desires, capabilities, and\nB results in a preliminary design that satisfies the other constraints that are received from the cus-\napproval criteria. During Phase C, detailed, build-to tomer for the product within the product layer.\ndesigns are completed. For the top-tier products (final end item), these are\n the expectations of the originating customer who\nThis is a simplified description intended to demon- requested the product. For an end product within\nstrate the recursive relationship among the system the product layer, these are the expectations of the\ndesign processes. These processes should be used as recipient of the end item when transitioned.\nguidance and tailored for each study team depending\non the size of the project and the hierarchical level • Other Stakeholder Expectations: These are the\nof the study team. The next sections describe each of expectations of key stakeholders other than the\nthe four system design processes and their associated customer. For example, such stakeholders may\nproducts for a given NASA mission. be the test team that will be receiving the transi-\n tioned product (end product and enabling prod-\n ucts) or the trainers that will be instructing the\n4.1 Stakeholder Expectations operators or managers that are accountable for the\n Definition product at this layer.\n\nThe Stakeholder Expectations Definition Process is • Customer Flow-down Requirements: These are\nthe initial process within the SE engine that estab- any requirements that are being flowed down or\nlishes the foundation from which the system is allocated from a higher level (i.e., parent require-\ndesigned and the product is realized. The main pur- ments). They are helpful in establishing the expec-\npose of this process is to identify who the stakehold- tations of the customer at this layer.\ners are and how they intend to use the product. This\nis usually accomplished through use-case scenarios 4.1.1.2 Process Activities\n(sometimes referred to as Design Reference Missions 4.1.1.2.1 Identify Stakeholders\n(DRMs)) and the ConOps. A “stakeholder” is a group or individual that is\n affected by or has a stake in the product or project.\n The key players for a project/product are called the\n key stakeholders. One key stakeholder is always the\n\n\n\n 45",
+          "score": 16.80944541330407,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 16.59980719414434,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0064",
+          "page": 64,
+          "text": " 4.0 System Design Processes\n\n\n\n4.2 Technical Requirements 4.2.1 Process Description\n Definition FIGURE 4.2-1 provides a typical flow diagram for the\nThe Technical Requirements Definition Process Technical Requirements Definition Process and iden-\ntransforms the stakeholder expectations into a defi- tifies typical inputs, outputs, and activities to con-\nnition of the problem and then into a complete set sider in addressing technical requirements definition.\nof validated technical requirements expressed as\n“shall” statements that can be used for defining a 4.2.1.1 Inputs\ndesign solution for the Product Breakdown Structure Typical inputs needed for the requirements process\n(PBS) and related enabling products. The process of include the following:\nrequirements definition is a recursive and iterative one\nthat develops the stakeholders’ requirements, prod- • Baselined Stakeholder Expectations: This is the\nuct requirements, and lower level product/compo- agreed-to set of stakeholder expectations (e.g.,\nnent requirements. The requirements should enable needs, goals, objectives, assumptions, constraints,\nthe description of all inputs, outputs, and required external interfaces) for the product(s) of this prod-\nrelationships between inputs and outputs, including uct layer.\nconstraints, and system interactions with operators,\nmaintainers, and other systems. The requirements • Baselined Concept of Operations: This describes\ndocuments organize and communicate requirements how the system will be operated during the life\nto the customer and other stakeholders and the tech- cycle phases to meet stakeholder expectations. It\nnical community. describes the system characteristics from an oper-\n ational perspective and helps facilitate an under-\n standing of the system goals, objectives, and\n NOTE: It is important to note that the team constraints. It includes scenarios, use cases, and/or\n must not rely solely on the requirements received to Design Reference Missions (DRMs) as appropriate\n design and build the system. Communication and for the project. It may be in the form of a docu-\n iteration with the relevant stakeholders are essential ment, graphics, videos, models, and/or simulations.\n to ensure a mutual understanding of each require-\n ment. Otherwise, the designers run the risk of • Baselined Enabling Support Strategies: These\n misunderstanding and implementing an unwanted describe the enabling products that were identi-\n solution to a different interpretation of the require- fied in the Stakeholder Expectations Definition\n ments. This iterative stakeholder communication Process as needed to develop, test, produce,\n is a critically important part of project validation. operate, or dispose of the end product. They also\n Always confirm that the right products and results include descriptions of how the end product will\n are being developed. be supported throughout the life cycle.\n\n • Measures of Effectiveness: These MOEs were\nTechnical requirements definition activities apply to identified during the Stakeholder Expectations\nthe definition of all technical requirements from the Definition Process as measures that the stake-\nprogram, project, and system levels down to the low- holders deemed necessary to meet in order for the\nest level product/component requirements document. project to be considered a success (i.e., to meet\n success criteria).\n\n\n\n 54",
+          "score": 16.514713365845843,
+          "reference_match": 1
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 56,
+          "path": "data/local/advanced/pages/p0056_1800.png",
+          "sha256": "7ead79a9b377a9c02f02f63b8769d9574018dc5a228bae2c18be1f70dc98ed33",
+          "source_id": "NASA-SE:p0056",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n To Technical\n Requirements Definition and\n Establish list of stakeholders Requirements and Interface\n Management Processes\n\n From Project Elicit stakeholder expectations Validated Stakeholder\n Expectations\n\n Initial Customer Establish operations concept and support\n Expectations strategies\n\n To Technical Requirements\n Definition and Configuration\n Define stakeholder expectationsinacceptable Management Processes\n Other Stakeholder statements\n Expectations Concept of Operations\n\n Analyze expectation statements for measures\n of effectiveness\n\n Enabling Product\n Validate that deﬁned expectationstatements Support Strategies\n reﬂect bidirectional traceability\n Customer Flow-down\n Requirements To Technical Requirements\n Obtain stakeholder commitments to the Definition and Technical Data\n validated set of expectations Management Processes\n\n\n Baseline stakeholder expectations Measures of Effectiveness\n\n\n Capture work products from\n stakeholder expectations activities\n\n\n FIGURE 4.1-1 Stakeholder Expectations Definition Process\n\n“customer.” The customer may vary depending on achieved. These parties may be affected by the result-\nwhere the systems engineer is working in the PBS. ing product, the manner in which the product is\nFor example, at the topmost level, the customer may used, or have a responsibility for providing life cycle\nbe the person or organization that is purchasing the support services. Examples include Congress, advi-\nproduct. For a systems engineer working three or sory planning teams, program managers, maintain-\nfour levels down in the PBS, the customer may be the ers, and mission partners. It is important that the list\nleader of the team that takes the element and inte- of stakeholders be identified early in the process, as\ngrates it into a larger assembly. Regardless of where well as the primary stakeholders who will have the\nthe systems engineer is working within the PBS, most significant influence over the project.\nit is important to understand what is expected by\nthe customer. The customer and users of the system are usually\n easy to identify. The other key stakeholders may\nOther interested parties are those who affect the be more difficult to identify and they may change\nproject by providing broad, overarching constraints depending on the type of the project and the\nwithin which the customers’ needs should be phase the project is in. TABLE 4.1-1 provides some\n\n\n\n 46"
+        },
+        {
+          "page": 65,
+          "path": "data/local/advanced/pages/p0065_1800.png",
+          "sha256": "d2f931d2d4b2dec5306e2e385810a23f7dda7a8ae22319ce0506a41a08855c84",
+          "source_id": "NASA-SE:p0065",
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    56,
+    65
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Validated Stakeholder Expectations are sent to the Technical Requirements Definition and Requirements and Interface Management Processes, as shown in Figure 4.1-1 on NASA-SE:p0056 in the diagram branch labeled 'Validated Stakeholder Expectations' with the note 'To Technical Requirements Definition and Requirements and Interface Management Processes'.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0056",
+          "locator": "Figure 4.1-1 diagram branch",
+          "evidence": "Validated Stakeholder Expectations To Technical Requirements Definition and Requirements and Interface Management Processes"
+        }
+      ]
+    },
+    {
+      "text": "Validated Technical Requirements are sent to the Logical Decomposition and Requirements and Interface Management Processes, as shown in Figure 4.2-1 on NASA-SE:p0065 in the diagram branch labeled 'Validated Technical Requirements' with the note 'To Logical Decomposition and Requirements and Interface Management Processes'.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0065",
+          "locator": "Figure 4.2-1 diagram branch",
+          "evidence": "Validated Technical Requirements To Logical Decomposition and Requirements and Interface Management Processes"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 6392.0
+}

@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-07",
+  "split": "test",
+  "question": "In Figure 5.0-1, which two processes are grouped under Design Realization and which two under Evaluation Processes?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nvjIkY63uuLlbrbyVNeN39mV1v",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 648,
+        "completion_tokens": 70,
+        "total_tokens": 718,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 35,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1775.78,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_8s5fNC6QRodqYZOeQHiICSzo",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 5.0-1 Design Realization Evaluation Processes grouped under\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nyxWV85FUtnPwCATiJXkiIARAx",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5257,
+        "completion_tokens": 117,
+        "total_tokens": 5374,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 88,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2781.5,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_LLhCjGNMHSd38sYHO7Mt7att",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0088\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4o1OC8nibdK9ie4EPs9EpaDkjpH",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9505,
+        "completion_tokens": 295,
+        "total_tokens": 9800,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 87,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4880.3,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rqM8jSKhLxBXhl2BHTuu7BLJ",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 5.0-1, the two processes grouped under “DESIGN REALIZATION” are “Product Implementation” and “Product Integration.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0088\",\"locator\":\"Figure 5.0-1 (top row grouping label “DESIGN REALIZATION” over the process boxes)\",\"evidence\":\"DESIGN REALIZATION ... Product Implementation ... Product Integration\"}]},{\"text\":\"In Figure 5.0-1, the two processes grouped under “EVALUATION PROCESSES” are “Product Verification” and “Product Validation.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0088\",\"locator\":\"Figure 5.0-1 (top row grouping label “EVALUATION PROCESSES” over the process boxes)\",\"evidence\":\"EVALUATION PROCESSES ... Product Verification ... Product Validation\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4o6297mRqeNlYJG4HOHFDb00lRe",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4749,
+        "completion_tokens": 249,
+        "total_tokens": 4998,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 57,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4557.78,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_HSzqn6AhxzbLsuLd018D8HC3",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Figure 5.0-1, “DESIGN REALIZATION” groups the processes “Product Implementation” and “Product Integration.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0088\",\"locator\":\"Figure 5.0-1, columns under the header “DESIGN REALIZATION”\",\"evidence\":\"DESIGN REALIZATION … Product Implementation … Product Integration\"}]},{\"text\":\"In Figure 5.0-1, “EVALUATION PROCESSES” groups the processes “Product Verification” and “Product Validation.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0088\",\"locator\":\"Figure 5.0-1, columns under the header “EVALUATION PROCESSES”\",\"evidence\":\"EVALUATION PROCESSES … Product Verification … Product Validation\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 5.0-1, which two processes are grouped under Design Realization and which two under Evaluation Processes?",
+      "results": [
+        {
+          "id": "NASA-SE:p0088",
+          "page": 88,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n\n PRODUCT\n DESIGN REALIZATION EVALUATION PROCESSES TRANSITION\n PROCESS\n\n Product Product Product Product Product\n Implementation Integration Verification Validation Transition\n\n • Acquire • Assembly • Functional • Operational • Delivery to Next\n • Make/Code • Functional • Environmental Testing in Mission Higher Level in PBS\n • Reuse Evaluation • Operational Test- Environment • Delivery to\n ing in Integration Operational\n & Test Environment System\n\n\n FIGURE 5.0-1 Product Realization\n\n\n\n\n PRODUCT REALIZATION KEYS\n\n\n • Define and execute production activities.\n • Generate and manage requirements for off-the-shelf hardware/software products as for all other products.\n • Understand the differences between verification testing and validation testing.\n • Consider all customer, stakeholder, technical, programmatic, and safety requirements when evaluating\n the input necessary to achieve a successful product transition.\n • Analyze for any potential incompatibilities with interfaces as early as possible.\n • Completely understand and analyze all test data for trends and anomalies.\n • Understand the limitations of the testing and any assumptions that are made.\n • Ensure that a reused product meets the verification and validation required for the relevant system in\n which it is to be used, as opposed to relying on the original verification and validation it met for the\n system of its original use. Then ensure that it meets the same verification and validation as a purchased\n product or a built product. The “pedigree” of a reused product in its original application should not be\n relied upon in a different system, subsystem, or application.\n\n\n\n\n\n\nThe next sections describe each of the five product from the bottom of the product hierarchy up towards\nrealization processes and their associated products for the Product Transition Process. This is where the\na given NASA mission. plans, designs, analysis, requirements development,\n and drawings are realized into actual products.\n5.1 Product Implementation Product implementation is used to generate a speci-\nProduct implementation is the first process encoun- fied product of a project or activity through buying,\ntered in the SE engine that begins the movement making/coding, or reusing previously developed\n\n\n\n 78",
+          "score": 13.33086149597208,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 8.919905309671423,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "score": 12.230000068946213,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0160",
+          "page": 160,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Provide neutral format viewer for users; transition between these phases. Key Decision Points\n• License agreement allows for multiple users within (KDPs) define transitions between the phases. CM\n an agreed-to number; plays an important role in determining whether a\n• Workflow and life cycle management; KDP has been met. Major outputs of CM are:\n• Limited customization;\n• Migration support for software upgrades; • List of configuration items under control\n• User friendly; (Configuration Status Accounting (CSA) reports):\n• Consideration for users with limited access; This output is the list of all the items, documents,\n• Ability to attach standard format files from hardware, software, models, etc., that were iden-\n desktop tified as needing to be placed under configuration\n• Workflow capability (i.e., route a CI as required control. CSA reports are updated and maintained\n based on a specific set of criteria); and throughout the program and project life cycle.\n• Capable of acting as the one and only source for\n released information. • Current baselines: Baselines of the current configu-\n rations of all items that are on the CM list are made\n6.4.1.2.5 Conduct Configuration Audits available to all technical teams and stakeholders.\nConfiguration verification is accomplished by\ninspecting documents, products, and records; • CM reports: Periodic reports on the status of the\nreviewing procedures, processes, and systems of CM items should be available to all stakeholders\noperations to verify that the product has achieved its on an agreed-to frequency and at key life cycle\nrequired performance requirements and functional reviews.\nattributes; and verifying that the product’s design is\ndocumented. This is sometimes divided into func- • Other CM work products: Other work products\ntional and physical configuration audits. (See Section include the strategy and procedures used for CM;\n6.7.2.3 for more on technical reviews.) descriptions, drawings and/or models of the CM\n items; change requests and their disposition and\n6.4.1.2.6 Capture work Products accompanying rationale; reports; audit results as\nThese include the strategy and procedures for config- well as any corrective actions needed.\nuration management, the list of identified configu-\nration items, descriptions of the configuration items, 6.5.2 CM Guidance\nchange requests, disposition of the requests, rational Refer to Section 6.5.2 in the NASA Expanded\nfor dispositions, reports, and audit results. Guidance for Systems Engineering at https://nen.nasa.\n gov/web/se/doc-repository for additional guidance on:\n6.5.1.3 Outputs\nNPR 7120.5 defines a project’s life cycle in progressive • the impact of not doing CM,\nphases. Beginning with Pre-Phase A, these steps in • warning signs when you know you are in trouble,\nturn are grouped under the headings of Formulation and\nand Implementation. Approval is required to • when it is acceptable to use redline drawings.\n\n\n\n\n\n\n\n 150",
+          "score": 11.354212974481458,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0175",
+          "page": 175,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From all technical\n processes Establish guidelines to determine\n Decision Need, which technical issues are subject to a\n Alternatives, Issues, or formal analysis/evaluation process\n Problems and\n Supporting Data for evaluating To all technical processes\n alternative solutions Alternative Selection\n\n From Technical Recommendations and\n Assessment Process Identify alternative solutions to Impacts\n address decision issues\n Analysis Support\n Requests Select evaluation methods and tools To Technical\n Assessment Process\n\n Evaluat e alternative solutions with Decision Support\n the established criteria and Recommendations and\n selected methods Impacts\n\n\n\n Select recommended solutions from To Technical Data\n the alternatives based on the Management Process\n evaluation criteria\n\n Work Products From\n Report analysis results with Decision Analysis\n recommendations, impacts, and\n corrective actions\n\n\n Captu re work products from\n decision analysis activities\n\n\n FIGURE 6.8-1 Decision Analysis Process\n\n\ndecision criteria, alternatives, evaluation methods, an ongoing fashion during the decision analysis pro-\nevaluation process and results, recommendation, and cess. However, for quick or emergency decisions, the\nfinal decision. report information may be captured after the deci-\n sion has been made.\nDecision analysis covers a wide range of timeframes.\nComplex, strategic decisions may require weeks or Not all decisions require the same amount of analysis\nmonths to fully assess all alternatives and potential effort. The level and rigor required in a specific situa-\noutcomes. Decisions can also be made in hours or in tion depend essentially on how clear-cut the decision\na few days, especially for smaller projects or activi- is. If there is enough uncertainty in the alternatives’\nties. Decisions are also made in emergency situations. performance that the decision might change if that\nUnder such conditions, process steps, procedures, and uncertainty were to be reduced, then consideration\nmeetings may be combined. In these cases, the focus needs to be given to reducing that uncertainty. A\nof the systems engineer is on obtaining accurate deci- robust decision is one that is based on sufficient tech-\nsions quickly. Once the decision is made, the report nical evidence and characterization of uncertainties\ncan be generated. The report is usually generated in to determine that the selected alternative best reflects\n\n\n\n 165",
+          "score": 10.613558722098327,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0015",
+          "page": 15,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n PROJECT MANAGEMENT\n\nPROJECT MANAGEMENT ACTIVITIES\n\n• Setting up Project Team • Identifying Programmatic Risks\n• Programmatic Stakeholders (non-technical, non-business) • Technology Transfer and Commercialization\n• Programmatic Planning (non-technical, non-business) • Integration of technical and non-technical activities\n• Identifying Programmatic (non-technical) requirements • Overall Approver/Decider\n\n\n\n\n\n Systems Engineering\n\n System Design Processes\n • Stakeholder Expectations DefinitionCommon\n • Technical Requirement’s Definition Areas PP&C\n • Logical Decomposition\n • Design Solution Definition • Stakeholders • PP&C Integration\n Product Realization Processes • Risks • Resource Management\n • Product Implementation • Configuration • Scheduling\n • Product Integration Management • Cost Estimation & Assessment\n • Product Verification • Data\n • Product Validation Management • Acquisition & Contract\n • Product Transition • Reviews Management\n Technical Management Processes • Schedule • Risk Management\n • Technical Planning • CM/DM\n • Requirements Management\n • Interface Management\n • Technical Risk Management\n • Configuration Management\n • Technical Data Management\n • Technical Assessment\n • Decision Analyses\n\n\n\n FIGURE 2.0-1 SE in Context of Overall Project Management\n\n\n\n\ndocument, but an overview is given in the following by the NPR systems engineering “engine” shown in\nsubsections of this chapter. FIGURE 2.1-1. The processes of the SE engine are used\n to develop and realize the end products. This chap-\n ter provides the application context of the 17 com-\n2.1 The Common Technical mon technical processes required in NPR7123.1.\n Processes and the SE Engine The system design processes, the product realization\n processes, and the technical management processes\nThere are three sets of common technical processes in are discussed in more detail in Chapters 4.0, 5.0, and\nNPR 7123.1, NASA Systems Engineering Processes 6.0, respectively. Processes 1 through 9 indicated in\nand Requirements: system design, product realiza- FIGURE 2.1-1 represent the tasks in the execution of a\ntion, and technical management. The processes in project. Processes 10 through17 are crosscutting tools\neach set and their interactions and flows are illustrated for carrying out the processes.\n\n\n\n 5",
+          "score": 10.586669688399367,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0087",
+          "page": 87,
+          "text": "5.0 Product Realization\n\n\n\n\n\n\n\n his chapter describes the activities in the prod- the appropriate crosscutting functions, such as data\nTuct realization processes listed in FIGURE 2.1-1. and configuration management, and technical assess-\nThe chapter is separated into sections corresponding ments to make, buy, or reuse subsystems. Once these\nto steps 5 through 9 listed in FIGURE 2.1-1. The pro- subsystems are realized, they should be integrated to\ncesses within each step are discussed in terms of the the appropriate level as designated by the appropri-\ninputs, the activities, and the outputs. Additional ate interface requirements. These products are then\nguidance is provided using examples that are relevant verified through the Technical Assessment Process to\nto NASA projects. ensure that they are consistent with the technical data\n package and that “the product was built right.” Once\nIn the product realization side of the SE engine, five consistency is achieved, the technical team validates\ninterdependent processes result in systems that meet the products against the stakeholder expectations\nthe design specifications and stakeholder expecta- to ensure that “the right product was built.” Upon\ntions. These products are produced, acquired, reused, successful completion of validation, the products are\nor coded; integrated into higher level assemblies; ver- transitioned to the next level of the system. FIGURE\nified against design specifications; validated against 5.0-1 illustrates these processes.\nstakeholder expectations; and transitioned to the\nnext level of the system. As has been mentioned in This is an iterative and recursive process. Early in the\nprevious sections, products can be models and simu- life cycle, paper products, models, and simulations\nlations, paper studies or proposals, or hardware and are run through the five realization processes. As the\nsoftware. The type and level of product depends on system matures and progresses through the life cycle,\nthe phase of the life cycle and the product’s specific hardware and software products are run through\nobjectives. But whatever the product, all should effec- these processes. It is important to detect as many\ntively use the processes to ensure the system meets errors and failures as possible at the lowest level of\nthe intended operational concept. integration and early in the life cycle so that changes\n can be made through the design processes with min-\nThis effort starts with the technical team taking the imum impact to the project.\noutput from the system design processes and using\n\n\n\n 77",
+          "score": 10.523175426891983,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0088",
+          "page": 88,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n\n PRODUCT\n DESIGN REALIZATION EVALUATION PROCESSES TRANSITION\n PROCESS\n\n Product Product Product Product Product\n Implementation Integration Verification Validation Transition\n\n • Acquire • Assembly • Functional • Operational • Delivery to Next\n • Make/Code • Functional • Environmental Testing in Mission Higher Level in PBS\n • Reuse Evaluation • Operational Test- Environment • Delivery to\n ing in Integration Operational\n & Test Environment System\n\n\n FIGURE 5.0-1 Product Realization\n\n\n\n\n PRODUCT REALIZATION KEYS\n\n\n • Define and execute production activities.\n • Generate and manage requirements for off-the-shelf hardware/software products as for all other products.\n • Understand the differences between verification testing and validation testing.\n • Consider all customer, stakeholder, technical, programmatic, and safety requirements when evaluating\n the input necessary to achieve a successful product transition.\n • Analyze for any potential incompatibilities with interfaces as early as possible.\n • Completely understand and analyze all test data for trends and anomalies.\n • Understand the limitations of the testing and any assumptions that are made.\n • Ensure that a reused product meets the verification and validation required for the relevant system in\n which it is to be used, as opposed to relying on the original verification and validation it met for the\n system of its original use. Then ensure that it meets the same verification and validation as a purchased\n product or a built product. The “pedigree” of a reused product in its original application should not be\n relied upon in a different system, subsystem, or application.\n\n\n\n\n\n\nThe next sections describe each of the five product from the bottom of the product hierarchy up towards\nrealization processes and their associated products for the Product Transition Process. This is where the\na given NASA mission. plans, designs, analysis, requirements development,\n and drawings are realized into actual products.\n5.1 Product Implementation Product implementation is used to generate a speci-\nProduct implementation is the first process encoun- fied product of a project or activity through buying,\ntered in the SE engine that begins the movement making/coding, or reusing previously developed\n\n\n\n 78",
+          "image_path": "data/local/advanced/pages/p0088_2000.png",
+          "image_sha256": "193df5c7a0b23f93ca6fa2744316b01c33f93cfc11ce02b1c59f1af9155a4c8b"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0088",
+          "page": 88,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n\n PRODUCT\n DESIGN REALIZATION EVALUATION PROCESSES TRANSITION\n PROCESS\n\n Product Product Product Product Product\n Implementation Integration Verification Validation Transition\n\n • Acquire • Assembly • Functional • Operational • Delivery to Next\n • Make/Code • Functional • Environmental Testing in Mission Higher Level in PBS\n • Reuse Evaluation • Operational Test- Environment • Delivery to\n ing in Integration Operational\n & Test Environment System\n\n\n FIGURE 5.0-1 Product Realization\n\n\n\n\n PRODUCT REALIZATION KEYS\n\n\n • Define and execute production activities.\n • Generate and manage requirements for off-the-shelf hardware/software products as for all other products.\n • Understand the differences between verification testing and validation testing.\n • Consider all customer, stakeholder, technical, programmatic, and safety requirements when evaluating\n the input necessary to achieve a successful product transition.\n • Analyze for any potential incompatibilities with interfaces as early as possible.\n • Completely understand and analyze all test data for trends and anomalies.\n • Understand the limitations of the testing and any assumptions that are made.\n • Ensure that a reused product meets the verification and validation required for the relevant system in\n which it is to be used, as opposed to relying on the original verification and validation it met for the\n system of its original use. Then ensure that it meets the same verification and validation as a purchased\n product or a built product. The “pedigree” of a reused product in its original application should not be\n relied upon in a different system, subsystem, or application.\n\n\n\n\n\n\nThe next sections describe each of the five product from the bottom of the product hierarchy up towards\nrealization processes and their associated products for the Product Transition Process. This is where the\na given NASA mission. plans, designs, analysis, requirements development,\n and drawings are realized into actual products.\n5.1 Product Implementation Product implementation is used to generate a speci-\nProduct implementation is the first process encoun- fied product of a project or activity through buying,\ntered in the SE engine that begins the movement making/coding, or reusing previously developed\n\n\n\n 78",
+          "image_sha256": "193df5c7a0b23f93ca6fa2744316b01c33f93cfc11ce02b1c59f1af9155a4c8b"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Figure 5.0-1, “DESIGN REALIZATION” groups the processes “Product Implementation” and “Product Integration.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0088",
+                "locator": "Figure 5.0-1, columns under the header “DESIGN REALIZATION”",
+                "evidence": "DESIGN REALIZATION … Product Implementation … Product Integration"
+              }
+            ]
+          },
+          {
+            "text": "In Figure 5.0-1, “EVALUATION PROCESSES” groups the processes “Product Verification” and “Product Validation.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0088",
+                "locator": "Figure 5.0-1, columns under the header “EVALUATION PROCESSES”",
+                "evidence": "EVALUATION PROCESSES … Product Verification … Product Validation"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    88
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Figure 5.0-1, the two processes grouped under “DESIGN REALIZATION” are “Product Implementation” and “Product Integration.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0088",
+            "locator": "Figure 5.0-1 (top row grouping label “DESIGN REALIZATION” over the process boxes)",
+            "evidence": "DESIGN REALIZATION ... Product Implementation ... Product Integration"
+          }
+        ]
+      },
+      {
+        "text": "In Figure 5.0-1, the two processes grouped under “EVALUATION PROCESSES” are “Product Verification” and “Product Validation.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0088",
+            "locator": "Figure 5.0-1 (top row grouping label “EVALUATION PROCESSES” over the process boxes)",
+            "evidence": "EVALUATION PROCESSES ... Product Verification ... Product Validation"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Figure 5.0-1, “DESIGN REALIZATION” groups the processes “Product Implementation” and “Product Integration.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0088",
+          "locator": "Figure 5.0-1, columns under the header “DESIGN REALIZATION”",
+          "evidence": "DESIGN REALIZATION … Product Implementation … Product Integration"
+        }
+      ]
+    },
+    {
+      "text": "In Figure 5.0-1, “EVALUATION PROCESSES” groups the processes “Product Verification” and “Product Validation.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0088",
+          "locator": "Figure 5.0-1, columns under the header “EVALUATION PROCESSES”",
+          "evidence": "EVALUATION PROCESSES … Product Verification … Product Validation"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 14769.73
+}

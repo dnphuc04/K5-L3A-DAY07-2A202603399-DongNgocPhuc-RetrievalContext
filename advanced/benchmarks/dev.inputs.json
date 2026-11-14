@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ADV-DEV-01",
+    "question": "In Table 2.1-1, which AS9100 requirements align with Decision Analysis?"
+  },
+  {
+    "id": "ADV-DEV-02",
+    "question": "In Table 2.2-1, what is the typical outcome for Phase D?"
+  },
+  {
+    "id": "ADV-DEV-03",
+    "question": "According to Table 4.2-2, list the verification methods and when that metadata should be determined."
+  },
+  {
+    "id": "ADV-DEV-04",
+    "question": "In Table 6.8-1, what must the Dissent section record when applicable?"
+  },
+  {
+    "id": "ADV-DEV-05",
+    "question": "In Figure 4.1-1, which two activities start the central stakeholder-expectations process, in order?"
+  },
+  {
+    "id": "ADV-DEV-06",
+    "question": "In Figure 4.2-1, what activity immediately precedes Establish technical requirements baseline on the left-hand vertical path?"
+  },
+  {
+    "id": "ADV-DEV-07",
+    "question": "In Figure 6.5-1, what is the last central activity after Conduct configuration audits?"
+  },
+  {
+    "id": "ADV-DEV-08",
+    "question": "Using the technology-readiness ladder in Figure G.4-1, what distinguishes the environments at TRL 4 and TRL 5?"
+  },
+  {
+    "id": "ADV-DEV-09",
+    "question": "In Figure 2.5-1, what percentage of life-cycle cost is shown expended at Concept?"
+  },
+  {
+    "id": "ADV-DEV-10",
+    "question": "In Figure 2.5-1, what are the earliest and latest labeled multipliers on the cost-to-change-design-direction arrow?"
+  },
+  {
+    "id": "ADV-DEV-11",
+    "question": "Combine Section 3.5 and Figure G.4-1: what technology-development work is completed in Phase B, and what does TRL 6 demonstrate and in what environment?"
+  },
+  {
+    "id": "ADV-DEV-12",
+    "question": "Compare Figure 4.1-1 and Figure 4.2-1: to which technical definition/decomposition process are Validated Stakeholder Expectations and Validated Technical Requirements respectively sent?"
+  },
+  {
+    "id": "ADV-DEV-13",
+    "question": "In Section 4.1.1.2.1, how is a stakeholder defined?"
+  },
+  {
+    "id": "ADV-DEV-14",
+    "question": "In Section 4.1's discussion of Needs, Goals, and Objectives, must goals already be quantitative or measurable, and what must they still allow?"
+  },
+  {
+    "id": "ADV-DEV-15",
+    "question": "According to Appendix C's Good Requirements guidance, should requirements state WHAT is needed or HOW to provide it?"
+  },
+  {
+    "id": "ADV-DEV-16",
+    "question": "What exact universal maximum probability of catastrophic risk must every NASA project meet at PDR in this handbook?"
+  },
+  {
+    "id": "ADV-DEV-17",
+    "question": "What mandatory word count must every Concept of Operations document contain?"
+  },
+  {
+    "id": "ADV-DEV-18",
+    "question": "What universal minimum number of stakeholders must each NASA project interview?"
+  }
+]

@@ -1,0 +1,283 @@
+{
+  "id": "ADV-TEST-10",
+  "split": "test",
+  "question": "In Figure 6.5-2, name all five elements of Configuration Management.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4IW0KCLKisdObKSd0tJlDQ5pCaQ",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 564,
+        "completion_tokens": 14,
+        "total_tokens": 578,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1071.9,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_O3N52z7r074q8fBPBmfPuBlA",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Figure 6.5-2 Configuration Management elements\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IX4lqrsLgfwGHbSGnIrEJwLnOF",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5208,
+        "completion_tokens": 20,
+        "total_tokens": 5228,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1034.27,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Ori2nVcaWaxCdGfOhr19TYdI",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0155\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek4IZXNbUr6kU8JCdQuVXKn3lludG",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 6528,
+        "completion_tokens": 130,
+        "total_tokens": 6658,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2298.07,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_5nQ1JrqQAnqEt0iGsvytl0IB",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Năm yếu tố của Quản lý cấu hình (Configuration Management) trong Hình 6.5-2 là: 1) Configuration Planning and Management, 2) Configuration Identification, 3) Configuration Change Management, 4) Configuration Status Accounting, 5) Configuration Verification.\",\"citations\":[{\"source_id\":\"NASA-SE:p0155\",\"locator\":\"Figure 6.5-2 Five Elements of Configuration Management\",\"evidence\":\"Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "stage": "source_verification",
+      "response_id": "chatcmpl-Ek4IcHH23rHtIpqgq518Od8qwTX0y",
+      "model": "gpt-4.1-2025-04-14",
+      "usage": {
+        "prompt_tokens": 1645,
+        "completion_tokens": 121,
+        "total_tokens": 1766,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2367.63,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_lw5XjfnFgvGs6kmSceSsOFT1",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Năm yếu tố của Quản lý cấu hình (Configuration Management) trong Hình 6.5-2 là: 1) Configuration Planning and Management, 2) Configuration Identification, 3) Configuration Change Management, 4) Configuration Status Accounting, 5) Configuration Verification.\",\"citations\":[{\"source_id\":\"NASA-SE:p0155\",\"locator\":\"Figure 6.5-2 Five Elements of Configuration Management\",\"evidence\":\"Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Figure 6.5-2, name all five elements of Configuration Management.",
+      "results": [
+        {
+          "id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "score": 16.5179166021454,
+          "reference_match": 2
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 16.159511065980357,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0154",
+          "page": 154,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nTogether, these standards address what configuration 6.5.1 Process Description\nmanagement activities are to be done, when they are FIGURE 6.5-1 provides a typical flow diagram for the\nto happen in the product life cycle, and what plan- Configuration Management Process and identifies\nning and resources are required. Configuration man- typical inputs, outputs, and activities to consider in\nagement is a key systems engineering practice that, addressing CM.\nwhen properly implemented, provides visibility of a\ntrue representation of a product and attains the prod- 6.5.1.1 Inputs\nuct’s integrity by controlling the changes made to the The inputs for this process are:\nbaseline configuration and tracking such changes.\nConfiguration management ensures that the con- • CM plan: This plan would have been developed\nfiguration of a product is known and reflected in under the Technical Planning Process and serves\nproduct information, that any product change is ben- as the overall guidance for this process for the\neficial and is effected without adverse consequences, program/project\nand that changes are managed.\n • Engineering change proposals: These are the\nCM reduces technical risks by ensuring correct prod- requests for changes to the established baselines\nuct configurations, distinguishes among product in whatever form they may appear throughout the\nversions, ensures consistency between the product life cycle.\nand information about the product, and avoids the\nembarrassment cost of stakeholder dissatisfaction and • Expectation, requirements and interface docu-\ncomplaint. In general, NASA adopts the CM prin- ments: These baselined documents or models are\nciples as defined by SAE/EIA 649B, Configuration key to the design and development of the product.\nManagement Standard, in addition to implementa-\ntion as defined by NASA CM professionals and as • Approved requirements baseline changes: The\napproved by NASA management. approved requests for changes will authorize the\n update of the associated baselined document or\nWhen applied to the design, fabrication/assembly, model.\nsystem/subsystem testing, integration, and opera-\ntional and sustaining activities of complex technol- • Designated configuration items to be controlled:\nogy items, CM represents the “backbone” of the As part of technical planning, a list or philosophy\nenterprise structure. It instills discipline and keeps would have been developed that identifies the\nthe product attributes and documentation consistent. types of items that will need to be placed under\nCM enables all stakeholders in the technical effort, at configuration control.\nany given time in the life of a product, to use identical\ndata for development activities and decision-making. 6.5.1.2 Process Activities\nCM principles are applied to keep the documentation There are five elements of CM (see FIGURE 6.5-2):\nconsistent with the approved product, and to ensure\nthat the product conforms to the functional and • configuration planning and management\nphysical requirements of the approved design. • configuration identification,\n\n\n\n\n\n\n 144",
+          "score": 14.979554733757903,
+          "reference_match": 1
+        },
+        {
+          "id": "NASA-SE:p0087",
+          "page": 87,
+          "text": "5.0 Product Realization\n\n\n\n\n\n\n\n his chapter describes the activities in the prod- the appropriate crosscutting functions, such as data\nTuct realization processes listed in FIGURE 2.1-1. and configuration management, and technical assess-\nThe chapter is separated into sections corresponding ments to make, buy, or reuse subsystems. Once these\nto steps 5 through 9 listed in FIGURE 2.1-1. The pro- subsystems are realized, they should be integrated to\ncesses within each step are discussed in terms of the the appropriate level as designated by the appropri-\ninputs, the activities, and the outputs. Additional ate interface requirements. These products are then\nguidance is provided using examples that are relevant verified through the Technical Assessment Process to\nto NASA projects. ensure that they are consistent with the technical data\n package and that “the product was built right.” Once\nIn the product realization side of the SE engine, five consistency is achieved, the technical team validates\ninterdependent processes result in systems that meet the products against the stakeholder expectations\nthe design specifications and stakeholder expecta- to ensure that “the right product was built.” Upon\ntions. These products are produced, acquired, reused, successful completion of validation, the products are\nor coded; integrated into higher level assemblies; ver- transitioned to the next level of the system. FIGURE\nified against design specifications; validated against 5.0-1 illustrates these processes.\nstakeholder expectations; and transitioned to the\nnext level of the system. As has been mentioned in This is an iterative and recursive process. Early in the\nprevious sections, products can be models and simu- life cycle, paper products, models, and simulations\nlations, paper studies or proposals, or hardware and are run through the five realization processes. As the\nsoftware. The type and level of product depends on system matures and progresses through the life cycle,\nthe phase of the life cycle and the product’s specific hardware and software products are run through\nobjectives. But whatever the product, all should effec- these processes. It is important to detect as many\ntively use the processes to ensure the system meets errors and failures as possible at the lowest level of\nthe intended operational concept. integration and early in the life cycle so that changes\n can be made through the design processes with min-\nThis effort starts with the technical team taking the imum impact to the project.\noutput from the system design processes and using\n\n\n\n 77",
+          "score": 11.656642282500451,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0158",
+          "page": 158,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• As-Deployed Baseline: The as-deployed baseline project objectives and requirements. The first step\n occurs at the ORR. At this point, the design is consid- establishes a robust and well-disciplined internal\n ered to be functional and ready for flight. All changes NASA Configuration Control Board (CCB) system,\n will have been incorporated into the documentation. which is chaired by someone with program/project\n change authority. CCB members represent the stake-\n6.5.1.2.3 Manage Configuration Change Control holders with authority to commit the team they rep-\nConfiguration change management is a process to resent. The second step creates configuration change\nmanage approved designs and the implementation management surveillance of the contractor’s activity.\nof approved changes. Configuration change man- The CM office advises the NASA program or project\nagement is achieved through the systematic proposal, manager to achieve a balanced configuration change\njustification, and evaluation of proposed changes management implementation that suits the unique\nfollowed by incorporation of approved changes and program/project situation. See FIGURE 6.5-4 for an\nverification of implementation. Implementing con- example of a typical configuration change manage-\nfiguration change management in a given program/ ment control process.\nproject requires unique knowledge of the program/\n\n\n\n NORMAL CONFIGURATION CHANGE PROCESS\n Responsible\n Originator CM Function Reviewers Organization CCB Actionees\n\n 1. 2. 3. 4.\n • Prepare and • Receive and log Review and Collect, track,\n submit change request in system submit comments and adjudicate\n request • Screen change comments (with\n • Propose reviewers package reviewers and\n • Release for review originator)\n\n\n\n 5. 6. 7. 8a.\n Schedule CCB and Prepare decision • Disposition Complete\n prepare agenda package change request assigned actions\n (if needed) • Assign action\n items as needed\n\n\n\n 8b. 9.\n • Release CCB • Execute approved\n minutes changes\n • Track actions • Finalize\n documentation\n\n\n\n 10.\n • Verify release\n package\n • Release final\n documentation\n • Close change\n request\n\n\n\n FIGURE 6.5-4 Ty pical Change Control Process\n\n\n\n 148",
+          "score": 10.769490807928536,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 10.590258995566908,
+          "reference_match": 0
+        },
+        {
+          "id": "NASA-SE:p0153",
+          "page": 153,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n6.4.1.2.4 Prepare for Technical Risk Mitigation 6.4.1.3 Outputs\nThis includes selecting the risks that will be mitigated Following are key risk outputs from activities:\nand more closely monitored, identifying the risk level\nor threshold that will trigger a risk mitigation action • Technical Risk Mitigation and/or Contingency\nplan, and identifying for each risk which stakeholders Actions: Actions taken to mitigate identified risks\nwill need to be informed that a mitigation/contin- or contingency actions taken in case risks are\ngency action is determined as well as which organi- realized.\nzations will need to become involved to perform the\nmitigation/contingency action. • Technical Risk Reports: Reports of the techni-\n cal risk policies, status, remaining residual risks,\n6.4.1.2.5 Monitor the Status of Each Technical Risk actions taken, etc. Output at the agreed-to fre-\n Periodically quency and recipients.\nRisk status will need to be monitored periodically at\na frequency identified in the risk plan. Risks that are • Work Products: Includes the procedures for con-\napproaching the trigger thresholds will be monitored ducting technical risk management; rationale for\non a more frequent basis. Reports of the status are decisions made; selected decision alternatives;\nmade to the appropriate program/project manage- assumptions made in prioritizing, handling, and\nment or board for communication and for decisions reporting technical risks; and lessons learned.\nwhether to trigger a mitigation action early. Risk sta-\ntus will also be reported at most life cycle reviews. 6.4.2 Risk Management Process\n Guidance\n6.4.1.2.6 Implement Technical Risk Mitigation and For additional guidance on risk management, refer to\n Contingency Action Plans as Triggered NASA/SP-2010-576, NASA RIDM Handbook and NASA/\nWhen the applicable thresholds are triggered, the SP-2011-3422, NASA Risk Management Handbook.\ntechnical risk mitigation and contingency action\nplans are implemented. This includes monitoring the\nresults of the action plan implementation and mod- 6.5 Configuration Management\nifying them as necessary, continuing the mitigation Configuration management is a management disci-\nuntil the residual risk and/or consequence impacts pline applied over the product’s life cycle to provide\nare acceptable, and communicating the actions and visibility into and to control changes to perfor-\nresults to the identified stakeholders. Action plan mance and functional and physical characteristics.\nreports are prepared and results reported at appropri- Additionally, according to SAE Electronic Industries\nate boards and at life cycle reviews. Alliance (EIA) 649B, improper configuration man-\n agement may result in incorrect, ineffective, and/or\n6.4.1.2.7 Capture Work Products unsafe products being released. Therefore, in order to\nWork products include the strategy and procedures for protect and ensure the integrity of NASA products,\nconducting technical risk management; the rationale NASA has endorsed the implementation of the five\nfor decisions made; assumptions made in prioritizing, configuration management functions and the asso-\nhandling, and reporting technical risks and action ciated 37 underlying principles defined within SAE/\nplan effectiveness; actions taken to correct action plan EIA-649-2 Configuration Management Requirements\nimplementation anomalies; and lessons learned. for NASA Enterprises.\n\n\n\n 143",
+          "score": 10.340540793163289,
+          "reference_match": 0
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 155,
+          "path": "data/local/advanced/pages/p0155_2000.png",
+          "sha256": "f2f3f3aac52944028821b18a2e0310010aecb487f8d913717cd3e9f244b3a3d8",
+          "source_id": "NASA-SE:p0155",
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0155",
+          "page": 155,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n From project\n Project Configuration To applicable\n Management Plan technical processes\n Engineering Change Prepare a strategy to conduct List of Configuration\n Proposals configuration management Items Under\n Control\n From Requirements Identify baseline to be under\n and Interface configuration control Current\n Management Processes Baselines\n Expectation,\n Requirements, and Maintain the status of configuration Manage configuration change controlTo project and\n Interface Documents Technical Data\n Appr oved Management Process\n Requirement Maintain the status of configuration Configuration\n Baseline Changes documentation Management\n Reports\n\n Designated Conduct configuration audits To Technical Data\n Configuration Items Management Process\n to Be Contr olled Configuration\n Captur e work products from Management\n Identified Risk configuration management activities Work Products\n\n to Be Contr olled\n\n\n FIGURE 6.5-1 Configuration Management Process\n\n• configuration change management, CM surveillance of the contractors. Reviews by the\n• Configuration Status Accounting (CSA), and Center Configuration Management Organization\n• configuration verification. (CMO) are warranted and will cost resources and\n time, but the correction of systemic CM problems\n6.5.1.2.1 Prepare a Strategy to Conduct CM before they erupt into losing configuration control\nCM planning starts at a program’s or project’s incep- are always preferable to explaining why incorrect or\ntion. The CM office should carefully weigh the misidentified parts are causing major problems in the\nvalue of prioritizing resources into CM tools or into program/project.\n\n\n\n\n CONFIGURATION\n MANAGEMENT\n\n\n\n\n\n\n Configuration Configuration Configuration Configuration\n Planning and ConfigurationIdentificationChange Status Verification\n Management Management Accounting\n\n\n FIGURE 6.5-2 Five Elements of Configuration Management\n\n\n\n 145",
+          "image_sha256": "f2f3f3aac52944028821b18a2e0310010aecb487f8d913717cd3e9f244b3a3d8"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Năm yếu tố của Quản lý cấu hình (Configuration Management) trong Hình 6.5-2 là: 1) Configuration Planning and Management, 2) Configuration Identification, 3) Configuration Change Management, 4) Configuration Status Accounting, 5) Configuration Verification.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0155",
+                "locator": "Figure 6.5-2 Five Elements of Configuration Management",
+                "evidence": "Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    155
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Năm yếu tố của Quản lý cấu hình (Configuration Management) trong Hình 6.5-2 là: 1) Configuration Planning and Management, 2) Configuration Identification, 3) Configuration Change Management, 4) Configuration Status Accounting, 5) Configuration Verification.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0155",
+            "locator": "Figure 6.5-2 Five Elements of Configuration Management",
+            "evidence": "Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Năm yếu tố của Quản lý cấu hình (Configuration Management) trong Hình 6.5-2 là: 1) Configuration Planning and Management, 2) Configuration Identification, 3) Configuration Change Management, 4) Configuration Status Accounting, 5) Configuration Verification.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0155",
+          "locator": "Figure 6.5-2 Five Elements of Configuration Management",
+          "evidence": "Configuration Planning and Management, Configuration Identification, Configuration Change Management, Configuration Status Accounting, Configuration Verification"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 6883.6
+}

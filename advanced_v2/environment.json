@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "system": "Windows",
+  "dependencies": {
+    "pypdf": "6.21.4",
+    "python-dotenv": "1.2.4"
+  },
+  "poppler": "26.07.0",
+  "source_manifest": "advanced/source.json",
+  "source_manifest_sha256": "ea6b3685aaeaf9a816dc165ee652edf71e1dcf0afb3c96f99476c24403366aa0",
+  "index_sha256": "b12077e83fe44aa8149c27b7f8cbf286fa060a17b82f86a5e14443a042424955",
+  "legacy_snapshot_sha256": "22364ca60195657ded251c3cdb14c18733eb52465071f8a72778231e0c8138a2"
+}

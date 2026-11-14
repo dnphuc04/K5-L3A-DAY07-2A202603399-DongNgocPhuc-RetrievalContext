@@ -21,11 +21,13 @@
 
 ## Việc còn cần trước khi nộp thật
 
+Phần nâng cao có [checklist riêng](../advanced/README.md): tài liệu 297 trang, benchmark và kết quả đầy đủ đã có; test 23/30, **chưa đạt ngưỡng 90%, không nhận đủ điều kiện bonus**. Không gộp trạng thái này vào các dấu hoàn thành kỹ thuật phần cơ bản.
+
 - [x] Người dùng đã cho phép nộp đầy đủ PDF và bằng chứng ngày 14/11/2026; ghi nhận ở `submission_permission.json`.
 - [x] Đưa gói dữ liệu đã quét vào `data/submission/day6_handoff.zip` và mở các file evidence cho Git/bộ nộp đầy đủ. Không có credential trong gói.
 - [ ] Bàn giao bộ nộp hoặc cấp quyền người chấm; chưa kiểm chứng truy cập từ tài khoản khác.
 - [ ] Commit/push code và bằng chứng được phép lên repo cá nhân; hiện có nhiều file mới/chưa commit. Không dùng `git add -f data/local`; gói được phép nằm trong `data/submission/`.
 - [ ] Kiểm tra tài khoản giảng viên xem được repo và dữ liệu riêng; nộp link đúng kênh/hạn của lớp. Chưa tự push, mời người khác hoặc gửi link thay người dùng.
-- [ ] Khuyến nghị tác giả đọc đối chiếu lại các nhãn AI và số liệu trước khi ký/nộp. Bài không tuyên bố đã có người chấm độc lập.
+- [ ] Tác giả đọc đối chiếu lại nhãn, evidence và số liệu trước khi ký/nộp.
 
 Các mục quyền truy cập/nộp thật không thể được xác nhận chỉ từ filesystem. Không đánh dấu hoàn thành giả để kết luận bài đã nộp. Không làm bonus nâng cao; PDF 84 trang và benchmark cơ bản không đáp ứng thử thách 100 trang.

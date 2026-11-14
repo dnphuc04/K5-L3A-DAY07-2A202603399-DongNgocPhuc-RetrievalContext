@@ -1,0 +1,189 @@
+{
+  "configs/pipeline_freeze.json": {
+    "frozen_at": "2026-11-14T08:02:44.350913+00:00",
+    "stage": "Selected after full dev reviews and two improvement experiments; before any Day 7 test evaluation",
+    "selected_id": "bm25",
+    "sha256": {
+      "results\\agent_dev_v1\\traces.json": "7c0e6fac54ab5b25addf23af22bcbd28812c908e23c974bf00382f3bbd27b5a3",
+      "results\\agent_dev_v1\\config.json": "76cccf67ccaed6086e6a3fd4c2e56ad6d3c7af2f36ec7790e752cad639abd484",
+      "results\\agent_dev_v1\\reviews.json": "4b66f97db7923dbc23cfb86a620cbdc8f768f72fc4451e3bebcac5afb3f2062d",
+      "results\\agent_dev_v1\\graded_summary.json": "c08d4d932c134da77ad151697212b4f6f98a755ad6779e0322a777bee6f36d0a",
+      "results\\agent_dev_v1\\context_checks.json": "29bc5077f65bda6fe9891dba94144e48029070e4e3ee61be554d65f6c249a60b",
+      "results\\agent_dev_v1\\summary.json": "3a4eb3cf5dcde7d34a51eec4567ae800915b828c77a56e5fb58e69cc616b31a6",
+      "results\\agent_dev_dense_wide\\traces.json": "4a7fd9048f88b529cd4947380da85da9e0945f58b5440c0d3b815834146751ab",
+      "results\\agent_dev_dense_wide\\config.json": "24137aba0c3f931e19088d9036aa4d608079790230d6f9cf43ea1e3d97a8fbe7",
+      "results\\agent_dev_dense_wide\\reviews.json": "6f0c7314a0dbf3c5c948c7f4999641a33395554de0322b3267bb8d48f68cd7ca",
+      "results\\agent_dev_dense_wide\\graded_summary.json": "34fc1828e91d5589deb5bd930bbc7d6da975d9699a4d8f70fd8ce413f2dd9d85",
+      "results\\agent_dev_dense_wide\\context_checks.json": "99a3149e5904f8f22fff028497cb977778911147da8ef6ed5a9a25d71b7daa3e",
+      "results\\agent_dev_dense_wide\\summary.json": "b66c4a86b76c7ebab2a67a7cba82cc93cc174226f857e70600497c7a1ec245de",
+      "results\\agent_dev_dense_wide_quotes\\traces.json": "0e4c5808609ea8e961546e512de5dd8949d945991ee694dbb5ac0379407557bf",
+      "results\\agent_dev_dense_wide_quotes\\config.json": "88d92b760bd3b6b12bb6d5fb30321ae12f0a2bdc0e2dcf7f7f12a645f9e43a37",
+      "results\\agent_dev_dense_wide_quotes\\reviews.json": "043f13e1bd60b10bc657b1c20e6e70a50cd1a23e3c05034da3bae594945c5807",
+      "results\\agent_dev_dense_wide_quotes\\graded_summary.json": "58491457b3906c81c02c235e2a178d62dc95dc6714c15e1cb6d2c8e5a2dd3397",
+      "results\\agent_dev_dense_wide_quotes\\context_checks.json": "99a3149e5904f8f22fff028497cb977778911147da8ef6ed5a9a25d71b7daa3e",
+      "results\\agent_dev_dense_wide_quotes\\summary.json": "00e48614ce8d2a90a964389354407cbce2f0f7f1c4e60f2d76f7334890093db2",
+      "configs/selected_pipeline.json": "53be64ef4c66a0409b083eb7f9130631d0c37625ba9c949bf8e83cdfed16fb48",
+      "configs/dev_experiments.json": "46b46ce685e9b0127fe84bd40663d5d42c482fd6e2fa771f23befded9069eba6",
+      "results/dev_comparison.json": "1f467e9c980699193700c557c7372dbba20e58645b618a0766df027840db4533",
+      "benchmarks/freeze.json": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+      "src/model.py": "83068e00a6e9a0229773c732ed44734d6f41b0cce207bd42b39b81b1ae0d5489",
+      "src/agent.py": "e0c036e9e4e25c681ca826c717b5aaa4b49ceec17d675d39ba028e3c0afe2f13",
+      "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
+      "src/runtime.py": "1ca67fdeffefa829f3557ebcbdf0d123b256228a0295e78a3e267f4af8fc3040",
+      "src/day6_adapter.py": "55b5c89073c7a4959fd5c7bf07f0c22e24a2d7932780f266ad034b0a33b1de3c",
+      "scripts/run_agent_dev.py": "2cbdf595a59821907ca6a5d63dd88754fc5c844b816f3001cb2803e8e375fcc4",
+      "scripts/inspect_agent_dev.py": "003d584842d413e3d9e41470cba2b4a0f5b6392def49954cc119aad3c3b1fad8",
+      "scripts/grade_dev.py": "9582d102473c6dc9773b6e725d153fb51030fcf4a2cdc22626c055d74ee87465",
+      "scripts/select_pipeline.py": "1471085624c68abfa9a50f2c05a7e8239912884cea3d920c6728939bceb95f8f"
+    }
+  },
+  "results/agent_test_v1/evaluation_receipt.json": {
+    "recorded_at": "2026-11-14T08:10:20.938470+00:00",
+    "stage": "Full test evaluation complete; no pipeline tuning or rerun selection",
+    "freeze_verification": {
+      "pipeline_freeze_sha256": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+      "benchmark_freeze_sha256": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+      "status": "passed"
+    },
+    "sha256": {
+      "results\\agent_test_v1\\config.json": "35b7a6866241fa72145266abbca9d549d7fa42cd63bc4936949650727f8f51c4",
+      "results\\agent_test_v1\\traces.json": "7d9b07ea34ec99888c294ca5ffbc324927252b03023dc94a65461ff1536cce89",
+      "results\\agent_test_v1\\summary.json": "f52159699bc7946b911986b0fcd533e8dc9cf6feade76a67bdf8453264648473",
+      "results\\agent_test_v1\\reviews.json": "0a6d84d2612441c7e586c5d1131c29241cf1e5c3df853e86448dae7e3bdcac03",
+      "results\\agent_test_v1\\review_packet.json": "b9be0c1aad0905666d766db5ef2a5726567cadb6b81b6abbac43036e1dcda991",
+      "results\\agent_test_v1\\graded_summary.json": "c3a96ff9d82d82976ebcede97c4d400f9e8ee2ebe55836cd32e4103a7c09efd7",
+      "results\\agent_test_v1\\cited_source_checks.json": "e1253fae458f6c916ed3afd876f2c20b7b121d363d4ffdaf3e87e5488c2233a0",
+      "configs\\pipeline_freeze.json": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+      "configs\\selected_pipeline.json": "53be64ef4c66a0409b083eb7f9130631d0c37625ba9c949bf8e83cdfed16fb48",
+      "benchmarks\\freeze.json": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+      "scripts\\run_agent_test.py": "1dde8b30116f80e70c546e2517e0c955d4aede3be02bb039df0f27f10966e6ac",
+      "scripts\\grade_test.py": "5b5a2f4cc9cf24ca0502f3d314e33255565494139a30b6255d08795378ba1e0d",
+      "docs\\TEST_RESULTS.md": "1f767e363c0a49e93fd66b55b30559eff4472d3982b533843df18761ba5d49f0"
+    }
+  },
+  "commit": "c0a294c42af6ae798ac97e242f0a539206a159b3",
+  "hashes": {
+    "configs/pipeline_freeze.json": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "results/agent_test_v1/evaluation_receipt.json": "395aa17dfc5491648c7675db2430d923e3a8ec7023a3c039e9a0493b09a8ca0e",
+    "benchmarks/freeze.json": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1"
+  },
+  "updated_files": [
+    {
+      "path": "results\\agent_dev_dense_wide\\reviews.json",
+      "previous_sha256": "6f0c7314a0dbf3c5c948c7f4999641a33395554de0322b3267bb8d48f68cd7ca",
+      "current_sha256": "8eaf6b5339e9143fc3e8f30b59945d321af10883f01bc13a04fa784df9313180"
+    },
+    {
+      "path": "results\\agent_dev_dense_wide_quotes\\reviews.json",
+      "previous_sha256": "043f13e1bd60b10bc657b1c20e6e70a50cd1a23e3c05034da3bae594945c5807",
+      "current_sha256": "f9a9346fa656e2c0ee7ffd2e2d713f169cdcef3da5ed8f15a0942aa5da445047"
+    },
+    {
+      "path": "results\\agent_dev_v1\\reviews.json",
+      "previous_sha256": "4b66f97db7923dbc23cfb86a620cbdc8f768f72fc4451e3bebcac5afb3f2062d",
+      "current_sha256": "fbf59f5bfa79d7a31299fdc744ac37c42f9604fddf7e8e6a1a7e4d54d5976018"
+    },
+    {
+      "path": "results\\agent_test_v1\\reviews.json",
+      "previous_sha256": "0a6d84d2612441c7e586c5d1131c29241cf1e5c3df853e86448dae7e3bdcac03",
+      "current_sha256": "a03e291be5efed2d53a9466aa28e945ae5675965550b0f82e97d5d66993e3a6c"
+    },
+    {
+      "path": "results\\agent_dev_dense_wide\\graded_summary.json",
+      "previous_sha256": "34fc1828e91d5589deb5bd930bbc7d6da975d9699a4d8f70fd8ce413f2dd9d85",
+      "current_sha256": "c43d21225ee7d90b275a0a03dfedb9d5449d7970ecff2a4549a8fd37023e9185"
+    },
+    {
+      "path": "results\\agent_dev_dense_wide_quotes\\graded_summary.json",
+      "previous_sha256": "58491457b3906c81c02c235e2a178d62dc95dc6714c15e1cb6d2c8e5a2dd3397",
+      "current_sha256": "376015dab2855cdcd3ff35d8219d6385f7583adf7ddddf59446a6ec0d0c0b823"
+    },
+    {
+      "path": "results\\agent_dev_v1\\graded_summary.json",
+      "previous_sha256": "c08d4d932c134da77ad151697212b4f6f98a755ad6779e0322a777bee6f36d0a",
+      "current_sha256": "ed82d08c55b8b0d4b0c70f00475615004db1f7b06f0e6c8c3347a80364dfa6c5"
+    },
+    {
+      "path": "results\\agent_test_v1\\graded_summary.json",
+      "previous_sha256": "c3a96ff9d82d82976ebcede97c4d400f9e8ee2ebe55836cd32e4103a7c09efd7",
+      "current_sha256": "1b5b61c56d6c0583fbfc8e9de1d7f09b68f081534f47d47286e9304a2bb0c024"
+    },
+    {
+      "path": "docs\\AGENT_DEV_REVIEW.md",
+      "previous_sha256": "27dbd604cb5ec9a9808cb2e81960d4255996b205ef72d68394d92296d1126e96",
+      "current_sha256": "596773ddd77feff13b7ea5dc981dbcbb86d731beb70400eada9e53dfb253f35e"
+    },
+    {
+      "path": "docs\\DEV_SELECTION.md",
+      "previous_sha256": "8bc87e76a1f152868894c27b8590344af17dec7d8bd8314a3afcef488c19697d",
+      "current_sha256": "7d1d7a80b6a46f9210af21b851d155c8b416dde945e688a1a8b2f3e6c62ef2e1"
+    },
+    {
+      "path": "docs\\RETRIEVAL.md",
+      "previous_sha256": "c34a2e4cc89419af4c38dbb87bb838e1eed3d88b550850bb3359254d01e04899",
+      "current_sha256": "83d94e37b83dabec44b3741f17607dfec0abadf85563bc9f3d601274dce57d32"
+    },
+    {
+      "path": "docs\\SUBMISSION_CHECKLIST.md",
+      "previous_sha256": "d5a794bc33bdff19c38ceede6b465182c68047896188d06e88080ad06de6c614",
+      "current_sha256": "5545692ffdcf5d1ece8ea79e2e351d187813e2b7dec363a57baf2d1f970d0d2b"
+    },
+    {
+      "path": "docs\\TEST_RESULTS.md",
+      "previous_sha256": "1f767e363c0a49e93fd66b55b30559eff4472d3982b533843df18761ba5d49f0",
+      "current_sha256": "50b26e1b01da18b7420185bd43e37251e74afe1eb996ce6a76f609636a684c21"
+    },
+    {
+      "path": "report\\individual\\2A202603399_DongNgocPhuc.md",
+      "previous_sha256": "945311169271015e7a6db01b465faa065e1404d959fe92822cfd22db130bda89",
+      "current_sha256": "aabc47e479fe9cc338988cddf1b467ceb0317e72d35b994ddc68181ca4623a08"
+    },
+    {
+      "path": "benchmarks\\README.md",
+      "previous_sha256": "f06cd1814e588c095030a25cef497ea61602e7d6eeca0c84246e5e116dd628d3",
+      "current_sha256": "789584b7bd2a966dd42161c5b701ace58a3433d649c5e36d87edacb40c346142"
+    },
+    {
+      "path": "results\\RUN_HISTORY.md",
+      "previous_sha256": "d76def505e78fefb5cf36650fdbe05a051819cee1e0c4b15edcf39eec48adcbd",
+      "current_sha256": "14bd4f26e0551df061f06b330219fcd1de9deff2142b19f634c2a565b6c838b4"
+    },
+    {
+      "path": "artifacts\\benchmark_validation.json",
+      "previous_sha256": "bbe77a737e1af49b47ba8c1969781534dfaf44b233385442f921dd547fdad985",
+      "current_sha256": "76a1e36196715b7b51527b4f3d8f0e0290fa1e57acfe1e3dd77b00a38cf74ace"
+    },
+    {
+      "path": "results\\dev_comparison.json",
+      "previous_sha256": "1f467e9c980699193700c557c7372dbba20e58645b618a0766df027840db4533",
+      "current_sha256": "0e59505430f3d16bc216608618fb8a70fca15249a93ccac6ea21efe766049130"
+    },
+    {
+      "path": "scripts\\validate_benchmark.py",
+      "previous_sha256": "0339d3a4a9d32fefce8e3d0437a87803224a956d5ec107e81219d8c9bb3b6f76",
+      "current_sha256": "a19fce71971d8f99486cd03dad4533d73b599b6e89c7063b24800f3fb3802187"
+    },
+    {
+      "path": "scripts\\select_pipeline.py",
+      "previous_sha256": "1471085624c68abfa9a50f2c05a7e8239912884cea3d920c6728939bceb95f8f",
+      "current_sha256": "33859fb96ae2934288c432643d1432b981e3c3ee55e00ec6499dd0b54d12b52b"
+    }
+  ],
+  "benchmarks/freeze.json": {
+    "frozen_at": "2026-11-14T07:37:31.360536+00:00",
+    "stage": "Before Day 7 Dense/BM25/Hybrid implementation or benchmark runs",
+    "files_sha256": {
+      "benchmarks/dev.gold.json": "9dabc9f2ac01f81ed157036564eb4740db7db6f3d6bc328a180063f76b711f52",
+      "benchmarks/dev.inputs.json": "eff0138d1df06d563ec2f06ac67e298d7fd7c7ba624fff36630dad697ffc978c",
+      "benchmarks/test.gold.json": "022f410ddde913ec9a455bb3b769d510fc1f77c51199d2b982a7c1a21da9a1bf",
+      "benchmarks/test.inputs.json": "8371d605f64621e9c82bab0d342a958c9d52eda3b900d509e85314ab94f5b494",
+      "benchmarks/dev_absence.json": "5fbede1c4e5e260a65d5f5f88e8d35bfba56cf16c1b3ac9d0a672af224979ef4",
+      "benchmarks/README.md": "f06cd1814e588c095030a25cef497ea61602e7d6eeca0c84246e5e116dd628d3"
+    },
+    "source_sha256": {
+      "pdf": "052352bcb0abf94da5a523bba2710b143df11f89bc1a5801f6810e26df7e48a8",
+      "manifest": "d6e1a748f6e8ed5c954688f62a0f09209b142d68203b8562ad8e1c6df87d7cb9",
+      "chunks_C": "ceded920fc74d279f579b67b5319c4103dbf83af864da174b843315c5c53f13a"
+    }
+  }
+}

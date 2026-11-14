@@ -1,0 +1,293 @@
+{
+  "id": "ADV2-TEST-04",
+  "split": "test",
+  "question": "In Table 6.1-2, which middle-column facility shares the row with Robotics Labs in the left column?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nXSPEkwMwzkIWWxSdtOoPsUoTc",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 647,
+        "completion_tokens": 33,
+        "total_tokens": 680,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1601.72,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_kSiQ2cOaPwHglgqgyfNnY75D",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 6.1-2 Robotics Labs middle column facility shares the row with Robotics Labs\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nYn7I4lIhkuNc8tgAC2m6WxWjQ",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5319,
+        "completion_tokens": 104,
+        "total_tokens": 5423,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 75,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2424.38,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_gVvDNKMDpALhjwqtNalK4x2t",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0130\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ncHLHMlgSCBa8wOltROjChFKlo",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9698,
+        "completion_tokens": 188,
+        "total_tokens": 9886,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 80,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3817.53,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_034ahG9aXsXXko5JMP2kOM9t",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 6.1-2, the middle-column facility on the same row as “Robotics Labs” (left column) is “Vacuum Chambers.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0130\",\"locator\":\"Table 6.1-2, row 'Robotics Labs'\",\"evidence\":\"Robotics Labs  Vacuum Chambers  NDE Labs\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4ngGOPfz4lRSqrWGUQX6MtYrQVR",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4773,
+        "completion_tokens": 174,
+        "total_tokens": 4947,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 69,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3468.29,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Wkls2JNZ7m4fI4pnz6HuDJvs",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 6.1-2, the middle-column facility on the same row as “Robotics Labs” is “Vacuum Chambers.”\",\"citations\":[{\"source_id\":\"NASA-SE:p0130\",\"locator\":\"Table 6.1-2, row containing “Robotics Labs”\",\"evidence\":\"Robotics Labs | Vacuum Chambers | NDE Labs\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 6.1-2, which middle-column facility shares the row with Robotics Labs in the left column?",
+      "results": [
+        {
+          "id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "score": 25.185780654333072,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 8.161051198266062,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0214",
+          "page": 214,
+          "text": " Appendix E: Creating the Validation Plan with a Validation Requirements Matrix\n\n\n\n\n\n\n TABLE E-1 Validation Requirements Matrix\n Validation Activity Objective Validation Facility Phase Performing Results\n Product # Method or Lab Organization\n\n Unique Describe What is to be Validation Facility or Phase in Organization Indicate the\n identifier for evaluation accomplished method laboratory which the responsible for objective\n validation by the by the for the used to verification/ coordinating evidence\n product customer/ customer/ requirement perform validation the validation that\n sponsor sponsor (analysis, the will be activity validation\n that will be evaluation inspection, validation performeda activity\n performed demonstra- occurred\n tion, or test)\n\n 1 Customer/ 1. Ensure Test xxx Phase A xxx TPS 123456\n sponsor legibility is\n will acceptable 2.\n evaluate Ensure overall\n the appearance is\n candidate acceptable\n displays\n\na . Example: (1) during product selection process, (2) prior to final product selection (if COTS) or prior to PDR, (3) prior to CDR,\n (4) during box-level functional, (5) during system-level functional, (6) during end-to-end functional, (7) during integrated vehicle\n functional, (8) during on-orbit functional .\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 204",
+          "score": 12.516487359761715,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0189",
+          "page": 189,
+          "text": " Appendix B: Glossary\n\n\n\n\n\n\nCost-Benefit Analysis: A methodology to determine Decision Analysis Process: A methodology for\nthe advantage of one alternative over another in terms making decisions that offers techniques for model-\nof equivalent cost or benefits. It relies on totaling pos- ing decision problems mathematically and finding\nitive factors and subtracting negative factors to deter- optimal decisions numerically. The methodology\nmine a net result. entails identifying alternatives, one of which should\n be decided upon; possible events, one of which occurs\nCost-Effectiveness Analysis: A systematic quanti- thereafter; and outcomes, each of which results from\ntative method for comparing the costs of alternative a combination of decision and event.\nmeans of achieving the same equivalent benefit for a\nspecific objective. Decision Authority: The individual authorized by the\n Agency to make important decisions for programs\nCritical Design Review: A review that demonstrates and projects under his or her authority.\nthat the maturity of the design is appropriate to sup-\nport proceeding with full-scale fabrication, assembly, Decision Matrix: A methodology for evaluating\nintegration, and test, and that the technical effort is alternatives in which valuation criteria are typically\non track to complete the system development meet- displayed in rows on the left side of the matrix and\ning performance requirements within the identified alternatives are the column headings of the matrix. A\ncost and schedule constraints. “weight” is typically assigned to each criterion.\n\n\nCritical Event (or key event): An event in the opera- Decision Support Package: Documentation submitted\ntions phase of the mission that is time-sensitive and is in conjunction with formal reviews and change requests.\nrequired to be accomplished successfully in order to\nachieve mission success. These events should be consid- Decision Tree: A decision model that displays the\nered early in the life cycle as drivers for system design. expected consequences of all decision alternatives by\n making discreet all “chance” nodes, and, based on\nCritical Event Readiness Review: A review that eval- this, calculating and appropriately weighting the pos-\nuates the readiness of a project’s flight system to exe- sible consequences of all alternatives.\ncute the critical event during flight operation.\n Decommissioning Review: A review that confirms\nCustomer: The organization or individual that has the decision to terminate or decommission a system\nrequested a product and will receive the product to and assess the readiness for the safe decommissioning\nbe delivered. The customer may be an end user of and disposal of system assets. The DR is normally\nthe product, the acquiring agent for the end user, or held near the end of routine mission operations upon\nthe requestor of the work products from a technical accomplishment of planned mission objectives. It\neffort. Each product within the system hierarchy has may be advanced if some unplanned event gives rise\na customer. to a need to prematurely terminate the mission, or\n delayed if operational life is extended to permit addi-\nData Management: DM is used to plan for, acquire, tional investigations.\naccess, manage, protect, and use data of a technical\nnature to support the total life cycle of a system. Deliverable Data Item: Consists of technical\n data, such as requirements specifications, design\n\n\n\n 179",
+          "score": 10.778544624656863,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0172",
+          "page": 172,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nCritical Design The CDR demonstrates that CDR occurs during The entrance and success As a result of successful\nReview (CDR) the maturity of the design the final design criteria for the CDR are completion of the CDR, the\n is appropriate to support phase (Phase C). defined in Table G-7 of build-to baseline, production, and\n proceeding with full scale NPR 7123.1. verification plans are approved.\n fabrication, assembly, A successful review result also\n integration, and test. CDR authorizes coding of deliverable\n determines if the technical software (according to the build-to\n effort is on track to complete baseline and coding standards\n the system development, presented in the review) and\n meeting mission performance system qualification testing and\n requirements within the identified integration. All open issues should\n cost and schedule constraints. be resolved with closure actions\n and schedules.\n\nProduction A PRR is held for projects PRR occurs during The entrance and success As a result of successful\nReadiness developing or acquiring multiple the final design criteria for the PRR are completion of the PRR, the final\nReview (PRR) or similar systems greater than phase (Phase C). defined in Table G-8 of production build-to baseline,\n three or as determined by the NPR 7123.1. production, and verification plans\n project. The PRR determines are approved. Approved drawings\n the readiness of the system are released and authorized for\n developers to efficiently produce production. A successful review\n the required number of systems. result also authorizes coding of\n It ensures that the production deliverable software (according to\n plans; fabrication, assembly, and the build-to baseline and coding\n integration-enabling products; standards presented in the review)\n and personnel are in place and and system qualification testing\n ready to begin production. and integration. All open issues\n should be resolved with closure\n actions and schedules.\n\nSystem An SIR ensures segments, SIR occurs at The entrance and success As a result of successful\nIntegration components, and subsystems the end of the criteria for the SIR are completion of the SIR, the final\nReview (SIR) are on schedule to be final design defined in Table G-9 of as-built baseline and verification\n integrated into the system. phase (Phase C) NPR 7123.1. plans are approved. Approved\n Integration facilities, support and before the drawings are released and\n personnel, and integration plans systems assembly, authorized to support integration.\n and procedures are on schedule integration, and All open issues should be resolved\n to support integration. test phase (Phase with closure actions and schedules.\n D) begins. The subsystems/systems\n integration procedures, ground\n support equipment, facilities,\n logistical needs, and support\n personnel are planned for and are\n ready to support integration.\n\nSystem The SAR verifies the The entrance and success As a result of successful\nAcceptance completeness of the specific criteria for the SAR are completion of the SAR, the\nReview (SAR) end products in relation to defined in Table G-11 of system is accepted by the buyer,\n their expected maturity level NPR 7123.1. and authorization is given to\n and assesses compliance to ship the hardware to the launch\n stakeholder expectations. It also site or operational facility and to\n ensures that the system has install software and hardware for\n sufficient technical maturity to operational use.\n authorize its shipment to the\n designated operational facility or\n launch site.\n\n (continued)\n\n\n\n 162",
+          "score": 9.229377037728295,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0102",
+          "page": 102,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n verification activities. Other risk assessments of the project life cycle and matures as the design is\n contribute to trade studies that determine matured. The verification environment is considered as\n the preferred methods of verification to be part of procedure development. Operational scenarios\n used and when those methods should be are assessed to explore all possible verification activities\n performed. For example, a trade might be to be performed. The final element is preparation of the\n made between performing a model test versus verification environment; e.g., facilities, equipment,\n determining model characteristics by a less tools, measuring devices, and climatic conditions.\n costly but less revealing analysis. The project\n manager/systems engineer should determine When operator or other user interaction is involved,\n what risks are acceptable in terms of the proj- it is important to ensure that humans are properly\n ect’s cost and schedule. represented in the verification activities. This includes\n physical size, skills, knowledge, training, clothing,\n• Availability of verification facilities/sites and special gear, and tools. Note: Testing that includes\n transportation assets to move an article from one representatives of the human in the system is often\n location to another (when needed). This requires referred to as “human-in-the-loop” testing.\n coordination with the Integrated Logistics\n Support (ILS) engineer.\n NOTE: Depending on the nature of the verifica-\n• Availability of appropriately trained users for tion effort and the life cycle phase the program is in,\n interaction with systems having human interfaces. some type of review to assess readiness for verifi-\n cation (as well as validation later) is typically held. In\n• Acquisition strategy; i.e., in-house development or earlier phases of the life cycle, these Test Readiness\n system contract. A NASA field Center can often Reviews (TRRs) may be held informally; in later\n shape a contractor’s verification process through phases of the life cycle, this review may become a\n the project’s SOW. more formal event. TRRs and other technical reviews\n are an activity of the Technical Assessment Process.\n• Degree of design heritage and hardware/software reuse. On most projects, a number of TRRs with tailored\n entrance/success criteria are held to assess the\n5.3.1.2.1 Product Verification Preparation readiness and availability of test ranges, test facili-\nIn preparation for verification, the verification ties, trained testers, instrumentation, integration labs,\nplan and the specified requirements are collected, support equipment, and other enabling products.\nreviewed, and confirmed. The product to be verified Peer reviews are additional reviews that may be\nis obtained (output from the Product Implementation conducted formally or informally to ensure readiness\nProcess or the Product Integration Process) along for verification (as well as the results of the verifi-\nwith any enabling products, such as those repre- cation process). Guidelines for conducting a peer\nsenting external interfacing products and support review are discussed in Section 6.7.2.4.5.\nresources (including personnel) that are necessary for\nverification. Procedures capturing detailed step-by-\nstep activities and based on the verification type and TABLE 5.3-1 provides an example of the type of infor-\nmethods are finalized and approved. Development of mation that may be included in a verification proce-\nprocedures typically begins during the design phase dure and a verification report.\n\n\n\n 92",
+          "score": 8.410301409845252,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 7.938071334706084,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "image_path": "data/local/advanced/pages/p0130_2000.png",
+          "image_sha256": "be00c47c078a3f92987f7a57e8427c45684a073372947a6dcc36f45e5fcdd48d"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0130",
+          "page": 130,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n TABLE 6.1-2 Examples of Types of Facilities to Consider During Planning\n\n Communications and Tracking Labs Models and Simulation Labs Thermal Chambers\n Power Systems Labs Prototype Development Shops Vibration Labs\n Propulsion Test Stands Calibration Labs Radiation Labs\n Mechanical/Structures Labs Biological Labs Animal Care Labs\n Instrumentation Labs Space Materials Curation Labs Flight Hardware Storage Areas\n Human Systems Labs Electromagnetic Effects Labs Design Visualization\n Guidance and Navigation Labs Materials Labs Wiring Shops\n Robotics Labs Vacuum Chambers NDE Labs\n Software Development Environment Mission Control Center Logistics Warehouse\n Meeting Rooms Training Facilities Conference Facilities\n Education/Outreach Centers Server Farms Project Documentation Centers\n\n\n\n\n\nIdentifying Facilities troubleshooting errors/anomalies. Frequently,\nThe planning process also includes identifying the software engineers are called upon to help trou-\nrequired facilities, laboratories, test beds, and instru- bleshoot problems and pinpoint the source of\nmentation needed to build, test, launch, and operate errors in hardware and systems development and\na variety of commercial and Government products. A testing (e.g., for writing additional test drivers to\nsample list of the kinds of facilities that might be con- debug hardware problems). Additional software\nsidered when planning is illustrated in TABLE 6.1-2. staff should be planned into the project contin-\n gencies to accommodate inevitable component\n6.1.1.2.2 Define the Technical Work and system debugging and avoid cost and sched-\nThe technical effort should be defined commensurate ule overruns.\nwith the level of detail needed for the life cycle phase.\nWhen performing the technical planning, realistic • Hardware-In-the-Loop (HWIL) should be\nvalues for cost, schedule, and labor resources should be accounted for in the technical planning contin-\nused. Whether extrapolated from historical databases gencies. HWIL testing is typically accomplished\nor from interactive planning sessions with the proj- as a debugging exercise where the hardware and\nect and stakeholders, realistic values should be calcu- software are brought together for the first time\nlated and provided to the project team. Contingency in the costly environment of HWIL. If upfront\nshould be included in any estimate and should be work is not done to understand the messages and\nbased on the complexity and criticality of the effort. errors arising during this test, additional time in\nContingency planning should be conducted. The fol- the HWIL facility may result in significant cost\nlowing are examples of contingency planning: and schedule impacts. Impacts may be mitigated\n through upfront planning, such as making appro-\n• Additional, unplanned-for software engineering priate debugging software available to the techni-\n resources are typically needed during hardware cal team prior to the test, etc.\n and systems development and testing to aid in\n\n\n\n\n\n 120",
+          "image_sha256": "be00c47c078a3f92987f7a57e8427c45684a073372947a6dcc36f45e5fcdd48d"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "In Table 6.1-2, the middle-column facility on the same row as “Robotics Labs” is “Vacuum Chambers.”",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0130",
+                "locator": "Table 6.1-2, row containing “Robotics Labs”",
+                "evidence": "Robotics Labs | Vacuum Chambers | NDE Labs"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    130
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "In Table 6.1-2, the middle-column facility on the same row as “Robotics Labs” (left column) is “Vacuum Chambers.”",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0130",
+            "locator": "Table 6.1-2, row 'Robotics Labs'",
+            "evidence": "Robotics Labs  Vacuum Chambers  NDE Labs"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Table 6.1-2, the middle-column facility on the same row as “Robotics Labs” is “Vacuum Chambers.”",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0130",
+          "locator": "Table 6.1-2, row containing “Robotics Labs”",
+          "evidence": "Robotics Labs | Vacuum Chambers | NDE Labs"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 12289.17
+}

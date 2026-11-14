@@ -1,0 +1,249 @@
+{
+  "id": "ADV-DEV-01",
+  "split": "dev",
+  "question": "In Table 2.1-1, which AS9100 requirements align with Decision Analysis?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek45KzSUhMLWoDoPI9OksBcOl98bM",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 468,
+        "completion_tokens": 17,
+        "total_tokens": 485,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1605.25,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ejiNPJteZgzGoKXNbt2pBZl2",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.1-1 AS9100 requirements Decision Analysis\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek45LAxm6vORsKiViVGAhSmXmygtM",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 5484,
+        "completion_tokens": 14,
+        "total_tokens": 5498,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1220.32,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_XSkj3H5Lqc6cqLVoEiGdTJ4Z",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[7]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek45PXR5inXbm5oEvoT0elwYs0gbG",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 10285,
+        "completion_tokens": 14,
+        "total_tokens": 10299,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2108.7,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_cVRUuhR7RpAdcpu4yxawze8v",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"pages\":[17]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      }
+    },
+    {
+      "response_id": "chatcmpl-Ek45SAwWJuZQhHsWEh2J9fFUEPySj",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "usage": {
+        "prompt_tokens": 14918,
+        "completion_tokens": 88,
+        "total_tokens": 15006,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3016.44,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In Table 2.1-1, the AS9100 requirements that align with Decision Analysis are \\\"Measurement, Analysis and Improvement; Analysis of Data\\\".\",\"citations\":[{\"page\":17,\"bbox\":[0.05,0.75,0.95,0.95],\"locator\":\"Table 2.1-1\"}]}]}",
+        "refusal": null,
+        "annotations": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 2.1-1, which AS9100 requirements align with Decision Analysis?",
+      "results": [
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 19.075732473498867,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "score": 13.639531933169573,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 13.174507665412603,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 7.732604209800485,
+          "reference_match": true
+        },
+        {
+          "id": "NASA-SE:p0180",
+          "page": 180,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nbasic definitions of what is being measured for each This report includes the following:\nalternative. The criteria should be updated, with con-\ncurrence from the decision-maker, to more correctly • mission and system context for the decision\nreflect the suitability of each alternative. • decision needed and intended outcomes\n • decision criteria\n6.8.1.2.6 Report Analysis Results • identified alternative solutions\nThese results are reported to the appropriate stake- • decision evaluation methods and tools employed\nholders with recommendations, impacts, and correc- • assumptions, uncertainties, and sensitivities in\ntive actions the evaluations and recommendations\n • results of all alternative evaluations\n6.8.1.2.7 Capture Work Products • alternative recommendations\nThese work products may include the decision anal- • final decision made with rationale\nysis guidelines, strategy, and procedures that were • lessons learned\nused; analysis/evaluation approach; criteria, meth-\nods, and tools used; analysis/evaluation assumptions Typical information captured in a decision report is\nmade in arriving at recommendations; uncertainties; shown in TABLE 6.8-1.\nsensitivities of the recommended actions or corrective\nactions; and lessons learned. 6.8.2 Decision Analysis Guidance\n Refer to Section 6.8.2 in the NASA Expanded\n6.8.1.3 Outputs Guidance for Systems Engineering at https://nen.\n6.8.1.3.1 Alternative Selection and Decision Support nasa.gov/web/se/doc-repository for additional guid-\n Recommendations and Impacts ance on decision analysis methods supporting all SE\nOnce the technical team recommends an alterna- processes and phases including:\ntive to a NASA decision-maker (e.g., a NASA board,\nforum, or panel), all decision analysis information • trade studies,\nshould be documented. The team should produce a • cost-benefit analysis,\nreport to document all major recommendations to • influence diagrams,\nserve as a backup to any presentation materials used. • decision trees,\nA report in conjunction with a decision matrix pro- • analytic hierarchy process,\nvides clearly documented rationale for the presen- • Borda counting, and\ntation materials (especially for complex decisions). • utility analysis,\nDecisions are typically captured in meeting minutes\nand should be captured in the report as well. Based Additional information on tools for decision making\non the mission and system context and the decision can be found in NASA Reference Publication 1358,\nmade, the report may be a simple white paper or a System Engineering “Toolbox” for Design-Oriented\nmore formally formatted document. The important Engineers located at https://nen.nasa.gov/web/se/\ncharacteristic of the report is the content, which fully doc-repository.\ndocuments the decision needed, assessments done,\nrecommendations, and decision finally made.\n\n\n\n\n\n\n 170",
+          "score": 10.244382680361738,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0170",
+          "page": 170,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nestablishing the makeup of the review team; and (4) • Technical Review Reports/Minutes: This is the\nidentifying and resolving action items resulting from collective information coming out of each review\nthe review. Section 6.7.2.3 summarizes the types of that captures the results, recommendations, and\ntechnical reviews typically conducted on a program/ actions with regard to meeting the review’s suc-\nproject and the role of these reviews in supporting cess criteria.\nmanagement decision processes. This section address\nthe types of technical reviews typically conducted • Other Work Products: These would include strat-\nfor both space flight and research and technology egies and procedures for technical assessment, key\nprograms/projects and the role of these reviews in decisions and associated rationale, assumptions,\nsupporting management decision processes. It also and lessons learned.\nidentifies some general principles for holding reviews,\nbut leaves explicit direction for executing a review to 6.7.2 Technical Assessment Guidance\nthe program/project team to define. Refer to Section 6.7.2 in the NASA Expanded\n Guidance for Systems Engineering at https://nen.\nThe process of executing technical assessment has nasa.gov/web/se/doc-repository for additional guid-\nclose relationships to other areas, such as risk man- ance on:\nagement, decision analysis, and technical planning.\nThese areas may provide input into the Technical • the basis of technical reviews,\nAssessment Process or be the benefactor of outputs • audits,\nfrom the process. • Key Decision Points,\n • required technical reviews for space flight projects,\nTABLE 6.7-1 provides a summary of the types of reviews • other reviews,\nfor a space flight project, their purpose, and timing. • status reporting and assessment (including MOEs,\n MOPs, KPPs, TPMs, EVM and other metrics,\n6.7.1.2.3 Capture Work Products\nThe work products generated during these activities Additional information is also available in NASA/\nshould be captured along with key decisions made, SP-2014-3705, NASA Space Flight Program and\nsupporting decision rationale and assumptions, Project Management Handbook.\nand lessons learned in performing the Technical\nAssessment Process.\n 6.8 Decision Analysis\n6.7.1.3 Outputs The purpose of this section is to provide an over-\nTypical outputs of the Technical Assessment Process view of the Decision Analysis Process, highlighting\nwould include the following: selected tools and methodologies. Decision Analysis\n is a framework within which analyses of diverse types\n• Assessment Results, Findings, and are applied to the formulation and characterization\n Recommendations: This is the collective data of decision alternatives that best implement the deci-\n on the established measures from which trends sion-maker’s priorities given the decision-maker’s\n can be determined and variances from expected state of knowledge.\n results can be understood. Results then feed into\n the Decision Analysis Process where corrective\n action may be necessary.\n\n\n 160",
+          "score": 9.868429396403416,
+          "reference_match": false
+        },
+        {
+          "id": "NASA-SE:p0174",
+          "page": 174,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nName of Purpose Timing Entrance/Success Results of Review\nReview Criteria\nDecommissioning The DR confirms the decision The DR is normally The entrance and success A successful DR completion ensures\nReview (DR) to terminate or decommission held near the end criteria for the DR are that the decommissioning and disposal\n the system and assesses the of routine mission defined in Table G-17 of of system items and processes are\n readiness of the system for operations upon NPR 7123.1. appropriate and effective.\n the safe decommissioning and accomplishment\n disposal of system assets. of planned mission\n objectives. It may\n be advanced if\n some unplanned\n event gives\n rise to a need\n to prematurely\n terminate the\n mission, or delayed\n if operational life\n is extended to\n permit additional\n investigations.\n\nDisposal A DRR confirms the readiness The DRR is held The DRR entrance and A successful DRR completion\nReadiness for the final disposal of the as major assets success criteria for a ensures that the disposal of\nReview (DRR) system assets. are ready for final program are defined in system items and processes are\n disposal. Table G-18 of NPR 7123.1. appropriate and effective.\n\n\n\nThe Decision Analysis Process is used in support of performance, cost, and schedule. For an issue that\ndecision making bodies to help evaluate technical, cost, follows the decision analysis process, the definition of\nand schedule issues, alternatives, and their uncertain- the decision criteria or the measures that are import-\nties. Decision models have the capacity for accepting ant to characterize the options for making a decision\nand quantifying human subjective inputs: judgments should be the next step in the process. With this\nof experts and preferences of decision makers. defined, a set of alternative solutions can be defined\n for evaluation. These solutions should cover the full\nThe outputs from this process support the decision decision space as defined by the understanding of\nauthority’s difficult task of deciding among compet- the decision and definition of the decision criteria.\ning alternatives without complete knowledge; there- The need for specific decision analysis tools (defined\nfore, it is critical to understand and document the in Section 6.8.3 in the NASA Expanded Guidance\nassumptions and limitation of any tool or method- for Systems Engineering at https://nen.nasa.gov/\nology and integrate them with other factors when web/se/doc-repository) can then be determined and\ndeciding among viable options. employed to support the formulation of a solution.\n Following completion of the analysis, a description\n6.8.1 Process Description of how each alternative compares with the decision\nA typical process flow diagram is provided in FIGURE criteria can be captured for submission to the deci-\n6.8-1, including inputs, activities, and outputs. The sion-making body or authority. A recommendation\nfirst step in the process is understanding the deci- is typically provided from the decision analysis, but\nsion to be made in the context of the system/mission. is not always required depending on the discretion of\nUnderstanding the decision needed requires knowl- the decision-making body. A decision analysis report\nedge of the intended outcome in terms of technical should be generated including: decision to be made,\n\n\n 164",
+          "score": 8.707898096314985,
+          "reference_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 7,
+          "path": "data/local/advanced/pages/p0007_1800.png",
+          "sha256": "ae8c40dac0b84b1c5d60b1f22e259a04f008ff496f161ada662a85c646d0b279",
+          "citation_page": 7,
+          "text": "Table of Boxes\n\n\n\n\nThe Systems Engineer’s Dilemma . . . . . . . . . .12 Differences between Verification and\nSpace Flight Program Formulation . . . . . . . . . . 20 Validation Testing . . . . . . . . . . . . . . . . . . . 89\nSpace Flight Program Implementation . . . . . . . . 21 Differences between Verification, Qualification,\nSpace Flight Pre-Phase A: Concept Studies . . . . . 22 Acceptance and Certification . . . . . . . . . . . . . 90\nSpace Flight Phase A: Methods of Verification . . . . . . . . . . . . . . . .93\nConcept and Technology Development . . . . . . .24 Methods of Validation . . . . . . . . . . . . . . . 101\nSpace Flight Phase B: Crosscutting Technical Management Keys . . . . . 114\nPreliminary Design and Technology Completion . . .26 Types of Hardware . . . . . . . . . . . . . . . . . 124\nSpace Flight Phase C: Final Design and Fabrication . 28 Environments . . . . . . . . . . . . . . . . . . . . 127\nSpace Flight Phase D: Definitions . . . . . . . . . . . . . . . . . . . . . 130\nSystem Assembly, Integration and Test, Launch . . . 30 Types of Configuration Management Changes . . . 149\nSpace Flight Phase E: Operations and Sustainment .32 Data Collection Checklist . . . . . . . . . . . . . . 155\nPhase F: Closeout . . . . . . . . . . . . . . . . . .33 HSI Relevance . . . . . . . . . . . . . . . . . . . 246\nSystem Design Keys . . . . . . . . . . . . . . . . . 44 HSI Strategy . . . . . . . . . . . . . . . . . . . . 246\nConcept of Operations vs . Operations Concept . . .51 HSI Domains . . . . . . . . . . . . . . . . . . . . 247\nExample of Functional and Performance HSI Requirements . . . . . . . . . . . . . . . . . 247\nRequirements . . . . . . . . . . . . . . . . . . . .56 HSI Implementation . . . . . . . . . . . . . . . . 249\nRationale . . . . . . . . . . . . . . . . . . . . . . . 60 HSI Plan Updates . . . . . . . . . . . . . . . . . 250\nProduct Realization Keys . . . . . . . . . . . . . . . 78\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vii"
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "pages": [
+        {
+          "page": 17,
+          "path": "data/local/advanced/pages/p0017_1800.png",
+          "sha256": "ea4af14a1960d1b61c26f2840d93ea81a2e8615a94796802e2094c3db51f9c27",
+          "citation_page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7"
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [
+    7,
+    17
+  ],
+  "status": "answered",
+  "claims": [
+    {
+      "text": "In Table 2.1-1, the AS9100 requirements that align with Decision Analysis are \"Measurement, Analysis and Improvement; Analysis of Data\".",
+      "citations": [
+        {
+          "page": 17,
+          "bbox": [
+            0.05,
+            0.75,
+            0.95,
+            0.95
+          ],
+          "locator": "Table 2.1-1"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 10116.07
+}

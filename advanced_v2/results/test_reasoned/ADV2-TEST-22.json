@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-22",
+  "split": "test",
+  "question": "According to Appendix C.3, should a requirement be stated positively or negatively, and what example of negative phrasing is given?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4qqqHkiSBb5OUVdLZmtApYZf0en",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 30,
+        "total_tokens": 679,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1399.57,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_1xcrnOY8BFgdRQ6aHaYXJ7W0",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Appendix C.3 requirement stated positively or negatively example of negative phrasing\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qs48jlKIfCrSE0hQWR9tKOiB70",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5042,
+        "completion_tokens": 115,
+        "total_tokens": 5157,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 86,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2474.1,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6D3tHCB6jgtQbb2mKvISYNEY",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0207\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qvfo0TsJ1gd4oDdvqvZM6bdEu8",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9324,
+        "completion_tokens": 268,
+        "total_tokens": 9592,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 105,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5710.64,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_hzMbk83S2FqBUAnrZbJx54S6",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Appendix C.3 says a requirement should be stated positively (as opposed to negatively).\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"C.3 General Goodness Checklist bullet\",\"evidence\":\"“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”\"}]},{\"text\":\"Appendix C.3 gives “shall not” as an example of negative phrasing.\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"C.3 General Goodness Checklist bullet\",\"evidence\":\"“...as opposed to negatively, i.e., ‘shall not’.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4r1yxnHKVCabqgTtwMFWKrrjE6X",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4741,
+        "completion_tokens": 247,
+        "total_tokens": 4988,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 76,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4780.65,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_KHjEyaQ1eUDbDxjSSYNixlzi",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Appendix C.3 says a requirement should be stated positively (as opposed to negatively).\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"Appendix C, C.3 General Goodness Checklist bullet\",\"evidence\":\"“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”\"}]},{\"text\":\"Appendix C.3 gives “shall not” as an example of negative phrasing.\",\"citations\":[{\"source_id\":\"NASA-SE:p0207\",\"locator\":\"Appendix C, C.3 General Goodness Checklist bullet\",\"evidence\":\"“...as opposed to negatively, i.e., ‘shall not’.”\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "According to Appendix C.3, should a requirement be stated positively or negatively, and what example of negative phrasing is given?",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 30.465048984458022,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0208",
+          "page": 208,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n estimate for a value and mark it “To Be Resolved” as TBDs or TBRs and a complete listing of them\n (TBR) with the rationale along with what should maintained with the requirements?\n be done to eliminate the TBR, who is responsi-\n ble for its elimination, and by when it should be  Are any requirements missing? For example,\n eliminated. have any of the following requirements areas\n been overlooked: functional, performance, inter-\n The requirement is accompanied by an intel- face, environment (development, manufacturing,\n ligible rationale, including any assumptions. test, transport, storage, and operations), facility\n Can you validate (concur with) the assump- (manufacturing, test, storage, and operations),\n tions? Assumptions should be confirmed before transportation (among areas for manufacturing,\n baselining. assembling, delivery points, within storage facil-\n ities, loading), training, personnel, operability,\n The requirement is located in the proper section of safety, security, appearance and physical charac-\n the document (e.g., not in an appendix). teristics, and design.\nC.4 Requirements Validation  Have all assumptions been explicitly stated?\n Checklist Compliance\nClarity  Are all requirements at the correct level (e.g., sys-\n Are the requirements clear and unambiguous? tem, segment, element, subsystem)?\n (Are all aspects of the requirement understand-\n able and not subject to misinterpretation? Is the  Are requirements free of implementation specif-\n requirement free from indefinite pronouns (this, ics? (Requirements should state what is needed,\n these) and ambiguous terms (e.g., “as appropri- not how to provide it.)\n ate,” “etc.,” “and/or,” “but not limited to”)?)\n  Are requirements free of descriptions of opera-\n Are the requirements concise and simple? tions? (Don’t mix operation with requirements:\n update the ConOps instead.)\n Do the requirements express only one thought per\n requirement statement, a stand-alone statement as  Are requirements free of personnel or task assign-\n opposed to multiple requirements in a single state- ments? (Don’t mix personnel/task with product\n ment, or a paragraph that contains both require- requirements: update the SOW or Task Order\n ments and rationale? instead.)\n\n Does the requirement statement have one subject Consistency\n and one predicate?  Are the requirements stated consistently without\n contradicting themselves or the requirements of\nCompleteness related systems?\n Are requirements stated as completely as possible?\n Have all incomplete requirements been captured  Is the terminology consistent with the user and\n sponsor’s terminology? With the project glossary?\n\n\n\n 198",
+          "score": 18.450836298778686,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 16.030238148807744,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0210",
+          "page": 210,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n the system from the point of view of hardware,  Are the requirements free of unverifiable terms\n software, operations, personnel and procedures? (e.g., flexible, easy, sufficient, safe, ad hoc, ade-\n quate, accommodate, user-friendly, usable, when\nVerifiability/Testability required, if required, appropriate, fast, portable,\n Can the system be tested, demonstrated, light-weight, small, large, maximize, minimize,\n inspected, or analyzed to show that it satisfies sufficient, robust, quickly, easily, clearly, other\n requirements? Can this be done at the level of the “ly” words, other “ize” words)?\n system at which the requirement is stated? Does\n a means exist to measure the accomplishment of Data Usage\n the requirement and verify compliance? Can the  Where applicable, are “don’t care” conditions\n criteria for verification be stated? truly “don’t care”? (“Don’t care” values identify\n cases when the value of a condition or flag is irrel-\n Are the requirements stated precisely to facilitate evant, even though the value may be important\n specification of system test success criteria and for other cases.) Are “don’t care” conditions values\n requirements? explicitly stated? (Correct identification of “don’t\n care” values may improve a design’s portability.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 200",
+          "score": 14.000708886403912,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0200",
+          "page": 200,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nthe operational environment in order to satisfacto- of each product layer during system design. It pro-\nrily address performance margin requirements or vides bidirectional traceability back to the top prod-\nstakeholder expectations. Consequently, the relevant uct layer requirements and manages the changes to\nenvironment is the specific subset of the operational established requirement baselines over the life cycle\nenvironment that is required to demonstrate critical of the system products.\n“at risk” aspects of the final product performance in\nan operational environment. Risk: In the context of mission execution, risk is the\n potential for performance shortfalls that may be real-\nReliability: The measure of the degree to which a ized in the future with respect to achieving explicitly\nsystem ensures mission success by functioning prop- established and stated performance requirements.\nerly over its intended life. It has a low and acceptable The performance shortfalls may be related to any one\nprobability of failure, achieved through simplicity, or more of the following mission execution domains:\nproper design, and proper application of reliable parts (1) safety, (2) technical, (3) cost, and (4) schedule.\nand materials. In addition to long life, a reliable sys- (Source: NPR 8000.4, Agency Risk Management\ntem is robust and fault tolerant. Procedural Requirements)\n\n\nRepeatable: A characteristic of a process that can be Risk Assessment: An evaluation of a risk item that\napplied to products at any level of the system struc- determines (1) what can go wrong, (2) how likely it\nture or within any life cycle phase. is to occur, (3) what the consequences are, and (4)\n what the uncertainties associated with the likelihood\nRequirement: The agreed-upon need, desire, want, and consequences are, and 5) what the mitigation\ncapability, capacity, or demand for personnel, equip- plansare.\nment, facilities, or other resources or services by\nspecified quantities for specific periods of time or Risk-Informed Decision Analysis Process: A five-\nat a specified time expressed as a “shall” statement. step process focusing first on objectives and next\nAcceptable form for a requirement statement is indi- on developing decision alternatives with those\nvidually clear, correct, feasible to obtain, unambig- objectives clearly in mind and/or using decision\nuous in meaning, and can be validated at the level alternatives that have been developed under other\nof the system structure at which it is stated. In pairs systems engineering processes. The later steps of the\nof requirement statements or as a set, collectively, process interrelate heavily with the Technical Risk\nthey are not redundant, are adequately related with Management Process.\nrespect to terms used, and are not in conflict with\none another. Risk Management: Risk management includes\n Risk-Informed Decision-Making (RIDM) and\nRequirements Allocation Sheet: Documents the Continuous Risk Management (CRM) in an inte-\nconnection between allocated functions, allocated grated framework. RIDM informs systems engi-\nperformance, and the physical system. neering decisions through better use of risk and\n uncertainty information in selecting alternatives and\nRequirements Management Process: A process establishing baseline requirements. CRM manages\nused to manage the product requirements identified, risks over the course of the development and the\nbaselined, and used in the definition of the products Implementation Phase of the life cycle to ensure that\n\n\n\n 190",
+          "score": 12.705040146917375,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0263",
+          "page": 263,
+          "text": " Appendix S: Concept of OperationsAnnotated Outline\n\n\n\n\n\nThe number of scenarios, use cases, or DRMs discussed 7.2 Organizational Impacts\nshould cover both nominal and off-nominal conditions Describes how the envisioned system could impact existing or\nand cover all expected functions and capabilities. A good future organizational aspects. This would include the need\npractice is to label each of these scenarios to facilitate for hiring specialists or operators, specialized or widespread\nrequirements traceability; e.g., [DRM-0100], [DRM- training or retraining, and use of multiple organizations.\n0200], etc.\n 7.3 Scientific/Technical Impacts\n6.1 Nominal Conditions This subsection describes the anticipated scientific or\nThese scenarios, use cases, or DRMs cover how the envi- technical impact of a successful mission or deploy-\nsioned system will operate under normal circumstances ment, what scientific questions will be answered, what\nwhere there are no problems or anomalies taking place. knowledge gaps will be filled, and what services will be\n provided. If the purpose of this system is to improve oper-\n6.2 Off-Nominal Conditions ations or logistics instead of science, describe the antici-\nThese scenarios cover cases where some condition has pated impact of the system in those terms.\noccurred that will need the system to perform in a way\nthat is different from normal. This would cover failures,\nlow performance, unexpected environmental conditions, 8.0 Risks and Potential Issues\nor operator errors. These scenarios should reveal any This section describes any risks and potential issues asso-\nadditional capabilities or safeguards that are needed in ciated with the development, operations or disposal of\nthe system. the envisioned system. Also includes concerns/risks with\n the project schedule, staffing support, or implementation\n approach. Allocate subsections as needed for each risk\n7.0 Impact Considerations or issue consideration. Pay special attention to closeout\nThis section describes the potential impacts, both positive issues at the end of the project.\nand negative, on the environment and other areas.\n Appendix A: Acronyms\n7.1 Environmental Impacts This part lists each acronym used in the ConOps and\nDescribes how the envisioned system could impact the spells it out.\nenvironment of the local area, state, country, world-\nwide, space, and other planetary bodies as appropriate Appendix B: Glossary of Terms\nfor the systems intended purpose. This includes the pos- The part lists key terms used in the ConOps and provides\nsibility of the generation of any orbital debris, potential a description of their meaning.\ncontamination of other planetary bodies or atmosphere,\nand generation of hazardous wastes that will need dis-\nposal on earth and other factors. Impacts should cover\nthe entire life cycle of the system from development\nthrough disposal.\n\n\n\n\n\n\n\n\n 253",
+          "score": 12.261937480247834,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0241",
+          "page": 241,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nbroad range of tools used on the project. It defines the b. Other performance measure that should be con-\nrequirements for information management systems and sidered by the project include:\nfor using existing elements. It defines and plans for the\ntraining required to use the tools and technology across » Requirement trends (percent growth, TBD/TBR\nthe project. closures, number of requirement changes);\n » Interface trends (percent ICD approval, TBD/\n7.3 Specialty Engineering TBR burndown, number of interface require-\nThis section describes engineering discipline and spe- ment changes);\ncialty requirements that apply across projects and the » Verification trends (closure burndown, number\nWBS models of the system structure. Examples of these of deviations/waivers approved/open);\nrequirement areas would include planning for safety, » Software-unique trends (number of require-\nreliability, human factors, logistics, maintainability, ments per build/release versus plan);\nquality, operability, and supportability. It includes esti- » Problem report/discrepancy report trends (num-\nmates of staffing levels for these disciplines and incorpo- ber open, number closed);\nrates them with the project requirements. » Cost trends (plan, actual, UFE, EVM, NOA);\n » Schedule trends (critical path slack/float, critical\n7.4 Technical Performance Measures milestone dates); and\na. This section describes the TPMs that have been » Staffing trends (FTE, WYE).\n derived from the MOEs and MOPs for the project.\n The TPMs are used to define and track the techni- Key Questions\n cal progress of the systems engineering effort. (The 1. What metrics will be used to measure tech-\n unique identification numbers in red reference the nical progress?\n corresponding requirement in NPR 7123.1.) The 2. What metrics will be used to identify process\n performance metrics need to address the minimally improvement opportunities?\n required TPMs as defined in NPR 7123.1. These 3. How will we measure progress against the\n include: plans and schedules?\n\n 1. Mass margins for projects involving hardware 4. How often will progress be reported? By\n whom? To whom?\n [SE-62].\n\n\n 2. Power margins for projects that are powered\n [SE-63]. 7.5 Heritage\n This section describes the heritage or legacy products that\n 3. Review Trends including closure of review action will be used in the project. It should include a discussion\n documentation (Request for Action, Review Item of which products are planned to be used, the rationale\n Discrepancies, and/or Action Items as established for their use, and the analysis or testing needed to assure\n by the project) for all software and hardware they will perform as intended in the stated use.\n projects [SE-64].\n\n\n\n\n\n\n\n 231",
+          "score": 12.0397811502203,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_path": "data/local/advanced/pages/p0207_2000.png",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Appendix C.3 says a requirement should be stated positively (as opposed to negatively).",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0207",
+                "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+                "evidence": "“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”"
+              }
+            ]
+          },
+          {
+            "text": "Appendix C.3 gives “shall not” as an example of negative phrasing.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0207",
+                "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+                "evidence": "“...as opposed to negatively, i.e., ‘shall not’.”"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    207
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Appendix C.3 says a requirement should be stated positively (as opposed to negatively).",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.3 General Goodness Checklist bullet",
+            "evidence": "“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”"
+          }
+        ]
+      },
+      {
+        "text": "Appendix C.3 gives “shall not” as an example of negative phrasing.",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0207",
+            "locator": "C.3 General Goodness Checklist bullet",
+            "evidence": "“...as opposed to negatively, i.e., ‘shall not’.”"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Appendix C.3 says a requirement should be stated positively (as opposed to negatively).",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+          "evidence": "“The requirement is stated positively (as opposed to negatively, i.e., ‘shall not’).”"
+        }
+      ]
+    },
+    {
+      "text": "Appendix C.3 gives “shall not” as an example of negative phrasing.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "locator": "Appendix C, C.3 General Goodness Checklist bullet",
+          "evidence": "“...as opposed to negatively, i.e., ‘shall not’.”"
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 14436.84
+}

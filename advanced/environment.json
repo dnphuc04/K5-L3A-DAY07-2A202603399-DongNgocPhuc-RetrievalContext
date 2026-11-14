@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "system": "Windows",
+  "dependencies": {
+    "pypdf": "6.21.4",
+    "python-dotenv": "1.2.4"
+  },
+  "poppler": "26.07.0",
+  "offline_tests": {
+    "basic": 50,
+    "advanced": 8,
+    "passed": 58
+  },
+  "reported_source_sha256": "8eeb4887a4dc57a23049da7dd2ed556833cf98e214b240468d987873164ff688"
+}

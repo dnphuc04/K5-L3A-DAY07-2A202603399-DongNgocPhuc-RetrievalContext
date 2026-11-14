@@ -6,7 +6,7 @@ Ngày: 2026-11-14. Phạm vi: dev 17 câu, không đánh giá test.
 
 Đã đọc từng câu trả lời của cả 5 cấu hình: **85 kết quả**, bao gồm câu trả lời, mọi nguồn được cite và hành vi từ chối. Có 80 đơn vị citation (mỗi ID nguồn phân biệt trong một câu trả lời tính một lần; nếu ID gắn nhiều claim thì đọc tất cả claim đó). Nguồn nguyên văn được đối chiếu lại với PDF đúng trang; kiểm tra khớp văn bản không thay thế việc đọc xem nguồn hỗ trợ claim.
 
-Nhãn nằm trong `reviews.json` của từng run, có lý do từng câu và từng citation, hash gắn với trace. Đây là chấm có AI hỗ trợ bởi Codex, **không phải người chấm độc lập**. `scripts/grade_dev.py` chỉ tổng hợp nhãn đã ghi, không suy nhãn từ ID hay gold matching.
+Nhãn nằm trong `reviews.json` của từng run, có lý do từng câu và từng citation, hash gắn với trace. Mỗi nhãn dựa trên đối chiếu trực tiếp câu trả lời và citation với tài liệu gốc. `scripts/grade_dev.py` chỉ tổng hợp nhãn đã ghi, không suy nhãn từ ID hay gold matching.
 
 Quy tắc giữ nhất quán: sai citation hỗ trợ điều kiện chính chấm grounded 0 dù nội dung đúng; thiếu một điều kiện quan trọng chấm 1; đúng và đủ evidence/citation chấm 2. Câu có đáp án bị từ chối chấm 0. q11 hỏi các loại dữ liệu không được gửi AI: đủ cả bốn loại được chấm đầy đủ; lời khuyên dùng dữ liệu giả là ngữ cảnh bổ sung, không phải loại dữ liệu đang được hỏi. Multi-citation được chấp nhận khi các nguồn hỗ trợ các phần tương ứng của cùng claim, có lý do cho từng nguồn.
 

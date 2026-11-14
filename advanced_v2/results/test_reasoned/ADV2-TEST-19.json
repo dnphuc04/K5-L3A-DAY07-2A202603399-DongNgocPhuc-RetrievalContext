@@ -1,0 +1,537 @@
+{
+  "id": "ADV2-TEST-19",
+  "split": "test",
+  "question": "Using Section 3.4 and Table 2.1-1, in which phase is the SEMP baselined, and list all AS9100 requirements mapped to Technical Planning.",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4q45yzNj1jnZ3vXYlRTVNDAjuHp",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 661,
+        "completion_tokens": 84,
+        "total_tokens": 745,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2352.6,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_EvU8zcRvjNqBpXlPfuzglkkI",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Section 3.4 SEMP baselined phase\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4q7l5NVAXpRF90PSm7diskdcMHB",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5847,
+        "completion_tokens": 144,
+        "total_tokens": 5991,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 109,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2985.37,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_bGVymZUWPWrvIf7xcnknall8",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 2.1-1 AS9100 mapped to Technical Planning\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qARibJ1m6SqBEotdujZrojkJPK",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10529,
+        "completion_tokens": 252,
+        "total_tokens": 10781,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 224,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4463.51,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_1Btd5ek9BNAKH9RTyUvMNGQG",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Phase A SEMP baselined\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qEwOGO1IrftVxFg6f9Lh12hj4a",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15244,
+        "completion_tokens": 296,
+        "total_tokens": 15540,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 261,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4899.66,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_uhoTTEFYeNXsorD6JKe7qzAw",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0035\",\"NASA-SE:p0017\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qK9QZsJ56Kx8Qi0FM1ehdlEBp1",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 23919,
+        "completion_tokens": 344,
+        "total_tokens": 24263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 120,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6544.41,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_PtsUXXUSy6i9x0DrEQpHZiow",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Section 3.4 states that the Systems Engineering Management Plan (SEMP) \\\"is baselined in Phase A.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0035\",\"locator\":\"Section 3.4 paragraph beginning \\\"solidified, and the project develops more definition\\\"\",\"evidence\":\"\\\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\\\"\"}]},{\"text\":\"Table 2.1-1 maps the SE process \\\"Technical Planning\\\" to the following AS9100 requirements: \\\"Planning of Product Realization\\\"; \\\"Review of Requirements\\\"; and \\\"Measurement, Analysis and Improvement.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0017\",\"locator\":\"Table 2.1-1, row \\\"Technical Planning\\\" (AS9100 Requirement column)\",\"evidence\":\"\\\"Technical Planning\\\" -> \\\"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4qRXfaxw36gjPHdWMhquJR9V5LY",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9165,
+        "completion_tokens": 356,
+        "total_tokens": 9521,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 147,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6912.18,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_05Bk7RSqTs5926eQvhePVib1",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The Systems Engineering Management Plan (SEMP) is baselined in Phase A.\",\"citations\":[{\"source_id\":\"NASA-SE:p0035\",\"locator\":\"Section 3.4 (Phase A discussion), sentence beginning \\\"A Systems Engineering Management Plan (SEMP) is baselined\\\"\",\"evidence\":\"\\\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\\\"\"}]},{\"text\":\"For the SE process \\\"Technical Planning,\\\" Table 2.1-1 maps the AS9100 requirements: Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement.\",\"citations\":[{\"source_id\":\"NASA-SE:p0017\",\"locator\":\"Table 2.1-1, row \\\"Technical Planning\\\"\",\"evidence\":\"\\\"Technical Planning\\\" -> \\\"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Using Section 3.4 and Table 2.1-1, in which phase is the SEMP baselined, and list all AS9100 requirements mapped to Technical Planning.",
+      "results": [
+        {
+          "id": "NASA-SE:p0003",
+          "page": 3,
+          "text": "Table of Contents\n\n\n\n\n Preface viii 3.10 Funding: The Budget Cycle . . . . . . . 33\n Acknowledgments ix 3.11 Tailoring and Customization of\n NPR 7123 .1 Requirements . . . . . . . 34\n1.0 Introduction 1 3.11.1 Introduction 34\n 1.1 Purpose . . . . . . . . . . . . . . . . 1 3.11.2 Criteria for Tailoring 34\n 1.2 Scope and Depth . . . . . . . . . . . 1 3.11.3 Tailoring SE NPR Requirements\n Using the Compliance Matrix 35\n 3.11.4 Ways to Tailor a SE Requirement 36\n2.0 Fundamentals of Systems Engineering 3 3.11.5 Examples of Tailoring and\n 2.1 The Common Technical Processes Customization 37\n and the SE Engine . . . . . . . . . . . 5 3.11.6 Approvals for Tailoring 40\n 2.2 An Overview of the SE Engine by\n Project Phase . . . . . . . . . . . . . 8 4.0 System Design Processes 43\n 2.3 Example of Using the SE Engine . . . . 10 4.1 Stakeholder Expectations Definition . .45\n 2.4 Distinctions between Product 4.1.1 Process Description 45\n Verification and Product Validation . . . 11 4.1.2 Stakeholder Expectations Definition\n 2.5 Cost Effectiveness Considerations . . . 11 Guidance 53\n 2.6 Human Systems Integration (HSI) 4.2 Technical Requirements Definition . . .54\n in the SE Process . . . . . . . . . . .12 4.2.1 Process Description 54\n 2.7 Competency Model for 4.2.2 Technical Requirements Definition\n Systems Engineers . . . . . . . . . . . 13 Guidance 62\n 4.3 Logical Decomposition . . . . . . . . .62\n3.0 NASA Program/Project Life Cycle 17 4.3.1 Process Description 62\n 3.1 Program Formulation . . . . . . . . . . 20 4.3.2 Logical Decomposition Guidance 65\n 3.2 Program Implementation . . . . . . . . 20 4.4 Design Solution Definition . . . . . . .65\n 3.3 Project Pre-Phase A: Concept Studies . 21 4.4.1 Process Description 66\n 3.4 Project Phase A: Concept and 4.4.2 Design Solution Definition Guidance 76\n Technology Development . . . . . . . . 23\n 3.5 Project Phase B: Preliminary Design 5.0 Product Realization 77\n and Technology Completion . . . . . . 25\n 3.6 Project Phase C: Final Design and 5.1 Product Implementation . . . . . . . .78\n Fabrication . . . . . . . . . . . . . . . 27 5.1.1 Process Description 79\n 3.7 Project Phase D: System Assembly, 5.1.2 Product Implementation Guidance 83\n Integration and Test, Launch . . . . . . 29 5.2 Product Integration . . . . . . . . . . .83\n 3.8 Project Phase E: Operations 5.2.1 Process Description 85\n and Sustainment . . . . . . . . . . . . 31 5.2.2 Product Integration Guidance 88\n 3.9 Project Phase F: Closeout . . . . . . .31 5.3 Product Verification . . . . . . . . . . .88\n\n\n\n\n iii",
+          "score": 12.984194582218816,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0237",
+          "page": 237,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\nresponsibilities and interdependencies and whether the A description of the boundary of the system can include\norganizations are geographically dispersed or managed the following:\nacross Centers. This section should also address how\nproducts created under a diverse set of contracts are to • Definition of internal and external elements/items\nbe integrated, including roles and responsibilities. This involved in realizing the system purpose as well as\nincludes identifying organizations—intra-and inter- the system boundaries in terms of space, time, physi-\nNASA, other Government agencies, contractors, or cal, and operational.\nother partners—and delineating their roles and respon-\nsibilities. Product integration includes the integration of • Identification of what initiates the transitions of\nanalytical products. the system to operational status and what initiates\n its disposal is important. General and functional\nWhen components or elements will be available for inte- descriptions of the subsystems inside the boundary.\ngration needs to be clearly understood and identified on\nthe schedule to establish critical schedule issues. • Current and established subsystem performance\n characteristics.\n3.4 Planning Context\nThis section contains the programmatic constraints (e.g., • Interfaces and interface characteristics.\nNPR 7120.5) that affect the planning and implemen-\ntation of the common technical processes to be applied • Functional interface descriptions and functional\nin performing the technical effort. The constraints pro- flow diagrams.\nvide a linkage of the technical effort with the applicable\nproduct life cycle phases covered by the SEMP including, • Key performance interface characteristics.\nas applicable, milestone decision gates, major technical\nreviews, key intermediate events leading to project com- • Current integration strategies and architecture.\npletion, life cycle phase, event entry and success criteria,\nand major baseline and other work products to be deliv- • Documented Human System Integration Plan (HSIP)\nered to the sponsor or customer of the technical effort.\n 3.6 Cross References\n3.5 Boundary of Technical Effort This section contains cross references to appropriate\nThis section contains a description of the boundary of nontechnical plans and critical reference material that\nthe general problem to be solved by the technical effort, interface with the technical effort. It contains a sum-\nincluding technical and project constraints that affect mary description of how the technical activities covered\nthe planning. Specifically, it identifies what can be con- in other plans are accomplished as fully integrated parts\ntrolled by the technical team (inside the boundary) and of the technical effort.\nwhat influences the technical effort and is influenced by\nthe technical effort but not controlled by the technical 4.0 Technical Effort Integration\nteam (outside the boundary). Specific attention should This section describes how the various inputs to the tech-\nbe given to physical, cognitive, functional, and elec- nical effort will be integrated into a coordinated effort\ntronic interfaces across the boundary. that meets cost, schedule, and performance objectives.\n\n\n\n\n\n\n 227",
+          "score": 11.991043272832846,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0025",
+          "page": 25,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\nCompetency Competency Description\nArea\nSE 2.0 SE 2.4 Confirming that a verified end product satisfies the stakeholder expectations for\nProduct Product its intended use when placed in its intended environment and ensuring that any\nRealization Validation anomalies discovered during validation are appropriately resolved prior to product\n transition. This includes preparing to conduct product validation, performing\n the product validation, analyzing the results of validation (including identifying\n anomalies and establishing recommended corrective actions), and preparing a\n product validation report providing the evidence of product conformance with the\n stakeholder expectations baseline.\n\n SE 2.5 Transitioning the verified and validated product to the customer at the next level\n Product in the system structure. This includes preparing to conduct product transition,\n Transition evaluating the product and enabling product readiness for product transition,\n preparing the product for transition (including handling, storing, and shipping\n preparation), preparing sites, and generating required documentation to accompany\n the product\nSE 3.0 SE 3.1 Planning for the application and management of each common technical process,\nTechnical Technical as well as identifying, defining, and planning the technical effort necessary to\nManagement Planning meet project objectives. This includes preparing or updating a planning strategy\n for each of the technical processes, and determining deliverable work products\n from technical efforts; identifying technical reporting requirements; identifying\n entry and success criteria for technical reviews; identifying product and process\n measures to be used; identifying critical technical events; defining cross domain\n interoperability and collaboration needs; defining the data management approach;\n identifying the technical risks to be addressed in the planning effort; identifying\n tools and engineering methods to be employed; and defining the approach to\n acquire and maintain technical expertise needed. This also includes preparing the\n Systems Engineering Management Plan (SEMP) and other technical plans; obtaining\n stakeholder commitments to the technical plans; and issuing authorized technical\n work directives to implement the technical work\n\n SE 3.2 Managing the product requirements, including providing bidirectional traceability,\n Requirements and managing changes to establish requirement baselines over the life cycle of the\n Management system products. This includes preparing or updating a strategy for requirements\n management; selecting an appropriate requirements management tool; training\n technical team members in established requirement management procedures;\n conducting expectation and requirements traceability audits; managing expectation\n and requirement changes; and communicating expectation and requirement change\n information\n\n SE 3.3 Establishing and using formal interface management to maintain internal and\n Interface external interface definition and compliance among the end products and enabling\n Management products. This includes preparing interface management procedures, identifying\n interfaces, generating and maintaining interface documentation, managing changes\n to interfaces, disseminating interface information, and conducting interface control\n SE 3.4 Examining on a continual basis the risks of technical deviations from the plans, and\n Technical Risk identifying potential technical problems before they occur. Planning, invoking, and\n Management performing risk-handling activities as needed across the life of the product or project\n to mitigate impacts on meeting technical objectives. This includes developing the\n strategy for technical risk management, identifying technical risks, and conducting\n technical risk assessment; preparing for technical risk mitigation, monitoring\n the status of each technical risk, and implementing technical risk mitigation and\n contingency action plans when applicable thresholds have been triggered.\n\n (continued)\n\n\n\n\n\n 15",
+          "score": 11.163095540328928,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0227",
+          "page": 227,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n3.0 System Description in the sections above. This may be an existing control\n3.1 System Requirements Flowdown center, training facility, or other support.\nThis section describes where the requirements for this\nsystem come from and how they are flowed down to\nsubsystems and lower-level elements. It should also 4.0 Verification and Validation\nindicate what method will be used to perform the flow- Process\ndown and bidirectional traceability of the requirements:\nspreadsheet, model, or other means. It can point to the This section describes the process that will be used to per-\nfile, document, or spreadsheet that captures the actual form verification and validation.\nrequirements flowdown.\n 4.1 Verification and Validation\n3.2 System Architecture Management Responsibilities\nThis section describes the system that is within the scope This section describes the responsibilities of key players\nof this V&V Plan. The description should be enough so in the V&V activities. It may include identification and\nthat the V&V activities will have the proper context and duty description for test directors/conductors, managers,\nbe understandable. facility owners, boards, and other key stakeholders.\n\n3.3 End Item Architectures 4.2 Verification Methods\nThis section describes each of the major end items (sub- This section defines and describes the methods that will\nsystems, elements, units, modules, etc.) that when inte- be used during the verification activities.\ngrated together, will form the overall system that is the\nscope of this V&V Plan. 4.2.1 Analysis\n Defines what this verification method means (See\n3.3.1 System End Item A Appendix B of this handbook) and how it will be\nThis section describes the first major end item/subsystem applied to this system.\nin more detail so that the V&V activities have context\nand are understandable. 4.2.2 Inspection\n Defines what this verification method means (See\n3.3.n System End Item n Appendix B of this handbook) and how it will be\nEach end item/subsystem is separately described in a sim- applied to this system.\nilar manner as above.\n 4.2.3 Demonstration\n3.4 Ground Support Equipment Defines what this verification method means (See\nThis section describes any major ground-support equip- Appendix B of this handbook) and how it will be applied\nment that will be used during the V&V activities. This to this system.\nmay include carts for supplying power or fuel, special test\nfixtures, lifting aids, simulators, or other type of support. 4.2.4 Test\n Defines what this verification method means (See\n3.5 Other Architecture Descriptions Appendix B of this handbook) and how it will be applied\nThis section describes any other items that are import- to this system. This category may need to be broken down\nant for the V&V activities but which are not included into further categories.\n\n\n\n 217",
+          "score": 9.460424964380856,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0272",
+          "page": 272,
+          "text": " References Cited\n\n\n\n\n\nSection 3.3 Project Pre-Phase A: Concept Section 3.6 Project Phase C: Final Design\nStudies and Fabrication\nNPR 7120.5, NASA Space Flight Program and NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements Project Management Requirements\n\nNPR 7123.1, NASA Systems Engineering Processes NPR 7123.1, NASA Systems Engineering Processes\n and Requirements and Requirements\n\nSection 3.4 Project Phase A: Concept and Section 3.7 Project Phase D: System\nTechnology Development Assembly, Integration and Test, Launch\nNPD 1001.0, 2014 NASA Strategic Plan NPR 7120.5, NASA Space Flight Program and\n Project Management Requirements\nNPR 2810.1, Security of Information Technology\n NPR 7123.1, NASA Systems Engineering Processes\nNPR 7120.5, NASA Space Flight Program and and Requirements\n Project Management Requirements\n NASA Office of the Chief Information Officer\nNPR 7123.1, NASA Systems Engineering Processes (OCIO), Information Technology Systems\n and Requirements Engineering Handbook Version 2.0\n\nNPR 7150.2, NASA Software Engineering Section 3.8 Project Phase E: Operations\n Requirements and Sustainment\n NPR 7120.5, NASA Space Flight Program and\nNASA-STD-8719.14, Handbook for Limiting Orbital Project Management Requirements\n Debris. Rev A with Change 1. December 8,\n 2011. NPR 7123.1, NASA Systems Engineering Processes\n and Requirements\nNational Institute of Standards and Technology\n (NIST), Federal Information Processing Section 3.9 Project Phase F: Closeout\n Standard Publication (FIPS PUB) 199, NPR 7120.5, NASA Space Flight Program and\n Standards for Security Categorization of Federal Project Management Requirements\n Information and Information Systems, February\n 2004. NPR 7123.1, NASA Systems Engineering Processes\n and Requirements\nSection 3.5 Project Phase B: Preliminary\nDesign and Technology Completion NPD 8010.3, Notification of Intent to\nNPR 7120.5, NASA Space Flight Program and Decommission or Terminate Operating Space\n Project Management Requirements Systems and Terminate Missions\n\nNPR 7123.1, NASA Systems Engineering Processes NPR 8715.6, NASA Procedural Requirements for\n and Requirements Limiting Orbital Debris\n\n\n\n 262",
+          "score": 8.998224872214207,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0033",
+          "page": 33,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nexpectations for the project are gathered from them. and desirability rather than optimality. Analyses and\nIf feasible concepts can be found, one or more may be designs are accordingly limited in both depth and\nselected to go into Phase A for further development. number of options, but each option should be eval-\nTypically, the system engineers are heavily involved uated for its implications through the full life cycle,\nin the development and assessment of the concept i.e., through Operations and Disposal. It is important\noptions. In projects governed by NPR 7120.5, the in Pre-Phase A to develop and mature a clear vision\ndescope options define what the system can accom- of what problems the proposed program will address,\nplish if the resources are not available to accomplish how it will address them, and how the solution will\nthe entire mission. This could be in the form of fewer be feasible and cost-effective.\ninstruments, a less ambitious mission profile, accom-\nplishing only a few goals, or using cheaper, less capa-\nble technology. Descope options can also reflect what 3.4 Project Phase A: Concept\nthe mission can accomplish in case a hardware fail- and Technology Development\nure results in the loss of a portion of the spacecraft\narchitecture; for example, what an orbiter can accom- The purpose of Phase A is to develop a proposed\nplish after the loss of a lander. The success criteria are mission/system architecture that is credible and\nreduced to correspond with a descoped mission. responsive to program expectations, requirements,\n and constraints on the project, including resources.\nDescope options are developed when the NGOs During Phase A, activities are performed to fully\nor other stakeholder expectation documentation is develop a baseline mission concept, begin or assume\ndeveloped. The project team develops a preliminary responsibility for the development of needed tech-\nset of mission descope options as a gate product for nologies, and clarify expected reliance on human\nthe MCR, but these preliminary descope options are elements to achieve full system functionality or\nnot baselined or maintained. They are kept in the autonomous system development. This work, along\ndocumentation archive in case they are needed later with interactions with stakeholders, helps mature the\nin the life cycle. mission concept and the program requirements on\n the project. Systems engineers are heavily involved\nIt is important in Pre-Phase A to define an accurate during this phase in the development and assessment\ngroup of stakeholders and users to help ensure that of the architecture and the allocation of requirements\nmission goals and operations concepts meet the needs to the architecture elements.\nand expectations of the end users. In addition, it is\nimportant to estimate the composition of the techni- In Phase A, a team—often associated with a program\ncal team and identify any unique facility or personnel or informal project office—readdresses the mission\nrequirements. concept first developed in Pre-Phase A to ensure that\n the project justification and practicality are sufficient\nAdvanced studies may extend for several years and to warrant a place in NASA’s budget. The team’s effort\nare typically focused on establishing mission goals focuses on analyzing mission requirements and estab-\nand formulating top-level system requirements and lishing a mission architecture. Activities become for-\nConOps. Conceptual designs may be developed to mal, and the emphasis shifts toward optimizing the\ndemonstrate feasibility and support programmatic concept design. The effort addresses more depth and\nestimates. The emphasis is on establishing feasibility considers many alternatives. Goals and objectives are\n\n\n\n 23",
+          "score": 8.148924614595352,
+          "reference_match": 3,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0262",
+          "page": 262,
+          "text": " Appendix S: Concept of OperationsAnnotated Outline\n\n\n\n3.0 Description of Envisioned 3.5 Proposed Capabilities\n System This section describes the various capabilities that the\nThis section provides a more detailed description of the envisioned system will provide. These capabilities cover\nenvisioned system and its operation as contained in the the entire life cycle of the system’s operation, including\nfollowing subsections. special capabilities needed for the verification/validation\n of the system, its capabilities during its intended oper-\n3.1 Needs, Goals and Objectives of ations, and any special capabilities needed during the\n Envisioned System decommissioning or disposal process.\nThis section describes the needs, goals, and objectives as\nexpectations for the system capabilities, behavior, and oper-\nations. It may also point to a separate document or model 4.0 Physical Environment\nthat contains the current up-to-date agreed-to expectations. This section should describe the environment that the\n system will be expected to perform in throughout its\n3.2 Overview of System and Key life cycle, including integration, tests, and transpor-\n Elements tation. This may include expected and off-nominal\nThis section describes at a functional level the vari- temperatures, pressures, radiation, winds, and other\nous elements that will make up the system, including atmospheric, space, or aquatic conditions. A description\nthe users and operators. These descriptions should be of whether the system needs to operate, tolerate with\nimplementation free; that is, not specific to any imple- degraded performance, or just survive in these condi-\nmentation or design but rather a general description of tions should be noted.\nwhat the system and its elements will be expected to do.\nGraphics, pictorials, videos, and models may be used to\naid this description. 5.0 Support Environment\n This section describes how the envisioned system will be\n3.3 Interfaces supported after being fielded. This includes how opera-\nThis section describes the interfaces of the system with tional planning will be performed and how command-\nany other systems that are external to the project. It may ing or other uploads will be determined and provided,\nalso include high-level interfaces between the major as required. Discussions may include how the envi-\nenvisioned elements of the system. Interfaces may include sioned system would be maintained, repaired, replaced,\nmechanical, electrical, human user/operator, fluid, it’s sparing philosophy, and how future upgrades may be\nradio frequency, data, or other types of interactions. performed. It may also include assumptions on the level\n of continued support from the design teams.\n3.4 Modes of Operations\nThis section describes the various modes or configura-\ntions that the system may need in order to accomplish 6.0 Operational Scenarios,\nits intended purpose throughout its life cycle. This may Use Cases and/or Design\ninclude modes needed in the development of the sys- Reference Missions\ntem, such as for testing or training, as well as various\nmodes that will be needed during it operational and This section takes key scenarios, use cases, or DRM and\ndisposal phases. discusses what the envisioned system provides or how\n it functions throughout that single-thread timeline.\n\n\n\n 252",
+          "score": 7.514309051231543,
+          "reference_match": 3,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Table 2.1-1 AS9100 mapped to Technical Planning",
+      "results": [
+        {
+          "id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "score": 12.449082488171234,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0016",
+          "page": 16,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n Requirements Flow Down Realized Products\n from Level above to Level above\n\n\n Technical Management\n Processes Product Realization\n System Design Technical Planning Processes\n Processes Processes\n\n Requirements Definition 10. Technical Planning Product Transition\n Processes Processes\n Technical Control 9. Product Transition\n 1. Stakeholders Expectations Cross - Processes Cross-\n Definition cutting 11. Requirement Management cutting Evaluation Processes\n 2. Technical Requirements 12. Interface Management\n Definition 13. Technical Risk Management 8. Product Validation\n 14. Configuration Management 7. Product Verification\n 15. Technical Data Management\n Technical Solution Design Realization\n Definition Processes Technical Assessment Processes\n 3. Logical Decomposition Processes 6. Product Integration\n 4. Design Solution Definition 16. Technical Assessment 5. Product Implementation\n\n Technical Decision\n Analysis Process\n 17. Decision Analysis\n\n\n Requirements Flow Down Realized Products\n To Level below From Level below\n System Design Processes Product Realization\n applied to each product Processes applied to each\n layer down through system product layer up through\n structure system structure\n\n\n FIGURE 2.1-1 The Systems Engineering Engine (NPR 7123 .1)\n\n\n• System Design Processes: The four system system structure are realized by implementation\n design processes shown in FIGURE 2.1-1 are used to or integration.\n define and baseline stakeholder expectations, gen-\n erate and baseline technical requirements, decom- • Product Realization Processes: The product real-\n pose the requirements into logical and behavioral ization processes are applied to each operational/\n models, and convert the technical requirements mission product in the system structure starting\n into a design solution that will satisfy the base- from the lowest level product and working up to\n lined stakeholder expectations. These processes higher level integrated products. These processes\n are applied to each product of the system struc- are used to create the design solution for each\n ture from the top of the structure to the bottom product (through buying, coding, building, or\n until the lowest products in any system structure reusing) and to verify, validate, and transition up\n branch are defined to the point where they can be to the next hierarchical level those products that\n built, bought, or reused. All other products in the satisfy their design solutions and meet stakeholder\n\n\n\n\n\n 6",
+          "score": 4.413218208512048,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 13.168749116549085,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0018",
+          "page": 18,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\nintegrate the smallest product into greater and larger 2.2 An Overview of the SE\nsystems until the whole of the system or product has Engine by Project Phase\nbeen assembled, verified, validated, and transitioned. FIGURE 2.2-1 conceptually illustrates how the SE\n engine is used during each phase of a project (Pre-\nFor a detailed example of how the SE Engine could Phase A through Phase F). The life cycle phases are\nbe used, refer to the NASA Expanded Guidance described in TABLE 2.2-1. FIGURE 2.2-1 is a conceptual\nfor SE document at https://nen.nasa.gov/web/se/ diagram. For full details, refer to the poster version\ndoc-repository. of this figure, which is located at https://nen.nasa.gov/\n web/se/doc-repository.\nAS9100 is a widely adopted and standardized qual-\nity management system developed for the commer- The uppermost horizontal portion of this chart is\ncial aerospace industry. Some NASA Centers have used as a reference to project system maturity, as the\nchosen to certify to the AS9100 quality system and project progresses from a feasible concept to an as-de-\nmay require their contractors to follow NPR 7123.1. ployed system; phase activities; Key Decision Points\nTABLE 2.1-1 shows how the 17 NASA SE processes (KDPs); and major project reviews. The next major\nalign with AS9100. horizontal band shows the technical development\n\n\n\n\n\n\n Formulation Approval Implementation\n Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Concept Studies Concept & Technology Preliminary Design & Final Design & System Assembly, Operations & Closeout\n Development Technology Completion Fabrication Integration & Test, Launch Sustainment\n\n Feasible Concept Top-Level Architecture Functional Baseline Alloc atedProduct-Deployed Baseline\n Baseline AsBaseline\n\n\n Key Decisi on Points:\n\n Major Reviews:\n\n\n 4.1 ? ? ? 4.1 ?\n ?\n 4.2 5.5 4.2 5.5\n ?\n 4.3 5.4 4.3 5.4\n\n 4.4 5.3 5.2 4.4 5.3 5.2\n\n ? 5.1 ? ? ? 5.1\n\n\n\n\n\n\n\n\n 6.1 6.1 6.1 6.1 6.1 6.1 6.1\n 6.2\n 6.3\n 6.4\n 6.5\n 6.6\n 6.7\n 6.8 6.8 6.8 6.8 6.8 6.8 6.8\n\n\n\n FIGURE 2.2-1 Miniature Version of the Poster-Size NASA Project Life Cycle\n Process Flow for Flight and Ground Systems Accompanying this Handbook\n\n\n\n\n 8",
+          "score": 11.473939794809604,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 5.901841797946219,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0123",
+          "page": 123,
+          "text": "6.0 Crosscutting Technical\n Management\n\n\n\n\n\n\n\n his chapter describes the activities in the techni- the project’s objectives. Without these crosscutting\nTcal management processes listed in the systems processes, individual members and tasks cannot be\nengineering engine (FIGURE 2.1-1). The processes integrated into a functioning system that meets the\ndescribed in Chapters 4 and 5 are performed through ConOps within cost and schedule. These technical\nthe design and realization phases of a product. These processes also support the project management team\nprocesses can occur throughout the product life cycle, in executing project control.\nfrom concept through disposal. They may occur\nsimultaneously with any of the other processes. The The next sections describe each of the eight technical\nchapter is separated into sections corresponding to management processes and their associated products\nthe technical management processes 10 through 17 for a given NASA mission.\nlisted in FIGURE 2.1-1. Each technical management\nprocess is discussed in terms of the inputs, the activi-\nties, and the outputs. Additional guidance is provided 6.1 Technical Planning\nusing examples that are relevant to NASA projects. The Technical Planning Process, the first of the eight\n technical management processes contained in the sys-\nThe technical management processes are the bridges tems engineering engine, establishes a plan for apply-\nbetween project management and the technical team. ing and managing each of the common technical\nIn this portion of the engine, eight processes provide processes that will be used to drive the development\nthe crosscutting functions that allow the design solu- of system products and associated work products.\ntion to be developed, realized, and to operate. Even This process also establishes a plan for identifying\nthough every technical team member might not be and defining the technical effort required to satisfy\ndirectly involved with these eight processes, they the project objectives and life cycle phase success cri-\nare indirectly affected by these key functions. Every teria within the cost, schedule, and risk constraints\nmember of the technical team relies on technical of the project.\nplanning; management of requirements, interfaces,\ntechnical risk, configuration, and technical data; This effort starts with the technical team conduct-\ntechnical assessment; and decision analysis to meet ing extensive planning early in Pre-Phase A. With\n\n\n\n 113",
+          "score": 4.7048756092320465,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0015",
+          "page": 15,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n PROJECT MANAGEMENT\n\nPROJECT MANAGEMENT ACTIVITIES\n\n• Setting up Project Team • Identifying Programmatic Risks\n• Programmatic Stakeholders (non-technical, non-business) • Technology Transfer and Commercialization\n• Programmatic Planning (non-technical, non-business) • Integration of technical and non-technical activities\n• Identifying Programmatic (non-technical) requirements • Overall Approver/Decider\n\n\n\n\n\n Systems Engineering\n\n System Design Processes\n • Stakeholder Expectations DefinitionCommon\n • Technical Requirement’s Definition Areas PP&C\n • Logical Decomposition\n • Design Solution Definition • Stakeholders • PP&C Integration\n Product Realization Processes • Risks • Resource Management\n • Product Implementation • Configuration • Scheduling\n • Product Integration Management • Cost Estimation & Assessment\n • Product Verification • Data\n • Product Validation Management • Acquisition & Contract\n • Product Transition • Reviews Management\n Technical Management Processes • Schedule • Risk Management\n • Technical Planning • CM/DM\n • Requirements Management\n • Interface Management\n • Technical Risk Management\n • Configuration Management\n • Technical Data Management\n • Technical Assessment\n • Decision Analyses\n\n\n\n FIGURE 2.0-1 SE in Context of Overall Project Management\n\n\n\n\ndocument, but an overview is given in the following by the NPR systems engineering “engine” shown in\nsubsections of this chapter. FIGURE 2.1-1. The processes of the SE engine are used\n to develop and realize the end products. This chap-\n ter provides the application context of the 17 com-\n2.1 The Common Technical mon technical processes required in NPR7123.1.\n Processes and the SE Engine The system design processes, the product realization\n processes, and the technical management processes\nThere are three sets of common technical processes in are discussed in more detail in Chapters 4.0, 5.0, and\nNPR 7123.1, NASA Systems Engineering Processes 6.0, respectively. Processes 1 through 9 indicated in\nand Requirements: system design, product realiza- FIGURE 2.1-1 represent the tasks in the execution of a\ntion, and technical management. The processes in project. Processes 10 through17 are crosscutting tools\neach set and their interactions and flows are illustrated for carrying out the processes.\n\n\n\n 5",
+          "score": 4.494020155250102,
+          "reference_match": 1,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Phase A SEMP baselined",
+      "results": [
+        {
+          "id": "NASA-SE:p0133",
+          "page": 133,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\nstand-alone, it should be referenced in the SEMP. it will become outmoded and unused and the proj-\nDepending on the size and complexity of the project, ect could slide into an uncontrolled state. The lead\nthese may be separate plans or they may be included NASA field Center should have its SEMP developed\nwithin the SEMP. Once identified, the plans can be before attempting to prepare an initial cost estimate\ndeveloped, training on these plans established, and since activities that incur cost, such as technical risk\nthe plans implemented. Examples of technical plans reduction and human element accounting, need to be\nin addition to the SEMP are listed in Appendix K. identified and described beforehand. The contractor\n should have its SEMP developed during the proposal\nThe SEMP should be developed during pre- process (prior to costing and pricing) because the\nformulation. In developing the SEMP, the technical SEMP describes the technical content of the project,\napproach to the project’s life cycle is developed. This the potentially costly risk management activities, and\ndetermines the project’s length and cost. The devel- the verification and validation techniques to be used,\nopment of the programmatic and technical man- all of which should be included in the preparation of\nagement approaches requires that the key project project cost estimates. The SEMPs from the support-\npersonnel develop an understanding of the work to ing Centers should be developed along with the pri-\nbe performed and the relationships among the vari- mary project SEMP. The project SEMP is the senior\nous parts of that work. Refer to Sections 6.1.2.1 and technical management document for the project;\n6.1.1.2 on WBSs and network scheduling, respec- all other technical plans should comply with it. The\ntively. The SEMP then flows into the project plan to SEMP should be comprehensive and describe how a\nensure the proper allocation of resources including fully integrated engineering effort will be managed\ncost, schedule, and personnel. and conducted.\n\nThe SEMP’s development requires contributions Verification Plan\nfrom knowledgeable programmatic and technical The verification plan is developed as part of the\nexperts from all areas of the project that can signifi- Technical Planning Process and is baselined at PDR.\ncantly influence the project’s outcome. The involve- As the design matures throughout the life cycle, the\nment of recognized experts is needed to establish a plan is updated and refined as needed. The task of\nSEMP that is credible to the project manager and to preparing the verification plan includes establishing\nsecure the full commitment of the project team. the method of verification to be performed, depen-\n dent on the life cycle phase; the position of the prod-\nRole of the SEMP uct in the system structure; the form of the product\nThe SEMP is the rule book that describes to all par- used; and the related costs of verification of individ-\nticipants how the project will be technically man- ual specified requirements. The verification methods\naged. The NASA technical team on the project include analyses, inspection, demonstration, and test.\nshould have a SEMP to describe how it will con- In some cases, the complete verification of a given\nduct its technical management, and each contractor requirement might require more than one method.\nshould have a SEMP to describe how it will man- For example, to verify the performance of a product\nage in accordance with both its contract and NASA’s may require looking at many use cases. This might be\ntechnical management practices. Since the SEMP accomplished by running a Monte Carlo simulation\nis unique to a project and contract, it should be (analysis) and also running actual tests on a few of\nupdated for each significant programmatic change or the key cases. The verification plan, typically written\n\n\n\n 123",
+          "score": 6.850669785571732,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0126",
+          "page": 126,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n programmatic milestones provide the general (see Section 6.1.2.1 in the NASA Expanded Guidance\n framework for establishing the technical plan- for Systems Engineering at https://nen.nasa.gov/web/\n ning effort and for generating the detailed tech- se/doc-repository.) within the system structure to\n nical activities and products required to meet the meet product life cycle phase success criteria. A key\n overall milestones in each of the life cycle phases. document capturing and updating the details from\n the technical planning process is the SEMP.\n• Applicable Policies, Procedures, Standards,\n and Organizational Processes: The program/ The SEMP is a subordinate document to the proj-\n project plan includes all programmatic policies, ect plan. The project plan defines how the project\n procedures, standards, and organizational pro- will be managed to achieve its goals and objectives\n cesses that should be adhered to during execution within defined programmatic constraints. The SEMP\n of the technical effort. The technical team should defines for all project participants how the project\n develop a technical approach that ensures the pro- will be technically managed within the constraints\n gram/project requirements are satisfied and that established by the project. The SEMP also commu-\n any technical procedures, processes, and stan- nicates how the systems engineering management\n dards to be used in developing the intermediate techniques will be applied throughout all phases of\n and final products comply with the policies and the project life cycle.\n processes mandated in the program/project plan.\n Technical planning should be tightly integrated\n• Prior Phase or Baseline Plans: The latest tech- with the Technical Risk Management Process (see\n nical plans (either baselined or from the previous Section 6.4) and the Technical Assessment Process\n life cycle phase) from the Data Management or (see Section 6.7) to ensure corrective action for future\n Configuration Management Processes should be activities will be incorporated based on current issues\n used in updating the technical planning for the identified within the project.\n upcoming life cycle phase.\n Technical planning, as opposed to program or proj-\n• Replanning Needs: Technical planning updates ect planning, addresses the scope of the technical\n may be required based on results from technical effort required to develop the system products. While\n reviews conducted in the Technical Assessment the project manager concentrates on managing the\n Process, issues identified during the Technical overall project life cycle, the technical team, led by\n Risk Management Process, or from decisions the systems engineer, concentrates on managing the\n made during the Decision Analysis Process. technical aspects of the project. The technical team\n identifies, defines, and develops plans for performing\n6.1.1.2 Process Activities decomposition, definition, integration, verification,\nTechnical planning as it relates to systems engineering and validation of the system while orchestrating and\nat NASA is intended to define how the project will be incorporating the appropriate concurrent and cross-\norganized, structured, and conducted and to identify, cutting engineering. Additional planning includes\ndefine, and plan how the 17 common technical pro- defining and planning for the appropriate technical\ncesses in NPR 7123.1, NASA Systems Engineering reviews, audits, assessments, and status reports and\nProcesses and Requirements will be applied in each determining crosscutting engineering discipline and/\nlife cycle phase for all levels of the product hierarchy or design verification requirements.\n\n\n\n 116",
+          "score": 6.782483734866109,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0029",
+          "page": 29,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n TABLE 3.0-1 SE Product Maturity from NPR 7123 .1\n Formulation Implementation\n Uncoupled/\n Loosely Coupled KDP 0 KDP I Periodic KDPs\n Tightly Coupled\n Programs KDP 0 KDP I KDP II KDP III Periodic KDPs\n Pre-\n Projects and Phase A Phase A Phase B Phase C Phase D Phase E Phase F\n Single Project KDP A KDP B KDP C KDP D KDP E KDP F\n Programs\n MCR SRR MDR/SDR PDR CDR SIR ORR FRR DR DRR\n\n Stakeholder identification and **Baseline Update Update Update\n\n Concept definition **Baseline Update Update Update Update\n\n Measure of effectiveness **Approve\n definition\n\n Cost and schedule for technical Initial Update Update Update Update Update Update Update Update\n\n SEMP1 Preliminary **Baseline **Baseline Update Update Update\n\n Requirements Preliminary **Baseline Update Update Update\n\n Technical Performance **Approve\n Measures definition\n\n Architecture definition **Baseline\n\n Allocation of requirements to **Baseline\n next lower level\n\n Required leading indicator **Initial Update Update Update\n trends\n\n Design solution definition Preliminary **Preliminary **Baseline Update Update\n\n Interface definition(s) Preliminary Baseline Update Update\n\n Implementation plans (Make/ Preliminary Baseline Update\n code, buy, reuse)\n\n Integration plans Preliminary Baseline Update **Update\n\n Verification and validation Approach Preliminary Baseline Update Update\n plans\n\n Verification and validation **Initial **Preliminary **Baseline\n results\n\n Transportation criteria and Initial Final Update\n instructions\n\n Operations plans Baseline Update Update **Update\n\n Operational procedures Preliminary Baseline **Update Update\n\n Certification (flight/use) Preliminary **Final\n\n Decommissioning plans Preliminary Preliminary Preliminary **Baseline Update **Update\n\n Disposal plans Preliminary Preliminary Preliminary **Baseline Update Update **Update\n** Item is a required product for that review\n1 SEMP is baselined at SRR for projects, tightly coupled programs and single-project programs, and at MDR/SDR for uncoupled,\n and loosely coupled programs .\n\n\n\n\n\n\n\n\n\n\n\n\n 19",
+          "score": 6.667724771136013,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0234",
+          "page": 234,
+          "text": " Appendix J: SEMP Content Outline\n\n\n\n\n\n• The SEMP is a living document. The initial SEMP • For a technical effort that is contracted, the SEMP\n is used to establish the technical content of the should include details on developing requirements\n engineering work early in the Formulation Phase for source selection, monitoring performance, and\n for each project and updated as needed through- transferring and integrating externally produced\n out the project life cycle. Table J-1 provides some products to NASA.\n high level guidance on the scope of SEMP con-\n tent based on the life cycle phase. J.2 Terms Used\n\n• Project requirements that have been tailored or Terms used in the SEMP should have the same mean-\n significant customization of SE processes should ing as the terms used in the NPR 7123.1, Systems\n be described in the SEMP. Engineering Processes and Requirements.\n\n• For multi-level projects, the SEMP should be consis-\n tent with higher-level SEMPs and the project plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 224",
+          "score": 6.235589423623455,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0132",
+          "page": 132,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nBudgeting type of project, the phase in the project life cycle, and\nBudgeting and resource planning involve establish- the technical development risks and is written specif-\ning a reasonable project baseline budget and the capa- ically for each project or project element. While the\nbility to analyze changes to that baseline resulting specific content of the SEMP is tailored to the project,\nfrom technical and/or schedule changes. The proj- the recommended content is discussed in Appendix J.\nect’s WBS, baseline schedule, and budget should be It is important to remember that the main value of\nviewed as mutually dependent, reflecting the techni- the SEMP is in the work that goes into the planning.\ncal content, time, and cost of meeting the project’s\ngoals and objectives. The budgeting process needs to The technical team, working under the overall project\ntake into account whether a fixed cost cap or fixed plan, develops and updates the SEMP as necessary.\ncost profile exists. When no such cap or profile exists, The technical team works with the project manager\na baseline budget is developed from the WBS and to review the content and obtain concurrence. This\nnetwork schedule. This specifically involves combin- allows for thorough discussion and coordination of\ning the project’s workforce and other resource needs how the proposed technical activities would impact\nwith the appropriate workforce rates and other finan- the programmatic, cost, and schedule aspects of the\ncial and programmatic factors to obtain cost element project. The SEMP provides the specifics of the tech-\nestimates. These elements of cost include nical effort and describes the technical processes that\n will be used, how the processes will be applied using\n• direct labor costs, appropriate activities, how the project will be orga-\n• overhead costs, nized to accomplish the activities, and the cost and\n• other direct costs (travel, data processing, etc.), schedule associated with accomplishing the activities.\n• subcontract costs,\n• material costs, The physical length of a SEMP is not what is import-\n• equipment costs, ant. This will vary from project to project. The plan\n• general and administrative costs, needs to be adequate to address the specific techni-\n• cost of money (i.e., interest payments, if cal needs of the project. It is a living document that\n applicable), is updated as often as necessary to incorporate new\n• fee (if applicable), and information as it becomes available and as the proj-\n• contingency (Unallocated Future Expenses (UFE)). ect develops through the Implementation Phase. The\n SEMP should not duplicate other project documents;\nFor additional information on cost estimating, refer however, the SEMP should reference and summarize\nto the NASA Cost Estimating Handbook and NPR the content of other technical plans.\n7120.5, NASA Space Flight Program and Project\nManagement Requirements. The systems engineer and project manager should\n identify additional required technical plans based on\n6.1.1.2.4 Prepare the SEMP and Other Technical Plans the project scope and type. If plans are not included\nSystems Engineering Management Plan in the SEMP, they should be referenced and coordi-\nThe SEMP is the primary, top-level technical man- nated in the development of the SEMP. Other plans,\nagement document for the project and is developed such as system safety, probabilistic risk assessment,\nearly in the Formulation Phase and updated through- and an HSI Plan also need to be planned for and\nout the project life cycle. The SEMP is driven by the coordinated with the SEMP. If a technical plan is a\n\n\n\n 122",
+          "score": 5.816685575008059,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0035",
+          "page": 35,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n > Establish technical resource estimates\n • Identify, analyze and update risks\n • Perform required Phase A technical activities from NPR 7120.5 as applicable\n • Satisfy Phase A reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • SRR\n • MDR/SDR\n\n\n\nsolidified, and the project develops more definition Publication (FIPS PUB) 199. The effort also pro-\nin the system requirements, top-level system architec- duces various engineering and management plans to\nture, and ConOps. Conceptual designs and analyses prepare for managing the project’s downstream pro-\n(including engineering units and physical models, as cesses such as verification and operations.\nappropriate) are developed and exhibit more engi-\nneering detail than in Pre-Phase A. Technical risks\nare identified in more detail, and technology develop- 3.5 Project Phase B:\nment needs become focused. A Systems Engineering Preliminary Design and\nManagement Plan (SEMP) is baselined in Phase A to Technology Completion\ndocument how NASA systems engineering require-\nments and practices of NPR 7123.1 will be addressed The purpose of Phase B is for the project team to\nthroughout the program life cycle. complete the technology development, engineering\n prototyping, heritage hardware and software assess-\nIn Phase A, the effort focuses on allocating func- ments, and other risk-mitigation activities identified\ntions to particular items of hardware, software, and in the project Formulation Agreement (FA) and the\nto humans. System functional and performance preliminary design. The project demonstrates that\nrequirements, along with architectures and designs, its planning, technical, cost, and schedule baselines\nbecome firm as system tradeoffs and subsystem developed during Formulation are complete and con-\ntradeoffs iterate back and forth, while collaborating sistent; that the preliminary design complies with its\nwith subject matter experts in the effort to seek out requirements; that the project is sufficiently mature\nmore cost-effective designs. A method of determin- to begin Phase C; and that the cost and schedule are\ning life cycle cost (i.e., system-level cost-effectiveness adequate to enable mission success with acceptable\nmodel) is refined in order to compare cost impacts risk. It is at the conclusion of this phase that the\nfor each of the different alternatives. (Trade studies project and the Agency commit to accomplishing\nshould precede—rather than follow—system design the project’s objectives for a given cost and schedule.\ndecisions.) Major products to this point include an For projects with a Life Cycle Cost (LCC) greater\naccepted functional baseline for the system and its than $250 million, this commitment is made with\nmajor end items. The project team conducts the secu- the Congress and the U.S. Office of Management\nrity categorization of IT systems required by NPR and Budget (OMB). This external commitment is\n2810.1 and Federal Information Processing Standard the Agency Baseline Commitment (ABC). Systems\n\n\n\n 25",
+          "score": 5.767979641710551,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0124",
+          "page": 124,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n CROSSCUTTING TECHNICAL MANAGEMENT KEYS\n\n\n • Thoroughly understand and plan the scope of the technical effort by investing time upfront to develop the\n technical product breakdown structure, the technical schedule and workflow diagrams, and the technical\n resource requirements and constraints (funding, budget, facilities, and long-lead items) that will be the\n technical planning infrastructure. The systems engineer also needs to be familiar with the non-technical\n aspects of the project.\n • Define all interfaces and assign interface authorities and responsibilities to each, both intra-and inter-\n organizational. This includes understanding potential incompatibilities and defining the transition\n processes.\n • Control of the configuration is critical to understanding how changes will impact the system. For example,\n changes in design and environment could invalidate previous analysis results.\n • Conduct milestone reviews to enable a critical and valuable assessment to be performed. These reviews\n are not to be solely used to meet contractual or scheduling incentives. These reviews have specific\n entrance criteria and should be conducted when these are met.\n • Understand any biases, assumptions, and constraints that impact the analysis results.\n • Place all analysis under configuration control to be able to track the impact of changes and understand\n when the analysis needs to be reevaluated.\n\n\n\nthis early planning, technical team members will schedule. At a minimum, these updates will occur at\nunderstand the roles and responsibilities of each every Key Decision Point (KDP). However, if there\nteam member, and can establish cost and schedule is a significant change in the project, such as new\ngoals and objectives. From this effort, the Systems stakeholder expectations, resource adjustments, or\nEngineering Management Plan (SEMP) and other other constraints, all plans should be analyzed for the\ntechnical plans are developed and baselined. Once impact of these changes on the baselined project.\nthe SEMP and technical plans have been established,\nthey should be synchronized with the project master 6.1.1 Process Description\nplans and schedule. In addition, the plans for estab- FIGURE 6.1-1 provides a typical flow diagram for the\nlishing and executing all technical contracting efforts Technical Planning Process and identifies typical\nare identified. inputs, outputs, and activities to consider in address-\n ing technical planning.\nThis is a recursive and iterative process. Early in the\nlife cycle, the technical plans are established and syn- 6.1.1.1 Inputs\nchronized to run the design and realization processes. Input to the Technical Planning Process comes from\nAs the system matures and progresses through the both the project management and technical teams as\nlife cycle, these plans should be updated as neces- outputs from the other common technical processes.\nsary to reflect the current environment and resources Initial planning utilizing external inputs from the\nand to control the project’s performance, cost, and project to determine the general scope and framework\n\n\n\n 114",
+          "score": 5.4860839091558455,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0035",
+          "page": 35,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n > Establish technical resource estimates\n • Identify, analyze and update risks\n • Perform required Phase A technical activities from NPR 7120.5 as applicable\n • Satisfy Phase A reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • SRR\n • MDR/SDR\n\n\n\nsolidified, and the project develops more definition Publication (FIPS PUB) 199. The effort also pro-\nin the system requirements, top-level system architec- duces various engineering and management plans to\nture, and ConOps. Conceptual designs and analyses prepare for managing the project’s downstream pro-\n(including engineering units and physical models, as cesses such as verification and operations.\nappropriate) are developed and exhibit more engi-\nneering detail than in Pre-Phase A. Technical risks\nare identified in more detail, and technology develop- 3.5 Project Phase B:\nment needs become focused. A Systems Engineering Preliminary Design and\nManagement Plan (SEMP) is baselined in Phase A to Technology Completion\ndocument how NASA systems engineering require-\nments and practices of NPR 7123.1 will be addressed The purpose of Phase B is for the project team to\nthroughout the program life cycle. complete the technology development, engineering\n prototyping, heritage hardware and software assess-\nIn Phase A, the effort focuses on allocating func- ments, and other risk-mitigation activities identified\ntions to particular items of hardware, software, and in the project Formulation Agreement (FA) and the\nto humans. System functional and performance preliminary design. The project demonstrates that\nrequirements, along with architectures and designs, its planning, technical, cost, and schedule baselines\nbecome firm as system tradeoffs and subsystem developed during Formulation are complete and con-\ntradeoffs iterate back and forth, while collaborating sistent; that the preliminary design complies with its\nwith subject matter experts in the effort to seek out requirements; that the project is sufficiently mature\nmore cost-effective designs. A method of determin- to begin Phase C; and that the cost and schedule are\ning life cycle cost (i.e., system-level cost-effectiveness adequate to enable mission success with acceptable\nmodel) is refined in order to compare cost impacts risk. It is at the conclusion of this phase that the\nfor each of the different alternatives. (Trade studies project and the Agency commit to accomplishing\nshould precede—rather than follow—system design the project’s objectives for a given cost and schedule.\ndecisions.) Major products to this point include an For projects with a Life Cycle Cost (LCC) greater\naccepted functional baseline for the system and its than $250 million, this commitment is made with\nmajor end items. The project team conducts the secu- the Congress and the U.S. Office of Management\nrity categorization of IT systems required by NPR and Budget (OMB). This external commitment is\n2810.1 and Federal Information Processing Standard the Agency Baseline Commitment (ABC). Systems\n\n\n\n 25",
+          "image_path": "data/local/advanced/pages/p0035_2000.png",
+          "image_sha256": "baff689cee855e25f864521cee3bb8d1a6116a972aede0641030d6d6b00a9e95"
+        },
+        {
+          "source_id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "image_path": "data/local/advanced/pages/p0017_2000.png",
+          "image_sha256": "66432b4ec3dc509cdd814e791a185085f4c4343d862fdfe6c0319a5b2ea072f4"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0017",
+          "page": 17,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n expectations as a function of the applicable life product or set of products to correct a discovered\n cycle phase. discrepancy or other variation from requirements,”\n whereas “recursive” is defined as adding value to the\n• Technical Management Processes: The techni- system “by the repeated application of processes to\n cal management processes are used to establish design next lower layer system products or to real-\n and evolve technical plans for the project, to man- ize next upper layer end products within the system\n age communication across interfaces, to assess structure. This also applies to repeating application of\n progress against the plans and requirements for the same processes to the system structure in the next\n the system products or services, to control tech- life cycle phase to mature the system definition and\n nical execution of the project through to comple- satisfy phase success criteria.” The technical processes\n tion, and to aid in the decision-making process. are applied recursively and iteratively to break down\n the initializing concepts of the system to a level of\nThe processes within the SE engine are used both detail concrete enough that the technical team can\niteratively and recursively. As defined in NPR 7123.1, implement a product from the information. Then\n“iterative” is the “application of a process to the same the processes are applied recursively and iteratively to\n\n\n TABLE 2.1-1 Alignment of the 17 SE Processes to AS9100\n SE Process AS9100 Requirement\n\n Stakeholder Expectations Customer Requirements\n\n Technical Requirements Planning of Product Realization\n Definition\n\n Logical Decomposition Design and Development Input\n\n Design Solution Definition Design and Development Output\n\n Product Implementation Control of Production\n\n Product Integration Control of Production\n\n Product Verification Verification\n\n Product Validation Validation\n\n Product Transition Control of Work Transfers; Post Delivery Support, Preservation of Product\n\n Technical Planning Planning of Product Realization; Review of Requirements; Measurement, Analysis and\n Improvement\n\n Requirements Management Design and Development Planning; Purchasing\n\n Interface Management Configuration Management\n\n Technical Risk Management Risk Management\n\n Configuration Management Configuration Management; Identification and Traceability; Control of Nonconforming\n Product\n\n Technical Data Management Control of Documents; Control of Records; Control of Design and Development\n Changes\n\n Technical Assessment Design and Development Review\n\n Decision Analysis Measurement, Analysis and Improvement; Analysis of Data\n\n\n\n 7",
+          "image_sha256": "66432b4ec3dc509cdd814e791a185085f4c4343d862fdfe6c0319a5b2ea072f4"
+        },
+        {
+          "source_id": "NASA-SE:p0035",
+          "page": 35,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n > Establish technical resource estimates\n • Identify, analyze and update risks\n • Perform required Phase A technical activities from NPR 7120.5 as applicable\n • Satisfy Phase A reviews’ entrance/success criteria from NPR 7123.1\n\n\n Reviews\n • SRR\n • MDR/SDR\n\n\n\nsolidified, and the project develops more definition Publication (FIPS PUB) 199. The effort also pro-\nin the system requirements, top-level system architec- duces various engineering and management plans to\nture, and ConOps. Conceptual designs and analyses prepare for managing the project’s downstream pro-\n(including engineering units and physical models, as cesses such as verification and operations.\nappropriate) are developed and exhibit more engi-\nneering detail than in Pre-Phase A. Technical risks\nare identified in more detail, and technology develop- 3.5 Project Phase B:\nment needs become focused. A Systems Engineering Preliminary Design and\nManagement Plan (SEMP) is baselined in Phase A to Technology Completion\ndocument how NASA systems engineering require-\nments and practices of NPR 7123.1 will be addressed The purpose of Phase B is for the project team to\nthroughout the program life cycle. complete the technology development, engineering\n prototyping, heritage hardware and software assess-\nIn Phase A, the effort focuses on allocating func- ments, and other risk-mitigation activities identified\ntions to particular items of hardware, software, and in the project Formulation Agreement (FA) and the\nto humans. System functional and performance preliminary design. The project demonstrates that\nrequirements, along with architectures and designs, its planning, technical, cost, and schedule baselines\nbecome firm as system tradeoffs and subsystem developed during Formulation are complete and con-\ntradeoffs iterate back and forth, while collaborating sistent; that the preliminary design complies with its\nwith subject matter experts in the effort to seek out requirements; that the project is sufficiently mature\nmore cost-effective designs. A method of determin- to begin Phase C; and that the cost and schedule are\ning life cycle cost (i.e., system-level cost-effectiveness adequate to enable mission success with acceptable\nmodel) is refined in order to compare cost impacts risk. It is at the conclusion of this phase that the\nfor each of the different alternatives. (Trade studies project and the Agency commit to accomplishing\nshould precede—rather than follow—system design the project’s objectives for a given cost and schedule.\ndecisions.) Major products to this point include an For projects with a Life Cycle Cost (LCC) greater\naccepted functional baseline for the system and its than $250 million, this commitment is made with\nmajor end items. The project team conducts the secu- the Congress and the U.S. Office of Management\nrity categorization of IT systems required by NPR and Budget (OMB). This external commitment is\n2810.1 and Federal Information Processing Standard the Agency Baseline Commitment (ABC). Systems\n\n\n\n 25",
+          "image_sha256": "baff689cee855e25f864521cee3bb8d1a6116a972aede0641030d6d6b00a9e95"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "The Systems Engineering Management Plan (SEMP) is baselined in Phase A.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0035",
+                "locator": "Section 3.4 (Phase A discussion), sentence beginning \"A Systems Engineering Management Plan (SEMP) is baselined\"",
+                "evidence": "\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\""
+              }
+            ]
+          },
+          {
+            "text": "For the SE process \"Technical Planning,\" Table 2.1-1 maps the AS9100 requirements: Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement.",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0017",
+                "locator": "Table 2.1-1, row \"Technical Planning\"",
+                "evidence": "\"Technical Planning\" -> \"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    17,
+    35
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Section 3.4 states that the Systems Engineering Management Plan (SEMP) \"is baselined in Phase A.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0035",
+            "locator": "Section 3.4 paragraph beginning \"solidified, and the project develops more definition\"",
+            "evidence": "\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\""
+          }
+        ]
+      },
+      {
+        "text": "Table 2.1-1 maps the SE process \"Technical Planning\" to the following AS9100 requirements: \"Planning of Product Realization\"; \"Review of Requirements\"; and \"Measurement, Analysis and Improvement.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0017",
+            "locator": "Table 2.1-1, row \"Technical Planning\" (AS9100 Requirement column)",
+            "evidence": "\"Technical Planning\" -> \"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\""
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "The Systems Engineering Management Plan (SEMP) is baselined in Phase A.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0035",
+          "locator": "Section 3.4 (Phase A discussion), sentence beginning \"A Systems Engineering Management Plan (SEMP) is baselined\"",
+          "evidence": "\"A Systems Engineering Management Plan (SEMP) is baselined in Phase A\""
+        }
+      ]
+    },
+    {
+      "text": "For the SE process \"Technical Planning,\" Table 2.1-1 maps the AS9100 requirements: Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement.",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0017",
+          "locator": "Table 2.1-1, row \"Technical Planning\"",
+          "evidence": "\"Technical Planning\" -> \"Planning of Product Realization; Review of Requirements; Measurement, Analysis and Improvement\""
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 28362.82
+}

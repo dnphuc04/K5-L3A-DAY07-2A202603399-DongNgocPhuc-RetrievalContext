@@ -5,26 +5,26 @@
   "sha256": {
     "results\\agent_dev_v1\\traces.json": "7c0e6fac54ab5b25addf23af22bcbd28812c908e23c974bf00382f3bbd27b5a3",
     "results\\agent_dev_v1\\config.json": "76cccf67ccaed6086e6a3fd4c2e56ad6d3c7af2f36ec7790e752cad639abd484",
-    "results\\agent_dev_v1\\reviews.json": "4b66f97db7923dbc23cfb86a620cbdc8f768f72fc4451e3bebcac5afb3f2062d",
-    "results\\agent_dev_v1\\graded_summary.json": "c08d4d932c134da77ad151697212b4f6f98a755ad6779e0322a777bee6f36d0a",
+    "results\\agent_dev_v1\\reviews.json": "fbf59f5bfa79d7a31299fdc744ac37c42f9604fddf7e8e6a1a7e4d54d5976018",
+    "results\\agent_dev_v1\\graded_summary.json": "ed82d08c55b8b0d4b0c70f00475615004db1f7b06f0e6c8c3347a80364dfa6c5",
     "results\\agent_dev_v1\\context_checks.json": "29bc5077f65bda6fe9891dba94144e48029070e4e3ee61be554d65f6c249a60b",
     "results\\agent_dev_v1\\summary.json": "3a4eb3cf5dcde7d34a51eec4567ae800915b828c77a56e5fb58e69cc616b31a6",
     "results\\agent_dev_dense_wide\\traces.json": "4a7fd9048f88b529cd4947380da85da9e0945f58b5440c0d3b815834146751ab",
     "results\\agent_dev_dense_wide\\config.json": "24137aba0c3f931e19088d9036aa4d608079790230d6f9cf43ea1e3d97a8fbe7",
-    "results\\agent_dev_dense_wide\\reviews.json": "6f0c7314a0dbf3c5c948c7f4999641a33395554de0322b3267bb8d48f68cd7ca",
-    "results\\agent_dev_dense_wide\\graded_summary.json": "34fc1828e91d5589deb5bd930bbc7d6da975d9699a4d8f70fd8ce413f2dd9d85",
+    "results\\agent_dev_dense_wide\\reviews.json": "8eaf6b5339e9143fc3e8f30b59945d321af10883f01bc13a04fa784df9313180",
+    "results\\agent_dev_dense_wide\\graded_summary.json": "c43d21225ee7d90b275a0a03dfedb9d5449d7970ecff2a4549a8fd37023e9185",
     "results\\agent_dev_dense_wide\\context_checks.json": "99a3149e5904f8f22fff028497cb977778911147da8ef6ed5a9a25d71b7daa3e",
     "results\\agent_dev_dense_wide\\summary.json": "b66c4a86b76c7ebab2a67a7cba82cc93cc174226f857e70600497c7a1ec245de",
     "results\\agent_dev_dense_wide_quotes\\traces.json": "0e4c5808609ea8e961546e512de5dd8949d945991ee694dbb5ac0379407557bf",
     "results\\agent_dev_dense_wide_quotes\\config.json": "88d92b760bd3b6b12bb6d5fb30321ae12f0a2bdc0e2dcf7f7f12a645f9e43a37",
-    "results\\agent_dev_dense_wide_quotes\\reviews.json": "043f13e1bd60b10bc657b1c20e6e70a50cd1a23e3c05034da3bae594945c5807",
-    "results\\agent_dev_dense_wide_quotes\\graded_summary.json": "58491457b3906c81c02c235e2a178d62dc95dc6714c15e1cb6d2c8e5a2dd3397",
+    "results\\agent_dev_dense_wide_quotes\\reviews.json": "f9a9346fa656e2c0ee7ffd2e2d713f169cdcef3da5ed8f15a0942aa5da445047",
+    "results\\agent_dev_dense_wide_quotes\\graded_summary.json": "376015dab2855cdcd3ff35d8219d6385f7583adf7ddddf59446a6ec0d0c0b823",
     "results\\agent_dev_dense_wide_quotes\\context_checks.json": "99a3149e5904f8f22fff028497cb977778911147da8ef6ed5a9a25d71b7daa3e",
     "results\\agent_dev_dense_wide_quotes\\summary.json": "00e48614ce8d2a90a964389354407cbce2f0f7f1c4e60f2d76f7334890093db2",
     "configs/selected_pipeline.json": "53be64ef4c66a0409b083eb7f9130631d0c37625ba9c949bf8e83cdfed16fb48",
     "configs/dev_experiments.json": "46b46ce685e9b0127fe84bd40663d5d42c482fd6e2fa771f23befded9069eba6",
-    "results/dev_comparison.json": "1f467e9c980699193700c557c7372dbba20e58645b618a0766df027840db4533",
-    "benchmarks/freeze.json": "71391c8dbe4fa3eb570a85d7da75fc54e1ff4c394345410d637be25f84b26cc1",
+    "results/dev_comparison.json": "0e59505430f3d16bc216608618fb8a70fca15249a93ccac6ea21efe766049130",
+    "benchmarks/freeze.json": "0303f22df648d35c3bf3725ad2678dbd5fab08b3312cbce41d40a6b4c18df681",
     "src/model.py": "83068e00a6e9a0229773c732ed44734d6f41b0cce207bd42b39b81b1ae0d5489",
     "src/agent.py": "e0c036e9e4e25c681ca826c717b5aaa4b49ceec17d675d39ba028e3c0afe2f13",
     "src/retrieval.py": "d60e9e7007948400702a0d5d8fc4e8d9cab57945e26d118278d954d064fc46ab",
@@ -33,6 +33,11 @@
     "scripts/run_agent_dev.py": "2cbdf595a59821907ca6a5d63dd88754fc5c844b816f3001cb2803e8e375fcc4",
     "scripts/inspect_agent_dev.py": "003d584842d413e3d9e41470cba2b4a0f5b6392def49954cc119aad3c3b1fad8",
     "scripts/grade_dev.py": "9582d102473c6dc9773b6e725d153fb51030fcf4a2cdc22626c055d74ee87465",
-    "scripts/select_pipeline.py": "1471085624c68abfa9a50f2c05a7e8239912884cea3d920c6728939bceb95f8f"
+    "scripts/select_pipeline.py": "33859fb96ae2934288c432643d1432b981e3c3ee55e00ec6499dd0b54d12b52b"
+  },
+  "original_snapshot": {
+    "commit": "c0a294c42af6ae798ac97e242f0a539206a159b3",
+    "sha256": "d924ac716bd2d96513b68725bacb6df7e71c6eb4a4d60cdcae2b229393c8afc7",
+    "path": "artifacts/integrity_snapshot_c0a294c.json"
   }
 }

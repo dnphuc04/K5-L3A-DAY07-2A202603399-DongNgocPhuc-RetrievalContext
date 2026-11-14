@@ -1,0 +1,803 @@
+{
+  "id": "ADV2-TEST-26",
+  "split": "test",
+  "question": "What fixed maximum interface response latency in milliseconds is prescribed for every system in this handbook?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4rJMJ8u8DZgZng8No6cANcZtblR",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 640,
+        "completion_tokens": 68,
+        "total_tokens": 708,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 33,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2048.36,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_hNpDYELn0jdRXmhXWS2mvN18",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"fixed maximum interface response latency milliseconds prescribed for every system interface response latency ms\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rLVOuTYrgSjjZgEFkWo6sMhy4e",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5519,
+        "completion_tokens": 93,
+        "total_tokens": 5612,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 63,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2661.64,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_nKmQaYBrncjKVkx98tRY4Ul9",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"latency ms shall maximum interface response latency milliseconds\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rO5C4JMWgVavEnQhT7UFQW57Kl",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9286,
+        "completion_tokens": 104,
+        "total_tokens": 9390,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 77,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3062.7,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_kCnjkGWI9sc33fhrbnRFX8sD",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"response latency\\\" milliseconds interface\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rRSNhuKyhtLr1224IihLqgX7Z2",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 13597,
+        "completion_tokens": 96,
+        "total_tokens": 13693,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 68,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2998.4,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rIBxUTjvhxzyd0enzJOvKomF",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"milliseconds ms latency requirement \\\"shall\\\"\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rUSSM45pVRwcZoFH2Av9DSX5s6",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 17677,
+        "completion_tokens": 154,
+        "total_tokens": 17831,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 123,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3754.16,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_3GZ3D0npqnY52P3zbEjypKIo",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"interface\\\" \\\"response\\\" \\\"ms\\\" handbook\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rYuuY1wmm9wI8vOXVEAky3Z0nM",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 22213,
+        "completion_tokens": 226,
+        "total_tokens": 22439,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 203,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4493.44,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_SQiUHY8rOCZjPSe2ZVbd139L",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"latency\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rcmFHbRXPORBEbf1VB0pwfEg7d",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 22840,
+        "completion_tokens": 145,
+        "total_tokens": 22985,
+        "prompt_tokens_details": {
+          "cached_tokens": 21120,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 119,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3153.47,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_7R7jHMTXZOxYzJCzILCACVVh",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"response time\\\" milliseconds\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rguuu1RLhqgy3ttGvCpUxOUi1a",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 27764,
+        "completion_tokens": 331,
+        "total_tokens": 28095,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 300,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 6380.08,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_dehBmHop4lPYphypkw1w3PPX",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"ms \\\"interface\\\" \\\"shall\\\" 100 ms\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4rmwSepm067EHgIB6eYl4hsGNdH",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 32293,
+        "completion_tokens": 122,
+        "total_tokens": 32415,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 94,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3365.74,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_j6OVAs65MFNthXCvr6H9BVbr",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "What fixed maximum interface response latency in milliseconds is prescribed for every system in this handbook?",
+      "results": [
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 16.40446235317371,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0228",
+          "page": 228,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\n\n4.2.4.1 Qualification Testing 4.2.4 Test\nThis section describes the test philosophy for the envi- Defines what this validation method means (See\nronmental and other testing that is performed at higher Appendix B of this handbook) and how it will be applied\nthan normal levels to ascertain margins and perfor- to this system. This category may need to be broken down\nmance in worst-case scenarios. Includes descriptions into further categories such as end-to-end testing, testing\nof how the minimum and maximum extremes will be with humans, etc.)\ndetermined for various types of tests (thermal, vibra-\ntion, etc.), whether it will be performed at a component, 4.4 Certification Process\nsubsystem, or system level, and the pedigree (flight unit, Describes the overall process by which the results of these\nqualification unit, engineering unit, etc.) of the units verification and validation activities will be used to cer-\nthese tests will be performed on. tify that the system meets its requirements and expec-\n tations and is ready to be put into the field or fly. In\n4.2.4.2 Other Testing addition to the verification and validation results, the\nThis section describes any other testing that will be used certification package may also include special forms,\nas part of the verification activities that are not part reports, safety documentation, drawings, waivers, or\nof the qualification testing. It includes any testing of other supporting documentation.\nrequirements within the normal operating range of the\nend item. It may include some engineering tests that will 4.5 Acceptance Testing\nform the foundation or provide dry runs for the official Describes the philosophy of how/which of the verification/\nverification testing. validation activities will be performed on each of the\n operational units as they are manufactured/coded and\n4.3 Validation Methods are readied for flight/use. Includes how/if data packages\nThis section defines and describes the methods to be used will be developed and provided as part of the delivery.\nduring the validation activities.\n\n4.2.1 Analysis 5.0 Verification and Validation\nDefines what this validation method means (See Implementation\nAppendix B of this handbook) and how it will be applied\nto this system. 5.1 System Design and Verification\n and Validation Flow\n4.2.2 Inspection This section describes how the system units/modules will\nDefines what this validation method means (See flow from manufacturing/coding through verification\nAppendix B of this handbook) and how it will be applied and validation. Includes whether each unit will be veri-\nto this system. fied/validated separately, or assembled to some level and\n then evaluated or other statement of flow.\n4.2.3 Demonstration\nDefines what this validation method means (See 5.2 Test Articles\nAppendix B of this handbook) and how it will be applied This section describes the pedigree of test articles that will\nto this system. be involved in the verification/validation activities. This\n\n\n\n\n\n\n 218",
+          "score": 12.037245751162331,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0132",
+          "page": 132,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\nBudgeting type of project, the phase in the project life cycle, and\nBudgeting and resource planning involve establish- the technical development risks and is written specif-\ning a reasonable project baseline budget and the capa- ically for each project or project element. While the\nbility to analyze changes to that baseline resulting specific content of the SEMP is tailored to the project,\nfrom technical and/or schedule changes. The proj- the recommended content is discussed in Appendix J.\nect’s WBS, baseline schedule, and budget should be It is important to remember that the main value of\nviewed as mutually dependent, reflecting the techni- the SEMP is in the work that goes into the planning.\ncal content, time, and cost of meeting the project’s\ngoals and objectives. The budgeting process needs to The technical team, working under the overall project\ntake into account whether a fixed cost cap or fixed plan, develops and updates the SEMP as necessary.\ncost profile exists. When no such cap or profile exists, The technical team works with the project manager\na baseline budget is developed from the WBS and to review the content and obtain concurrence. This\nnetwork schedule. This specifically involves combin- allows for thorough discussion and coordination of\ning the project’s workforce and other resource needs how the proposed technical activities would impact\nwith the appropriate workforce rates and other finan- the programmatic, cost, and schedule aspects of the\ncial and programmatic factors to obtain cost element project. The SEMP provides the specifics of the tech-\nestimates. These elements of cost include nical effort and describes the technical processes that\n will be used, how the processes will be applied using\n• direct labor costs, appropriate activities, how the project will be orga-\n• overhead costs, nized to accomplish the activities, and the cost and\n• other direct costs (travel, data processing, etc.), schedule associated with accomplishing the activities.\n• subcontract costs,\n• material costs, The physical length of a SEMP is not what is import-\n• equipment costs, ant. This will vary from project to project. The plan\n• general and administrative costs, needs to be adequate to address the specific techni-\n• cost of money (i.e., interest payments, if cal needs of the project. It is a living document that\n applicable), is updated as often as necessary to incorporate new\n• fee (if applicable), and information as it becomes available and as the proj-\n• contingency (Unallocated Future Expenses (UFE)). ect develops through the Implementation Phase. The\n SEMP should not duplicate other project documents;\nFor additional information on cost estimating, refer however, the SEMP should reference and summarize\nto the NASA Cost Estimating Handbook and NPR the content of other technical plans.\n7120.5, NASA Space Flight Program and Project\nManagement Requirements. The systems engineer and project manager should\n identify additional required technical plans based on\n6.1.1.2.4 Prepare the SEMP and Other Technical Plans the project scope and type. If plans are not included\nSystems Engineering Management Plan in the SEMP, they should be referenced and coordi-\nThe SEMP is the primary, top-level technical man- nated in the development of the SEMP. Other plans,\nagement document for the project and is developed such as system safety, probabilistic risk assessment,\nearly in the Formulation Phase and updated through- and an HSI Plan also need to be planned for and\nout the project life cycle. The SEMP is driven by the coordinated with the SEMP. If a technical plan is a\n\n\n\n 122",
+          "score": 11.369519996746815,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 9.934377653503336,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 9.154619145551393,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0060",
+          "page": 60,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n4.1.1.2.4 Establish Concept of Operations and Support location that may not be required during the nominal\n Strategies mission. The ConOps should include scenarios for all\nAfter the initial stakeholder expectations have significant operational situations, including known\nbeen established, the development of a Concept of off-nominal situations. To develop a useful and\nOperations (ConOps) will further ensure that the complete set of scenarios, important malfunctions\ntechnical team fully understands the expectations and degraded-mode operational situations should be\nand how they may be satisfied by the product, and considered. The ConOps is also an important aide to\nthat understanding has been agreed to by the stake- characterizing life cycle staffing goals and function\nholders. This may lead to further refinement of the allocation between humans and systems. In walking\ninitial set of stakeholder expectations if gaps or ambig- through the accomplishment of mission objectives, it\nuous statements are discovered. These scenarios and should become clear when decisions need to be made\nconcepts of how the system will behave provide an as to what the human operators are contributing vs.\nimplementation-free understanding of the stakehold- what the systems are responsible for delivering.\ners’ expectations by defining what is expected with-\nout addressing how (the design) to satisfy the need. The ConOps should consider all aspects of opera-\nIt captures required behavioral characteristics and tions including nominal and off-nominal operations\nthe manner in which people will interact with the during integration, test, and launch through dis-\nsystem. Support strategies include provisions for fab- posal. Typical information contained in the ConOps\nrication, test, deployment, operations, sustainment, includes a description of the major phases; operation\nand disposal. timelines; operational scenarios and/or DRM (see\n FIGURE 4.1-3 for an example of a DRM); fault man-\nThe ConOps is an important component in captur- agement strategies, description of human interaction\ning stakeholder expectations and is used in defin- and required training, end-to-end communications\ning requirements and the architecture of a project. strategy; command and data architecture; opera-\nIt stimulates the development of the requirements tional facilities; integrated logistic support (resup-\nand architecture related to the user elements of the ply, maintenance, and assembly); staffing levels and\nsystem. It serves as the basis for subsequent defini- required skill sets; and critical events. The operational\ntion documents such as the operations plan, launch scenarios describe the dynamic view of the systems’\nand early orbit plan, and operations handbook, and operations and include how the system is perceived\nit provides the foundation for the long-range opera- to function throughout the various modes and mode\ntional planning activities such as operational facili- transitions, including interactions with external inter-\nties, staffing, and network scheduling. faces, response to anticipated hazard and faults, and\n during failure mitigations. For exploration missions,\nThe ConOps is an important driver in the system multiple DRMs make up a ConOps. The design and\nrequirements and therefore should be considered early performance analysis leading to the requirements\nin the system design processes. Thinking through the should satisfy all of them.\nConOps and use cases often reveals requirements and\ndesign functions that might otherwise be overlooked. Additional information on the development of the\nFor example, adding system requirements to allow for ConOps is discussed in Section 4.1.2.1 of the NASA\ncommunication during a particular phase of a mis- Expanded Guidance for Systems Engineering docu-\nsion may require an additional antenna in a specific ment found https://nen.nasa.gov/web/se/doc-repository.\n\n\n\n 50",
+          "score": 9.116136090545039,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0229",
+          "page": 229,
+          "text": " Appendix I: Verification and Validation Plan Outline\n\n\n\n\n\nmay include descriptions of breadboards, prototypes, 6.1.1 Developmental/Engineering Unit Evaluations\nengineering units, qualification units, protoflight units, This section describes what kind of testing, analysis,\nflight units, or other specially named units. A definition demonstrations, or inspections the prototype/engineering\nof what is meant by these terms needs to be included to or other types of units/modules will undergo prior to per-\nensure clear understanding of the expected pedigree of forming official verification and validation.\neach type of test article. Descriptions of what kind of test/\nanalysis activities will be performed on each type of test 6.1.2 Verification Activities\narticle is included. This section describes in detail the verification activities\n that will be performed on this end item.\n5.3 Support Equipment\nThis section describes any special support equipment that 6.1.2.1 Verification by Testing\nwill be needed to perform the verification/validation This section describes all verification testing that will be\nactivities. This will be a more detailed description than performed on this end item.\nis stated in Section 3.4 of this outline.\n 6.1.2.1.1 Qualification Testing\n5.4 Facilities This section describes the test environmental and other\nThis section identifies and describes major facilities that testing that is performed at higher than normal levels\nwill be needed in order to accomplish the verification to ascertain margins and performance in worst-case\nand validation activities. These may include environ- scenarios. It includes what minimum and maximum\nmental test facilities, computational facilities, simula- extremes will be used on qualification tests (thermal,\ntion facilities, training facilities, test stands, and other vibration, etc.) of this unit, whether it will be performed\nfacilities as needed. at a component, subsystem, or system level, and the ped-\n igree (flight unit, qualification unit, engineering unit,\n etc.) of the units these tests will be performed on.\n6.0 End Item Verification and\n Validation 6.1.2.1.2 Other Testing\n This section describes all other verification tests that are\nThis section describes in detail the V&V activities that not performed as part of the qualification testing. These\nwill be applied to the lower-level subsystems/elements/ will include verification of requirements in the normal\nend items. It can point to other stand-alone descrip- operating ranges.\ntions of these tests if they will be generated as part of\norganizational responsibilities for the products at each 6.1.2.2 Verification by Analysis\nproduct layer. This section describes the verifications that will be per-\n formed by analysis (including verification by similarity).\n6.1 End Item A This may include thermal analysis, stress analysis, anal-\nThis section focuses in on one of the lower-level end items ysis of fracture control, materials analysis, Electrical,\nand describes in detail what type of verification activi- Electronic, and Electromechnical (EEE) parts analysis,\nties it will undergo. and other analyses as needed for the verification of this\n end item.\n\n\n\n\n\n\n 219",
+          "score": 8.660199173939223,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "latency ms shall maximum interface response latency milliseconds",
+      "results": [
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 17.12029553037346,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 8.259455777979577,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0248",
+          "page": 248,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\ncable and wire interface shall meet the requirements [to 3.2.7.4 Vibroacoustics\nbe determined] of cable/wire design and control require- Define the appropriate vibroacoustics requirements.\nments for electromagnetic compatibility. Define the vibroacoustic loads that each end item should\n accommodate.\n3.2.7.2 Acoustic\nDefine the appropriate acoustics requirements. Define 3.2.7.5 Human Operability\nthe acoustic noise levels on each side of the interface in Define the appropriate human interface requirements.\naccordance with program or project requirements. Define the human-centered design considerations, con-\n straints, and capabilities that each end item should\n3.2.7.3 Structural Loads accommodate.\nDefine the appropriate structural loads requirements. Define\nthe mated loads that each end item should accommodate. 3.2.8 Other Types of Interface Requirements\n Define other types of unique interface requirements that\n may be applicable.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 238",
+          "score": 7.262317631876899,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 6.824211243706346,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 5.893762765359105,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 5.582396372830867,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0211",
+          "page": 211,
+          "text": "Appendix D: Requirements Verification Matrix\n\n\n\n\n\nWhen developing requirements, it is important to delineate sources of requirements depending on the\nidentify an approach for verifying the requirements. project. The example is shown to provide suggested\nThis appendix provides an example matrix that guidelines for the minimum information that should\ndefines how all the requirements are verified. Only be included in the verification matrix.\n“shall” requirements should be included in these\nmatrices. The matrix should identify each “shall” by\nunique identifier and be definitive as to the source, NOTE: See Appendix I for an outline of the\ni.e., document from which the requirement is taken. Verification and Validation Plan. The matrix shown\nThis matrix could be divided into multiple matri- here (TABLE D-1) is Appendix C in that outline.\nces (e.g., one for each requirements document) to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 201",
+          "score": 4.760611028067707,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"response latency\" milliseconds interface",
+      "results": [
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 5.935160000818889,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 5.582396372830867,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0264",
+          "page": 264,
+          "text": "Appendix T: Systems Engineering in Phase E\n\n\n\nT.1 Overview • Unforgiving schedule: Unlike pre-flight test\n activities, it may be difficult or even impossible\nIn general, normal Phase E activities reflect a reduced to pause mission execution to deal with technical\nemphasis on system design processes but a continued issues of a spacecraft in operation. It is typically\nfocus on product realization and technical manage- difficult or impossible to truly pause mission exe-\nment. Product realization process execution in Phase cution after launch.\nE takes the form of continued mission plan generation\n(and update), response to changing flight conditions These factors must be addressed when consider-\n(and occurrence of in-flight anomalies), and update ing activities that introduce change and risk during\nof mission operations techniques, procedures, and Phase E.\nguidelines based on operational experience gained.\nTechnical management processes ensure that appro-\npriate rigor and risk management practices are applied NOTE: When significant hardware or software\nin the execution of the product realization processes. changes are required in Phase E, the logical decom-\n position process may more closely resemble that\nSuccessful Phase E execution requires the prior estab- exercised in earlier project phases. In such cases,\nlishment of mission operations capabilities in four it may be more appropriate to identify the modifi-\n(4) distinct categories: tools, processes, products, cation as a new project executing in parallel—and\nand trained personnel. These capabilities may be coordinated with—the operating project.\ndeveloped as separate entities, but need to be fused\ntogether in Phase E to form an end-to-end opera-\ntional capability. T.2 Transition from Development\n to Operations\nAlthough systems engineering activities and pro-\ncesses are constrained throughout the entire project An effective transition from development to opera-\nlife cycle, additional pressures exist in Phase E: tions phases requires prior planning and coordina-\n tion among stakeholders. This planning should focus\n• Increased resource constraints: Even when not only on the effective transition of hardware and\n additional funding or staffing can be secured, software systems into service but also on the effec-\n building new capabilities or training new person- tive transfer of knowledge, skills, experience, and\n nel may require more time or effort than is avail- processes into roles that support the needs of flight\n able. Project budget and staffing profiles generally operations.\n decrease at or before entry into Phase E, and the\n remaining personnel are typically focused on mis- Development phase activities need to clearly and\n sion execution. concisely document system knowledge in the form\n\n\n 254",
+          "score": 4.146294245907465,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0146",
+          "page": 146,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n Prepare or update interface\n management procedures To Configuration\n Management Process\n From user or program and Interface Control\n system design processes Conduct interface management during\n Documents\n Interface system design activities for each WBS-\n Requirements like model in the system structure\n Approved Interface\n FromProject and Requirement\n Technical Assessment Conduct interface management during Changes\n Processes product int egratio n activities\n To Technical Data\n Interface Management Process\n Changes Conduct interface control Interface Management\n Work Products\n\n Captu re wor k products from interface\n management activities\n\n\n FIGURE 6.3-1 Interface Management Process\n\n\n6.3.1 Process Description Other inputs that might be useful are:\nFIGURE 6.3-1 provides a typical flow diagram for the\nInterface Management Process and identifies typical • System Description: This allows the design of\ninputs, outputs, and activities to consider in address- the system to be explored and examined to deter-\ning interface management. mine where system interfaces exist. Contractor\n arrangements will also dictate where interfaces\n6.3.1.1 Inputs are needed.\nTypical inputs needed to understand and address\ninterface management would include the following: • System Boundaries: Documented physical\n boundaries, components, and/or subsystems,\n• Interface Requirements: These include the inter- which are all drivers for determining where inter-\n nal and external functional, physical, and perfor- faces exist.\n mance interface requirements developed as part\n of the Technical Requirements Definition Process • Organizational Structure: Decisions on which\n for the product(s). organization will dictate interfaces, particularly\n when there is the need to jointly agree on shared\n• Interface Change Requests: These include interface parameters of a system. The program\n changes resulting from program or project agree- and project WBS will also provide organizational\n ments or changes on the part of the technical interface boundaries.\n team as part of the Technical Assessment Process.\n • Boards Structure: Defined board structure that\n identifies organizational interface responsibilities.\n\n\n\n 136",
+          "score": 3.796271190635307,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0147",
+          "page": 147,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n6.3.1.2 Process Activities Interface requirements verification is a critical aspect\n6.3.1.2.1 Prepare or Update Interface Management of the overall system verification.\n Procedures\nThese procedures establish the interface management 6.3.1.2.4 Conduct Interface Control\nresponsibilities, what process will be used to main- Typically, an Interface Working Group (IWG) estab-\ntain and control the internal and external functional lishes communication links between those responsi-\nand physical interfaces (including human), and how ble for interfacing systems, end products, enabling\nthe change process will be conducted. Training of the products, and subsystems. The IWG has the respon-\ntechnical teams or other support may also be required sibility to ensure accomplishment of the planning,\nand planned. scheduling, and execution of all interface activities.\n An IWG is typically a technical team with appro-\n6.3.1.2.2 Conduct Interface Management during priate technical membership from the interfacing\n System Design Activities parties (e.g., the project, the contractor, etc.). The\nDuring project Formulation, the ConOps of the IWG may work independently or as a part of a larger\nproduct is analyzed to identify both external and change control board.\ninternal interfaces. This analysis will establish the\norigin, destination, stimuli, and special character- 6.3.1.2.5 Capture Work Products\nistics of the interfaces that need to be documented Work products include the strategy and procedures\nand maintained. As the system structure and archi- for conducting interface management, rationale\ntecture emerges, interfaces will be added and existing for interface decisions made, assumptions made in\ninterfaces will be changed and should be maintained. approving or denying an interface change, actions\nThus, the Interface Management Process has a close taken to correct identified interface anomalies, les-\nrelationship to other areas, such as requirements sons learned and updated support and interface\ndefinition and configuration management, during agreement documentation.\nthis period.\n 6.3.1.3 Outputs\n6.3.1.2.3 Conduct Interface Management during Typical outputs needed to capture interface manage-\n Product Integration ment would include:\nDuring product integration, interface management\nactivities would support the review of integration and • Interface control documentation. This is the\nassembly procedures to ensure interfaces are prop- documentation that identifies and captures the\nerly marked and compatible with specifications and interface information and the approved inter-\ninterface control documents. The interface manage- face change requests. Types of interface docu-\nment process has a close relationship to verification mentation include the Interface Requirements\nand validation. Interface control documentation and Document (IRD), Interface Control Document/\napproved interface requirement changes are used as Drawing (ICD), Interface Definition Document\ninputs to the Product Verification Process and the (IDD), and Interface Control Plan (ICP). These\nProduct Validation Process, particularly where ver- outputs will then be maintained and approved\nification test constraints and interface parameters using the Configuration Management Process\nare needed to set the test objectives and test plans. and become a part of the overall technical data\n package for the project.\n\n\n\n 137",
+          "score": 3.789388467002877,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0246",
+          "page": 246,
+          "text": "Appendix L: Interface Requirements\n Document Outline\n\n\n\n1.0 Introduction 3.0 Interfaces\n\n1.1 Purpose and Scope 3.1 General\nState the purpose of this document and briefly iden- In the subsections that follow, provide the detailed descrip-\ntify the interface to be defined. (For example, “This tion, responsibilities, coordinate systems, and numerical\nIRD defines and controls the interface(s) requirements requirements as they relate to the interface plane.\nbetween ______ and ______.”)\n 3.1.1 Interface Description\n1.2 Precedence Describe the interface as defined in the system specifi-\nDefine the relationship of this document to other pro- cation. Use tables, figures, or drawings as appropriate.\ngram documents and specify which is controlling in the\nevent of a conflict. 3.1.2 Interface Responsibilities\n Define interface hardware and interface boundary\n1.3 Responsibility and Change responsibilities to depict the interface plane. Use tables,\n Authority figures, or drawings as appropriate.\nState the responsibilities of the interfacing organiza-\ntions for development of this document and its contents. 3.1.3 Coordinate Systems\nDefine document approval authority (including change Define the coordinate system used for interface require-\napproval authority). ments on each side of the interface. Use tables, figures, or\n drawings as appropriate.\n2.0 Documents 3.1.4 Engineering Units, Tolerances, and\n2.1 Applicable Documents Conversion\nList binding documents that are invoked to the extent Define the measurement units along with tolerances.\nspecified in this IRD. The latest revision or most recent If required, define the conversion between measure-\nversion should be listed. Documents and requirements ment systems.\nimposed by higher-level documents (higher order of pre-\ncedence) should not be repeated. 3.2 Interface Requirements\n In the subsections that follow, define structural limiting\n2.2 Reference Documents values at the interface, such as interface loads, forcing\nList any document that is referenced in the text in this functions, and dynamic conditions. Define the interface\nsubsection. requirements on each side of the interface plane.\n\n\n\n\n\n\n 236",
+          "score": 3.7461516149972627,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 3.7008010377772744,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "milliseconds ms latency requirement \"shall\"",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 9.68666750063489,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 9.200118151132804,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 7.956321489805278,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0211",
+          "page": 211,
+          "text": "Appendix D: Requirements Verification Matrix\n\n\n\n\n\nWhen developing requirements, it is important to delineate sources of requirements depending on the\nidentify an approach for verifying the requirements. project. The example is shown to provide suggested\nThis appendix provides an example matrix that guidelines for the minimum information that should\ndefines how all the requirements are verified. Only be included in the verification matrix.\n“shall” requirements should be included in these\nmatrices. The matrix should identify each “shall” by\nunique identifier and be definitive as to the source, NOTE: See Appendix I for an outline of the\ni.e., document from which the requirement is taken. Verification and Validation Plan. The matrix shown\nThis matrix could be divided into multiple matri- here (TABLE D-1) is Appendix C in that outline.\nces (e.g., one for each requirements document) to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 201",
+          "score": 7.096047930446371,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0051",
+          "page": 51,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nThe result of this tailoring, whether for a Center or team as well as associated managers. If an indepen-\nfor a program/project, should also be captured in dent assessment is being conducted on the program/\nthe next revision of the SEMP along with support- project, this also allows appropriate modification of\ning rationale and documented approvals from the expectations and assessment criteria. TABLE 3.11-3\nrequirement owner. This allows communication of provides some examples of tailoring captured within\nthe approved waivers/deviations to the entire project the H.2 Compliance Matrix.\n\n\n\n TABLE 3.11-3 Example Use of a Compliance Matrix\nReq SE NPR Requirement Rationale Req. Comply? Justification\nID Section Statement Owner\n\nSE-05 2.1.5.2 For those For programs and projects, the CD Fully\n requirements Compliance Matrix in Appendix Compliant\n owned by Center H.2 is filled out showing that the\n Directors, the program/project is compliant with\n technical team the requirements of this NPR (or a\n shall complete the particular Center’s implementation\n Compliance Matrix of NPR 7123.1, whichever is\n in Appendix H.2 applicable) or any tailoring thereof\n and include it in the is identified and approved by the\n SEMP. Center Director or designee as part\n of the program/project SEMP.\n\nSE-06 2.1.6.1 The DGA shall The DGA, who is often the TA, CD Fully\n approve the provides an approval of the SEMPs, Complaint\n SEMP, waiver waivers to technical requirements\n authorizations, and and other key technical document\n other key technical to provide assurance of the\n documents to applicability and technical quality of\n ensure independent the products.\n assessment of\n technical content.\n\nSE-24 4.2.1 The NASA technical It is important for both the CD Not Project is\n team shall define government and contractor Applicable conducted\n the engineering technical teams to understand entirely\n activities for the what activities will be handled by in-house and\n periods before which organization throughout the therefore\n contract award, product life cycle. The contractor(s) there are no\n during contract will typically develop a SEMP or its contracts\n performance, and equivalent to describe the technical involved\n upon contract activities in their portion of the\n completion in the project, but an overarching SEMP\n SEMP. is needed that will describe all\n technical activities across the life\n cycle whether contracted or not.\n\n\n\n\n\n\n\n\n\n\n 41",
+          "score": 6.777570236224447,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0070",
+          "page": 70,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n RATIONALE\n\n\n The rationale should be kept up to date and include the following information:\n\n\n • Reason for the Requirement: Often the reason for the requirement is not obvious, and it may be lost if\n not recorded as the requirement is being documented. The reason may point to a constraint or concept\n of operations. If there is a clear parent requirement or trade study that explains the reason, then it should\n be referenced.\n • Document Assumptions: If a requirement was written assuming the completion of a technology\n development program or a successful technology mission, the assumption should be documented.\n • Document Relationships: The relationships with the product’s expected operations (e.g., expectations\n about how stakeholders will use a product) should be documented. This may be done with a link to the\n ConOps.\n • Document Design Constraints: Constraints imposed by the results from decisions made as the design\n evolves should be documented. If the requirement states a method of implementation, the rationale\n should state why the decision was made to limit the solution to this one method of implementation.\n\n\n\nexpectations, the mission objectives and constraints, 3. Do the Requirements Satisfy Stakeholders?\nthe concept of operations, and the mission success All relevant stakeholder groups identify and\ncriteria. Validating requirements can be broken into remove defects.\nsix steps:\n 4. Are the Requirements Feasible? All require-\n1. Are the Requirements Written Correctly? ments should make technical sense and be possi-\n Identify and correct requirements “shall” state- ble to achieve.\n ment format errors and editorial errors.\n 5. Are the Requirements Verifiable? All require-\n2. Are the Requirements Technically Correct? A ments should be stated in a fashion and with\n few trained reviewers from the technical team enough information that it will be possible to\n identify and remove as many technical errors as verify the requirement after the end product is\n possible before having all the relevant stakehold- implemented.\n ers review the requirements. The reviewers should\n check that the requirement statements (a) have 6. Are the Requirements Redundant or Over-\n bidirectional traceability to the baselined stake- specified? All requirements should be unique\n holder expectations; (b) were formed using valid (not redundant to other requirements) and nec-\n assumptions; and (c) are essential to and consis- essary to meet the required functions, perfor-\n tent with designing and realizing the appropriate mance, or behaviors.\n product solution form that will satisfy the appli-\n cable product life cycle phase success criteria.\n\n\n\n 60",
+          "score": 6.104139781053247,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 6.069797414799316,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"interface\" \"response\" \"ms\" handbook",
+      "results": [
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 6.0990426266379885,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 5.935160000818889,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0148",
+          "page": 148,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Approved interface requirement changes. After 6.4 Technical Risk Management\n the interface requirements have been baselined, The Technical Risk Management Process is one of\n the Requirements Management Process should the crosscutting technical management processes.\n be used to identify the need for changes, eval- Risk is the potential for performance shortfalls,\n uate the impact of the proposed change, docu- which may be realized in the future, with respect\n ment the final approval/disapproval, and update to achieving explicitly established and stated per-\n the requirements documentation/tool/database. formance requirements. The performance shortfalls\n For interfaces that require approval from all may be related to institutional support for mission\n sides, unanimous approval is required. Changing execution or related to any one or more of the follow-\n interface requirements late in the design or ing mission execution domains:\n implementation life cycle is more likely to have a\n significant impact on the cost, schedule, or tech- • safety\n nical design/operations. • technical\n • cost\n• Other work products. These work products • schedule\n include the strategy and procedures for con-\n ducting interface management, the rationale for Systems engineers are involved in this process to help\n interface decisions made, the assumption made identify potential technical risks, develop mitigation\n in approving or denying an interface change, plans, monitor progress of the technical effort to deter-\n the actions taken to correct identified interface mine if new risks arise or old risks can be retired, and\n anomalies, the lessons learned in performing the to be available to answer questions and resolve issues.\n interface management activities, and the updated The following is guidance in implementation of risk\n support and interface agreement documentation. management in general. Thus, when implementing\n risk management on any given program/project, the\n6.3.2 Interface Management Guidance responsible systems engineer should direct the effort\nRefer to Section 6.3.2 in the NASA Expanded accordingly. This may involve more or less rigor and\nGuidance for Systems Engineering at https://nen.nasa. formality than that specified in governing docu-\ngov/web/se/doc-repository for additional guidance on: ments such as NPRs. Of course, if deviating from\n NPR “requirements,” the responsible engineer must\n• interface requirements documents, follow the deviation approval process. The idea is to\n• interface control documents, tailor the risk management process so that it meets\n• interface control drawings, the needs of the individual program/project being\n• interface definition documents, executed while working within the bounds of the\n• the interface control plans, and governing documentation (e.g., NPRs). For detailed\n• interface management tasks. information on the Risk Management Process, refer\n to the NASA Risk Management Handbook (NASA/\n SP-2011-3422).\n\n\n\n\n\n\n\n\n 138",
+          "score": 5.544275570055275,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0275",
+          "page": 275,
+          "text": " References Cited\n\n\n\n\n\nNPR 8705.4, Risk Classification for NASA Payloads NASA-SP-2010-3404, NASA Work Breakdown\n Structure Handbook\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, NASA Cost Estimating Handbook (CEH), Version 4,\n 2013 Februar y 2015.\n\nNASA GSFC-STD-7000, Goddard Technical DOD. MIL-STD-881C, Work Breakdown Structure\n Standard: General Environmental Verification (WBS) for Defense Materiel Items. Washington,\n Standard (GEVS) for GSFC Flight Programs and DC, October 3, 2011.\n Projects. Goddard Space Flight Center. April\n 2005 Institute of Electrical and Electronics Engineers\n (IEEE) STD 1220-2005. IEEE Standard for\nDepartment of Defense (DOD). MIL-STD-1540D, Application and Management of the Systems\n Product Verification Requirements for Launch, Engineering Process, Washington, DC, 2005.\n Upper Stage, and Space Vehicles. January 15,\n 1999 Office of Management and Budget (OMB) Circular\n A-94, “Guidelines and Discount Rates for\nSection 5.4 Product Validation Benefit-Cost Analysis of Federal Programs”\nNPD 7120.4, NASA Engineering and Program/ (10/29/1992)\n Project Management Policy\n Joint (cost and schedule) Confidence Level (JCL).\nNPR 7150.2, NASA Software Engineering Frequently asked questions (FAQs) can be found\n Requirements at: http://www.nasa.gov/pdf/394931main_JCL_\n FAQ_10_12_09.pdf\nSection 5.5 Product Transition\n(The) National Environmental Policy Act of 1969 The U. S. Chemical Safety Board (CSB) case study\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. reports on mishaps found at: http://www.csb.gov/\n doe.gov/welcome.html\n Section 6.3 Interface Management\nSection 6.1 Technical Planning NPR 7120.5, NASA Space Flight Program and\nNPR 7120.5, NASA Space Flight Program and Project Management Requirements\n Project Management Requirements\n Section 6.4 Technical Risk Management\nNPD 7120.6, Knowledge Policy on Programs and NPR 8000.4, Agency Risk Management Procedural\n Projects Requirements\n\nNPR 7123.1, NASA Systems Engineering Processes NASA/SP-2010-576, NASA Risk-Informed Decision\n and Requirements Making Handbook\n\nNASA-SP-2010-3403, NASA Schedule Management\n Handbook\n\n\n\n 265",
+          "score": 5.470345309576713,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0060",
+          "page": 60,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n4.1.1.2.4 Establish Concept of Operations and Support location that may not be required during the nominal\n Strategies mission. The ConOps should include scenarios for all\nAfter the initial stakeholder expectations have significant operational situations, including known\nbeen established, the development of a Concept of off-nominal situations. To develop a useful and\nOperations (ConOps) will further ensure that the complete set of scenarios, important malfunctions\ntechnical team fully understands the expectations and degraded-mode operational situations should be\nand how they may be satisfied by the product, and considered. The ConOps is also an important aide to\nthat understanding has been agreed to by the stake- characterizing life cycle staffing goals and function\nholders. This may lead to further refinement of the allocation between humans and systems. In walking\ninitial set of stakeholder expectations if gaps or ambig- through the accomplishment of mission objectives, it\nuous statements are discovered. These scenarios and should become clear when decisions need to be made\nconcepts of how the system will behave provide an as to what the human operators are contributing vs.\nimplementation-free understanding of the stakehold- what the systems are responsible for delivering.\ners’ expectations by defining what is expected with-\nout addressing how (the design) to satisfy the need. The ConOps should consider all aspects of opera-\nIt captures required behavioral characteristics and tions including nominal and off-nominal operations\nthe manner in which people will interact with the during integration, test, and launch through dis-\nsystem. Support strategies include provisions for fab- posal. Typical information contained in the ConOps\nrication, test, deployment, operations, sustainment, includes a description of the major phases; operation\nand disposal. timelines; operational scenarios and/or DRM (see\n FIGURE 4.1-3 for an example of a DRM); fault man-\nThe ConOps is an important component in captur- agement strategies, description of human interaction\ning stakeholder expectations and is used in defin- and required training, end-to-end communications\ning requirements and the architecture of a project. strategy; command and data architecture; opera-\nIt stimulates the development of the requirements tional facilities; integrated logistic support (resup-\nand architecture related to the user elements of the ply, maintenance, and assembly); staffing levels and\nsystem. It serves as the basis for subsequent defini- required skill sets; and critical events. The operational\ntion documents such as the operations plan, launch scenarios describe the dynamic view of the systems’\nand early orbit plan, and operations handbook, and operations and include how the system is perceived\nit provides the foundation for the long-range opera- to function throughout the various modes and mode\ntional planning activities such as operational facili- transitions, including interactions with external inter-\nties, staffing, and network scheduling. faces, response to anticipated hazard and faults, and\n during failure mitigations. For exploration missions,\nThe ConOps is an important driver in the system multiple DRMs make up a ConOps. The design and\nrequirements and therefore should be considered early performance analysis leading to the requirements\nin the system design processes. Thinking through the should satisfy all of them.\nConOps and use cases often reveals requirements and\ndesign functions that might otherwise be overlooked. Additional information on the development of the\nFor example, adding system requirements to allow for ConOps is discussed in Section 4.1.2.1 of the NASA\ncommunication during a particular phase of a mis- Expanded Guidance for Systems Engineering docu-\nsion may require an additional antenna in a specific ment found https://nen.nasa.gov/web/se/doc-repository.\n\n\n\n 50",
+          "score": 5.078601168513319,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0264",
+          "page": 264,
+          "text": "Appendix T: Systems Engineering in Phase E\n\n\n\nT.1 Overview • Unforgiving schedule: Unlike pre-flight test\n activities, it may be difficult or even impossible\nIn general, normal Phase E activities reflect a reduced to pause mission execution to deal with technical\nemphasis on system design processes but a continued issues of a spacecraft in operation. It is typically\nfocus on product realization and technical manage- difficult or impossible to truly pause mission exe-\nment. Product realization process execution in Phase cution after launch.\nE takes the form of continued mission plan generation\n(and update), response to changing flight conditions These factors must be addressed when consider-\n(and occurrence of in-flight anomalies), and update ing activities that introduce change and risk during\nof mission operations techniques, procedures, and Phase E.\nguidelines based on operational experience gained.\nTechnical management processes ensure that appro-\npriate rigor and risk management practices are applied NOTE: When significant hardware or software\nin the execution of the product realization processes. changes are required in Phase E, the logical decom-\n position process may more closely resemble that\nSuccessful Phase E execution requires the prior estab- exercised in earlier project phases. In such cases,\nlishment of mission operations capabilities in four it may be more appropriate to identify the modifi-\n(4) distinct categories: tools, processes, products, cation as a new project executing in parallel—and\nand trained personnel. These capabilities may be coordinated with—the operating project.\ndeveloped as separate entities, but need to be fused\ntogether in Phase E to form an end-to-end opera-\ntional capability. T.2 Transition from Development\n to Operations\nAlthough systems engineering activities and pro-\ncesses are constrained throughout the entire project An effective transition from development to opera-\nlife cycle, additional pressures exist in Phase E: tions phases requires prior planning and coordina-\n tion among stakeholders. This planning should focus\n• Increased resource constraints: Even when not only on the effective transition of hardware and\n additional funding or staffing can be secured, software systems into service but also on the effec-\n building new capabilities or training new person- tive transfer of knowledge, skills, experience, and\n nel may require more time or effort than is avail- processes into roles that support the needs of flight\n able. Project budget and staffing profiles generally operations.\n decrease at or before entry into Phase E, and the\n remaining personnel are typically focused on mis- Development phase activities need to clearly and\n sion execution. concisely document system knowledge in the form\n\n\n 254",
+          "score": 4.146294245907465,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0011",
+          "page": 11,
+          "text": "1.0 Introduction\n\n\n\n\n1.1 Purpose systems requires a systematic and disciplined set of\n his handbook is intended to provide general processes that are applied recursively and iteratively\nTguidance and information on systems engineer- for the design, development, operation, maintenance,\ning that will be useful to the NASA community. It and closeout of systems throughout the life cycle of\nprovides a generic description of Systems Engineering the programs and projects. The scope of this hand-\n(SE) as it should be applied throughout NASA. A goal book includes systems engineering functions regard-\nof the handbook is to increase awareness and consis- less of whether they are performed by a manager or\ntency across the Agency and advance the practice of an engineer, in-house or by a contractor.\nSE. This handbook provides perspectives relevant to\nNASA and data particular to NASA. There are many Center-specific handbooks and direc-\n tives as well as textbooks that can be consulted for\nThis handbook should be used as a companion for in-depth tutorials. For guidance on systems engi-\nimplementing NPR 7123.1, Systems Engineering neering for information technology projects, refer\nProcesses and Requirements, as well as the Center- to Office of Chief Information Officer Information\nspecific handbooks and directives developed for Technology Systems Engineering Handbook Version 2.0.\nimplementing systems engineering at NASA. It pro- For guidance on entrance and exit criteria for mile-\nvides a companion reference book for the various stone reviews of software projects, refer to NASA-\nsystems engineering-related training being offered HDBK-2203, NASA Software Engineering Handbook.\nunder NASA’s auspices. A NASA systems engineer can also participate in\n the NASA Engineering Network (NEN) Systems\n Engineering Community of Practice, located at\n1.2 Scope and Depth https://nen.nasa.gov/web/se. This Web site includes\nThis handbook describes systems engineering best many resources useful to systems engineers, includ-\npractices that should be incorporated in the develop- ing document templates for many of the work prod-\nment and implementation of large and small NASA ucts and milestone review presentations required by\nprograms and projects. The engineering of NASA the NASA SE process.\n\n\n\n\n 1",
+          "score": 4.076186007469537,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "latency",
+      "results": [
+        {
+          "id": "NASA-SE:p0209",
+          "page": 209,
+          "text": " Appendix C: How to Write a Good Requirement— Checklist\n\n\n\n\n\n Is the terminology consistently used throughout  Is each performance requirement realistic?\n the document? Are the key terms included in the\n project’s glossary?  Are the tolerances overly tight? Are the tolerances\n defendable and cost-effective? Ask, “What is the\nTraceability worst thing that could happen if the tolerance was\n Are all requirements needed? Is each requirement doubled or tripled?”\n necessary to meet the parent requirement? Is each\n requirement a needed function or characteristic? Interfaces\n Distinguish between needs and wants. If it is not  Are all external interfaces clearly defined?\n necessary, it is not a requirement. Ask, “What is\n the worst that could happen if the requirement  Are all internal interfaces clearly defined?\n was not included?”\n  Are all interfaces necessary, sufficient, and consis-\n Are all requirements (functions, structures, and tent with each other?\n constraints) bidirectionally traceable to high-\n er-level requirements or mission or system-of-in- Maintainability\n terest scope (i.e., need(s), goals, objectives,  Have the requirements for maintainability of the\n constraints, or concept of operations)? system been specified in a measurable, verifiable\n manner?\n Is each requirement stated in such a manner that it\n can be uniquely referenced (e.g., each requirement  Are requirements written so that ripple effects\n is uniquely numbered) in subordinate documents? from changes are minimized (i.e., requirements\n are as weakly coupled as possible)?\nCorrectness\n Is each requirement correct? Reliability\n  Are clearly defined, measurable, and verifiable\n Is each stated assumption correct? Assumptions reliability requirements specified?\n should be confirmed before the document can be\n baselined.  Are there error detection, reporting, handling,\n and recovery requirements?\n Are the requirements technically feasible?\n  Are undesired events (e.g., single-event upset, data\nFunctionality loss or scrambling, operator error) considered and\n Are all described functions necessary and together their required responses specified?\n sufficient to meet mission and system goals and\n objectives?  Have assumptions about the intended sequence\n of functions been stated? Are these sequences\nPerformance required?\n Are all required performance specifications and\n margins listed (e.g., consider timing, throughput,  Do these requirements adequately address the\n storage size, latency, accuracy and precision)? survivability after a software or hardware fault of\n\n\n\n 199",
+          "score": 5.582396372830867,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"response time\" milliseconds",
+      "results": [
+        {
+          "id": "NASA-SE:p0264",
+          "page": 264,
+          "text": "Appendix T: Systems Engineering in Phase E\n\n\n\nT.1 Overview • Unforgiving schedule: Unlike pre-flight test\n activities, it may be difficult or even impossible\nIn general, normal Phase E activities reflect a reduced to pause mission execution to deal with technical\nemphasis on system design processes but a continued issues of a spacecraft in operation. It is typically\nfocus on product realization and technical manage- difficult or impossible to truly pause mission exe-\nment. Product realization process execution in Phase cution after launch.\nE takes the form of continued mission plan generation\n(and update), response to changing flight conditions These factors must be addressed when consider-\n(and occurrence of in-flight anomalies), and update ing activities that introduce change and risk during\nof mission operations techniques, procedures, and Phase E.\nguidelines based on operational experience gained.\nTechnical management processes ensure that appro-\npriate rigor and risk management practices are applied NOTE: When significant hardware or software\nin the execution of the product realization processes. changes are required in Phase E, the logical decom-\n position process may more closely resemble that\nSuccessful Phase E execution requires the prior estab- exercised in earlier project phases. In such cases,\nlishment of mission operations capabilities in four it may be more appropriate to identify the modifi-\n(4) distinct categories: tools, processes, products, cation as a new project executing in parallel—and\nand trained personnel. These capabilities may be coordinated with—the operating project.\ndeveloped as separate entities, but need to be fused\ntogether in Phase E to form an end-to-end opera-\ntional capability. T.2 Transition from Development\n to Operations\nAlthough systems engineering activities and pro-\ncesses are constrained throughout the entire project An effective transition from development to opera-\nlife cycle, additional pressures exist in Phase E: tions phases requires prior planning and coordina-\n tion among stakeholders. This planning should focus\n• Increased resource constraints: Even when not only on the effective transition of hardware and\n additional funding or staffing can be secured, software systems into service but also on the effec-\n building new capabilities or training new person- tive transfer of knowledge, skills, experience, and\n nel may require more time or effort than is avail- processes into roles that support the needs of flight\n able. Project budget and staffing profiles generally operations.\n decrease at or before entry into Phase E, and the\n remaining personnel are typically focused on mis- Development phase activities need to clearly and\n sion execution. concisely document system knowledge in the form\n\n\n 254",
+          "score": 5.644455799437382,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 4.2876722928238,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0202",
+          "page": 202,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nalways stated in quantitative terms. Expectations can need. The elements include all hardware, software,\nbe stated in terms of functions, behaviors, or con- equipment, facilities, personnel, processes, and pro-\nstraints with respect to the product being engineered cedures needed for this purpose. (2) The end product\nor the process used to engineer the product. (which performs operational functions) and enabling\n products (which provide life cycle support services to\nStakeholder Expectations Definition Process: A the operational end products) that make up a system.\nprocess used to elicit and define use cases, scenarios,\nconcept of operations, and stakeholder expectations System Acceptance Review: The SAR verifies the\nfor the applicable product life cycle phases and prod- completeness of the specific end products in relation\nuct layer. The baselined stakeholder expectations are to their expected maturity level, assesses compliance\nused for validation of the product layer end product. to stakeholder expectations, and ensures that the\n system has sufficient technical maturity to authorize\nStanding Review Board: The board responsible for its shipment to the designated operational facility or\nconducting independent reviews (life-cycle and spe- launch site.\ncial) of a program or project and providing objective,\nexpert judgments to the convening authorities. The System Definition Review: The Mission/System\nreviews are conducted in accordance with approved Definition Review (MDR/SDR) evaluates whether\nTerms of Reference (ToR) and life cycle requirements the proposed mission/system architecture is respon-\nper NPR 7123.1. sive to the program mission/system functional and\n performance requirements and requirements have\nState Diagram: A diagram that shows the flow in the been allocated to all functional elements of the mis-\nsystem in response to varying inputs in order to char- sion/system. This review is used for projects and for\nacterize the behavior of the system. single-project programs.\n\n\nSuccess Criteria: Specific accomplishments that System Integration Review: A SIR ensures that seg-\nneed to be satisfactorily demonstrated to meet the ments, components, and subsystems are on schedule\nobjectives of a technical review so that a technical to be integrated into the system and that integration\neffort can progress further in the life cycle. Success facilities, support personnel, and integration plans and\ncriteria are documented in the corresponding techni- procedures are on schedule to support integration.\ncal review plan. Formerly referred to as “exit” criteria,\na term still used in some NPDs/NPRs. System Requirements Review: For a program, the\n SRR is used to ensure that its functional and per-\nSurveillance : The monitoring of a contractor’s activ- formance requirements are properly formulated and\nities (e.g., status meetings, reviews, audits, site visits) correlated with the Agency and mission directorate\nfor progress and production and to demonstrate fis- strategic objectives.\ncal responsibility, ensure crew safety and mission suc-\ncess, and determine award fees for extraordinary (or For a system/project, the SRR evaluates whether the\npenalty fees for substandard) contract execution. functional and performance requirements defined for\n the system are responsive to the program’s require-\nSystem: (1) The combination of elements that func- ments and ensures that the preliminary project plan\ntion together to produce the capability to meet a and requirements will satisfy the mission.\n\n\n\n 192",
+          "score": 3.6882213839316176,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0060",
+          "page": 60,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n4.1.1.2.4 Establish Concept of Operations and Support location that may not be required during the nominal\n Strategies mission. The ConOps should include scenarios for all\nAfter the initial stakeholder expectations have significant operational situations, including known\nbeen established, the development of a Concept of off-nominal situations. To develop a useful and\nOperations (ConOps) will further ensure that the complete set of scenarios, important malfunctions\ntechnical team fully understands the expectations and degraded-mode operational situations should be\nand how they may be satisfied by the product, and considered. The ConOps is also an important aide to\nthat understanding has been agreed to by the stake- characterizing life cycle staffing goals and function\nholders. This may lead to further refinement of the allocation between humans and systems. In walking\ninitial set of stakeholder expectations if gaps or ambig- through the accomplishment of mission objectives, it\nuous statements are discovered. These scenarios and should become clear when decisions need to be made\nconcepts of how the system will behave provide an as to what the human operators are contributing vs.\nimplementation-free understanding of the stakehold- what the systems are responsible for delivering.\ners’ expectations by defining what is expected with-\nout addressing how (the design) to satisfy the need. The ConOps should consider all aspects of opera-\nIt captures required behavioral characteristics and tions including nominal and off-nominal operations\nthe manner in which people will interact with the during integration, test, and launch through dis-\nsystem. Support strategies include provisions for fab- posal. Typical information contained in the ConOps\nrication, test, deployment, operations, sustainment, includes a description of the major phases; operation\nand disposal. timelines; operational scenarios and/or DRM (see\n FIGURE 4.1-3 for an example of a DRM); fault man-\nThe ConOps is an important component in captur- agement strategies, description of human interaction\ning stakeholder expectations and is used in defin- and required training, end-to-end communications\ning requirements and the architecture of a project. strategy; command and data architecture; opera-\nIt stimulates the development of the requirements tional facilities; integrated logistic support (resup-\nand architecture related to the user elements of the ply, maintenance, and assembly); staffing levels and\nsystem. It serves as the basis for subsequent defini- required skill sets; and critical events. The operational\ntion documents such as the operations plan, launch scenarios describe the dynamic view of the systems’\nand early orbit plan, and operations handbook, and operations and include how the system is perceived\nit provides the foundation for the long-range opera- to function throughout the various modes and mode\ntional planning activities such as operational facili- transitions, including interactions with external inter-\nties, staffing, and network scheduling. faces, response to anticipated hazard and faults, and\n during failure mitigations. For exploration missions,\nThe ConOps is an important driver in the system multiple DRMs make up a ConOps. The design and\nrequirements and therefore should be considered early performance analysis leading to the requirements\nin the system design processes. Thinking through the should satisfy all of them.\nConOps and use cases often reveals requirements and\ndesign functions that might otherwise be overlooked. Additional information on the development of the\nFor example, adding system requirements to allow for ConOps is discussed in Section 4.1.2.1 of the NASA\ncommunication during a particular phase of a mis- Expanded Guidance for Systems Engineering docu-\nsion may require an additional antenna in a specific ment found https://nen.nasa.gov/web/se/doc-repository.\n\n\n\n 50",
+          "score": 3.467843099811365,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0131",
+          "page": 131,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n• Similarly, Human-In-The-Loop (HITL) evalua- method for defining and communicating what needs\n tions identify contingency operational issues. HITL to be done, how long it will take, and how each ele-\n investigations are particularly critical early in the ment of the project WBS might affect other elements.\n design process to expose, identify, and cost-effec- A complete network schedule may be used to calcu-\n tively correct operational issues—nominal, main- late how long it will take to complete a project; which\n tenance, repair, off-nominal, training, etc.—in activities determine that duration (i.e., critical path\n the required human interactions with the planned activities); and how much spare time (i.e., float) exists\n design. HITL testing should also be approached for all the other activities of the project.\n as a debugging exercise where hardware, software,\n and human elements interact and their perfor- “Critical path” is the sequence of dependent tasks\n mance is evaluated. If operational design and/or that determines the longest duration of time needed\n performance issues are not identified early, the cost to complete the project. These tasks drive the schedule\n of late design changes will be significant. and continually change, so they should be updated.\n The critical path may encompass only one task or a\n6.1.1.2.3 Schedule, Organize, and Budget the Technical series of interrelated tasks. It is important to identify\n Effort the critical path and the resources needed to com-\nOnce the technical team has defined the technical plete the critical tasks along the path if the project is\nwork to be done, efforts can focus on producing a to be completed on time and within its resources. As\nschedule and cost estimate for the technical portion the project progresses, the critical path will change as\nof the project. The technical team should organize the critical tasks are completed or as other tasks are\nthe technical tasks according to the project WBS delayed. This evolving critical path with its identified\nin a logical sequence of events, taking into consid- tasks needs to be carefully monitored during the pro-\neration the major project milestones, phasing of gression of the project.\navailable funding, and timing of the availability of\nsupporting resources. Network scheduling systems help managers accu-\n rately assess the impact of both technical and resource\nScheduling changes on the cost and schedule of a project. Cost\nProducts described in the WBS are the result of activ- and technical problems often show up first as sched-\nities that take time to complete. These activities have ule problems. Understanding the project’s schedule\ntime precedence relationships among them that may is a prerequisite for determining an accurate project\nbe used to create a network schedule explicitly defin- budget and for tracking performance and progress.\ning the dependencies of each activity on other activ- Because network schedules show how each activity\nities, the availability of resources, and the receipt of affects other activities, they assist in assessing and\nreceivables from outside sources. Use of a scheduling predicting the consequences of schedule slips or\ntool may facilitate the development and maintenance accelerations of an activity on the entire project.\nof the schedule.\n For additional information on scheduling, refer to\nScheduling is an essential component of planning NASA/SP-2010-3403, NASA Schedule Management\nand managing the activities of a project. The process Handbook.\nof creating a network schedule provides a standard\n\n\n\n\n\n 121",
+          "score": 2.7203373540190112,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0268",
+          "page": 268,
+          "text": " Appendix T: Systems Engineering in Phase E\n\n\n\n\n\nthe mission operations manager. Clear agreement be the result of system failures or changes in the sur-\nbetween these two parties is essential in ensuring that rounding environment. Where additional time may\nPhase E efforts are managed effectively. be available to assess and mitigate risk in other proj-\n ect phases, the nature of flight operations may limit\nT.3.3.1 Technical Planning the time over which risk management can be exe-\nTechnical planning in Phase E generally focuses cuted. For this reason, every project should develop a\non the management of scarce product develop- formal process for handling anomalies and managing\nment resources during mission execution. Key risk during operations. This process should be exer-\ndecision-makers, including the mission operations cised before flight, and decision-makers should be\nmanager and lower operations team leads, need to well versed in the process details.\nreview the benefits of a change against the resource\ncost to implement changes. Many resources are T.3.3.5 Configuration Management\nshared in Phase E – for example, product developers Effective and efficient Configuration Management\nmay also serve other real-time operations roles– and (CM) is essential during operations. Critical oper-\nthe additional workload placed on these resources ations materials, including procedures, plans, flight\nshould be viewed as a risk to be mitigated during datasets, and technical reference material need to\noperations. be secure, up to date, and easily accessed by those\n who make and enact mission critical decisions. CM\nT.3.3.2 Requirements Management systems—in their intended flight configuration—\nRequirements management during Phase E is simi- should be exercised as part of operational readiness\nlar in nature to pre-Phase E efforts. Although some tests to ensure that the systems, processes, and par-\nstreamlining may be implemented to reduce process ticipants are flight-ready.\noverhead in Phase E, the core need to review and val-\nidate requirements remains. As most Phase E changes Access to such operations products is generally\nare derived from a clearly demonstrated need, pro- time-critical, and CM systems supporting that access\ngram management may reduce or waive the need should be managed accordingly. Scheduled mainte-\nfor complete requirements traceability analysis and nance or other “downtime” periods should be coor-\ndocumentation. dinated with flight operations plans to minimize\n the risk of data being inaccessible during critical\nT.3.3.3 Interface Management activities.\nIt is relatively uncommon for interfaces to change in\nPhase E, but this can occur when a software tool is T.3.3.6 Technical Data Management\nmodified or a new need is uncovered. Interface defi- Tools, procedures, and other infrastructure for\nnitions should be managed in a manner similar to Technical Data Management must be baselined,\nthat used in other project phases. implemented, and verified prior to flight operations.\n Changes to these capabilities are rarely made during\nT.3.3.4 Technical Risk Management Phase E due to the high risk of data loss or reduc-\nManaging technical risks during operations can be tion in operations efficiency when changing during\nmore challenging during Phase E than during other operations.\nphases. New risks discovered during operations may\n\n\n\n\n\n 258",
+          "score": 2.5920572698806845,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0159",
+          "page": 159,
+          "text": " 6.0 Crosscutting Technical Management\n\n\n\n\n\n\n\n TYPES OF CONFIGURATION MANAGEMENT CHANGES\n\n\n • Engineering Change: An engineering change is an iteration in the baseline. Changes can be major or\n minor. They may or may not include a specification change. Changes affecting an external interface must\n be coordinated and approved by all stakeholders affected.\n\n\n > A “major” change is a change to the baseline configuration documentation that has significant\n impact (i.e., requires retrofit of delivered products or affects the baseline specification, cost, safety,\n compatibility with interfacing products, or operator, or maintenance training).\n > A ”minor” change corrects or modifies configuration documentation or processes without impact to\n the interchangeability of products or system elements in the system structure.\n\n\n • Waiver: A waiver is a documented agreement intentionally releasing a program or project from meeting a\n requirement. (Some Centers use deviations prior to Implementation and waivers during Implementation.)\n Authorized waivers do not constitute a change to a baseline.\n\n\n\n\n6.5.1.2.4 Maintain the Status of Configuration • Historical traceability\n Documentation • Software trouble reporting\nConfiguration Status Accounting (CSA) is the • Performance measurement data\nrecording and reporting of configuration data nec-\nessary to manage CIs effectively. An effective CSA The following are critical functions or attributes to\nsystem provides timely and accurate configuration consider if designing or purchasing software to assist\ninformation such as: with the task of managing configuration.\n\n• Complete current and historical configuration • Ability to share data real time with internal and\n documentation and unique identifiers. external stakeholders securely;\n • Version control and comparison (track history of\n• Status of proposed changes, deviations, and waiv- an object or product);\n ers from initiation to implementation. • Secure user checkout and check in;\n • Tracking capabilities for gathering metrics (i.e.,\n• Status and final disposition of identified discrep- time, date, who, time in phases, etc.);\n ancies and actions identified during each config- • Web based;\n uration audit. • Notification capability via e-mail;\n • Integration with other databases or legacy systems;\nSome useful purposes of the CSA data include: • Compatible with required support contractors\n and/or suppliers (i.e., can accept data from a third\n• An aid for proposed change evaluations, change party as required);\n decisions, investigations of design problems, war- • Integration with drafting and modeling programs\n ranties, and shelf-life calculations as required;\n\n\n 149",
+          "score": 2.582255133359651,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "ms \"interface\" \"shall\" 100 ms",
+      "results": [
+        {
+          "id": "NASA-SE:p0247",
+          "page": 247,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\n3.2.1 Mass Properties example, this subsection should cover various data stan-\nDefine the derived interface requirements based on the dards, message timing, protocols, error detection/correc-\nallocated requirements contained in the applicable speci- tion, functions, initialization, and status.\nfication pertaining to that side of the interface. For exam-\nple, this subsection should cover the mass of the element. 3.2.7 Environments\n Define the derived interface requirements based on\n3.2.2 Structural/Mechanical the allocated requirements contained in the applicable\nDefine the derived interface requirements based on specification pertaining to that side of the interface. For\nthe allocated requirements contained in the applicable example, cover the dynamic envelope measures of the ele-\nspecification pertaining to that side of the interface. For ment in English units or the metric equivalent on this\nexample, this subsection should cover attachment, stiff- side of the interface.\nness, latching, and mechanisms.\n 3.2.7.1 Electromagnetic Effects\n3.2.3 Fluid 3.2.7.1.a Electromagnetic Compatibility\nDefine the derived interface requirements based on Define the appropriate electromagnetic compatibility\nthe allocated requirements contained in the applicable requirements. For example, the end-item-1-to-end-item-2\nspecification pertaining to that side of the interface. For interface shall meet the requirements [to be determined]\nexample, this subsection should cover fluid areas such as of systems requirements for electromagnetic compatibility.\nthermal control, O2 and N2, potable and waste water,\nfuel cell water, and atmospheric sampling. 3.2.7.1.b Electromagnetic Interference\n Define the appropriate electromagnetic interference\n3.2.4 Electrical (Power) requirements. For example, the end-item-1-to-end-\nDefine the derived interface requirements based on item-2 interface shall meet the requirements [to be\nthe allocated requirements contained in the applicable determined] of electromagnetic emission and susceptibil-\nspecification pertaining to that side of the interface. For ity requirements for electromagnetic compatibility.\nexample, this subsection should cover various electric\ncurrent, voltage, wattage, and resistance levels. 3.2.7.1.c Grounding\n Define the appropriate grounding requirements. For exam-\n3.2.5 Electronic (Signal) ple, the end-item-1-to-end-item-2 interface shall meet the\nDefine the derived interface requirements based on requirements [to be determined] of grounding requirements.\nthe allocated requirements contained in the applicable\nspecification pertaining to that side of the interface. For 3.2.7.1.d Bonding\nexample, this subsection should cover various signal types Define the appropriate bonding requirements. For\nsuch as audio, video, command data handling, and example, the end-item-1-to-end-item-2 structural/\nnavigation. mechanical interface shall meet the requirements [to be\n determined] of electrical bonding requirements.\n3.2.6 Software and Data\nDefine the derived interface requirements based on 3.2.7.1.e Cable and Wire Design\nthe allocated requirements contained in the applicable Define the appropriate cable and wire design require-\nspecification pertaining to that side of the interface. For ments. For example, the end-item-1-to-end-item-2\n\n\n\n\n\n 237",
+          "score": 8.259455777979577,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0248",
+          "page": 248,
+          "text": " Appendix L: Interface RequirementsDocument Outline\n\n\n\n\n\ncable and wire interface shall meet the requirements [to 3.2.7.4 Vibroacoustics\nbe determined] of cable/wire design and control require- Define the appropriate vibroacoustics requirements.\nments for electromagnetic compatibility. Define the vibroacoustic loads that each end item should\n accommodate.\n3.2.7.2 Acoustic\nDefine the appropriate acoustics requirements. Define 3.2.7.5 Human Operability\nthe acoustic noise levels on each side of the interface in Define the appropriate human interface requirements.\naccordance with program or project requirements. Define the human-centered design considerations, con-\n straints, and capabilities that each end item should\n3.2.7.3 Structural Loads accommodate.\nDefine the appropriate structural loads requirements. Define\nthe mated loads that each end item should accommodate. 3.2.8 Other Types of Interface Requirements\n Define other types of unique interface requirements that\n may be applicable.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 238",
+          "score": 7.262317631876899,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 6.824211243706346,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 6.746631282313697,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0023",
+          "page": 23,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n 100% 90%\n\n 90%\n 80% 75% 500–1000× 100%\n\n ts\n 70% Operations\n Committed Life Cycle Cos20–100× through\n 60% Disposal\n 50% 45%\n\n nge Design Direction\n 40% 3–6× 50%\n 30% Cost to Cha ompleted Prod/Test\n % C\n 20% (Costs Expended)\n\n 10% Concept Design 20%\n 8% 15% Develop\n 0%\n\n MCR SRR SDR PDR CDR SIR ORR DR/DRR\n Time\n\n\n MCR Mission Concept Review CDR Critical Design Review\n SRR System Requirements Review SIR System Integration Review\n SDR System Definition Review ORR Operational Readiness Review\n PDR Preliminary Design Review DR/DRR Decommissioning/Disposal Readiness Review\n\n Adapted from INCOSE-TP-2003-002-04, 2015\n\n\n FIGURE 2.5-1 Life-Cycle Cost Impacts from Early Phase Decision-Making\n\n\nintegration. Therefore, the human element is some- 2.7 Competency Model for\nthing that integration and systems engineering pro- Systems Engineers\ncesses must address. The definition of “system” in\nNPR 7123.1 is inclusive; i.e., a system is “the combi- TABLE 2.7-1 provides a summary of the Competency\nnation of elements that function together to produce Model for Systems Engineering. For more informa-\nthe capability required to meet a need. The elements tion on the NASA SE Competency model refer to:\ninclude all hardware, software, equipment, facilities, http://appel.nasa.gov/competency-model/.\npersonnel, processes, and procedures needed for this\npurpose. For additional information and guidance There are four levels of proficiencies associated with\non his, refer to Section 2.6 of the NASA Expanded each of these competencies:\nGuidance for Systems Engineering at https://nen.\nnasa.gov/web/se/doc-repository. • Team Practitioner/Technical Engineer\n • Team Lead/Subsystem Lead\n • Project Systems Engineer\n • Chief Engineer\n\n\n 13",
+          "score": 6.6630596076799185,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 5.893762765359105,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 4.880303756323711,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    }
+  ],
+  "viewed_pages": [],
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 31958.23
+}

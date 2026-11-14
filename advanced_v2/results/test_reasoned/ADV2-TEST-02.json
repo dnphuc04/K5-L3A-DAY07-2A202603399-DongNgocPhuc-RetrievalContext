@@ -1,0 +1,323 @@
+{
+  "id": "ADV2-TEST-02",
+  "split": "test",
+  "question": "In Table 5.3-1, what procedure copy must a Verification Report include, and what does its final entry require about test results and acceptability?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4nGZ44ET2zc3b6O2694kDJQjpM4",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 655,
+        "completion_tokens": 33,
+        "total_tokens": 688,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 1462.21,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_oYuEDCee0HYssSNMIcrYE2FX",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Table 5.3-1 Verification Report procedure copy final entry require test results acceptability\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nINzZqCpTpIYhOointOy0J0rbj",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5567,
+        "completion_tokens": 181,
+        "total_tokens": 5748,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 152,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3205.69,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_IxsWjEDd2ko4v1Xj0LDIO8N9",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0104\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nN4PUl8doUyuYpyUglIUdTveYE",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 9908,
+        "completion_tokens": 316,
+        "total_tokens": 10224,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 126,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5507.38,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_fmAJJe65g2owBXY55XpsmJDj",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Table 5.3-1 states that a Verification Report must include a \\\"Copy of the as-run procedure (may include redlines).\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0104\",\"locator\":\"Table 5.3-1, Verification Report column, row \\\"Copy of the as-run procedure\\\"\",\"evidence\":\"Copy of the as-run procedure (may include redlines);\"}]},{\"text\":\"In Table 5.3-1, the final Verification Report entry requires \\\"Authentication of test results and authorization of test acceptability.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0104\",\"locator\":\"Table 5.3-1, Verification Report column, final row\",\"evidence\":\"Authentication of test results and authorization of test acceptability.\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4nSNtH1XQqzbmrdfc1WYpVLU1B0",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 4831,
+        "completion_tokens": 267,
+        "total_tokens": 5098,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 78,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4697.21,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rBJdHMqrQmIctPxonZylbt6Z",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Table 5.3-1 says a Verification Report should include a \\\"Copy of the as-run procedure (may include redlines).\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0104\",\"locator\":\"Table 5.3-1, Verification Report column (row near bottom)\",\"evidence\":\"\\\"Copy of the as-run procedure (may include redlines);\\\"\"}]},{\"text\":\"In Table 5.3-1, the final Verification Report entry calls for \\\"Authentication of test results and authorization of test acceptability.\\\"\",\"citations\":[{\"source_id\":\"NASA-SE:p0104\",\"locator\":\"Table 5.3-1, Verification Report column (final entry)\",\"evidence\":\"\\\"Authentication of test results and authorization of test acceptability.\\\"\"}]}]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "In Table 5.3-1, what procedure copy must a Verification Report include, and what does its final entry require about test results and acceptability?",
+      "results": [
+        {
+          "id": "NASA-SE:p0104",
+          "page": 104,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n TABLE 5.3-1 Example information in Verification Procedures and Reports\nVerification Procedure Verification Report\nNomenclature and identification of the test article or Verification objectives and the degree to which they were\nmaterial; met;\n\nIdentification of test configuration and any differences Description of verification activity including deviations\nfrom flight operational configuration; from nominal results (discrepancies);\n\nIdentification of objectives and criteria established for the Test configuration and differences from the flight\nverification by the applicable requirements specification; operational configuration;\n\nCharacteristics and design criteria to be inspected, Specific result of each activity and each procedure,\ndemonstrated, or tested, including values with tolerances including the location or link to verification data/artifacts;\nfor acceptance or rejection;\n\nDescription, in sequence, of steps, operations, and Specific result of each analysis including those associated\nobservations to be taken; with test-data analysis;\n\nIdentification of computer software required; Test performance data tables, graphs, illustrations, and\n pictures;\n\nIdentification of measuring, test, and recording equipment Summary of nonconformance/discrepancy reports,\nto be used, specifying range, accuracy, and type; including dispositions with approved corrective actions\n and planned retest activity if available;\n\nProvision for recording equipment calibration or software Conclusions and recommendations relative to the\nversion data; success of verification activity;\n\nCredentials showing that required computer test Status of Government-Supplied Equipment (GSE) and\nprograms/support equipment and software have been other enabling support equipment as affected by test;\nverified prior to use with flight operational hardware;\n\nAny special instructions for operating data recording Copy of the as-run procedure (may include redlines); and\nequipment or other automated test equipment as\napplicable;\n\nLayouts, schematics, or diagrams showing identification, Authentication of test results and authorization of\nlocation, and interconnection of test equipment, test acceptability.\narticles, and measuring points and any other associated\ndesign or configuration work products;\n\nIdentification of hazardous situations or operations;\n\nPrecautions and safety instructions to ensure safety of\npersonnel and prevent degradation of test articles and\nmeasuring equipment;\n\nEnvironmental and/or other conditions to be maintained\nwith tolerances;\n\nConstraints on inspection or testing;\n\nProvision or instructions for the recording of verification\nresults and other artifacts;\n\nSpecial instructions for instances of nonconformance and\nanomalous occurrences or results; and\n\nSpecifications for facility, equipment maintenance,\nhousekeeping, quality inspection, and safety and handling\nrequirements before, during, and after the total verification\nactivity.\n\n\n\n\n 94",
+          "score": 29.748726510915258,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0101",
+          "page": 101,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n From Pro duct\n Implementation or\n Product Integration Process To Product\n End Product Validation Process\n to Be Verified Prepare to conduct product\n verification Verified End Product\n From Configuraation\n Management Process\n Specified Requirements Perform the product To Technical\n Baseline verification Assessment Process\n\n Product Verification\n Results\n Analyze the outcomes of\n the product verification\n To Technical Data\n Product Verification ManagementProcess\n Plan Prepare a product Product Verification\n verification report Report\n From existing\n resources or Product\n TransitionProcess Product Verification\n Capture work products from Work Products\n Product Verification product verification activities\n Enabling Products\n\n\n FIGURE 5.3-1 Product Verification Process\n\n\n\n• Project type, especially for flight projects. » Project cost and schedule implications.\n Verification activities and timing depend on the Verification activities can be significant driv-\n following: ers of a project’s cost and schedule, and these\n implications should be considered early in the\n » The type of flight article involved (e.g., an development of the verification plan. Trade\n experiment, payload, or launch vehicle). studies should be performed early in the life\n » For missions required to follow NPR cycle to support decisions about verification\n 7120.5, NASA Space Flight Program and methods and types and the selection of facil-\n Project Management Requirements, NASA ity capabilities and locations. For example, a\n payload classification (NPR 8705.4, Risk trade study might be made to decide between\n Classification for NASA Payloads) guidelines performing a test at a centralized facility or at\n are intended to serve as a starting point for several decentralized locations.\n establishing the formality of verification » Risk management should be considered in\n approaches that can be adapted to the needs the development of the verification approach.\n of a specific project based on the “A–D” Qualitative risk assessments and quantita-\n payload classification. Further flexibility is tive risk analyses (e.g., a Failure Mode and\n imparted to projects following NPR 7120.8, Effects Analysis (FMEA)) often identify new\n NASA Research and Technology Program concerns that can be mitigated by additional\n and Project Management Requirements. verifications, thus increasing the extent of\n\n\n 91",
+          "score": 13.756056418284993,
+          "reference_match": 2,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0102",
+          "page": 102,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n verification activities. Other risk assessments of the project life cycle and matures as the design is\n contribute to trade studies that determine matured. The verification environment is considered as\n the preferred methods of verification to be part of procedure development. Operational scenarios\n used and when those methods should be are assessed to explore all possible verification activities\n performed. For example, a trade might be to be performed. The final element is preparation of the\n made between performing a model test versus verification environment; e.g., facilities, equipment,\n determining model characteristics by a less tools, measuring devices, and climatic conditions.\n costly but less revealing analysis. The project\n manager/systems engineer should determine When operator or other user interaction is involved,\n what risks are acceptable in terms of the proj- it is important to ensure that humans are properly\n ect’s cost and schedule. represented in the verification activities. This includes\n physical size, skills, knowledge, training, clothing,\n• Availability of verification facilities/sites and special gear, and tools. Note: Testing that includes\n transportation assets to move an article from one representatives of the human in the system is often\n location to another (when needed). This requires referred to as “human-in-the-loop” testing.\n coordination with the Integrated Logistics\n Support (ILS) engineer.\n NOTE: Depending on the nature of the verifica-\n• Availability of appropriately trained users for tion effort and the life cycle phase the program is in,\n interaction with systems having human interfaces. some type of review to assess readiness for verifi-\n cation (as well as validation later) is typically held. In\n• Acquisition strategy; i.e., in-house development or earlier phases of the life cycle, these Test Readiness\n system contract. A NASA field Center can often Reviews (TRRs) may be held informally; in later\n shape a contractor’s verification process through phases of the life cycle, this review may become a\n the project’s SOW. more formal event. TRRs and other technical reviews\n are an activity of the Technical Assessment Process.\n• Degree of design heritage and hardware/software reuse. On most projects, a number of TRRs with tailored\n entrance/success criteria are held to assess the\n5.3.1.2.1 Product Verification Preparation readiness and availability of test ranges, test facili-\nIn preparation for verification, the verification ties, trained testers, instrumentation, integration labs,\nplan and the specified requirements are collected, support equipment, and other enabling products.\nreviewed, and confirmed. The product to be verified Peer reviews are additional reviews that may be\nis obtained (output from the Product Implementation conducted formally or informally to ensure readiness\nProcess or the Product Integration Process) along for verification (as well as the results of the verifi-\nwith any enabling products, such as those repre- cation process). Guidelines for conducting a peer\nsenting external interfacing products and support review are discussed in Section 6.7.2.4.5.\nresources (including personnel) that are necessary for\nverification. Procedures capturing detailed step-by-\nstep activities and based on the verification type and TABLE 5.3-1 provides an example of the type of infor-\nmethods are finalized and approved. Development of mation that may be included in a verification proce-\nprocedures typically begins during the design phase dure and a verification report.\n\n\n\n 92",
+          "score": 17.47753138573867,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0006",
+          "page": 6,
+          "text": "Table of Tables\n\n\n\n\nTable 2.1-1 Alignment of the 17 SE Processes to Table 6.1-2 Examples of Types of Facilities to\n AS9100 . . . . . . . . . . . . . . . . 7 Consider during Planning . . . . . . 120\nTable 2.2-1 Project Life Cycle Phases . . . . . . . 9 Table 6.6-1 Technical Data Tasks . . . . . . . . 156\nTable 2.7-1 NASA System Engineering Table 6.7-1 Purpose and Results for Life-Cycle\n Competency Model . . . . . . . . . . 14 Reviews for Spaceflight Projects . . 161\nTable 3.0-1 SE Product Maturity from NPR 7123 .1 19 Table 6.8-1 Typical Information to Capture in a\nTable 3.11-1 Example of Program/Project Types . . 38 Decision Report . . . . . . . . . . . 171\nTable 3.11-2 Example of Tailoring NPR 7120 .5 Table D-1 Requirements Verification Matrix . . 202\n Required Project Products . . . . . .39 Table E-1 Validation Requirements Matrix . . . 204\nTable 3.11-3 Example Use of a Compliance Matrix . 41 Table G.1-1 Products Provided by the TA as a\nTable 4.1-1 Stakeholder Identification Function of Program/Project Phase . 207\n throughout the Life Cycle . . . . . . . 47 Table J-1 Guidance on SEMP Content per\nTable 4.2-1 Benefits of Well-Written Requirements 59 Life-Cycle Phase . . . . . . . . . . 233\nTable 4.2-2 Requirements Metadata . . . . . . .59 Table K-1 Example of Expected Maturity of\nTable 5.3-1 Example information in Verification Key Technical Plans . . . . . . . . . 235\n Procedures and Reports . . . . . . .94 Table R.2-1 HSI Activity, Product, or Risk Mitigation\nTable 6.1-1 Example Engineering Team by Program/Project Phase . . . . . 250\n Disciplines in Pre-Phase A for\n Robotic Infrared Observatory . . . . 118\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n vi",
+          "score": 13.428493195547164,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0099",
+          "page": 99,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n\n DIFFERENCES BETWEEN VERIFICATION AND VALIDATION TESTING\n\n\n Testing is a detailed evaluation method of both verification and validation\n\n\n Verification Testing: Verification testing relates back to the approved requirements set (such as an SRD)\n and can be performed at different stages in the product life cycle. Verification tests are the official “for\n the record” testing performed on a system or element to show that it meets its allocated requirements\n or specifications including physical and functional interfaces. Verification tests use instrumentation and\n measurements and are generally accomplished by engineers, technicians, or operator-maintainer test\n personnel in a controlled environment to facilitate failure analysis.\n\n\n Validation Testing: Validation relates back to the ConOps document. Validation testing is conducted\n under realistic conditions (or simulated conditions) on any end product to determine the effectiveness and\n suitability of the product for use in mission operations by typical users and to evaluate the results of such\n tests. It ensures that the system is operating as expected when placed in a realistic environment.\n\n\n\nThe outcome of the Product Verification Process is con- it was assembled correctly. Any supporting doc-\nfirmation that the end product, whether achieved by umentation should be supplied with the product.\nimplementation or integration, conforms to its speci-\nfied requirements, i.e., verification of the end product. • Verification plan: This plan will have been devel-\nThis subsection discusses the process activities, inputs, oped under the Technical Planning Process and\noutcomes, and potential product deficiencies. baselined before entering this verification.\n\n5.3.1 Process Description • Specified requirements baseline: These are the\nFIGURE 5.3-1, taken from NPR 7123.1, provides a typ- requirements that have been identified to be verified\nical flow diagram for the Product Verification Process for this product. Acceptance criteria should have\nand identifies typical inputs, outputs, and activities been identified for each requirement to be verified.\nto consider in addressing product verification.\n • Enabling products: Any other products needed\n5.3.1.1 Inputs to perform the Product Verification Process. This\nKey inputs to the process are: may include test fixtures and support equipment.\n\n• The product to be verified: This product Additional work products such as the ConOps, mis-\n will have been transitioned from either the sion needs and goals, interface control drawings, test-\n Product Implementation Process or the Product ing standards and policies, and Agency standards and\n Integration Process. The product will likely have policies may also be needed to put verification activ-\n been through at least a functional test to ensure ities into context.\n\n\n\n\n\n 89",
+          "score": 11.78152153616336,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0005",
+          "page": 5,
+          "text": "Table of Figures\n\n\n\n\nFigure 2.0-1 SE in Context of Overall Project Figure 5.2-1 Product Integration Process . . . . .86\n Management . . . . . . . . . . . . . 5 Figure 5.3-1 Product Verification Process . . . . .91\nFigure 2.1-1 The Systems Engineering Engine Figure 5.3-2 Example of End-to-End Data Flow\n (NPR 7123 .1) . . . . . . . . . . . . . 6 for a Scientific Satellite Mission . . . .96\nFigure 2.2-1 Miniature Version of the Poster-Size Figure 5.4-1 Product Validation Process . . . . . 100\n NASA Project Life Cycle Process Figure 5.5-1 Product Transition Process . . . . . 107\n Flow for Flight and Ground Systems Figure 6.1-1 Technical Planning Process . . . . . 115\n Accompanying this Handbook . . . . 8\nFigure 2.5-1 Life-Cycle Cost Impacts from Early Figure 6.2-1 Requirements Management Process 131\n Phase Decision-Making . . . . . . . . 13 Figure 6.3-1 Interface Management Process . . . 136\nFigure 3.0-1 NASA Space Flight Project Life Cycle Figure 6.4-1 Risk Scenario Development . . . . . 139\n from NPR 7120 .5E . . . . . . . . . .18 Figure 6.4-2 Risk as an Aggregate Set of\nFigure 3.11-1 Notional Space Flight Products Risk Triplets . . . . . . . . . . . . . 139\n Tailoring Process . . . . . . . . . . .36 Figure 6.4-3 Risk Management Process . . . . . 141\nFigure 4.0-1 Interrelationships among the System Figure 6.4-4 Risk Management as the Interaction\n Design Processes . . . . . . . . . . . 44 of Risk-Informed Decision Making\nFigure 4.1-1 Stakeholder Expectations Definition and Continuous Risk Management . 142\n Process . . . . . . . . . . . . . . . .46 Figure 6.5-1 Configuration Management Process 145\nFigure 4.1-2 Information Flow for Stakeholder Figure 6.5-2 Five Elements of Configuration\n Expectations . . . . . . . . . . . . .48 Management . . . . . . . . . . . . 145\nFigure 4.1-3 Example of a Lunar Sortie DRM Early in Figure 6.5-3 Evolution of Technical Baseline . . . 147\n the Life Cycle . . . . . . . . . . . . . 51 Figure 6.5-4 Typical Change Control Process . . 148\nFigure 4.2-1 Technical Requirements Definition Figure 6.6-1 Technical Data Management\n Process . . . . . . . . . . . . . . . .55 Process . . . . . . . . . . . . . . . 151\nFigure 4.2-2 Flow, Type and Ownership of Figure 6.7-1 Technical Assessment Process . . . 158\n Requirements . . . . . . . . . . . . . 57 Figure 6.7-2 Planning and Status\nFigure 4.2-3 The Flowdown of Requirements . . . . 58 Reporting Feedback Loop . . . . . 159\nFigure 4.3-1 Logical Decomposition Process . . . . 63 Figure 6.8-1 Decision Analysis Process . . . . . 165\nFigure 4.4-1 Design Solution Definition Process . .66 Figure 6.8-2 Risk Analysis of Decision Alternatives 166\nFigure 4.4-2 The Doctrine of Successive Figure G.1-1 PBS Example . . . . . . . . . . . . 208\n Refinement . . . . . . . . . . . . . . 67 Figure G.3-1 Technology Assessment Process . . 209\nFigure 4.4-3 A Quantitative Objective Function, Figure G.3-2 Architectural Studies and\n Dependent on Life Cycle Cost and Technology Development . . . . . . 210\n All Aspects of Effectiveness . . . . . . 71 Figure G.4-1 Technology Readiness Levels . . . . 211\nFigure 5.0-1 Product Realization . . . . . . . . . . 78 Figure G.4-2 TMA Thought Process . . . . . . . 212\nFigure 5.1-1 Product Implementation Process . . . 79 Figure G.4-3 TRL Assessment Matrix . . . . . . . 213\n\n\n\n\n\n\n v",
+          "score": 6.68356297789711,
+          "reference_match": 1,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0107",
+          "page": 107,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n form for the life cycle phase) complies with its NOTE: Nonconformance and discrepancy\n specified requirements, and if it does not, a non- reports may be directly linked with the Technical\n conformance report delineating the variance is Risk Management Process. Depending on the\n available. nature of the nonconformance, approval through\n such bodies as a Material Review Board or\n• A determination is made as to whether the appro- Configuration Control Board (which typically\n priate results were collected and evaluated to show includes risk management participation) may\n completion of verification objectives throughout be required.\n their performance envelope.\n\n• A determination is made that the verification System design and product realization process activ-\n product was appropriately integrated with the ities may be required to resolve product nonconfor-\n enabling products and verification environment. mance. If the mitigation of the nonconformance\n results in a change to the product, the verification\n5.3.1.2.3 Analyze Product Verification Results and may need to be planned and performed again.\n Report\nAs the verification activities are completed, the Outcomes of analyzing the verification results include\nresults are collected and analyzed. The data are ana- the following:\nlyzed for quality, integrity, correctness, consistency,\nand validity. Any verification discrepancies (anom- • Product nonconformance (not compliant with\nalies, variations, and out-of-compliance conditions) product requirement) is identified.\nare identified and reviewed to determine if there is a\nnonconforming product not resulting from poor ver- • Appropriate replanning, redefinition of require-\nification conduct, procedure, or conditions. If possi- ments, redesign, implementation/integration, mod-\nble, this analysis is performed while the test/analysis ification, and reverification have been accomplished\nconfiguration is still intact. This allows a quick turn- for resolution of the nonconforming product.\naround in case the data indicates that a correction to\nthe test or analysis run needs to be performed again. • Appropriate facility modifications, procedure\n corrections, enabling product modification, and\nDiscrepancies and nonconforming products should reverification have been performed for non-prod-\nbe recorded and reported for follow-up action and uct-related discrepancies.\nclosure. Verification results should be recorded in\na requirements compliance or verification matrix • Waivers for nonconforming products are accepted.\nor other method developed during the Technical\nRequirements Definition Process to trace compliance • Discrepancy and nonconformance reports including\nfor each product requirement. Waivers needed as a corrective actions have been generated as needed.\nresult of verification to request relief from or modify\na requirement are identified. • The verification report is completed.\n\n\n\n\n\n\n\n 97",
+          "score": 23.48954982105157,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0104",
+          "page": 104,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n TABLE 5.3-1 Example information in Verification Procedures and Reports\nVerification Procedure Verification Report\nNomenclature and identification of the test article or Verification objectives and the degree to which they were\nmaterial; met;\n\nIdentification of test configuration and any differences Description of verification activity including deviations\nfrom flight operational configuration; from nominal results (discrepancies);\n\nIdentification of objectives and criteria established for the Test configuration and differences from the flight\nverification by the applicable requirements specification; operational configuration;\n\nCharacteristics and design criteria to be inspected, Specific result of each activity and each procedure,\ndemonstrated, or tested, including values with tolerances including the location or link to verification data/artifacts;\nfor acceptance or rejection;\n\nDescription, in sequence, of steps, operations, and Specific result of each analysis including those associated\nobservations to be taken; with test-data analysis;\n\nIdentification of computer software required; Test performance data tables, graphs, illustrations, and\n pictures;\n\nIdentification of measuring, test, and recording equipment Summary of nonconformance/discrepancy reports,\nto be used, specifying range, accuracy, and type; including dispositions with approved corrective actions\n and planned retest activity if available;\n\nProvision for recording equipment calibration or software Conclusions and recommendations relative to the\nversion data; success of verification activity;\n\nCredentials showing that required computer test Status of Government-Supplied Equipment (GSE) and\nprograms/support equipment and software have been other enabling support equipment as affected by test;\nverified prior to use with flight operational hardware;\n\nAny special instructions for operating data recording Copy of the as-run procedure (may include redlines); and\nequipment or other automated test equipment as\napplicable;\n\nLayouts, schematics, or diagrams showing identification, Authentication of test results and authorization of\nlocation, and interconnection of test equipment, test acceptability.\narticles, and measuring points and any other associated\ndesign or configuration work products;\n\nIdentification of hazardous situations or operations;\n\nPrecautions and safety instructions to ensure safety of\npersonnel and prevent degradation of test articles and\nmeasuring equipment;\n\nEnvironmental and/or other conditions to be maintained\nwith tolerances;\n\nConstraints on inspection or testing;\n\nProvision or instructions for the recording of verification\nresults and other artifacts;\n\nSpecial instructions for instances of nonconformance and\nanomalous occurrences or results; and\n\nSpecifications for facility, equipment maintenance,\nhousekeeping, quality inspection, and safety and handling\nrequirements before, during, and after the total verification\nactivity.\n\n\n\n\n 94",
+          "image_path": "data/local/advanced/pages/p0104_2000.png",
+          "image_sha256": "dfc508907601b3aeae39126830f8e7f954ce96696d8875e15ee527613a4a664a"
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0104",
+          "page": 104,
+          "text": " 5.0 Product Realization\n\n\n\n\n\n\n TABLE 5.3-1 Example information in Verification Procedures and Reports\nVerification Procedure Verification Report\nNomenclature and identification of the test article or Verification objectives and the degree to which they were\nmaterial; met;\n\nIdentification of test configuration and any differences Description of verification activity including deviations\nfrom flight operational configuration; from nominal results (discrepancies);\n\nIdentification of objectives and criteria established for the Test configuration and differences from the flight\nverification by the applicable requirements specification; operational configuration;\n\nCharacteristics and design criteria to be inspected, Specific result of each activity and each procedure,\ndemonstrated, or tested, including values with tolerances including the location or link to verification data/artifacts;\nfor acceptance or rejection;\n\nDescription, in sequence, of steps, operations, and Specific result of each analysis including those associated\nobservations to be taken; with test-data analysis;\n\nIdentification of computer software required; Test performance data tables, graphs, illustrations, and\n pictures;\n\nIdentification of measuring, test, and recording equipment Summary of nonconformance/discrepancy reports,\nto be used, specifying range, accuracy, and type; including dispositions with approved corrective actions\n and planned retest activity if available;\n\nProvision for recording equipment calibration or software Conclusions and recommendations relative to the\nversion data; success of verification activity;\n\nCredentials showing that required computer test Status of Government-Supplied Equipment (GSE) and\nprograms/support equipment and software have been other enabling support equipment as affected by test;\nverified prior to use with flight operational hardware;\n\nAny special instructions for operating data recording Copy of the as-run procedure (may include redlines); and\nequipment or other automated test equipment as\napplicable;\n\nLayouts, schematics, or diagrams showing identification, Authentication of test results and authorization of\nlocation, and interconnection of test equipment, test acceptability.\narticles, and measuring points and any other associated\ndesign or configuration work products;\n\nIdentification of hazardous situations or operations;\n\nPrecautions and safety instructions to ensure safety of\npersonnel and prevent degradation of test articles and\nmeasuring equipment;\n\nEnvironmental and/or other conditions to be maintained\nwith tolerances;\n\nConstraints on inspection or testing;\n\nProvision or instructions for the recording of verification\nresults and other artifacts;\n\nSpecial instructions for instances of nonconformance and\nanomalous occurrences or results; and\n\nSpecifications for facility, equipment maintenance,\nhousekeeping, quality inspection, and safety and handling\nrequirements before, during, and after the total verification\nactivity.\n\n\n\n\n 94",
+          "image_sha256": "dfc508907601b3aeae39126830f8e7f954ce96696d8875e15ee527613a4a664a"
+        }
+      ],
+      "result": {
+        "status": "answered",
+        "claims": [
+          {
+            "text": "Table 5.3-1 says a Verification Report should include a \"Copy of the as-run procedure (may include redlines).\"",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0104",
+                "locator": "Table 5.3-1, Verification Report column (row near bottom)",
+                "evidence": "\"Copy of the as-run procedure (may include redlines);\""
+              }
+            ]
+          },
+          {
+            "text": "In Table 5.3-1, the final Verification Report entry calls for \"Authentication of test results and authorization of test acceptability.\"",
+            "citations": [
+              {
+                "source_id": "NASA-SE:p0104",
+                "locator": "Table 5.3-1, Verification Report column (final entry)",
+                "evidence": "\"Authentication of test results and authorization of test acceptability.\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "viewed_pages": [
+    104
+  ],
+  "draft_answer": {
+    "status": "answered",
+    "claims": [
+      {
+        "text": "Table 5.3-1 states that a Verification Report must include a \"Copy of the as-run procedure (may include redlines).\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0104",
+            "locator": "Table 5.3-1, Verification Report column, row \"Copy of the as-run procedure\"",
+            "evidence": "Copy of the as-run procedure (may include redlines);"
+          }
+        ]
+      },
+      {
+        "text": "In Table 5.3-1, the final Verification Report entry requires \"Authentication of test results and authorization of test acceptability.\"",
+        "citations": [
+          {
+            "source_id": "NASA-SE:p0104",
+            "locator": "Table 5.3-1, Verification Report column, final row",
+            "evidence": "Authentication of test results and authorization of test acceptability."
+          }
+        ]
+      }
+    ]
+  },
+  "status": "answered",
+  "claims": [
+    {
+      "text": "Table 5.3-1 says a Verification Report should include a \"Copy of the as-run procedure (may include redlines).\"",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0104",
+          "locator": "Table 5.3-1, Verification Report column (row near bottom)",
+          "evidence": "\"Copy of the as-run procedure (may include redlines);\""
+        }
+      ]
+    },
+    {
+      "text": "In Table 5.3-1, the final Verification Report entry calls for \"Authentication of test results and authorization of test acceptability.\"",
+      "citations": [
+        {
+          "source_id": "NASA-SE:p0104",
+          "locator": "Table 5.3-1, Verification Report column (final entry)",
+          "evidence": "\"Authentication of test results and authorization of test acceptability.\""
+        }
+      ]
+    }
+  ],
+  "elapsed_ms": 16003.74
+}

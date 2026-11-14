@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ADV2-DEV-01",
+    "question": "In Table 2.1-1, give all AS9100 requirements mapped to Technical Data Management."
+  },
+  {
+    "id": "ADV2-DEV-02",
+    "question": "In Table 2.2-1, what is Phase F's purpose and when was its decommissioning/disposal plan developed?"
+  },
+  {
+    "id": "ADV2-DEV-03",
+    "question": "In Table 4.2-2, what is the function of the Rationale metadata item?"
+  },
+  {
+    "id": "ADV2-DEV-04",
+    "question": "According to Table 6.8-1, what four selections need rationale in Decision Matrix Setup Rationale, and what copy is required?"
+  },
+  {
+    "id": "ADV2-DEV-05",
+    "question": "Using Table 2.2-1, contrast the main work in Phase C and Phase E."
+  },
+  {
+    "id": "ADV2-DEV-06",
+    "question": "In Table 6.8-1, how long is the Executive Summary and what two one-sentence items does it contain?"
+  },
+  {
+    "id": "ADV2-DEV-07",
+    "question": "In Figure 2.1-1, in which direction do requirements flow through product levels, and in which direction do realized products move?"
+  },
+  {
+    "id": "ADV2-DEV-08",
+    "question": "In Figure 4.0-1, after Design Solution Definition reaches Lowest Level?, where do the Yes and No branches lead?"
+  },
+  {
+    "id": "ADV2-DEV-09",
+    "question": "In Figure 4.4-2, list the four named activities repeated around the successive-refinement spiral in order, starting with Identify and quantify goals."
+  },
+  {
+    "id": "ADV2-DEV-10",
+    "question": "In Figure 6.5-2, name all five elements of Configuration Management."
+  },
+  {
+    "id": "ADV2-DEV-11",
+    "question": "In Figure 6.8-2, where does the Yes branch from Is the ranking/comparison robust? go?"
+  },
+  {
+    "id": "ADV2-DEV-12",
+    "question": "Read the yellow Costs Expended blocks in Figure 2.5-1: what percentage is shown for Design, rather than on the committed-cost curve?"
+  },
+  {
+    "id": "ADV2-DEV-13",
+    "question": "Read Figure 2.5-1: what percentage of Costs Expended is shown at Develop?"
+  },
+  {
+    "id": "ADV2-DEV-14",
+    "question": "Read Figure 2.5-1: what percentage of Costs Expended is shown at Prod/Test?"
+  },
+  {
+    "id": "ADV2-DEV-15",
+    "question": "In Figure 4.4-3, what are the x- and y-axis quantities and how are their units described?"
+  },
+  {
+    "id": "ADV2-DEV-16",
+    "question": "In Figure 4.4-3, what do dashed lines represent and in which direction is cost-effectiveness higher?"
+  },
+  {
+    "id": "ADV2-DEV-17",
+    "question": "Using the PDR and CDR rows of Table 6.7-1, compare their timing and the named design baseline approved on successful completion."
+  },
+  {
+    "id": "ADV2-DEV-18",
+    "question": "Combine Table 2.2-1 and the SIR row of Table 6.7-1: what work does Phase D perform and when must SIR occur relative to that phase?"
+  },
+  {
+    "id": "ADV2-DEV-19",
+    "question": "Combine Table 4.2-2 and Methods of Verification: which metadata item records the system/subsystem/element hierarchy of verification, and which verification method uses models when a prototype is unavailable?"
+  },
+  {
+    "id": "ADV2-DEV-20",
+    "question": "Combine Figure G.4-1 and Table 2.2-1: what is TRL 9's demonstration criterion, and which named phase conducts the mission and maintains support?"
+  },
+  {
+    "id": "ADV2-DEV-21",
+    "question": "In Methods of Verification, distinguish Demonstration from Test in terms of data gathering and conditions."
+  },
+  {
+    "id": "ADV2-DEV-22",
+    "question": "In Methods of Validation, which method is identified as most resource-intensive, and does it validate stakeholder expectations or merely verify requirements?"
+  },
+  {
+    "id": "ADV2-DEV-23",
+    "question": "According to Appendix C.1, what do shall, will, and should denote?"
+  },
+  {
+    "id": "ADV2-DEV-24",
+    "question": "In the Phase B discussion, above which life-cycle-cost threshold is the commitment made with Congress and OMB, and what is that commitment called?"
+  },
+  {
+    "id": "ADV2-DEV-25",
+    "question": "For all NASA missions, what single mandatory random-vibration qualification level in g RMS does this handbook specify?"
+  },
+  {
+    "id": "ADV2-DEV-26",
+    "question": "What exact mandatory Monte Carlo sample count must all decision analyses use?"
+  },
+  {
+    "id": "ADV2-DEV-27",
+    "question": "What single annual license price in USD does the handbook give for NASA's configuration-management software?"
+  },
+  {
+    "id": "ADV2-DEV-28",
+    "question": "Which single programming language does the handbook mandate for every flight-software implementation?"
+  },
+  {
+    "id": "ADV2-DEV-29",
+    "question": "What exact universal number of years must every configuration-status accounting record be retained?"
+  },
+  {
+    "id": "ADV2-DEV-30",
+    "question": "What fixed maximum dry mass in kilograms does the handbook prescribe for every lunar lander design?"
+  }
+]

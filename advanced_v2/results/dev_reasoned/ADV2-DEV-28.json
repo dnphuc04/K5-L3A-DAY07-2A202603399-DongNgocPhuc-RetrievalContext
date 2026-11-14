@@ -1,0 +1,831 @@
+{
+  "id": "ADV2-DEV-28",
+  "split": "dev",
+  "question": "Which single programming language does the handbook mandate for every flight-software implementation?",
+  "calls": [
+    {
+      "response_id": "chatcmpl-Ek4jZDrvc9Zf7Eh72HB7T8CQ4Y97F",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 638,
+        "completion_tokens": 64,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 31,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2151.38,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_gKad1pu06KzdoO2KdtpgRTcU",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"single programming language mandated for every flight software implementation language shall be\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jbtb6TCdghkyUQ3QtcndBcIJGm",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 5845,
+        "completion_tokens": 128,
+        "total_tokens": 5973,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 97,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2694.72,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_f0tWV9vLyGtCO6gFN9bwUrnq",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"flight software implementation programming language Ada C++ shall use\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jejb1iio6XyGpBD78PVbR6G4N8",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 10848,
+        "completion_tokens": 109,
+        "total_tokens": 10957,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 78,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2906.1,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_ulfvtfGNIp1SwqZzE4POTj8W",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"programming language shall be used for flight software implementation\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jhM2sUC4ieX6ngSycobCSQhE1a",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 15100,
+        "completion_tokens": 106,
+        "total_tokens": 15206,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 76,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 2953.13,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_PCnxM1Smyfp547h1McEax5Be",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Ada language flight software NASA software engineering handbook shall\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jkK6KSUtk5dnBn5ciWlUgYku6q",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 19399,
+        "completion_tokens": 193,
+        "total_tokens": 19592,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 165,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3689.94,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_Ak8lRi67Ldl6RHMQTETHS2NF",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"\\\"programming language\\\" flight software\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jojpgzQA8V5arJTaGL6tbQJzu7",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 23666,
+        "completion_tokens": 420,
+        "total_tokens": 24086,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 379,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 7365.57,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_FBWnE1ysptJ8abOpUKqrfJ1B",
+            "type": "function",
+            "function": {
+              "name": "view_pages",
+              "arguments": "{\"source_ids\":[\"NASA-SE:p0207\",\"NASA-SE:p0046\",\"NASA-SE:p0273\"]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4jy0OjHgCDw8uIpA24hCyNV19lb",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 36420,
+        "completion_tokens": 116,
+        "total_tokens": 36536,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 94,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 5703.22,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_O4NQzPQmUbGeUuooFJqLfxTk",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Ada\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4k3Owgs0xYDaNigKzjCGlyazK45",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 36447,
+        "completion_tokens": 17,
+        "total_tokens": 36464,
+        "prompt_tokens_details": {
+          "cached_tokens": 35584,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3047.5,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_4ODNYIzm4k0HQE5WEaTHx5nK",
+            "type": "function",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"C++\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4k6pHIg45ovULlLLsb3fnVDqlIV",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 41207,
+        "completion_tokens": 63,
+        "total_tokens": 41270,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 35,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 4261.66,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_wIa6RTLUnukwwAiN6bFMJmbJ",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "agent"
+    },
+    {
+      "response_id": "chatcmpl-Ek4kA2lDTkd3opIiKlpx5STYr2pBd",
+      "model": "gpt-5.2-2025-12-11",
+      "usage": {
+        "prompt_tokens": 12977,
+        "completion_tokens": 78,
+        "total_tokens": 13055,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 50,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "elapsed_ms": 3421.88,
+      "finish_reason": "tool_calls",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_6sdQIFCz4njdw0FWsvuFWdHE",
+            "type": "function",
+            "function": {
+              "name": "submit_answer",
+              "arguments": "{\"status\":\"abstain\",\"claims\":[]}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "stage": "verification"
+    }
+  ],
+  "events": [
+    {
+      "tool": "search",
+      "query": "Which single programming language does the handbook mandate for every flight-software implementation?",
+      "results": [
+        {
+          "id": "NASA-SE:p0224",
+          "page": 224,
+          "text": "Appendix H: Integration Plan Outline\n\n\n\nH.1 Purpose • Does the integration plan mesh with the verifica-\n tion plan?\nThe integration plan defines the integration and ver-\nification strategies for a project interface with the • For each integration step, does the integration\nsystem design and decomposition into the lower-level plan define what components and subsystems are\nelements.1 The integration plan is structured to bring to be integrated?\nthe elements together to assemble each subsystem\nand to bring all of the subsystems together to assem- • For each integration step, does the integration\nble the system/product. The primary purposes of the plan identify all the needed participants and\nintegration plan are: (1) to describe this coordinated define what their roles and responsibilities are?\nintegration effort that supports the implementation\nstrategy, (2) to describe for the participants what • Does the integration plan establish the sequence\nneeds to be done in each integration step, and (3) to and schedule for every integration step?\nidentify the required resources and when and where\nthey will be needed. • Does the integration plan spell out how integra-\n tion problems are to be documented and resolved?\nH.2 Questions/Checklist H.3 Integration Plan Contents\n• Does the integration plan include and cover inte-\n gration of all of the components and subsystems Title Page\n of the project, either developed or purchased? The title page should follow the NASA procedures or\n style guide. At a minimum, it should contain the follow-\n• Does the integration plan account for all exter- ing information:\n nal systems to be integrated with the system (for\n example, communications networks, field equip- • INTEGRATION PLAN FOR THE [insert name\n ment, other complete systems owned by the gov- of project] AND [insert name of organization]\n ernment or owned by other government agencies)?\n • Contract number\n• Does the integration plan fully support the imple-\n mentation strategy, for example, when and where • Date that the document was formally approved\n the subsystems and system are to be used?\n • The organization responsible for preparing the\n1 The material in this appendix is adapted from Federal document\n Highway Administration and CalTrans, Systems Engineering\n Guidebook for ITS, Version 2 0 .\n\n\n\n 214",
+          "score": 10.508059497809088,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 9.505283659105748,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 9.473761705043605,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 8.78980753826127,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 8.43772704204493,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0028",
+          "page": 28,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\nFor example, NPR 7120.5 defines the major NASA • Phase D: System Assembly, Integration and Test,\nlife cycle phases as Formulation and Implementation. Launch\nFor space flight systems projects, the NASA life cycle • Phase E: Operations and Sustainment\nphases of Formulation and Implementation divide • Phase F: Closeout\ninto the following seven incremental pieces. The\nphases of the project life cycle are: FIGURE 3.0-1 is taken from NPR 7120.5 and provides\n the life cycle for NASA space flight projects and identi-\nProgram Pre-Formulation: fies the KDPs and reviews that characterize the phases.\n• Pre-Phase A: Concept Studies More information concerning life cycles can be found\n in the NASA Expanded Guidance for SE document at\nProgram Formulation https://nen.nasa.gov/web/se/doc-repository and in the\n• Phase A: Concept and Technology Development SP-2014-3705, NASA Space Flight Program and Project\n• Phase B: Preliminary Design and Technology Management Handbook.\n Completion\n TABLE 3.0-1 is taken from NPR 7123.1 and represents\nProgram Implementation: the product maturity for the major SE products\n• Phase C: Final Design and Fabrication developed and matured during the product life cycle.\n\n\n\n NASA Life-Cycle Approval for Approval for\n Phases FORMULATION IMPLEMENTATIONFormulationImplementation\n\n Project Life-Cycle Pre-Phase A: Phase A: Phase B: Phase C: Phase D: Phase E: Phase F:\n Phases Concept Studies Concept and Preliminary Design Final Design and System Assembly, Operations and Closeout\n Technology and Technology Fabrication Integration & Test, Sustainment\n Development Completion Launch & Checkout\n\n Project Life- KDP A KDP B KDP C KDP D KDP FKDP E\n Cycle Gates, FAD FA\n Documents, and Preliminary Project Preliminary Baseline Launch End of Mission Final Archival\n Major Events Requirements Project Plan Project Plan of Data\n\n Agency Reviews ASM7\n Human Space\n Flight Project MCR SRR SDR PDR CDR/ SIR ORR FRRPLAR CERR4 DR DRR\n Life-Cycle PRR3 Inspections and\n Reviews1,2 Re-enters appropriate life-cycle End of Flight\n Re-flights phase if modifications are Refurbishment\n\n Robotic Mission needed between flights PFAR\n Project Life Cycle\n Reviews1,2 MCR SRRMDR5 PDR CDR/ SIR ORR MRRPLAR CERR4 DR DRR\n Other Reviews PRR3\n Supporting SAR6 SMSR,LRR (LV), FRR (LV)\n\n Reviews Peer Reviews, Subsystem PDFs, Subsystem CDRs, and System Reviews\n\n\n FOOTNOTES ACRONYMS MDR – Mission Definition Review\n 1. Flexibility is allowed as to the timing, number, and content of reviews as long as the equivalent ASM – Acquisition Strategy Meeting MRR – Mission Readiness Review\n information is provided at each KDP and the approach is fully documented in the Project Plan.CDR – Critical Design Review ORR – Operational Readiness Review\n 2. Life-cycle review objectives and expected maturity states for these reviews and the attendant CERR – Critical Events Readiness Review PDR – Preliminary Design Review\n KDPs are contained in Table 2-5 and Appendix D Table D-3 of this handbook DR – Decommissioning Review PFAR – Post-Flight Assessment Review\n 3. PRR is needed only when there are multiple copies of systems. It does not require an SRB. Timing DRR – Disposal Readiness Review PLAR – Post-Launch Assessment Review\n is notional. FA – Formulation Agreement PRR – Production Readiness Review\n 4. CERRs are established at the discretion of program . FAD – Formulation Authorization Document SAR – System Acceptance Review\n 5. For robotic missions, the SRR and the MDR may be combined. FRR – Flight Readiness Review SDR – System Definition Review\n 6. SAR generally applies to human space flight. KDP – Key Decision Point SIR – System Integration Review\n 7. Timing of the ASM is determined by the MDAA. It may take place at any time during Phase A. LRR – Launch Readiness Review SMSR – Safety and Mission Success Review\n Red triangles represent life-cycle reviews that require SRBs. The Decision Authority, LV – Launch Vehicle SRB – Standing Review Board\n Administrator, MDAA, or Center Director may request the SRB to conduct other reviews. MCR – Mission Concept Review SRR – System Requirements Review\n\n FIGURE 3.0-1 NASA Space Flight Project Life Cycle from NPR 7120 .5E\n\n\n\n 18",
+          "score": 8.34124707313415,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "score": 8.12291555230204,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "flight software implementation programming language Ada C++ shall use",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 13.103009339739751,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 9.381131961760568,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 8.822165786748235,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0281",
+          "page": 281,
+          "text": " Bibliography\n\n\n\n\n\nANSI/GEIA GEIA-859, Data Management, Blanchard, Benjamin S., System Engineering\n National Defense Industrial Association Management. 4th Edition, Hoboken, NJ: John\n (NDIA), Arlington, VA 2004 Wiley & Sons, Inc., 2008\n\nANSI/IEEE STD 1042. IEEE Guide to Software Blanchard, Benjamin S., and Wolter J. Fabrycky.\n Configuration Management. Washington, DC, Systems Engineering and Analysis, 5th Edition\n 1987 Prentice Hall International Series in Industrial\n & Systems Engineering; February 6, 2010\nArchitecture Analysis & Design Language (AADL):\n https://wiki.sei.cmu.edu/aadl/index.php/Main_Page Brown, Barclay. “Model-based systems engineer-\n ing: Revolution or Evolution,” IBM Software,\n(The) Arms Export Control Act (AECA) of 1976, Thought Leadership White Paper, IBM\n see 22 U.S.C. 2778 Rational, December 2011\n\nASME Y14.24, Types and Applications of Engineering Brughelli, Kevin (Lockheed Martin), Deborah\n Drawings, New York, 1999 Carstens (Florida Institute of Technology),\n and Tim Barth (Kennedy Space Center),\nASME Y14.100, Engineering Drawing Practices, New “Simulation Model Analysis Techniques,”\n York, 2004 Lockheed Martin presentation to KSC,\n November 2003\nASQ, Statistics Division, Statistical Engineering,\n http://asq.org/statistics/quality-information/ Buede, Dennis. The Engineering Design of Systems:\n statistical-engineering Models and Methods. New York: Wiley & Sons,\n 2000.\nAvizienis, A., J.C. Laprie, B. Randell, C. Landwehr,\n “Basic concepts and taxonomy of dependable Business Process Modeling Notation (BPMN) http://\n and secure computing,” IEEE Transactions on www.bpmn.org/\n Dependable and Secure Computing 1 (1), 11–33,\n 2004 C\n CCSDS 311.0-M-1, Reference Architecture for\nB Space Data Systems, Recommended Practice\nBall, Robert E. The Fundamentals of Aircraft Combat (Magenta), Sept 2008. http://public.ccsds.org/\n Survivability Analysis and Design. 2nd Edition, publications/MagentaBooks.aspx\n AIAA Education Series, 2003\n CCSDS 901-0-G-1, Space Communications Cross\nBayer, T.J., M. Bennett, C. L. Delp, D. Dvorak, Support Architecture Description Document,\n J. S. Jenkins, and S. Mandutianu. “Update: Informational Report (Green) Sept 2013. http://\n Concept of Operations for Integrated Model- public.ccsds.org/publications/GreenBooks.aspx\n Centric Engineering at JPL,” paper #1122, IEEE\n Aerospace Conference 2011 Chapanis, A. “The Error-Provocative Situation:\n A Central Measurement Problem in Human\n\n\n\n 271",
+          "score": 8.049949828722921,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0066",
+          "page": 66,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n establish those areas where further trades will be interaction requirements). Crosscutting require-\n made to narrow potential design solutions. ments include environmental, safety, human factors,\n and those that originate from the “-ilities” and from\n• Identifying external and enabling systems with Design and Construction (D&C) standards. FIGURE\n which the system should interact and establishing 4.2-2 is a general overview on the flow of require-\n physical and functional interfaces (e.g., mechani- ments, what they are called, and who is responsible\n cal, electrical, thermal, human, etc.). (owns) for approving waivers.\n\n• Defining functional and behavioral expectations\n for the range of anticipated uses of the system as • Functional requirements define what\n identified in the ConOps. The ConOps describes functions need to be performed to\n how the system will be operated and the possible accomplish the objectives.\n use-case scenarios. • Performance requirements define how well\n the system needs to perform the functions.\n4.2.1.2.2 Define Requirements\nA complete set of project requirements includes those\nthat are decomposed and allocated down to design With an overall understanding of the constraints,\nelements through the PBS and those that cut across physical/functional interfaces, and functional/behav-\nproduct boundaries. Requirements allocated to the ioral expectations, the requirements can be further\nPBS can be functional requirements (what functions defined by establishing performance and other tech-\nneed to be performed), performance requirements nical criteria. The expected performance is expressed\n(how well these functions should be performed), as a quantitative measure to indicate how well each\nand interface requirements (product to product product function needs to be accomplished.\n\n\n\n\n\n\n EXAMPLE OF FUNCTIONAL AND PERFORMANCE REQUIREMENTS\n\n\n Initial Function Statement\n The Thrust Vector Controller (TVC) shall provide vehicle control about the pitch and yaw axes.\n\n\n This statement describes a high-level function that the TVC must perform. The technical team needs to\n transform this statement into a set of design-to functional and performance requirements.\n\n\n Functional Requirements with Associated Performance Requirements\n • The TVC shall gimbal the engine a maximum of 9 degrees, ± 0.1 degree.\n • The TVC shall gimbal the engine at a maximum rate of 5 degrees/second ± 0.3 degrees/second.\n • The TVC shall provide a force of 40,000 pounds, ± 500 pounds.\n • The TVC shall have a frequency response of 20 Hz, ± 0.1 Hz.\n\n\n\n\n 56",
+          "score": 7.687890895707487,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 7.653050794540416,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 7.63156837344822,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "programming language shall be used for flight software implementation",
+      "results": [
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 8.838151773009717,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 8.143683624055631,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 7.47214985983757,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.38931645947186,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0201",
+          "page": 201,
+          "text": " Appendix B: Glossary\n\n\n\n\n\nsafety, technical, cost, and schedule requirements 2210.1, Release of NASA Software, does not include\nare met. This is done to foster proactive risk man- computer databases or software documentation.\nagement, to better inform decision-making through\nbetter use of risk information, and then to more effec- Note 2: Definitions for the terms COTS, GOTS,\ntively manage Implementation risks by focusing the heritage software, MOTS, legacy software, software\nCRM process on the baseline performance require- reuse, and classes of software are provided in NPR\nments emerging from the RIDM process. (Source: 7150.2, NASA Software Engineering Requirements.\nNPR 8000.4, Agency Risk Management Procedural (Source: NPD 7120.4, NASA Engineering and\nRequirements) These processes are applied at a level Program/Project Management Policy)\nof rigor commensurate with the complexity, cost, and\ncriticality of the program. Solicitation: The vehicle by which information is\n solicited from contractors for the purpose of award-\nSafety: Freedom from those conditions that can ing a contract for products or services. Any request\ncause death, injury, occupational illness, damage to to submit offers or quotations to the Government.\nor loss of equipment or property, or damage to the Solicitations under sealed bid procedures are called\nenvironment. “invitations for bids.” Solicitations under negoti-\n ated procedures are called “requests for proposals.”\nSearch Space (or Alternative Space): The envelope Solicitations under simplified acquisition procedures\nof concept possibilities defined by design constraints may require submission of either a quotation or\nand parameters within which alternative concepts an offer.\ncan be developed and traded off.\n Specification: A document that prescribes com-\nSingle-Project Programs: Programs that tend to pletely, precisely, and verifiably the requirements,\nhave long development and/or operational lifetimes, design, behavior, or characteristics of a system or\nrepresent a large investment of Agency resources, and system component. In NPR 7123.1, “specification” is\nhave contributions from multiple organizations/agen- treated as a “requirement.”\ncies. These programs frequently combine program\nand project management approaches, which they Stakeholder: A group or individual who is affected\ndocument through tailoring. by or has an interest or stake in a program or project.\n There are two main classes of stakeholders. See “cus-\nSoftware: Computer programs, procedures, rules, tomers” and “other interested parties.”\nand associated documentation and data pertaining\nto the development and operation of a computer sys- Stakeholder Expectations: A statement of needs,\ntem. Software also includes Commercial Off-The- desires, capabilities, and wants that are not expressed\nShelf (COTS), Government Off-The-Shelf (GOTS), as a requirement (not expressed as a “shall” statement)\nModified Off-The-Shelf (MOTS), embedded soft- is referred to as an “expectation.” Once the set of\nware, reuse, heritage, legacy, autogenerated code, expectations from applicable stakeholders is collected,\nfirmware, and open source software components. analyzed, and converted into a “shall” statement, the\n expectation becomes a requirement. Expectations\nNote 1: For purposes of the NASA Software Release can be stated in either qualitative (non-measurable)\nprogram only, the term “software,” as redefined in NPR or quantitative (measurable) terms. Requirements are\n\n\n\n 191",
+          "score": 7.211150736863071,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0065",
+          "page": 65,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n\n\n\n Analyze scope of problem\n\n From Stakeholder\n Expectations Definition Define design and Define functional and To Logical Decomposition\n and Configuration product constraints andRequirements\n Management P rocesses behavioral expectation in and Interface Management\n technical terms Processes\n Baselined Stakeholder Expectations Validat\n Define perfo rmance ed Technical\n requi remen ts for each Requirements\n\n Baselined Concept of defined functional and\n Operations behavioral expectation To Logical Decomposition\n andTechnical Data\n Management Processes\n Baselined Enabling Measures of\n Support Strategies Define technical require- Performance\n mentsinacceptable\n “shall” statements To Technical\n Assessment Process\n\n Validate technical Define measures of Technical Performance\n Measures of Measures\n Effectiveness requirements performance for each\n measure of effectiveness\n\n\n\n Establish technical Define technical\n requirements baseline performance measures\n\n Capture work products from technical\n requirements definition activities\n\n\n\n FIGURE 4.2-1 Technical Requirements Definition Process\n\nOther inputs that might be useful in determining the 4.2.1.2 Process Activities\ntechnical requirements: 4.2.1.2.1 Define Constraints, Functional and\n Behavioral Expectations\n• Human/Systems Function Allocation: This The top-level requirements and expectations are ini-\n describes the interaction of the hardware and tially assessed to understand the technical problem\n software systems with all personnel and their sup- to be solved (scope of the problem) and establish the\n porting infrastructure. When human operators design boundary. This boundary is typically estab-\n are a critical total-system component, the roles lished by performing the following activities:\n and responsibilities of the humans-in-the-system\n should be clearly understood. This should include • Defining constraints that the design needs to\n all human/system interactions required for a mis- adhere to or that limit how the system will be\n sion including assembly, ground operations, logis- used. The constraints typically cannot be changed\n tics, in-flight and ground maintenance, in-flight based on trade-off analyses.\n operations, etc.\n • Identifying those elements that are already under\n design control and cannot be changed. This helps\n\n\n\n 55",
+          "score": 7.176279932849815,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0067",
+          "page": 67,
+          "text": " 4.0 System Design Processes\n\n\n\n\n\n Flow Type Ownership\n\n Mission Directorate\n Imposed Requirements\n\n “Programmatic” All Owned by\n Self-Imposed Program Requirements Program/\n Derived Requirements Project\n Requirements Ex: At least one major\n element shall be provided by Ex: The spacecraft shall\n Program the international community. provide a direct Earth entry\n Imposed capability for 11500 m/s or\n greater.\n Requirements\n\n Self-Imposed Project Technical Owned by\n Derived Requirements Technical\n Requirements Requirements See note* Authority\n\n Likewise flow to Ex: The spacecraft shall Ex: The system shall have a\n Lower Level provide a direct Earth entry 1.4 factor of safety\n Systems capability for 11500 m/s or\n greater.\n * Requirements invoked by OCE, OSMA and OCHMO directives, technical standards and Center institutional requirements\n\n\n FIGURE 4.2-2 Flow, Type and Ownership of Requirements\n\n\n\n NOTE: Requirements can be generated from technical requirements from which the system will\n non-obvious stakeholders and may not directly be architected and designed. FIGURE 4.2-3 shows an\n support the current mission and its objectives, but example of parent and child requirement flowdown.\n instead provide an opportunity to gain additional\n benefits or information that can support the Agency 4.2.1.2.3 Define Requirements in Acceptable\n or the Nation. Early in the process, the systems Statements\n engineer can help identify potential areas where the Finally, the requirements should be defined in accept-\n system can be used to collect unique information able “shall” statements, which are complete sentences\n that is not directly related to the primary mission. with a single “shall” per statement. Rationale for the\n Often outside groups are not aware of the system requirement should also be captured to ensure the\n goals and capabilities until it is almost too late in reason and context of the requirement is understood.\n the process. The Key Driving Requirements (KDRs) should be\n identified. These are requirements that can have a\n large impact on cost or schedule when implemented.\nTechnical requirements come from a number of A KDR can have any priority or criticality. Knowing\nsources including functional, performance, interface, the impact that a KDR has on the design allows bet-\nenvironmental, safety, human interfaces, standards ter management of requirements.\nand in support of the “’ilities” such as reliability, sus-\ntainability, producibility and others. Consideration See Appendix C for guidance and a checklist on how\nand inclusion of all types of requirements is needed to write good requirements and Appendix E for val-\nin order to form a complete and consistent set of idating requirements. A well-written requirements\n\n\n\n 57",
+          "score": 6.605960952712354,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Ada language flight software NASA software engineering handbook shall",
+      "results": [
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 11.497129876498999,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 9.796137071465258,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0291",
+          "page": 291,
+          "text": " Bibliography\n\n\n\n\n\nNASA/TM-2008-215126/Volume II (NESC- NA SA /SP-2010 -3407, Human Integration Design\n RP-06-108/05-173-E/Part 2), Technical Handbook (HIDH)\n Memorandum: Design Development Test and\n Evaluation (DDT&E) Considerations for Safe and NASA/SP-2011-3421, Probabilistic Risk Assessment\n Reliable Human-Rated Spacecraft Systems. April Procedures Guide for NASA Managers and\n 2008.Volume II: Technical Consultation Report. Practitioners\n James Miller, Jay Leggett, and Julie Kramer-\n White, NASA Langley Research Center, NASA/SP-2011-3422, NASA Risk Management\n Hampton VA, June 14, 2007 Handbook\n\nNASA Reference Publication 1370. Training NASA/SP-2013-3704, Earned Value Management\n Manual for Elements of Interface Definition and (EVM) System Description\n Control. Vincent R. Lalli, Robert E. Kastner,\n and Henry N. Hartt. NASA Lewis Research NASA/SP-2014-3705, NASA Space Flight Program\n Center, Cleveland OH, January 1997 and Project Management Handbook\n\nNASA. Systems Engineering Leading Indicators NASA /SP-2015-3709, Human Systems Integration\n Guide, http://seari.mit.edu/ Practitioners Guide\n\nNASA Cost Estimating Handbook (CEH), Version 4, Handbooks and Standards\n Februar y 2015 NASA-HDBK-1002, Fault Management (FM)\n Handbook, Draft 2, April 2012\nNASA Financial Management Requirements (FMR)\n Volume 4 NASA-HDBK-2203, NASA Software Engineering\n Handbook, February 28, 2013\nSpecial Publications\nNASA/SP-2010-576 NASA Risk-Informed Decision NASA Safety Standard (NSS) 1740.14, Guidelines\n Making Handbook and Assessment Procedures for Limiting Orbital\n Debris. Washington, DC, 1995 http://www.\nNASA/SP-2012-599, NASA’s Earned Value hq.nasa.gov/office/codeq/doctree/174014.htm\n Management (EVM) Implementation Handbook NASA-STD 8719.14 should be used in place\n of NSS 1740.14 to implement NPR 8715.6. See\nNASA/SP-2010-3403, NASA Schedule Management NPR 8715.6 for restrictions on the use of NSS\n Handbook 1740.14.\n\nNASA/SP-2010-3404, NASA Work Breakdown NASA GSFC-STD-1000, Rules for the Design,\n Structure Handbook Development, Verification, and Operation of\n Flight Systems. NASA Goddard Space Flight\nNASA/SP-2010-3406, Integrated Baseline Review Center, February 8, 2013\n (IBR) Handbook\n\n\n\n\n\n 281",
+          "score": 9.791631149813318,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0273",
+          "page": 273,
+          "text": " References Cited\n\n\n\n\n\nSection 3.10 Funding: The Budget Cycle Presidential Policy Directive PPD-4 (2010),\nNASA’s Financial Management Requirements (FMR) National Space Policy\n Volume 4\n Presidential Policy Directive PPD-21 (2013), Critical\nSection 3.11 Tailoring and Customization Infrastructure Security and Resilience\nof NPR 7123.1 Requirements\nNPD 1001.0, 2014 NASA Strategic Plan Ball, Robert E. (Naval Postgraduate School), The\n Fundamentals of Aircraft Combat Survivability\nNPR 7120.5, NASA Space Flight Program and Analysis and Design, 2nd Edition, AIAA\n Project Management Requirements Education Series, 2003\n\nNPR 7120.7, NASA Information Technology and Larson (Wiley J.), Kirkpatrick, Sellers, Thomas,\n Institutional Infrastructure Program and Project and Verma. Applied Space Systems Engineering:\n Management Requirements A Practical Approach to Achieving Technical\n Baselines. 2nd Edition, Boston, MA: McGraw-\nNPR 7120.8, NASA Research and Technology Hill Learning Solutions, CEI Publications,\n Program and Project Management 2009.\n Requirements\n Section 4.2 Technical Requirements\nNPR 7123.1, NASA Systems Engineering Processes Definition\n and Requirements NPR 7120.10, Technical Standards for NASA\n Programs and Projects\nNPR 7150.2, NASA Software Engineering\n Requirements NPR 8705.2, Human-Rating Requirements for\n Space Systems\nNPR 8705.4, Risk Classification for NASA Payloads\n NPR 8715.3, NASA General Safety Program\nNASA-HDBK-2203, NASA Software Engineering Requirements\n Handbook (February 28, 2013)\n NASA-STD-3001, NASA Space Flight Human\nNASA Engineering Network (NEN) Systems System Standard – 2 volumes\n Engineering Community of Practice (SECoP),\n located at https://nen.nasa.gov/web/se NASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013.\nSection 4.1 Stakeholder Expectations\nDefinition NA SA /SP-2010 -3407, Human Integration Design\nNPR 7120.5, NASA Space Flight Program and Handbook (HIDH)\n Project Management Requirements\n\nNASA Science Mission Directorate strategic plans\n\n\n\n\n\n 263",
+          "score": 9.576035520897948,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0270",
+          "page": 270,
+          "text": "References Cited\n\n\n\n\n\nThis appendix contains references that were cited in Section 1.1 Purpose\nthe sections of the handbook. NPR 7123.1. Systems Engineering Processes and\n Requirements\nPreface\nNPR 7123.1, Systems Engineering Processes and Section 1.2 Scope and Depth\n Requirements NASA Office of Chief Information Officer (OCIO),\n Information Technology Systems Engineering\nNASA Chief Engineer and the NASA Integrated Handbook Version 2.0\n Action Team (NIAT) report, Enhancing Mission\n Success – A Framework for the Future, December NASA-HDBK-2203, NASA Software Engineering\n 21, 2000. Authors: McBrayer, Robert O and Handbook (February 28, 2013)\n Thomas, Dale, NASA Marshall Space Flight\n Center, Huntsville, AL United States. Section 2.0 Fundamentals of Systems\n Engineering\nNASA. Columbia Accident Investigation Board NPR 7120.5, NASA Space Flight Program and\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. Project Management Requirements\n http://www.nasa.gov/columbia/caib/html/report.\n html NPR 7120.7, NASA Information Technology and\n Institutional Infrastructure Program and Project\nNASA. Diaz Report,A Renewed Commitment to Management Requirements\n Excellence: An Assessment of the NASA Agency-\n wide Applicability of the Columbia Accident NPR 7120.8, NASA Research and Technology\n Investigation Board Report, January 30, 2004. Program and Project Management\n Mr. Al Diaz, Director, Goddard Space Flight Requirements\n Center, and team.\n NPR 7123.1, NASA Systems Engineering Processes\nInternational Organization for Standardization and Requirements\n (ISO) 9000:2015, Quality management sys -\n tems – Fundamentals and vocabulary. Geneva: NASA Engineering Network (NEN) Systems\n International Organization for Standardization, Engineering Community of Practice (SECoP),\n 2015. located at https://nen.nasa.gov/web/se\n\n Griffin, Michael D., NASA Administrator.\n “System Engineering and the Two Cultures\n\n\n\n 260",
+          "score": 9.523403974069625,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0275",
+          "page": 275,
+          "text": " References Cited\n\n\n\n\n\nNPR 8705.4, Risk Classification for NASA Payloads NASA-SP-2010-3404, NASA Work Breakdown\n Structure Handbook\nNASA-STD-7009, Standard for Models and\n Simulations. Washington, DC, October 18, NASA Cost Estimating Handbook (CEH), Version 4,\n 2013 Februar y 2015.\n\nNASA GSFC-STD-7000, Goddard Technical DOD. MIL-STD-881C, Work Breakdown Structure\n Standard: General Environmental Verification (WBS) for Defense Materiel Items. Washington,\n Standard (GEVS) for GSFC Flight Programs and DC, October 3, 2011.\n Projects. Goddard Space Flight Center. April\n 2005 Institute of Electrical and Electronics Engineers\n (IEEE) STD 1220-2005. IEEE Standard for\nDepartment of Defense (DOD). MIL-STD-1540D, Application and Management of the Systems\n Product Verification Requirements for Launch, Engineering Process, Washington, DC, 2005.\n Upper Stage, and Space Vehicles. January 15,\n 1999 Office of Management and Budget (OMB) Circular\n A-94, “Guidelines and Discount Rates for\nSection 5.4 Product Validation Benefit-Cost Analysis of Federal Programs”\nNPD 7120.4, NASA Engineering and Program/ (10/29/1992)\n Project Management Policy\n Joint (cost and schedule) Confidence Level (JCL).\nNPR 7150.2, NASA Software Engineering Frequently asked questions (FAQs) can be found\n Requirements at: http://www.nasa.gov/pdf/394931main_JCL_\n FAQ_10_12_09.pdf\nSection 5.5 Product Transition\n(The) National Environmental Policy Act of 1969 The U. S. Chemical Safety Board (CSB) case study\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. reports on mishaps found at: http://www.csb.gov/\n doe.gov/welcome.html\n Section 6.3 Interface Management\nSection 6.1 Technical Planning NPR 7120.5, NASA Space Flight Program and\nNPR 7120.5, NASA Space Flight Program and Project Management Requirements\n Project Management Requirements\n Section 6.4 Technical Risk Management\nNPD 7120.6, Knowledge Policy on Programs and NPR 8000.4, Agency Risk Management Procedural\n Projects Requirements\n\nNPR 7123.1, NASA Systems Engineering Processes NASA/SP-2010-576, NASA Risk-Informed Decision\n and Requirements Making Handbook\n\nNASA-SP-2010-3403, NASA Schedule Management\n Handbook\n\n\n\n 265",
+          "score": 9.46818258587119,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0279",
+          "page": 279,
+          "text": " References Cited\n\n\n\n\n\nAppendix N: Guidance on Technical Peer NASA Langley Research Center (LaRC) Guidance\nReviews/Inspections on System and Software Metrics for Performance-\nNPR 7123.1, Systems Engineering Processes and Based Contracting sites-e.larc.nasa.gov/sweng/\n Requirements files/2013/05/Guidance_on_Metrics_for_PBC_\n R1V01.doc\nNPR 7150.2, NASA Software Engineering\n Requirements Appendix R: HSI Plan Content Outline\n NPR 7123.1, NASA Systems Engineering Processes\nNASA Langley Research Center (LARC), and Requirements\n Instructional Handbook for Formal Inspections.\n http://sw-eng.larc.nasa.gov/files/2013/05/ NPR 8705.2, Human-Rating Requirements for\n Instructional-Handbook-for-Formal-Inspections. Space Systems\n pdf\n NASA-STD-3001, Space Flight Human-System\nAppendix P: SOW Review Checklist Standard, Volume 2: Human Factors,\nNASA Langley Research Center (LaRC) Procedural Habitability, and Environmental Health,\n Requirements (LPR) 5000.2 Procurement Section 3.5 [V2 3005], “Human-Centered\n Initiator’s Guide Design Process.” February 10, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 269",
+          "score": 9.45111711083149,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "\"programming language\" flight software",
+      "results": [
+        {
+          "id": "NASA-SE:p0185",
+          "page": 185,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nRFA Requests for Action SRR Program/System Requirements Review\nRFP Request for Proposal SRS Software Requirements Specification\nRID Review Item Discrepancy or Review Item STI Scientific and Technical Information\n Disposition STS Space Transportation System\nRIDM Risk-Informed Decision-Making SysML System Modeling Language\nRM Risk Management T&E Test and Evaluation\nRMA Rapid Mission Architecture TA Technical Authority\nRUL Remaining Useful Life TBD To Be Determined\nSAR System Acceptance Review or Safety TBR To Be Resolved\n Analysis Report (DOE) ToR Terms of Reference\nSBU Sensitive But Unclassified TPM Technical Performance Measure\nSDR Program/System Definition Review TRL Technology Readiness Level\nSE Systems Engineering TRR Test Readiness Review\nSECoP Systems Engineering Community of Practice TVC Thrust Vector Controller\nSEMP Systems Engineering Management Plan\nSI International System of Units (French: UFE Unallocated Future Expenses\n Système international d’unités) UML Unified Modeling Language\nSIR System Integration Review V&V Verification and Validation\nSMA Safety and Mission Assurance WBS Work Breakdown Structure\nSME Subject Matter Expert WYE Work Year Equivalent\nSOW Statement Of Work XMI XML Metadata Interchange\nSP Special Publication XML Extensible Markup Language\nSRD System Requirements Document\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 175",
+          "score": 7.600296540846756,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0284",
+          "page": 284,
+          "text": " Bibliography\n\n\n\n\n\n Analysis for En Route Air Traffic Control.” In (HFDS). Washington, DC, May 2003.\n Proceedings of the Human Factors and Ergonomics Updated: May 03, 2012. hf.tc.faa.gov/hfds\n Society 38th Annual Meeting. Santa Monica:\n Human Factors and Ergonomics Society, 1994 Federal Highway Administration, and CalTrans.\n Systems Engineering Guidebook for ITS, Version\nEslinger, Suellen. Software Acquisition Best Practices 2.0. Washington, DC: U.S. Department of\n for the Early Acquisition Phases. El Segundo, CA: Transportation, 2007\n The Aerospace Corporation, 2004\n Friedenthal, Sanford, Alan Moore, and Rick Steiner.\nEstefan, Jeff, Survey of Model-Based Systems A Practical Guide to SysML: Systems Modeling\n Engineering (MBSE) Methodologies, Rev B, Language, Morgan Kaufmann Publishers, Inc.,\n Section 3.2. NASA Jet Propulsion Laboratory July 2008\n (JPL), June 10, 2008. The document was orig-\n inally authored as an internal JPL report, and Fuld, R. B. “The Fiction of Function Allocation.”\n then modified for public release and submitted Ergonomics in Design (January 1993): 20–24\n to INCOSE to support the INCOSE MBSE\n Initiative. G\n Garlan, D., W. Reinholtz, B. Schmerl, N.\nExecutive Order (EO) 12114, Environmental Effects Sherman, T. Tseng. “Bridging the Gap\n Abroad of Major Federal Actions. January 4, between Systems Design and Space Systems\n 1979. Software,” Proceedings of the 29th IEEE/NASA\n Software Engineering Workshop, 6-7 April 2005,\nExecutive Order (EO) 12770, Metric Usage in Greenbelt, MD, USA\n Federal Government Programs, July 25, 1991.\n Glass, J. T., V. Zaloom, and D. Gates. “A Micro-\nExecutive Order (EO) 13637, Administration of Computer-Aided Link Analysis Tool.”\n Reformed Export Controls, March 8, 2013. Computers in Industry 16, (1991): 179–87\n\nExtensible Markup Language (XML) http://www. Gopher, D., and E. Donchin. “Workload: An\n w3.org/TR/REC-xml/ Examination of the Concept.” In Handbook\n of Perception and Human Performance: Vol. II.\nExtensible Markup Language (XML) Metadata Cognitive Processes and Performance. Edited by\n Interchange (XMI) http://www.omg.org/spec/XMI/ K. R. Boff, L. Kaufman, and J. P. Thomas. New\n York: John Wiley & Sons, 1986\nF\nFederal Acquisition Regulation (FAR). See: Code of Griffin, Michael D., NASA Administrator.\n Federal Regulations (CFR), Title 48. “System Engineering and the Two Cultures\n of Engineering.” Boeing Lecture, Purdue\nFederal Aviation Administration (FAA), University, March 28, 2007\n HF-STD-001, Human Factors Design Standard\n\n\n\n\n\n 274",
+          "score": 7.257744988414978,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0297",
+          "page": 297,
+          "text": " Bibliography\n\n\n\n\n\n Institute of Defense Analyses (IDA) Report XML: Extensible Markup Language (XML) http://\n R-338, Dec 1988 www.w3.org/TR/REC-xml/\n\nWolfram, Mathematica http://www.wolfram.com/ Z\n mathematica/ Ziemer, J., Ervin, J., Lang, J., “Exploring Mission\n Concepts with the JPL Innovation Foundry\nX A-Team,” AIAA Space 2013 Proceedings,\nXMI: Extensible Markup Language (XML) September 10–12, 2013, San Diego, CA\n Metadata Interchange (XMI) http://www.omg.\n org/spec/XMI/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 287",
+          "score": 6.306118940661096,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0184",
+          "page": 184,
+          "text": " Appendix A: Acronyms\n\n\n\n\n\n\nIDEF0 Integration Definition (for functional modeling) NGO Needs, Goals, and Objectives\nIEEE Institute of Electrical and Electronics NIAT NASA Integrated Action Team\n Engineers NID NASA Interim Directive\nILS Integrated Logistics Support NOA New Obligation Authority\nINCOSE International Council on Systems Engineering NOAA (U.S.) National Oceanic and Atmospheric\nIPT Integrated Product Team Administration\nIRD Interface Requirements Document NODIS NASA Online Directives Information System\nISO International Organization for Standardization NPD NASA Policy Directive\nIT Information Technology NPR NASA Procedural Requirements\nITA Internal Task Agreement NRC (U.S.) Nuclear Regulatory Commission\nITAR International Traffic in Arms Regulation NSTS National Space Transportation System\nIV&V Independent Verification and Validation OCE (NASA) Office of the Chief Engineer\nIVHM Integrated Vehicle Health Management OCIO (NASA) Office of the Chief Information\nIWG Interface Working Group Officer\nJCL Joint (cost and schedule) Confidence Level OCL Object Constraint Language\nJPL Jet Propulsion Laboratory OMB (U.S.) Office of Management and Budget\nKBSI Knowledge Based Systems, Inc. ORR Operational Readiness Review\nKDP Key Decision Point OTS Off-the-Shelf\nKDR Key Driving Requirement OWL Web Ontology Language\nKPP Key Performance Parameter PBS Product Breakdown Structure\nKSC Kennedy Space Center PCA Physical Configuration Audit or Program\nLCC Life Cycle Cost Commitment Agreement\nLEO Low Earth Orbit or Low Earth Orbiting PD/NSC (U.S.) Presidential Directive/National\n Security Council\nM&S Modeling and Simulation or Models and PDR Preliminary Design Review\n Simulations PFAR Post-Flight Assessment Review\nMBSE Model-Based Systems Engineering PI Performance Index or Principal Investigator\nMCR Mission Concept Review PIR Program Implementation Review\nMDAA Mission Directorate Associate Administrator PKI Public Key Infrastructure\nMDR Mission Definition Review PLAR Post-Launch Assessment Review\nMEL Master Equipment List PM Program Manager or Project Manager\nMODAF (U.K.) Ministry of Defense Architecture PMC Program Management Council\n Framework\nMOE Measure of Effectiveness PPD (U.S.) Presidential Policy Directive\nMOP Measure of Performance PRA Probabilistic Risk Assessment\nMOTS Modified Off-The-Shelf PRD Project Requirements Document\nMOU Memorandum of Understanding PRR Production Readiness Review\nMRB Material Review Board QA Quality Assurance\nMRR Mission Readiness Review QVT Query View Transformations\nMSFC Marshall Space Flight Center R&M Reliability and Maintainability\nNASA (U.S.) National Aeronautics and Space R&T Research and Technology\n Administration RACI Responsible, Accountable, Consulted,\nNEN NASA Engineering Network Informed\nNEPA National Environmental Policy Act REC Record of Environmental Consideration\nNFS NASA FAR Supplement RF Radio Frequency\n\n\n\n 174",
+          "score": 6.203121950314066,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0296",
+          "page": 296,
+          "text": " Bibliography\n\n\n\n\n\n Assessment and Management. New Orleans, LA, Performance-Based Regulation,Washington, DC,\n May 14–18, 2006 1998\n\nStern, Paul C., and Harvey V. Fineberg, eds. U.S. Nuclear Regulatory Commission. NUREG-\n Understanding Risk: Informing Decisions in a 0700, Human-System Interface Design Review\n Democratic Society. Washington, DC: National Guidelines, Rev.2. Washington, DC, Office of\n Academies Press, 1996 Nuclear Regulatory Research, 2002\n\nSystems Modeling Language (SysML) http://www. United Nations, Office for Outer Space Affairs.\n omgsysml.org/ Treaty of Principles Governing the Activities of\n States in the Exploration and Use of Outer Space,\nT Including the Moon and Other Celestial Bodies.\nTaylor, Barry. Guide for the Use of the International Known as the “Outer Space Treaty of 1967”\n System of Units (SI), Special Publication 811.\n Gaithersburg, MD: NIST, Physics Laboratory, W\n 2007 Wall, S., “Use of Concurrent Engineering in Space\n Mission Design,” Proceedings of EuSEC 2000,\nU Munich, Germany, September 2000\nUnified Modeling Language (UML) http://www.uml.\n org/ Warfield, K., “Addressing Concept Maturity in the\n Early Formulation of Unmanned Spacecraft,”\nUPDM: Unified Profile for the (US) Department Proceedings of the 4th International Workshop\n of Defense Architecture Framework (DoDAF) on System and Concurrent Engineering for Space\n and the (UK) Ministry Of Defense Architecture Applications, October 13–15, 2010, Lausanne,\n Framework (MODAF) http://www.omg.org/spec/ Switzerland\n UPDM/\n Web Ontology Language (OWL) http://www.\nU.S. Air Force. SMC Systems Engineering Primer w3.org/2001/sw/wiki/OWL\n and Handbook, 3rd ed. Los Angeles: Space and\n Missile Systems Center, 2005 Wessen, Randii R., Chester Borden, John Ziemer,\n and Johnny Kwok. “Space Mission Concept\nU. S. Chemical Safety Board (CSB) case study Development Using Concept Maturity Levels,”\n reports on mishaps found at: http://www.csb.gov/ Conference paper presented at the American\n Institute of Aeronautics and Astronautics\nU.S. Navy. Naval Air Systems Command, Systems (AIAA) Space 2013 Conference and Exposition;\n Engineering Guide: 2003 (based on require- September 10–12, 2013; San Diego, CA.\n ments of ANSI/EIA 632:1998). Patuxent River, Published in the AIAA Space 2013 Proceedings\n MD, 2003\n Winner, R., Pennell, J., Bertrand, H., and\nU.S. Nuclear Regulatory Commission. SECY- Slusarczuk, M., The Role Of Concurrent\n 98-144, White Paper on Risk-Informed and Engineering In Weapons System Acquisition,\n\n\n\n 286",
+          "score": 5.533445628157602,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 5.5230090102316565,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0285",
+          "page": 285,
+          "text": " Bibliography\n\n\n\n\nH IEEE STD 1220-2005. IEEE Standard for\nHart, S. G., and C. D. Wickens. “Workload Application and Management of the Systems\n Assessment and Prediction.” In MANPRINT: Engineering Process, Washington, DC, 2005\n An Approach to Systems Integration. Edited by H.\n R. Booher. New York: Van Nostrand Reinhold, IEEE Standard12207.1, EIA Guide for Information\n 1990 Technology Software Life Cycle Processes—Life\n Cycle Data, Washington, DC, 1997\nHoerl, R.W. and R.S. Snee, Statistical Thinking –\n Improving Business Performance, John Wiley & INCOSE. Systems Engineering Handbook, Version\n Sons. 2012 3.2.2. Seattle, 2011\n\nHoffmann, Hans-Peter, “Harmony-SE/SysML INCOSE-TP-2003-002-04, Systems Engineering\n Deskbook: Model-Based Systems Engineering Handbook: A Guide for System Life Cycle Processes\n with Rhapsody,” Rev. 1.51, Telelogic/I-Logix and Activities, Version 4, Edited by Walden,\n white paper, Telelogic AB, May 24, 2006 David D., et al., 2015\n\nHofmann, Hubert F., Kathryn M. Dodson, Gowri INCOSE-TP-2003-020-01, Technical Measurement,\n S. Ramani, and Deborah K. Yedlin. Adapting Version 1.0, 27 December 2005. Prepared by\n CMMI® for Acquisition Organizations: A Garry J. Roedler (Lockheed Martin) and Cheryl\n Preliminary Report, CMU/SEI-2006-SR-005. Jones (U.S. Army).\n Pittsburgh: Software Engineering Institute,\n Carnegie Mellon University, 2006, pp. 338–40 INCOSE-TP-2004-004-02, Systems Engineering\n Vision 2020, Version 2.03, September 2007,\nHuey, B. M., and C. D. Wickens, eds. Workload http://www.incose.org/ProductsPubs/pdf/\n Transition. Washington, DC: National Academy SEVision2020_20071003_v2_03.pdf\n Press, 1993\n INCOSE-TP-2005-001-03, Systems Engineering\nI Leading Indicators Guide, Version 2.0, January\nIEEE STD 610.12-1990. IEEE Standard Glossary 29, 2010; available at http://seari.mit.edu/docu-\n of Software Engineering Terminology. 1999, ments/SELI-Guide-Rev2.pdf. Edited by Garry J.\n superceded by ISO/IEC/IEEE 24765:2010, Roedler and Howard Schimmoller (Lockheed\n Systems and Software Engineering – Vocabulary. Martin), Cheryl Jones (U.S. Army), and\n Washington, DC, 2010 Donna H. Rhodes (Massachusetts Institute of\n Technology)\nIEEE STD 828. IEEE Standard for Software\n Configuration Management Plans. Washington, ISO 9000:2015, Quality management systems–\n DC, 1998 Fundamentals and vocabulary. Geneva:\n International Organization for Standardization,\nIEEE STD 1076-2008 IEEE Standard VHDL 2015\n Language Reference Manual, 03 February 2009\n\n\n\n\n\n 275",
+          "score": 5.381169901549601,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "view_pages",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_path": "data/local/advanced/pages/p0207_2000.png",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        },
+        {
+          "source_id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "image_path": "data/local/advanced/pages/p0046_2000.png",
+          "image_sha256": "8080b78b712a72cf1ece62015253c04c56c17be7c456851a8cb57448d84a1df8"
+        },
+        {
+          "source_id": "NASA-SE:p0273",
+          "page": 273,
+          "text": " References Cited\n\n\n\n\n\nSection 3.10 Funding: The Budget Cycle Presidential Policy Directive PPD-4 (2010),\nNASA’s Financial Management Requirements (FMR) National Space Policy\n Volume 4\n Presidential Policy Directive PPD-21 (2013), Critical\nSection 3.11 Tailoring and Customization Infrastructure Security and Resilience\nof NPR 7123.1 Requirements\nNPD 1001.0, 2014 NASA Strategic Plan Ball, Robert E. (Naval Postgraduate School), The\n Fundamentals of Aircraft Combat Survivability\nNPR 7120.5, NASA Space Flight Program and Analysis and Design, 2nd Edition, AIAA\n Project Management Requirements Education Series, 2003\n\nNPR 7120.7, NASA Information Technology and Larson (Wiley J.), Kirkpatrick, Sellers, Thomas,\n Institutional Infrastructure Program and Project and Verma. Applied Space Systems Engineering:\n Management Requirements A Practical Approach to Achieving Technical\n Baselines. 2nd Edition, Boston, MA: McGraw-\nNPR 7120.8, NASA Research and Technology Hill Learning Solutions, CEI Publications,\n Program and Project Management 2009.\n Requirements\n Section 4.2 Technical Requirements\nNPR 7123.1, NASA Systems Engineering Processes Definition\n and Requirements NPR 7120.10, Technical Standards for NASA\n Programs and Projects\nNPR 7150.2, NASA Software Engineering\n Requirements NPR 8705.2, Human-Rating Requirements for\n Space Systems\nNPR 8705.4, Risk Classification for NASA Payloads\n NPR 8715.3, NASA General Safety Program\nNASA-HDBK-2203, NASA Software Engineering Requirements\n Handbook (February 28, 2013)\n NASA-STD-3001, NASA Space Flight Human\nNASA Engineering Network (NEN) Systems System Standard – 2 volumes\n Engineering Community of Practice (SECoP),\n located at https://nen.nasa.gov/web/se NASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013.\nSection 4.1 Stakeholder Expectations\nDefinition NA SA /SP-2010 -3407, Human Integration Design\nNPR 7120.5, NASA Space Flight Program and Handbook (HIDH)\n Project Management Requirements\n\nNASA Science Mission Directorate strategic plans\n\n\n\n\n\n 263",
+          "image_path": "data/local/advanced/pages/p0273_2000.png",
+          "image_sha256": "a3204bc5d0e59dc520e1d26a407d1dc8998be15a36ae2b7f7d926ea0ebd048b4"
+        }
+      ]
+    },
+    {
+      "tool": "search",
+      "query": "Ada",
+      "results": []
+    },
+    {
+      "tool": "search",
+      "query": "C++",
+      "results": [
+        {
+          "id": "NASA-SE:p0281",
+          "page": 281,
+          "text": " Bibliography\n\n\n\n\n\nANSI/GEIA GEIA-859, Data Management, Blanchard, Benjamin S., System Engineering\n National Defense Industrial Association Management. 4th Edition, Hoboken, NJ: John\n (NDIA), Arlington, VA 2004 Wiley & Sons, Inc., 2008\n\nANSI/IEEE STD 1042. IEEE Guide to Software Blanchard, Benjamin S., and Wolter J. Fabrycky.\n Configuration Management. Washington, DC, Systems Engineering and Analysis, 5th Edition\n 1987 Prentice Hall International Series in Industrial\n & Systems Engineering; February 6, 2010\nArchitecture Analysis & Design Language (AADL):\n https://wiki.sei.cmu.edu/aadl/index.php/Main_Page Brown, Barclay. “Model-based systems engineer-\n ing: Revolution or Evolution,” IBM Software,\n(The) Arms Export Control Act (AECA) of 1976, Thought Leadership White Paper, IBM\n see 22 U.S.C. 2778 Rational, December 2011\n\nASME Y14.24, Types and Applications of Engineering Brughelli, Kevin (Lockheed Martin), Deborah\n Drawings, New York, 1999 Carstens (Florida Institute of Technology),\n and Tim Barth (Kennedy Space Center),\nASME Y14.100, Engineering Drawing Practices, New “Simulation Model Analysis Techniques,”\n York, 2004 Lockheed Martin presentation to KSC,\n November 2003\nASQ, Statistics Division, Statistical Engineering,\n http://asq.org/statistics/quality-information/ Buede, Dennis. The Engineering Design of Systems:\n statistical-engineering Models and Methods. New York: Wiley & Sons,\n 2000.\nAvizienis, A., J.C. Laprie, B. Randell, C. Landwehr,\n “Basic concepts and taxonomy of dependable Business Process Modeling Notation (BPMN) http://\n and secure computing,” IEEE Transactions on www.bpmn.org/\n Dependable and Secure Computing 1 (1), 11–33,\n 2004 C\n CCSDS 311.0-M-1, Reference Architecture for\nB Space Data Systems, Recommended Practice\nBall, Robert E. The Fundamentals of Aircraft Combat (Magenta), Sept 2008. http://public.ccsds.org/\n Survivability Analysis and Design. 2nd Edition, publications/MagentaBooks.aspx\n AIAA Education Series, 2003\n CCSDS 901-0-G-1, Space Communications Cross\nBayer, T.J., M. Bennett, C. L. Delp, D. Dvorak, Support Architecture Description Document,\n J. S. Jenkins, and S. Mandutianu. “Update: Informational Report (Green) Sept 2013. http://\n Concept of Operations for Integrated Model- public.ccsds.org/publications/GreenBooks.aspx\n Centric Engineering at JPL,” paper #1122, IEEE\n Aerospace Conference 2011 Chapanis, A. “The Error-Provocative Situation:\n A Central Measurement Problem in Human\n\n\n\n 271",
+          "score": 3.023078850493607,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "score": 2.90570870717609,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0038",
+          "page": 38,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n SPACE FLIGHT PHASE C: FINAL DESIGN AND FABRICATION\n\n\nPurpose\nTo complete the detailed design of the system (and its associated subsystems, including its operations\nsystems), fabricate hardware, and code software. Generate final designs for each system structure end\nproduct.\n\n\nTypical Activities and Their Products\n• Review and update documents baselined in previous phases\n• Monitor progress against plans\n• Develop and document hardware and software detailed designs\n > Fully mature and define selected preliminary designs\n > Add remaining lower level design specifications to the system architecture\n > Perform and archive trade studies\n > Perform development testing at the component or subsystem level\n > Fully document final design and develop data package\n• Develop/refine and baseline plans\n > Interface definitions\n > Implementation plans\n > Integration plans\n > Verification and validation plans\n > Operations plans\n• Develop/refine preliminary plans\n > Decommissioning and disposal plans, including human capital transition\n > Spares\n > Communications (including command and telemetry lists)\n• Develop/refine procedures for\n > Refine integration\n > Manufacturing and assembly\n > Verification and validation\n• Fabricate (or code) the product\n• Identify and update risks\n• Monitor project progress against project plans\n• Prepare launch site checkout and post launch activation and checkout\n• Finalize appropriate level safety data package and updated security plan\n• Identify opportunities for preplanned product improvement\n• Refine orbital debris assessment\n• Perform required Phase C technical activities from NPR 7120.5 as applicable\n• Satisfy Phase C review entrance/success criteria from NPR 7123.1\n\n (continued)\n\n\n 28",
+          "score": 2.8634329178887676,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0294",
+          "page": 294,
+          "text": " Bibliography\n\n\n\n\n\n\nAcquisition Documents O\nNASA. The SEB Source Evaluation Process. Oberto, R.E., Nilsen, E., Cohen, R., Wheeler, R.,\n Washington, DC, 2001 DeFlorio, P., and Borden, C., “The NASA\n Exploration Design Team; Blueprint for a\nNASA. Solicitation to Contract Award. Washington, New Design Paradigm”, 2005 IEEE Aerospace\n DC, NASA Procurement Library, 2007 Conference, Big Sky, Montana, March 2005\n\nNASA. Statement of Work Checklist. Washington, Object Constraint Language (OCL) http://www.omg.\n DC. See: Appendix P in this handbook. org/spec/OCL/\n\nN Office of Management and Budget (OMB) Circular\n(The) National Environmental Policy Act of 1969 A-94, Guidelines and Discount Rates for Benefit-\n (NEPA). See 42 U.S.C. 4321-4347. https://ceq. Cost Analysis of Federal Programs, October 29,\n doe.gov/welcome.html 1992\n\nNational Research Council (NRC) of the National Oliver, D., T. Kelliher, and J. Keegan, Engineering\n Academy of Sciences (NAS), The Planetary Complex Systems with Models and Objects, New\n Decadal Survey 2013–2022, Vision and Voyagers York, NY, USA: McGraw-Hill 1997\n for Planetary Science in the Decade 2013–2022,\n The National Academies Press: Washington, OOSEM Working Group, Object-Oriented Systems\n D.C., 2011. http://www.nap.edu Engineering Method (OOSEM) Tutorial, Version\n 03.00, Lockheed Martin Corporation and\nNIST Special Publication 330: The International INCOSE, October 2008\n System of Units (SI) Barry N. Taylor and Ambler\n Thompson, Editors, March 2008. The United OWL, Web Ontology Language (OWL) http://www.\n States version of the English text of the eighth w3.org/2001/sw/wiki/OWL\n edition (2006) of the International Bureau of\n Weights and Measures publication Le Système P\n International d’ Unités (SI) Paredis, C., Y. Bernard, R. Burkhart, H.P. Koning,\n S. Friedenthal, P. Fritzon, N.F. Rouquette,\nNIST Special Publication 811: NIST Guide for the W. Schamai. “Systems Modeling Language\n Use of the International System of Units (SI) A. (SysML)-Modelica Transformation.” INCOSE\n Thompson and B. N. Taylor, Editors. Created 2010\n July 2, 2009; Last updated January 28, 2016\n Pennell, J. and Winner, R., “Concurrent\nNIST, Federal Information Processing Standard Engineering: Practices and Prospects,” Global\n Publication (FIPS PUB) 199, Standards for Telecommunications Conference, GLOBECOM\n Security Categorization of Federal Information ‘89, 1989\n and Information Systems, February 2004\n Presidential Directive/National Security Council\n Memorandum No. 25 (PD/NSC-25), “Scientific\n\n\n\n 284",
+          "score": 2.823772281515778,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0019",
+          "page": 19,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\n\n TABLE 2.2-1 Project Life Cycle Phases\n Phase Purpose Typical Outcomes\n Pre-Phase A To produce a broad spectrum of ideas and alternatives Feasible system concepts\n Concept for missions from which new programs/projects can be in the form of simulations,\n Studies selected. Determine feasibility of desired system, develop analysis, study reports,\n mission concepts, draft system-level requirements, assess models, and mock-ups\n performance, cost, and schedule feasibility; identify\n potential technology needs, and scope.\n\n\n Phase A To determine the feasibility and desirability of a suggested System concept definition\n Concept and new system and establish an initial baseline compatibility in the form of simulations,\n Technology with NASA’s strategic plans. Develop final mission concept, analysis, engineering models\n Development system-level requirements, needed system technology and mock-ups, and trade\n developments, and program/project technical management study definition\n plans.\n Phase B To define the project in enough detail to establish an initial End products in the form of\n Preliminary baseline capable of meeting mission needs. Develop mock-ups, trade study results,\n Design and system structure end product (and enabling product) specification and interface\n Technology requirements and generate a preliminary design for each documents, and prototypes\n Completion system structure end product.\n\n Phase C To complete the detailed design of the system (and its End product detailed designs,\n Final Design associated subsystems, including its operations systems), end product component\n and Fabrication fabricate hardware, and code software. Generate final fabrication, and software\n designs for each system structure end product. development\n\n Phase D To assemble and integrate the system (hardware, software, Operations-ready system\n System and humans), meanwhile developing confidence that it end product with supporting\n Assembly, is able to meet the system requirements. Launch and related enabling products\n Integration and prepare for operations. Perform system end product\n Test, Launch implementation, assembly, integration and test, and\n transition to use.\n\n Phase E To conduct the mission and meet the initially identified Desired system\n Operations and need and maintain support for that need. Implement the\n Sustainment mission operations plan.\n Phase F To implement the systems decommissioning/disposal plan Product closeout\n Closeout developed in Phase E and perform analyses of the returned\n data and any returned samples.\n\n\n\nprocesses (steps 1 through 9) in each project phase. and closes out (Phase F), the technical work shifts\nThe SE engine cycles five times from Pre-Phase A to activities commensurate with these last two proj-\nthrough Phase D. Note that NASA’s management ect phases. The next major horizontal band shows\nhas structured Phases C and D to “split” the tech- the eight technical management processes (steps 10\nnical development processes in half in Phases C and through 17) in each project phase. The SE engine\nD to ensure closer management control. The engine cycles the technical management processes seven\nis bound by a dashed line in Phases C and D. Once times from Pre-Phase A through Phase F.\na project enters into its operational state (Phase E)\n\n\n\n\n\n\n 9",
+          "score": 2.6601119556708905,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0276",
+          "page": 276,
+          "text": " References Cited\n\n\n\n\n\nNASA/SP-2011-3421, Probabilistic Risk Assessment NPR 1600.1, NASA Security Program Procedural\n Procedures Guide for NASA Managers and Requirements\n Practitioners\n NID 1600.55, Sensitive But Unclassified (SBU)\nNASA/SP-2011-3422, NASA Risk Management Controlled Information\n Handbook\n NPR 7120.5, NASA Space Flight Program and\nCode of Federal Regulations (CFR) Title 22 – Project Management Requirements\n Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations NPR 7123.1, NASA Systems Engineering Processes\n (ITAR) (22 CFR 120-130). Implements 22 and Requirements\n U.S.C. 2778 of the Arms Export Control Act\n (AECA) of 1976 and Executive Order 13637, NASA Form (NF) 1686, NASA Scientific and\n “Administration of Reformed Export Controls,” Technical Document Availability Authorization\n March 8, 2013 (DAA) for Administratively Controlled\n Information.\nSection 6.5 Configuration Management\nNPR 7120.5, NASA Space Flight Program and Code of Federal Regulations (CFR) Title 22 –\n Project Management Requirements Foreign Relations, Parts 120-130 Department of\n State: International Traffic in Arms Regulations\nNASA. Columbia Accident Investigation Board (ITAR) (22 CFR 120-130). Implements 22\n (CAIB) Report, 6 volumes: Aug. 26, Oct. 2003. U.S.C. 2778 of the Arms Export Control Act\n http://www.nasa.gov/columbia/caib/html/report.html (AECA) of 1976 and Executive Order 13637,\n “Administration of Reformed Export Controls,”\nNASA. NOAA N-Prime Mishap Investigation Final March 8, 2013\n Report, Sept. 13, 2004 http://www.nasa.gov/pdf/\n 65776main_noaa_np_mishap.pdf The Invention Secrecy Act of 1951, 35 U.S.C.\n §181–§188. Secrecy of Certain Inventions and\nSAE International (SAE)/Electronic Industries Filing Applications in Foreign Country; §181 –\n Alliance (EIA) 649B-2011, Configuration Secrecy of Certain Inventions and Withholding\n Management Standard (Aerospace Sector) April 1, of Patent.\n 2011\n Code of Federal Regulations (CFR) Title 37 –\nAmerican National Standards Institute (ANSI)/ Patents, Trademarks, and Copyrights; Part 5\n Electronic Industries Alliance (EIA). ANSI/ Secrecy of Certain Inventions and Licenses\n EIA-649, National Consensus Standard for to Export and File Applications in Foreign\n Configuration Management, 1998–1999 Countries; Part 5.2 Secrecy Order. (37 CFR 5.2)\n\nSection 6.6 Technical Data Management Section 6.7 Technical Assessment\nNPR 1441.1, NASA Records Retention Schedules NPR 1080.1, Requirements for the Conduct of\n NASA Research and Technology (R&T)\n\n\n\n 266",
+          "score": 2.6002672830241123,
+          "reference_match": 0,
+          "heading_match": false
+        },
+        {
+          "id": "NASA-SE:p0014",
+          "page": 14,
+          "text": " 2.0 Fundamentals of Systems Engineering\n\n\n\n\n\ntechnical manager, chief engineer—but for this doc- In summary, the systems engineer is skilled in the\nument, the term “systems engineer” is used. art and science of balancing organizational, cost,\n and technical interactions in complex systems. The\nThe exact role and responsibility of the systems engi- systems engineer and supporting organization are\nneer may change from project to project depending on vital to supporting program and Project Planning\nthe size and complexity of the project and from phase and Control (PP&C) with accurate and timely cost\nto phase of the life cycle. For large projects, there may and schedule information for the technical activities.\nbe one or more systems engineers. For small projects, Systems engineering is about tradeoffs and compro-\nthe project manager may sometimes perform these mises; it uses a broad crosscutting view of the system\npractices. But whoever assumes those responsibil- rather than a single discipline view. Systems engineer-\nities, the systems engineering functions should be ing is about looking at the “big picture” and not only\nperformed. The actual assignment of the roles and ensuring that they get the design right (meet require-\nresponsibilities of the named systems engineer may ments) but that they also get the right design (enable\nalso therefore vary. The lead systems engineer ensures operational goals and meet stakeholder expectations).\nthat the system technically fulfills the defined needs\nand requirements and that a proper systems engineer- Systems engineering plays a key role in the project\ning approach is being followed. The systems engineer organization. Managing a project consists of three\noversees the project’s systems engineering activities as main objectives: managing the technical aspects of\nperformed by the technical team and directs, com- the project, managing the project team, and manag-\nmunicates, monitors, and coordinates tasks. The ing the cost and schedule. As shown in FIGURE 2.0-1,\nsystems engineer reviews and evaluates the technical these three functions are interrelated. Systems engi-\naspects of the project to ensure that the systems/sub- neering is focused on the technical characteristics\nsystems engineering processes are functioning prop- of decisions including technical, cost, and schedule\nerly and evolves the system from concept to product. and on providing these to the project manager. The\nThe entire technical team is involved in the systems Project Planning and Control (PP&C) function is\nengineering process. responsible for identifying and controlling the cost\n and schedules of the project. The project manager has\nThe systems engineer usually plays the key role in overall responsibility for managing the project team\nleading the development of the concept of opera- and ensuring that the project delivers a technically\ntions (ConOps) and resulting system architec- correct system within cost and schedule. Note that\nture, defining boundaries, defining and allocating there are areas where the two cornerstones of project\nrequirements, evaluating design tradeoffs, balanc- management, SE and PP&C, overlap. In these areas,\ning technical risk between systems, defining and SE provides the technical aspects or inputs whereas\nassessing interfaces, and providing oversight of ver- PP&C provides the programmatic, cost, and sched-\nification and validation activities, as well as many ule inputs.\nother tasks. The systems engineer typically leads the\ntechnical planning effort and has the prime respon- This document focuses on the SE side of the dia-\nsibility in documenting many of the technical plans, gram. The practices/processes are taken from NPR\nrequirements and specification documents, verifica- 7123.1, NASA Systems Engineering Processes\ntion and validation documents, certification pack- and Requirements. Each process is described in\nages, and other technical documentation. much greater detail in subsequent chapters of this\n\n\n\n 4",
+          "score": 2.525914633821499,
+          "reference_match": 0,
+          "heading_match": false
+        }
+      ]
+    },
+    {
+      "tool": "source_verification",
+      "sources": [
+        {
+          "source_id": "NASA-SE:p0046",
+          "page": 46,
+          "text": " 3.0 NASA Program/Project Life Cycle\n\n\n\n\n\n\n\n\n Inputs Outputs\n\n N Review/ Y\n Project Center-level Approve\n\n Needs, Goals,\n Objectives N Review/ Y\n Program Office Approve\n\n\n Engine ering/Projects Direct orate N YReview/\n Approve\n Tailoring\n Tool(s) Suggest\n PM Tail oring Finalize/\n Update\n S&MA Project Team Project-\n Review Specific\n and Refine Tailoring\n Risk CE Tailoring and Capture Appr oved\n Posture Waiver Compliance Matrix\n LSE Rationales Attached to SEMP or\n Project Plan\n Advisory\n Teams as\n Necessary\n\n\n FIGURE 3.11-1 Notional Space Flight Products Tailoring Process\n\n\nThe Compliance Matrix provides rationales for each 3. Scaling the requirement in a manner that bet-\nof the NPR requirements to assist in understanding. ter balances the cost of implementation and the\nOnce the tailoring is finalized and recorded in the project risk.\nCompliance Matrix with appropriate rationales, the\nrequested tailoring proceeds through the appropriate Customizing SE practices can include the following:\ngovernance model for approval.\n 1. Adjusting the way each of the 17 SE processes is\n3.11.4 Ways to Tailor a SE implemented.\n Requirement\nTailoring often comes in three areas: 2. Adjusting the formality and timing of reviews.\n\n\n1. Eliminating a requirement that does not apply to 3.11.4.1 Non-Applicable NPR Requirements\n the specific program/project. Each requirement in NPR 7123.1 is assessed for\n applicability to the individual project or program.\n2. Eliminating a requirement that is overly bur- For example, if the project is to be developed com-\n densome (i.e., when the cost of implementing pletely in-house, the requirements of the NPR’s\n the requirement adds more risk to the project by Chapter 4 on contracts would not be applicable. If\n diverting resources than the risk of not comply- a system does not contain software, then none of the\n ing with the requirement). NPR requirements for developing and maintaining\n software would be applicable.\n\n\n\n\n\n 36",
+          "image_sha256": "8080b78b712a72cf1ece62015253c04c56c17be7c456851a8cb57448d84a1df8"
+        },
+        {
+          "source_id": "NASA-SE:p0207",
+          "page": 207,
+          "text": "Appendix C: How to Write a Good Requirement—\n Checklist\n\n\n\nC.1 Use of Correct Terms not the solution. Ask, “Why do you need the\n requirement?” The answer may point to the real\n Shall = requirement requirement.)\n\n Will = facts or declaration of purpose  Free of descriptions of operations? (Is this a need\n the product should satisfy or an activity involv-\n Should = goal ing the product? Sentences like “The operator\n shall…” are almost always operational statements\nC.2 Editorial Checklist not requirements.)\n\nPersonnel Requirement Example Product Requirements\n The requirement is in the form “responsible party  The system shall operate at a power level of…\n shall perform such and such.” In other words, use\n the active, rather than the passive voice. A require-  The software shall acquire data from the…\n ment should state who shall (do, perform, provide,\n weigh, or other verb) followed by a description of  The structure shall withstand loads of…\n what should be performed.\n  The hardware shall have a mass of…\nProduct Requirement\n The requirement is in the form “product ABC shall C.3 General Goodness Checklist\n XYZ.” A requirement should state “The product\n shall” (do, perform, provide, weigh, or other verb)  The requirement is grammatically correct.\n followed by a description of what should be done.\n  The requirement is free of typos, misspellings,\n The requirement uses consistent terminology to and punctuation errors.\n refer to the product and its lower-level entities.\n  The requirement complies with the project’s tem-\n Complete with tolerances for qualitative/perfor- plate and style rules.\n mance values (e.g., less than, greater than or equal\n to, plus or minus, 3 sigma root sum squares).  The requirement is stated positively (as opposed to\n negatively, i.e., “shall not”).\n Is the requirement free of implementation?\n (Requirements should state WHAT is needed,  The use of “To Be Determined” (TBD) values\n NOT HOW to provide it; i.e., state the problem should be minimized. It is better to use a best\n\n\n\n 197",
+          "image_sha256": "eeca2659ecaf32a760c5314c6d43a957d950cd335510f6c0b3d32e3297ccfe35"
+        },
+        {
+          "source_id": "NASA-SE:p0273",
+          "page": 273,
+          "text": " References Cited\n\n\n\n\n\nSection 3.10 Funding: The Budget Cycle Presidential Policy Directive PPD-4 (2010),\nNASA’s Financial Management Requirements (FMR) National Space Policy\n Volume 4\n Presidential Policy Directive PPD-21 (2013), Critical\nSection 3.11 Tailoring and Customization Infrastructure Security and Resilience\nof NPR 7123.1 Requirements\nNPD 1001.0, 2014 NASA Strategic Plan Ball, Robert E. (Naval Postgraduate School), The\n Fundamentals of Aircraft Combat Survivability\nNPR 7120.5, NASA Space Flight Program and Analysis and Design, 2nd Edition, AIAA\n Project Management Requirements Education Series, 2003\n\nNPR 7120.7, NASA Information Technology and Larson (Wiley J.), Kirkpatrick, Sellers, Thomas,\n Institutional Infrastructure Program and Project and Verma. Applied Space Systems Engineering:\n Management Requirements A Practical Approach to Achieving Technical\n Baselines. 2nd Edition, Boston, MA: McGraw-\nNPR 7120.8, NASA Research and Technology Hill Learning Solutions, CEI Publications,\n Program and Project Management 2009.\n Requirements\n Section 4.2 Technical Requirements\nNPR 7123.1, NASA Systems Engineering Processes Definition\n and Requirements NPR 7120.10, Technical Standards for NASA\n Programs and Projects\nNPR 7150.2, NASA Software Engineering\n Requirements NPR 8705.2, Human-Rating Requirements for\n Space Systems\nNPR 8705.4, Risk Classification for NASA Payloads\n NPR 8715.3, NASA General Safety Program\nNASA-HDBK-2203, NASA Software Engineering Requirements\n Handbook (February 28, 2013)\n NASA-STD-3001, NASA Space Flight Human\nNASA Engineering Network (NEN) Systems System Standard – 2 volumes\n Engineering Community of Practice (SECoP),\n located at https://nen.nasa.gov/web/se NASA-STD-8719.13, Software Safety Standard, Rev\n C. Washington, DC, May 7, 2013.\nSection 4.1 Stakeholder Expectations\nDefinition NA SA /SP-2010 -3407, Human Integration Design\nNPR 7120.5, NASA Space Flight Program and Handbook (HIDH)\n Project Management Requirements\n\nNASA Science Mission Directorate strategic plans\n\n\n\n\n\n 263",
+          "image_sha256": "a3204bc5d0e59dc520e1d26a407d1dc8998be15a36ae2b7f7d926ea0ebd048b4"
+        }
+      ],
+      "result": {
+        "status": "abstain",
+        "claims": []
+      }
+    }
+  ],
+  "viewed_pages": [
+    46,
+    207,
+    273
+  ],
+  "draft_answer": {
+    "status": "abstain",
+    "claims": []
+  },
+  "status": "abstain",
+  "claims": [],
+  "elapsed_ms": 39212.87
+}
