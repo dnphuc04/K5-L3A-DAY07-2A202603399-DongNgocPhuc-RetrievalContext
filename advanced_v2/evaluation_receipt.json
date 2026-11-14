@@ -164,6 +164,13 @@
     "advanced_v2/submission_check.json": "29aa822c9fa493e07b5f4aa2b7f12fd9cc979926e7bb2ea8d34ab7a598d14bfa",
     "advanced_v2/test_contract.py": "53a323029130468366390e362bc187f7e9f9bfad64614cf031c904a01afe8c97",
     "advanced_v2/validation.json": "b312823de9159e62db7c4c926c242a302d6685ecb8a5ae25c25de0962f742b5a",
-    "ADVANCED_V2.md": "172444b7d4226092f97b02664ddffee924718535c14c650ce7dd71a1002b434e"
+    "ADVANCED_V2.md": "8061711be07a12b0cdfc4dac22dfe2969b07d65de65e047174113dfd700cb761"
+  },
+  "documentation_amendment": {
+    "recorded_at": "2026-11-14T16:30:01.268482+00:00",
+    "scope": "Only current navigation/status document ADVANCED_V2.md changed after the test. Predictor, selected freeze, benchmark, raw outputs, labels and scores remain unchanged.",
+    "previous_receipt_snapshot": "artifacts/historical_docs/advanced_v2_evaluation_receipt_before_docs.json.snapshot",
+    "previous_receipt_sha256": "a26104259f8d03ab4bd67a4f702d85c20ad2fc72de34b84c50b59987eb5dfb14",
+    "previous_document_snapshot": "artifacts/historical_docs/ADVANCED_V2.md.snapshot"
   }
 }

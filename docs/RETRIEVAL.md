@@ -1,5 +1,7 @@
 # Retrieval Day 7
 
+> **Phạm vi thời điểm:** Tài liệu này ghi giai đoạn retrieval-only trên dev. Agent và test đã hoàn tất; xem [kết quả test](TEST_RESULTS.md) và [bản nộp cuối](../SUBMISSION_FINAL.md). Các câu “chưa chạy test/chưa chọn agent” bên dưới mô tả thời điểm thí nghiệm retrieval, không phải trạng thái hiện tại.
+
 ## Implementation
 
 `src/retrieval.py` implements a shared `search(query, filters=None, top_k=3)` interface. All methods use the same 65 chunks of Day 6 strategy C and the same explicit chapter filters from frozen dev inputs. Original queries are used unchanged; no gold-derived filters, expansion or rewriting.
@@ -47,4 +49,4 @@ These are retrieval scores on a small, same-document dev set, not agent answer s
 
 Single sequential run with dense before hybrid and a shared query cache. Do not claim hybrid is intrinsically faster from these latencies; it can reuse vectors created/loaded earlier. BM25 has no model API calls, but CPU time is still recorded. Report actual token/request counters; leave monetary cost unknown until billing or a documented pricing calculation is available.
 
-No agent model calls, generated answers, citation support or abstention scores are included. The test benchmark remains frozen and has not been evaluated.
+No agent model calls, generated answers, citation support or abstention scores are included. This retrieval-only run preceded agent/test evaluation; the frozen test was subsequently evaluated with the selected pipeline (see TEST_RESULTS.md).

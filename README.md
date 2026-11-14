@@ -2,11 +2,15 @@
 
 **K5-L3A · Mã học viên 2A202603399.** Agent phần cơ bản dùng model thật để gọi Dense/BM25/Hybrid trên cùng dữ liệu Day 6, trả lời có citation hoặc từ chối khi thiếu evidence. Đã chọn BM25 trên dev, sau đó đánh giá Dense/BM25 trên test; không tuning theo test.
 
-**Phần nâng cao:** dùng NASA Systems Engineering Handbook Rev.2 **297 trang**, index/render toàn bộ tài liệu; pipeline tìm kiếm và vision, benchmark riêng 18 dev/30 test. Kết quả **17/18 dev, 23/30 test (76,666…%)**, chưa đạt 90%, **chưa đủ điều kiện 15 điểm bonus**. Xem [code, báo cáo, bằng chứng và cách chạy nâng cao](advanced/README.md). Phần cơ bản giữ nguyên predictor và kết quả đã chạy.
+**Phần nâng cao — kết quả hiện hành:** NASA Systems Engineering Handbook Rev.2 **297 trang**, index/render toàn bộ. Vòng 2 dùng 30 câu dev từ lỗi cũ và **bộ test mới độc lập 30 câu**, chốt trước thử nghiệm. Pipeline GPT-5.2 đạt **29/30 dev và 29/30 test (96,67%)**, 0 lỗi hệ thống, vượt ngưỡng 90% của thử thách. [Báo cáo, code và bằng chứng vòng 2](advanced_v2/README.md). Kết quả vòng 1 **23/30** được giữ nguyên trong [hồ sơ lịch sử](advanced/README.md), không thay thế hoặc đánh giá lại trên test cũ.
 
 **Phạm vi chia sẻ:** người dùng đã cho phép nộp đầy đủ bằng chứng, được ghi tại [submission_permission.json](submission_permission.json). Bộ nộp gồm benchmark/gold, trace/nhãn, cấu hình, báo cáo và gói Day 6 đã kiểm tra không có credential. `.env`, API key, private key, `.git` và thư mục scratch vẫn bị loại. Xem [rà soát quyền riêng tư](docs/PRIVACY_REVIEW.md).
 
 ## Bài nộp và kết quả
+
+- **[Bản nộp cuối](SUBMISSION_FINAL.md)** · [Demo cơ bản: chunking và rank](demo.html) · [Hướng dẫn demo](docs/DEMO.md).
+- **[Nâng cao hiện hành: 29/30](advanced_v2/README.md)** · [Kiểm tra toàn repo](docs/REPO_AUDIT.md).
+- Kiểm tra hồ sơ offline: `python scripts/check_final_submission.py` (không gọi API).
 
 - [Báo cáo cá nhân](report/individual/2A202603399_DongNgocPhuc.md).
 - [So sánh dev](docs/DEV_SELECTION.md), [kết quả test](docs/TEST_RESULTS.md), [checklist nộp bài](docs/SUBMISSION_CHECKLIST.md).
@@ -108,7 +112,10 @@ Grader ghi file summary nên ví dụ trên chạy trên **bản sao**, giữ ng
 | `results/agent_dev_dense_wide/`, `results/agent_dev_dense_wide_quotes/` | Hai cải thiện và kết quả không thắng |
 | `results/agent_test_v1/` | 14 trace/nhãn, summary và receipt |
 | `results/retrieval_dev_v3/` | Retrieval dev hoàn chỉnh |
+| `advanced/` | Bằng chứng nâng cao vòng 1, test cũ 23/30 được giữ nguyên |
+| `advanced_v2/` | Pipeline và benchmark mới độc lập, test hiện hành 29/30 |
+| `demo.html`, `docs/DEMO.md` | Demo phần cơ bản: chunking A/B/C, leaderboard, rank và citation |
 | `artifacts/`, `report/individual/` | Audit/cost/checklist, báo cáo cá nhân |
 | `data/local/` | Corpus/cache/gói riêng, Git ignore |
 
-Trace và benchmark trích nội dung báo cáo đã được cho phép làm bằng chứng. Repo chưa tự động commit/push hoặc cấp quyền người chấm; xem checklist để hoàn tất nộp bài. Không dùng gói source-only cũ thay bộ nộp đầy đủ.
+Trace và benchmark trích nội dung báo cáo đã được cho phép làm bằng chứng. Code và bằng chứng đã push tại `5e07c95`; bản sửa tài liệu sau rà soát đang chờ duyệt commit tiếp theo. Quyền truy cập của người chấm và việc nộp link vẫn cần người nộp xác nhận. Không dùng gói source-only cũ thay bộ nộp đầy đủ.

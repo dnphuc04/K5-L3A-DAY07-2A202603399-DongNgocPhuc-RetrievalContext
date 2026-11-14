@@ -3,8 +3,9 @@
 **Đồng Ngọc Phúc · 2A202603399 · K5-L3A · 14/11/2026.**
 
 Đây là chỉ dẫn hiện hành cho toàn bộ bản nộp. Nội dung kỹ thuật và bằng chứng đã
-hoàn tất cục bộ; commit/push, quyền truy cập của người chấm và thao tác nộp link
-chưa được xác nhận.
+hoàn tất cục bộ; code/bằng chứng đã push tại `5e07c95`. Bản sửa tài liệu sau rà soát đang chờ
+duyệt commit tiếp theo; quyền truy cập của người chấm và thao tác nộp link chưa
+được xác nhận.
 
 ## Mở demo
 
@@ -41,10 +42,11 @@ Xem [hướng dẫn trình bày](docs/DEMO.md). Demo nâng cao được giữ ri
 - PDF NASA/ảnh render không nằm trong ZIP; tải lại từ URL và đối chiếu hash theo
   hướng dẫn. Một số ảnh có credit bên thứ ba; không phân phối lại nguyên tài liệu.
 
-**Lưu ý hồ sơ lịch sử:** README gốc, báo cáo cá nhân vòng đầu, checklist cơ bản
-và thư mục `advanced/` chứa thông tin tại thời điểm vòng 1 (23/30). Các file được
-giữ byte để kiểm chứng receipt lịch sử. Dùng file này và `advanced_v2/README.md`
-để đọc trạng thái cuối; không hiểu thông tin vòng 1 là kết quả mới nhất.
+**Lưu ý hồ sơ lịch sử:** thư mục `advanced/` giữ nguyên vòng 1 (23/30). Các bản
+README, báo cáo và checklist gốc đã chuyển vào snapshot theo
+`artifacts/historical_document_map.json` để kiểm chứng receipt lịch sử. README và
+báo cáo hiện hành được cập nhật kết quả vòng 2. Kiểm tra cả hai bằng
+`python scripts/check_final_submission.py`; không thay đổi receipt hoặc điểm cũ.
 
 ## Kiểm tra và bàn giao
 

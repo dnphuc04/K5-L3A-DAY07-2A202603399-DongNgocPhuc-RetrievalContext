@@ -4,4 +4,10 @@
 
 Xem [báo cáo, checklist và cách chạy vòng 2](advanced_v2/README.md), [kết quả từng nhóm](advanced_v2/results/test_reasoned/graded_summary.json), [nhãn/lý do từng câu và citation](advanced_v2/results/test_reasoned/reviews.json).
 
-`README.md`, báo cáo cá nhân vòng đầu và `advanced/` được giữ byte gốc để kiểm chứng receipt lịch sử. Kết quả hiện hành và báo cáo bổ sung nằm trong `advanced_v2/`; không thay điểm cũ bằng điểm mới trên cùng bộ câu hỏi. Chưa commit/push các thay đổi của vòng này.
+README, checklist và báo cáo cá nhân hiện hành đã được cập nhật kết quả vòng 2.
+Các phiên bản tài liệu vòng đầu được giữ nguyên byte trong snapshot theo
+`artifacts/historical_document_map.json`; `advanced/` và test cũ vẫn giữ nguyên.
+Kiểm tra toàn bộ bằng `python scripts/check_final_submission.py`.
+
+Code và bằng chứng đã push tại commit `5e07c95`. Bản sửa tài liệu sau rà soát toàn
+repo đang chờ người dùng duyệt commit tiếp theo; không thay pipeline hoặc test.

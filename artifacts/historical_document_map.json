@@ -1,0 +1,17 @@
+{
+  "scope": "Original documents referenced by advanced/evaluation_receipt.json; current documentation may evolve without changing original receipts or test evidence.",
+  "documents": {
+    "README.md": {
+      "snapshot": "artifacts/historical_docs/README.md.snapshot",
+      "sha256": "979f9e3ef8fa221f2cb0df4457db92ec23d005b0ac1dcc87b233b283ed1b928b"
+    },
+    "docs/SUBMISSION_CHECKLIST.md": {
+      "snapshot": "artifacts/historical_docs/docs__SUBMISSION_CHECKLIST.md.snapshot",
+      "sha256": "5545692ffdcf5d1ece8ea79e2e351d187813e2b7dec363a57baf2d1f970d0d2b"
+    },
+    "report/individual/2A202603399_DongNgocPhuc.md": {
+      "snapshot": "artifacts/historical_docs/report__individual__2A202603399_DongNgocPhuc.md.snapshot",
+      "sha256": "aabc47e479fe9cc338988cddf1b467ceb0317e72d35b994ddc68181ca4623a08"
+    }
+  }
+}

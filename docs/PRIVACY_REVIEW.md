@@ -6,6 +6,7 @@ Ngày 14/11/2026, người dùng đã cho phép nộp đầy đủ các file là
 
 - `src/`, `scripts/`, `tests/`, dependency và hướng dẫn chạy.
 - `benchmarks/`, `configs/`, `results/`, `artifacts/`, tài liệu `docs/` và báo cáo cá nhân.
+- `advanced/`, `advanced_v2/`, demo HTML và code tạo demo. PDF/ảnh render NASA giữ local; bộ nộp cung cấp URL/hash/code tái tạo.
 - `data/submission/day6_handoff.zip`: gói dữ liệu đã kiểm tra, chứa PDF/65 chunk/vector/cache và manifest hash; không có credential. Bản gốc local giữ nguyên.
 - `.env.example` chỉ có placeholder. Không cần API key của tác giả để kiểm tra trace/nhãn; người chạy API dùng key riêng.
 
@@ -23,14 +24,14 @@ Quét không phát hiện mẫu/credential đã biết không chứng minh khôn
 
 ## Lịch sử Git
 
-Nhánh main/remote-tracking refs và index được kiểm tra tách khỏi snapshots. `refs/codex/...` cục bộ có evidence riêng; không tự xóa/viết lại các refs thuộc cơ chế snapshot của ứng dụng. Không gửi nguyên `.git`, bundle mọi ref, `push --mirror` hay refspec `refs/codex/...`; chỉ nộp các file đã xét theo manifest. Chưa tự commit/push/upload/cấp quyền người chấm.
+Nhánh main/remote-tracking refs và index được kiểm tra tách khỏi snapshots. `refs/codex/...` cục bộ có evidence riêng; không tự xóa/viết lại các refs thuộc cơ chế snapshot của ứng dụng. Không gửi nguyên `.git`, bundle mọi ref, `push --mirror` hay refspec `refs/codex/...`; chỉ nộp các file đã xét theo manifest. Commit `5e07c95` đã push code và bằng chứng lên main theo phê duyệt. Bản sửa tài liệu hiện hành chưa commit/push; chưa xác nhận quyền truy cập của người chấm hoặc nộp link.
 
 ## Chạy lại trước khi gửi
 
 ```powershell
 & $python scripts/audit_submission_privacy.py --day6-root $day6
 & $python scripts/audit_submission_privacy.py --day6-root $day6 --export-full data/local/submission_complete.zip
-& $python scripts/check_submission.py
+& $python scripts/check_final_submission.py
 ```
 
 Chọn ZIP output mới nếu đã tồn tại. Export đầy đủ yêu cầu quyền đã ghi nhận và bị chặn khi có secret hoặc file ngoài phạm vi. Bộ kết quả/code đã chốt giữ nguyên byte; thay đổi ở đây chỉ là phạm vi đóng gói/bàn giao, không thay pipeline theo test. Sau sửa file cần quét/tạo gói mới.

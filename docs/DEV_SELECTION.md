@@ -52,9 +52,9 @@ Các giả thuyết được ghi ở `configs/dev_experiments.json` trước khi
 
 **Chọn BM25 k3, budget 4000 ký tự, tối đa 2 lượt search, model/prompt gốc, không quote guard.** Theo policy đã đóng băng: BM25 và Hybrid bằng nhau về mean grounded, Context Evidence Rate, citation validity, abstention và Hit@3; BM25 thắng ở median thời gian của lần đo. Hybrid có ít chat token hơn một chút, nhưng tiền API chưa xác minh và cost nằm sau latency trong policy. Hai thử nghiệm Dense mới không thắng về chất lượng, nên không được chọn chỉ vì mới hơn.
 
-Đây là lựa chọn trên dev nhỏ, một tài liệu, câu hỏi nhiều từ gần nội dung gốc; chưa chứng minh BM25 tốt nhất trên dữ liệu khác. Điểm hoàn hảo dev có nguy cơ lạc quan do nhãn/câu hỏi đều có AI hỗ trợ. Test giữ nguyên và chưa chạy.
+Đây là lựa chọn trên dev nhỏ, một tài liệu, câu hỏi nhiều từ gần nội dung gốc; chưa chứng minh BM25 tốt nhất trên dữ liệu khác. Điểm hoàn hảo dev có nguy cơ lạc quan do nhãn/câu hỏi đều có AI hỗ trợ. Tại thời điểm quyết định, test còn được giữ kín. Sau đó test đã chạy trên đúng cấu hình chốt; xem [kết quả test](TEST_RESULTS.md).
 
-File chính thức: `configs/selected_pipeline.json`; baseline đối chiếu test sau này là Dense k3/4000 với cùng model/prompt. `configs/pipeline_freeze.json` lưu timestamp và SHA-256 cấu hình, code, trace, nhãn, bảng so sánh và benchmark freeze. `scripts/select_pipeline.py` từ chối ghi đè pipeline đã chốt. Không tuning tiếp bằng test; nếu cần đổi pipeline sau này phải ghi một quyết định/version mới và xử lý độc lập test tương ứng.
+File chính thức: `configs/selected_pipeline.json`; baseline đã dùng đối chiếu trên test là Dense k3/4000 với cùng model/prompt. `configs/pipeline_freeze.json` lưu timestamp và SHA-256 cấu hình, code, trace, nhãn, bảng so sánh và benchmark freeze. `scripts/select_pipeline.py` từ chối ghi đè pipeline đã chốt. Không tuning tiếp bằng test; nếu cần đổi pipeline sau này phải ghi một quyết định/version mới và xử lý độc lập test tương ứng.
 
 ## Hồ sơ và tái lập
 

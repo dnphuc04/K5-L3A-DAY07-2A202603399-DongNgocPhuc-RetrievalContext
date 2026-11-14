@@ -1,5 +1,7 @@
 # Kiểm kê đầu ra Day 6 cho Day 7
 
+> **Ghi chép lịch sử:** các mục lỗi kết nối và thứ tự triển khai dưới đây mô tả lần kiểm kê đầu. Kết nối/adapter/benchmark/agent/test sau đó đã hoàn tất; trạng thái cuối ở [bản nộp](../SUBMISSION_FINAL.md) và [audit đã kết nối](../artifacts/day6_audit.json).
+
 Ngày kiểm tra: 2026-11-14. Kết quả máy đọc được: `artifacts/day6_audit.json`.
 
 ## Có thể dùng lại

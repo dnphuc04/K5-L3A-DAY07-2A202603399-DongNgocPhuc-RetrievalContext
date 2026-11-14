@@ -19,15 +19,20 @@
 - [x] **Kiểm thử code/hash:** suite unittest, validation benchmark, pipeline freeze và test receipt; không gọi API benchmark lại chỉ để kiểm tra hồ sơ.
 - [x] **Giữ byte khi clone:** `.gitattributes` tắt newline conversion vì hồ sơ có cả LF/CRLF và hash theo byte gốc; không renormalize run đã chốt.
 
-## Việc còn cần trước khi nộp thật
+## Phần nâng cao và trạng thái bàn giao hiện hành
 
-Phần nâng cao có [checklist riêng](../advanced/README.md): tài liệu 297 trang, benchmark và kết quả đầy đủ đã có; test 23/30, **chưa đạt ngưỡng 90%, không nhận đủ điều kiện bonus**. Không gộp trạng thái này vào các dấu hoàn thành kỹ thuật phần cơ bản.
+- [x] Tài liệu NASA 297 trang; index và render toàn bộ.
+- [x] Dùng lỗi cũ làm dev, chốt test mới độc lập trước thử nghiệm; pipeline chọn trên dev.
+- [x] Test mới **29/30 = 96,67%**, 0 lỗi hệ thống; có nhãn/citation/time/cost theo từng câu.
+- [x] Test cũ 23/30 và toàn bộ evidence giữ nguyên. [Báo cáo hiện hành](../advanced_v2/README.md).
+- [x] Quyền chia sẻ đầy đủ bằng chứng được ghi tại `submission_permission.json`.
+- [x] Gói Day 6 và demo cơ bản có trong bản nộp; credential/cache/scratch bị loại.
+- [x] Code và bằng chứng đã push lên `main` tại commit `5e07c95`.
+- [ ] Bản sửa tài liệu sau rà soát toàn repo cần được duyệt trước commit/push tiếp theo.
+- [ ] Người nộp xác nhận người chấm xem được repo và nộp link đúng kênh/hạn.
+- [ ] Tác giả đọc đối chiếu nội dung trước khi ký/nộp.
 
-- [x] Người dùng đã cho phép nộp đầy đủ PDF và bằng chứng ngày 14/11/2026; ghi nhận ở `submission_permission.json`.
-- [x] Đưa gói dữ liệu đã quét vào `data/submission/day6_handoff.zip` và mở các file evidence cho Git/bộ nộp đầy đủ. Không có credential trong gói.
-- [ ] Bàn giao bộ nộp hoặc cấp quyền người chấm; chưa kiểm chứng truy cập từ tài khoản khác.
-- [ ] Commit/push code và bằng chứng được phép lên repo cá nhân; hiện có nhiều file mới/chưa commit. Không dùng `git add -f data/local`; gói được phép nằm trong `data/submission/`.
-- [ ] Kiểm tra tài khoản giảng viên xem được repo và dữ liệu riêng; nộp link đúng kênh/hạn của lớp. Chưa tự push, mời người khác hoặc gửi link thay người dùng.
-- [ ] Tác giả đọc đối chiếu lại nhãn, evidence và số liệu trước khi ký/nộp.
-
-Các mục quyền truy cập/nộp thật không thể được xác nhận chỉ từ filesystem. Không đánh dấu hoàn thành giả để kết luận bài đã nộp. Không làm bonus nâng cao; PDF 84 trang và benchmark cơ bản không đáp ứng thử thách 100 trang.
+[Bản nộp cuối](../SUBMISSION_FINAL.md) là chỉ dẫn hiện hành. Các mục quyền truy cập
+và nộp thật không thể xác nhận chỉ từ filesystem. Kết quả đối chiếu rubric không
+phải điểm giảng viên đã trao. Phần cơ bản dùng báo cáo 84 trang; yêu cầu nâng cao
+trên 100 trang được đáp ứng riêng bằng tài liệu NASA 297 trang.

@@ -1,5 +1,7 @@
 # Nội dung bản nộp chờ duyệt trước commit
 
+> **Phạm vi thời điểm:** Hồ sơ duyệt của commit 5e07c95 đã được commit/push. Các câu “chưa commit/push” dưới đây ghi trạng thái trước khi duyệt; xem [rà soát hiện hành](REPO_AUDIT.md) cho bản sửa tiếp theo.
+
 **Chưa stage, commit hoặc push.** Mốc so sánh: `c0a294c42af6ae798ac97e242f0a539206a159b3`.
 
 ## Nội dung thay đổi

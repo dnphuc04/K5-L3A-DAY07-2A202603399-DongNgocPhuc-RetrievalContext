@@ -1,5 +1,7 @@
 # Đọc trace agent dev - lần chạy đầu
 
+> **Phạm vi thời điểm:** Đây là ghi chép lỗi ở lần agent dev ban đầu. Việc chọn/freeze và đánh giá test sau đó đã hoàn tất; xem [lựa chọn cuối](DEV_SELECTION.md), [test](TEST_RESULTS.md) và [bản nộp cuối](../SUBMISSION_FINAL.md).
+
 Ghi chú cập nhật: đây là bản rà soát ban đầu. Việc chấm đầy đủ và hai vòng thử cải thiện đã hoàn tất; kết quả cuối cùng và pipeline được chốt nằm trong `docs/DEV_SELECTION.md`, nhãn chính thức ở `reviews.json` của từng run.
 
 Phạm vi: `results/agent_dev_v1`, không chạy test. Cùng model/prompt/giới hạn cho Dense, BM25, Hybrid; 17 câu mỗi cấu hình. Việc rà soát đối chiếu từng câu trả lời và citation với nguồn, kèm lý do cho mỗi nhãn.

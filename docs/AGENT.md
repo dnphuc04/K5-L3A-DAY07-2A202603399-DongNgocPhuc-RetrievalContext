@@ -16,7 +16,7 @@ Smoke test thật đã phát hiện provider có thể trả `finish_reason=stop
 
 `scripts/run_agent_dev.py` chỉ đọc `dev.inputs.json`; không load gold. Test chỉ được kiểm tra hash để bảo toàn freeze, không gửi tới model hoặc chạy truy xuất. `src/runtime.py` đối chiếu snapshot và dữ liệu DB trước khi chạy; tái sử dụng query embedding cache trong Day 7.
 
-Trace từng câu gồm tool call/arguments, query gốc và viết lại, kết quả/ranking/score, context cuối, nội dung request model (không có header/key), phản hồi, answer/citations, số lượt gọi, latency, token usage và lỗi. Model request có chứa context báo cáo nên trace chỉ dùng local cho đến khi xác minh quyền chia sẻ. Gold và kết quả chấm nằm ngoài runner.
+Trace từng câu gồm tool call/arguments, query gốc và viết lại, kết quả/ranking/score, context cuối, nội dung request model (không có header/key), phản hồi, answer/citations, số lượt gọi, latency, token usage và lỗi. Model request có chứa context báo cáo; quyền chia sẻ bằng chứng đã được ghi tại `submission_permission.json`, credential luôn bị loại. Gold và kết quả chấm nằm ngoài runner.
 
 Runner ghi từng câu bằng file tạm rồi replace; không ghi đè thư mục run cũ. Dừng sớm nếu gặp lỗi provider để tránh lặp nhiều request không có ích. Summary ban đầu chỉ là thống kê vận hành; không tự suy điểm grounding/citation/abstention từ status hoặc citation ID.
 
@@ -28,7 +28,7 @@ Dùng venv Day 6 hoặc cài `requirements.txt`. Model dùng API key có sẵn �
 # Smoke trên một câu dev
 & '..\K5-L3A-DAY06-DongNgocPhuc-2A202603399-DataIngestionEngineering\starter\.venv\Scripts\python.exe' scripts/run_agent_dev.py --day6-root '..\K5-L3A-DAY06-DongNgocPhuc-2A202603399-DataIngestionEngineering' --output results/agent_smoke_new --methods bm25 --ids q01
 
-# Toàn bộ dev, 3 cấu hình retriever, chưa chạy test
+# Lệnh này chỉ chạy dev với 3 retriever; test dùng runner riêng
 & '..\K5-L3A-DAY06-DongNgocPhuc-2A202603399-DataIngestionEngineering\starter\.venv\Scripts\python.exe' scripts/run_agent_dev.py --day6-root '..\K5-L3A-DAY06-DongNgocPhuc-2A202603399-DataIngestionEngineering' --output results/agent_dev_new
 ```
 
@@ -36,7 +36,7 @@ CLI không cung cấp tùy chọn test. Các lệnh thật gửi câu hỏi/cont
 
 ## Trạng thái sau vòng cải thiện dev
 
-Đã chấm đầy đủ 85 kết quả của 5 cấu hình và chốt BM25 theo `configs/selected_pipeline.json`. Chi tiết điểm, lỗi, hai thử nghiệm không thắng và giới hạn nằm trong `docs/DEV_SELECTION.md`. Quote mode (`--require-quotes`) bổ sung quote nguyên văn cho từng claim và kiểm tra quote thuộc đúng chunk; schema/prompt/output cap thay đổi được ghi trong run config. Đây là tùy chọn thí nghiệm, không bật trong pipeline được chọn. Bộ test chưa chạy.
+Đã chấm đầy đủ 85 kết quả của 5 cấu hình và chốt BM25 theo `configs/selected_pipeline.json`. Chi tiết điểm, lỗi, hai thử nghiệm không thắng và giới hạn nằm trong `docs/DEV_SELECTION.md`. Quote mode (`--require-quotes`) bổ sung quote nguyên văn cho từng claim và kiểm tra quote thuộc đúng chunk; schema/prompt/output cap thay đổi được ghi trong run config. Đây là tùy chọn thí nghiệm, không bật trong pipeline được chọn. Test đã được chạy sau khi chốt pipeline: Dense/BM25 đều grounded 10/10, citation hỗ trợ 5/5 và từ chối đúng 2/2; xem [kết quả test](TEST_RESULTS.md).
 
 ## Tài liệu API đã đối chiếu
 
